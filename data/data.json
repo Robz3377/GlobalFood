@@ -1,0 +1,3316 @@
+{
+  "countries": [
+    {
+      "slug": "japon",
+      "name": "Japon",
+      "iso3": "JPN",
+      "isoNumeric": "392",
+      "flag": "🇯🇵",
+      "intro": "Une cuisine de précision et de saisons, où la simplicité du dashi rencontre la délicatesse du tranchant.",
+      "recipes": [
+        {
+          "slug": "ramen-shoyu",
+          "title": "Ramen Shoyu",
+          "image": "/images/ramen-shoyu-japon.jpg",
+          "prepTime": 20,
+          "cookTime": 40,
+          "servings": 2,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "chinese-new-year"
+          ],
+          "ingredients": [
+            {
+              "name": "Nouilles ramen fraîches",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Bouillon de poulet",
+              "qty": 800,
+              "unit": "ml"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 60,
+              "unit": "ml"
+            },
+            {
+              "name": "Mirin",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Œuf",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Poitrine de porc (chashu)",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon vert",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Algue nori",
+              "qty": 2,
+              "unit": "feuille"
+            }
+          ],
+          "steps": [
+            "Cuire les œufs 6 min 30, plonger dans l'eau glacée, écaler et faire mariner dans la sauce soja diluée.",
+            "Saisir la poitrine de porc, puis la mijoter 30 min dans le bouillon avec mirin et soja.",
+            "Cuire les nouilles selon les instructions, égoutter et placer dans des bols préchauffés.",
+            "Verser le bouillon chaud, disposer le porc tranché, l'œuf coupé, l'oignon vert et le nori.",
+            "Servir immédiatement, fumant."
+          ],
+          "story": "Né à Yokohama au début du XXᵉ siècle, le ramen est l'enfant d'un dialogue gourmand entre la Chine et le Japon."
+        },
+        {
+          "slug": "onigiri-saumon",
+          "title": "Onigiri au saumon",
+          "image": "/images/onigiri-au-saumon-japon.jpg",
+          "prepTime": 15,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "dairy-free",
+            "gluten-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer"
+          ],
+          "ingredients": [
+            {
+              "name": "Riz à sushi",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Saumon frais",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Vinaigre de riz",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Sel",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Algue nori",
+              "qty": 4,
+              "unit": "feuille"
+            },
+            {
+              "name": "Graines de sésame",
+              "qty": 10,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Rincer le riz jusqu'à eau claire, cuire selon le rapport eau/riz puis assaisonner au vinaigre tiédi.",
+            "Saler le saumon et le faire griller 8-10 min, puis l'effilocher à la fourchette.",
+            "Humidifier les mains, former des triangles de riz et placer une cuillère de saumon au cœur.",
+            "Refermer et entourer chaque onigiri d'une bande de nori, parsemer de sésame."
+          ]
+        },
+        {
+          "slug": "tempura-legumes",
+          "title": "Tempura de légumes",
+          "image": "/images/tempura-de-l%C3%A9gumes.jpg",
+          "prepTime": 15,
+          "cookTime": 15,
+          "servings": 4,
+          "diets": [
+            "vegetarian",
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Farine T55",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Eau glacée",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Jaune d'œuf",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Patate douce",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Courgette",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Champignons shiitake",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Huile de friture",
+              "qty": 1,
+              "unit": "L"
+            }
+          ],
+          "steps": [
+            "Détailler les légumes en tranches fines régulières.",
+            "Battre rapidement le jaune avec l'eau glacée, ajouter la farine sans trop mélanger (grumeaux OK).",
+            "Chauffer l'huile à 170 °C, tremper chaque légume dans la pâte et frire 2-3 min.",
+            "Égoutter sur papier absorbant, servir immédiatement avec sauce soja et daikon râpé."
+          ]
+        },
+        {
+          "slug": "gyoza-porc",
+          "title": "Gyoza au porc",
+          "image": "/images/gyoza-au-porc-japon.jpg",
+          "prepTime": 40,
+          "cookTime": 12,
+          "servings": 4,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "chinese-new-year"
+          ],
+          "ingredients": [
+            {
+              "name": "Pâtes à gyoza",
+              "qty": 30,
+              "unit": "u"
+            },
+            {
+              "name": "Porc haché",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Chou chinois",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 15,
+              "unit": "g"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousse"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile de sésame",
+              "qty": 10,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Hacher finement le chou, le saler, laisser dégorger 10 min puis essorer.",
+            "Mélanger porc, chou, gingembre, ail, sauce soja et huile de sésame.",
+            "Garnir chaque pâte d'une cuillère de farce, plier en demi-lune, plisser le bord.",
+            "Saisir les gyoza face plate dans une poêle huilée, ajouter 100 ml d'eau, couvrir 6 min.",
+            "Découvrir, laisser évaporer pour croustiller la base, servir avec sauce soja-vinaigre."
+          ]
+        },
+        {
+          "slug": "katsudon",
+          "title": "Katsudon",
+          "image": "/images/katsudon-japon.jpg",
+          "prepTime": 15,
+          "cookTime": 25,
+          "servings": 2,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Escalopes de porc",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Riz japonais",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Dashi",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 40,
+              "unit": "ml"
+            },
+            {
+              "name": "Mirin",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Chapelure panko",
+              "qty": 80,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Paner les escalopes (farine, œuf, panko) et les frire jusqu'à dorées.",
+            "Trancher l'oignon, le faire revenir dans le dashi, soja et mirin.",
+            "Ajouter la viande tranchée, verser les œufs battus en filet, couvrir 1 min.",
+            "Servir sur le riz chaud, parsemé d'oignon vert."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "maroc",
+      "name": "Maroc",
+      "iso3": "MAR",
+      "isoNumeric": "504",
+      "flag": "🇲🇦",
+      "intro": "Une cuisine de mijotages parfumés, où le safran, la cannelle et la coriandre racontent les routes caravanières.",
+      "recipes": [
+        {
+          "slug": "tajine-poulet-citron",
+          "title": "Tajine de poulet au citron confit",
+          "image": "/images/tajine-de-poulet-au-citron-confit-maroc.jpg",
+          "prepTime": 20,
+          "cookTime": 60,
+          "servings": 4,
+          "diets": [
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "ramadan-end"
+          ],
+          "ingredients": [
+            {
+              "name": "Cuisses de poulet",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Citron confit",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Olives vertes",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Safran",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 30,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Faire mariner le poulet avec gingembre, safran, sel et huile d'olive 30 minutes.",
+            "Saisir les cuisses dans le tajine, ajouter les oignons émincés et laisser fondre.",
+            "Verser un verre d'eau, couvrir et mijoter 45 minutes à feu doux.",
+            "Ajouter le citron confit en quartiers et les olives, poursuivre 15 minutes.",
+            "Parsemer de coriandre ciselée et servir avec du pain frais."
+          ],
+          "story": "Le citron beldi confit au sel est une signature marocaine née de la nécessité de conserver les agrumes d'hiver."
+        },
+        {
+          "slug": "couscous-legumes",
+          "title": "Couscous aux sept légumes",
+          "image": "/images/couscous-aux-sept-l%C3%A9gumes-maroc.jpg",
+          "prepTime": 25,
+          "cookTime": 75,
+          "servings": 6,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "spring"
+          ],
+          "events": [
+            "ramadan-end"
+          ],
+          "ingredients": [
+            {
+              "name": "Semoule de couscous moyenne",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Carottes",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Courgettes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Navet",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Potiron",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Pois chiches cuits",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Tomate",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ras el-hanout",
+              "qty": 10,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Préparer le bouillon : tomates concassées, oignon, ras el-hanout, eau et un filet d'huile.",
+            "Ajouter les légumes dans l'ordre des cuissons : carottes, navets, puis courgettes et potiron.",
+            "Cuire la semoule à la vapeur trois fois, en l'aérant entre chaque passage.",
+            "Servir la semoule en dôme, surmontée des légumes et de pois chiches, avec le bouillon à part."
+          ]
+        },
+        {
+          "slug": "pastilla-poulet",
+          "title": "Pastilla de poulet",
+          "image": "/images/pastilla-de-poulet-maroc.jpg",
+          "prepTime": 30,
+          "cookTime": 50,
+          "servings": 6,
+          "diets": [],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "ramadan-end"
+          ],
+          "ingredients": [
+            {
+              "name": "Feuilles de brick",
+              "qty": 12,
+              "unit": "u"
+            },
+            {
+              "name": "Poulet",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Amandes effilées",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Cannelle",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre glace",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre fondu",
+              "qty": 80,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Pocher le poulet avec oignons et épices 40 min, désosser et effilocher.",
+            "Faire revenir l'oignon dans le bouillon réduit, ajouter les œufs battus, brouiller.",
+            "Torréfier les amandes, mixer grossièrement avec un peu de sucre.",
+            "Tapisser un moule de feuilles de brick beurrées, alterner poulet, œufs, amandes.",
+            "Refermer, dorer au beurre, cuire 25 min à 200 °C, saupoudrer de cannelle et sucre glace."
+          ]
+        },
+        {
+          "slug": "harira",
+          "title": "Harira",
+          "image": "/images/harira-maroc.jpg",
+          "prepTime": 15,
+          "cookTime": 90,
+          "servings": 6,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "ramadan-end"
+          ],
+          "ingredients": [
+            {
+              "name": "Pois chiches secs",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Lentilles vertes",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Agneau en cubes",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates pelées",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Céleri",
+              "qty": 2,
+              "unit": "branche"
+            },
+            {
+              "name": "Coriandre",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Persil",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Vermicelles",
+              "qty": 80,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Faire tremper les pois chiches une nuit, les égoutter.",
+            "Saisir l'agneau, ajouter oignon, céleri, herbes hachées, épices.",
+            "Verser tomates et 2 L d'eau, ajouter pois chiches et lentilles, mijoter 1h.",
+            "Ajouter les vermicelles 10 min avant la fin.",
+            "Lier avec un mélange farine-eau, servir bien chaud avec dattes et chebakia."
+          ]
+        },
+        {
+          "slug": "briouates",
+          "title": "Briouates au miel",
+          "image": "/images/briouates-aux-miel-maroc.jpg",
+          "prepTime": 30,
+          "cookTime": 15,
+          "servings": 8,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "ramadan-end"
+          ],
+          "ingredients": [
+            {
+              "name": "Feuilles de brick",
+              "qty": 8,
+              "unit": "u"
+            },
+            {
+              "name": "Amandes en poudre",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Eau de fleur d'oranger",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Cannelle",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Miel",
+              "qty": 200,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Mélanger amandes, sucre, cannelle, fleur d'oranger et beurre fondu.",
+            "Découper les feuilles en bandes, garnir d'une cuillère de farce, plier en triangle.",
+            "Frire dans l'huile chaude jusqu'à doré.",
+            "Plonger immédiatement dans le miel chaud, égoutter et laisser refroidir."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mexique",
+      "name": "Mexique",
+      "iso3": "MEX",
+      "isoNumeric": "484",
+      "flag": "🇲🇽",
+      "intro": "Maïs, piments et cacao : la cuisine mexicaine est un héritage millénaire reconnu par l'UNESCO.",
+      "recipes": [
+        {
+          "slug": "tacos-al-pastor",
+          "title": "Tacos al pastor",
+          "image": "/images/tacos-al-pastor-mexique.jpg",
+          "prepTime": 30,
+          "cookTime": 20,
+          "servings": 4,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer"
+          ],
+          "events": [
+            "cinco-de-mayo"
+          ],
+          "ingredients": [
+            {
+              "name": "Échine de porc",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Tortillas de maïs",
+              "qty": 12,
+              "unit": "u"
+            },
+            {
+              "name": "Ananas frais",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Piment guajillo séché",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Achiote",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon rouge",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 2,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Réhydrater les piments, mixer avec achiote, vinaigre, ail et épices pour obtenir l'adobo.",
+            "Mariner le porc tranché finement au moins 4 heures, idéalement une nuit.",
+            "Griller la viande à feu vif, terminer avec quelques tranches d'ananas caramélisé.",
+            "Réchauffer les tortillas, garnir de viande, ananas, oignon ciselé et coriandre.",
+            "Arroser de jus de citron vert et déguster."
+          ],
+          "story": "Les tacos al pastor sont nés de l'arrivée d'immigrés libanais à Puebla : leur shawarma rencontre l'achiote local."
+        },
+        {
+          "slug": "guacamole-totopos",
+          "title": "Guacamole et totopos",
+          "image": "/images/guacamaole-et-topopos-mexique.jpg",
+          "prepTime": 10,
+          "cookTime": 0,
+          "servings": 4,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "events": [
+            "cinco-de-mayo"
+          ],
+          "ingredients": [
+            {
+              "name": "Avocats mûrs",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Tomate",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon rouge",
+              "qty": 0.5,
+              "unit": "u"
+            },
+            {
+              "name": "Piment jalapeño",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Tortillas de maïs",
+              "qty": 6,
+              "unit": "u"
+            },
+            {
+              "name": "Sel",
+              "qty": 3,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Couper les avocats, retirer les noyaux et écraser à la fourchette dans un molcajete.",
+            "Ajouter oignon, tomate, piment et coriandre finement hachés.",
+            "Assaisonner de jus de citron vert et de sel, mélanger délicatement.",
+            "Couper les tortillas en triangles, frire jusqu'à doré ou cuire au four 10 min à 200°C.",
+            "Servir le guacamole frais accompagné des totopos."
+          ]
+        },
+        {
+          "slug": "mole-poblano",
+          "title": "Mole poblano",
+          "image": "/images/mole-poblano-mexique.jpg",
+          "prepTime": 40,
+          "cookTime": 90,
+          "servings": 6,
+          "diets": [
+            "dairy-free",
+            "gluten-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "cinco-de-mayo"
+          ],
+          "ingredients": [
+            {
+              "name": "Cuisses de poulet",
+              "qty": 6,
+              "unit": "u"
+            },
+            {
+              "name": "Piment ancho",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Piment mulato",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Chocolat noir 70%",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Amandes",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Sésame",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Tortillas de maïs",
+              "qty": 12,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Pocher le poulet 30 min avec oignon et ail, réserver le bouillon.",
+            "Torréfier piments, amandes et sésame, réhydrater les piments dans le bouillon.",
+            "Mixer piments, tomates, oléagineux, chocolat, épices avec un peu de bouillon.",
+            "Faire revenir la sauce 15 min à feu doux, ajuster avec du bouillon.",
+            "Mijoter le poulet 30 min dans le mole, servir avec tortillas chaudes."
+          ],
+          "story": "Le mole poblano serait né au couvent de Santa Rosa au XVIIᵉ siècle, mariage improbable du chocolat précolombien et des épices européennes."
+        },
+        {
+          "slug": "enchiladas-verdes",
+          "title": "Enchiladas verdes",
+          "image": "/images/enchiladas-verde-mexique.jpg",
+          "prepTime": 25,
+          "cookTime": 30,
+          "servings": 4,
+          "diets": [
+            "gluten-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer"
+          ],
+          "ingredients": [
+            {
+              "name": "Tortillas de maïs",
+              "qty": 12,
+              "unit": "u"
+            },
+            {
+              "name": "Tomatillos",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Piment serrano",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Poulet poché",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Crème mexicaine",
+              "qty": 150,
+              "unit": "ml"
+            },
+            {
+              "name": "Oignon rouge",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Fromage frais",
+              "qty": 100,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Pocher tomatillos et serranos 5 min, mixer avec coriandre, ail et oignon.",
+            "Faire revenir la salsa verde 5 min, saler.",
+            "Tremper rapidement chaque tortilla dans la salsa, garnir de poulet, rouler.",
+            "Disposer dans un plat, napper du reste de salsa.",
+            "Couvrir de crème, fromage et oignon ciselé, servir aussitôt."
+          ]
+        },
+        {
+          "slug": "chiles-rellenos",
+          "title": "Chiles rellenos",
+          "image": "/images/chiles-rellenos-mexique.jpg",
+          "prepTime": 30,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "seasons": [
+            "summer",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Piments poblanos",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Fromage Oaxaca",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Farine",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Bouillon de poulet",
+              "qty": 200,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Griller les poblanos pour noircir la peau, peler, fendre et épépiner.",
+            "Garnir chaque piment de fromage, refermer.",
+            "Battre les blancs en neige ferme, incorporer les jaunes pour obtenir une pâte légère.",
+            "Fariner les piments, tremper dans la pâte, frire 3 min de chaque côté.",
+            "Mijoter dans une sauce tomate-oignon-bouillon 10 min, servir."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "italie",
+      "name": "Italie",
+      "iso3": "ITA",
+      "isoNumeric": "380",
+      "flag": "🇮🇹",
+      "intro": "L'art du peu : trois ingrédients parfaits suffisent à composer une cuisine de mémoire et de générosité.",
+      "recipes": [
+        {
+          "slug": "carbonara",
+          "title": "Spaghetti alla Carbonara",
+          "image": "/images/spaghetti-alla-carbonara-italie.jpg",
+          "prepTime": 10,
+          "cookTime": 15,
+          "servings": 2,
+          "diets": [],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Spaghetti",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Guanciale",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Jaunes d'œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Pecorino romano râpé",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Poivre noir",
+              "qty": 5,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Cuire les spaghetti dans une grande eau salée jusqu'à al dente.",
+            "Faire rendre le guanciale en dés à feu moyen jusqu'à obtenir un croustillant doré.",
+            "Battre les jaunes avec le pecorino et beaucoup de poivre fraîchement moulu.",
+            "Hors du feu, mélanger les pâtes égouttées, le guanciale et l'œuf-pecorino, en détendant avec un peu d'eau de cuisson.",
+            "Servir aussitôt, surmonté de pecorino et poivre supplémentaires."
+          ],
+          "story": "Pas de crème, pas d'ail. La carbonara romaine se passe de tout sauf de l'essentiel — et c'est sa fierté."
+        },
+        {
+          "slug": "pizza-margherita",
+          "title": "Pizza Margherita",
+          "image": "/images/pizza-margherita-italie.jpg",
+          "prepTime": 20,
+          "cookTime": 12,
+          "servings": 2,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "spring",
+            "summer"
+          ],
+          "events": [
+            "ferragosto"
+          ],
+          "ingredients": [
+            {
+              "name": "Farine 00",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Eau",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Levure fraîche",
+              "qty": 3,
+              "unit": "g"
+            },
+            {
+              "name": "Sel",
+              "qty": 7,
+              "unit": "g"
+            },
+            {
+              "name": "Mozzarella di bufala",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates San Marzano",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Basilic frais",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 20,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Pétrir farine, eau, levure et sel ; laisser pousser 8 heures à température ambiante.",
+            "Diviser en deux pâtons, laisser détendre 1 heure.",
+            "Étaler à la main, garnir de tomates écrasées et de mozzarella en morceaux.",
+            "Cuire au four à 280°C (ou pierre à pizza) 8 à 12 minutes jusqu'à ce que les bords gonflent et brunissent.",
+            "Sortir, parsemer de basilic frais et d'un filet d'huile d'olive."
+          ]
+        },
+        {
+          "slug": "risotto-milanese",
+          "title": "Risotto alla milanese",
+          "image": "/images/risotto-alla-milanese.jpg",
+          "prepTime": 5,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Riz arborio",
+              "qty": 320,
+              "unit": "g"
+            },
+            {
+              "name": "Bouillon de bœuf",
+              "qty": 1,
+              "unit": "L"
+            },
+            {
+              "name": "Beurre",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Échalote",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Vin blanc sec",
+              "qty": 100,
+              "unit": "ml"
+            },
+            {
+              "name": "Safran",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Parmesan râpé",
+              "qty": 80,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Suer l'échalote dans la moitié du beurre, nacrer le riz 2 min.",
+            "Déglacer au vin blanc, laisser évaporer.",
+            "Verser le bouillon louche par louche, en remuant, 18 min.",
+            "Diluer le safran dans un peu de bouillon, ajouter à mi-cuisson.",
+            "Hors feu, mantecare au reste de beurre froid et au parmesan."
+          ]
+        },
+        {
+          "slug": "osso-buco",
+          "title": "Osso buco alla milanese",
+          "image": "/images/osso-buco-alla-milanese-italie.jpg",
+          "prepTime": 15,
+          "cookTime": 120,
+          "servings": 4,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Jarret de veau",
+              "qty": 4,
+              "unit": "tranche"
+            },
+            {
+              "name": "Carotte",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Céleri",
+              "qty": 1,
+              "unit": "branche"
+            },
+            {
+              "name": "Oignon",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Vin blanc sec",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Bouillon de bœuf",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Tomates pelées",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Persil + zeste de citron + ail (gremolata)",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Fariner les jarrets, les saisir dans l'huile chaude, réserver.",
+            "Faire fondre la mirepoix (carotte, céleri, oignon) 10 min.",
+            "Remettre la viande, déglacer au vin blanc, ajouter tomates et bouillon.",
+            "Couvrir et mijoter 1h30-2h jusqu'à ce que la viande se détache.",
+            "Parsemer de gremolata avant de servir, accompagné de risotto."
+          ]
+        },
+        {
+          "slug": "tiramisu",
+          "title": "Tiramisu classique",
+          "image": "/images/tiramisu-classique-italie.jpg",
+          "prepTime": 25,
+          "cookTime": 0,
+          "servings": 6,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Mascarpone",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Sucre",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Boudoirs",
+              "qty": 30,
+              "unit": "u"
+            },
+            {
+              "name": "Café espresso fort",
+              "qty": 300,
+              "unit": "ml"
+            },
+            {
+              "name": "Cacao en poudre",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Marsala",
+              "qty": 30,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Battre les jaunes avec le sucre jusqu'à blanchiment, ajouter le mascarpone.",
+            "Monter les blancs en neige, incorporer délicatement.",
+            "Tremper rapidement chaque boudoir dans café-marsala.",
+            "Alterner couches de boudoirs et crème dans un plat.",
+            "Réfrigérer 6 h, saupoudrer de cacao avant de servir."
+          ],
+          "story": "Né en Vénétie dans les années 1960, son nom signifie « tire-moi vers le haut » — café et sucre obligent."
+        }
+      ]
+    },
+    {
+      "slug": "inde",
+      "name": "Inde",
+      "iso3": "IND",
+      "isoNumeric": "356",
+      "flag": "🇮🇳",
+      "intro": "Une mosaïque d'épices et de régions : du dhal végétarien au curry de Kerala, chaque plat raconte un territoire.",
+      "recipes": [
+        {
+          "slug": "butter-chicken",
+          "title": "Butter Chicken",
+          "image": "/images/butter-chicken-inde.jpg",
+          "prepTime": 25,
+          "cookTime": 35,
+          "servings": 4,
+          "diets": [
+            "gluten-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "diwali"
+          ],
+          "ingredients": [
+            {
+              "name": "Cuisses de poulet désossées",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt nature",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates pelées",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Crème épaisse",
+              "qty": 150,
+              "unit": "ml"
+            },
+            {
+              "name": "Garam masala",
+              "qty": 10,
+              "unit": "g"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousse"
+            }
+          ],
+          "steps": [
+            "Mariner le poulet en cubes avec yaourt, gingembre, ail et garam masala 1 heure.",
+            "Saisir le poulet à la poêle jusqu'à coloration, réserver.",
+            "Faire fondre le beurre, ajouter les tomates et mijoter 15 minutes ; mixer pour obtenir une sauce lisse.",
+            "Remettre le poulet, ajouter la crème et finir 10 minutes à feu doux.",
+            "Servir avec du riz basmati et du pain naan."
+          ],
+          "story": "Né à Delhi dans les années 1950 au restaurant Moti Mahal, ce plat utilisait les restes de tandoori transformés en sauce."
+        },
+        {
+          "slug": "dhal-lentilles",
+          "title": "Dhal aux lentilles corail",
+          "image": "/images/dhal-aux-lentilles-corail-inde.jpg",
+          "prepTime": 10,
+          "cookTime": 30,
+          "servings": 4,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "spring",
+            "autumn"
+          ],
+          "events": [
+            "diwali"
+          ],
+          "ingredients": [
+            {
+              "name": "Lentilles corail",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Lait de coco",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Oignon",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 15,
+              "unit": "g"
+            },
+            {
+              "name": "Curcuma",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Cumin",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Rincer les lentilles à l'eau froide.",
+            "Faire suer l'oignon avec le gingembre, ajouter cumin et curcuma jusqu'à parfum.",
+            "Ajouter lentilles, lait de coco et 600 ml d'eau ; mijoter 20 minutes en remuant.",
+            "Saler, ajuster avec un trait de citron vert et parsemer de coriandre."
+          ]
+        },
+        {
+          "slug": "biryani-agneau",
+          "title": "Biryani d'agneau",
+          "image": "/images/biryani-d-agneau-inde.jpg",
+          "prepTime": 30,
+          "cookTime": 80,
+          "servings": 6,
+          "diets": [
+            "gluten-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "diwali"
+          ],
+          "ingredients": [
+            {
+              "name": "Agneau en cubes",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Riz basmati",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Oignons",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Garam masala",
+              "qty": 15,
+              "unit": "g"
+            },
+            {
+              "name": "Safran",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Coriandre + menthe",
+              "qty": 1,
+              "unit": "bouquet"
+            }
+          ],
+          "steps": [
+            "Mariner l'agneau avec yaourt, ail, gingembre, épices 2 h.",
+            "Frire les oignons jusqu'à dorés croustillants, en réserver la moitié.",
+            "Saisir l'agneau, ajouter tomates, mijoter 45 min.",
+            "Cuire le riz à 70 % dans l'eau épicée, égoutter.",
+            "Étager viande et riz dans une cocotte, ajouter safran, herbes, oignons frits, cuire couvert 25 min."
+          ]
+        },
+        {
+          "slug": "samosa-legumes",
+          "title": "Samosas aux légumes",
+          "image": "/images/samosas-aux-l%C3%A9gumes-inde.jpg",
+          "prepTime": 40,
+          "cookTime": 20,
+          "servings": 6,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "diwali"
+          ],
+          "ingredients": [
+            {
+              "name": "Farine T55",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 60,
+              "unit": "ml"
+            },
+            {
+              "name": "Pommes de terre",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Petits pois",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Cumin",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Garam masala",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Citron",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Pétrir farine, huile, sel et eau, reposer 30 min.",
+            "Cuire les pommes de terre, écraser grossièrement avec petits pois, épices, citron.",
+            "Étaler la pâte fine, découper en demi-cercles, garnir et plier en cône.",
+            "Frire à 170 °C jusqu'à doré, servir avec chutney à la menthe."
+          ]
+        },
+        {
+          "slug": "chai-masala",
+          "title": "Chai masala",
+          "image": "/images/chai-masala-inde.jpg",
+          "prepTime": 5,
+          "cookTime": 10,
+          "servings": 2,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Lait entier",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Eau",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Thé noir Assam",
+              "qty": 10,
+              "unit": "g"
+            },
+            {
+              "name": "Cardamome verte",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Clou de girofle",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Cannelle",
+              "qty": 1,
+              "unit": "bâton"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 10,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre",
+              "qty": 20,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Concasser cardamome, girofle, cannelle, gingembre.",
+            "Porter eau et épices à frémissement 4 min.",
+            "Ajouter le thé, infuser 2 min, ajouter le lait et le sucre.",
+            "Faire monter au bord du frémissement 3 fois, filtrer et servir."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "iso3": "FRA",
+      "isoNumeric": "250",
+      "flag": "🇫🇷",
+      "intro": "Une cuisine de terroir et de techniques, du marché provençal aux brasseries parisiennes.",
+      "recipes": [
+        {
+          "slug": "coq-au-vin",
+          "title": "Coq au vin",
+          "image": "/images/coq-au-vin-france.jpg",
+          "prepTime": 30,
+          "cookTime": 120,
+          "servings": 6,
+          "diets": [],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Poulet fermier",
+              "qty": 1.5,
+              "unit": "kg"
+            },
+            {
+              "name": "Lardons fumés",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Vin rouge corsé",
+              "qty": 750,
+              "unit": "ml"
+            },
+            {
+              "name": "Champignons de Paris",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Petits oignons",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Bouquet garni",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Beurre",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Farine",
+              "qty": 30,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Mariner le poulet 12 h dans le vin avec bouquet garni et oignons.",
+            "Égoutter, saisir au beurre avec les lardons.",
+            "Singer à la farine, mouiller avec la marinade chaude, mijoter 1 h 30.",
+            "Glacer petits oignons et champignons à part, ajouter en fin de cuisson.",
+            "Servir avec pommes vapeur ou tagliatelles fraîches."
+          ],
+          "story": "Plat dominical bourguignon par excellence, sa version la plus aboutie utilise un coq de barbarie d'âge mûr."
+        },
+        {
+          "slug": "ratatouille",
+          "title": "Ratatouille niçoise",
+          "image": "/images/ratatouille-ni%C3%A7oise-france.jpg",
+          "prepTime": 20,
+          "cookTime": 60,
+          "servings": 6,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Aubergines",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Courgettes",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Poivrons rouges",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates",
+              "qty": 6,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousse"
+            },
+            {
+              "name": "Herbes de Provence",
+              "qty": 10,
+              "unit": "g"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 80,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Cuire chaque légume séparément à l'huile d'olive pour préserver les saveurs.",
+            "Préparer une fondue de tomates avec ail, oignon et herbes.",
+            "Réunir tous les légumes dans la fondue, mijoter 30 min à feu doux.",
+            "Rectifier l'assaisonnement, servir tiède ou froid."
+          ]
+        },
+        {
+          "slug": "bouillabaisse",
+          "title": "Bouillabaisse marseillaise",
+          "image": "/images/bouillabaisse-marseillaise-france.jpg",
+          "prepTime": 30,
+          "cookTime": 50,
+          "servings": 6,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Poissons de roche assortis",
+              "qty": 1.5,
+              "unit": "kg"
+            },
+            {
+              "name": "Tomates mûres",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Fenouil",
+              "qty": 1,
+              "unit": "bulbe"
+            },
+            {
+              "name": "Pommes de terre",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Safran",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Pastis",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 100,
+              "unit": "ml"
+            },
+            {
+              "name": "Pain rassis",
+              "qty": 6,
+              "unit": "tranche"
+            }
+          ],
+          "steps": [
+            "Réaliser un fumet avec les arêtes, fenouil, tomates, ail et safran 30 min.",
+            "Filtrer, ajouter pastis et pommes de terre, cuire 15 min.",
+            "Pocher les poissons taillés en pièces dans le bouillon 8 min.",
+            "Servir le bouillon en première assiette avec pain frotté à l'ail et rouille.",
+            "Présenter ensuite poissons et pommes de terre."
+          ],
+          "story": "Anciennement plat de pêcheurs marseillais, la bouillabaisse a sa charte officielle depuis 1980."
+        },
+        {
+          "slug": "crepes-suzette",
+          "title": "Crêpes Suzette",
+          "image": "/images/cr%C3%AApes-suzette-france.jpg",
+          "prepTime": 30,
+          "cookTime": 20,
+          "servings": 4,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "winter",
+            "spring"
+          ],
+          "events": [
+            "easter"
+          ],
+          "ingredients": [
+            {
+              "name": "Farine",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Lait",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Beurre",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Oranges",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Grand Marnier",
+              "qty": 60,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Mélanger farine, œufs, lait progressivement, reposer 1 h.",
+            "Cuire des crêpes fines.",
+            "Préparer un beurre Suzette : beurre, sucre, zeste et jus d'orange.",
+            "Plier les crêpes en quart dans le beurre chaud, flamber au Grand Marnier.",
+            "Servir aussitôt, nappées du jus."
+          ]
+        },
+        {
+          "slug": "quiche-lorraine",
+          "title": "Quiche lorraine",
+          "image": "/images/quiche-lorraine-france.jpg",
+          "prepTime": 20,
+          "cookTime": 40,
+          "servings": 6,
+          "diets": [],
+          "seasons": [
+            "autumn",
+            "winter",
+            "spring"
+          ],
+          "ingredients": [
+            {
+              "name": "Pâte brisée",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Lardons fumés",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Crème fraîche épaisse",
+              "qty": 250,
+              "unit": "ml"
+            },
+            {
+              "name": "Lait",
+              "qty": 100,
+              "unit": "ml"
+            },
+            {
+              "name": "Noix de muscade",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Poivre",
+              "qty": 2,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Foncer un moule avec la pâte, piquer le fond, précuire 10 min à 180 °C.",
+            "Faire revenir les lardons sans coloration excessive, égoutter.",
+            "Battre œufs, crème, lait, muscade, poivre.",
+            "Disposer les lardons sur la pâte, couvrir d'appareil.",
+            "Cuire 30-35 min à 180 °C jusqu'à doré et tremblant à cœur."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chine",
+      "name": "Chine",
+      "iso3": "CHN",
+      "isoNumeric": "156",
+      "flag": "🇨🇳",
+      "intro": "Cinq mille ans de cuisine régionale, du wok cantonais aux braisages du Sichuan.",
+      "recipes": [
+        {
+          "slug": "mapo-tofu",
+          "title": "Mapo tofu",
+          "image": "/images/mapo-tofu-chine.jpg",
+          "prepTime": 15,
+          "cookTime": 15,
+          "servings": 3,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "chinese-new-year"
+          ],
+          "ingredients": [
+            {
+              "name": "Tofu soyeux",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Bœuf haché",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Pâte de fève fermentée (doubanjiang)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Poivre du Sichuan moulu",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Ail + gingembre",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Bouillon",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Oignon vert",
+              "qty": 2,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Plonger le tofu coupé en cubes dans l'eau salée chaude 5 min.",
+            "Faire revenir le bœuf, ajouter doubanjiang, ail-gingembre.",
+            "Mouiller au bouillon, ajouter sauce soja.",
+            "Glisser le tofu, mijoter 5 min sans casser les cubes.",
+            "Lier avec un peu de fécule, parsemer de poivre du Sichuan et oignon vert."
+          ],
+          "story": "Inventé par 'Mémé Tâchée' de Chengdu au XIXᵉ siècle, ce plat est l'emblème du mariage entre piment et poivre du Sichuan."
+        },
+        {
+          "slug": "canard-laque",
+          "title": "Canard laqué pékinois",
+          "image": "/images/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
+          "prepTime": 60,
+          "cookTime": 90,
+          "servings": 6,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "chinese-new-year"
+          ],
+          "ingredients": [
+            {
+              "name": "Canard entier",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Miel",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce soja claire",
+              "qty": 40,
+              "unit": "ml"
+            },
+            {
+              "name": "Vinaigre de riz",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Crêpes mandarin",
+              "qty": 12,
+              "unit": "u"
+            },
+            {
+              "name": "Concombre",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon vert",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Sauce hoisin",
+              "qty": 60,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Échauder le canard, sécher 24 h au frais peau tendue.",
+            "Badigeonner d'un mélange miel-soja-vinaigre, sécher encore 6 h.",
+            "Rôtir à 200 °C 1 h 30, peau croustillante, chair tendre.",
+            "Découper en fines lamelles avec peau.",
+            "Servir avec crêpes, concombre, oignon vert et sauce hoisin."
+          ]
+        },
+        {
+          "slug": "jiaozi",
+          "title": "Jiaozi (raviolis chinois)",
+          "image": "/images/jiaozi-(raviolis-chinois)-chine.jpg",
+          "prepTime": 60,
+          "cookTime": 12,
+          "servings": 4,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "events": [
+            "chinese-new-year"
+          ],
+          "ingredients": [
+            {
+              "name": "Farine T55",
+              "qty": 350,
+              "unit": "g"
+            },
+            {
+              "name": "Eau tiède",
+              "qty": 180,
+              "unit": "ml"
+            },
+            {
+              "name": "Porc haché",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Chou",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Ciboule",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Gingembre",
+              "qty": 15,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 20,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile de sésame",
+              "qty": 10,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Pétrir farine et eau jusqu'à pâte lisse, reposer 30 min.",
+            "Hacher chou, dégorger au sel, essorer ; mélanger porc, chou, ciboule, gingembre, soja, sésame.",
+            "Étaler la pâte en serpentin, couper en boules, étaler en disques.",
+            "Garnir et plisser en demi-lune.",
+            "Cuire à l'eau bouillante 6 min ou poêler façon potstickers."
+          ]
+        },
+        {
+          "slug": "nouilles-dan-dan",
+          "title": "Nouilles dan dan",
+          "image": "/images/nouilles-dan-dan-chine.jpg",
+          "prepTime": 15,
+          "cookTime": 10,
+          "servings": 2,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Nouilles chinoises fraîches",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Porc haché",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Tahini",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Huile de piment",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Vinaigre noir Chinkiang",
+              "qty": 15,
+              "unit": "ml"
+            },
+            {
+              "name": "Poivre du Sichuan",
+              "qty": 3,
+              "unit": "g"
+            },
+            {
+              "name": "Ya cai (tsa tsai)",
+              "qty": 30,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Saisir le porc avec ya cai jusqu'à coloration.",
+            "Au fond du bol : tahini, soja, vinaigre, huile de piment, poivre du Sichuan.",
+            "Cuire les nouilles al dente, déposer dans les bols.",
+            "Couvrir de viande, mélanger avant de manger."
+          ]
+        },
+        {
+          "slug": "riz-cantonais",
+          "title": "Riz cantonais",
+          "image": "/images/riz-cantonais-chine.jpg",
+          "prepTime": 10,
+          "cookTime": 10,
+          "servings": 4,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Riz cuit refroidi",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Crevettes décortiquées",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Jambon char siu",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Petits pois",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Ciboule",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Sauce soja claire",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile neutre",
+              "qty": 30,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Brouiller les œufs au wok très chaud, réserver.",
+            "Sauter crevettes et jambon, réserver.",
+            "Sauter le riz à feu vif jusqu'à séparation des grains.",
+            "Ajouter les petits pois, œufs, viande, soja, mélanger.",
+            "Parsemer de ciboule, servir aussitôt."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thailande",
+      "name": "Thaïlande",
+      "iso3": "THA",
+      "isoNumeric": "764",
+      "flag": "🇹🇭",
+      "intro": "Quatre piliers en équilibre : sucré, salé, acide, piquant — la cuisine thaïe est une chorégraphie.",
+      "recipes": [
+        {
+          "slug": "pad-thai",
+          "title": "Pad Thai aux crevettes",
+          "image": "/images/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
+          "prepTime": 20,
+          "cookTime": 10,
+          "servings": 2,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn"
+          ],
+          "events": [
+            "songkran"
+          ],
+          "ingredients": [
+            {
+              "name": "Nouilles de riz",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Crevettes",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Tofu fumé",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Tamarin",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce poisson (nam pla)",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre de palme",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Cacahuètes concassées",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Citron vert + germes de soja",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Tremper les nouilles 20 min dans l'eau tiède.",
+            "Préparer la sauce : tamarin dilué, nam pla, sucre.",
+            "Sauter ail, tofu, crevettes au wok, pousser sur le côté.",
+            "Casser les œufs, brouiller, ajouter nouilles et sauce.",
+            "Sauter 2 min, ajouter germes, parsemer cacahuètes, servir avec citron vert."
+          ]
+        },
+        {
+          "slug": "curry-vert-poulet",
+          "title": "Curry vert au poulet",
+          "image": "/images/curry-vert-au-poulet-tha%C3%AFlande.jpg",
+          "prepTime": 15,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn"
+          ],
+          "ingredients": [
+            {
+              "name": "Filets de poulet",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Lait de coco",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Pâte de curry vert",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Aubergines thaïes",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Feuilles de combava",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Basilic thaï",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Sauce poisson",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre de palme",
+              "qty": 15,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Faire mijoter la moitié du lait de coco jusqu'à séparation de l'huile.",
+            "Ajouter la pâte de curry, faire fondre 2 min.",
+            "Ajouter le poulet, saisir, puis le reste de lait de coco.",
+            "Ajouter aubergines et combava, mijoter 15 min.",
+            "Assaisonner avec sauce poisson et sucre, parsemer de basilic."
+          ]
+        },
+        {
+          "slug": "tom-yum-kung",
+          "title": "Tom yum kung",
+          "image": "/images/tom-yum-kung-tha%C3%AFlande.jpg",
+          "prepTime": 15,
+          "cookTime": 15,
+          "servings": 4,
+          "diets": [
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "winter",
+            "autumn",
+            "spring"
+          ],
+          "events": [
+            "songkran"
+          ],
+          "ingredients": [
+            {
+              "name": "Crevettes entières",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Bouillon de poulet",
+              "qty": 1,
+              "unit": "L"
+            },
+            {
+              "name": "Citronnelle",
+              "qty": 2,
+              "unit": "tige"
+            },
+            {
+              "name": "Galanga",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Feuilles de combava",
+              "qty": 6,
+              "unit": "u"
+            },
+            {
+              "name": "Champignons paille",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Pâte de piment (nam prik pao)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 2,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Décortiquer les crevettes, saisir les têtes pour parfumer le bouillon.",
+            "Filtrer, ajouter citronnelle, galanga, combava, frémir 10 min.",
+            "Ajouter champignons et pâte de piment.",
+            "Plonger les crevettes 3 min, hors feu ajouter jus de citron vert et nam pla.",
+            "Servir parsemé de coriandre."
+          ]
+        },
+        {
+          "slug": "som-tam",
+          "title": "Som tam (salade de papaye verte)",
+          "image": "/images/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
+          "prepTime": 15,
+          "cookTime": 0,
+          "servings": 4,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "events": [
+            "songkran"
+          ],
+          "ingredients": [
+            {
+              "name": "Papaye verte râpée",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates cerises",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Haricots longs",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Cacahuètes",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Sauce soja claire",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre de palme",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Piments oiseaux",
+              "qty": 2,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Piler ail et piments dans un mortier.",
+            "Ajouter haricots cassés, tomates écrasées, papaye.",
+            "Assaisonner avec sucre, soja, jus de citron vert.",
+            "Piler doucement pour mélanger sans réduire.",
+            "Servir avec cacahuètes concassées."
+          ]
+        },
+        {
+          "slug": "mango-sticky-rice",
+          "title": "Mango sticky rice",
+          "image": "/images/mango-sticky-rice-tha%C3%AFlande.jpg",
+          "prepTime": 20,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "vegan",
+            "vegetarian",
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "ingredients": [
+            {
+              "name": "Riz gluant",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Lait de coco",
+              "qty": 300,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre de palme",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Mangues mûres",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Sel",
+              "qty": 2,
+              "unit": "g"
+            },
+            {
+              "name": "Graines de sésame",
+              "qty": 20,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Tremper le riz 4 h, cuire à la vapeur 25 min sur tissu.",
+            "Chauffer lait de coco avec sucre et sel sans bouillir.",
+            "Verser sur le riz cuit, couvrir 15 min pour absorption.",
+            "Détailler les mangues en quartiers.",
+            "Dresser riz et mangue, napper d'un peu de coco salé, parsemer de sésame."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bresil",
+      "name": "Brésil",
+      "iso3": "BRA",
+      "isoNumeric": "076",
+      "flag": "🇧🇷",
+      "intro": "Métissage afro-portugais et indigène : la table brésilienne est joyeuse, généreuse et festive.",
+      "recipes": [
+        {
+          "slug": "feijoada",
+          "title": "Feijoada complète",
+          "image": "/images/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
+          "prepTime": 30,
+          "cookTime": 180,
+          "servings": 8,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "carnaval"
+          ],
+          "ingredients": [
+            {
+              "name": "Haricots noirs",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Échine de porc fumée",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Poitrine de porc",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Saucisse linguiça",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 6,
+              "unit": "gousse"
+            },
+            {
+              "name": "Feuille de laurier",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Orange",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Tremper les haricots une nuit.",
+            "Cuire avec viandes, oignon, ail, laurier dans 3 L d'eau 2 h 30.",
+            "Retirer les viandes, les couper, remettre dans le pot.",
+            "Mijoter encore 30 min jusqu'à sauce épaisse.",
+            "Servir avec riz blanc, farofa, chou kale sauté et tranches d'orange."
+          ],
+          "story": "Plat des esclaves et planteurs réuni autour des restes, la feijoada est aujourd'hui le plat national du Brésil."
+        },
+        {
+          "slug": "moqueca",
+          "title": "Moqueca de poisson",
+          "image": "/images/moqueca-de-poisson-br%C3%A9sil.jpg",
+          "prepTime": 20,
+          "cookTime": 25,
+          "servings": 4,
+          "diets": [
+            "gluten-free",
+            "dairy-free"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "ingredients": [
+            {
+              "name": "Filets de poisson blanc",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Lait de coco",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Tomates",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Poivron rouge",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon rouge",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Huile de palme (dendê)",
+              "qty": 30,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Mariner le poisson avec citron vert, ail, sel 20 min.",
+            "Tapisser une cocotte d'oignon, tomate et poivron en lamelles.",
+            "Disposer le poisson dessus, couvrir d'autres lamelles.",
+            "Verser lait de coco et dendê, mijoter 20 min couvert.",
+            "Parsemer de coriandre, servir avec riz et farofa."
+          ]
+        },
+        {
+          "slug": "pao-de-queijo",
+          "title": "Pão de queijo",
+          "image": "/images/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
+          "prepTime": 15,
+          "cookTime": 25,
+          "servings": 6,
+          "diets": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Tapioca (polvilho doce)",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Lait",
+              "qty": 250,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 125,
+              "unit": "ml"
+            },
+            {
+              "name": "Œuf",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Fromage frais (queijo minas)",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Sel",
+              "qty": 5,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Porter à frémissement lait, huile et sel.",
+            "Verser sur le tapioca, mélanger jusqu'à pâte homogène.",
+            "Laisser tiédir, ajouter œufs et fromage râpé.",
+            "Façonner des boules de 30 g.",
+            "Cuire 20-25 min à 200 °C, jusqu'à doré et craquant."
+          ]
+        },
+        {
+          "slug": "coxinhas",
+          "title": "Coxinhas de poulet",
+          "image": "/images/coxinhas-de-poulet-br%C3%A9sil.jpg",
+          "prepTime": 60,
+          "cookTime": 20,
+          "servings": 6,
+          "diets": [
+            "dairy-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "carnaval"
+          ],
+          "ingredients": [
+            {
+              "name": "Blancs de poulet",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Bouillon de poulet",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Farine T55",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf battu",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Chapelure",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Persil",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile de friture",
+              "qty": 1,
+              "unit": "L"
+            }
+          ],
+          "steps": [
+            "Pocher le poulet, l'effilocher, mélanger avec persil.",
+            "Faire bouillir bouillon et beurre, jeter la farine d'un coup, dessécher.",
+            "Étaler des disques de pâte tiède, garnir, refermer en goutte d'eau.",
+            "Tremper dans l'œuf, rouler dans la chapelure.",
+            "Frire à 180 °C jusqu'à doré, égoutter."
+          ]
+        },
+        {
+          "slug": "brigadeiros",
+          "title": "Brigadeiros",
+          "image": "/images/brigadeiros-br%C3%A9sil.jpg",
+          "prepTime": 10,
+          "cookTime": 15,
+          "servings": 8,
+          "diets": [
+            "vegetarian",
+            "gluten-free"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "carnaval"
+          ],
+          "ingredients": [
+            {
+              "name": "Lait concentré sucré",
+              "qty": 397,
+              "unit": "g"
+            },
+            {
+              "name": "Cacao en poudre",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Vermicelles de chocolat",
+              "qty": 100,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Mélanger lait concentré, cacao et beurre dans une casserole.",
+            "Cuire à feu doux en remuant 10-12 min jusqu'à décollement de la casserole.",
+            "Verser sur une plaque beurrée, refroidir 1 h.",
+            "Former des billes de 15 g, rouler dans les vermicelles.",
+            "Servir dans des caissettes."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "grece",
+      "name": "Grèce",
+      "iso3": "GRC",
+      "isoNumeric": "300",
+      "flag": "🇬🇷",
+      "intro": "Olives, feta et soleil méditerranéen : une cuisine simple, lumineuse et radicalement saisonnière.",
+      "recipes": [
+        {
+          "slug": "moussaka",
+          "title": "Moussaka",
+          "image": "/images/moussaka-gr%C3%A8ce.jpg",
+          "prepTime": 30,
+          "cookTime": 60,
+          "servings": 6,
+          "diets": [],
+          "seasons": [
+            "autumn",
+            "winter"
+          ],
+          "events": [
+            "orthodox-easter"
+          ],
+          "ingredients": [
+            {
+              "name": "Aubergines",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Agneau haché",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates concassées",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Cannelle",
+              "qty": 3,
+              "unit": "g"
+            },
+            {
+              "name": "Lait",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Beurre + farine",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Kefalotyri ou parmesan",
+              "qty": 80,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Saler les aubergines en tranches, dégorger 30 min, sécher et frire.",
+            "Préparer la sauce : agneau, oignon, tomate, cannelle, mijoter 20 min.",
+            "Réaliser une béchamel à la noix de muscade.",
+            "Étager aubergines, sauce viande, aubergines, béchamel et fromage.",
+            "Cuire 35 min à 180 °C jusqu'à doré, reposer 15 min avant de couper."
+          ]
+        },
+        {
+          "slug": "souvlaki",
+          "title": "Souvlaki de poulet",
+          "image": "/images/souvlaki-de-poulet-gr%C3%A8ce.jpg",
+          "prepTime": 20,
+          "cookTime": 15,
+          "servings": 4,
+          "diets": [
+            "dairy-free",
+            "gluten-free"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "ingredients": [
+            {
+              "name": "Blancs de poulet",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt grec",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Citron",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Origan",
+              "qty": 5,
+              "unit": "g"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousse"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 60,
+              "unit": "ml"
+            },
+            {
+              "name": "Pita",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Tomate + oignon rouge",
+              "qty": 1,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Découper le poulet en cubes, mariner avec yaourt, citron, ail, origan, huile 1 h.",
+            "Embrocher sur des piques en bois trempées.",
+            "Griller 12-15 min en tournant régulièrement.",
+            "Réchauffer les pitas.",
+            "Servir avec tomate, oignon rouge et tzatziki."
+          ]
+        },
+        {
+          "slug": "tzatziki-pita",
+          "title": "Tzatziki et pita",
+          "image": "/images/tzatziki-et-pita-gr%C3%A8ce.jpg",
+          "prepTime": 15,
+          "cookTime": 5,
+          "servings": 4,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "summer",
+            "spring"
+          ],
+          "ingredients": [
+            {
+              "name": "Yaourt grec entier",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Concombre",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousse"
+            },
+            {
+              "name": "Aneth",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 30,
+              "unit": "ml"
+            },
+            {
+              "name": "Vinaigre de vin blanc",
+              "qty": 10,
+              "unit": "ml"
+            },
+            {
+              "name": "Pita",
+              "qty": 4,
+              "unit": "u"
+            }
+          ],
+          "steps": [
+            "Râper le concombre, saler, presser pour retirer l'eau.",
+            "Mélanger yaourt, ail haché, concombre, aneth, vinaigre, huile.",
+            "Réfrigérer 30 min.",
+            "Réchauffer les pitas légèrement.",
+            "Servir le tzatziki frais avec pitas chauds."
+          ]
+        },
+        {
+          "slug": "spanakopita",
+          "title": "Spanakopita",
+          "image": "/images/spanakopita-gr%C3%A8ce.jpg",
+          "prepTime": 30,
+          "cookTime": 40,
+          "servings": 6,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "spring",
+            "winter"
+          ],
+          "events": [
+            "orthodox-easter"
+          ],
+          "ingredients": [
+            {
+              "name": "Pâte filo",
+              "qty": 12,
+              "unit": "feuille"
+            },
+            {
+              "name": "Épinards frais",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Feta",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œuf",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon vert",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Aneth",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Beurre fondu",
+              "qty": 100,
+              "unit": "g"
+            }
+          ],
+          "steps": [
+            "Faire tomber les épinards, presser et hacher.",
+            "Mélanger avec feta émiettée, œufs, oignon vert, aneth.",
+            "Tapisser un moule de feuilles filo beurrées (6 couches).",
+            "Étaler la garniture, recouvrir de 6 autres feuilles beurrées.",
+            "Cuire 40 min à 180 °C, repos 10 min avant découpe."
+          ]
+        },
+        {
+          "slug": "baklava",
+          "title": "Baklava aux pistaches",
+          "image": "/images/baklava-aux-pistaches-gr%C3%A8ce.jpg",
+          "prepTime": 30,
+          "cookTime": 50,
+          "servings": 8,
+          "diets": [
+            "vegetarian"
+          ],
+          "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+          ],
+          "ingredients": [
+            {
+              "name": "Pâte filo",
+              "qty": 16,
+              "unit": "feuille"
+            },
+            {
+              "name": "Pistaches",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre fondu",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Eau",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Miel",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Citron",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Eau de fleur d'oranger",
+              "qty": 10,
+              "unit": "ml"
+            }
+          ],
+          "steps": [
+            "Concasser les pistaches, mélanger avec un peu de sucre.",
+            "Beurrer 8 feuilles filo une à une dans un moule, ajouter pistaches.",
+            "Couvrir des 8 autres feuilles beurrées, prédécouper en losanges.",
+            "Cuire 45-50 min à 170 °C jusqu'à doré.",
+            "Préparer le sirop sucre-eau-miel-citron-fleur d'oranger, verser brûlant sur le baklava froid."
+          ],
+          "story": "Trésor partagé entre Grèce, Turquie et Levant, le baklava marie pâte fine, fruits secs et miel depuis l'Empire Ottoman."
+        }
+      ]
+    }
+  ]
+}
