@@ -37,6 +37,13 @@ export const metadata: Metadata = {
     title: "Map and Fork",
     statusBarStyle: "default",
   },
+  // Next 16 émet le standard moderne <meta name="mobile-web-app-capable">
+  // mais certaines anciennes versions d'iOS Safari ne respectent que la balise
+  // legacy "apple-mobile-web-app-capable". On la force ici pour garantir le
+  // lancement en mode standalone (sans barre Safari) après "Add to Home Screen".
+  other: {
+    "apple-mobile-web-app-capable": "yes",
+  },
   formatDetection: { telephone: false, email: false, address: false },
   icons: {
     // Favicon principal multi-résolutions (sera servi par app/favicon.ico),
