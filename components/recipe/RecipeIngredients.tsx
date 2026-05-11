@@ -5,7 +5,6 @@ import { ChevronDown } from "lucide-react";
 import { clsx } from "clsx";
 import { convert, type System } from "@/lib/units";
 import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
-import { ServingsSelector } from "./ServingsSelector";
 import type { Ingredient } from "@/lib/types";
 
 const KEY = "mapandfork.unit-system";
@@ -13,7 +12,16 @@ const LEGACY_KEY = "global-food.unit-system";
 
 type Props = {
   ingredients: Ingredient[];
+  /**
+   * Nombre de portions courant (contrôlé depuis l'extérieur — typiquement par
+   * RecipeBody qui héberge le PortionsControl dans la sticky info bar).
+   */
   servings: number;
+  /**
+   * Nombre de portions de référence (depuis recipe.servings) servant à
+   * calculer le ratio de mise à l'échelle des quantités.
+   */
+  baseline: number;
   /**
    * Si vrai, la liste se replie en accordéon sur mobile (<md) pour libérer
    * l'espace au profit des étapes de préparation. Sur md+, la liste reste
@@ -24,7 +32,8 @@ type Props = {
 
 export function RecipeIngredients({
   ingredients,
-  servings: baseline,
+  servings,
+  baseline,
   collapsible = false,
 }: Props) {
   const [stored, setStored, hydrated] = useLocalStorage<System>(
@@ -33,8 +42,6 @@ export function RecipeIngredients({
     LEGACY_KEY
   );
   const [system, setSystem] = useState<System>(stored);
-  const [servings, setServings] = useState<number>(baseline);
-  // Sur mobile, la liste démarre repliée pour focus sur les étapes
   const [openMobile, setOpenMobile] = useState<boolean>(!collapsible);
 
   function pickSystem(next: System) {
@@ -78,27 +85,24 @@ export function RecipeIngredients({
             Ingrédients
           </h2>
         )}
+        {/* Unit toggle Métrique/Impérial — toujours dispo via accordion ouvert
+            ET partagé md+ (la portion control est dans la sticky info bar) */}
         <div
           className={clsx(
             "flex items-center gap-3 flex-wrap",
             collapsible && !openMobile && "hidden md:flex"
           )}
         >
-          <ServingsSelector
-            value={servings}
-            baseline={baseline}
-            setValue={setServings}
-          />
           <div
             role="group"
             aria-label="Unités de mesure"
-            className="inline-flex rounded-full border border-bone-deep bg-white p-0.5 text-xs"
+            className="inline-flex rounded-full border border-bone-deep bg-white p-0.5 text-xs shadow-soft"
           >
             <button
               type="button"
               onClick={() => pickSystem("metric")}
               className={clsx(
-                "rounded-full px-3 h-9 font-medium transition-colors",
+                "rounded-full px-3 h-9 font-medium transition-all active:scale-95",
                 active === "metric"
                   ? "bg-sage text-bone shadow-soft"
                   : "text-ink-soft hover:text-ink"
@@ -111,7 +115,7 @@ export function RecipeIngredients({
               type="button"
               onClick={() => pickSystem("imperial")}
               className={clsx(
-                "rounded-full px-3 h-9 font-medium transition-colors",
+                "rounded-full px-3 h-9 font-medium transition-all active:scale-95",
                 active === "imperial"
                   ? "bg-sage text-bone shadow-soft"
                   : "text-ink-soft hover:text-ink"

@@ -3,23 +3,39 @@
 @theme {
   --color-bone: #FAF7F2;
   --color-bone-deep: #F2EDE4;
+  --color-bone-warm: #F5EFE3;
   --color-sage: #A3B18A;
   --color-sage-soft: #C8D2B5;
   --color-ochre: #C08552;
   --color-ochre-soft: #E0B084;
+  --color-ochre-deep: #A06D3F;
   --color-terracotta: #C65D3A;
   --color-terracotta-deep: #A94A2C;
+  --color-terracotta-soft: #E89F84;
   --color-ink: #2E2A26;
   --color-ink-soft: #6B635A;
+  --color-paper: #FBF6EB;
 
   --font-serif: var(--font-fraunces);
   --font-sans: var(--font-inter);
 
   --shadow-soft: 0 4px 20px -4px rgba(46, 42, 38, 0.08);
   --shadow-soft-lg: 0 12px 40px -10px rgba(46, 42, 38, 0.12);
+  /* Ombre teintée terracotta — donne une "chaleur" subtile aux cards */
+  --shadow-warm: 0 8px 28px -10px rgba(198, 93, 58, 0.18),
+                 0 2px 8px -2px rgba(46, 42, 38, 0.06);
+  --shadow-warm-lg: 0 16px 48px -12px rgba(198, 93, 58, 0.25),
+                    0 4px 12px -4px rgba(46, 42, 38, 0.08);
+  /* Ombre type "papier de magazine" multi-couches */
+  --shadow-paper: 0 1px 0 0 rgba(46, 42, 38, 0.04),
+                  0 6px 16px -4px rgba(46, 42, 38, 0.08),
+                  0 16px 40px -12px rgba(192, 133, 82, 0.12);
 
   --radius-soft: 1rem;
   --radius-soft-lg: 1.5rem;
+  --radius-soft-xl: 2rem;
+
+  --ease-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 html, body {
@@ -43,6 +59,61 @@ h1, h2, h3, h4, .font-serif {
   color: var(--color-ink);
 }
 
+/* === HELPERS DE SURFACE === */
+
+/* Dégradé chaleureux bone → ochre-soft 20% (en diagonale, type lever de soleil) */
+.bg-warm-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-bone) 0%,
+    color-mix(in oklab, var(--color-ochre-soft) 30%, var(--color-bone)) 100%
+  );
+}
+
+/* Dégradé "épices" : bone → sage-soft via ochre-soft */
+.bg-spice-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-bone) 0%,
+    color-mix(in oklab, var(--color-ochre-soft) 18%, var(--color-bone)) 50%,
+    color-mix(in oklab, var(--color-sage-soft) 25%, var(--color-bone)) 100%
+  );
+}
+
+/* Texture "papier épais" — pointillés ocre très subtils */
+.texture-paper {
+  background-image:
+    radial-gradient(
+      circle at 1px 1px,
+      rgba(192, 133, 82, 0.06) 1px,
+      transparent 1px
+    );
+  background-size: 18px 18px;
+}
+
+/* Texture "carnet de cuir" pour la page Passeport — grain croisé terracotta */
+.texture-leather {
+  background-image:
+    radial-gradient(
+      circle at 1px 1px,
+      rgba(169, 74, 44, 0.05) 1px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle at 8px 8px,
+      rgba(46, 42, 38, 0.04) 0.5px,
+      transparent 0.5px
+    );
+  background-size: 16px 16px, 32px 32px;
+  background-color: color-mix(
+    in oklab,
+    var(--color-terracotta) 4%,
+    var(--color-bone)
+  );
+}
+
+/* === ANIMATIONS === */
+
 @keyframes pageIn {
   from {
     opacity: 0;
@@ -51,6 +122,18 @@ h1, h2, h3, h4, .font-serif {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Cards qui apparaissent en staggered (Tailwind: animate-[liftIn_400ms_var(--ease-soft)_both]) */
+@keyframes liftIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
@@ -78,12 +161,31 @@ h1, h2, h3, h4, .font-serif {
   }
 }
 
+/* Pulse lent pour éléments d'attention (badges, dots de notification) */
+@keyframes pulseWarm {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.04);
+  }
+}
+
 main {
-  animation: pageIn 280ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: pageIn 280ms var(--ease-soft);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  main {
-    animation: none;
+  main,
+  .animate-\[liftIn_400ms_var\(--ease-soft\)_both\] {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }

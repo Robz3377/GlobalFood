@@ -12,21 +12,29 @@ export default function PasseportPage() {
   const countries = getAllCountries();
   return (
     <main className="flex-1">
-      <section className="mx-auto max-w-5xl px-6 pt-12 pb-6">
-        <Badge tone="sage">
-          <Stamp className="h-3.5 w-3.5 mr-1.5" strokeWidth={2} />
-          Passeport Culinaire
-        </Badge>
-        <h1 className="mt-4 font-serif text-4xl md:text-5xl font-semibold leading-[1.1] tracking-tight">
-          Vos voyages gourmands
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-ink-soft">
-          Chaque pays cuisiné débloque un tampon. Visitez une fiche recette pour
-          le déclencher automatiquement.
-        </p>
+      {/* Hero ambiance "carnet de cuir" — texture grain terracotta subtile */}
+      <section className="relative overflow-hidden">
+        <div
+          aria-hidden
+          className="absolute inset-0 texture-leather opacity-95"
+        />
+        <div className="relative mx-auto max-w-5xl px-4 md:px-6 pt-12 pb-8">
+          <Badge tone="terracotta">
+            <Stamp className="h-3.5 w-3.5 mr-1.5" strokeWidth={2} />
+            Passeport Culinaire
+          </Badge>
+          <h1 className="mt-5 font-serif text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight">
+            Vos{" "}
+            <span className="text-terracotta-deep italic">voyages gourmands</span>
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg text-ink-soft">
+            Chaque pays cuisiné débloque un tampon. Visitez une fiche recette pour
+            le déclencher automatiquement.
+          </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 pb-20">
+      <section className="mx-auto max-w-5xl px-4 md:px-6 pb-20">
         <PassportGrid countries={countries} />
       </section>
     </main>
