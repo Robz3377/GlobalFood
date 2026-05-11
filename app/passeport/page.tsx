@@ -4,7 +4,7 @@ import { PassportGrid } from "@/components/passport/PassportGrid";
 import { getAllCountries } from "@/lib/data";
 
 export const metadata = {
-  title: "Passeport Culinaire — Global Food",
+  title: "Passeport Culinaire — Map and Fork",
   description: "Collectionnez vos tampons gourmands au fil de vos voyages.",
 };
 

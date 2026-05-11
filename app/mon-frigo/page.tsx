@@ -4,7 +4,7 @@ import { FridgeFinder } from "@/components/fridge/FridgeFinder";
 import { getAllRecipes } from "@/lib/data";
 
 export const metadata = {
-  title: "Mon Frigo — Global Food",
+  title: "Mon Frigo — Map and Fork",
   description:
     "Indiquez vos ingrédients disponibles, trouvez les recettes parfaites.",
 };

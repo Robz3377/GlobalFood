@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { clsx } from "clsx";
 
 type Props = {
@@ -9,24 +10,25 @@ type Props = {
   className?: string;
   /** Visual aspect ratio class for the wrapper (e.g. "aspect-[4/3]"). */
   aspect?: string;
-  /** When true, the image isn't lazy-loaded (use for hero / above-the-fold). */
+  /** Above-the-fold image: load eagerly with high fetch priority. */
   priority?: boolean;
+  /**
+   * Responsive sizes hint for the browser. Override per-caller for accurate
+   * srcset selection. Default targets 3-up grids on desktop.
+   */
+  sizes?: string;
 };
 
-/**
- * Local image renderer.
- *
- * - Plain <img> with native lazy-loading so it never competes with the
- *   WebGL globe for main-thread time.
- * - If the file is missing in /public/images/, we hide the broken <img>
- *   and let the sage-green wrapper bg show through.
- */
+const DEFAULT_SIZES =
+  "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw";
+
 export function RecipeImage({
   src,
   alt,
   className,
   aspect,
   priority = false,
+  sizes = DEFAULT_SIZES,
 }: Props) {
   const [failed, setFailed] = useState(false);
 
@@ -39,15 +41,15 @@ export function RecipeImage({
       )}
     >
       {!failed && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
+        <Image
           src={src}
           alt={alt}
+          fill
+          sizes={sizes}
           loading={priority ? "eager" : "lazy"}
-          decoding="async"
           fetchPriority={priority ? "high" : "auto"}
           onError={() => setFailed(true)}
-          className="absolute inset-0 h-full w-full object-cover"
+          className="object-cover"
         />
       )}
     </div>

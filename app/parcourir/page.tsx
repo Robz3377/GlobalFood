@@ -4,7 +4,7 @@ import { ParcourirView } from "@/components/parcourir/ParcourirView";
 import { getAllRecipes } from "@/lib/data";
 
 export const metadata = {
-  title: "Parcourir — Global Food",
+  title: "Parcourir — Map and Fork",
   description: "Toutes les recettes du monde, classées de A à Z.",
 };
 

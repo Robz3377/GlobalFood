@@ -7,7 +7,8 @@ import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
 import { ServingsSelector } from "./ServingsSelector";
 import type { Ingredient } from "@/lib/types";
 
-const KEY = "global-food.unit-system";
+const KEY = "mapandfork.unit-system";
+const LEGACY_KEY = "global-food.unit-system";
 
 export function RecipeIngredients({
   ingredients,
@@ -16,7 +17,11 @@ export function RecipeIngredients({
   ingredients: Ingredient[];
   servings: number;
 }) {
-  const [stored, setStored, hydrated] = useLocalStorage<System>(KEY, "metric");
+  const [stored, setStored, hydrated] = useLocalStorage<System>(
+    KEY,
+    "metric",
+    LEGACY_KEY
+  );
   const [system, setSystem] = useState<System>(stored);
   const [servings, setServings] = useState<number>(baseline);
 

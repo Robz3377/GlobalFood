@@ -5,7 +5,7 @@ import { RecipeImage } from "@/components/recipe/RecipeImage";
 import { getAllRecipes } from "@/lib/data";
 
 export const metadata = {
-  title: "La Gazette — Global Food",
+  title: "La Gazette — Map and Fork",
   description: "Les histoires culturelles derrière les recettes du monde.",
 };
 
@@ -50,6 +50,7 @@ export default function GazettePage() {
             alt={feature.recipe.title}
             priority
             aspect="aspect-[5/3] lg:aspect-auto"
+            sizes="(min-width: 1024px) 60vw, 100vw"
             className="transition-transform duration-500 group-hover:scale-[1.02]"
           />
           <div className="flex flex-col justify-center p-8 lg:p-10">
@@ -86,6 +87,7 @@ export default function GazettePage() {
                 src={recipe.image}
                 alt={recipe.title}
                 aspect=""
+                sizes="112px"
                 className="h-28 w-28 flex-none rounded-soft transition-transform duration-500 group-hover:scale-105"
               />
               <div className="min-w-0">

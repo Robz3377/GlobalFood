@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
@@ -21,10 +21,61 @@ const inter = Inter({
   display: "swap",
 });
 
+const SITE_URL = "https://global-food.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Global Food — Voyage culinaire autour du monde",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Map and Fork — Cuisine du monde",
+    template: "%s — Map and Fork",
+  },
   description:
-    "Explorez la cuisine du monde via une carte interactive. Recettes, traditions et inspirations saisonnières.",
+    "Voyagez à travers la cuisine du monde via un globe 3D interactif. Découvrez 50 recettes authentiques, leurs traditions et le secret du chef pour chaque plat — un atlas culinaire à explorer du bout des doigts.",
+  applicationName: "Map and Fork",
+  appleWebApp: {
+    capable: true,
+    title: "Map and Fork",
+    statusBarStyle: "default",
+  },
+  formatDetection: { telephone: false, email: false, address: false },
+  icons: {
+    // Favicon principal multi-résolutions (sera servi par app/favicon.ico),
+    // en complément Next.js injecte automatiquement le manifest PWA.
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/images/logo-mapandfork.png", type: "image/png" },
+    ],
+    apple: "/images/logo-mapandfork.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: SITE_URL,
+    title: "Map and Fork — Cuisine du monde",
+    description:
+      "Globe 3D interactif et 50 recettes certifiées du monde, chacune avec son secret du chef.",
+    siteName: "Map and Fork",
+    images: [
+      { url: "/images/logo-mapandfork.png", width: 1071, height: 1008, alt: "Map and Fork" },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Map and Fork — Cuisine du monde",
+    description:
+      "Globe 3D interactif et 50 recettes certifiées du monde, chacune avec son secret du chef.",
+    images: ["/images/logo-mapandfork.png"],
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FAF7F2" },
+    { media: "(prefers-color-scheme: dark)", color: "#C65D3A" },
+  ],
 };
 
 export default function RootLayout({

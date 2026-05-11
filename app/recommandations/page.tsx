@@ -4,7 +4,7 @@ import { RecommendationsBoard } from "@/components/recommendations/Recommendatio
 import { getAllRecipes } from "@/lib/data";
 
 export const metadata = {
-  title: "Recommandations — Global Food",
+  title: "Recommandations — Map and Fork",
   description: "Trois plats par semaine, choisis selon la saison et les fêtes.",
 };
 

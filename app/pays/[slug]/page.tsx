@@ -17,7 +17,7 @@ export async function generateMetadata({
   const country = getCountryBySlug(slug);
   if (!country) return {};
   return {
-    title: `${country.name} — Global Food`,
+    title: `${country.name} — Map and Fork`,
     description: country.intro,
   };
 }

@@ -5,10 +5,15 @@ import { useLocalStorage } from "./useLocalStorage";
 
 export type PassportState = Record<string, string>;
 
-const KEY = "global-food.passport";
+const KEY = "mapandfork.passport";
+const LEGACY_KEY = "global-food.passport";
 
 export function usePassport() {
-  const [stamps, setStamps, hydrated] = useLocalStorage<PassportState>(KEY, {});
+  const [stamps, setStamps, hydrated] = useLocalStorage<PassportState>(
+    KEY,
+    {},
+    LEGACY_KEY
+  );
 
   const stamp = useCallback(
     (countrySlug: string) => {

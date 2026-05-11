@@ -3,7 +3,8 @@
 import { useCallback } from "react";
 import { useLocalStorage } from "./useLocalStorage";
 
-const KEY = "global-food.history";
+const KEY = "mapandfork.history";
+const LEGACY_KEY = "global-food.history";
 const MAX = 30;
 
 export type HistoryEntry = {
@@ -13,7 +14,11 @@ export type HistoryEntry = {
 };
 
 export function useHistory() {
-  const [history, setHistory, hydrated] = useLocalStorage<HistoryEntry[]>(KEY, []);
+  const [history, setHistory, hydrated] = useLocalStorage<HistoryEntry[]>(
+    KEY,
+    [],
+    LEGACY_KEY
+  );
 
   const log = useCallback(
     (entry: Omit<HistoryEntry, "at">) => {

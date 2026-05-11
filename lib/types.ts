@@ -34,6 +34,8 @@ export type Recipe = {
   ingredients: Ingredient[];
   steps: string[];
   story?: string;
+  /** Tip professionnel — temp. d'huile, technique précise, astuce de dressage. */
+  chefSecret?: string;
 };
 
 export type Country = {

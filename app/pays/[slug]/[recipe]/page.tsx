@@ -26,7 +26,7 @@ export async function generateMetadata({
   const data = getRecipe(slug, recipe);
   if (!data) return {};
   return {
-    title: `${data.recipe.title} · ${data.country.name} — Global Food`,
+    title: `${data.recipe.title} · ${data.country.name} — Map and Fork`,
     description: `Recette de ${data.recipe.title} (${data.country.name}).`,
   };
 }
@@ -66,6 +66,7 @@ export default async function RecipePage({
           alt={r.title}
           priority
           aspect="aspect-[4/3]"
+          sizes="(min-width: 1024px) 50vw, 100vw"
           className="rounded-soft-lg shadow-soft"
         />
         <div>
@@ -99,6 +100,13 @@ export default async function RecipePage({
             <p className="mt-6 rounded-soft bg-ochre-soft/40 p-4 text-sm text-ink leading-relaxed border-l-4 border-ochre">
               <strong className="font-serif font-semibold mr-1">L'histoire :</strong>
               {r.story}
+            </p>
+          )}
+
+          {r.chefSecret && (
+            <p className="mt-3 rounded-soft bg-terracotta/10 p-4 text-sm text-ink leading-relaxed border-l-4 border-terracotta">
+              <strong className="font-serif font-semibold mr-1">Le secret du Chef :</strong>
+              {r.chefSecret}
             </p>
           )}
         </div>
