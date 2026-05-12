@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { FloatingDecor } from "./FloatingDecor";
 import type { Country } from "@/lib/types";
 
 const WorldGlobe = dynamic(
@@ -18,6 +17,12 @@ const WorldGlobe = dynamic(
   }
 );
 
+/**
+ * WorldMapClient — wrapper Client qui charge dynamiquement WorldGlobe (ssr:
+ * false car le globe utilise three.js/WebGL). Le décor flottant
+ * (FloatingDecor) est rendu en dehors par la page parent pour qu'il soit
+ * présent dès le SSR sans dépendre de l'hydratation de ce client component.
+ */
 export function WorldMapClient({ countries }: { countries: Country[] }) {
   const params = useSearchParams();
   const router = useRouter();
@@ -30,13 +35,10 @@ export function WorldMapClient({ countries }: { countries: Country[] }) {
   }, [navTo, router]);
 
   return (
-    <div className="relative">
-      <FloatingDecor />
-      <WorldGlobe
-        countries={countries}
-        focusSlug={focusSlug}
-        onFocusComplete={(slug) => setNavTo(slug)}
-      />
-    </div>
+    <WorldGlobe
+      countries={countries}
+      focusSlug={focusSlug}
+      onFocusComplete={(slug) => setNavTo(slug)}
+    />
   );
 }
