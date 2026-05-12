@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Clock, Flame, Minus, Plus } from "lucide-react";
+import { BookOpen, ChefHat, ChevronDown, Clock, Flame, Minus, Plus } from "lucide-react";
 import { clsx } from "clsx";
 import { Badge } from "@/components/ui/Badge";
 import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
@@ -123,28 +123,25 @@ export function RecipeBody({ country, recipe }: Props) {
         </div>
       </div>
 
-      {/* STORY + SECRET DU CHEF */}
+      {/* STORY + SECRET DU CHEF — accordéons fermés par défaut.
+          Focus immédiat sur Ingrédients + Étapes au scroll. */}
       {(recipe.story || recipe.chefSecret) && (
         <section className="mx-auto max-w-3xl px-4 md:px-6 mt-8 space-y-3">
           {recipe.story && (
-            <article className="rounded-soft-lg bg-ochre-soft/30 border-l-4 border-ochre p-5 md:p-6">
-              <h2 className="font-serif text-sm font-semibold uppercase tracking-[0.15em] text-ochre">
-                L'histoire
-              </h2>
-              <p className="mt-2 text-ink leading-relaxed text-base md:text-lg">
-                {recipe.story}
-              </p>
-            </article>
+            <Accordion
+              tone="ochre"
+              icon={BookOpen}
+              label="L'histoire"
+              text={recipe.story}
+            />
           )}
           {recipe.chefSecret && (
-            <article className="rounded-soft-lg bg-terracotta/10 border-l-4 border-terracotta p-5 md:p-6">
-              <h2 className="font-serif text-sm font-semibold uppercase tracking-[0.15em] text-terracotta-deep">
-                Le secret du Chef
-              </h2>
-              <p className="mt-2 text-ink leading-relaxed text-base md:text-lg">
-                {recipe.chefSecret}
-              </p>
-            </article>
+            <Accordion
+              tone="terracotta"
+              icon={ChefHat}
+              label="Le secret du Chef"
+              text={recipe.chefSecret}
+            />
           )}
         </section>
       )}
@@ -205,6 +202,95 @@ function StickyStat({
         </div>
       </div>
     </div>
+  );
+}
+
+/**
+ * Accordion inline (Histoire / Secret du Chef).
+ *
+ * Slide-down fluide via la "CSS grid trick" :
+ * - Container parent : `grid-template-rows: 0fr` ou `1fr` avec transition
+ * - Enfant : `overflow: hidden`
+ * Le navigateur anime nativement la transition entre 0fr et 1fr, ce qui
+ * équivaut à animer de height: 0 à height: auto (impossible historiquement
+ * en CSS pur). Supporté Chrome 117+, Safari 17+, Firefox 122+.
+ *
+ * Bénéfices vs `<details>` natif :
+ * - Ouverture/fermeture FLUIDE (300ms ease-soft, pas abrupte)
+ * - ChevronDown qui pivote en douceur
+ * - Contrôle total du styling tonal (ochre vs terracotta)
+ */
+function Accordion({
+  tone,
+  icon: Icon,
+  label,
+  text,
+}: {
+  tone: "ochre" | "terracotta";
+  icon: typeof Clock;
+  label: string;
+  text: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const isOchre = tone === "ochre";
+  return (
+    <article
+      className={clsx(
+        "rounded-soft-lg border-l-4 overflow-hidden",
+        isOchre
+          ? "bg-ochre-soft/30 border-ochre"
+          : "bg-terracotta/10 border-terracotta"
+      )}
+    >
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="w-full flex items-center justify-between gap-3 px-5 md:px-6 py-3.5 md:py-4 text-left transition-colors hover:bg-black/[0.02] active:bg-black/[0.04]"
+      >
+        <span className="flex items-center gap-3">
+          <Icon
+            className={clsx(
+              "h-4 w-4 shrink-0",
+              isOchre ? "text-ochre" : "text-terracotta-deep"
+            )}
+            strokeWidth={2}
+            aria-hidden
+          />
+          <h2
+            className={clsx(
+              "font-serif text-sm font-semibold uppercase tracking-[0.15em]",
+              isOchre ? "text-ochre" : "text-terracotta-deep"
+            )}
+          >
+            {label}
+          </h2>
+        </span>
+        <ChevronDown
+          className={clsx(
+            "h-4 w-4 shrink-0 transition-transform duration-300 ease-out",
+            isOchre ? "text-ochre" : "text-terracotta-deep",
+            open && "rotate-180"
+          )}
+          strokeWidth={2}
+          aria-hidden
+        />
+      </button>
+      {/* Grid trick pour slide-down fluide (0fr ↔ 1fr) */}
+      <div
+        className={clsx(
+          "grid transition-[grid-template-rows] duration-300 ease-out",
+          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+        )}
+        aria-hidden={!open}
+      >
+        <div className="overflow-hidden">
+          <p className="px-5 md:px-6 pb-4 md:pb-5 text-ink leading-relaxed text-base md:text-lg">
+            {text}
+          </p>
+        </div>
+      </div>
+    </article>
   );
 }
 

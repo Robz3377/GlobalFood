@@ -12,11 +12,11 @@ export default function PasseportPage() {
   const countries = getAllCountries();
   return (
     <main className="flex-1">
-      {/* Hero ambiance "carnet de cuir" — texture grain terracotta subtile */}
+      {/* Hero "carnet de voyage" — grain papier sobre ocre/sage */}
       <section className="relative overflow-hidden">
         <div
           aria-hidden
-          className="absolute inset-0 texture-leather opacity-95"
+          className="absolute inset-0 pattern-grain opacity-90"
         />
         <div className="relative mx-auto max-w-5xl px-4 md:px-6 pt-12 pb-8">
           <Badge tone="terracotta">

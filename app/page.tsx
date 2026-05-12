@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import { Globe2, Sparkles, ChevronRight } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { WorldMapClient } from "@/components/map/WorldMapClient";
-import { FloatingDecor } from "@/components/map/FloatingDecor";
 import { getAllCountries } from "@/lib/data";
 
 /**
@@ -49,24 +48,24 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GLOBE 3D entouré de décor flottant — FloatingDecor est rendu en
-          Server Component (hors Suspense) pour qu'il apparaisse dès le SSR
-          sans attendre l'hydratation du WorldMapClient. */}
+      {/* GLOBE 3D */}
       <section className="mx-auto max-w-6xl px-4 md:px-6 pb-10">
-        <div className="relative">
-          <FloatingDecor />
-          <Suspense
-            fallback={
-              <div className="aspect-[10/7] w-full rounded-soft-xl bg-gradient-to-b from-bone to-bone-deep shadow-paper animate-pulse" />
-            }
-          >
-            <WorldMapClient countries={countries} />
-          </Suspense>
-        </div>
+        <Suspense
+          fallback={
+            <div className="aspect-[10/7] w-full rounded-soft-xl bg-gradient-to-b from-bone to-bone-deep shadow-paper animate-pulse" />
+          }
+        >
+          <WorldMapClient countries={countries} />
+        </Suspense>
       </section>
 
       {/* GRILLE PAYS — 2 cols mobile, 3 sm, 5 lg, cartes uniformes carte-postale */}
-      <section className="mx-auto max-w-6xl px-4 md:px-6 pb-24">
+      <section className="relative mx-auto max-w-6xl px-4 md:px-6 pb-24">
+        {/* Motif topographique fixé en fond — palette sage 7%, ne défile pas */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 pattern-topo opacity-90 -z-10"
+        />
         <header className="mb-5 md:mb-7 flex items-baseline justify-between gap-3">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold">
             Les pays disponibles

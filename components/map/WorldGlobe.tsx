@@ -79,8 +79,12 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
   const [size, setSize] = useState({ w: 800, h: 520 });
   const [hovered, setHovered] = useState<Country | null>(null);
   const [ready, setReady] = useState(false);
-  /** Altitude caméra courante — utilisée pour faire apparaître les labels au zoom */
-  const [altitude, setAltitude] = useState(2.2);
+  /**
+   * Opacité des labels gérée en IMPERATIF (via CSS var) plutôt qu'en state
+   * React, pour éviter les re-renders sur chaque frame de zoom (qui causaient
+   * un grésillement visible). Voir handleZoom() ci-dessous.
+   */
+  const lastLabelOpacityRef = useRef<number>(0);
 
   const byIso = useMemo(() => {
     const m = new Map<string, Country>();
@@ -97,26 +101,73 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
   );
 
   /**
-   * Labels dynamiques : un label par pays disponible, positionné à son
-   * centroïde. Le texte combine drapeau + nom pour une lecture immédiate.
-   * Liste filtrée selon altitude pour éviter le coût de rendu inutile au global.
+   * Markers HTML (un par pays disponible). Liste STABLE — ne dépend que de
+   * countries (qui ne change pas après mount). L'opacité est gérée hors-React
+   * via une CSS variable sur le container parent, lue par chaque marker via
+   * `opacity: var(--label-opacity, 0)` (cf. createMarkerElement plus bas).
+   *
+   * Cette stabilité élimine le grésillement causé par le re-build du buffer
+   * 3D des labels à chaque frame de zoom (problème de la précédente impl
+   * basée sur labelsData + state altitude).
    */
-  const labels = useMemo<CountryLabel[]>(() => {
-    if (altitude >= LABEL_HIDE_ALT) return [];
-    return countries
-      .map((c) => {
-        const coords = COUNTRY_COORDS[c.slug];
-        if (!coords) return null;
-        return {
-          slug: c.slug,
-          name: c.name,
-          flag: c.flag,
-          lat: coords.lat,
-          lng: coords.lng,
-        };
-      })
-      .filter((x): x is CountryLabel => x !== null);
-  }, [countries, altitude]);
+  const htmlMarkers = useMemo<CountryLabel[]>(
+    () =>
+      countries
+        .map((c) => {
+          const coords = COUNTRY_COORDS[c.slug];
+          if (!coords) return null;
+          return {
+            slug: c.slug,
+            name: c.name,
+            flag: c.flag,
+            lat: coords.lat,
+            lng: coords.lng,
+          };
+        })
+        .filter((x): x is CountryLabel => x !== null),
+    [countries]
+  );
+
+  /**
+   * Crée l'élément DOM pour un marker. Style inline pour zéro dépendance CSS
+   * externe. L'opacité est héritée du parent via la CSS variable
+   * --label-opacity (mise à jour imperative dans handleZoom).
+   */
+  function createMarkerElement(c: CountryLabel): HTMLElement {
+    const el = document.createElement("button");
+    el.type = "button";
+    el.setAttribute(
+      "style",
+      [
+        "display: inline-flex",
+        "align-items: center",
+        "gap: 6px",
+        "padding: 4px 10px",
+        "border-radius: 9999px",
+        "background: rgba(250, 247, 242, 0.92)",
+        "backdrop-filter: blur(6px)",
+        "-webkit-backdrop-filter: blur(6px)",
+        "border: 1px solid rgba(46, 42, 38, 0.08)",
+        "box-shadow: 0 2px 8px -2px rgba(46, 42, 38, 0.18)",
+        "color: #2E2A26",
+        "font: 500 12px/1 var(--font-inter), system-ui, sans-serif",
+        "letter-spacing: -0.01em",
+        "white-space: nowrap",
+        "cursor: pointer",
+        "user-select: none",
+        "pointer-events: auto",
+        "opacity: var(--label-opacity, 0)",
+        "transition: opacity 350ms cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "transform: translate(-50%, -50%)",
+      ].join(";")
+    );
+    el.innerHTML = `<span aria-hidden style="font-size: 14px; line-height: 1">${c.flag}</span><span>${c.name}</span>`;
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      router.push(`/pays/${c.slug}`);
+    });
+    return el;
+  }
 
   function getCountryFor(d: GeoFeature | null | undefined): Country | undefined {
     if (!d || d.id === undefined || d.id === null) return undefined;
@@ -293,28 +344,28 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           ringPropagationSpeed={1.6}
           ringRepeatPeriod={1700}
           ringAltitude={0.018}
-          // === LABELS DYNAMIQUES — apparaissent au zoom ===
-          labelsData={labels}
-          labelLat={(d: object) => (d as CountryLabel).lat}
-          labelLng={(d: object) => (d as CountryLabel).lng}
-          labelText={(d: object) =>
-            `${(d as CountryLabel).flag} ${(d as CountryLabel).name}`
-          }
-          labelColor={() => {
-            const a = labelOpacity(altitude);
-            // Ink (#2E2A26) avec alpha dynamique
-            return `rgba(46, 42, 38, ${a.toFixed(2)})`;
+          // === HTML MARKERS — pill DOM avec drapeau emoji + nom du pays ===
+          // Utilise des éléments DOM (pas la TextGeometry 3D de Three.js qui
+          // affichait des "?" pour les drapeaux emoji absents de la typeface).
+          // L'opacité est gérée hors-React via CSS variable pour zéro re-render.
+          htmlElementsData={htmlMarkers}
+          htmlLat={(d: object) => (d as CountryLabel).lat}
+          htmlLng={(d: object) => (d as CountryLabel).lng}
+          htmlAltitude={0.01}
+          htmlElement={(d: object) => createMarkerElement(d as CountryLabel)}
+          htmlTransitionDuration={300}
+          // === TRACKING ALTITUDE — mise à jour IMPÉRATIVE de l'opacité ===
+          // Pas de setState → pas de re-render → pas de grésillement.
+          // Update seuillée : ne touche au DOM que si Δopacité >= 0.04.
+          onZoom={(pov: { altitude: number }) => {
+            const next = labelOpacity(pov.altitude);
+            if (Math.abs(next - lastLabelOpacityRef.current) < 0.04) return;
+            lastLabelOpacityRef.current = next;
+            containerRef.current?.style.setProperty(
+              "--label-opacity",
+              next.toFixed(2)
+            );
           }}
-          labelSize={0.6}
-          labelDotRadius={0.18}
-          labelAltitude={0.02}
-          labelResolution={2}
-          labelsTransitionDuration={300}
-          onLabelClick={(d: object) => {
-            router.push(`/pays/${(d as CountryLabel).slug}`);
-          }}
-          // === TRACKING ALTITUDE pour fade des labels ===
-          onZoom={(pov: { altitude: number }) => setAltitude(pov.altitude)}
           onGlobeReady={() => setReady(true)}
         />
 

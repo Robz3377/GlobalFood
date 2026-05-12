@@ -19,9 +19,7 @@ const WorldGlobe = dynamic(
 
 /**
  * WorldMapClient — wrapper Client qui charge dynamiquement WorldGlobe (ssr:
- * false car le globe utilise three.js/WebGL). Le décor flottant
- * (FloatingDecor) est rendu en dehors par la page parent pour qu'il soit
- * présent dès le SSR sans dépendre de l'hydratation de ce client component.
+ * false car le globe utilise three.js/WebGL).
  */
 export function WorldMapClient({ countries }: { countries: Country[] }) {
   const params = useSearchParams();
