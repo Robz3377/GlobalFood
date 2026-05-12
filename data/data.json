@@ -727,7 +727,16 @@
             "Goûter, rectifier le sel (attention : citron confit + olives apportent déjà du sel), parsemer de la coriandre/persil restants et servir avec du pain marocain (khobz) tiède."
           ],
           "story": "Le citron beldi confit au sel est une signature marocaine née de la nécessité de conserver les agrumes d'hiver.",
-          "chefSecret": "La marinade longue (4 h minimum, idéalement 12 h) au safran et gingembre frais est non négociable — c'est elle qui imprègne la chair. Et la réduction finale à découvert jusqu'à obtenir une sauce sirupeuse qui caramélise légèrement la peau du poulet est ce qui distingue un tajine de palace marrakchi d'un poulet en cocotte."
+          "chefSecret": "La marinade longue (4 h minimum, idéalement 12 h) au safran et gingembre frais est non négociable — c'est elle qui imprègne la chair. Et la réduction finale à découvert jusqu'à obtenir une sauce sirupeuse qui caramélise légèrement la peau du poulet est ce qui distingue un tajine de palace marrakchi d'un poulet en cocotte.",
+          "simplifiedSteps": [
+            "Mets le safran dans 30 ml d'eau chaude pendant 10 min. Mélange-le avec le gingembre, le curcuma, l'ail écrasé, la moitié de la coriandre et du persil, 20 ml d'huile, du sel et du poivre.",
+            "Enduis les cuisses de poulet avec cette préparation. Filme et mets au frigo 4 h MINIMUM (toute une nuit c'est encore mieux).",
+            "Dans le tajine ou une grosse cocotte, fais cuire les oignons rouges 10 min à feu doux dans 20 ml d'huile. Ils doivent fondre SANS prendre de couleur.",
+            "Pose les cuisses sur les oignons (peau vers le haut). Verse la marinade restante et le bouillon de poulet chaud jusqu'à mi-hauteur. Couvre et laisse cuire 50 min à TOUT PETIT feu. Retourne les cuisses à mi-cuisson.",
+            "Pendant ce temps, plonge les olives 5 min dans l'eau bouillante pour enlever le trop de sel. Coupe les citrons confits : enlève la pulpe, taille la peau en fines lamelles.",
+            "Enlève le couvercle, ajoute les olives et les lamelles de citron. Continue 15 min SANS couvercle pour que la sauce épaississe et devienne brillante comme un sirop ambré.",
+            "Goûte. Sale très peu (le citron confit et les olives sont déjà bien salés). Parsème le reste de coriandre/persil et sers avec du pain marocain (khobz) tiède."
+          ]
         },
         {
           "slug": "couscous-legumes",
@@ -874,7 +883,20 @@
             "DRESSAGE EN DÔME (la tradition marocaine) : disposer la semoule en grand dôme sur un plat à couscous. Faire un creux au sommet. Y disposer les légumes dans un ordre de couleurs alternées (rouge tomate, orange potiron, vert courgettes/chou). Disposer les pois chiches autour. Servir le bouillon clair à part dans un grand bol pour que chacun en arrose à sa convenance. Parsemer coriandre et persil ciselés."
           ],
           "story": "Le couscous est inscrit au patrimoine immatériel de l'UNESCO depuis 2020. La règle marocaine du chiffre SEPT n'est pas anecdotique : 7 est sacré (les 7 saints de Marrakech, les 7 ciels de l'islam) et porte chance — un dîner de couscous à 7 légumes est censé apporter la barakah (bénédiction) à ceux qui le partagent. Au Maroc, le vendredi midi est le jour canonique du couscous familial.",
-          "chefSecret": "Trois clés des dadas (cuisinières traditionnelles) marocaines : (1) PELER LES POIS CHICHES après trempage en frottant entre les paumes — la peau translucide rend le bouillon trouble et un bouillon trouble est rédhibitoire ; (2) LES 3 VAPEURS NON NÉGOCIABLES — chaque vapeur gonfle la semoule, l'aération entre chaque permet aux grains de rester séparés ; sauter une vapeur = couscous compact ; (3) LE SMEN EN FINITION — ce beurre fermenté marocain (à défaut, ghee + 1 g de fenouil moulu) parfume la semoule d'une note légèrement piquante caractéristique. Sans lui, c'est une semoule à la marocaine, pas un vrai couscous des dadas."
+          "chefSecret": "Trois clés des dadas (cuisinières traditionnelles) marocaines : (1) PELER LES POIS CHICHES après trempage en frottant entre les paumes — la peau translucide rend le bouillon trouble et un bouillon trouble est rédhibitoire ; (2) LES 3 VAPEURS NON NÉGOCIABLES — chaque vapeur gonfle la semoule, l'aération entre chaque permet aux grains de rester séparés ; sauter une vapeur = couscous compact ; (3) LE SMEN EN FINITION — ce beurre fermenté marocain (à défaut, ghee + 1 g de fenouil moulu) parfume la semoule d'une note légèrement piquante caractéristique. Sans lui, c'est une semoule à la marocaine, pas un vrai couscous des dadas.",
+          "simplifiedSteps": [
+            "Démarre le bouillon 1 h 30 avant de servir. Dans une couscoussière (ou grande marmite), fais cuire les oignons émincés dans 30 ml d'huile d'olive 8 min à feu moyen. Ajoute l'ail, cuis 1 min.",
+            "Ajoute les tomates pelées coupées en morceaux, 1 cuillère de concentré de tomate, le gingembre, le curcuma, le ras el hanout (mélange d'épices marocain), le cumin et un peu de safran trempé dans 30 ml d'eau chaude. Mélange et cuis 5 min pour libérer les parfums.",
+            "Verse 2 L d'eau, sale, fais bouillir. Ajoute les pois chiches égouttés. ASTUCE DE MAMIE : frotte-les entre tes paumes avant pour enlever leur petite peau translucide (sinon le bouillon devient trouble).",
+            "Laisse cuire 30 min à feu moyen. Ajoute carottes et navets (les plus longs à cuire). Continue 15 min.",
+            "Ajoute chou vert, courgettes, aubergines, potiron. Cuis encore 15 min. Les légumes doivent être tendres mais ENTIERS (pas écrasés en purée).",
+            "La semoule (méthode marocaine en 3 vapeurs) : verse-la dans un grand plat creux. Mouille-la avec 200 ml d'eau salée. Mélange à la main en faisant rouler les grains pour qu'ils ne collent pas. Laisse reposer 10 min : les grains gonflent.",
+            "1ère vapeur : verse la semoule dans le panier de la couscoussière (au-dessus du bouillon). Cuis 20 min à la vapeur SANS couvrir.",
+            "Sors la semoule, étale-la sur le plat. Arrose-la de 100 ml d'eau froide salée et 20 ml d'huile. Roule entre tes paumes pour aérer et défaire les paquets. Repos 10 min.",
+            "2ème vapeur : 15 min. Aère à nouveau avec 100 ml d'eau et 10 ml d'huile.",
+            "3ème vapeur : 15 min. Cette fois-ci, aère avec le SMEN (beurre fermenté marocain — l'âme du couscous). Roule entre les paumes.",
+            "Le dressage en dôme (tradition marocaine) : pose la semoule en grand dôme sur un plat à couscous. Creuse au sommet, mets les légumes dedans dans un ordre de couleurs alternées (rouge tomate, orange potiron, vert chou/courgettes). Dispose les pois chiches autour. Le bouillon se sert à part dans un grand bol — chacun en arrose à son goût. Parsème de coriandre et persil ciselés."
+          ]
         },
         {
           "slug": "pastilla-poulet",
@@ -1012,7 +1034,20 @@
             "DÉCORATION (signature visuelle) : saupoudrer généreusement de sucre glace au tamis. Tracer des bandes de cannelle au pinceau ou au pochoir sur la surface (motifs croisillons, rosaces ou losanges). Servir immédiatement, BRÛLANT — le contraste entre le sucre glace, la viande salée-épicée et les amandes croquantes EST la signature de la pastilla."
           ],
           "story": "Plat des grandes occasions marocaines (mariages, naissances, Ramadan, fêtes) hérité de la cuisine andalouse de Cordoue qui arriva au Maroc avec les Maures expulsés d'Espagne au XVᵉ siècle. La pastilla originale était au pigeon — sa version au poulet est apparue au XXᵉ siècle pour la rendre accessible. Choumicha (la chef-icône de la TV marocaine) la considère comme 'le plat le plus difficile à exécuter parfaitement' de la cuisine du palais.",
-          "chefSecret": "Le secret signature de la pastilla : le SUCRE GLACE + CANNELLE en finition est non négociable. Beaucoup de cuisines occidentales le considèrent comme bizarre (sucré sur du salé), mais c'est précisément ce contraste qui définit la pastilla. La sauce d'oignons doit être réduite à l'état de CONFITURE (presque sèche) — sinon les feuilles se ramollissent. Et les amandes doivent être torréfiées d'abord (pas seulement mondées) — la torréfaction libère leurs huiles et apporte la note de noisette caractéristique. Servez bouillant, jamais tiède : la pastilla ne se réchauffe pas."
+          "chefSecret": "Le secret signature de la pastilla : le SUCRE GLACE + CANNELLE en finition est non négociable. Beaucoup de cuisines occidentales le considèrent comme bizarre (sucré sur du salé), mais c'est précisément ce contraste qui définit la pastilla. La sauce d'oignons doit être réduite à l'état de CONFITURE (presque sèche) — sinon les feuilles se ramollissent. Et les amandes doivent être torréfiées d'abord (pas seulement mondées) — la torréfaction libère leurs huiles et apporte la note de noisette caractéristique. Servez bouillant, jamais tiède : la pastilla ne se réchauffe pas.",
+          "simplifiedSteps": [
+            "Pour la farce de poulet : dans une grande cocotte, fais chauffer 30 ml d'huile d'olive avec 50 g de beurre. Fais dorer les morceaux de poulet 8 min à feu vif sur toutes les faces.",
+            "Ajoute les oignons, l'ail, le gingembre, 5 g de cannelle, le curcuma, le safran (trempé 5 min dans 1 cuillère d'eau chaude), 200 ml d'eau, sel et poivre. Couvre et laisse cuire doucement 45 min : la viande doit se détacher de l'os toute seule.",
+            "Sors le poulet de la cocotte. Enlève la peau et les os (jette-les). Effiloche la chair finement à la fourchette. Réserve.",
+            "Fais BIEN RÉDUIRE la sauce aux oignons SANS couvercle pendant 15 min : elle doit devenir une 'confiture' épaisse, presque sèche. ATTENTION : si la sauce reste liquide, la pastilla sera détrempée.",
+            "Les œufs brouillés dans la sauce : ajoute les 6 œufs battus dans les oignons réduits. Remue sans arrêt à feu doux pendant 3 min : les œufs forment des petits filaments dans les oignons. Hors du feu, ajoute les herbes ciselées. Réserve.",
+            "Pour la garniture aux amandes : passe les amandes au four 7 min à 150 °C en remuant. Laisse refroidir. Mixe-les par à-coups pour obtenir une poudre grossière (genre sable, pas une poudre fine). Mélange avec 50 g de sucre glace, 5 g de cannelle et 20 ml d'eau de fleur d'oranger.",
+            "Le montage : préchauffe le four à 200 °C. Beurre un moule rond de 26 cm. Pose 1 feuille de brick au centre et badigeonne-la au beurre fondu. Continue avec 5 autres feuilles qui se chevauchent et dépassent du moule (effet rosace).",
+            "Étale la moitié du poulet effiloché. Recouvre avec la moitié de la garniture amandes. Étale toute la sauce d'oignons aux œufs. Ajoute le reste de poulet et le reste d'amandes.",
+            "Replie les feuilles qui dépassent vers le centre comme un emballage cadeau. Recouvre de 4 feuilles supplémentaires beurrées en sceau, soudées au jaune d'œuf battu (le jaune empêche que ça s'ouvre au four).",
+            "Enfourne 25 min à 200 °C jusqu'à ce que ce soit bien doré. Démoule chaud sur un plat de service.",
+            "La décoration (la signature visuelle) : saupoudre généreusement de sucre glace au tamis. Dessine des bandes de cannelle au pinceau ou avec un pochoir (croisillons, rosaces ou losanges). Sers TOUT DE SUITE, BRÛLANT — c'est le contraste entre le sucre glace, la viande salée-épicée et les amandes croquantes qui fait toute la magie de la pastilla."
+          ]
         },
         {
           "slug": "harira",
@@ -1157,7 +1192,20 @@
             "Goûter, rectifier sel/poivre/jus de citron selon goût. Servir BRÛLANT dans des bols traditionnels, accompagné de quartiers de citron à presser, dattes Medjool, chebakia (gâteau au miel) et œufs durs — c'est la table type du Ramadan pour le ftour (rupture du jeûne)."
           ],
           "story": "Soupe nationale du Maroc, la harira est l'élément central du ftour pendant le Ramadan : c'est elle qui rompt le jeûne après le coucher du soleil. Sa composition complète (protéines + légumineuses + céréales + légumes + acide du citron) en fait un aliment idéal pour reprendre des forces après une journée sans manger. La version 'fassia' (de Fès) est la plus codifiée.",
-          "chefSecret": "Trois techniques de dada (cuisinières traditionnelles) : (1) PELER LES POIS CHICHES après trempage — un bouillon trouble est inacceptable en harira ; (2) HACHER LA CORIANDRE/PERSIL ENTIERS (tiges incluses) — ce hachis fin est la signature aromatique, on doit pouvoir tracer la couleur verte dans la soupe rouge ; (3) LA TADOUIRA AVEC JUS DE CITRON — beaucoup de recettes occidentales l'oublient, mais c'est ce qui empêche la formation de grumeaux ET ce qui donne la note acidulée caractéristique. La harira se bonifie en réchauffant : préparez-la la veille pour servir le lendemain — les saveurs s'arrondissent et la texture se stabilise."
+          "chefSecret": "Trois techniques de dada (cuisinières traditionnelles) : (1) PELER LES POIS CHICHES après trempage — un bouillon trouble est inacceptable en harira ; (2) HACHER LA CORIANDRE/PERSIL ENTIERS (tiges incluses) — ce hachis fin est la signature aromatique, on doit pouvoir tracer la couleur verte dans la soupe rouge ; (3) LA TADOUIRA AVEC JUS DE CITRON — beaucoup de recettes occidentales l'oublient, mais c'est ce qui empêche la formation de grumeaux ET ce qui donne la note acidulée caractéristique. La harira se bonifie en réchauffant : préparez-la la veille pour servir le lendemain — les saveurs s'arrondissent et la texture se stabilise.",
+          "simplifiedSteps": [
+            "Pèle les pois chiches (astuce de mamie) : après leur trempage de 24 h, frotte-les entre tes paumes sous l'eau pour enlever leur petite peau translucide. Égoutte. Sans cette étape, le bouillon serait trouble.",
+            "Cisèle TRÈS fin les bouquets de coriandre et de persil ENTIERS (tiges comprises — c'est là qu'il y a le plus de parfum). Hache au robot avec les oignons et le céleri pour obtenir un hachis très fin.",
+            "Dans une grande marmite, chauffe 40 ml d'huile d'olive. Ajoute le hachis aromatique (oignons + céleri + coriandre + persil + viande). Fais suer 10 min à feu moyen SANS prendre trop de couleur.",
+            "Ajoute les épices : safran (trempé 5 min dans 30 ml d'eau chaude), gingembre, curcuma, cannelle, poivre. Cuis 2 min en remuant. Les épices doivent libérer leurs arômes SANS brûler.",
+            "Ajoute les tomates concassées + le concentré de tomate. Mélange. Cuis 8 min à feu moyen jusqu'à ce que les tomates fondent et que l'huile remonte à la surface.",
+            "Verse 2 L d'eau bouillante, ajoute les pois chiches pelés. Sale. Porte à frémissement, couvre à moitié et laisse cuire 1 h à petit feu.",
+            "Ajoute les lentilles, continue 20 min. Les pois chiches doivent être tendres mais entiers, les lentilles cuites mais pas éclatées.",
+            "Ajoute les vermicelles, cuis 5 min.",
+            "La tadouira (la signature, indispensable pour la texture) : dans un bol, fouette ÉNERGIQUEMENT 50 g de farine avec 250 ml d'eau froide et 25 ml de jus de citron jusqu'à ce que ce soit parfaitement lisse, SANS grumeaux. Le jus de citron 'cuit' légèrement la farine et empêche les grumeaux dans la soupe.",
+            "Verse la tadouira EN PETIT FILET dans la harira en remuant sans arrêt au fouet (sinon des grumeaux). Cuis 5 min à feu moyen en remuant. La soupe doit s'épaissir et 'napper la cuillère' (test : trace une ligne au doigt sur la cuillère, elle doit rester visible).",
+            "Goûte, ajuste sel/poivre/jus de citron à ton goût. Sers BRÛLANT dans des bols traditionnels, avec des quartiers de citron à presser, des dattes Medjool, de la chebakia (gâteau au miel) et des œufs durs. C'est la table type du Ramadan pour le ftour (rupture du jeûne)."
+          ]
         },
         {
           "slug": "briouates",
@@ -1258,7 +1306,21 @@
             "Laisser totalement refroidir avant de servir (le miel se cristallise légèrement et donne le craquant signature). Conservation : jusqu'à 1 mois en boîte hermétique au frais."
           ],
           "story": "Pâtisserie incontournable des grandes fêtes marocaines (Ramadan, mariages, Aïd) et symbole de l'hospitalité. Le mot 'briouate' vient du diminutif du mot 'breka' (lettres) : les pliages traditionnels en triangles ou en cigares évoquaient les pliages des lettres royales scellées à l'époque mérinide.",
-          "chefSecret": "Trois finesses des pâtissières marocaines : (1) AMANDES TORRÉFIÉES PUIS MIXÉES GROSSIÈREMENT — la torréfaction libère les huiles aromatiques (différence vs amandes en poudre achetée toute prête, qui sont plates en goût) ; (2) MIEL TIÈDE JAMAIS BOUILLI — au-dessus de 70 °C, le miel cristallise au refroidissement et devient amer-cristallisé ; (3) PLONGÉE IMMÉDIATE AU SORTIR DE LA FRITURE — les briouates encore brûlantes absorbent le miel en surface ; tièdes, elles le repoussent et se contentent d'une couche superficielle. Pour le service de fête, ajoutez une pincée de mastic (gomme arabique en grains pilée) à la farce — c'est la note 'orientale' subtile que l'on trouve dans les briouates de palais."
+          "chefSecret": "Trois finesses des pâtissières marocaines : (1) AMANDES TORRÉFIÉES PUIS MIXÉES GROSSIÈREMENT — la torréfaction libère les huiles aromatiques (différence vs amandes en poudre achetée toute prête, qui sont plates en goût) ; (2) MIEL TIÈDE JAMAIS BOUILLI — au-dessus de 70 °C, le miel cristallise au refroidissement et devient amer-cristallisé ; (3) PLONGÉE IMMÉDIATE AU SORTIR DE LA FRITURE — les briouates encore brûlantes absorbent le miel en surface ; tièdes, elles le repoussent et se contentent d'une couche superficielle. Pour le service de fête, ajoutez une pincée de mastic (gomme arabique en grains pilée) à la farce — c'est la note 'orientale' subtile que l'on trouve dans les briouates de palais.",
+          "simplifiedSteps": [
+            "Passe les amandes au four (la clé du goût) : étale les 300 g d'amandes mondées sur une plaque, enfourne 7 min à 150 °C en chaleur tournante. Remue à mi-cuisson. Elles doivent juste blondir (PAS brunir) et sentir bon la noisette.",
+            "Laisse refroidir complètement. Mixe-les par à-coups pour obtenir une poudre grossière (texture sable, PAS une poudre fine — les morceaux donnent du croquant).",
+            "La farce : dans un saladier, mélange les amandes mixées, le sucre glace, la cannelle, le mastic pilé (si tu en as), 50 g de beurre fondu et 30 ml d'eau de fleur d'oranger. Travaille à la main jusqu'à obtenir une pâte qui se tient (test : forme une boule de la taille d'une noix qui ne se fissure pas).",
+            "Forme 32 boules de la taille d'une grosse noix (environ 13 g chacune).",
+            "Découpe les feuilles : superpose 2-3 feuilles de brick à la fois et coupe-les en 4 bandes égales (22 cm de long sur 6 cm de large). Couvre d'un torchon humide pour qu'elles ne sèchent pas.",
+            "Le pliage en triangle (la technique signature) : prends 1 bande, badigeonne-la légèrement de beurre fondu. Pose 1 boule de farce à 2 cm d'une extrémité. Replie la pointe sur la boule pour faire un triangle. CONTINUE à plier en triangle (comme un drapeau de scout, en tournant à chaque pli) jusqu'au bout de la bande.",
+            "Colle le dernier coin avec un peu de jaune d'œuf battu. Réserve sous un torchon le temps de plier toutes les briouates.",
+            "Prépare le bain de miel : dans une petite casserole large, chauffe le miel + 30 ml de fleur d'oranger à TOUT PETIT feu jusqu'à ce qu'il devienne fluide (60-70 °C maximum — JAMAIS bouillir, sinon le miel cristallise et devient amer). Garde tiède.",
+            "La friture : chauffe 600 ml d'huile dans une casserole haute à 175 °C (test : un bout de pâte qui dore en 30 sec). Fais frire les briouates par lots de 6, 2-3 min en les retournant à mi-cuisson, jusqu'à belle couleur caramel uniforme.",
+            "Égoutte-les sur une grille (PAS du papier absorbant : la chaleur ramollit). Puis TOUT DE SUITE (encore brûlantes), plonge-les dans le miel tiède 20-30 secondes en les retournant à la pince pour bien les enrober.",
+            "Égoutte sur une grille au-dessus d'un plat (récupère le miel qui coule). Saupoudre TOUT DE SUITE de graines de sésame torréfiées : elles collent au miel.",
+            "Laisse refroidir complètement avant de servir : le miel cristallise légèrement et donne le craquant signature. Conservation : jusqu'à 1 mois dans une boîte hermétique au frais."
+          ]
         }
       ]
     },
@@ -1397,7 +1459,19 @@
             "Accompagner d'une salsa rouge piquante (option), de petits radis et limettes mexicaines."
           ],
           "story": "Né à Mexico dans les années 1930 de la rencontre entre immigrés libanais (qui apportèrent le shawarma rotatif) et la cuisine mexicaine. Le porc remplaça l'agneau du shawarma, l'achiote remplaça les épices levantines, et l'ananas fut posé au sommet du 'trompo' (broche verticale rotative) pour que son jus arrose la viande pendant la cuisson. C'est aujourd'hui le taco le plus emblématique de la street food mexicaine.",
-          "chefSecret": "Trois clés des taquerías de Mexico : (1) JUS D'ANANAS dans la marinade — la bromélaïne (enzyme protéolytique) attendrit la viande sans qu'on en sente le goût après cuisson. SUR-mariner au-delà de 24 h transforme la viande en bouillie : respecter le timing ; (2) PIMENTS GRILLÉS À SEC AVANT RÉHYDRATATION — 30 secondes en poêle libère leurs huiles essentielles fumées (technique 'tatemar') ; sans ça, la marinade est plate ; (3) HACHAGE GROSSIER POST-CUISSON sur planche — c'est ce qui mélange les bords caramélisés noirs avec les morceaux roses tendres, et c'est cette mosaïque qu'on glisse dans la tortilla. Au 'trompo' vertical, le taquero le rase à la machette : à la maison, planche + couteau lourd font le même travail."
+          "chefSecret": "Trois clés des taquerías de Mexico : (1) JUS D'ANANAS dans la marinade — la bromélaïne (enzyme protéolytique) attendrit la viande sans qu'on en sente le goût après cuisson. SUR-mariner au-delà de 24 h transforme la viande en bouillie : respecter le timing ; (2) PIMENTS GRILLÉS À SEC AVANT RÉHYDRATATION — 30 secondes en poêle libère leurs huiles essentielles fumées (technique 'tatemar') ; sans ça, la marinade est plate ; (3) HACHAGE GROSSIER POST-CUISSON sur planche — c'est ce qui mélange les bords caramélisés noirs avec les morceaux roses tendres, et c'est cette mosaïque qu'on glisse dans la tortilla. Au 'trompo' vertical, le taquero le rase à la machette : à la maison, planche + couteau lourd font le même travail.",
+          "simplifiedSteps": [
+            "La marinade (la veille) : fais griller à sec dans une poêle les piments guajillo et ancho, 30 sec par face. Juste assez pour libérer leurs arômes, SANS BRÛLER. Couvre-les d'eau bouillante et laisse-les ramollir 30 min.",
+            "Mixe les piments ramollis avec la pâte d'achiote, le jus d'ananas, le vinaigre, l'ail, 1/2 oignon blanc, l'origan, le cumin, la cannelle, les clous, l'anis, le sel et 30 ml d'huile. Tu dois obtenir une marinade rouge brique épaisse et lisse.",
+            "Dispose les tranches de porc dans un grand plat. Recouvre-les ENTIÈREMENT de marinade en enrobant bien chaque morceau. Filme et mets au frigo 12 h MINIMUM (24 h c'est encore mieux).",
+            "Le jour du repas : coupe l'ananas en tranches d'1 cm. Émince finement le 1/2 oignon blanc restant. Cisèle la coriandre.",
+            "La cuisson du porc (à la poêle, à défaut du 'trompo' vertical traditionnel) : chauffe une grande poêle ou plancha à FEU TRÈS VIF. Saisis les tranches en plusieurs fois, 90 secondes par face. La marinade doit caraméliser et même noircir un peu sur les bords (c'est l'effet 'al pastor' = \"du berger\", grillé). Réserve au chaud.",
+            "Grille l'ananas : dans la même poêle déglacée, fais griller les tranches d'ananas 2 min par face jusqu'à belles marques de caramel. Coupe-les en petits dés.",
+            "Hache grossièrement le porc grillé en petits morceaux (pas en cubes, plutôt en lanières-mosaïque pour bien voir les bords caramélisés).",
+            "Les tortillas : chauffe chaque tortilla 30 sec par face dans une poêle SÈCHE bien chaude. Elle doit gonfler et marquer légèrement. JAMAIS d'huile : la vraie tortilla mexicaine se chauffe à sec.",
+            "Le dressage (à la taquería) : dans chaque tortilla chaude, mets 2 cuillères de porc, 1 cuillère de dés d'ananas grillé, un peu d'oignon blanc cru ciselé fin et de la coriandre. Sers un quartier de citron vert à presser au dernier moment.",
+            "Accompagne d'une salsa rouge bien piquante (optionnel), de petits radis et de limettes mexicaines."
+          ]
         },
         {
           "slug": "guacamole-totopos",
@@ -1485,7 +1559,20 @@
             "Pour conservation courte (max 2 h) : presser un film alimentaire DIRECTEMENT au contact de la surface (zéro air), garder au frais. Au-delà, c'est une bouillie marron."
           ],
           "story": "Mot dérivé du nahuatl 'āhuacamolli' (āhuacatl = avocat + molli = sauce), le guacamole remonte aux Aztèques bien avant la colonisation espagnole. Le frère Bernardino de Sahagún le décrivait dès 1565. Symbole de la cuisine mexicaine moderne, il est servi dans le molcajete ('mortar' en náhuatl) en pierre volcanique qui en est l'écrin traditionnel.",
-          "chefSecret": "Trois règles des guacamoleros de Mexico : (1) OIGNON BLANC, PAS ROUGE — l'oignon rouge est plus doux mais a une note sucrée qui déséquilibre ; le blanc apporte le mordant nécessaire. Beaucoup de recettes occidentales utilisent rouge par habitude française, c'est une erreur ; (2) ORDRE STRICT MOLCAJETE — oignon+piment+sel D'ABORD pilés, PUIS coriandre, PUIS avocat. Tout mélanger en même temps = saveurs plates ; (3) CITRON VERT EN PETITE QUANTITÉ — c'est un anti-oxydant et un rehausseur, pas le goût principal. Au-delà de 15 ml pour 3 avocats, vous tuez la finesse de l'avocat. Et SERVIR IMMÉDIATEMENT : le guacamole a une fenêtre de dégustation de 15 min, après quoi il commence à oxyder même sous film. Ne le préparez JAMAIS à l'avance pour un dîner."
+          "chefSecret": "Trois règles des guacamoleros de Mexico : (1) OIGNON BLANC, PAS ROUGE — l'oignon rouge est plus doux mais a une note sucrée qui déséquilibre ; le blanc apporte le mordant nécessaire. Beaucoup de recettes occidentales utilisent rouge par habitude française, c'est une erreur ; (2) ORDRE STRICT MOLCAJETE — oignon+piment+sel D'ABORD pilés, PUIS coriandre, PUIS avocat. Tout mélanger en même temps = saveurs plates ; (3) CITRON VERT EN PETITE QUANTITÉ — c'est un anti-oxydant et un rehausseur, pas le goût principal. Au-delà de 15 ml pour 3 avocats, vous tuez la finesse de l'avocat. Et SERVIR IMMÉDIATEMENT : le guacamole a une fenêtre de dégustation de 15 min, après quoi il commence à oxyder même sous film. Ne le préparez JAMAIS à l'avance pour un dîner.",
+          "simplifiedSteps": [
+            "Le molcajete (mortier mexicain en pierre volcanique) : si tu en as un neuf, il faut le 'curer' une fois pour la vie : pile du riz cru jusqu'à ce qu'il devienne blanc, puis pile ail + oignon + sel pour développer la patine. À défaut, un grand bol + une fourchette font l'affaire.",
+            "L'ordre exact (la signature) : cisèle très fin l'oignon blanc, hache fin la coriandre (juste les feuilles), épépine et hache fin les piments serrano.",
+            "Phase 1 — base aromatique : mets dans le molcajete l'oignon ciselé + 1 piment serrano (garde l'autre pour ajuster le piquant après) + 4 g de sel fin. Pile 1 min jusqu'à obtenir une pâte humide grossière. Les huiles essentielles se libèrent dans la pierre et imprègnent toute la suite.",
+            "Ajoute la coriandre, pile 30 secondes pour bien l'incorporer.",
+            "Phase 2 — les avocats : coupe-les en 2, retire les noyaux (GARDE-EN UN pour la déco). Prélève la chair à la cuillère. Dépose-la dans le molcajete sur la base aromatique.",
+            "Écrase à la fourchette ou au pilon par mouvements DOUX et BREFS. Le vrai guacamole reste GRUMELEUX — on doit voir les morceaux d'avocat. JAMAIS lisse comme une purée. La fourchette écrase, la main qui la tient mélange du fond vers le dessus pour bien enrober.",
+            "Goûte. Ajoute UN PEU de jus de citron vert (15 ml maximum) : il ne doit pas dominer. Ajuste le sel. Si ça ne pique pas assez, hache et ajoute le 2ème serrano. Mélange 5 secondes, pas plus.",
+            "Option Yucatán : ajoute la tomate concassée et égouttée juste avant de servir. C'est une tradition régionale, pas obligatoire dans la version Mexico.",
+            "Les totopos (chips de maïs maison) : coupe les 8 tortillas de maïs en 6 triangles chacune (48 chips). Chauffe 100 ml d'huile dans une poêle à 175 °C. Fais frire les triangles par lots de 12 environ 1 min jusqu'à dorure légère et croustillance. Égoutte sur papier absorbant, sale tout de suite.",
+            "Le dressage final : laisse le guacamole DANS LE MOLCAJETE pour servir (la pierre chaude = température parfaite). Plante le noyau d'avocat dedans (c'est un mythe, ça ne ralentit pas vraiment l'oxydation, mais c'est joli). Sers TOUT DE SUITE avec les totopos chauds croustillants : un vrai guacamole se mange dans les 15 minutes après préparation.",
+            "Pour conserver un peu (max 2 h) : presse un film alimentaire DIRECTEMENT au contact du guacamole (zéro air). Mets au frais. Au-delà, c'est une bouillie marron."
+          ]
         },
         {
           "slug": "mole-poblano",
@@ -1664,7 +1751,24 @@
             "SERVICE : disposer les cuisses sur des assiettes plates préchauffées, napper généreusement de sauce mole. Saupoudrer de graines de sésame torréfiées. Accompagner de riz à la mexicaine et de tortillas chaudes pour saucer (le rituel mexicain veut qu'on TARTINE chaque bouchée de mole sur de la tortilla)."
           ],
           "story": "Plat national du Mexique, inscrit au patrimoine immatériel UNESCO depuis 2010. La légende la plus populaire situe sa création en 1681 au couvent de Santa Rosa de Puebla : Sœur Andrea de la Asunción, sommée de préparer un plat exceptionnel pour la visite surprise de l'archevêque Manuel Fernández de Santa Cruz, mélangea dans un moment d'angoisse tout ce qui restait dans la cuisine du couvent — piments, chocolat, cacahuètes, amandes, épices. Le résultat conquit l'archevêque et devint le mole poblano. Aujourd'hui, chaque famille mexicaine de Puebla a SA recette de mole, jalousement gardée et transmise de mère en fille (les recettes peuvent contenir jusqu'à 30 ingrédients).",
-          "chefSecret": "Trois clés des moleras (cuisinières mexicaines spécialistes du mole) : (1) GRILLER LES PILES À SEC PUIS RÉHYDRATER — le 'tatemar' (torréfaction) 30 sec/face libère les arômes fumés-torréfiés ; piments crus = mole plat sans complexité ; (2) MIXER PUIS PASSER AU CHINOIS FIN — la signature texture velours est non négociable. Le mole authentique est SOYEUX, JAMAIS granuleux. Cette étape demande de la patience mais fait toute la différence ; (3) MATURATION 24 H — le mole frais est bon ; le mole de la veille est SUBLIME. Les saveurs (piments, chocolat, épices, fruits secs) ont besoin de temps pour fusionner en cette complexité unique. C'est pour ça que dans les fêtes mexicaines (anniversaires, mariages, jour des morts), on prépare TOUJOURS le mole 1-2 jours à l'avance."
+          "chefSecret": "Trois clés des moleras (cuisinières mexicaines spécialistes du mole) : (1) GRILLER LES PILES À SEC PUIS RÉHYDRATER — le 'tatemar' (torréfaction) 30 sec/face libère les arômes fumés-torréfiés ; piments crus = mole plat sans complexité ; (2) MIXER PUIS PASSER AU CHINOIS FIN — la signature texture velours est non négociable. Le mole authentique est SOYEUX, JAMAIS granuleux. Cette étape demande de la patience mais fait toute la différence ; (3) MATURATION 24 H — le mole frais est bon ; le mole de la veille est SUBLIME. Les saveurs (piments, chocolat, épices, fruits secs) ont besoin de temps pour fusionner en cette complexité unique. C'est pour ça que dans les fêtes mexicaines (anniversaires, mariages, jour des morts), on prépare TOUJOURS le mole 1-2 jours à l'avance.",
+          "simplifiedSteps": [
+            "Pocher le poulet : porte 1 L de bouillon à frémissement avec 1/2 oignon, 2 gousses d'ail et du sel. Plonge les cuisses, fais-les cuire 30 min tout doucement jusqu'à tendreté. Réserve le poulet et FILTRE LE BOUILLON (il deviendra la base de la sauce).",
+            "Réhydrater les piments (étape signature) : fais griller TOUS les piments séchés à sec dans une poêle, 30 sec par face (technique 'tatemar' — ça libère les arômes torréfiés). ATTENTION : ne brûle SURTOUT PAS, sinon la sauce sera amère.",
+            "Couvre les piments grillés d'eau chaude. Laisse-les ramollir 30 min. Égoutte mais GARDE 200 ml de l'eau de trempage.",
+            "Torréfier les secs : dans la même poêle sèche, fais dorer un par un — sésame 2 min, cacahuètes 3 min, amandes 3 min, anis + clous + cumin + poivre 30 sec. Réserve chacun à part.",
+            "La base aromatique : chauffe 50 ml de saindoux dans une grande cocotte. Fais revenir l'oignon + ail 5 min. Ajoute tomates + tomatillos en quartiers, cuis 8 min jusqu'à ce qu'ils éclatent.",
+            "Mixer en plusieurs fois (étape critique pour une texture lisse) : passe tout au mixeur PUISSANT par petites portions, avec un peu de bouillon. Tu obtiens 3 pâtes : (1) piments + 200 ml d'eau de trempage = la 'pâte des piments', (2) sésame + cacahuètes + amandes + raisins + tortilla + pain = la 'pâte des secs', (3) tomates-oignon-ail-épices = la 'pâte aromatique'.",
+            "Passe CHAQUE pâte au chinois fin (étape essentielle pour la texture velours signature). Un vrai mole est SOYEUX comme une crème, SANS morceaux.",
+            "L'assemblage de la sauce : chauffe 50 ml de saindoux dans la cocotte. Verse la pâte des piments, fais-la frire 5 min en remuant : l'huile devient rouge (signature). Ajoute la pâte aromatique, cuis 5 min. Ajoute la pâte des secs, cuis 3 min.",
+            "Verse 600 ml du bouillon de pochage du poulet. Mélange ÉNERGIQUEMENT au fouet pour parfaitement homogénéiser.",
+            "L'ajout du chocolat (étape finale signature) : casse le chocolat mexicain Abuelita en morceaux et ajoute-le à la sauce avec le cacao, le sucre et le sel. ATTENTION : le chocolat dans le mole n'est PAS pour le sucré (qui reste discret) mais pour la PROFONDEUR, l'AMERTUME COMPLEXE et l'ONCTUOSITÉ. Il lie la sauce et arrondit les piments.",
+            "Le mijotage long (le secret) : couvre à moitié et laisse cuire 1 h 30 à TOUT PETIT feu en remuant toutes les 5 min. La sauce ATTACHE et BRÛLE si tu t'arrêtes. Elle doit réduire d'1/3, devenir épaisse comme une crème, brillante et brun-rouge profond.",
+            "Goûte et ajuste : sel, sucre selon ton goût. La sauce doit être COMPLEXE — épicée, fumée, légèrement amère, à peine sucrée.",
+            "Réchauffer le poulet : remets les cuisses dans la sauce, couvre et laisse cuire 15 min pour qu'elles s'imprègnent.",
+            "Le repos NON NÉGOCIABLE (la maturation) : éteins, laisse reposer COUVERT 1 h minimum. IDÉAL : prépare le mole la veille et réchauffe-le doucement le lendemain. Le mole est un des rares plats qui se BONIFIE 24-48 h après préparation.",
+            "Le service : pose les cuisses sur des assiettes plates préchauffées, nappe généreusement de mole. Saupoudre de graines de sésame torréfiées. Accompagne de riz à la mexicaine et de tortillas chaudes pour saucer (la tradition mexicaine veut qu'on TARTINE chaque bouchée de mole sur de la tortilla)."
+          ]
         },
         {
           "slug": "enchiladas-verdes",
@@ -1761,7 +1865,20 @@
             "Servir IMMÉDIATEMENT avec du riz mexicain (arroz rojo) ou des frijoles refritos."
           ],
           "story": "Plat populaire des cuisines de quartier de Mexico, particulièrement consommé au petit-déjeuner ou au brunch (enchiladas suizas avec un œuf au plat dessus). Le mot 'enchilada' vient du verbe espagnol 'enchilar' (mettre dans le piment) et désigne la tortilla trempée et roulée garnie d'une protéine, nappée de salsa.",
-          "chefSecret": "Trois différences entre un vrai 'enchilada verde' et la version Tex-Mex bâtarde : (1) LA SALSA VERDE EST FRITE DANS L'HUILE après mixage (technique de Pati Jinich, la chef-icône mexicaine) — c'est ce qui transforme une simple sauce mixée en salsa profonde, légèrement caramélisée, complexe ; (2) LES TORTILLAS PASSENT 15 SEC DANS L'HUILE CHAUDE — sans cette étape, elles se déchirent au pliage et libèrent leur amidon dans la sauce ; (3) FROMAGE ET CRÈME APRÈS CUISSON, JAMAIS GRATINÉS — l'enchilada verte authentique se sert avec queso fresco émietté + crema froide À LA SORTIE du four. Le gratinage au cheddar/Monterey Jack est la signature Tex-Mex, pas mexicaine."
+          "chefSecret": "Trois différences entre un vrai 'enchilada verde' et la version Tex-Mex bâtarde : (1) LA SALSA VERDE EST FRITE DANS L'HUILE après mixage (technique de Pati Jinich, la chef-icône mexicaine) — c'est ce qui transforme une simple sauce mixée en salsa profonde, légèrement caramélisée, complexe ; (2) LES TORTILLAS PASSENT 15 SEC DANS L'HUILE CHAUDE — sans cette étape, elles se déchirent au pliage et libèrent leur amidon dans la sauce ; (3) FROMAGE ET CRÈME APRÈS CUISSON, JAMAIS GRATINÉS — l'enchilada verte authentique se sert avec queso fresco émietté + crema froide À LA SORTIE du four. Le gratinage au cheddar/Monterey Jack est la signature Tex-Mex, pas mexicaine.",
+          "simplifiedSteps": [
+            "La salsa verde (la base) : porte une grande casserole d'eau à ébullition. Plonge les tomatillos entiers et les piments serrano. Cuis 8-10 min à frémissement jusqu'à ce que les tomatillos passent du vert vif au vert pâle olive et soient tendres (signe qu'ils sont cuits).",
+            "Égoutte en gardant 100 ml d'eau de cuisson. Mets les tomatillos + piments dans un mixeur avec l'oignon, l'ail, la coriandre, 1 cuillère de sel et 50 ml d'eau de cuisson. Mixe par à-coups pour obtenir une salsa lisse (sans morceaux).",
+            "L'étape signature de Pati Jinich — frire la salsa : chauffe 2 cuillères d'huile dans une grande sauteuse à feu moyen-vif. Quand l'huile commence à fumer légèrement, verse la salsa D'UN COUP (attention aux éclaboussures) et cuis-la 6 min en remuant sans arrêt. Elle s'épaissit, fonce un peu, ses arômes se concentrent. Goûte, ajuste le sel.",
+            "La garniture : dans un saladier, mélange le poulet effilé avec 4 cuillères de salsa verde refroidie. Sale.",
+            "Les tortillas — la technique anti-déchirure : dans une autre poêle, chauffe 1 cm d'huile à 175 °C. Passe chaque tortilla 15 secondes par face avec une pince. Elle doit s'assouplir SANS cuire complètement (juste devenir flexible et légèrement huilée, ce qui empêche qu'elle se déchire au pliage). Égoutte sur papier absorbant.",
+            "Le montage : préchauffe le four à 190 °C. Verse une fine couche de salsa verde au fond d'un plat à gratin de 20×30 cm.",
+            "Pour chaque tortilla : trempe-la RAPIDEMENT (3 secondes) dans la salsa chaude, pose-la sur une assiette, mets 1/2 cuillère bombée de poulet à la salsa au centre. Roule SANS serrer (couture vers le bas) et pose dans le plat à gratin.",
+            "Recouvre TOTALEMENT les enchiladas roulées avec le reste de salsa. Elle doit napper toute la surface, pas juste être sur les bords.",
+            "Enfourne 15 min à 190 °C juste pour réchauffer. PAS DE GRATINAGE AU FROMAGE : les enchiladas verdes mexicaines authentiques ne sont JAMAIS gratinées. C'est une déviation Tex-Mex.",
+            "À LA SORTIE DU FOUR (étape signature) : verse la crema mexicaine en filet aléatoire, parsème généreusement de queso fresco émietté, d'oignon blanc cru ciselé et de coriandre fraîche. Le contraste chaud-froid frais EST l'identité de la vraie enchilada verde mexicaine.",
+            "Sers TOUT DE SUITE avec du riz mexicain (arroz rojo) ou des haricots à la mexicaine (frijoles refritos)."
+          ]
         },
         {
           "slug": "chiles-rellenos",
@@ -1857,7 +1974,19 @@
             "Déposer chaque chile dans la sauce tomate chaude, laisser réchauffer 5 min à feu doux. Retirer les cure-dents avant de servir avec du riz blanc."
           ],
           "story": "Né à Puebla pendant la guerre d'indépendance mexicaine, le chile relleno aurait été inventé par les religieuses pour accueillir le général Iturbide — ses couleurs (vert, blanc, rouge) rappellent le drapeau national.",
-          "chefSecret": "L'huile DOIT être à 175 °C précisément : trop froide, les piments absorbent l'huile et deviennent gras ; trop chaude, la pâte brûle avant que le fromage fonde. Et surtout, monter les blancs en neige juste avant de tremper les poblanos — la mousse retombe en quelques minutes et perd sa légèreté caractéristique."
+          "chefSecret": "L'huile DOIT être à 175 °C précisément : trop froide, les piments absorbent l'huile et deviennent gras ; trop chaude, la pâte brûle avant que le fromage fonde. Et surtout, monter les blancs en neige juste avant de tremper les poblanos — la mousse retombe en quelques minutes et perd sa légèreté caractéristique.",
+          "simplifiedSteps": [
+            "Fais brûler les poblanos directement sur la flamme du gaz (ou sous le grill 5 min par face). Retourne-les à la pince jusqu'à ce que la peau soit entièrement noire et boursouflée.",
+            "Mets les poblanos brûlants dans un sac plastique bien fermé. Laisse-les suer 10 min. La vapeur décolle la peau — étape NON NÉGOCIABLE pour pouvoir la peler proprement.",
+            "Sors les piments. Frotte délicatement la peau noircie sous un filet d'eau froide pour l'enlever entièrement. Fais une fente verticale dans chaque piment. Enlève délicatement les graines et les pépins en gardant la queue et la base intactes.",
+            "Pour la salsa : mixe tomates, oignon, ail, cumin, origan et bouillon. Verse dans une sauteuse, sale, laisse cuire 15 min SANS couvercle pour que ça réduise et se concentre.",
+            "Remplis chaque poblano de fromage (environ 60 g) sans en mettre de trop. Referme la fente avec 2 cure-dents.",
+            "Monte les blancs en neige ferme avec 1 pincée de sel. Incorpore délicatement les jaunes battus à la spatule en 3 fois (SANS casser la mousse) pour obtenir une mousse aérienne.",
+            "Chauffe 3 cm d'huile dans une grande poêle à 175 °C (vérifie avec un thermomètre, ou avec un cube de pain qui doit dorer en 30 sec).",
+            "Roule chaque poblano dans la farine (tapote pour enlever le surplus). Plonge-le dans la mousse d'œufs en le retournant dans le bol pour bien le napper.",
+            "Plonge IMMÉDIATEMENT dans l'huile chaude. Fais frire 3 min par face en arrosant le dessus à la cuillère pour faire dorer uniformément. Égoutte sur papier absorbant.",
+            "Pose chaque chile dans la sauce tomate chaude. Laisse réchauffer 5 min à feu doux. Retire les cure-dents avant de servir avec du riz blanc."
+          ]
         }
       ]
     },
