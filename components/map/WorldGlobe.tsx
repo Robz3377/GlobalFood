@@ -31,11 +31,34 @@ type GlobeRef = {
 
 type Ring = { lat: number; lng: number };
 
+type CountryLabel = {
+  slug: string;
+  name: string;
+  flag: string;
+  lat: number;
+  lng: number;
+};
+
 type Props = {
   countries: Country[];
   focusSlug?: string | null;
   onFocusComplete?: (slug: string) => void;
 };
+
+/**
+ * Seuils d'altitude pour le fade des labels :
+ * - >= LABEL_HIDE_ALT : 0 (invisible)
+ * - <= LABEL_FULL_ALT : 1 (opaque)
+ * - entre : interpolation linéaire
+ */
+const LABEL_HIDE_ALT = 2.0;
+const LABEL_FULL_ALT = 1.2;
+
+function labelOpacity(altitude: number): number {
+  if (altitude >= LABEL_HIDE_ALT) return 0;
+  if (altitude <= LABEL_FULL_ALT) return 1;
+  return (LABEL_HIDE_ALT - altitude) / (LABEL_HIDE_ALT - LABEL_FULL_ALT);
+}
 
 // Solid pastel ocean material — vector / minimal look (no satellite texture)
 const OCEAN_MATERIAL = new THREE.MeshPhongMaterial({
@@ -56,6 +79,8 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
   const [size, setSize] = useState({ w: 800, h: 520 });
   const [hovered, setHovered] = useState<Country | null>(null);
   const [ready, setReady] = useState(false);
+  /** Altitude caméra courante — utilisée pour faire apparaître les labels au zoom */
+  const [altitude, setAltitude] = useState(2.2);
 
   const byIso = useMemo(() => {
     const m = new Map<string, Country>();
@@ -70,6 +95,28 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
         .filter(Boolean) as Ring[],
     [countries]
   );
+
+  /**
+   * Labels dynamiques : un label par pays disponible, positionné à son
+   * centroïde. Le texte combine drapeau + nom pour une lecture immédiate.
+   * Liste filtrée selon altitude pour éviter le coût de rendu inutile au global.
+   */
+  const labels = useMemo<CountryLabel[]>(() => {
+    if (altitude >= LABEL_HIDE_ALT) return [];
+    return countries
+      .map((c) => {
+        const coords = COUNTRY_COORDS[c.slug];
+        if (!coords) return null;
+        return {
+          slug: c.slug,
+          name: c.name,
+          flag: c.flag,
+          lat: coords.lat,
+          lng: coords.lng,
+        };
+      })
+      .filter((x): x is CountryLabel => x !== null);
+  }, [countries, altitude]);
 
   function getCountryFor(d: GeoFeature | null | undefined): Country | undefined {
     if (!d || d.id === undefined || d.id === null) return undefined;
@@ -122,9 +169,11 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
     const controls = g.controls();
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.45;
-    controls.enableZoom = false;
-    if ("minDistance" in controls) controls.minDistance = 200;
-    if ("maxDistance" in controls) controls.maxDistance = 400;
+    // Zoom activé : le user peut s'approcher et voir apparaître les labels pays.
+    // Limites strictes pour ne pas perdre le contexte global ni rentrer dans la sphère.
+    controls.enableZoom = true;
+    if ("minDistance" in controls) controls.minDistance = 180;
+    if ("maxDistance" in controls) controls.maxDistance = 360;
     g.pointOfView({ lat: 25, lng: 10, altitude: 2.2 }, 0);
   }, [ready]);
 
@@ -244,6 +293,28 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           ringPropagationSpeed={1.6}
           ringRepeatPeriod={1700}
           ringAltitude={0.018}
+          // === LABELS DYNAMIQUES — apparaissent au zoom ===
+          labelsData={labels}
+          labelLat={(d: object) => (d as CountryLabel).lat}
+          labelLng={(d: object) => (d as CountryLabel).lng}
+          labelText={(d: object) =>
+            `${(d as CountryLabel).flag} ${(d as CountryLabel).name}`
+          }
+          labelColor={() => {
+            const a = labelOpacity(altitude);
+            // Ink (#2E2A26) avec alpha dynamique
+            return `rgba(46, 42, 38, ${a.toFixed(2)})`;
+          }}
+          labelSize={0.6}
+          labelDotRadius={0.18}
+          labelAltitude={0.02}
+          labelResolution={2}
+          labelsTransitionDuration={300}
+          onLabelClick={(d: object) => {
+            router.push(`/pays/${(d as CountryLabel).slug}`);
+          }}
+          // === TRACKING ALTITUDE pour fade des labels ===
+          onZoom={(pov: { altitude: number }) => setAltitude(pov.altitude)}
           onGlobeReady={() => setReady(true)}
         />
 

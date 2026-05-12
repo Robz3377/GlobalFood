@@ -112,6 +112,113 @@ h1, h2, h3, h4, .font-serif {
   );
 }
 
+/* === MOTIFS ORGANIQUES SVG INLINE ===
+   Doodles discrets pour briser le côté "froid" sans surcharger.
+   Tous les SVG sont en data URI inlined (zéro requête HTTP) avec opacités basses.
+   Conventions : path stroke uniquement, pas de fill, 60×60 tile par motif. */
+
+/* Doodle légumes : tomate + carotte + oignon + brin de basilic (4 silhouettes) */
+.doodle-veggies {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 240'>\
+<g fill='none' stroke='%23C08552' stroke-opacity='0.10' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'>\
+<circle cx='38' cy='42' r='14'/><path d='M38 28 q3 -6 7 -4'/>\
+<path d='M150 30 q0 18 14 24 q-14 6 -14 24 q0 -18 -14 -24 q14 -6 14 -24z'/>\
+<path d='M44 158 l8 24 q10 14 22 0 l8 -24 z M55 158 q5 -10 14 0 M62 138 q0 8 6 14 M70 138 q-2 8 -6 14'/>\
+<path d='M160 130 q10 -20 30 -16 q-2 18 -16 28 q-14 -6 -14 -12z M175 116 q4 -8 12 -10'/>\
+</g></svg>");
+  background-size: 220px 220px;
+  background-repeat: repeat;
+}
+
+/* Tampons de passeport : 3 motifs cachet ronds et un cachet rectangle */
+.doodle-stamps {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 280'>\
+<g fill='none' stroke='%23A94A2C' stroke-opacity='0.08' stroke-width='1.4'>\
+<circle cx='52' cy='56' r='22'/><circle cx='52' cy='56' r='17' stroke-dasharray='2 3'/>\
+<text x='52' y='60' font-family='Georgia' font-size='10' text-anchor='middle' fill='%23A94A2C' fill-opacity='0.10' stroke='none'>VISA</text>\
+<rect x='160' y='40' width='80' height='40' rx='4' transform='rotate(-8 200 60)'/>\
+<text x='200' y='66' font-family='Georgia' font-size='10' text-anchor='middle' fill='%23A94A2C' fill-opacity='0.10' stroke='none' transform='rotate(-8 200 60)'>TOKYO 23</text>\
+<circle cx='200' cy='200' r='28' transform='rotate(12 200 200)'/>\
+<path d='M180 200 l40 0 M200 180 l0 40' stroke-opacity='0.06' transform='rotate(12 200 200)'/>\
+<circle cx='70' cy='210' r='18' stroke-dasharray='1 2'/>\
+</g></svg>");
+  background-size: 260px 260px;
+  background-repeat: repeat;
+}
+
+/* Éclaboussures d'épices : 5 points/taches dispersées (poivre, paprika, curcuma) */
+.doodle-spices {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>\
+<g fill='%23C08552' fill-opacity='0.10'>\
+<circle cx='30' cy='40' r='2'/><circle cx='40' cy='34' r='1.4'/><circle cx='25' cy='52' r='1.2'/>\
+<circle cx='160' cy='30' r='2.2'/><circle cx='150' cy='44' r='1.4'/><circle cx='168' cy='42' r='1'/>\
+<circle cx='50' cy='160' r='2'/><circle cx='40' cy='168' r='1.4'/>\
+<circle cx='170' cy='150' r='1.8'/><circle cx='160' cy='162' r='1.3'/><circle cx='178' cy='168' r='1'/>\
+<circle cx='95' cy='95' r='1.4' fill='%23C65D3A' fill-opacity='0.10'/>\
+<circle cx='105' cy='100' r='1.1' fill='%23C65D3A' fill-opacity='0.10'/>\
+</g></svg>");
+  background-size: 180px 180px;
+  background-repeat: repeat;
+}
+
+/* === ANIMATIONS PÉTILLANTES === */
+
+/* HoverPop : rebond élastique au tap/click (utile sur boutons primaires + cards) */
+@keyframes hoverPop {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(0.94); }
+  70%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.animate-hover-pop:active {
+  animation: hoverPop 350ms var(--ease-soft);
+}
+
+/* ShimmerWarm : éclair de lumière qui traverse les boutons primaires */
+@keyframes shimmerWarm {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer-warm {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.shimmer-warm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  animation: shimmerWarm 3.5s var(--ease-soft) infinite;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+
+.shimmer-warm > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Float : pour les décorations flottantes autour du globe — translateY douce */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
+  50%      { transform: translateY(-12px) rotate(var(--rot, 0deg)); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes pageIn {

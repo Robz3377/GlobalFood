@@ -32,7 +32,14 @@ export type Recipe = {
   seasons?: Season[];
   events?: CulturalEvent[];
   ingredients: Ingredient[];
+  /** Étapes complètes "Mode Pro" — techniques, jargons, précisions de chef. */
   steps: string[];
+  /**
+   * Version "Mode Famille" — phrases courtes, langage grand public, sans
+   * jargon technique. Optionnelle : si absente, le toggle Pro/Famille n'est
+   * pas affiché pour cette recette.
+   */
+  simplifiedSteps?: string[];
   story?: string;
   /** Tip professionnel — temp. d'huile, technique précise, astuce de dressage. */
   chefSecret?: string;

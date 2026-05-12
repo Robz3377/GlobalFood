@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { FloatingDecor } from "./FloatingDecor";
 import type { Country } from "@/lib/types";
 
 const WorldGlobe = dynamic(
@@ -29,10 +30,13 @@ export function WorldMapClient({ countries }: { countries: Country[] }) {
   }, [navTo, router]);
 
   return (
-    <WorldGlobe
-      countries={countries}
-      focusSlug={focusSlug}
-      onFocusComplete={(slug) => setNavTo(slug)}
-    />
+    <div className="relative">
+      <FloatingDecor />
+      <WorldGlobe
+        countries={countries}
+        focusSlug={focusSlug}
+        onFocusComplete={(slug) => setNavTo(slug)}
+      />
+    </div>
   );
 }

@@ -5,6 +5,7 @@ import { ChevronDown } from "lucide-react";
 import { clsx } from "clsx";
 import { convert, type System } from "@/lib/units";
 import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
+import { categorizeIngredient } from "@/lib/ingredientCategory";
 import type { Ingredient } from "@/lib/types";
 
 const KEY = "mapandfork.unit-system";
@@ -139,12 +140,28 @@ export function RecipeIngredients({
         {ingredients.map((ing, i) => {
           const scaled = ing.qty * ratio;
           const out = convert(scaled, ing.unit, active);
+          const cat = categorizeIngredient(ing.name);
           return (
             <li
               key={`${ing.name}-${i}`}
-              className="flex items-baseline justify-between gap-4 px-5 py-3.5"
+              className="flex items-center justify-between gap-3 px-4 md:px-5 py-3"
             >
-              <span className="text-ink text-base leading-snug">{ing.name}</span>
+              <span className="flex items-center gap-3 min-w-0">
+                {/* Pastille de catégorie — lecture instantanée du plat */}
+                <span
+                  aria-hidden
+                  className={clsx(
+                    "inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-base shadow-sm",
+                    cat.bgClass
+                  )}
+                  title={cat.category}
+                >
+                  {cat.icon}
+                </span>
+                <span className="text-ink text-base leading-snug">
+                  {ing.name}
+                </span>
+              </span>
               <span className="shrink-0 font-serif text-sm font-medium text-terracotta-deep tabular-nums">
                 {out.display}
               </span>

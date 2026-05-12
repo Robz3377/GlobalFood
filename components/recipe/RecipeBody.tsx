@@ -5,9 +5,14 @@ import Link from "next/link";
 import { Clock, Flame, Minus, Plus } from "lucide-react";
 import { clsx } from "clsx";
 import { Badge } from "@/components/ui/Badge";
+import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
 import { RecipeIngredients } from "./RecipeIngredients";
 import { StepList } from "./StepList";
+import { StepsModeToggle, type StepsMode } from "./StepsModeToggle";
 import type { Country, Recipe } from "@/lib/types";
+
+const STEPS_MODE_KEY = "mapandfork.steps-mode";
+const STEPS_MODE_LEGACY_KEY = "global-food.steps-mode";
 
 const SERVINGS_MIN = 1;
 const SERVINGS_MAX = 12;
@@ -38,6 +43,20 @@ export function RecipeBody({ country, recipe }: Props) {
   const baseline = recipe.servings;
   const [servings, setServings] = useState<number>(baseline);
   const totalTime = recipe.prepTime + recipe.cookTime;
+  const hasFamilyMode =
+    Array.isArray(recipe.simplifiedSteps) && recipe.simplifiedSteps.length > 0;
+  // Préférence Pro/Famille persistée en localStorage (avec migration legacy).
+  // Si la recette n'a pas de version simplifiée, on force "pro".
+  const [storedMode, setStoredMode] = useLocalStorage<StepsMode>(
+    STEPS_MODE_KEY,
+    "pro",
+    STEPS_MODE_LEGACY_KEY
+  );
+  const mode: StepsMode = hasFamilyMode ? storedMode : "pro";
+  const activeSteps =
+    mode === "family" && recipe.simplifiedSteps
+      ? recipe.simplifiedSteps
+      : recipe.steps;
 
   function dec() {
     setServings((v) => Math.max(SERVINGS_MIN, v - 1));
@@ -142,15 +161,20 @@ export function RecipeBody({ country, recipe }: Props) {
 
       {/* PRÉPARATION — magazine style avec drop-cap serif italique */}
       <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14 pb-24">
-        <header className="mb-6 md:mb-8 flex items-baseline justify-between">
-          <h2 className="font-serif text-3xl md:text-4xl font-semibold">
-            Préparation
-          </h2>
-          <span className="font-serif italic text-sm text-ink-soft">
-            {recipe.steps.length} étapes
-          </span>
+        <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-baseline gap-3">
+            <h2 className="font-serif text-3xl md:text-4xl font-semibold">
+              Préparation
+            </h2>
+            <span className="font-serif italic text-sm text-ink-soft">
+              {activeSteps.length} étapes
+            </span>
+          </div>
+          {hasFamilyMode && (
+            <StepsModeToggle mode={mode} onChange={setStoredMode} />
+          )}
         </header>
-        <StepList steps={recipe.steps} />
+        <StepList steps={activeSteps} />
       </section>
     </>
   );
