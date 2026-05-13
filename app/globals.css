@@ -43,10 +43,25 @@ html, body {
   color: var(--color-ink);
 }
 
+/* Fond global "carnet de voyage" : motif topographique sage très clair fixé,
+   présent sur toute l'application. Sert de support sous les cartes papier. */
 body {
   font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   font-feature-settings: "ss01", "cv02";
   -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bone);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 360'>\
+<g fill='none' stroke='%23A3B18A' stroke-opacity='0.06' stroke-width='1'>\
+<path d='M0 60 Q90 30 180 60 T360 60'/>\
+<path d='M0 110 Q90 80 180 110 T360 110'/>\
+<path d='M0 160 Q90 130 180 160 T360 160'/>\
+<path d='M0 210 Q90 180 180 210 T360 210'/>\
+<path d='M0 260 Q90 230 180 260 T360 260'/>\
+<path d='M0 310 Q90 280 180 310 T360 310'/>\
+</g></svg>");
+  background-size: 360px 360px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, .font-serif {
@@ -147,6 +162,31 @@ h1, h2, h3, h4, .font-serif {
       transparent 1px
     );
   background-size: 18px 18px, 26px 26px;
+}
+
+/* === BG-PAPER-CARD : feuille de papier de création haut de gamme ===
+   Système de calques pour l'esthétique "carnet de voyage" :
+   - Fond paper (#FBF6EB) blanc cassé légèrement chaud
+   - Très léger grain ocre + ink pour effet "papier épais"
+   - Ombre paper multi-couches (shadow-paper)
+   - Bordure ochre subtile pour délimiter physiquement la feuille
+   Tout en CSS/data URI inline — zéro requête HTTP, ultra-rapide sur mobile. */
+.bg-paper-card {
+  background-color: var(--color-paper);
+  background-image:
+    radial-gradient(
+      circle at 1px 1px,
+      rgba(192, 133, 82, 0.04) 1px,
+      transparent 1px
+    ),
+    radial-gradient(
+      circle at 13px 13px,
+      rgba(46, 42, 38, 0.02) 0.6px,
+      transparent 0.6px
+    );
+  background-size: 20px 20px, 28px 28px;
+  box-shadow: var(--shadow-paper);
+  border: 1px solid color-mix(in oklab, var(--color-ochre) 10%, transparent);
 }
 
 /* Organique : silhouettes abstraites de feuilles/ondes en sage stroke 6%.

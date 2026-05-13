@@ -52,5 +52,10 @@ export type Country = {
   isoNumeric: string;
   flag: string;
   intro: string;
+  /**
+   * Slogan court (4-7 mots) affiché sous le nom du pays dans la grille
+   * d'accueil. Style "carnet de voyage" : poétique, évocateur, élégant.
+   */
+  tagline?: string;
   recipes: Recipe[];
 };

@@ -7,6 +7,7 @@
       "isoNumeric": "392",
       "flag": "🇯🇵",
       "intro": "Une cuisine de précision et de saisons, où la simplicité du dashi rencontre la délicatesse du tranchant.",
+      "tagline": "L'art de l'harmonie pure",
       "recipes": [
         {
           "slug": "ramen-shoyu",
@@ -636,6 +637,7 @@
       "isoNumeric": "504",
       "flag": "🇲🇦",
       "intro": "Une cuisine de mijotages parfumés, où le safran, la cannelle et la coriandre racontent les routes caravanières.",
+      "tagline": "La générosité à l'état pur",
       "recipes": [
         {
           "slug": "tajine-poulet-citron",
@@ -1331,6 +1333,7 @@
       "isoNumeric": "484",
       "flag": "🇲🇽",
       "intro": "Maïs, piments et cacao : la cuisine mexicaine est un héritage millénaire reconnu par l'UNESCO.",
+      "tagline": "L'âme vibrante et colorée",
       "recipes": [
         {
           "slug": "tacos-al-pastor",
@@ -1997,6 +2000,7 @@
       "isoNumeric": "380",
       "flag": "🇮🇹",
       "intro": "L'art du peu : trois ingrédients parfaits suffisent à composer une cuisine de mémoire et de générosité.",
+      "tagline": "L'authenticité en partage",
       "recipes": [
         {
           "slug": "carbonara",
@@ -2476,6 +2480,7 @@
       "isoNumeric": "356",
       "flag": "🇮🇳",
       "intro": "Une mosaïque d'épices et de régions : du dhal végétarien au curry de Kerala, chaque plat raconte un territoire.",
+      "tagline": "Le voyage des sens millénaires",
       "recipes": [
         {
           "slug": "butter-chicken",
@@ -3218,6 +3223,7 @@
       "isoNumeric": "250",
       "flag": "🇫🇷",
       "intro": "Une cuisine de terroir et de techniques, du marché provençal aux brasseries parisiennes.",
+      "tagline": "L'élégance de la tradition",
       "recipes": [
         {
           "slug": "coq-au-vin",
@@ -3795,6 +3801,7 @@
       "isoNumeric": "156",
       "flag": "🇨🇳",
       "intro": "Cinq mille ans de cuisine régionale, du wok cantonais aux braisages du Sichuan.",
+      "tagline": "L'alchimie du feu et des saveurs",
       "recipes": [
         {
           "slug": "mapo-tofu",
@@ -4511,6 +4518,7 @@
       "isoNumeric": "764",
       "flag": "🇹🇭",
       "intro": "Quatre piliers en équilibre : sucré, salé, acide, piquant — la cuisine thaïe est une chorégraphie.",
+      "tagline": "L'équilibre parfait des épices",
       "recipes": [
         {
           "slug": "pad-thai",
@@ -5107,6 +5115,7 @@
       "isoNumeric": "076",
       "flag": "🇧🇷",
       "intro": "Métissage afro-portugais et indigène : la table brésilienne est joyeuse, généreuse et festive.",
+      "tagline": "La chaleur d'une cuisine festive",
       "recipes": [
         {
           "slug": "feijoada",
@@ -5782,6 +5791,7 @@
       "isoNumeric": "300",
       "flag": "🇬🇷",
       "intro": "Olives, feta et soleil méditerranéen : une cuisine simple, lumineuse et radicalement saisonnière.",
+      "tagline": "Le soleil de la Méditerranée",
       "recipes": [
         {
           "slug": "moussaka",

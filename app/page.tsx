@@ -5,19 +5,6 @@ import { Badge } from "@/components/ui/Badge";
 import { WorldMapClient } from "@/components/map/WorldMapClient";
 import { getAllCountries } from "@/lib/data";
 
-/**
- * Cycle de teintes pour les cartes de pays. Opacités basses (15-70%) pour
- * rester raffiné — chaque pays hérite d'une teinte via son index modulo 5.
- * Validé avec le user pour éviter le côté "kitsch".
- */
-const COUNTRY_TONES = [
-  "bg-ochre-soft/60",
-  "bg-sage-soft/70",
-  "bg-terracotta/15",
-  "bg-bone-deep",
-  "bg-ochre/15",
-] as const;
-
 export default function Home() {
   const countries = getAllCountries();
   const recipeCount = countries.reduce((acc, c) => acc + c.recipes.length, 0);
@@ -59,13 +46,9 @@ export default function Home() {
         </Suspense>
       </section>
 
-      {/* GRILLE PAYS — 2 cols mobile, 3 sm, 5 lg, cartes uniformes carte-postale */}
-      <section className="relative mx-auto max-w-6xl px-4 md:px-6 pb-24">
-        {/* Motif topographique fixé en fond — palette sage 7%, ne défile pas */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 pattern-topo opacity-90 -z-10"
-        />
+      {/* GRILLE PAYS — esthétique "fiches papier de carnet de voyage".
+          Le fond pattern-topo du body est visible entre les cartes. */}
+      <section className="mx-auto max-w-6xl px-4 md:px-6 pb-24">
         <header className="mb-5 md:mb-7 flex items-baseline justify-between gap-3">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold">
             Les pays disponibles
@@ -76,7 +59,6 @@ export default function Home() {
         </header>
         <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
           {countries.map((c, i) => {
-            const tone = COUNTRY_TONES[i % COUNTRY_TONES.length];
             const delay = `${Math.min(i * 40, 320)}ms`;
             return (
               <li
@@ -86,7 +68,7 @@ export default function Home() {
               >
                 <Link
                   href={`/pays/${c.slug}`}
-                  className={`group relative flex aspect-[4/5] flex-col items-center justify-between rounded-soft-xl ${tone} px-3 py-5 md:px-4 md:py-6 shadow-soft ring-1 ring-bone-deep/60 hover:shadow-warm hover:-translate-y-1 active:scale-[0.97] transition-all duration-300 ease-out`}
+                  className="group relative flex aspect-[4/5] flex-col items-center justify-between rounded-soft-xl bg-paper-card px-3 py-5 md:px-4 md:py-6 hover:-translate-y-1 active:scale-[0.97] transition-all duration-300 ease-out"
                 >
                   {/* Drapeau XL en haut */}
                   <span
@@ -96,11 +78,16 @@ export default function Home() {
                     {c.flag}
                   </span>
 
-                  {/* Nom du pays au centre */}
-                  <div className="text-center">
+                  {/* Nom du pays + slogan au centre */}
+                  <div className="text-center space-y-1.5">
                     <h3 className="font-serif text-base md:text-lg font-semibold leading-tight tracking-tight line-clamp-1">
                       {c.name}
                     </h3>
+                    {c.tagline && (
+                      <p className="font-serif italic text-[11px] md:text-xs leading-snug text-ink-soft line-clamp-2 px-1">
+                        {c.tagline}
+                      </p>
+                    )}
                   </div>
 
                   {/* Footer : nb recettes + chevron */}

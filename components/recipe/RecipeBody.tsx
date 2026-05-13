@@ -146,32 +146,37 @@ export function RecipeBody({ country, recipe }: Props) {
         </section>
       )}
 
-      {/* INGRÉDIENTS — accordéon mobile, déplié desktop, servings contrôlé */}
+      {/* INGRÉDIENTS — feuille de carnet posée sur le fond topographique.
+          Padding généreux pour aérer le texte du bord de la "feuille". */}
       <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14">
-        <RecipeIngredients
-          ingredients={recipe.ingredients}
-          servings={servings}
-          baseline={baseline}
-          collapsible
-        />
+        <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
+          <RecipeIngredients
+            ingredients={recipe.ingredients}
+            servings={servings}
+            baseline={baseline}
+            collapsible
+          />
+        </div>
       </section>
 
-      {/* PRÉPARATION — magazine style avec drop-cap serif italique */}
-      <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14 pb-24">
-        <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-baseline gap-3">
-            <h2 className="font-serif text-3xl md:text-4xl font-semibold">
-              Préparation
-            </h2>
-            <span className="font-serif italic text-sm text-ink-soft">
-              {activeSteps.length} étapes
-            </span>
-          </div>
-          {hasFamilyMode && (
-            <StepsModeToggle mode={mode} onChange={setStoredMode} />
-          )}
-        </header>
-        <StepList steps={activeSteps} />
+      {/* PRÉPARATION — feuille de carnet jumelle, magazine drop-cap serif */}
+      <section className="mx-auto max-w-3xl px-4 md:px-6 mt-6 md:mt-8 pb-24">
+        <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
+          <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-baseline gap-3">
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold">
+                Préparation
+              </h2>
+              <span className="font-serif italic text-sm text-ink-soft">
+                {activeSteps.length} étapes
+              </span>
+            </div>
+            {hasFamilyMode && (
+              <StepsModeToggle mode={mode} onChange={setStoredMode} />
+            )}
+          </header>
+          <StepList steps={activeSteps} />
+        </div>
       </section>
     </>
   );
