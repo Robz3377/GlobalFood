@@ -12,53 +12,87 @@ import {
 } from "lucide-react";
 
 /**
- * BackgroundDecor — texture de fond fixe et épurée.
+ * BackgroundDecor — texture de fond structurée en quinconce.
  *
- * Disperse 10 à 12 ustensiles (lucide-react) en contour très fin (1.2 px)
- * sur tout le viewport. Reste immobile pendant le scroll grâce à
- * `position: fixed`.
+ * Remplace la dispersion aléatoire par une grille décalée (honeycomb-like) :
+ * - Lignes parfaitement horizontales
+ * - Espacement X et Y égaux à l'intérieur de chaque ligne
+ * - Décalage horizontal de hSpacing/2 pour les lignes paires (quinconce)
+ * - 12 à 15 icônes au total selon le ratio du viewport
+ * - Recalcul dynamique au resize de la fenêtre
  *
- * Stacking :
- * - z-index: 0 + DOM order : placé AVANT le contenu dans <body>
- * - Les sections avec bg opaque (.bg-paper-card, .bg-warm-gradient) couvrent
- *   les icônes dans leur rectangle, mais les icônes restent visibles dans
- *   les marges/espaces entre les blocs (effet "papier sur table de travail")
- * - Le body bg (#FAF7F2 + pattern-topo SVG) reste DERRIÈRE ces icônes
- *
- * Anti-hydratation Next.js :
- * - SSR + 1er render client : wrapper vide
- * - Génération aléatoire dans useEffect (dépend de pathname → nouveau
- *   placement à chaque navigation Home/Frigo/Recette)
- * - Transition opacity 500ms pour un fondu fluide entre placements
+ * Le point de départ de l'alternance ocre/sauge dépend de pathname.length,
+ * donc chaque changement de page produit un motif visuellement différent
+ * tout en gardant la structure quinconce.
  */
 
 const ICONS: LucideIcon[] = [CookingPot, Utensils, Soup, ChefHat, Coffee];
 
-/** Palette stricte ocre + sauge (charte design) */
+/** Palette stricte ocre + sauge */
 const COLORS = ["#C08552", "#A3B18A"] as const;
 
 type DecorItem = {
   Icon: LucideIcon;
   size: number;
-  top: number;
-  left: number;
+  x: number; // px depuis le bord gauche du viewport
+  y: number; // px depuis le bord haut du viewport
   color: string;
 };
 
-function generateDecor(): DecorItem[] {
-  // 10, 11 ou 12 icônes pour bien couvrir le viewport
-  const count = 10 + Math.floor(Math.random() * 3);
+/**
+ * Génère une grille en quinconce de 12-15 ustensiles couvrant le viewport.
+ *
+ * Algorithme :
+ * 1. Choisit cols × rows pour matcher l'aspect ratio et viser ~13 cellules
+ * 2. Calcule hSpacing = width/cols, vSpacing = height/rows
+ * 3. Pour chaque ligne r :
+ *    - Lignes paires (r % 2 === 0) : xStart = hSpacing/2 (centre des cellules)
+ *    - Lignes impaires : xStart = hSpacing (décalage = hSpacing/2)
+ * 4. Skip toute icône dont le centre dépasse les bords (overflow esthétique)
+ */
+function generateGrid(
+  width: number,
+  height: number,
+  pathOffset: number
+): DecorItem[] {
+  if (width === 0 || height === 0) return [];
+
+  const targetCount = 13;
+  const aspectRatio = Math.max(0.3, width / height);
+
+  // rows × cols ≈ targetCount avec cols/rows ≈ aspectRatio
+  const rows = Math.max(3, Math.round(Math.sqrt(targetCount / aspectRatio)));
+  const cols = Math.max(3, Math.round(targetCount / rows));
+
+  const hSpacing = width / cols;
+  const vSpacing = height / rows;
+
   const items: DecorItem[] = [];
-  for (let i = 0; i < count; i++) {
-    const Icon = ICONS[Math.floor(Math.random() * ICONS.length)];
-    items.push({
-      Icon,
-      size: Math.round(80 + Math.random() * 30), // 80 → 110 px
-      top: Math.random() * 92,
-      left: Math.random() * 92,
-      color: COLORS[i % COLORS.length], // alternance ocre / sauge
-    });
+  let idx = 0;
+
+  for (let r = 0; r < rows; r++) {
+    const isEvenRow = r % 2 === 0;
+    const xStart = isEvenRow ? hSpacing / 2 : hSpacing;
+
+    for (let c = 0; c < cols; c++) {
+      const xPos = xStart + c * hSpacing;
+      // Skip si le centre est trop près du bord droit (overflow visuel)
+      if (xPos > width - 30) continue;
+
+      const yPos = vSpacing / 2 + r * vSpacing;
+      const seed = idx + pathOffset;
+
+      items.push({
+        Icon: ICONS[seed % ICONS.length],
+        size: 90 + (seed % 3) * 10, // 90, 100 ou 110 px
+        x: xPos,
+        y: yPos,
+        color: COLORS[(r + c + pathOffset) % COLORS.length],
+      });
+      idx++;
+    }
   }
+
   return items;
 }
 
@@ -67,8 +101,15 @@ export function BackgroundDecor() {
   const [decors, setDecors] = useState<DecorItem[]>([]);
 
   useEffect(() => {
-    // Re-randomisation à chaque changement de route
-    setDecors(generateDecor());
+    function update() {
+      setDecors(
+        generateGrid(window.innerWidth, window.innerHeight, pathname.length)
+      );
+    }
+
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
   }, [pathname]);
 
   return (
@@ -89,10 +130,10 @@ export function BackgroundDecor() {
             absoluteStrokeWidth={false}
             style={{
               position: "absolute",
-              top: `${d.top}%`,
-              left: `${d.left}%`,
+              top: `${d.y}px`,
+              left: `${d.x}px`,
+              transform: "translate(-50%, -50%)",
               opacity: 0.15,
-              transition: "opacity 500ms cubic-bezier(0.2, 0.8, 0.2, 1)",
             }}
           />
         );
