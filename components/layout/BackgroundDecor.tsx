@@ -72,7 +72,7 @@ export function BackgroundDecor() {
     <div
       aria-hidden="true"
       className="pointer-events-none fixed inset-0 overflow-hidden"
-      style={{ zIndex: -10 }}
+      style={{ zIndex: 100 }}
     >
       {decors.map((d, i) => {
         const Icon = d.Icon;
@@ -89,7 +89,7 @@ export function BackgroundDecor() {
               top: `${d.top}%`,
               left: `${d.left}%`,
               transform: `rotate(${d.rotation}deg)`,
-              opacity: 0.2,
+              opacity: 1,
               transition: "opacity 600ms cubic-bezier(0.2, 0.8, 0.2, 1)",
             }}
           />
