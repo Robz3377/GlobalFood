@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { BackgroundDecor } from "@/components/layout/BackgroundDecor";
 import { SurpriseButton } from "@/components/surprise/SurpriseButton";
 import { getAllRecipes } from "@/lib/data";
 
@@ -95,6 +96,7 @@ export default function RootLayout({
       className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bone text-ink pb-16 md:pb-0">
+        <BackgroundDecor />
         <Header />
         {children}
         <Footer />
