@@ -12,18 +12,18 @@ import {
 } from "lucide-react";
 
 /**
- * BackgroundDecor — texture de fond structurée en quinconce.
+ * BackgroundDecor — motif "papier peint" micro-texturé.
  *
- * Remplace la dispersion aléatoire par une grille décalée (honeycomb-like) :
- * - Lignes parfaitement horizontales
- * - Espacement X et Y égaux à l'intérieur de chaque ligne
- * - Décalage horizontal de hSpacing/2 pour les lignes paires (quinconce)
- * - 12 à 15 icônes au total selon le ratio du viewport
- * - Recalcul dynamique au resize de la fenêtre
+ * Grille quinconce dense de petites icônes (40-50 px) couvrant tout le
+ * viewport. Densité calibrée pour 50-60 icônes sur mobile portrait (375×800),
+ * et scale naturellement sur viewports plus larges (cellule fixe de 70 px).
  *
- * Le point de départ de l'alternance ocre/sauge dépend de pathname.length,
- * donc chaque changement de page produit un motif visuellement différent
- * tout en gardant la structure quinconce.
+ * Lignes paires alignées | Lignes impaires décalées de hSpacing/2 → effet
+ * honeycomb avec aucune superposition. Spacing serré (cellule 70 px ⊃ icône
+ * 40-50 px = 20-30 px de gap visuel).
+ *
+ * Couleurs alternent ocre/sauge, point de départ = pathname.length, donc
+ * chaque page produit un damier visiblement différent.
  */
 
 const ICONS: LucideIcon[] = [CookingPot, Utensils, Soup, ChefHat, Coffee];
@@ -31,25 +31,21 @@ const ICONS: LucideIcon[] = [CookingPot, Utensils, Soup, ChefHat, Coffee];
 /** Palette stricte ocre + sauge */
 const COLORS = ["#C08552", "#A3B18A"] as const;
 
+/**
+ * Taille de cellule de référence — sur mobile 375 px de large : 5 colonnes
+ * (375/70=5.36 → 5), 11 rangées (800/70=11.4 → 11), pattern quinconce
+ * 5+4+5+4+5+4+5+4+5+4+5 = 50 icônes.
+ */
+const CELL_SIZE = 70;
+
 type DecorItem = {
   Icon: LucideIcon;
   size: number;
-  x: number; // px depuis le bord gauche du viewport
-  y: number; // px depuis le bord haut du viewport
+  x: number;
+  y: number;
   color: string;
 };
 
-/**
- * Génère une grille en quinconce de 12-15 ustensiles couvrant le viewport.
- *
- * Algorithme :
- * 1. Choisit cols × rows pour matcher l'aspect ratio et viser ~13 cellules
- * 2. Calcule hSpacing = width/cols, vSpacing = height/rows
- * 3. Pour chaque ligne r :
- *    - Lignes paires (r % 2 === 0) : xStart = hSpacing/2 (centre des cellules)
- *    - Lignes impaires : xStart = hSpacing (décalage = hSpacing/2)
- * 4. Skip toute icône dont le centre dépasse les bords (overflow esthétique)
- */
 function generateGrid(
   width: number,
   height: number,
@@ -57,12 +53,9 @@ function generateGrid(
 ): DecorItem[] {
   if (width === 0 || height === 0) return [];
 
-  const targetCount = 13;
-  const aspectRatio = Math.max(0.3, width / height);
-
-  // rows × cols ≈ targetCount avec cols/rows ≈ aspectRatio
-  const rows = Math.max(3, Math.round(Math.sqrt(targetCount / aspectRatio)));
-  const cols = Math.max(3, Math.round(targetCount / rows));
+  // Nombre de cellules en X et Y basé sur la cellule de référence
+  const cols = Math.max(3, Math.round(width / CELL_SIZE));
+  const rows = Math.max(3, Math.round(height / CELL_SIZE));
 
   const hSpacing = width / cols;
   const vSpacing = height / rows;
@@ -76,15 +69,15 @@ function generateGrid(
 
     for (let c = 0; c < cols; c++) {
       const xPos = xStart + c * hSpacing;
-      // Skip si le centre est trop près du bord droit (overflow visuel)
-      if (xPos > width - 30) continue;
+      // Skip si le centre est trop près du bord droit (clip esthétique)
+      if (xPos > width - 25) continue;
 
       const yPos = vSpacing / 2 + r * vSpacing;
       const seed = idx + pathOffset;
 
       items.push({
         Icon: ICONS[seed % ICONS.length],
-        size: 90 + (seed % 3) * 10, // 90, 100 ou 110 px
+        size: 40 + (seed % 3) * 5, // 40, 45 ou 50 px
         x: xPos,
         y: yPos,
         color: COLORS[(r + c + pathOffset) % COLORS.length],
@@ -133,7 +126,7 @@ export function BackgroundDecor() {
               top: `${d.y}px`,
               left: `${d.x}px`,
               transform: "translate(-50%, -50%)",
-              opacity: 0.15,
+              opacity: 0.2,
             }}
           />
         );
