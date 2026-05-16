@@ -15,7 +15,7 @@ export function PassportGrid({ countries }: { countries: Country[] }) {
 
   return (
     <div className="space-y-8">
-      <div className="rounded-soft-lg bg-white p-6 shadow-soft">
+      <div className="rounded-soft-lg bg-paper-card p-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
             <p className="font-serif text-3xl font-semibold">
@@ -55,10 +55,10 @@ export function PassportGrid({ countries }: { countries: Country[] }) {
             <article
               key={c.slug}
               className={clsx(
-                "relative rounded-soft-lg p-6 shadow-soft transition-all",
+                "relative rounded-soft-lg p-6 transition-all",
                 stamped
-                  ? "bg-white"
-                  : "bg-bone-deep/40 border-2 border-dashed border-bone-deep"
+                  ? "bg-paper-card"
+                  : "bg-bone-deep/40 border-2 border-dashed border-bone-deep shadow-soft"
               )}
             >
               <div className="flex items-start justify-between gap-3">

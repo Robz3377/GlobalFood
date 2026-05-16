@@ -43,20 +43,38 @@ export function RecipeBody({ country, recipe }: Props) {
   const baseline = recipe.servings;
   const [servings, setServings] = useState<number>(baseline);
   const totalTime = recipe.prepTime + recipe.cookTime;
-  const hasFamilyMode =
-    Array.isArray(recipe.simplifiedSteps) && recipe.simplifiedSteps.length > 0;
-  // Préférence Pro/Famille persistée en localStorage (avec migration legacy).
-  // Si la recette n'a pas de version simplifiée, on force "pro".
+  // Toggle Brigade disponible si la recette a au moins une variante Commis
+  // (champ moderne commisSteps OU legacy simplifiedSteps en fallback).
+  const hasCommisMode =
+    (Array.isArray(recipe.commisSteps) && recipe.commisSteps.length > 0) ||
+    (Array.isArray(recipe.simplifiedSteps) && recipe.simplifiedSteps.length > 0);
+  // Préférence Brigade persistée en localStorage. Le stockage migre depuis
+  // les anciennes valeurs Pro/Famille (cf. readBrigadeMode).
   const [storedMode, setStoredMode] = useLocalStorage<StepsMode>(
     STEPS_MODE_KEY,
-    "pro",
+    "chef",
     STEPS_MODE_LEGACY_KEY
   );
-  const mode: StepsMode = hasFamilyMode ? storedMode : "pro";
+  // Migration silencieuse pour les anciens utilisateurs qui ont "pro"/"family"
+  const migratedMode: StepsMode =
+    (storedMode as string) === "pro"
+      ? "chef"
+      : (storedMode as string) === "family"
+      ? "commis"
+      : storedMode;
+  const mode: StepsMode = hasCommisMode ? migratedMode : "chef";
+  // Sélection des étapes : chef → steps. commis → commisSteps si présent,
+  // sinon fallback simplifiedSteps (legacy), sinon steps (sécurité).
   const activeSteps =
-    mode === "family" && recipe.simplifiedSteps
-      ? recipe.simplifiedSteps
+    mode === "commis"
+      ? recipe.commisSteps ?? recipe.simplifiedSteps ?? recipe.steps
       : recipe.steps;
+  // Sélection des ingrédients : commis → commisIngredients si présent,
+  // sinon repli sur les ingrédients Chef (transition de schéma).
+  const activeIngredients =
+    mode === "commis"
+      ? recipe.commisIngredients ?? recipe.ingredients
+      : recipe.ingredients;
 
   function dec() {
     setServings((v) => Math.max(SERVINGS_MIN, v - 1));
@@ -151,7 +169,7 @@ export function RecipeBody({ country, recipe }: Props) {
       <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14">
         <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
           <RecipeIngredients
-            ingredients={recipe.ingredients}
+            ingredients={activeIngredients}
             servings={servings}
             baseline={baseline}
             collapsible
@@ -171,7 +189,7 @@ export function RecipeBody({ country, recipe }: Props) {
                 {activeSteps.length} étapes
               </span>
             </div>
-            {hasFamilyMode && (
+            {hasCommisMode && (
               <StepsModeToggle mode={mode} onChange={setStoredMode} />
             )}
           </header>

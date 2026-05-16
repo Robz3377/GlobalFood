@@ -74,7 +74,7 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
 
   return (
     <div className="space-y-8">
-      <div className="rounded-soft-lg bg-white p-5 shadow-soft">
+      <div className="rounded-soft-lg bg-paper-card p-5">
         <div className="flex flex-wrap items-center gap-2 rounded-soft border border-bone-deep px-3 py-2 focus-within:border-sage transition-colors">
           {tags.map((t) => (
             <span
@@ -139,14 +139,14 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
       </div>
 
       {tags.length === 0 ? (
-        <div className="rounded-soft-lg bg-white p-10 shadow-soft text-center">
+        <div className="rounded-soft-lg bg-paper-card p-10 text-center">
           <p className="font-serif text-2xl font-semibold">Que cuisinez-vous ce soir ?</p>
           <p className="mt-2 text-sm text-ink-soft">
             Ajoutez au moins un ingrédient pour démarrer la recherche.
           </p>
         </div>
       ) : scored.length === 0 ? (
-        <div className="rounded-soft-lg bg-white p-10 shadow-soft text-center">
+        <div className="rounded-soft-lg bg-paper-card p-10 text-center">
           <p className="font-serif text-2xl font-semibold">Aucune correspondance</p>
           <p className="mt-2 text-sm text-ink-soft">
             Essayez avec d'autres ingrédients ou retirez-en certains.

@@ -52,7 +52,7 @@ export function RecommendationsBoard({ recipes }: { recipes: Item[] }) {
 
   return (
     <div className="space-y-8">
-      <div className="rounded-soft-lg bg-white p-5 shadow-soft flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
+      <div className="rounded-soft-lg bg-paper-card p-5 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm">
         <span className="inline-flex items-center gap-2 text-ink-soft">
           <Calendar className="h-4 w-4" strokeWidth={1.75} />
           Saison : <strong className="text-ink">{SEASON_LABELS[season]}</strong>
@@ -98,7 +98,7 @@ function RecoCard({ reco, rank }: { reco: Recommendation; rank: number }) {
   return (
     <Link
       href={`/pays/${country.slug}/${recipe.slug}`}
-      className="group relative flex flex-col rounded-soft-lg bg-white shadow-soft overflow-hidden hover:shadow-soft-lg hover:-translate-y-0.5 transition-all"
+      className="group relative flex flex-col rounded-soft-lg bg-paper-card overflow-hidden hover:shadow-warm hover:-translate-y-0.5 transition-all"
     >
       <div className="relative aspect-[4/3] overflow-hidden bg-bone-deep">
         <Image

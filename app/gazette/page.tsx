@@ -43,7 +43,7 @@ export default function GazettePage() {
       <section className="mx-auto max-w-5xl px-6 py-8">
         <Link
           href={`/pays/${feature.country.slug}/${feature.recipe.slug}`}
-          className="group grid lg:grid-cols-[1.2fr_1fr] gap-0 rounded-soft-lg overflow-hidden bg-white shadow-soft hover:shadow-soft-lg transition-shadow"
+          className="group grid lg:grid-cols-[1.2fr_1fr] gap-0 rounded-soft-lg overflow-hidden bg-paper-card hover:shadow-warm transition-shadow"
         >
           <RecipeImage
             src={feature.recipe.image}
@@ -81,7 +81,7 @@ export default function GazettePage() {
             <Link
               key={`${country.slug}-${recipe.slug}`}
               href={`/pays/${country.slug}/${recipe.slug}`}
-              className="group flex gap-5 rounded-soft-lg bg-white p-5 shadow-soft hover:shadow-soft-lg transition-shadow"
+              className="group flex gap-5 rounded-soft-lg bg-paper-card p-5 hover:shadow-warm transition-shadow"
             >
               <RecipeImage
                 src={recipe.image}
