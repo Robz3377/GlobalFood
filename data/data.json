@@ -4659,18 +4659,70 @@
           ],
           "story": "Plat dominical bourguignon par excellence, sa version la plus aboutie utilise un coq de Bresse d'âge mûr (8 mois minimum) dont la chair fibreuse résiste aux 3 h de mijotage. Réchauffé le lendemain, il atteint sa plénitude.",
           "chefSecret": "Trois techniques de chef à respecter : (1) le flambage au cognac pour brûler l'alcool en arômes torréfiés avant d'ajouter le vin (sinon goût d'éthanol résiduel) ; (2) le passage de la sauce au chinois fin avant de la réduire — c'est la différence entre une sauce paysanne et une sauce de bistrot ; (3) le carré de chocolat noir 70 % monté en finition à la Bocuse, qui apporte rondeur et profondeur sans qu'on le détecte. Et surtout : c'est meilleur réchauffé le lendemain — la maturation 24 h au frais transforme le plat.",
-          "simplifiedSteps": [
-            "La marinade (la veille, 12-24 h au frais) : mets les morceaux de poulet dans un grand saladier avec le vin rouge, les carottes, l'oignon clouté, l'ail et le bouquet garni. Filme et mets au frigo 12 h minimum.",
-            "Le jour J : sors le poulet, éponge-le soigneusement (la peau doit être SÈCHE pour bien colorer). Filtre la marinade en gardant les liquides et les aromates séparément.",
-            "Dans une cocotte en fonte, fais dorer les lardons blanchis 4 min dans 30 g de beurre, réserve. Dans la même cocotte, fais dorer les morceaux de poulet sur toutes les faces 8 min à feu vif jusqu'à belle couleur ambrée.",
-            "Le flambage : chauffe le cognac dans une petite casserole, verse-le sur le poulet et embrase avec une longue allumette en penchant la cocotte (la flamme s'éteint d'elle-même, ce qui brûle l'alcool en arôme).",
-            "Singer (= saupoudrer la farine) : saupoudre la farine sur les morceaux, mélange, cuis 2 min à feu moyen pour griller la farine SANS la brûler.",
-            "Mouille avec la marinade chaude (préalablement portée à frémissement dans une casserole — sinon ça fait des grumeaux). Ajoute les aromates de la marinade, un bouquet garni neuf, les lardons, sel et poivre.",
-            "Couvre et laisse mijoter 2 h à TRÈS PETIT FEU (à peine frémissant). Retourne les morceaux à mi-cuisson. La viande doit se détacher de l'os.",
-            "Le glaçage des oignons (à part) : mets les oignons grelots dans une sauteuse avec 20 g de beurre, le sucre, 100 ml d'eau et une pincée de sel. Cuis à découvert 15 min jusqu'à ce que l'eau s'évapore et qu'il reste un sirop brun nappant.",
-            "Les champignons (à part) : fais sauter 250 g de champignons coupés en quartiers dans 10 g de beurre à feu vif 5 min jusqu'à belle coloration.",
-            "Récupère les morceaux de poulet et réserve. Filtre la sauce au chinois fin en pressant, remets dans la cocotte, fais réduire 10 min à feu vif jusqu'à consistance nappante. HORS DU FEU, monte la sauce avec 10 g de beurre froid (et le carré de chocolat noir pour la touche Bocuse).",
-            "Remets le poulet, les oignons glacés et les champignons dans la sauce, réchauffe 5 min SANS bouillir. Sers avec des pommes de terre vapeur, des tagliatelles fraîches ou des croûtons frottés à l'ail."
+          "commisIngredients": [
+            {
+              "name": "Cuisses de poulet",
+              "qty": 6,
+              "unit": "u"
+            },
+            {
+              "name": "Vin rouge (Côtes-du-Rhône ou vin de table)",
+              "qty": 750,
+              "unit": "ml"
+            },
+            {
+              "name": "Lardons fumés",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Champignons de Paris",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Carottes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Bouquet garni (sachet)",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Beurre",
+              "qty": 40,
+              "unit": "g"
+            },
+            {
+              "name": "Farine",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Sale et poivre les cuisses de poulet. Dans une grande cocotte, fais fondre 40 g de beurre à feu moyen-vif. Fais dorer les cuisses 3 min de chaque côté jusqu'à coloration uniforme. Réserve sur une assiette.",
+            "Dans la même cocotte, fais revenir les lardons 3 min à feu moyen jusqu'à ce qu'ils dorent. Ajoute les oignons émincés et les carottes en rondelles. Fais suer 5 min sans coloration.",
+            "Saupoudre de 3 c.s. de farine, remue 1 min pour qu'elle absorbe les graisses (technique du \"singer\"). Verse le vin rouge d'un coup, ajoute l'ail écrasé et le bouquet garni. Mélange en grattant le fond.",
+            "Remets les cuisses dans la cocotte, le vin doit les recouvrir à mi-hauteur. Sale, poivre. Couvre et laisse mijoter à feu doux 1 h 15 — la viande doit se détacher de l'os à la fourchette.",
+            "Pendant ce temps, coupe les champignons en quartiers. Dans une poêle, fais-les sauter 5 min à feu vif avec 1 noisette de beurre jusqu'à ce qu'ils soient bien dorés. Réserve.",
+            "Quand le poulet est tendre, ajoute les champignons dans la cocotte, mélange et laisse mijoter à découvert 10 min pour que la sauce réduise et nappe. Retire le bouquet garni. Sers chaud avec des pommes vapeur ou des tagliatelles fraîches."
           ]
         },
         {
@@ -4763,14 +4815,64 @@
           ],
           "story": "Née dans les jardins niçois du XVIIIᵉ siècle, la ratatouille était un plat de paysans pour utiliser les légumes mûrs de l'été. Le mot 'ratatouille' vient du provençal 'ratatolha' (touiller, mélanger).",
           "chefSecret": "La cuisson séparée n'est PAS négociable : chaque légume a son propre temps et sa propre teneur en eau. Cuits ensemble, les courgettes rendent de l'eau, les aubergines se gorgent d'huile, et tout finit en bouillie. Cuits séparément à feu vif puis assemblés, ils gardent leur intégrité — l'aubergine fondante, la courgette al dente, le poivron parfumé. Et préparée la veille, elle est trois fois meilleure le lendemain.",
-          "simplifiedSteps": [
-            "Coupe TOUS les légumes en dés réguliers de 1,5 cm — la régularité garantit une cuisson homogène. Sale les aubergines et laisse-les dégorger 30 min sur une grille, rince et sèche.",
-            "La cuisson séparée (la règle d'or de Nice) : dans une grande poêle, fais revenir les aubergines dans 60 ml d'huile d'olive 12 min à feu vif jusqu'à ce qu'elles soient tendres et dorées. Réserve dans un grand saladier.",
-            "Dans la même poêle, fais revenir les courgettes dans 30 ml d'huile 10 min à feu vif. Elles doivent rester légèrement al dente. Réserve avec les aubergines.",
-            "Fais revenir les poivrons dans 30 ml d'huile 10 min à feu vif jusqu'à tendreté. Réserve.",
-            "Dans une grande cocotte : fais suer l'oignon émincé dans 30 ml d'huile 5 min à feu doux. Ajoute l'ail haché, cuis 1 min. Ajoute les tomates en dés, le thym et le romarin, sale et cuis 10 min SANS couvercle pour évaporer l'eau.",
-            "Ajoute tous les légumes réservés à la cocotte. Mélange DÉLICATEMENT avec une spatule en bois (ne les écrase pas). Couvre et laisse mijoter 20 min à feu doux.",
-            "Découvre, rectifie sel et poivre, ajoute une pincée de piment d'Espelette et le basilic ciselé. Sers tiède ou froid, idéalement APRÈS UNE NUIT DE REPOS au frais — les saveurs fusionnent et la ratatouille atteint sa plénitude le lendemain."
+          "commisIngredients": [
+            {
+              "name": "Aubergine",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Courgettes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Poivrons (rouge + jaune ou vert)",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Herbes de Provence (sachet)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Basilic frais",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 5,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Coupe l'aubergine et les courgettes en cubes de 2 cm. Émince l'oignon. Coupe les poivrons en lanières (épépine-les avant). Hache finement l'ail.",
+            "Dans une grande poêle ou cocotte, fais chauffer 3 c.s. d'huile d'olive à feu moyen-vif. Ajoute les cubes d'aubergine et fais-les revenir 8 min en remuant jusqu'à ce qu'ils soient dorés. Réserve.",
+            "Dans la même poêle, ajoute 2 c.s. d'huile. Fais revenir les courgettes 5 min, ajoute les poivrons et l'oignon, continue 5 min. Ajoute l'ail haché, remue 30 s.",
+            "Verse les tomates concassées, remets l'aubergine réservée et ajoute les herbes de Provence. Sale, poivre. Couvre et laisse mijoter à feu doux 25 min en remuant de temps en temps.",
+            "Découvre, laisse réduire 5 min à feu moyen pour évaporer l'excès d'eau. Coupe le feu, parsème de basilic ciselé. Sers chaud, tiède ou froid — c'est encore meilleur le lendemain (les saveurs se développent une nuit au frigo)."
           ]
         },
         {
@@ -4896,15 +4998,90 @@
           ],
           "story": "Inventée par les pêcheurs du Vieux-Port à partir des poissons invendables (rascasses pleines d'arêtes), la bouillabaisse est si emblématique qu'une Charte de la Bouillabaisse a été signée en 1980 par 12 restaurants marseillais pour défendre la recette authentique.",
           "chefSecret": "Trois règles non négociables des chefs marseillais : (1) au minimum 4 espèces différentes (la rascasse rouge OBLIGATOIRE pour le caractère) ; (2) l'eau de cuisson doit être à GROSSE ébullition pendant la cuisson des poissons — c'est ce qui émulsionne l'huile d'olive et crée la liaison signature ; (3) servir en 2 services (soupe puis poissons) — jamais ensemble. Le service unifié est une faute de goût parisienne, pas une bouillabaisse.",
-          "simplifiedSteps": [
-            "Le fumet (à faire la veille idéalement) : fais suer les oignons et le fenouil 5 min dans 60 ml d'huile d'olive. Ajoute les poissons de roche entiers (vidés, écaillés), les tomates concassées, l'ail écrasé, le bouquet, le pastis et le vin blanc. Couvre d'eau (3 L), porte à ébullition franche puis baisse à frémissement et mijote 30 min SANS couvercle.",
-            "Passe le fumet au moulin à légumes (grille fine) en pressant fort pour extraire toute la chair des poissons de roche. Filtre ensuite au chinois. Le fumet doit être ambré, parfumé et corsé.",
-            "La rouille (sauce signature) : dans un mortier, pile 4 gousses d'ail dégermé avec une pincée de gros sel et le safran (préalablement infusé 1 cs d'eau chaude). Ajoute 1 jaune d'œuf et monte à l'huile d'olive comme une mayonnaise (15 cl en filet). Ajoute une pointe de piment de Cayenne. Réserve au frais.",
-            "Le jour du service : porte le fumet à ébullition franche, ajoute le safran restant et les pommes de terre. Cuis 12 min.",
-            "Les poissons (ordre crucial) : plonge D'ABORD les poissons fermes (congre, lotte, Saint-Pierre) à GROSSE ébullition, cuis 8 min. La forte ébullition est la signature marseillaise — elle émulsionne l'huile d'olive avec le bouillon, signe d'une VRAIE bouillabaisse.",
-            "Ajoute ensuite les poissons délicats (rascasse, rouget grondin). Poursuis 8 min toujours à GROSSE ébullition. Goûte, ajuste le sel.",
-            "Pendant la cuisson, fais griller les croûtons SANS coloration excessive et frotte-les à l'ail.",
-            "Le dressage en 2 services : (1) sers la soupe BRÛLANTE dans des assiettes creuses préchauffées avec quelques pommes de terre, accompagnée des croûtons aillés tartinés de rouille ; (2) présente les poissons sur un grand plat à part, à déguster avec un peu de bouillon et de la rouille."
+          "commisIngredients": [
+            {
+              "name": "Cabillaud (filets)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Lotte (joues ou queue)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Saumon (pavés)",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Pommes de terre à chair ferme",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Soupe de poisson en bocal (rayon conserves)",
+              "qty": 800,
+              "unit": "ml"
+            },
+            {
+              "name": "Fenouil",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousses"
+            },
+            {
+              "name": "Vin blanc sec",
+              "qty": 100,
+              "unit": "ml"
+            },
+            {
+              "name": "Pastis",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Safran ou curcuma",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 4,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Mayonnaise (rouille express)",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Tranches de baguette grillées (servir)",
+              "qty": 8,
+              "unit": "u"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Pèle et coupe les pommes de terre en rondelles de 1 cm. Émince finement l'oignon et le fenouil. Coupe les filets de poisson en gros tronçons. Garde-les au frais jusqu'au moment de cuire.",
+            "Dans une grande cocotte, fais chauffer 4 c.s. d'huile d'olive. Fais suer l'oignon et le fenouil 8 min à feu moyen sans coloration. Ajoute 3 gousses d'ail écrasées et le safran, remue 30 s.",
+            "Verse le vin blanc et le pastis, laisse réduire 2 min. Ajoute la soupe de poisson en bocal + 500 ml d'eau. Porte à frémissement et sale légèrement.",
+            "Ajoute les pommes de terre. Couvre et laisse cuire 15 min à feu moyen jusqu'à ce qu'elles soient presque tendres (la pointe d'un couteau s'enfonce avec une légère résistance).",
+            "Plonge d'abord les poissons les plus fermes (lotte, cabillaud) 4 min. Puis le saumon, 3 min — il ne doit pas trop cuire (chair encore légèrement nacrée à cœur).",
+            "ROUILLE EXPRESS : dans un petit bol, mélange la mayonnaise + 1 gousse d'ail écrasée + 1 pincée de safran. Sers la bouillabaisse dans des assiettes creuses avec les tranches de baguette grillées tartinées de rouille à côté. La tradition : on trempe le pain dans la soupe."
           ]
         },
         {
@@ -5013,15 +5190,70 @@
           ],
           "story": "Créées en 1895 au Café de Paris à Monte-Carlo par le commis Henri Charpentier (14 ans à l'époque) lors d'un dîner du Prince de Galles. Le Prince les baptisa 'Suzette' du prénom d'une jeune fille de sa table. Auguste Escoffier les codifia ensuite dans 'Le Guide Culinaire' (1903).",
           "chefSecret": "Le caramel à SEC (sucre fondu sans eau) est ce qui distingue une vraie sauce Suzette d'un beurre orange industriel : il apporte des notes torréfiées qui se marient à l'orange et au Grand Marnier. Et pour le flambage, l'alcool DOIT être chaud (60-80 °C) avant de l'enflammer — froid, il ne s'embrase pas ; bouillant, l'alcool s'évapore avant la flamme. La fenêtre est étroite : faites-le au dernier moment devant les invités, c'est aussi un spectacle.",
-          "simplifiedSteps": [
-            "La pâte (la veille ou minimum 5 h à l'avance) : tamise la farine et le sucre avec le sel. Fais un puits, casse les œufs au centre, mélange en partant du centre. Ajoute le lait peu à peu en fouettant pour éviter les grumeaux. Incorpore le beurre fondu tiède, le zeste d'orange et le Grand Marnier. Filtre au chinois pour une texture parfaite. Repos 5 h MINIMUM (idéalement 12 h) au frais.",
-            "Si la pâte a épaissi au repos, détends-la avec 1-2 cs de lait. Elle doit être fluide comme une crème liquide.",
-            "Chauffe une poêle à crêpes 22 cm à feu moyen-vif. Beurre légèrement la première fois (papier absorbant). Verse une louche de pâte, bascule la poêle pour répartir en couche fine, cuis 1 min jusqu'à ce que les bords se détachent, retourne et cuis 30 sec. Empile les crêpes (12 environ) sous un torchon humide pour qu'elles ne sèchent pas.",
-            "La sauce Suzette — caramel à sec : fais fondre 80 g de sucre dans une grande poêle à feu moyen SANS REMUER (juste agite la poêle), jusqu'à un caramel ambré clair (pas brun foncé : il continue à cuire).",
-            "HORS DU FEU, ajoute le beurre en plusieurs morceaux (attention aux projections, le caramel est très chaud). Remets sur feu doux, mélange jusqu'à émulsion lisse.",
-            "Verse le jus d'orange et les zestes, fais réduire 5 min jusqu'à consistance sirupeuse nappant le dos d'une cuillère. Ajoute 60 ml de Grand Marnier, mélange, retire du feu.",
-            "Plie chaque crêpe en quatre et trempe-la RAPIDEMENT dans la sauce chaude en la retournant à la fourchette pour bien l'imbiber. Dispose en éventail dans la poêle, nappe de sauce.",
-            "Le flambage (devant les invités, lumière tamisée pour l'effet) : chauffe 50 ml de Grand Marnier dans une petite casserole jusqu'à FUMER (ne pas bouillir). Verse sur les crêpes et embrase avec une longue allumette. Laisse brûler 10-15 secondes, secoue la poêle pour répartir la flamme. Sers IMMÉDIATEMENT, 2 crêpes par personne nappées de sauce."
+          "commisIngredients": [
+            {
+              "name": "Farine",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Lait entier",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Œufs",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Beurre fondu (pâte)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre (pâte)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Beurre (cuisson)",
+              "qty": 20,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre doux (sauce)",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre (sauce)",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Jus + zeste de 2 oranges",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Grand Marnier (ou Cointreau)",
+              "qty": 3,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "PÂTE : verse la farine dans un saladier, fais un puits, casse les œufs au centre. Mélange au fouet en incorporant progressivement le lait pour éviter les grumeaux. Ajoute le sucre, le sel et le beurre fondu. Laisse reposer 15 min minimum.",
+            "Cuis les crêpes dans une poêle de 24 cm bien chaude, légèrement beurrée. Pour chaque crêpe : verse une louche de pâte, fais tourner la poêle pour répartir, cuis 1 min par face. Empile les crêpes dans une assiette, couvre d'un torchon — tu obtiens 12-15 crêpes.",
+            "SAUCE : dans une grande poêle, fais fondre 80 g de sucre à feu moyen jusqu'à ce qu'il devienne caramel blond léger (3-4 min, sans remuer, juste secouer la poêle). Verse le jus d'orange d'un coup (attention aux projections) — le caramel va se cristalliser puis fondre à nouveau.",
+            "Ajoute le zeste d'une orange râpé. Laisse réduire 3 min à feu moyen jusqu'à ce que la sauce devienne sirupeuse. Coupe le feu.",
+            "Ajoute le beurre froid en dés et fouette pour obtenir une sauce onctueuse et brillante. Ajoute 3 c.s. de Grand Marnier. ATTENTION : ne fais plus bouillir, la sauce se séparerait.",
+            "Plie chaque crêpe en 4 et plonge-les dans la sauce chaude pour les imprégner. Sers immédiatement 3 crêpes par personne avec un peu de sauce nappée par-dessus. Le flambage spectacle est OPTIONNEL : chauffe 50 ml de Grand Marnier dans une louche, enflamme et verse sur les crêpes en présentation."
           ]
         },
         {
@@ -5116,15 +5348,49 @@
           ],
           "story": "Née en Lorraine au XVIᵉ siècle (mentionnée dans les comptes du duc Charles III dès 1586), la quiche lorraine d'origine ne contenait QUE des œufs, de la crème et des lardons — pas de fromage. Elizabeth David et Julia Child ont défendu cette pureté dans leurs livres : 'Le fromage ruine le délicat équilibre de la migaine.'",
           "chefSecret": "DEUX règles cardinales : (1) PAS DE FROMAGE — c'est une hérésie lorraine, condamnée par tous les gardiens du patrimoine culinaire régional. Le gruyère râpé est une invention francilienne moderne. (2) La pâte DOIT être précuite à blanc — sinon le fond devient détrempé sous la migaine et ruine la texture. Et le truc de bistrot : ajouter UN jaune supplémentaire à la migaine pour une onctuosité sans excès de gras.",
-          "simplifiedSteps": [
-            "La pâte brisée : sable la farine avec le beurre froid en dés du bout des doigts (texture sable grossier). Ajoute le sel, l'œuf et l'eau froide, frase rapidement (sans pétrir) jusqu'à obtenir une boule homogène. Filme et mets au frigo 1 h (étape clé : pétrir trop ou raccourcir le repos = pâte qui rétracte).",
-            "Beurre un moule à tarte de 26 cm (idéalement à fond amovible). Étale la pâte sur 3 mm d'épaisseur, fonce le moule en remontant bien sur les bords, pique le fond à la fourchette.",
-            "La cuisson à blanc (= cuire la pâte vide) : préchauffe le four à 180 °C. Couvre la pâte d'un papier sulfurisé + des billes de cuisson (ou haricots secs), cuis 10 min. Retire billes + papier, poursuis 5 min jusqu'à ce que le fond soit légèrement doré.",
-            "Les lardons : fais revenir les lardons à sec dans une poêle bien chaude 5 min en remuant — ils doivent rendre leur gras et devenir croustillants SANS noircir. Égoutte sur papier absorbant (l'excès de gras dans la quiche = catastrophe humide).",
-            "La migaine (le mélange œufs+crème+lait) : fouette dans un saladier les 3 œufs + 1 jaune avec la crème et le lait. NI fouet électrique ni mousse — juste homogénéiser. Râpe la muscade généreusement, poivre, sale avec parcimonie.",
-            "L'assemblage : répartis les lardons sur le fond de pâte précuit. Verse la migaine par-dessus en remplissant à 3 mm sous le bord (elle monte à la cuisson).",
-            "Cuis 40-45 min à 180 °C jusqu'à ce que la quiche soit gonflée, dorée et légèrement tremblotante au centre (elle finit de prendre HORS DU FOUR).",
-            "Laisse reposer 10 min hors du four avant de démouler — la migaine se stabilise et la découpe est nette. Sers TIÈDE."
+          "commisIngredients": [
+            {
+              "name": "Pâte brisée prête à dérouler",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Lardons fumés",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs entiers",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Crème liquide entière",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Lait entier",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Noix de muscade en poudre",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Poivre (le sel n'est pas nécessaire : lardons salent)",
+              "qty": 1,
+              "unit": "pincée"
+            }
+          ],
+          "commisSteps": [
+            "Préchauffe le four à 200 °C. Déroule la pâte brisée dans un moule à tarte de 26 cm avec son papier sulfurisé. Pique le fond avec une fourchette pour éviter qu'elle gonfle à la cuisson.",
+            "Dans une poêle, fais revenir les lardons à sec 4-5 min à feu moyen jusqu'à ce qu'ils dorent et libèrent leur gras. Égoutte-les sur du papier absorbant pour enlever l'excès de graisse.",
+            "Dans un saladier, bats les 4 œufs entiers à la fourchette. Ajoute la crème liquide, le lait, une pincée de muscade et un tour de moulin de poivre. PAS DE SEL — les lardons salent déjà bien assez.",
+            "Répartis les lardons égouttés sur la pâte. Verse l'appareil œufs-crème par-dessus sans dépasser le bord (l'appareil monte légèrement à la cuisson, prévois 5 mm de marge).",
+            "Enfourne 35-40 min à 200 °C. La quiche doit être bien dorée sur le dessus et tremblotante au centre quand tu la sors (elle se fige en refroidissant 5 min hors du four). Sers tiède ou froide avec une salade verte simple à côté."
           ]
         }
       ]
