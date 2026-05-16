@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Globe2, Sparkles, ChevronRight } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { WorldMapClient } from "@/components/map/WorldMapClient";
+import { GlobeFrame } from "@/components/map/GlobeFrame";
 import { getCountriesIndex } from "@/lib/data";
 
 export default function Home() {
@@ -38,15 +39,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GLOBE 3D */}
+      {/* GLOBE 3D — habillé d'un cadre "carnet de voyage" (grille de
+          coordonnées + tampons de douane + rose des vents + compteur). */}
       <section className="mx-auto max-w-6xl px-4 md:px-6 pb-10">
-        <Suspense
-          fallback={
-            <div className="aspect-[10/7] w-full rounded-soft-xl bg-gradient-to-b from-bone to-bone-deep shadow-paper animate-pulse" />
-          }
-        >
-          <WorldMapClient countries={countries} />
-        </Suspense>
+        <GlobeFrame totalCountries={countries.length}>
+          <Suspense
+            fallback={
+              <div className="aspect-[10/7] w-full rounded-soft-xl bg-gradient-to-b from-bone to-bone-deep shadow-paper animate-pulse" />
+            }
+          >
+            <WorldMapClient countries={countries} />
+          </Suspense>
+        </GlobeFrame>
       </section>
 
       {/* GRILLE PAYS — esthétique "fiches papier de carnet de voyage".

@@ -101,6 +101,37 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
   );
 
   /**
+   * Arcs de voyage — chaque pays se connecte au suivant dans la liste pour
+   * former un "itinéraire" qui boucle. Animation dash gradient pour donner
+   * un effet de voyage (orange brûlé → ochre selon la palette appétissante).
+   */
+  const arcs = useMemo(() => {
+    const coords = countries
+      .map((c) => ({ slug: c.slug, ...(COUNTRY_COORDS[c.slug] ?? {}) }))
+      .filter(
+        (c): c is { slug: string; lat: number; lng: number } =>
+          typeof c.lat === "number" && typeof c.lng === "number"
+      );
+    const list: {
+      startLat: number;
+      startLng: number;
+      endLat: number;
+      endLng: number;
+    }[] = [];
+    for (let i = 0; i < coords.length; i++) {
+      const a = coords[i];
+      const b = coords[(i + 1) % coords.length];
+      list.push({
+        startLat: a.lat,
+        startLng: a.lng,
+        endLat: b.lat,
+        endLng: b.lng,
+      });
+    }
+    return list;
+  }, [countries]);
+
+  /**
    * Markers HTML (un par pays disponible). Liste STABLE — ne dépend que de
    * countries (qui ne change pas après mount). L'opacité est gérée hors-React
    * via une CSS variable sur le container parent, lue par chaque marker via
@@ -282,8 +313,10 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           height={size.h}
           backgroundColor="rgba(0,0,0,0)"
           showAtmosphere={true}
-          atmosphereColor="#A3B18A"
-          atmosphereAltitude={0.22}
+          // Halo lumineux orange brûlé qui matche la palette appétissante v2 —
+          // donne au globe l'impression d'un "soleil couchant" / "four chaud".
+          atmosphereColor="#FF8A65"
+          atmosphereAltitude={0.28}
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           globeMaterial={OCEAN_MATERIAL as any}
           polygonsData={features}
@@ -339,11 +372,25 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
             if (c) router.push(`/pays/${c.slug}`);
           }}
           ringsData={rings}
-          ringColor={() => (t: number) => `rgba(195, 93, 58, ${0.55 * (1 - t)})`}
+          ringColor={() => (t: number) => `rgba(230, 81, 0, ${0.55 * (1 - t)})`}
           ringMaxRadius={2.6}
           ringPropagationSpeed={1.6}
           ringRepeatPeriod={1700}
           ringAltitude={0.018}
+          // === ARCS DE VOYAGE — itinéraire en boucle ===
+          // Connecte chaque pays au suivant pour donner un effet "carnet de
+          // voyage" — la palette terracotta/orange anime le parcours.
+          arcsData={arcs}
+          arcStartLat="startLat"
+          arcStartLng="startLng"
+          arcEndLat="endLat"
+          arcEndLng="endLng"
+          arcColor={() => ["rgba(230, 81, 0, 0.55)", "rgba(251, 192, 45, 0.45)"]}
+          arcStroke={0.35}
+          arcDashLength={0.4}
+          arcDashGap={0.18}
+          arcDashAnimateTime={4500}
+          arcAltitudeAutoScale={0.35}
           // === HTML MARKERS — pill DOM avec drapeau emoji + nom du pays ===
           // Utilise des éléments DOM (pas la TextGeometry 3D de Three.js qui
           // affichait des "?" pour les drapeaux emoji absents de la typeface).

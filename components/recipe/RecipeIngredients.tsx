@@ -3,13 +3,9 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { clsx } from "clsx";
-import { convert, type System } from "@/lib/units";
-import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
+import { formatQty } from "@/lib/units";
 import { categorizeIngredient } from "@/lib/ingredientCategory";
 import type { Ingredient } from "@/lib/types";
-
-const KEY = "mapandfork.unit-system";
-const LEGACY_KEY = "global-food.unit-system";
 
 type Props = {
   ingredients: Ingredient[];
@@ -31,26 +27,19 @@ type Props = {
   collapsible?: boolean;
 };
 
+/**
+ * Refonte v2 : le toggle Métrique/Impérial a été retiré. La cuisine du
+ * monde est plus précise en métrique (toutes les fiches authentiques sont
+ * en g/ml). On affiche uniquement les valeurs métriques mises à l'échelle
+ * en fonction de la sélection de portions du sticky bar.
+ */
 export function RecipeIngredients({
   ingredients,
   servings,
   baseline,
   collapsible = false,
 }: Props) {
-  const [stored, setStored, hydrated] = useLocalStorage<System>(
-    KEY,
-    "metric",
-    LEGACY_KEY
-  );
-  const [system, setSystem] = useState<System>(stored);
   const [openMobile, setOpenMobile] = useState<boolean>(!collapsible);
-
-  function pickSystem(next: System) {
-    setSystem(next);
-    setStored(next);
-  }
-
-  const active: System = hydrated ? stored : system;
   const ratio = servings / baseline;
 
   return (
@@ -86,47 +75,6 @@ export function RecipeIngredients({
             Ingrédients
           </h2>
         )}
-        {/* Unit toggle Métrique/Impérial — toujours dispo via accordion ouvert
-            ET partagé md+ (la portion control est dans la sticky info bar) */}
-        <div
-          className={clsx(
-            "flex items-center gap-3 flex-wrap",
-            collapsible && !openMobile && "hidden md:flex"
-          )}
-        >
-          <div
-            role="group"
-            aria-label="Unités de mesure"
-            className="inline-flex rounded-full border border-bone-deep bg-white p-0.5 text-xs shadow-soft"
-          >
-            <button
-              type="button"
-              onClick={() => pickSystem("metric")}
-              className={clsx(
-                "rounded-full px-3 h-9 font-medium transition-all active:scale-95",
-                active === "metric"
-                  ? "bg-sage text-bone shadow-soft"
-                  : "text-ink-soft hover:text-ink"
-              )}
-              aria-pressed={active === "metric"}
-            >
-              Métrique
-            </button>
-            <button
-              type="button"
-              onClick={() => pickSystem("imperial")}
-              className={clsx(
-                "rounded-full px-3 h-9 font-medium transition-all active:scale-95",
-                active === "imperial"
-                  ? "bg-sage text-bone shadow-soft"
-                  : "text-ink-soft hover:text-ink"
-              )}
-              aria-pressed={active === "imperial"}
-            >
-              Impérial
-            </button>
-          </div>
-        </div>
       </header>
 
       <ul
@@ -139,7 +87,7 @@ export function RecipeIngredients({
       >
         {ingredients.map((ing, i) => {
           const scaled = ing.qty * ratio;
-          const out = convert(scaled, ing.unit, active);
+          const out = formatQty(scaled, ing.unit);
           const cat = categorizeIngredient(ing.name);
           return (
             <li

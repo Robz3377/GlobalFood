@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
 import { BackgroundDecor } from "@/components/layout/BackgroundDecor";
+import { SplashScreen } from "@/components/layout/SplashScreen";
 import { SurpriseButton } from "@/components/surprise/SurpriseButton";
 
 const fraunces = Fraunces({
@@ -96,6 +97,9 @@ export default function RootLayout({
       className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bone text-ink pb-16 md:pb-0">
+        {/* Splash 1 seconde au mount du root layout — disparait en fade-out
+            propre, n'interfère pas avec l'interaction après 300ms. */}
+        <SplashScreen />
         <BackgroundDecor />
         <Header />
         {children}
