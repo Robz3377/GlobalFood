@@ -43,23 +43,20 @@ export type Recipe = {
   /**
    * Ingrédients "Commis de cuisine" — alternatives supermarché classiques
    * (ex: guanciale → lardons fumés, pecorino DOP → parmesan, mascarpone
-   * italien → mascarpone du frigo). Optionnel : si absent, le toggle Commis
-   * affiche les ingrédients Chef en repli.
+   * italien → mascarpone du frigo). Optionnel : si absent, le toggle
+   * Commis affiche les ingrédients Chef en repli.
+   *
+   * Note : depuis la migration des 50 recettes (lots 1-10), TOUTES les
+   * recettes existantes ont leur variante Commis. Le champ reste optionnel
+   * pour permettre l'ajout futur de recettes "Chef-only" sans variante.
    */
   commisIngredients?: Ingredient[];
   /**
-   * Étapes "Commis de cuisine" — cuissons rapides, mots du quotidien, pas
-   * de matériel exotique. Optionnel : repli sur `simplifiedSteps` puis sur
-   * `steps` si absent.
+   * Étapes "Commis de cuisine" — cuissons rapides, mots du quotidien,
+   * pas de matériel exotique. Repli sur `steps` si absent (cohérent
+   * avec `commisIngredients`).
    */
   commisSteps?: string[];
-  /**
-   * @deprecated Champ legacy "Mode Famille" — version vulgarisée des steps
-   * Pro (mêmes ingrédients, langage simple). Utilisé comme fallback pour
-   * le mode Commis tant que `commisSteps` n'est pas rédigé. À supprimer
-   * une fois les 10 lots de migration terminés.
-   */
-  simplifiedSteps?: string[];
   story?: string;
   /** Tip professionnel — temp. d'huile, technique précise, astuce de dressage. */
   chefSecret?: string;

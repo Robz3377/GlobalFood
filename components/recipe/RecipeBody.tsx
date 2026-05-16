@@ -66,11 +66,12 @@ export function RecipeBody({ country, recipe }: Props) {
   const baseline = recipe.servings;
   const [servings, setServings] = useState<number>(baseline);
   const totalTime = recipe.prepTime + recipe.cookTime;
-  // Toggle Brigade disponible si la recette a au moins une variante Commis
-  // (champ moderne commisSteps OU legacy simplifiedSteps en fallback).
+  // Toggle Brigade disponible si la recette a la variante Commis.
+  // Depuis la migration des 50 recettes (lots 1-10), toutes les recettes
+  // existantes ont commisSteps. Le champ reste optionnel pour permettre
+  // d'ajouter des recettes "Chef-only" sans variante Commis dans le futur.
   const hasCommisMode =
-    (Array.isArray(recipe.commisSteps) && recipe.commisSteps.length > 0) ||
-    (Array.isArray(recipe.simplifiedSteps) && recipe.simplifiedSteps.length > 0);
+    Array.isArray(recipe.commisSteps) && recipe.commisSteps.length > 0;
   // Préférence Brigade persistée en localStorage. Le stockage migre depuis
   // les anciennes valeurs Pro/Famille (cf. readBrigadeMode).
   const [storedMode, setStoredMode] = useLocalStorage<StepsMode>(
@@ -87,10 +88,11 @@ export function RecipeBody({ country, recipe }: Props) {
       : storedMode;
   const mode: StepsMode = hasCommisMode ? migratedMode : "chef";
   // Sélection des étapes : chef → steps. commis → commisSteps si présent,
-  // sinon fallback simplifiedSteps (legacy), sinon steps (sécurité).
+  // sinon repli sur steps (sécurité — ne devrait pas arriver tant que
+  // hasCommisMode gate l'accès au mode commis).
   const activeSteps =
     mode === "commis"
-      ? recipe.commisSteps ?? recipe.simplifiedSteps ?? recipe.steps
+      ? recipe.commisSteps ?? recipe.steps
       : recipe.steps;
   // Sélection des ingrédients : commis → commisIngredients si présent,
   // sinon repli sur les ingrédients Chef (transition de schéma).

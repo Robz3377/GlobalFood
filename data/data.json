@@ -8353,17 +8353,105 @@
           ],
           "story": "La moussaka grecque moderne, structurée en couches avec béchamel, est l'œuvre du chef Nikólaos Tselementés dans les années 1920 — il occidentalisa une recette ottomane pour la rendre plus chic dans les hôtels d'Athènes.",
           "chefSecret": "Les jaunes d'œuf incorporés en fin de béchamel (avec tempérage préalable) sont LA signature qui transforme le gratin en une croûte dorée-bronzée presque soufflée — sans eux, c'est juste une couche blanche fade. Et le repos de 20 min hors four est aussi important que la cuisson : c'est ce qui permet de découper des parts nettes plutôt que de servir une bouillie.",
-          "simplifiedSteps": [
-            "Coupe les aubergines en tranches de 1 cm d'épaisseur, sale-les généreusement et laisse-les dégorger 1 h sur une grille (l'amertume s'écoule avec l'eau). Rince rapidement et sèche.",
-            "Préchauffe le four à 200 °C. Badigeonne les tranches d'huile d'olive sur les deux faces, dispose-les sur 2 plaques. Cuis 20 min, retourne, poursuis 8-10 min jusqu'à tendreté et belle dorure. Réserve.",
-            "Pendant ce temps, fais suer l'oignon dans 30 ml d'huile d'olive 8 min à feu doux. Ajoute l'ail, cuis 1 min.",
-            "Augmente le feu, ajoute l'agneau et fais-le revenir 8 min en l'émiettant à la cuillère jusqu'à coloration. Égoutte l'excès de gras.",
-            "Déglace au vin rouge, laisse réduire 3 min à feu vif. Ajoute le concentré, les tomates concassées, la cannelle, le piment de la Jamaïque, l'origan, sel et poivre.",
-            "Couvre partiellement et laisse mijoter 45 min à TRÈS PETIT FEU jusqu'à obtenir une sauce épaisse, presque sèche. Ajoute le persil HORS DU FEU.",
-            "La béchamel : fais fondre 60 g de beurre, ajoute 60 g de farine et cuis le roux 2 min SANS coloration. Verse le lait chaud D'UN COUP en fouettant énergiquement. Cuis 5 min en fouettant constamment jusqu'à épaississement nappant. Hors du feu, ajoute la muscade, 60 g de kefalotyri (fromage grec dur, à défaut parmesan), sel, poivre.",
-            "Dans un cul-de-poule, fouette les 2 jaunes, prélève 1 louche de béchamel chaude pour les tempérer (les habituer à la chaleur sans cuire), puis incorpore le tout au reste de béchamel en fouettant.",
-            "Montage dans un plat à gratin de 30×20 cm : couche d'aubergines (la moitié) → toute la sauce viande → 2ème couche d'aubergines → béchamel répartie en couche épaisse uniforme → reste de kefalotyri (40 g) parsemé.",
-            "Cuis 45 min à 180 °C jusqu'à ce que le dessus soit doré-bronzé et que le centre frémisse. Laisse IMPÉRATIVEMENT reposer 20 min HORS DU FOUR avant de découper (la béchamel se raffermit, les couches tiennent à la coupe)."
+          "commisIngredients": [
+            {
+              "name": "Aubergines",
+              "qty": 1000,
+              "unit": "g"
+            },
+            {
+              "name": "Bœuf haché (ou agneau si dispo)",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Concentré de tomate",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Cannelle en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "4 épices (ou paprika)",
+              "qty": 0.5,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Origan séché",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Persil ciselé",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 5,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Beurre (béchamel)",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Farine (béchamel)",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Lait entier (béchamel)",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Œuf entier (béchamel dorée)",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Parmesan râpé",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Noix de muscade en poudre",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Préchauffe le four à 200 °C. Coupe les aubergines en tranches de 1 cm dans la longueur, badigeonne-les des deux côtés d'huile d'olive (3 c.s.), sale légèrement. Étale-les sur 2 plaques garnies de papier sulfurisé. Enfourne 20 min en retournant à mi-cuisson, jusqu'à coloration dorée. Réserve.",
+            "Pendant ce temps, prépare la sauce viande : émince l'oignon. Dans une grande poêle, fais chauffer 2 c.s. d'huile à feu moyen, fais fondre l'oignon 5 min. Ajoute la viande hachée et fais-la revenir 5 min en l'émiettant à la spatule jusqu'à coloration brune. Ajoute l'ail écrasé, la cannelle, les 4 épices et l'origan, remue 30 s.",
+            "Verse les tomates concassées et le concentré de tomate. Sale, poivre. Laisse mijoter 15 min à feu doux jusqu'à ce que la sauce épaississe. Ajoute le persil ciselé, mélange.",
+            "BÉCHAMEL EXPRESS : dans une casserole, fais fondre 50 g de beurre. Ajoute 50 g de farine en pluie, remue à la spatule 1 min (c'est le roux). Verse le lait chaud d'un coup et fouette énergiquement pour éviter les grumeaux. Laisse épaissir 3-4 min à feu moyen en fouettant. Hors du feu, ajoute la muscade, le poivre, 40 g de parmesan et l'œuf entier en fouettant rapidement (l'œuf doit s'incorporer sans cuire en omelette).",
+            "MONTAGE : dans un plat à gratin (~25×35 cm), dispose une première couche d'aubergines grillées. Couvre de la moitié de la sauce viande. Re-couche d'aubergines. Verse le reste de sauce viande. Termine par les aubergines restantes. Nappe de toute la béchamel en lissant. Saupoudre du reste de parmesan râpé (40 g).",
+            "Enfourne 35-40 min à 180 °C jusqu'à coloration dorée et bouillonnement. Laisse reposer 10 min hors du four avant de servir — c'est important pour que les couches se stabilisent et que les parts se tiennent au service."
           ]
         },
         {
@@ -8483,18 +8571,80 @@
           ],
           "story": "Le mot 'souvlaki' (σουβλάκι) vient de 'souvla' (broche) en grec. Plat de rue ancestral remontant à l'époque mycénienne (-1500 av. J.-C., des broches en pierre ont été retrouvées à Santorin), il s'est démocratisé dans les tavernes grecques modernes à la fin du XIXᵉ siècle. C'est aujourd'hui le 'fast-food' national grec, partout en Grèce du nord au sud.",
           "chefSecret": "Trois règles des souvlatzides (taverniers grecs) : (1) HAUTS DE CUISSE > BLANCS — la chair plus grasse résiste au gril sans dessécher ; le blanc, même bien mariné, devient cotonneux ; (2) SEL AJOUTÉ 30 MIN AVANT — pas dans la marinade longue (déshydrate), pas après cuisson (n'imprègne pas) ; le timing est critique ; (3) MARINADE 12 H MINIMUM avec yaourt grec — la combinaison citron acide + lactoprotéines du yaourt attendrit en profondeur. Et l'ORIGAN GREC (rigani, pas italien) est non négociable : il a une note camphrée-thymolée puissante qui définit l'aromatique du souvlaki authentique.",
-          "simplifiedSteps": [
-            "Découpe : taille les hauts de cuisse en cubes RÉGULIERS de 2,5-3 cm (régularité = cuisson uniforme). Garde une légère marbrure de gras sur chaque cube — c'est ce qui empêche le poulet de sécher au gril.",
-            "La marinade : dans un saladier, fouette ensemble l'huile d'olive, le jus de citron, le zeste, le yaourt grec, l'ail écrasé, l'origan, le thym, le paprika, le poivre. N'AJOUTE PAS le sel maintenant — le sel extrait l'humidité de la viande pendant la marinade longue et la dessèche.",
-            "Ajoute les cubes de poulet, masse à la main pour bien enrober chaque morceau. Filme et mets au frigo 6 H MINIMUM (idéalement 12-24 h — le citron + yaourt grec attendrissent en profondeur).",
-            "30 min avant cuisson : sors le poulet, AJOUTE LE SEL et bien mélanger. Laisse revenir à température ambiante (cuisson plus uniforme).",
-            "Les brochettes : fais tremper les piques en bois 30 min dans l'eau froide (sinon elles brûlent au gril).",
-            "Embroche les cubes en les espaçant légèrement (1-2 mm entre chaque). Collés serrés, ils restent crus au centre ; trop espacés, ils sèchent. 6-7 cubes par brochette.",
-            "Préchauffage gril : porte le BBQ ou la plancha à TEMPÉRATURE MAXIMALE (250-280 °C). À défaut, une poêle en fonte striée bien chaude sur feu vif.",
-            "Saisis les brochettes 3 min par face (4 faces = 12 min total), en les retournant à 90° à chaque face. La viande doit avoir des marques de gril nettes ('quadrillage' grec) et caraméliser SANS noircir.",
-            "Le repos — étape signature NON NÉGOCIABLE : dépose les brochettes sur une assiette tiède, couvre lâchement de papier alu, laisse reposer 5 min. Les sucs intérieurs se redistribuent dans toute la chair, le poulet reste juteux à la coupe.",
-            "Pendant le repos, réchauffe les pita sur la plancha encore chaude 30 sec par face (juste pour les ramollir et les marquer).",
-            "Dressage en taverne grecque : sur chaque pita chaude, écrase 2 cs de tzatziki, dépose une brochette débrochée sur le pain, ajoute tomates en quartiers, oignon rouge, un filet d'huile d'olive crue, une pincée d'origan supplémentaire. Plie en taco. Sers avec des frites optionnelles."
+          "commisIngredients": [
+            {
+              "name": "Blancs (ou hauts de cuisse) de poulet",
+              "qty": 700,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt grec (ou nature)",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 6,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron jaune",
+              "qty": 4,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousses"
+            },
+            {
+              "name": "Origan séché",
+              "qty": 2,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Paprika doux",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Pains pita",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Oignon rouge",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Tzatziki (en pot ou maison)",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Brochettes en bois",
+              "qty": 8,
+              "unit": "u"
+            }
+          ],
+          "commisSteps": [
+            "Coupe le poulet en cubes de 2,5 cm. Dans un grand saladier, mélange le yaourt + 4 c.s. d'huile d'olive + jus de citron + ail écrasé + origan + paprika + sel + poivre. Ajoute les cubes de poulet, mélange et laisse mariner 30 min minimum (2 h c'est encore mieux au frais).",
+            "Pendant la marinade, fais tremper les brochettes en bois dans un verre d'eau 20 min pour qu'elles ne brûlent pas à la cuisson. Émince finement l'oignon rouge et coupe les tomates en quartiers.",
+            "Enfile les cubes de poulet sur les brochettes en serrant bien (5-6 cubes par brochette, soit 8 brochettes).",
+            "CUISSON POÊLE OU PLANCHA : fais chauffer une grande poêle ou plancha à feu vif avec 2 c.s. d'huile d'olive. Pose les brochettes et fais-les saisir 3 min de chaque côté (12 min total en tournant 4 fois). Le poulet doit être doré-grillé sur les arêtes mais juteux à cœur.",
+            "Pendant la cuisson, réchauffe les pains pita 20 s par face dans une poêle sèche bien chaude (ou 30 s au micro-ondes sous un torchon humide).",
+            "Pour servir : ouvre chaque pita en deux poches. Garnis de poulet sorti des brochettes, ajoute tomate, oignon rouge et 1 grosse cuillère de tzatziki. Mange à la main, c'est la tradition du street food grec."
           ]
         },
         {
@@ -8592,17 +8742,70 @@
           ],
           "story": "Mot d'origine turque ('cacık') diffusé dans tout l'Empire ottoman et redéclinen identité grecque depuis l'indépendance de 1830. Le tzatziki est l'un des 18 mezedes traditionnels de la table grecque (les petites entrées que l'on partage avant le plat principal), particulièrement consommé en été quand les concombres sont à maturité.",
           "chefSecret": "Trois règles non négociables des tavernes grecques : (1) ÉGOUTTAGE DU YAOURT 30 MIN MINIMUM — sans cette étape, c'est un tzatziki liquide qui détrempe les pitas ; le 'straggisto' (yaourt épais grec) authentique est rarement disponible même en Grèce, il faut le créer soi-même ; (2) PRESSAGE ÉNERGIQUE DU CONCOMBRE — viser 30-50 ml d'eau extraite par main pressante ; un concombre non pressé = tzatziki qui se sépare en 2 phases au repos ; (3) ANETH OU MENTHE, JAMAIS LES DEUX — c'est un débat régional grec (Nord vs Crète), et chaque famille a sa préférence. Mélanger les deux est un défaut de débutant qui crée un goût confus. Pour la cuisine de palace : ajouter une pointe (1 mL) de jus de citron en plus du vinaigre = note citronnée subtile en finale.",
-          "simplifiedSteps": [
-            "Égouttage du yaourt (étape signature pour le 'straggisto') : tapisse une passoire fine d'une étamine ou d'un linge fin propre. Verse le yaourt grec dedans et laisse égoutter au-dessus d'un saladier 30 min au frigo. Il perdra environ 50 ml de petit-lait et deviendra plus dense, presque crémeux. Cette étape est ce qui distingue un vrai tzatziki taverne d'un mélange yaourt-concombre liquide.",
-            "Préparation du concombre : pèle le concombre en alternance (1 bande peau, 1 bande pelée — pour garder un peu de texture verte). Coupe-le en 2 dans la longueur, retire les graines à la cuillère (les graines + leur eau ramollissent le tzatziki).",
-            "Râpe le concombre à la grille FINE (pas grosse — la grille fine libère les arômes). Saupoudre 5 g de sel, mélange, laisse dégorger 15 min dans une passoire.",
-            "Pressage — étape critique : prends le concombre râpé entre les paumes par poignées et PRESSE ÉNERGIQUEMENT pour extraire un MAXIMUM d'eau (tu dois extraire 30-50 ml d'eau salée par concombre). SANS ce pressage, le tzatziki devient liquide en 1 h. Réserve le concombre pressé.",
-            "Pâte d'ail : dans un mortier, pile les 3 gousses d'ail dégermé avec 2 g de sel jusqu'à obtenir une pâte lisse. Cette technique disperse l'ail UNIFORMÉMENT (vs ail haché qui forme des îlots piquants ponctuels — défaut de débutant).",
-            "L'assemblage : dans un grand saladier, mélange le yaourt égoutté avec la pâte d'ail, le concombre pressé, l'huile d'olive, le vinaigre de vin blanc et le poivre.",
-            "Choix de l'herbe — règle absolue : ajoute SOIT l'aneth (style nord grec, plus frais-anisé) SOIT la menthe (style crétois traditionnel, plus chaud). NE JAMAIS combiner les deux — leurs notes s'opposent et créent un goût confus. Mélange délicatement.",
-            "Le repos : couvre et mets au frigo MINIMUM 1 h, idéalement 4 h. Les saveurs fusionnent, l'ail s'arrondit et perd son aspect cru piquant.",
-            "Les pitas : préchauffe une poêle ou plancha à feu moyen-vif. Badigeonne légèrement chaque pita d'huile d'olive, saupoudre d'origan. Chauffe 1 min par face jusqu'à ce qu'elles gonflent, marquent légèrement et libèrent leur arôme.",
-            "Le dressage : verse le tzatziki dans un bol évasé, fais un creux au centre, arrose d'1 cs d'huile d'olive en finition (technique des tavernes grecques pour la brillance). Saupoudre d'origan séché. Sers frais avec les pitas chaudes coupées en quartiers, accompagné de souvlakis ou de légumes croquants (radis, concombre, carottes)."
+          "commisIngredients": [
+            {
+              "name": "Yaourt grec classique",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Concombre",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Sel (dégorger le concombre)",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Menthe fraîche ciselée",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Poivre noir du moulin",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Pains pita",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Huile d'olive (pita)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Origan séché (pita)",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Râpe le concombre à la grosse râpe (avec la peau si elle est fine). Mets-le dans une passoire au-dessus de l'évier, sale avec 1 c.c. de sel et laisse dégorger 15 min. Presse-le ensuite très fort à la main pour évacuer toute l'eau — sinon le tzatziki sera liquide.",
+            "Pendant que le concombre dégorge, écrase l'ail au pilon (ou au presse-ail) en pâte fine avec une pincée de sel. Cisèle finement la menthe.",
+            "Dans un grand bol, mélange le yaourt grec + concombre pressé + pâte d'ail + menthe + 3 c.s. d'huile d'olive + jus de citron + poivre. Mélange à la cuillère jusqu'à homogène. Goûte, rectifie sel et citron.",
+            "Filme au contact et place au frais MINIMUM 1 heure (2-3 h c'est encore mieux) — le repos permet aux saveurs de se développer et au tzatziki d'épaissir naturellement.",
+            "Au moment de servir : badigeonne les pitas d'un filet d'huile d'olive, saupoudre d'origan séché. Réchauffe-les 1 min par face dans une poêle sèche bien chaude (ou 2 min au four à 200 °C). Coupe-les en quartiers.",
+            "Sers le tzatziki bien frais dans un bol creux avec un filet d'huile d'olive en finition, accompagné des quartiers de pita chauds à tremper. Se conserve 3 jours au frigo en bocal fermé."
           ]
         },
         {
@@ -8717,21 +8920,75 @@
           ],
           "story": "Plat traditionnel grec datant probablement de la période byzantine. Les femmes grecques en cuisinent en grande quantité pour la Pâque orthodoxe et durant le Carême (version vegan sans œufs ni feta — juste épinards + huile d'olive + herbes). Le mot 'spanakopita' = 'spanaki' (épinards) + 'pita' (pâte feuilletée). Les versions régionales varient : Crète au fenouil sauvage, Macédoine à la blette, Péloponnèse à l'ortie sauvage.",
           "chefSecret": "Le pressage énergique des épinards est NON NÉGOCIABLE et c'est l'erreur n°1 des spanakopitas occidentales : on doit extraire 400-500 ml d'eau de 1 kg d'épinards crus, en pressant à mains nues 3-4 fois jusqu'à 'boules' compactes. Compléter par un séchage en poêle sèche 3-4 min pour les épinards finit le travail. Sans ça, la pâte filo se détrempe en 20 min de cuisson et on obtient une bouillie verdâtre dans une croûte molle. Et HUILE D'OLIVE entre les couches > BEURRE FONDU : c'est plus léger, plus authentique grec (le beurre est une déviation austro-hongroise), et le filo reste plus craquant. Et toujours pré-découper AVANT cuisson — sinon la pâte cuite s'éclate à la moindre tentative de découpe.",
-          "simplifiedSteps": [
-            "Dégorgement des épinards (étape signature NON NÉGOCIABLE) : lave les épinards. Sale-les (5 g de sel) dans un grand saladier, masse à la main 1 min, laisse dégorger 15 min — l'osmose extrait l'eau intracellulaire.",
-            "Blanchiment express : porte 2 L d'eau à ébullition, plonge les épinards salés 30 sec en remuant. Ils tombent immédiatement en réduction de volume (×4). Égoutte dans une passoire fine.",
-            "Pressage ÉNERGIQUE (la règle d'or) : prends les épinards par poignées entre les paumes et PRESSE de toutes tes forces pour extraire un MAXIMUM d'eau. Répète 3-4 fois jusqu'à ne plus pouvoir extraire de jus (tu obtiens des 'boules' compactes vert sombre). Tu dois extraire 400-500 ml d'eau de 1 kg d'épinards crus. SANS ce pressage, la pâte filo se détrempe inévitablement.",
-            "Étape supplémentaire — séchage à sec : remets les épinards pressés dans une poêle SÈCHE à feu moyen 3-4 min en remuant. Toute humidité résiduelle s'évapore. Hache grossièrement au couteau. Réserve tiède.",
-            "Fais suer les oignons verts dans 30 ml d'huile d'olive 5 min à feu doux. Ajoute l'ail, cuis 1 min. Mélange aux épinards.",
-            "La garniture : dans un grand saladier, mélange les épinards refroidis + feta émiettée + ricotta + œufs battus + aneth + persil + menthe + muscade + poivre. NE SALE PAS (la feta sale déjà). Texture : compacte, pas humide.",
-            "Montage — préparation : préchauffe le four à 180 °C (chaleur tournante). Beurre ou huile un plat à gratin de 30×22 cm aux bords hauts. Couvre la pile de feuilles filo d'un torchon humide (sinon elles cassent en 5 min).",
-            "Base 8 feuilles : dépose 1 feuille filo dans le plat (laisse déborder), badigeonne d'huile d'olive au pinceau. Recommence avec 8 feuilles empilées, chacune badigeonnée d'huile généreusement (huile d'olive grecque > beurre fondu, c'est plus authentique et plus léger).",
-            "Étale toute la garniture épinards-feta en couche égale.",
-            "Dessus 8 feuilles : recouvre avec les 8 dernières feuilles, chacune badigeonnée. Replie les bords débordants vers le centre comme un emballage. Beurre généreusement le dessus.",
-            "Découpe préalable en parts (étape critique) : avec un couteau bien aiguisé, découpe la spanakopita en parts (carrés ou triangles) AVANT cuisson, jusqu'au fond. SANS cette pré-découpe, le filo cuit s'écrase au moment de servir.",
-            "Saupoudre de sésame ou de nigelle, vaporise 5 ml d'eau froide sur le dessus (truc de chef : empêche la pâte de brunir trop vite).",
-            "Cuis 45-50 min à 180 °C jusqu'à ce que le dessus soit doré-bronzé profond et que la pâte 'chante' (légers crépitements à l'oreille).",
-            "Repos 15 min hors du four avant de servir. La garniture se stabilise et la découpe est nette. Sers TIÈDE (jamais brûlant — les saveurs s'expriment mieux à 50 °C)."
+          "commisIngredients": [
+            {
+              "name": "Épinards surgelés en branches",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Feta émiettée",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Oignons verts (ou 1 oignon jaune)",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousses"
+            },
+            {
+              "name": "Aneth ou persil ciselés",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Menthe fraîche ciselée",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Noix de muscade en poudre",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Feuilles de brick rondes",
+              "qty": 10,
+              "unit": "u"
+            },
+            {
+              "name": "Beurre fondu (ou huile d'olive)",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Graines de sésame (déco)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Décongèle les épinards surgelés dans une passoire (30 min à température ambiante, ou 5 min au micro-ondes). Presse-les très fort à la main pour évacuer un maximum d'eau — sinon la spanakopita détrempe la pâte.",
+            "Émince finement les oignons verts. Dans une grande poêle, fais chauffer 2 c.s. d'huile (prélevée du beurre) à feu moyen. Fais revenir les oignons 3 min, ajoute l'ail écrasé, remue 30 s. Ajoute les épinards pressés et fais sauter 3 min pour évaporer le reste d'humidité.",
+            "Transfère le mélange épinards dans un saladier, laisse tiédir 5 min. Ajoute la feta émiettée, les œufs battus, l'aneth/persil + menthe ciselés, la muscade, le poivre. Sale légèrement (la feta sale déjà). Mélange.",
+            "Préchauffe le four à 180 °C. Beurre généreusement un moule rond ou rectangulaire (~24 cm) au pinceau.",
+            "MONTAGE : dépose 5 feuilles de brick beurrées au pinceau au fond du moule en étoile (elles débordent largement). Verse toute la farce d'épinards et égalise à la spatule. Replie les feuilles débordantes vers le centre comme un emballage cadeau. Couvre de 5 autres feuilles beurrées en scellant les bords.",
+            "Badigeonne la dernière couche de beurre fondu, saupoudre de graines de sésame. Enfourne 25-30 min à 180 °C jusqu'à coloration dorée intense et croustillante. Laisse reposer 10 min avant de couper en parts généreuses. Sers tiède ou à température ambiante."
           ]
         },
         {
@@ -8832,23 +9089,70 @@
           ],
           "story": "Le baklava est l'objet d'une dispute culturelle intense entre Grèce, Turquie, Liban, Iran et plusieurs pays des Balkans — chacun en revendique l'origine. La version la plus probable le situe dans les cuisines impériales de Topkapi à Istanbul (XVᵉ siècle ottoman), d'où il s'est diffusé partout dans l'ex-empire. Les Grecs le préfèrent aux noix (karydopita), les Turcs aux pistaches d'Antep (où le pistachier vert intense pousse), les Libanais aux amandes — chaque variante revendique l'authenticité.",
           "chefSecret": "Trois règles d'or des pâtissiers de baklava : (1) DÉCOUPE AVANT CUISSON jusqu'au fond du moule — sans ça, le filo cuit éclate à la moindre tentative de découpe et le baklava part en miettes ; (2) RÈGLE THERMIQUE INVERSE — sirop FROID sur baklava CHAUD et JAMAIS l'inverse. Le contraste thermique aspire le sirop dans toutes les couches par capillarité ; sirop chaud + baklava froid = baklava détrempé en surface et sec en profondeur ; (3) REPOS 12 H MINIMUM — pendant ce temps, le sirop migre uniformément, les pistaches s'imprègnent, le filo passe d'une croûte fragile à une texture aérée et soyeuse caractéristique. Servir le jour-même est une erreur de débutant. Pour le summum : ajouter une pointe (3 ml) d'eau de rose dans le sirop = signature des baklavas de palais ottoman.",
-          "simplifiedSteps": [
-            "Les pistaches (étape de saveur) : étale les pistaches émondées sur une plaque, passe-les au four 5 min à 150 °C (chaleur tournante) en remuant à mi-cuisson. Elles doivent juste blondir et libérer leur arôme. Laisse refroidir.",
-            "Mixe en pulses au robot pour obtenir des MORCEAUX GROSSIERS (texture sableuse-croquante, JAMAIS en poudre — la poudre donne une garniture pâteuse). Mélange avec 30 g de sucre glace et 2 g de cannelle. Réserve.",
-            "Le beurre clarifié : fais fondre 250 g de beurre dans une petite casserole à feu très doux jusqu'à ce que la mousse blanche se forme en surface. Écume-la à la cuillère et garde le liquide doré clair en dessous. La caséine retirée empêche le brunissement et donne une saveur de noisette pure.",
-            "Montage — préparation : préchauffe le four à 165 °C (chaleur tournante). Beurre généreusement un moule rectangulaire de 28×22 cm aux bords hauts. Place la pile de feuilles filo sous un torchon humide pendant tout le montage (sinon elles sèchent et craquellent en quelques minutes).",
-            "1ère base (12 feuilles) : dépose une feuille filo dans le moule, badigeonne LÉGÈREMENT au pinceau de beurre clarifié sur toute la surface (NE JAMAIS saturer — l'excès de beurre rend gras). Recommence avec 12 feuilles au total empilées et beurrées.",
-            "Garniture : étale la moitié du mélange pistaches en couche égale.",
-            "Couche intermédiaire (5 feuilles) : recouvre de 5 feuilles filo, beurrées une à une.",
-            "Étale le reste du mélange pistaches en couche égale.",
-            "Couche supérieure (8 feuilles) : recouvre des 8 dernières feuilles, beurrées une à une, en finissant par une couche généreuse de beurre clarifié sur le dessus.",
-            "Découpe AVANT cuisson (étape critique NON NÉGOCIABLE) : à l'aide d'un grand couteau bien aiguisé, découpe le baklava en LOSANGES (1ère série de coupes parallèles à 4 cm d'écart, 2ème série en diagonale 4 cm aussi). La découpe doit aller jusqu'au FOND du moule. SANS découpe préalable, le baklava devient incoupable une fois cuit (le filo cassant éclate).",
-            "La cuisson : enfourne 60-70 min à 165 °C jusqu'à ce que le dessus soit doré-bronzé uniformément. Couvre de papier alu si la dorure arrive trop vite (vers 40 min).",
-            "Le sirop (à préparer pendant la cuisson, à FROID au moment du versement) : dans une casserole, porte à frémissement 250 g de sucre + 200 ml d'eau + jus de citron + 1 bâton de cannelle. Cuis 8 min à frémissement (le sirop nappe légèrement le dos d'une cuillère). HORS DU FEU, ajoute 100 g de miel + 15 ml de fleur d'oranger. Laisse refroidir COMPLÈTEMENT à température ambiante (1 h minimum, idéalement au frais).",
-            "RÈGLE D'OR ABSOLUE — sirop FROID sur baklava CHAUD : à la sortie du four (encore brûlant et grésillant), verse IMMÉDIATEMENT le sirop FROID en filet régulier en couvrant TOUTE la surface. Le contraste thermique provoque une absorption profonde et instantanée du sirop dans toutes les couches. L'inverse (sirop chaud sur baklava froid) donne un baklava détrempé en surface et sec dedans.",
-            "Saupoudre IMMÉDIATEMENT les pistaches concassées en finition décorative dans le creux des losanges (elles collent au sirop résiduel).",
-            "Le repos NON NÉGOCIABLE : couvre le moule d'un linge propre et laisse absorber MINIMUM 6 h, idéalement 12 h (toute une nuit) à température ambiante. Le baklava se mange 24 h après préparation, PAS le jour même.",
-            "Sers à température ambiante avec un café grec ou un thé à la menthe."
+          "commisIngredients": [
+            {
+              "name": "Pâte filo prête (rayon frais ou bio)",
+              "qty": 16,
+              "unit": "feuilles"
+            },
+            {
+              "name": "Pistaches non salées",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Noix",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre (mélange noix)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Cannelle en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Beurre fondu",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre semoule (sirop)",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Eau (sirop)",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Miel",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Jus de citron (sirop)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Pistaches concassées (déco)",
+              "qty": 30,
+              "unit": "g"
+            }
+          ],
+          "commisSteps": [
+            "Préchauffe le four à 170 °C. Mixe ensemble les pistaches + les noix au mixeur en pulses courts — tu veux une texture concassée (grains 2-3 mm), pas une poudre fine. Mélange avec 30 g de sucre et 1 c.c. de cannelle dans un bol.",
+            "Beurre généreusement un moule rectangulaire (~25×35 cm). Pose la première feuille de pâte filo dans le moule (si elle est plus grande, replie le surplus). Badigeonne-la de beurre fondu au pinceau. Recommence avec 7 autres feuilles, en beurrant chacune — total 8 feuilles beurrées.",
+            "Étale uniformément TOUT le mélange noix-pistaches sur la 8e feuille beurrée en une couche égale.",
+            "Couvre de 8 nouvelles feuilles de filo, beurrées une par une comme avant. Termine par une généreuse couche de beurre sur le dessus.",
+            "Avec un couteau bien aiguisé, découpe le baklava AVANT cuisson en losanges ou rectangles de 4-5 cm (sinon il s'effrite après cuisson). Enfourne 35-40 min à 170 °C jusqu'à coloration dorée caramel.",
+            "Pendant la cuisson, prépare le SIROP : dans une casserole, verse 200 g de sucre + 200 ml d'eau + le jus de citron. Porte à ébullition, laisse frémir 5 min. Coupe le feu, ajoute le miel et mélange. Quand le baklava sort du four BRÛLANT, verse IMMÉDIATEMENT le sirop FROID dessus dans toutes les découpes — ce choc thermique est la clé du croustillant. Laisse absorber 4 h minimum (toute une nuit c'est mieux). Parsème des pistaches concassées avant de servir."
           ]
         }
       ]
