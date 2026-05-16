@@ -3635,17 +3635,80 @@
           ],
           "story": "Né à Delhi dans les années 1950 au restaurant Moti Mahal, le butter chicken est l'invention du chef Kundan Lal Gujral pour réutiliser les restes de poulet tandoori — il les noya dans une sauce tomate-beurre-cajou qui devint un classique mondial.",
           "chefSecret": "Trois clés non négociables que les recettes occidentales oublient : (1) la pâte de cajou — c'est elle qui apporte le moelleux soyeux, pas la crème ; (2) le tamisage de la sauce après mixage — pour cette texture velours qui distingue un butter chicken de palais d'un curry banal ; (3) le kasuri methi froissé en finale — son arôme légèrement amer et noisette EST la signature olfactive du plat. Sans ces 3 étapes, on cuisine du poulet en sauce tomate, pas un butter chicken.",
-          "simplifiedSteps": [
-            "La marinade (la VEILLE impérativement) : mélange le yaourt avec 20 g de pâte ail-gingembre, le jus de citron, le piment de Cachemire, 5 g de garam masala, le curcuma et 3 g de sel. Enrobe les cubes de poulet. Filme et mets au frigo 12 h MINIMUM (24 h optimal).",
-            "Trempe les noix de cajou dans 100 ml d'eau chaude 20 min. Mixe-les en pâte lisse, réserve.",
-            "Cuisson du poulet : sors-le 30 min avant. Préchauffe une grande poêle à fond épais à FEU VIF SANS matière grasse. Saisis les cubes 2 min par face en plusieurs fournées (NE PAS surcharger) — la marinade doit caraméliser et accrocher légèrement. Réserve le poulet et ses sucs.",
-            "La sauce : fais fondre 30 g de ghee dans la même poêle, gratte les sucs au fond. Ajoute le reste de pâte ail-gingembre (10 g), fais revenir 30 sec SANS coloration.",
-            "Ajoute les tomates concassées et 100 ml d'eau. Laisse mijoter 15 min à feu moyen jusqu'à ce que les tomates rendent l'huile en surface (signe de cuisson aboutie en cuisine indienne).",
-            "HORS DU FEU, mixe la sauce au mixeur plongeant jusqu'à parfaitement lisse. Puis PASSE-LA AU CHINOIS FIN : c'est cette étape qui donne la texture velours signature du butter chicken.",
-            "Remets la sauce dans la poêle, ajoute la pâte de cajou, le sucre, 5 g de garam masala et le sel. Mélange.",
-            "Ajoute le poulet et tous ses sucs. Laisse mijoter 8 min à feu doux jusqu'à ce que la sauce nappe le dos d'une cuillère.",
-            "ÉTAPE FINALE (signature) : froisse les feuilles de kasuri methi (fenugrec séché) entre tes paumes — ça libère leurs huiles essentielles. Incorpore-les à la sauce. Verse la crème en filet en remuant. Fais fondre les 30 g de ghee restant en finition (c'est le 'butter' du nom).",
-            "Goûte, ajuste sel/sucre. Parsème de coriandre fraîche. Sers avec du riz basmati et du naan tout chaud."
+          "commisIngredients": [
+            {
+              "name": "Blancs (ou cuisses) de poulet en cubes",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt nature",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Pâte de curry indien (ou curry en poudre)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousses"
+            },
+            {
+              "name": "Gingembre frais râpé (ou 1 c.c. poudre)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Coulis de tomates (bouteille)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Crème liquide entière",
+              "qty": 150,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Riz basmati (servir)",
+              "qty": 250,
+              "unit": "g"
+            }
+          ],
+          "commisSteps": [
+            "Dans un saladier, mélange le yaourt + 1 c.s. de pâte de curry + jus de citron + ail écrasé + gingembre + sel. Ajoute les cubes de poulet, mélange et laisse mariner 30 min minimum (1 h c'est encore mieux).",
+            "Pendant la marinade, lance le riz basmati : 250 g pour 400 ml d'eau salée dans une casserole couverte. Porte à ébullition, baisse à feu très doux 11 min, repose 5 min couvert.",
+            "Dans une grande poêle, fais fondre 25 g de beurre à feu vif. Sors le poulet de la marinade (garde-la), fais-le saisir 4 min en remuant : il doit dorer sans cuire à cœur. Réserve.",
+            "Dans la même poêle, fais fondre le reste de beurre, ajoute 1 c.s. de pâte de curry et remue 30 s. Verse le coulis de tomates et la marinade restante. Cuis 8 min à feu moyen jusqu'à ce que la sauce épaississe et change de couleur.",
+            "Ajoute la crème liquide et 1 c.c. de sucre. Mélange. Remets le poulet, baisse à feu doux et laisse mijoter 12 min : la sauce doit être nappante et le poulet juste cuit.",
+            "Goûte, rectifie le sel. Parsème de coriandre ciselée. Sers chaud sur le riz basmati avec du naan si tu en as."
           ]
         },
         {
@@ -3797,19 +3860,79 @@
           ],
           "story": "Le dhal (dāl) est l'aliment quotidien de millions d'Indiens — terme générique qui désigne à la fois les lentilles séchées et le plat cuisiné. La version 'corail' (masoor dal en hindi) est la plus rapide à cuire (pas besoin de trempage) et la plus douce, idéale pour ceux qui découvrent la cuisine indienne.",
           "chefSecret": "Le TADKA (ou tarka, ou chaunk selon les régions) est l'âme du dhal indien : c'est cette infusion aromatique de graines+piments+ail dans le ghee BRÛLANT, versée À LA FIN sur le plat cuit, qui transforme une bouillie de lentilles fade en dhal authentique. Trois règles : (1) le ghee doit être presque FUMANT avant d'ajouter les graines de moutarde — sinon elles ne sautent pas et restent crues ; (2) ORDRE STRICT : moutarde (la plus dure) → cumin → piments → curry leaves → ail (le plus fragile) ; (3) VERSER À LA SECONDE sur le dhal — le tadka brûlant qui touche le dhal froid produit un 'shhh' qui libère verticalement les arômes. Ne mélangez pas tout de suite : laissez infuser 1 min.",
-          "simplifiedSteps": [
-            "Rince les lentilles (étape clé) : mets les lentilles corail dans un saladier, frotte-les doucement, change l'eau 4 fois jusqu'à ce qu'elle soit limpide. Ça enlève l'amidon de surface et l'amertume éventuelle.",
-            "Déploie les saveurs des épices : dans une grande sauteuse à fond épais, chauffe 30 ml d'huile de coco. Ajoute le curcuma, le cumin moulu, la coriandre moulue, l'asafoetida (juste une pincée). Fais 'fleurir' les épices 30 secondes — elles doivent libérer leurs huiles essentielles SANS BRÛLER. ATTENTION : le curcuma brûlé devient amer et c'est irrécupérable.",
-            "Ajoute l'oignon, fais suer 6 min à feu moyen jusqu'à translucidité.",
-            "Ajoute l'ail écrasé et le gingembre râpé, cuis 1 min en remuant.",
-            "Ajoute les tomates concassées, cuis 5 min jusqu'à ce qu'elles fondent et rendent l'huile en surface (signal de cuisson aboutie en cuisine indienne).",
-            "Ajoute les lentilles rincées, mélange 30 secondes pour les enrober. Verse le lait de coco + 600 ml d'eau, sale avec 5 g de sel. Porte à frémissement.",
-            "Couvre et laisse mijoter 25-30 min à TOUT PETIT FEU en remuant toutes les 5 min. Les lentilles doivent fondre presque totalement et créer une texture crémeuse onctueuse. Ajuste avec un peu d'eau bouillante si c'est trop épais.",
-            "Ajoute le garam masala 5 min AVANT LA FIN de la cuisson (jamais au début : ses arômes sont volatils et brûlent).",
-            "Le tadka (la signature non négociable) : dans une petite poêle, chauffe 30 g de ghee à feu moyen-vif jusqu'à TRÈS chaud (presque fumant). Ajoute les graines de moutarde noires — elles doivent CRÉPITER et sauter (signal qu'elles ont libéré leurs huiles).",
-            "Ajoute IMMÉDIATEMENT les graines de cumin entières (5 sec), les piments rouges séchés (3 sec), les feuilles de curry (vont crépiter) et l'ail tranché. Cuis 15 sec jusqu'à ce que l'ail soit JUSTE DORÉ (jamais brun foncé = amer).",
-            "VERSE LE TADKA BRÛLANT directement sur le dhal cuit dans la sauteuse — c'est ce 'shhhhh' aromatique qui définit le dhal indien. NE MÉLANGE PAS : laisse reposer 1 min pour que les arômes infusent verticalement.",
-            "Mélange délicatement, ajoute le jus de citron vert et la coriandre fraîche ciselée. Sers bouillant avec du riz basmati cuit à la vapeur ou des chapatis tout chauds."
+          "commisIngredients": [
+            {
+              "name": "Lentilles corail",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Lait de coco",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Eau",
+              "qty": 700,
+              "unit": "ml"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Gingembre frais râpé (ou 1 c.c. poudre)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Curry en poudre",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Cumin moulu",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Citron vert",
+              "qty": 0.5,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Rince les lentilles corail sous l'eau froide jusqu'à ce qu'elle soit transparente (3-4 fois — elles font de la mousse blanche au début, c'est normal).",
+            "Émince finement l'oignon. Dans une grande casserole, fais chauffer 2 c.s. d'huile à feu moyen. Fais fondre l'oignon 6 min jusqu'à coloration légère. Ajoute l'ail écrasé et le gingembre, remue 30 s.",
+            "Ajoute 2 c.s. de curry en poudre et 1 c.c. de cumin moulu. Remue 30 s pour libérer les arômes (attention à ne pas brûler les épices : baisse le feu si besoin).",
+            "Verse les lentilles, les tomates concassées, le lait de coco et 700 ml d'eau. Sale. Porte à frémissement, baisse à feu doux et laisse mijoter 20 min en remuant de temps en temps, jusqu'à ce que les lentilles soient fondantes et la texture crémeuse.",
+            "Coupe le feu. Presse le 1/2 citron vert sur le dhal, mélange. Sers dans des bols, parsème de coriandre ciselée. Accompagne de riz basmati ou de naan."
           ]
         },
         {
@@ -3978,20 +4101,101 @@
           ],
           "story": "Le biryani naquit dans les cuisines royales moghole au XVIᵉ siècle (la légende attribue son invention à Mumtaz Mahal, l'épouse de Shâh Jahân pour qui le Taj Mahal fut construit). Hyderabad et Lucknow se disputent les lauriers du meilleur biryani : Hyderabad pour le 'kachi gosht biryani' (viande crue cuite dans la vapeur du riz, plus rustique) et Lucknow pour le 'pakki biryani' (viande pré-cuite, plus délicat). Cette recette est inspirée des deux.",
           "chefSecret": "Trois techniques d'orfèvre des chefs khansamas (cuisiniers de palais moghol) : (1) BIRISTA — les oignons frits dorés sont 30 % du goût final ; ils doivent être caramel uniforme, jamais brun (amer). Frire 12-15 min à 160 °C, en remuant patiemment ; (2) RIZ À 70 % AVANT MONTAGE — il finit la cuisson en absorbant la vapeur du braisé ; cuit à 100 % avant montage = riz pâteux, crève le biryani ; (3) DUM PUKHT — sceller la cocotte avec une pâte de farine est le geste impérial. La vapeur emprisonnée infuse le riz des arômes du braisé, et la base 'fume' légèrement (effet tandoor). Sans dum, c'est un riz pilaf à l'agneau, pas un biryani.",
-          "simplifiedSteps": [
-            "La marinade (la VEILLE impérativement) : mélange le yaourt avec 30 g de pâte ail-gingembre, le jus de citron, le garam masala, le cumin, la coriandre moulue, le curcuma, le piment de Cachemire et 8 g de sel. Enrobe chaque cube d'agneau, masse-le. Filme et mets au frigo 12 h MINIMUM (24 h optimal).",
-            "Le birista — oignons frits dorés (étape signature non négociable) : émince les 4 oignons à la mandoline en juliennes très fines (1 mm). Fais-les frire dans 80 ml d'huile chaude (160 °C) pendant 12-15 min en remuant. Ils doivent devenir caramel doré UNIFORMÉMENT (jamais brun foncé = amer). Égoutte sur papier absorbant. Ils croustillent en refroidissant. Garde 1/3 pour la déco finale, 2/3 pour les couches.",
-            "Le riz : rince le basmati 5 fois jusqu'à eau claire. Trempe-le 30 min dans l'eau froide. Égoutte.",
-            "Le braisé d'agneau : dans une grande cocotte, chauffe 40 g de ghee. Fais revenir les épices entières (cardamome verte écrasée, cannelle, clous, laurier, cardamome noire, badiane) 30 sec jusqu'à parfum.",
-            "Ajoute 2/3 du birista, écrase-le à la spatule pour qu'il 'fonde' dans le ghee — il devient une pâte caramel.",
-            "Ajoute l'agneau mariné AVEC sa marinade, saisis 8 min en remuant à feu vif jusqu'à coloration. Ajoute les tomates concassées, 100 ml d'eau et 5 g de sel.",
-            "Couvre et laisse mijoter 45 min à feu doux. L'agneau doit être tendre mais entier (se découper à la cuillère sans s'effilocher). La sauce doit être épaisse et nappante, presque sèche.",
-            "En parallèle — cuisson du riz à 70 % : porte 2 L d'eau à grosse ébullition avec 7 g de sel + 3 cardamomes vertes + 1 cuillère de cumin entier + 1 feuille de laurier. Ajoute le riz égoutté, cuis 6 min EXACTEMENT (pas plus — il finira sa cuisson en dum). Égoutte tout de suite et étale-le sur une plaque pour stopper la cuisson.",
-            "Infusion safran : chauffe 60 ml de lait tiède, ajoute le safran en pistils. Laisse infuser 10 min jusqu'à couleur or intense.",
-            "Le montage en couches (L'ÂME du biryani, ne JAMAIS mélanger) : sur le braisé d'agneau dans la cocotte (non remué), parsème la moitié de la coriandre+menthe ciselée. Recouvre de la moitié du riz à 70 % cuit, en couche égale. Verse la moitié du lait safrané en spirale. Parsème 1/3 du birista croustillant. Recouvre du reste de riz. Ajoute le reste de lait safrané. Couvre avec la coriandre+menthe restante et le birista réservé. Verse 40 g de ghee fondu en filet.",
-            "Le dum pukht (cuisson scellée — la signature impériale moghole) : roule une corde de pâte (farine atta + eau) et presse-la tout autour du couvercle pour SCELLER hermétiquement la cocotte. La vapeur ne doit pas s'échapper. À défaut : couvre d'un papier alu bien serré, puis le couvercle.",
-            "Cuis 10 min à feu vif (la base brûle légèrement et 'fume' la cocotte = saveur tandoor), puis 30 min à TRÈS PETIT FEU (juste un fil de chaleur). NE JAMAIS OUVRIR pendant la cuisson — la vapeur scellée fait tout le travail.",
-            "Ouvre la cocotte solennellement à table devant tes invités (l'effet vapeur parfumée est partie intégrante de la dégustation). Mélange délicatement à la cuillère du fond vers le dessus en respectant les couches. Sers avec un raïta yaourt-concombre-menthe et des chutneys."
+          "commisIngredients": [
+            {
+              "name": "Épaule d'agneau désossée en cubes",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Riz basmati",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Yaourt nature",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Ail",
+              "qty": 4,
+              "unit": "gousses"
+            },
+            {
+              "name": "Gingembre frais râpé",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Curry en poudre",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Garam masala",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Curcuma",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Cardamome verte (gousses)",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Bâton de cannelle",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Beurre",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Coriandre + menthe fraîches",
+              "qty": 1,
+              "unit": "bouquet (chaque)"
+            },
+            {
+              "name": "Pincée de safran (ou curcuma)",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Eau (cuisson riz)",
+              "qty": 2,
+              "unit": "L"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "MARINADE : dans un grand saladier, mélange le yaourt + ail écrasé + gingembre + curry en poudre + garam masala + curcuma + 1 c.c. de sel. Ajoute les cubes d'agneau, mélange bien et laisse mariner 30 min minimum (2 h idéalement au frais).",
+            "Émince finement les oignons. Dans une grande cocotte, fais fondre 40 g de beurre à feu moyen. Fais frire les oignons 12 min en remuant, jusqu'à ce qu'ils soient bien dorés et croustillants (c'est le birista). Réserve la moitié pour la finition.",
+            "Dans la même cocotte (avec l'autre moitié d'oignons), baisse le feu. Ajoute la cardamome écrasée + le bâton de cannelle. Verse l'agneau mariné avec toute sa marinade. Ajoute les tomates concassées. Couvre et laisse mijoter à feu doux 50 min, en remuant à mi-cuisson.",
+            "Pendant la cuisson, prépare le riz : porte 2 L d'eau salée à ébullition. Plonge le riz basmati et cuis 6-7 min seulement — il doit être al dente (il finira au four). Égoutte délicatement.",
+            "Préchauffe le four à 180 °C. Si la sauce d'agneau est trop liquide, fais-la réduire 5 min à découvert. Étale le riz cuit en couche égale par-dessus dans la cocotte. Dilue la pincée de safran dans 2 c.s. d'eau chaude et arrose le riz. Parsème de la moitié des oignons frits réservés et de la moitié de la coriandre + menthe ciselées.",
+            "Couvre hermétiquement avec un couvercle ET du papier alu pour bien emprisonner la vapeur. Enfourne 25 min — c'est la cuisson dum, le riz absorbe les arômes de l'agneau par en dessous.",
+            "Sors du four, laisse reposer 5 min couvert. Mélange délicatement à la fourchette pour répartir riz et agneau. Sers chaud avec le reste de coriandre/menthe et d'oignons frits sur le dessus."
           ]
         },
         {
@@ -4140,22 +4344,75 @@
           ],
           "story": "Importé d'Asie centrale (l'arabe 'sanbosag' = petit triangle, qui désignait les pâtisseries fourrées des cuisines persanes médiévales) au XIIIᵉ siècle par les invasions mogholes, le samosa s'est totalement adapté à l'Inde du Nord, particulièrement au Punjab où la version végétarienne (pommes de terre + petits pois + ajwain) est devenue le snack national. On en mange par millions chaque jour dans les rues indiennes.",
           "chefSecret": "Trois clés des halwais (pâtissiers indiens) : (1) AJWAIN dans la pâte — ces graines de carom apportent une note légèrement aniseé-thymolée qui définit la pâte de samosa. SANS ajwain, c'est une pâte à empanada hispano-indienne, pas un samosa du Punjab ; (2) AMCHOOR dans la garniture — la poudre de mangue séchée donne le côté acidulé caractéristique sans qu'on l'identifie. Substitut occidental moins authentique : un trait de jus de citron en plus ; (3) DOUBLE-FRITURE OBLIGATOIRE — 1ʳᵉ cuisson 140 °C lente (la pâte cuit sans dorer, la garniture se réchauffe), 2ᵉ cuisson 180 °C brève (croustillance). Une seule friture haute = pâte sombre dehors, crue dedans. Cette technique est ce qui distingue un vrai samosa de rue indien d'un beignet quelconque.",
-          "simplifiedSteps": [
-            "La pâte (à préparer 1 h avant) : tamise la farine avec le sel et l'ajwain (graines de carvi indien) dans un grand saladier. Ajoute le ghee fondu TIÈDE (jamais brûlant — il abîmerait le gluten) et sable avec les doigts pendant 3 min. La texture doit être SABLEUSE et quand tu prends une poignée, elle garde sa forme légèrement (test du 'mouthi' indien).",
-            "Ajoute l'eau froide PETIT À PETIT (100 ml mais peut-être moins selon la farine) en pétrissant juste assez pour former une boule lisse et FERME (pas molle). Pétris 4 min sur le plan de travail jusqu'à ce que la pâte soit homogène, lisse et élastique.",
-            "Filme et laisse reposer 30 min minimum à température ambiante. Le gluten se détend, la pâte devient maniable.",
-            "La garniture : pèle les pommes de terre, coupe-les en cubes d'1 cm. Cuis-les à l'eau bouillante salée 10 min jusqu'à tendreté MAIS pas en purée. Égoutte et écrase à la fourchette GROSSIÈREMENT (garde des morceaux — la texture est clé).",
-            "Chauffe 30 ml d'huile dans une grande poêle à feu moyen. Ajoute les graines de cumin entières, laisse-les crépiter 15 sec jusqu'à dégagement aromatique.",
-            "Ajoute l'oignon, fais suer 6 min jusqu'à translucidité. Ajoute le gingembre, l'asafoetida et les piments verts, cuis 1 min.",
-            "Ajoute le curcuma, la coriandre moulue, le garam masala, l'amchoor (la mangue séchée moulue — l'épice signature des samosas du Punjab qui apporte l'acidulé typique). Cuis 30 sec en remuant.",
-            "Incorpore les pommes de terre écrasées + les petits pois (congelés ok), sale, mélange 3 min sur feu moyen pour bien enrober et faire évaporer l'humidité. La garniture doit être SÈCHE — humide = pâte qui se ramollit à la friture.",
-            "Hors du feu, ajoute le jus de citron + la coriandre fraîche. Laisse refroidir COMPLÈTEMENT (chaude = pâte qui ramollit au pliage).",
-            "Le façonnage : divise la pâte en 8 portions (environ 50 g chacune). Étale chacune en disque ovale TRÈS FIN (2 mm). Coupe chaque disque en 2 demi-cercles. Tu obtiens 16 demi-cercles = 16 samosas.",
-            "Pour chaque demi-cercle : humidifie le bord droit avec un pinceau, joins les 2 bords pour former un CÔNE. Scelle fermement à la jointure.",
-            "Tiens le cône d'une main et remplis-le aux 2/3 de garniture froide. Plie le bord supérieur et scelle en pressant à la fourchette (ça fait des stries décoratives). Vérifie qu'aucune fente ne reste — une ouverture = la garniture s'échappe en friture et l'huile se trouble.",
-            "La double-friture (le secret croustillant signature) : chauffe l'huile à 140-150 °C (TEMPÉRATURE BASSE). Fais frire les samosas par lots de 4 pendant 8 min en les retournant régulièrement. La pâte cuit lentement et reste claire, SANS bulles excessives. Elle doit à peine commencer à dorer.",
-            "Égoutte sur une grille. Ré-augmente l'huile à 180 °C. RE-FRIS les samosas 1-2 min jusqu'à dorure caramel et croustillance maximale. Égoutte sur une grille.",
-            "Sers CHAUDS avec un chutney coriandre-menthe et un chutney de tamarin (les 2 sauces canoniques pour samosas). En Inde, on les accompagne d'un masala chai brûlant pour le goûter."
+          "commisIngredients": [
+            {
+              "name": "Feuilles de brick rondes",
+              "qty": 8,
+              "unit": "u"
+            },
+            {
+              "name": "Pommes de terre à chair ferme",
+              "qty": 500,
+              "unit": "g"
+            },
+            {
+              "name": "Petits pois surgelés",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousses"
+            },
+            {
+              "name": "Gingembre frais râpé",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Curry en poudre",
+              "qty": 1.5,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Cumin (graines ou moulu)",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Jus de citron",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Préchauffe le four à 180 °C. Pèle et coupe les pommes de terre en petits cubes (1 cm). Fais-les cuire à l'eau bouillante salée 10-12 min jusqu'à ce qu'elles soient tendres mais pas en purée. Égoutte.",
+            "Dans une grande poêle, fais chauffer 2 c.s. d'huile à feu moyen. Fais fondre l'oignon émincé 5 min. Ajoute ail + gingembre + cumin, remue 30 s. Ajoute le curry en poudre, remue encore 30 s pour libérer les arômes.",
+            "Verse les petits pois surgelés (directement, sans décongeler), les pommes de terre cuites et 1 c.c. de sel. Fais sauter 4 min en écrasant légèrement à la fourchette pour bien lier la farce. Coupe le feu, ajoute le jus de citron et la coriandre ciselée. Laisse refroidir 10 min — chaud, la farce déchire la brick.",
+            "Coupe chaque feuille de brick en 2 demi-cercles. Plie chaque demi-cercle en 2 dans le sens de la longueur pour former une bande triangulaire. Badigeonne légèrement d'huile au pinceau.",
+            "Pose 1 c.s. bombée de farce à l'extrémité d'une bande. Plie en triangle : replie le coin sur la farce puis continue à plier en triangle jusqu'au bout (technique du drapeau). Soude le dernier bout avec un peu d'huile. Recommence — tu obtiens 16 samosas.",
+            "Pose les samosas sur une plaque garnie de papier sulfurisé. Badigeonne le dessus d'un peu d'huile. Enfourne 15-18 min en retournant à mi-cuisson, jusqu'à ce qu'ils soient bien dorés et croustillants. Sers chauds avec une sauce yaourt-menthe ou un chutney mangue."
           ]
         },
         {
@@ -4242,16 +4499,54 @@
           ],
           "story": "Bien que le thé soit indigène en Assam, la culture du chai au lait épicé telle qu'on la connaît aujourd'hui est née au XIXᵉ siècle quand les Britanniques implantèrent les plantations massives — les Indiens se réapproprièrent le breuvage en y ajoutant lait, sucre et épices ayurvédiques. Aujourd'hui, le chai est un rituel social omniprésent : chaque chai-wala (vendeur de chai des gares et marchés) a sa propre recette, et on en boit littéralement 100 millions de tasses par jour en Inde.",
           "chefSecret": "Trois techniques des chai-walas (vendeurs de chai authentiques) : (1) ÉPICES CONCASSÉES AU MORTIER, JAMAIS EN POUDRE — les gousses entières juste fissurées libèrent leurs huiles essentielles progressivement pendant l'infusion ; en poudre, elles donnent un goût plat et trouble la boisson ; (2) LES TROIS MONTÉES — c'est ce balayage thermique qui émulsionne les protéines du lait et infuse les arômes ; sans ça, le chai est plat et fait deux phases (thé + lait) ; (3) GINGEMBRE FRAIS AVEC LA PEAU, JAMAIS EN POUDRE — la peau contient les zingibérones les plus aromatiques. Et le secret final : versez le chai d'une tasse à l'autre 2 fois sur 30 cm de hauteur (signature visuelle des chai-walas de gare) — cela mousse, refroidit légèrement la première gorgée, et offre le rituel.",
-          "simplifiedSteps": [
-            "Prépare les épices (étape signature) : mets dans un mortier les 6 cardamomes vertes, 3 clous de girofle, 4 grains de poivre, 1 bâton de cannelle cassé en 2. Concasse GROSSIÈREMENT (pas en poudre) — l'objectif est juste de fissurer les enveloppes pour libérer les huiles essentielles.",
-            "Râpe ou tranche finement le gingembre frais. La peau contient des arômes — NE LA PÈLE PAS.",
-            "Phase 1 — l'infusion épicée : verse 400 ml d'eau dans une casserole moyenne. Ajoute les épices concassées, le gingembre, l'étoile de badiane et la pincée de fenouil. Porte à frémissement à feu MOYEN (pas grosse ébullition — 90-95 °C maximum). Couvre et infuse 5 min. L'eau prend une teinte ambre clair et embaume.",
-            "Phase 2 — l'infusion du thé : ajoute le thé noir Assam dans la casserole, baisse le feu, infuse 3 min à frémissement à peine. Le thé doit colorer fortement, SANS devenir noir d'encre (sur-infusion = amer).",
-            "Phase 3 — le lait et le sucre : ajoute les 400 ml de lait entier + 30 g de sucre roux (ou jaggery). Mélange doucement.",
-            "Phase 4 — les trois montées (la signature de la grand-mère indienne) : remets la casserole sur feu MOYEN-VIF. Le mélange va monter en mousse blanche aux bords. AVANT QU'IL DÉBORDE, retire la casserole du feu, attends que la mousse retombe (10 secondes), remets sur le feu. Répète cette opération 3 FOIS. C'est ce qui donne l'onctuosité crémeuse caractéristique du chai indien (le lait monte, retombe, monte... ça émulsionne les arômes du thé et des épices).",
-            "Coupe le feu, laisse infuser 1 min couvercle posé.",
-            "Le filtrage : verse le chai à travers une passoire fine directement dans des tasses préchauffées (pas en céramique froide qui choquerait la température). Comme les chai-walas (vendeurs de chai dans les trains indiens), tu peux faire un 2ème transvasement de tasse en tasse sur 30 cm de hauteur — ça crée la mousse signature et refroidit légèrement avant dégustation.",
-            "Sers IMMÉDIATEMENT, BRÛLANT, accompagné de biscuits indiens (rusk, Parle-G) ou de samosas pour la pause goûter."
+          "commisIngredients": [
+            {
+              "name": "Eau",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Lait entier",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Thé noir (sachets ou feuilles)",
+              "qty": 4,
+              "unit": "sachets"
+            },
+            {
+              "name": "Cardamome en poudre",
+              "qty": 0.5,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Cannelle en poudre (ou 1 bâton)",
+              "qty": 0.5,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Gingembre en poudre (ou 1 cm frais râpé)",
+              "qty": 0.5,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Clous de girofle entiers",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Sucre roux",
+              "qty": 3,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Dans une casserole, verse 400 ml d'eau et 400 ml de lait. Ajoute la cardamome, la cannelle, le gingembre et les 3 clous de girofle entiers.",
+            "Porte doucement à frémissement à feu moyen (jamais bouillir : le lait débordrait). Compte 5 min de frémissement pour que les épices infusent et parfument bien le lait.",
+            "Ajoute le thé (sachets ou feuilles directement dans la casserole). Laisse infuser 3 min à frémissement — le mélange prend une belle couleur brun caramel.",
+            "Ajoute le sucre roux, mélange. Goûte et rectifie selon ton goût (les Indiens le boivent assez sucré, mais c'est à toi de voir).",
+            "Coupe le feu. Filtre le chai à la passoire fine directement dans des tasses ou des verres épais. Sers brûlant — c'est la base du goûter dans toute l'Inde."
           ]
         }
       ]
