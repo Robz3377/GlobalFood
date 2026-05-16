@@ -990,14 +990,74 @@
           ],
           "story": "Le citron beldi confit au sel est une signature marocaine née de la nécessité de conserver les agrumes d'hiver.",
           "chefSecret": "La marinade longue (4 h minimum, idéalement 12 h) au safran et gingembre frais est non négociable — c'est elle qui imprègne la chair. Et la réduction finale à découvert jusqu'à obtenir une sauce sirupeuse qui caramélise légèrement la peau du poulet est ce qui distingue un tajine de palace marrakchi d'un poulet en cocotte.",
-          "simplifiedSteps": [
-            "Mets le safran dans 30 ml d'eau chaude pendant 10 min. Mélange-le avec le gingembre, le curcuma, l'ail écrasé, la moitié de la coriandre et du persil, 20 ml d'huile, du sel et du poivre.",
-            "Enduis les cuisses de poulet avec cette préparation. Filme et mets au frigo 4 h MINIMUM (toute une nuit c'est encore mieux).",
-            "Dans le tajine ou une grosse cocotte, fais cuire les oignons rouges 10 min à feu doux dans 20 ml d'huile. Ils doivent fondre SANS prendre de couleur.",
-            "Pose les cuisses sur les oignons (peau vers le haut). Verse la marinade restante et le bouillon de poulet chaud jusqu'à mi-hauteur. Couvre et laisse cuire 50 min à TOUT PETIT feu. Retourne les cuisses à mi-cuisson.",
-            "Pendant ce temps, plonge les olives 5 min dans l'eau bouillante pour enlever le trop de sel. Coupe les citrons confits : enlève la pulpe, taille la peau en fines lamelles.",
-            "Enlève le couvercle, ajoute les olives et les lamelles de citron. Continue 15 min SANS couvercle pour que la sauce épaississe et devienne brillante comme un sirop ambré.",
-            "Goûte. Sale très peu (le citron confit et les olives sont déjà bien salés). Parsème le reste de coriandre/persil et sers avec du pain marocain (khobz) tiède."
+          "commisIngredients": [
+            {
+              "name": "Cuisses de poulet",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Citrons confits en bocal",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Olives vertes dénoyautées (bocal)",
+              "qty": 120,
+              "unit": "g"
+            },
+            {
+              "name": "Gingembre en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Curcuma en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Coriandre fraîche ciselée",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Cube de bouillon de volaille",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Eau chaude (bouillon)",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "pincée"
+            }
+          ],
+          "commisSteps": [
+            "Émince finement les oignons. Dans une grande cocotte, fais chauffer 3 c.s. d'huile d'olive à feu moyen. Ajoute les oignons et fais-les fondre 8 min, sans coloration : ils doivent devenir translucides.",
+            "Ajoute l'ail écrasé, le gingembre et le curcuma. Remue 30 s pour libérer les arômes. Pose les cuisses de poulet par-dessus, peau sur le dessus. Sale et poivre.",
+            "Verse 500 ml de bouillon (cube dilué dans l'eau chaude) à mi-hauteur des cuisses. Couvre et laisse mijoter à feu doux 35 min — le poulet doit être tendre et se détacher facilement de l'os.",
+            "Pendant ce temps, rince les citrons confits sous l'eau, retire la pulpe (trop salée) et coupe les écorces en lanières fines. Rince aussi les olives 1 min sous l'eau froide pour les dessaler.",
+            "Découvre la cocotte. Ajoute les olives et les lanières de citron confit. Poursuis 10 min à découvert pour que la sauce réduise et nappe les morceaux. Goûte, rectifie le poivre (jamais le sel : olives + citron en apportent déjà). Parsème de coriandre ciselée et sers avec du pain frais ou de la semoule."
           ]
         },
         {
@@ -1146,18 +1206,85 @@
           ],
           "story": "Le couscous est inscrit au patrimoine immatériel de l'UNESCO depuis 2020. La règle marocaine du chiffre SEPT n'est pas anecdotique : 7 est sacré (les 7 saints de Marrakech, les 7 ciels de l'islam) et porte chance — un dîner de couscous à 7 légumes est censé apporter la barakah (bénédiction) à ceux qui le partagent. Au Maroc, le vendredi midi est le jour canonique du couscous familial.",
           "chefSecret": "Trois clés des dadas (cuisinières traditionnelles) marocaines : (1) PELER LES POIS CHICHES après trempage en frottant entre les paumes — la peau translucide rend le bouillon trouble et un bouillon trouble est rédhibitoire ; (2) LES 3 VAPEURS NON NÉGOCIABLES — chaque vapeur gonfle la semoule, l'aération entre chaque permet aux grains de rester séparés ; sauter une vapeur = couscous compact ; (3) LE SMEN EN FINITION — ce beurre fermenté marocain (à défaut, ghee + 1 g de fenouil moulu) parfume la semoule d'une note légèrement piquante caractéristique. Sans lui, c'est une semoule à la marocaine, pas un vrai couscous des dadas.",
-          "simplifiedSteps": [
-            "Démarre le bouillon 1 h 30 avant de servir. Dans une couscoussière (ou grande marmite), fais cuire les oignons émincés dans 30 ml d'huile d'olive 8 min à feu moyen. Ajoute l'ail, cuis 1 min.",
-            "Ajoute les tomates pelées coupées en morceaux, 1 cuillère de concentré de tomate, le gingembre, le curcuma, le ras el hanout (mélange d'épices marocain), le cumin et un peu de safran trempé dans 30 ml d'eau chaude. Mélange et cuis 5 min pour libérer les parfums.",
-            "Verse 2 L d'eau, sale, fais bouillir. Ajoute les pois chiches égouttés. ASTUCE DE MAMIE : frotte-les entre tes paumes avant pour enlever leur petite peau translucide (sinon le bouillon devient trouble).",
-            "Laisse cuire 30 min à feu moyen. Ajoute carottes et navets (les plus longs à cuire). Continue 15 min.",
-            "Ajoute chou vert, courgettes, aubergines, potiron. Cuis encore 15 min. Les légumes doivent être tendres mais ENTIERS (pas écrasés en purée).",
-            "La semoule (méthode marocaine en 3 vapeurs) : verse-la dans un grand plat creux. Mouille-la avec 200 ml d'eau salée. Mélange à la main en faisant rouler les grains pour qu'ils ne collent pas. Laisse reposer 10 min : les grains gonflent.",
-            "1ère vapeur : verse la semoule dans le panier de la couscoussière (au-dessus du bouillon). Cuis 20 min à la vapeur SANS couvrir.",
-            "Sors la semoule, étale-la sur le plat. Arrose-la de 100 ml d'eau froide salée et 20 ml d'huile. Roule entre tes paumes pour aérer et défaire les paquets. Repos 10 min.",
-            "2ème vapeur : 15 min. Aère à nouveau avec 100 ml d'eau et 10 ml d'huile.",
-            "3ème vapeur : 15 min. Cette fois-ci, aère avec le SMEN (beurre fermenté marocain — l'âme du couscous). Roule entre les paumes.",
-            "Le dressage en dôme (tradition marocaine) : pose la semoule en grand dôme sur un plat à couscous. Creuse au sommet, mets les légumes dedans dans un ordre de couleurs alternées (rouge tomate, orange potiron, vert chou/courgettes). Dispose les pois chiches autour. Le bouillon se sert à part dans un grand bol — chacun en arrose à son goût. Parsème de coriandre et persil ciselés."
+          "commisIngredients": [
+            {
+              "name": "Semoule de couscous moyenne",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Pois chiches en boîte (égouttés)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Carottes",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Courgettes",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Navets",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Courge butternut (en cubes)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Cubes de bouillon de légumes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Eau chaude (bouillon)",
+              "qty": 1.5,
+              "unit": "L"
+            },
+            {
+              "name": "Ras el hanout (épices en sachet)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 4,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Beurre (semoule)",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Sel et poivre",
+              "qty": 1,
+              "unit": "pincée"
+            }
+          ],
+          "commisSteps": [
+            "Émince les oignons. Pèle et coupe les carottes en bâtonnets, les navets en quartiers, la courge butternut en cubes de 3 cm, les courgettes en tronçons épais.",
+            "Dans une grande cocotte, fais chauffer 4 c.s. d'huile à feu moyen. Fais suer les oignons 8 min sans coloration. Ajoute 2 c.s. de ras el hanout, remue 30 s pour libérer les arômes.",
+            "Verse les tomates concassées et 1,5 L d'eau chaude avec les 2 cubes de bouillon dilués. Ajoute carottes et navets, sale, couvre. Laisse mijoter 15 min.",
+            "Ajoute la courge butternut et les courgettes. Continue 15 min : les légumes doivent être tendres mais pas en purée. Rince les pois chiches sous l'eau froide, ajoute-les en fin de cuisson et réchauffe 3 min.",
+            "Pendant que les légumes finissent, prépare la semoule express : verse-la dans un grand bol avec 1 c.s. d'huile d'olive et une pincée de sel. Couvre avec le même volume d'eau bouillante (~500 ml), couvre d'une assiette et laisse gonfler 5 min. Aère ensuite à la fourchette, ajoute le beurre en dés et mélange.",
+            "Dresse la semoule dans une grande assiette creuse, dépose les légumes par-dessus avec une louche de bouillon pour humidifier. Présente le reste du bouillon dans un bol à part — chacun en rajoute selon son goût."
           ]
         },
         {
@@ -1297,18 +1424,80 @@
           ],
           "story": "Plat des grandes occasions marocaines (mariages, naissances, Ramadan, fêtes) hérité de la cuisine andalouse de Cordoue qui arriva au Maroc avec les Maures expulsés d'Espagne au XVᵉ siècle. La pastilla originale était au pigeon — sa version au poulet est apparue au XXᵉ siècle pour la rendre accessible. Choumicha (la chef-icône de la TV marocaine) la considère comme 'le plat le plus difficile à exécuter parfaitement' de la cuisine du palais.",
           "chefSecret": "Le secret signature de la pastilla : le SUCRE GLACE + CANNELLE en finition est non négociable. Beaucoup de cuisines occidentales le considèrent comme bizarre (sucré sur du salé), mais c'est précisément ce contraste qui définit la pastilla. La sauce d'oignons doit être réduite à l'état de CONFITURE (presque sèche) — sinon les feuilles se ramollissent. Et les amandes doivent être torréfiées d'abord (pas seulement mondées) — la torréfaction libère leurs huiles et apporte la note de noisette caractéristique. Servez bouillant, jamais tiède : la pastilla ne se réchauffe pas.",
-          "simplifiedSteps": [
-            "Pour la farce de poulet : dans une grande cocotte, fais chauffer 30 ml d'huile d'olive avec 50 g de beurre. Fais dorer les morceaux de poulet 8 min à feu vif sur toutes les faces.",
-            "Ajoute les oignons, l'ail, le gingembre, 5 g de cannelle, le curcuma, le safran (trempé 5 min dans 1 cuillère d'eau chaude), 200 ml d'eau, sel et poivre. Couvre et laisse cuire doucement 45 min : la viande doit se détacher de l'os toute seule.",
-            "Sors le poulet de la cocotte. Enlève la peau et les os (jette-les). Effiloche la chair finement à la fourchette. Réserve.",
-            "Fais BIEN RÉDUIRE la sauce aux oignons SANS couvercle pendant 15 min : elle doit devenir une 'confiture' épaisse, presque sèche. ATTENTION : si la sauce reste liquide, la pastilla sera détrempée.",
-            "Les œufs brouillés dans la sauce : ajoute les 6 œufs battus dans les oignons réduits. Remue sans arrêt à feu doux pendant 3 min : les œufs forment des petits filaments dans les oignons. Hors du feu, ajoute les herbes ciselées. Réserve.",
-            "Pour la garniture aux amandes : passe les amandes au four 7 min à 150 °C en remuant. Laisse refroidir. Mixe-les par à-coups pour obtenir une poudre grossière (genre sable, pas une poudre fine). Mélange avec 50 g de sucre glace, 5 g de cannelle et 20 ml d'eau de fleur d'oranger.",
-            "Le montage : préchauffe le four à 200 °C. Beurre un moule rond de 26 cm. Pose 1 feuille de brick au centre et badigeonne-la au beurre fondu. Continue avec 5 autres feuilles qui se chevauchent et dépassent du moule (effet rosace).",
-            "Étale la moitié du poulet effiloché. Recouvre avec la moitié de la garniture amandes. Étale toute la sauce d'oignons aux œufs. Ajoute le reste de poulet et le reste d'amandes.",
-            "Replie les feuilles qui dépassent vers le centre comme un emballage cadeau. Recouvre de 4 feuilles supplémentaires beurrées en sceau, soudées au jaune d'œuf battu (le jaune empêche que ça s'ouvre au four).",
-            "Enfourne 25 min à 200 °C jusqu'à ce que ce soit bien doré. Démoule chaud sur un plat de service.",
-            "La décoration (la signature visuelle) : saupoudre généreusement de sucre glace au tamis. Dessine des bandes de cannelle au pinceau ou avec un pochoir (croisillons, rosaces ou losanges). Sers TOUT DE SUITE, BRÛLANT — c'est le contraste entre le sucre glace, la viande salée-épicée et les amandes croquantes qui fait toute la magie de la pastilla."
+          "commisIngredients": [
+            {
+              "name": "Blancs de poulet (ou cuisses désossées)",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Gingembre en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Cannelle en poudre (sauce)",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Curcuma en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Beurre",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Persil + coriandre ciselés",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Feuilles de brick rondes",
+              "qty": 8,
+              "unit": "u"
+            },
+            {
+              "name": "Poudre d'amandes",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre glace (déco)",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Cannelle en poudre (déco)",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Coupe les blancs de poulet en cubes. Émince les oignons. Dans une grande poêle, fais fondre 30 g de beurre à feu moyen et fais revenir le poulet 5 min jusqu'à ce qu'il blanchisse. Réserve dans une assiette.",
+            "Dans la même poêle, ajoute 30 g de beurre et fais fondre les oignons 8 min jusqu'à coloration légère. Ajoute l'ail écrasé, gingembre, cannelle et curcuma. Remue 30 s.",
+            "Remets le poulet dans la poêle. Verse 100 ml d'eau, couvre et laisse mijoter 15 min. Découvre et fais réduire à sec 5 min jusqu'à obtenir une sauce confite, presque sans liquide. Coupe le feu. Effiloche le poulet à la fourchette directement dans la sauce.",
+            "Bats les œufs à la fourchette et verse-les dans la poêle. Remue à feu doux 2 min jusqu'à ce qu'ils soient pris (texture œufs brouillés). Incorpore le persil + coriandre ciselés. Réserve. Dans un bol à part, mélange la poudre d'amandes + 2 c.s. de sucre glace + 1 c.c. de cannelle.",
+            "Préchauffe le four à 180 °C. Beurre un moule rond de 24 cm. Dispose 4 feuilles de brick beurrées en étoile dans le moule, débordant largement. Verse la moitié du mélange aux amandes. Étale toute la farce poulet-œufs. Couvre du reste des amandes. Replie les feuilles débordantes vers le centre comme un emballage cadeau. Couvre de 4 feuilles supplémentaires beurrées en scellant bien.",
+            "Enfourne 25 min jusqu'à coloration dorée intense. Démoule chaud sur un plat. Saupoudre généreusement de sucre glace au tamis et trace des lignes de cannelle au-dessus avec une cuillère. Sers chaud, à la main si tu oses."
           ]
         },
         {
@@ -1455,18 +1644,85 @@
           ],
           "story": "Soupe nationale du Maroc, la harira est l'élément central du ftour pendant le Ramadan : c'est elle qui rompt le jeûne après le coucher du soleil. Sa composition complète (protéines + légumineuses + céréales + légumes + acide du citron) en fait un aliment idéal pour reprendre des forces après une journée sans manger. La version 'fassia' (de Fès) est la plus codifiée.",
           "chefSecret": "Trois techniques de dada (cuisinières traditionnelles) : (1) PELER LES POIS CHICHES après trempage — un bouillon trouble est inacceptable en harira ; (2) HACHER LA CORIANDRE/PERSIL ENTIERS (tiges incluses) — ce hachis fin est la signature aromatique, on doit pouvoir tracer la couleur verte dans la soupe rouge ; (3) LA TADOUIRA AVEC JUS DE CITRON — beaucoup de recettes occidentales l'oublient, mais c'est ce qui empêche la formation de grumeaux ET ce qui donne la note acidulée caractéristique. La harira se bonifie en réchauffant : préparez-la la veille pour servir le lendemain — les saveurs s'arrondissent et la texture se stabilise.",
-          "simplifiedSteps": [
-            "Pèle les pois chiches (astuce de mamie) : après leur trempage de 24 h, frotte-les entre tes paumes sous l'eau pour enlever leur petite peau translucide. Égoutte. Sans cette étape, le bouillon serait trouble.",
-            "Cisèle TRÈS fin les bouquets de coriandre et de persil ENTIERS (tiges comprises — c'est là qu'il y a le plus de parfum). Hache au robot avec les oignons et le céleri pour obtenir un hachis très fin.",
-            "Dans une grande marmite, chauffe 40 ml d'huile d'olive. Ajoute le hachis aromatique (oignons + céleri + coriandre + persil + viande). Fais suer 10 min à feu moyen SANS prendre trop de couleur.",
-            "Ajoute les épices : safran (trempé 5 min dans 30 ml d'eau chaude), gingembre, curcuma, cannelle, poivre. Cuis 2 min en remuant. Les épices doivent libérer leurs arômes SANS brûler.",
-            "Ajoute les tomates concassées + le concentré de tomate. Mélange. Cuis 8 min à feu moyen jusqu'à ce que les tomates fondent et que l'huile remonte à la surface.",
-            "Verse 2 L d'eau bouillante, ajoute les pois chiches pelés. Sale. Porte à frémissement, couvre à moitié et laisse cuire 1 h à petit feu.",
-            "Ajoute les lentilles, continue 20 min. Les pois chiches doivent être tendres mais entiers, les lentilles cuites mais pas éclatées.",
-            "Ajoute les vermicelles, cuis 5 min.",
-            "La tadouira (la signature, indispensable pour la texture) : dans un bol, fouette ÉNERGIQUEMENT 50 g de farine avec 250 ml d'eau froide et 25 ml de jus de citron jusqu'à ce que ce soit parfaitement lisse, SANS grumeaux. Le jus de citron 'cuit' légèrement la farine et empêche les grumeaux dans la soupe.",
-            "Verse la tadouira EN PETIT FILET dans la harira en remuant sans arrêt au fouet (sinon des grumeaux). Cuis 5 min à feu moyen en remuant. La soupe doit s'épaissir et 'napper la cuillère' (test : trace une ligne au doigt sur la cuillère, elle doit rester visible).",
-            "Goûte, ajuste sel/poivre/jus de citron à ton goût. Sers BRÛLANT dans des bols traditionnels, avec des quartiers de citron à presser, des dattes Medjool, de la chebakia (gâteau au miel) et des œufs durs. C'est la table type du Ramadan pour le ftour (rupture du jeûne)."
+          "commisIngredients": [
+            {
+              "name": "Viande hachée (bœuf ou agneau)",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Pois chiches en boîte (égouttés)",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Lentilles en boîte (ou corail)",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 800,
+              "unit": "g"
+            },
+            {
+              "name": "Oignons jaunes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Branches de céleri",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Coriandre + persil frais ciselés",
+              "qty": 1,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Curcuma + cannelle + gingembre + poivre",
+              "qty": 1,
+              "unit": "c. à café (chaque)"
+            },
+            {
+              "name": "Vermicelles fins",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Maïzena",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Eau",
+              "qty": 1.5,
+              "unit": "L"
+            },
+            {
+              "name": "Citron jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "c. à café"
+            }
+          ],
+          "commisSteps": [
+            "Émince finement les oignons et le céleri (avec les feuilles). Cisèle finement la coriandre et le persil — tiges incluses, c'est là que sont les arômes.",
+            "Dans une grande marmite, fais chauffer 3 c.s. d'huile d'olive à feu moyen. Ajoute oignons, céleri, herbes ciselées et la viande hachée. Fais revenir 8 min en émiettant la viande à la cuillère en bois. Ajoute toutes les épices (curcuma, cannelle, gingembre, poivre), remue 30 s.",
+            "Verse les tomates concassées et 1,5 L d'eau. Sale, porte à frémissement. Couvre partiellement et laisse mijoter 25 min — les saveurs doivent se fondre.",
+            "Pendant ce temps, rince les pois chiches et lentilles sous l'eau froide. Ajoute-les dans la marmite avec les vermicelles. Cuis 6 min jusqu'à ce que les vermicelles soient tendres.",
+            "Dans un bol, fouette vigoureusement 3 c.s. de maïzena avec 200 ml d'eau froide jusqu'à dissolution complète (zéro grumeau). Verse en filet dans la harira en remuant constamment au fouet — c'est ce qui donne la texture veloutée typique. Cuis 5 min en remuant pour épaissir.",
+            "Goûte et rectifie le sel. Sers BRÛLANT dans des bols traditionnels avec un quartier de citron à presser au moment de manger (et quelques dattes à côté pour la tradition du Ramadan)."
           ]
         },
         {
@@ -1569,19 +1825,65 @@
           ],
           "story": "Pâtisserie incontournable des grandes fêtes marocaines (Ramadan, mariages, Aïd) et symbole de l'hospitalité. Le mot 'briouate' vient du diminutif du mot 'breka' (lettres) : les pliages traditionnels en triangles ou en cigares évoquaient les pliages des lettres royales scellées à l'époque mérinide.",
           "chefSecret": "Trois finesses des pâtissières marocaines : (1) AMANDES TORRÉFIÉES PUIS MIXÉES GROSSIÈREMENT — la torréfaction libère les huiles aromatiques (différence vs amandes en poudre achetée toute prête, qui sont plates en goût) ; (2) MIEL TIÈDE JAMAIS BOUILLI — au-dessus de 70 °C, le miel cristallise au refroidissement et devient amer-cristallisé ; (3) PLONGÉE IMMÉDIATE AU SORTIR DE LA FRITURE — les briouates encore brûlantes absorbent le miel en surface ; tièdes, elles le repoussent et se contentent d'une couche superficielle. Pour le service de fête, ajoutez une pincée de mastic (gomme arabique en grains pilée) à la farce — c'est la note 'orientale' subtile que l'on trouve dans les briouates de palais.",
-          "simplifiedSteps": [
-            "Passe les amandes au four (la clé du goût) : étale les 300 g d'amandes mondées sur une plaque, enfourne 7 min à 150 °C en chaleur tournante. Remue à mi-cuisson. Elles doivent juste blondir (PAS brunir) et sentir bon la noisette.",
-            "Laisse refroidir complètement. Mixe-les par à-coups pour obtenir une poudre grossière (texture sable, PAS une poudre fine — les morceaux donnent du croquant).",
-            "La farce : dans un saladier, mélange les amandes mixées, le sucre glace, la cannelle, le mastic pilé (si tu en as), 50 g de beurre fondu et 30 ml d'eau de fleur d'oranger. Travaille à la main jusqu'à obtenir une pâte qui se tient (test : forme une boule de la taille d'une noix qui ne se fissure pas).",
-            "Forme 32 boules de la taille d'une grosse noix (environ 13 g chacune).",
-            "Découpe les feuilles : superpose 2-3 feuilles de brick à la fois et coupe-les en 4 bandes égales (22 cm de long sur 6 cm de large). Couvre d'un torchon humide pour qu'elles ne sèchent pas.",
-            "Le pliage en triangle (la technique signature) : prends 1 bande, badigeonne-la légèrement de beurre fondu. Pose 1 boule de farce à 2 cm d'une extrémité. Replie la pointe sur la boule pour faire un triangle. CONTINUE à plier en triangle (comme un drapeau de scout, en tournant à chaque pli) jusqu'au bout de la bande.",
-            "Colle le dernier coin avec un peu de jaune d'œuf battu. Réserve sous un torchon le temps de plier toutes les briouates.",
-            "Prépare le bain de miel : dans une petite casserole large, chauffe le miel + 30 ml de fleur d'oranger à TOUT PETIT feu jusqu'à ce qu'il devienne fluide (60-70 °C maximum — JAMAIS bouillir, sinon le miel cristallise et devient amer). Garde tiède.",
-            "La friture : chauffe 600 ml d'huile dans une casserole haute à 175 °C (test : un bout de pâte qui dore en 30 sec). Fais frire les briouates par lots de 6, 2-3 min en les retournant à mi-cuisson, jusqu'à belle couleur caramel uniforme.",
-            "Égoutte-les sur une grille (PAS du papier absorbant : la chaleur ramollit). Puis TOUT DE SUITE (encore brûlantes), plonge-les dans le miel tiède 20-30 secondes en les retournant à la pince pour bien les enrober.",
-            "Égoutte sur une grille au-dessus d'un plat (récupère le miel qui coule). Saupoudre TOUT DE SUITE de graines de sésame torréfiées : elles collent au miel.",
-            "Laisse refroidir complètement avant de servir : le miel cristallise légèrement et donne le craquant signature. Conservation : jusqu'à 1 mois dans une boîte hermétique au frais."
+          "commisIngredients": [
+            {
+              "name": "Poudre d'amandes",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Sucre glace (farce)",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Cannelle en poudre",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Eau de fleur d'oranger",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Œuf (liant farce)",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Feuilles de brick rondes",
+              "qty": 8,
+              "unit": "u"
+            },
+            {
+              "name": "Beurre fondu (pliage)",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Huile de friture",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Miel (bain)",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Graines de sésame (optionnel)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Dans un saladier, mélange la poudre d'amandes, le sucre glace, la cannelle, l'œuf et 2 c.s. d'eau de fleur d'oranger. Tu dois obtenir une pâte qui tient en boule sous les doigts. Forme 20 petites boules de la taille d'une grosse noix.",
+            "Coupe chaque feuille de brick en 2 demi-cercles. Plie chaque demi-cercle en 2 dans le sens de la longueur pour former une bande. Badigeonne légèrement de beurre fondu au pinceau.",
+            "Pose une boule de farce à l'extrémité d'une bande. Plie en triangle : replie le coin sur la farce, puis continue à plier en triangle jusqu'au bout de la bande (technique du drapeau). Soude le dernier bout avec un peu de beurre. Recommence — tu obtiens 16-20 briouates.",
+            "Fais chauffer 500 ml d'huile dans une casserole haute jusqu'à ~170 °C (test : un petit bout de pâte doit dorer en 30 s). Plonge les briouates par 4-5 et frit-les 2-3 min en les retournant — elles doivent être dorées caramel sans brûler.",
+            "Pendant la friture, fais chauffer doucement le miel dans une petite casserole large jusqu'à ce qu'il soit fluide (jamais bouillant : il brûlerait).",
+            "Égoutte les briouates sur une grille puis, tant qu'elles sont brûlantes, plonge-les 1 min dans le miel chaud en les retournant pour bien les enrober. Égoutte sur une grille au-dessus d'un plat (récupère le miel qui coule). Saupoudre de graines de sésame si tu veux. Laisse refroidir complètement avant de servir — le miel se fige et donne le craquant signature."
           ]
         }
       ]
