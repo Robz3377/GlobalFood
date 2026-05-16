@@ -5957,15 +5957,80 @@
           ],
           "story": "Plat national thaïlandais des années 1940, le pad thai est né d'une politique d'identité culinaire visant à substituer le riz aux nouilles d'origine chinoise.",
           "chefSecret": "Préparer la sauce tamarin-nam-pla-sucre la veille pour développer une saveur plus profonde, et travailler au wok à feu maximal sans interruption — moins de 4 minutes du dépôt des nouilles au service. Les crevettes restent juste rosées (ne JAMAIS dépasser 2 min de cuisson totale), les œufs encore baveux : la balance sucré/salé/acide se fait en bouche avec le citron vert pressé à la dernière seconde.",
-          "simplifiedSteps": [
-            "Trempe les nouilles 20 min dans l'eau tiède (40 °C max). Elles doivent rester souples mais fermes. Égoutte soigneusement.",
-            "Prépare la sauce (idéalement la veille) : dans une petite casserole, fais fondre 25 g de sucre de palme avec 30 g de tamarin et 30 ml de nam pla (sauce poisson) à TRÈS PETIT feu, 2 min, jusqu'à dissolution complète. Réserve.",
-            "Chauffe le wok à feu vif jusqu'à ce qu'il fume légèrement, ajoute 15 ml d'huile, saisis les crevettes 90 sec par face, réserve.",
-            "Remets 15 ml d'huile dans le wok, fais dorer ail + échalote 30 sec. Ajoute le tofu et fais-le colorer 1 min.",
-            "Pousse tout sur le côté du wok, casse les œufs au centre, brouille rapidement en gardant BAVEUX (30 sec).",
-            "Ajoute les nouilles égouttées, verse toute la sauce et remue SANS ARRÊT à la pince ou à la spatule pendant 2 min. Ajoute 1 cuillère d'eau si ça attache.",
-            "HORS DU FEU, incorpore les crevettes, les germes de soja, la ciboule et la moitié des cacahuètes. Bien mélanger 30 sec sur la chaleur résiduelle.",
-            "Sers IMMÉDIATEMENT. Parsème du reste des cacahuètes et accompagne d'un quartier de citron vert à presser au moment de manger."
+          "commisIngredients": [
+            {
+              "name": "Nouilles de riz larges (rayon Asie)",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Crevettes décortiquées (cuites ou crues)",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Sauce nuoc-mâm",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sauce soja",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron vert",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sucre roux",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousses"
+            },
+            {
+              "name": "Ciboule",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Germes de soja frais (rayon frais)",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Cacahuètes (concassées au pilon)",
+              "qty": 40,
+              "unit": "g"
+            },
+            {
+              "name": "Citron vert (servir)",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 3,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Plonge les nouilles dans un grand saladier d'eau très chaude (pas bouillante). Laisse-les ramollir 10 min — elles doivent être souples mais pas cuites. Égoutte et réserve.",
+            "Pendant ce temps, prépare la sauce : mélange dans un bol la sauce nuoc-mâm + sauce soja + jus de citron vert + sucre roux. Mélange jusqu'à dissolution du sucre. C'est ton trio salé-acide-sucré qui remplace le tamarin.",
+            "Coupe les ciboules en tronçons de 3 cm, hache finement l'ail. Concasse grossièrement les cacahuètes au pilon (ou dans un sachet congel au rouleau).",
+            "Fais chauffer un wok ou une grande poêle à feu vif avec 3 c.s. d'huile. Lance l'ail 15 s puis les crevettes 2 min jusqu'à coloration rose. Pousse tout sur un côté de la poêle, casse les 2 œufs dans le vide et brouille-les 30 s à la spatule.",
+            "Ajoute les nouilles égouttées + toute la sauce. Mélange à la pince ou aux baguettes 2 min jusqu'à ce que les nouilles absorbent la sauce et soient tendres et brillantes.",
+            "Coupe le feu. Ajoute les germes de soja, les ciboules et la moitié des cacahuètes. Mélange brièvement (les germes doivent rester croquants). Sers immédiatement avec le reste des cacahuètes par-dessus et un quartier de citron vert à presser."
           ]
         },
         {
@@ -6069,17 +6134,75 @@
           ],
           "story": "Le curry vert ('gaeng kiao wan' = curry vert sucré) est le plus piquant et le plus parfumé des curries thaï, originaire du centre du pays (région de Bangkok). Il se distingue du curry rouge par l'usage de piments verts thaï frais (au lieu de séchés) et de coriandre fraîche dans la pâte, qui lui donnent sa couleur émeraude et son piquant 'frais' caractéristique.",
           "chefSecret": "La technique 'faire crever' la pâte ('tâek mèn' en thaï) est NON négociable et trop souvent oubliée dans les recettes occidentales : il faut SÉPARER la crème de coco solide du lait liquide, faire crépiter la crème jusqu'à ce que l'huile se sépare, et seulement ALORS frire la pâte de curry dans cette huile. C'est cette étape qui réveille les arômes volatils de la pâte (citronnelle, galanga, combava, piment vert). Une pâte simplement délayée dans le lait de coco donne un curry plat et triste. Et n'oubliez jamais : le lait de coco ne doit JAMAIS bouillir vigoureusement — il se sépare en huile et solides. Frémissement seulement.",
-          "simplifiedSteps": [
-            "Préparation : sors les cuisses de poulet 30 min avant la cuisson. SÉPARE la crème de coco épaisse (le 'top' solidifié au-dessus de la boîte) du lait de coco liquide en dessous — c'est l'étape clé de la cuisson en 2 temps.",
-            "Étape 1 — 'faire crever' la pâte (technique thaï signature 'tâek mèn') : dans un grand wok ou sauteuse, chauffe la crème de coco épaisse à feu MOYEN-FORT jusqu'à ce qu'elle commence à se séparer (5-6 min). L'huile de coco se sépare du solide blanc et 'frissonne' en surface. C'est ce qu'on cherche : l'huile va frire la pâte.",
-            "Ajoute les 60 g de pâte de curry vert dans la crème séparée, fais-la frire 2-3 min en remuant SANS ARRÊT jusqu'à dégagement aromatique intense. Tu DOIS sentir l'odeur citronnelle-galanga-piment vert qui pique le nez. C'est ce frottement qui libère les huiles essentielles des aromates de la pâte.",
-            "Ajoute les cubes de poulet, mélange pour bien les enrober de pâte, fais saisir 4 min à feu vif en remuant. Les morceaux doivent juste blanchir et prendre la couleur verte de la pâte.",
-            "Étape 2 — le mouillage : verse le lait de coco liquide + 100 ml de bouillon, porte à FRÉMISSEMENT (JAMAIS bouillir vigoureusement, le lait de coco se 'casserait' en grumeaux d'huile).",
-            "Ajoute les aubergines thaï, baisse à feu doux, mijote 8 min SANS couvercle. Les aubergines doivent devenir tendres mais entières.",
-            "Ajoute les pois gourmands, les pousses de bambou et les feuilles de combava DÉCHIRÉES À LA MAIN (déchirer libère plus d'huiles essentielles que couper). Poursuis 4 min.",
-            "Assaisonnement : incorpore la sauce de poisson + le sucre de palme. Goûte et AJUSTE : un curry vert thaï authentique est un équilibre 4 SAVEURS SIMULTANÉES (sucré du palme + salé du nam pla + acidulé des feuilles + piquant des piments verts dans la pâte). Si trop sucré : nam pla. Trop salé : sucre. Trop épicé : un trait de lait de coco supplémentaire.",
-            "HORS DU FEU, ajoute le basilic thaï et les piments rouges en biais (la chaleur résiduelle libère leur arôme sans les flétrir).",
-            "Sers IMMÉDIATEMENT dans des bols creux avec un bol de riz jasmin tout chaud à part. La tradition thaï est de mélanger soi-même curry et riz à la cuillère."
+          "commisIngredients": [
+            {
+              "name": "Cuisses de poulet désossées en cubes",
+              "qty": 600,
+              "unit": "g"
+            },
+            {
+              "name": "Pâte de curry vert thai (supermarché)",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Lait de coco entier",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Aubergine",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Carottes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Pois gourmands (ou haricots verts)",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce nuoc-mâm",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sucre roux",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Basilic frais",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            },
+            {
+              "name": "Riz jasmin (servir)",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Huile végétale",
+              "qty": 2,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Lance d'abord le riz jasmin : 300 g pour 450 ml d'eau salée dans une casserole couverte. Porte à ébullition, baisse à feu très doux 12 min, repose 5 min couvert.",
+            "Pendant ce temps, coupe l'aubergine en cubes de 2 cm, les carottes en bâtonnets, équeute les pois gourmands. Coupe les cuisses de poulet en cubes de 2 cm si pas déjà fait.",
+            "Dans un wok ou une grande poêle, fais chauffer 2 c.s. d'huile à feu moyen-vif. Ajoute 3 c.s. de pâte de curry vert et fais-la revenir 2 min en remuant — elle doit dégager ses arômes (attention à la fumée, baisse le feu si besoin).",
+            "Ajoute le poulet et fais-le saisir 4 min en remuant pour bien l'enrober de pâte.",
+            "Verse le lait de coco, ajoute la sauce nuoc-mâm et le sucre roux. Porte à frémissement. Ajoute les carottes et l'aubergine. Couvre et laisse mijoter 12 min à feu moyen — les légumes doivent être tendres.",
+            "Ajoute les pois gourmands, cuis encore 3 min — ils doivent rester croquants. Coupe le feu, ajoute le basilic et la coriandre ciselés. Sers chaud sur le riz jasmin."
           ]
         },
         {
@@ -6198,18 +6321,90 @@
           ],
           "story": "Soupe nationale thaïlandaise et plat médicinal traditionnel : citronnelle, galanga et combava étaient utilisés comme remèdes ayurvédiques avant d'être consacrés en cuisine. Les pêcheurs du golfe de Thaïlande la préparaient sur le bateau avec les petites crevettes invendables. Aujourd'hui, le Tom Yum Kung (kung = grosses crevettes en thaï) est un patrimoine culinaire reconnu et le 'goût de la Thaïlande' pour l'étranger.",
           "chefSecret": "Trois règles non négociables des chefs thaï : (1) JUS DE CITRON VERT HORS DU FEU, JAMAIS DANS LA CASSEROLE QUI MIJOTE — la chaleur le rend amer instantanément. Pressez juste avant de servir ; (2) NE FAITES JAMAIS BOUILLIR FORTEMENT — un Tom Yum kung doit frémir, jamais bouillir : l'ébullition violente détruit la finesse des aromates et durcit les crevettes ; (3) DÉCHIRER LES FEUILLES DE COMBAVA À LA MAIN (jamais couper au couteau) — le déchirage libère 3-4 fois plus d'huiles essentielles que la coupe. Et ÉQUILIBRE 4 SAVEURS SIMULTANÉES : c'est le test absolu — si vous ne sentez QUE le piquant ou QUE l'acide, votre Tom Yum est raté.",
-          "simplifiedSteps": [
-            "Préparation des crevettes (étape signature du Tom Yum Kung) : décortique les crevettes, garde têtes et carapaces séparément. Incise le dos de chaque crevette pour retirer le boyau intestinal. Réserve les chairs au frais.",
-            "Le bouillon aromatique infusé : dans une grande casserole, fais chauffer 1 L d'eau ou de bouillon. Ajoute les têtes et carapaces des crevettes, fais-les revenir 2 min en pressant à la spatule pour libérer les sucs.",
-            "Écrase les tiges de citronnelle au manche du couteau (pour libérer les huiles essentielles), coupe en tronçons de 4 cm. Écrase les échalotes et l'ail (ne hache pas : la pulpe trouble le bouillon).",
-            "Ajoute dans le bouillon : citronnelle écrasée, galanga, feuilles de combava DÉCHIRÉES À LA MAIN (le déchirage libère plus d'arômes que la coupe), échalotes, ail, piments oiseaux écrasés. Laisse mijoter 10 min à feu doux SANS BOUILLIR pour infuser.",
-            "Filtre le bouillon au chinois fin (jette les têtes/carapaces, GARDE les aromates qui resteront pour la présentation). Remets les aromates filtrés et le bouillon limpide dans la casserole.",
-            "Porte à frémissement (JAMAIS ébullition franche). Ajoute les champignons et les tomates cerises. Cuis 3 min jusqu'à ce que les champignons relâchent leur eau.",
-            "Ajoute la pâte de piment nam prik pao (étape signature qui apporte la couleur orange-rouge et la profondeur umami), mélange pour dissoudre. Cuis 2 min.",
-            "Ajoute les chairs de crevettes décortiquées, cuis 2-3 min jusqu'à ce qu'elles deviennent rosées ET ferment leur queue en virgule (c'est le signal de cuisson parfaite — au-delà, elles deviennent caoutchouteuses).",
-            "Assaisonnement final HORS DU FEU (étape critique) : retire la casserole du feu. Ajoute les 60 ml de sauce poisson + 15 g de sucre + jus de citrons verts FRAIS pressés à l'instant. Mélange.",
-            "Goûte et AJUSTE l'équilibre 4 SAVEURS (signature thaï) : ACIDE (citron vert) — SALÉ (nam pla) — SUCRÉ (sucre palme) — PIQUANT (piment). Aucune saveur ne doit dominer ; elles doivent toutes te frapper en même temps.",
-            "Sers bouillant dans des bols creux préchauffés. Parsème de coriandre fraîche et de ciboule. Conseil aux convives : NE MANGE PAS les morceaux de citronnelle, galanga et combava qui restent — ils sont là pour parfumer, pas pour se mâcher (c'est un piège classique pour les non-initiés)."
+          "commisIngredients": [
+            {
+              "name": "Crevettes décortiquées",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Cube de bouillon de poulet",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Eau",
+              "qty": 1,
+              "unit": "L"
+            },
+            {
+              "name": "Citronnelle (en bocal, ou 2 tiges fraîches)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Gingembre frais",
+              "qty": 30,
+              "unit": "g"
+            },
+            {
+              "name": "Zeste de citron vert",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Échalotes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Champignons de Paris",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Tomates cerise",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce nuoc-mâm",
+              "qty": 4,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron vert (2 citrons)",
+              "qty": 4,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sucre roux",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sriracha (ou pincée de piment)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Coriandre fraîche",
+              "qty": 0.5,
+              "unit": "bouquet"
+            }
+          ],
+          "commisSteps": [
+            "Dans une grande casserole, verse 1 L d'eau et dissous le cube de bouillon. Ajoute la citronnelle (écrasée au pilon si fraîche, sinon directement 2 c.s. en bocal), le gingembre en lamelles fines, l'échalote émincée, l'ail écrasé et le zeste de citron vert. Porte à frémissement et laisse infuser 10 min à couvert.",
+            "Pendant ce temps, coupe les champignons en quartiers et les tomates cerise en deux.",
+            "Ajoute champignons + tomates dans le bouillon, laisse cuire 4 min jusqu'à ce qu'ils ramollissent.",
+            "Ajoute les crevettes décortiquées, la sauce nuoc-mâm, le sucre roux et la Sriracha. Laisse cuire 3 min : les crevettes deviennent roses et fermes.",
+            "COUPE LE FEU. C'est essentiel : c'est hors du feu qu'on ajoute le jus de citron vert (4 c.s.) pour garder son côté frais et acide. Mélange.",
+            "Sers immédiatement dans des bols brûlants avec la coriandre fraîche par-dessus. Si tu trouves les morceaux de citronnelle/gingembre/zeste, écarte-les de la cuillère en mangeant (ils ont parfumé mais ne se mangent pas)."
           ]
         },
         {
@@ -6312,18 +6507,69 @@
           ],
           "story": "Plat emblématique du Nord-Est thaïlandais (région Isan) et du Laos voisin. 'Som' signifie 'aigre' et 'tam' signifie 'frapper' — littéralement 'aigre frappé' en référence à la technique du mortier. Plat de petite ouvrière au départ (papaye = arbre du jardin, accessible aux modestes), il est aujourd'hui l'un des plats thaï les plus exportés au monde. La version Bangkok (centre, douce-piquante) et la version Isan (très piquante avec poisson fermenté plâ râ) sont assez différentes.",
           "chefSecret": "Trois règles d'or des som tam masters thaï : (1) MORTIER EN BOIS OU TERRE CUITE OBLIGATOIRE — un mortier en pierre transforme la salade en bouillie ; (2) ORDRE STRICT DES INGRÉDIENTS dans le mortier — durs (ail/piment), umami (crevettes/cacahuètes), liquides (sauce), fragiles (haricots/tomates), papaye en dernier ; sauter cet ordre = textures aplaties ; (3) TECHNIQUE PILON-CUILLÈRE EN ALTERNANCE — le pilon écrase délicatement (jamais pulvérise), la cuillère mélange du fond vers le dessus pour bien enrober les juliennes. Et la papaye doit rester croquante : si elle est molle, vous avez trop pilé. Note pour Map and Fork : la version originale utilise du nam pla (sauce de poisson) et des crevettes séchées — la version vegan-friendly substitue par sauce de soja claire et tofu fumé râpé, mais ce n'est plus tout à fait un som tam thaï authentique.",
-          "simplifiedSteps": [
-            "Prépare la papaye : épluche-la. Râpe-la en longues juliennes de 3-5 mm (idéalement au couteau de chef en faisant des entailles puis en pelant — méthode thaï traditionnelle). Plonge les juliennes 5 min dans l'eau glacée, égoutte parfaitement (ça apporte encore plus de croquant).",
-            "Coupe les haricots longs en tronçons de 3 cm, la carotte en julienne fine, les tomates cerises en quartiers. Réserve tous les légumes au frais.",
-            "Le mortier (étape signature 'tam' = frapper) : utilise un mortier en BOIS ou en TERRE CUITE de grande taille (idéalement 25 cm de diamètre). Les mortiers en pierre/marbre réduisent les ingrédients en pâte — texture catastrophique pour le som tam.",
-            "Ordre NON NÉGOCIABLE — phase 1 (les durs en premier) : dépose les 4 gousses d'ail et les 4 piments oiseaux. Pile 5-6 coups vifs pour les écraser grossièrement (PAS réduire en pâte). Ils libèrent leurs huiles essentielles dans le bois du mortier.",
-            "Phase 2 (umami) : ajoute les crevettes séchées + 30 g de cacahuètes (garde 20 g pour la finition). Pile 6-8 coups pour les briser sans les pulvériser. Les morceaux apportent la mâche.",
-            "Phase 3 (liquides) : ajoute le sucre de palme râpé, le nam pla, le jus de citron vert et le tamarin. Pile doucement 4-5 coups pour dissoudre le sucre dans les liquides et imprégner les solides du mortier.",
-            "Phase 4 (les fragiles) : ajoute les haricots longs et les tomates. Pile en mouvement 'tam' (frapper doucement) en alternant avec une cuillère qui mélange. L'objectif : écraser SANS réduire en purée. Les tomates doivent éclater pour libérer leur jus, les haricots doivent juste se fendre.",
-            "Phase 5 (le croquant) : ajoute la papaye verte égouttée + la carotte (si utilisée). Continue le 'tam' avec mouvement pilon-cuillère alternés (le pilon écrase, la cuillère mélange du fond vers le dessus pour bien enrober les juliennes du jus aromatique).",
-            "Goûte et AJUSTE l'équilibre 4 SAVEURS (le test du som tam) : SOM (aigre, citron vert) — TAM (frapper, la chaleur du piment) — SALÉ (nam pla) — SUCRÉ (sucre palme). Ajuste en pilant 2-3 coups après chaque ajout.",
-            "Verse le contenu du mortier (juliennes + jus aromatique) dans un grand saladier. Parsème généreusement des 20 g de cacahuètes restantes concassées en finition. Décore de quelques feuilles de menthe.",
-            "Sers IMMÉDIATEMENT (la papaye perd son croquant en 30 min) avec du riz gluant (khao niao) cuit à la vapeur. La combinaison som tam + khao niao + grillade est le 'street food trio' canonique du Nord-Est thaïlandais (Isan)."
+          "commisIngredients": [
+            {
+              "name": "Carottes",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Concombre",
+              "qty": 0.5,
+              "unit": "u"
+            },
+            {
+              "name": "Tomates cerise",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Haricots verts surgelés",
+              "qty": 100,
+              "unit": "g"
+            },
+            {
+              "name": "Ail",
+              "qty": 3,
+              "unit": "gousses"
+            },
+            {
+              "name": "Cacahuètes (non salées si possible)",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Sauce nuoc-mâm",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sucre roux",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Jus de citron vert (2-3 citrons)",
+              "qty": 60,
+              "unit": "ml"
+            },
+            {
+              "name": "Sriracha (ou pincée de piment)",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Coriandre + menthe fraîches",
+              "qty": 1,
+              "unit": "bouquet (chaque)"
+            }
+          ],
+          "commisSteps": [
+            "Râpe les carottes en julienne (râpe à gros trous ou économe). Coupe le concombre en bâtonnets fins après l'avoir épépiné. Coupe les tomates cerise en quartiers. Décongèle les haricots verts 30 s au micro-ondes puis coupe-les en tronçons de 3 cm.",
+            "Dans une grande poêle sèche, fais torréfier les cacahuètes 3 min à feu moyen en remuant — elles doivent dégager leur parfum sans noircir. Concasse-les grossièrement au pilon (ou dans un sachet congel au rouleau).",
+            "Dans un grand saladier (ou un mortier si tu en as un), écrase l'ail au pilon avec 1 c.s. de cacahuètes torréfiées. Ajoute le sucre roux, la sauce nuoc-mâm, le jus de citron vert et la Sriracha. Mélange jusqu'à dissolution du sucre — c'est la sauce signature.",
+            "Ajoute carottes, concombre, tomates et haricots verts. Mélange délicatement à la main ou avec deux cuillères en bois en pressant légèrement pour que la sauce imprègne bien les légumes.",
+            "Sers IMMÉDIATEMENT dans des assiettes creuses. Parsème du reste des cacahuètes concassées, de coriandre et menthe ciselées. La salade ne se garde pas : la carotte rend de l'eau et la salade devient flasque en 30 min."
           ]
         },
         {
@@ -6426,19 +6672,55 @@
           ],
           "story": "Dessert national thaïlandais, particulièrement consommé pendant la SAISON DES MANGUES (mars-mai en Thaïlande). Le mango sticky rice de la rue Yaowarat (Bangkok) est célèbre dans le monde entier ; la chef Jay Fai (étoilée Michelin) le sert en finale de son menu de street food haute couture. Le riz gluant lui-même est un aliment de base de l'Isan (Nord-Est de la Thaïlande) où il est mangé à toutes les sauces (avec som tam, larb, grillades) — la version sucrée avec mangue est sa déclinaison festive. Un guide Michelin a même publié en 2024 'Comment préparer le mango sticky rice comme un restaurant 2 étoiles' (R-Haan, Bangkok).",
           "chefSecret": "Trois règles intangibles des thaïs : (1) RIZ GLUANT THAÏ + TREMPAGE LONG (4-6 H minimum) + CUISSON VAPEUR — JAMAIS à l'eau, JAMAIS substituer par du riz japonais ou riz collant chinois. Le 'khao niao' thaï a une variété spécifique (riz indica gluant) impossible à reproduire avec du riz nippon (japonica gluant). À la rigueur : riz gluant 'sticky rice' du Sud-Est asiatique. Le trempage long hydrate le grain à cœur ; sans lui, le riz est pâteux dehors et cru dedans ; (2) DEUX SAUCES COCO DISTINCTES — la sauce d'IMPRÉGNATION (mélangée chaude au riz, plus liquide, plus salée) ET la sauce de TOPPING (versée sur le riz à servir, plus épaisse, sucrée). Beaucoup de recettes occidentales fusionnent les deux et ratent la complexité. La sauce d'imprégnation pénètre le riz, la sauce topping crée le contraste de texture en bouche ; (3) MANGUES À TEMPÉRATURE AMBIANTE — JAMAIS au frigo. Le froid détruit les arômes volatils des mangues thaï Nam Dok Mai. La sortir 1 h avant de servir, à servir tiède-ambiante en contraste du riz tiède.",
-          "simplifiedSteps": [
-            "Trempage du riz (étape clé non négociable) : rince le riz gluant thaï dans un grand saladier d'eau froide en frottant délicatement entre les paumes. Change l'eau 5-6 fois jusqu'à limpidité totale. L'amidon de surface s'enlève — c'est ce qui empêche le riz de devenir pâteux à la cuisson.",
-            "Couvre le riz d'eau froide en abondance (3× le volume), laisse tremper 4-6 H MINIMUM (idéalement toute une nuit). Ce trempage est NON NÉGOCIABLE : il hydrate le grain de l'intérieur et permet une cuisson vapeur uniforme. Sans trempage, le grain reste cru au cœur.",
-            "Cuisson vapeur (méthode traditionnelle thaï — le riz gluant NE SE CUIT PAS À L'EAU mais À LA VAPEUR) : tapisse un panier en bambou (huat) d'une étamine ou d'un tissu humide. Égoutte le riz trempé, dépose-le en couche égale dans le panier (PAS plus de 4 cm d'épaisseur).",
-            "Pose le panier sur une casserole d'eau bouillante à frémissement vif. Couvre d'un couvercle ou d'une assiette retournée. Cuis 20-25 min à la vapeur. À mi-cuisson (10-12 min), retourne le riz dans le panier (la couche du dessus devient celle du dessous) pour une cuisson uniforme.",
-            "Test de cuisson : le riz est cuit quand il devient TRANSLUCIDE-LUSTRÉ et tendre sous la dent (pas pâteux). Texture finale : grains distincts mais entièrement collants entre eux.",
-            "La sauce coco base (la 'sauce d'imprégnation') : pendant la cuisson du riz, dans une petite casserole, mélange 250 ml de lait de coco + 60 g de sucre de palme + 3 g de sel + feuille de pandan nouée. Chauffe à feu DOUX 3-4 min en remuant CONSTAMMENT dans le sens des aiguilles d'une montre (technique thaï pour empêcher la sauce de 'cailler') jusqu'à dissolution totale du sucre. NE PAS BOUILLIR.",
-            "L'imprégnation (étape signature du moelleux) : transfère IMMÉDIATEMENT le riz cuit chaud dans un saladier moyen. Verse la sauce coco chaude sur le riz, mélange DÉLICATEMENT à la spatule en bois. Couvre d'un torchon humide, laisse reposer 30 MIN minimum à température ambiante. Le riz absorbe entièrement la sauce, gonfle légèrement, et devient BRILLANT et CRÉMEUX.",
-            "La sauce topping (la 'sauce de service' — plus épaisse) : mélange 100 ml de crème de coco + 10 g de sucre + pincée de sel + 5 g de fécule de riz délayée dans 1 cs d'eau. Chauffe 2 min jusqu'à frémir et épaissir légèrement (consistance sirupeuse nappante). Réserve tiède.",
-            "Préparation des mangues : pèle les 2 mangues Nam Dok Mai, prélève les 2 joues de chaque côté du noyau. Tranche chaque joue en lamelles de 5 mm dans le sens de la longueur, en restant dans la chair fibreuse-douce. Réserve à TEMPÉRATURE AMBIANTE (JAMAIS au frais — la mangue thaï perd son arôme dans le froid).",
-            "Dressage traditionnel thaï : sur chaque assiette plate ou bol large, dépose une portion de riz gluant tiède formée en dôme à la cuillère mouillée (environ 80 g par personne). À côté, dispose les tranches de mangue en éventail.",
-            "Verse 2 cs de sauce coco TOPPING sur le riz UNIQUEMENT (pas sur la mangue — la mangue se déguste seule pour son parfum pur).",
-            "Saupoudre 1 pincée de graines de sésame torréfiées + 1 pincée de haricots mungo croustillants sur la sauce. Le contraste TEXTURES (riz collant + mangue souple + sauce onctueuse + sésame croquant) ET TEMPÉRATURES (riz tiède + mangue à température ambiante + sauce tiède) est l'essence du dessert."
+          "commisIngredients": [
+            {
+              "name": "Riz gluant thaï (rayon Asie)",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Eau (cuisson)",
+              "qty": 500,
+              "unit": "ml"
+            },
+            {
+              "name": "Lait de coco entier",
+              "qty": 400,
+              "unit": "ml"
+            },
+            {
+              "name": "Sucre roux (ou sucre de palme si dispo)",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Mangues bien mûres",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Maïzena (épaississant topping)",
+              "qty": 1,
+              "unit": "c. à café"
+            },
+            {
+              "name": "Graines de sésame torréfiées (déco)",
+              "qty": 2,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Rince le riz gluant à l'eau froide 3-4 fois jusqu'à eau presque claire. Mets-le dans une casserole avec 500 ml d'eau, couvre et porte à ébullition. Baisse à feu très doux et cuis 18 min sans soulever le couvercle (cuisson absorbée — le riz s'imprègne de toute l'eau).",
+            "Pendant que le riz cuit, prépare la sauce coco : verse 300 ml de lait de coco dans une casserole avec 60 g de sucre roux et une pincée de sel. Chauffe à feu doux en remuant jusqu'à dissolution complète du sucre — jamais bouillir, le lait de coco se sépare sinon. Réserve.",
+            "Quand le riz est cuit, coupe le feu et laisse reposer 5 min couvert. Verse la sauce coco encore tiède sur le riz directement dans la casserole, mélange délicatement à la spatule en bois et laisse absorber 15 min à couvert.",
+            "Pendant ce temps, prépare le topping crémeux : dans une petite casserole, verse les 100 ml de lait de coco restants + 20 g de sucre roux + 1 c.c. de maïzena diluée dans 1 c.s. d'eau froide. Chauffe à feu doux en remuant 2 min jusqu'à ce que la sauce épaississe et nappe la cuillère.",
+            "Pèle les mangues et coupe-les en tranches épaisses (ou en demi-cubes). Vise les plus mûres du rayon : la chair doit céder légèrement sous la pression.",
+            "Dresse dans des assiettes : un dôme de riz coco au centre, les tranches de mangue posées à côté. Verse le topping crémeux sur le riz (et un peu sur la mangue si tu veux). Parsème de graines de sésame torréfiées. Sers tiède ou à température ambiante — JAMAIS froid (le riz devient dur)."
           ]
         }
       ]
