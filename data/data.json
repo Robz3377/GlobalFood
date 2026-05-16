@@ -2057,14 +2057,44 @@
           ],
           "story": "Pas de crème, pas d'ail. La carbonara romaine se passe de tout sauf de l'essentiel — et c'est sa fierté.",
           "chefSecret": "La poêle doit être tiède (jamais brûlante) au moment d'incorporer les jaunes : trop chaude, c'est l'omelette ; trop froide, la sauce n'accroche pas. La technique des grands chefs romains est de monter la sauce comme un risotto, en ajoutant l'eau de cuisson amidonnée petit à petit jusqu'à un nappage soyeux.",
-          "simplifiedSteps": [
-            "Porte 2 L d'eau à ébullition franche. Sale (10 g/L), plonge les spaghetti et cuis-les 1 min DE MOINS que l'indication du paquet (ils doivent être bien al dente, fermes).",
-            "Pendant ce temps, fais cuire le guanciale en dés (SANS matière grasse) à feu moyen 4-5 min jusqu'à ce qu'il soit doré et translucide. Coupe le feu et laisse-le dans la poêle.",
-            "Concasse grossièrement 5 g de poivre au mortier (ou au moulin). Fais-en griller la moitié 30 sec dans la graisse du guanciale, puis coupe le feu.",
-            "Bats les 3 jaunes d'œuf avec 40 g de pecorino et la moitié du poivre grillé. Détends avec 2 cuillères d'eau de cuisson TIÈDE — ça pré-chauffe les jaunes pour qu'ils ne deviennent pas omelette ensuite.",
-            "Égoutte les pâtes en gardant 250 ml d'eau de cuisson. Transfère-les dans la poêle au guanciale (FEU ÉTEINT, fond juste tiède).",
-            "HORS DU FEU, verse le mélange jaunes-pecorino. Mélange ÉNERGIQUEMENT à la pince en ajoutant l'eau de cuisson par petites doses jusqu'à obtenir une crème lisse et nappante.",
-            "Sers IMMÉDIATEMENT, ajoute le pecorino restant et un tour de moulin de poivre frais."
+          "commisIngredients": [
+            {
+              "name": "Spaghetti",
+              "qty": 200,
+              "unit": "g"
+            },
+            {
+              "name": "Lardons fumés",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs entiers",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Parmesan râpé (sachet)",
+              "qty": 60,
+              "unit": "g"
+            },
+            {
+              "name": "Poivre noir moulu",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Gros sel pour l'eau",
+              "qty": 1,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Mets une grande casserole d'eau salée à bouillir et lance les spaghetti pour le temps indiqué sur le paquet — vise al dente.",
+            "Pendant ce temps, fais dorer les lardons à la poêle, sans matière grasse, 4-5 min jusqu'à ce qu'ils soient bien grillés. Coupe le feu, laisse dans la poêle.",
+            "Dans un bol, casse les 2 œufs entiers, ajoute 50 g de parmesan râpé et un bon tour de moulin de poivre. Mélange à la fourchette.",
+            "Égoutte les pâtes en gardant un verre d'eau de cuisson. Balance-les directement dans la poêle aux lardons (hors du feu, c'est crucial : sinon l'œuf cuit en omelette).",
+            "Verse le mélange œufs-parmesan sur les pâtes chaudes et mélange à toute vitesse. Si c'est trop sec, ajoute de l'eau de cuisson cuillère par cuillère jusqu'à obtenir une sauce nappante. Sers immédiatement avec le reste de parmesan et du poivre."
           ]
         },
         {
@@ -2149,16 +2179,49 @@
           ],
           "story": "Créée en 1889 par Raffaele Esposito de la pizzeria Brandi à Naples pour la reine Margherita de Savoie en visite. Les couleurs (rouge tomate, blanc mozzarella, vert basilic) reproduisaient le drapeau italien tout juste unifié.",
           "chefSecret": "Trois règles AVPN strictes : (1) farine 00 W260+ et hydratation 60-65 % (à la maison, c'est le seul moyen de compenser le four à 280 °C au lieu de 480 °C) ; (2) fermentation longue au froid 24-48 h — c'est ce qui développe les arômes de fermentation et la digestibilité, et qui distingue une pizza napolitaine d'une pizza pâte rapide ; (3) le sel SUR la sauce, jamais sur la pâte étalée — ça empêche la mozzarella de rendre son eau pendant la cuisson. Pour atteindre les 480 °C à la maison sans four à bois, utilisez le grill pendant les 2 dernières minutes.",
-          "simplifiedSteps": [
-            "La pâte (à faire la veille, méthode AVPN napolitaine) : dissous la levure dans l'eau à 18-20 °C. Ajoute 80 % de la farine et mélange. Ajoute le sel, puis le reste de farine en pétrissant 10 min jusqu'à obtenir une pâte lisse et élastique qui se décolle du bol. JAMAIS d'huile dans la pâte (règle de l'AVPN, l'académie napolitaine).",
-            "Le pointage : laisse reposer la pâte couverte d'un linge humide 2 h à température ambiante. Tu obtiens une boule ferme, SANS bulles.",
-            "Forme 4 pâtons : divise la pâte en 4 portions de 240 g, et boule-les bien serré (la 'staglio'). Dispose dans une boîte hermétique légèrement farinée, espacés.",
-            "Pousse longue (la clé) : mets au RÉFRIGÉRATEUR (4 °C) pendant 24 h MINIMUM (48 h optimal). Sors-les 2 h avant la cuisson pour qu'ils reviennent à température.",
-            "Préchauffe le four à 280 °C (chaleur tournante MAX) AVEC une pierre à pizza (ou plaque épaisse) dedans, pendant 45 min minimum. Four à bois : 480 °C.",
-            "Étale la pâte À LA MAIN (jamais au rouleau, interdit AVPN) : sur un plan saupoudré de semoule, étale chaque pâton du centre vers l'extérieur en gardant un bord (cornicione) de 1-2 cm intact. Diamètre final : 30-32 cm.",
-            "La garniture (vitesse essentielle) : étale 80 g de tomates San Marzano écrasées à la main en spirale (sans aller jusqu'au bord). Sale légèrement. Pose la mozzarella en lanières d'1 cm. Ajoute 4-5 feuilles de basilic. Filet d'huile d'olive en spirale. AUCUNE autre garniture (règle puriste AVPN).",
-            "La cuisson : transfère vite sur la pierre brûlante avec une pelle. Cuis 6-8 min à 280 °C en four maison (60-90 sec en four à bois 480 °C). Les bords doivent gonfler, marbrer de noir-or, et la mozzarella bouillonner en surface.",
-            "Sors, ajoute 1-2 feuilles de basilic frais (la chaleur résiduelle libère leurs arômes), un dernier filet d'huile d'olive. Sers IMMÉDIATEMENT, à manger à la main."
+          "commisIngredients": [
+            {
+              "name": "Pâte à pizza prête à dérouler",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Coulis de tomates (bouteille)",
+              "qty": 150,
+              "unit": "g"
+            },
+            {
+              "name": "Mozzarella en boule",
+              "qty": 125,
+              "unit": "g"
+            },
+            {
+              "name": "Basilic frais",
+              "qty": 6,
+              "unit": "feuilles"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 1,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Origan séché (optionnel)",
+              "qty": 1,
+              "unit": "pincée"
+            },
+            {
+              "name": "Sel",
+              "qty": 1,
+              "unit": "pincée"
+            }
+          ],
+          "commisSteps": [
+            "Préchauffe le four à 240 °C (th. 8), chaleur tournante. Déroule ta pâte à pizza sur la plaque du four avec son papier sulfurisé.",
+            "Étale 150 g de coulis de tomates à la cuillère en spirale, en laissant 2 cm de bord nu. Sale légèrement et ajoute une pincée d'origan si tu aimes.",
+            "Égoutte la mozzarella et déchire-la grossièrement à la main. Répartis les morceaux sur la pizza sans aller jusqu'au bord.",
+            "Verse un filet d'huile d'olive en spirale. Enfourne 12-15 min, jusqu'à ce que les bords soient dorés et la mozzarella bien fondue.",
+            "Sors la pizza et ajoute le basilic frais maintenant (jamais avant : il brûle). Un dernier filet d'huile d'olive et tu manges à la main, tout de suite."
           ]
         },
         {
@@ -2242,17 +2305,60 @@
           ],
           "story": "Né en 1574 lors de la construction du Dôme de Milan : un peintre-décorateur surnommé 'Saffranus' utilisait le safran pour ses fresques dorées. Lors d'un mariage, son apprenti versa du safran dans le riz pour plaisanter — le résultat fut sublime, et le risotto giallo (jaune) devint l'emblème de Milan.",
           "chefSecret": "Trois clés de la mantecatura selon Simone Zanoni : (1) le BEURRE FROID (jamais fondu) — le choc thermique le fait émulsionner sans suinter ; (2) le RIZ HORS DU FEU 30 secondes avant — sinon la chaleur 'casse' l'émulsion ; (3) le BATTAGE VIGOUREUX 1 min plein — c'est physique. Et pour la texture 'all'onda', tapez la casserole : si la surface ondule comme une vague qui s'écrase sur la plage, c'est réussi. Si ça reste figé, il manque du bouillon ; si ça coule comme une soupe, vous avez trop attendu pour servir.",
-          "simplifiedSteps": [
-            "Mets le safran dans 2 louches de bouillon chaud, laisse infuser 10 min. Il libère sa couleur or et son parfum floral.",
-            "Garde le bouillon à frémissement constant dans une casserole à côté du feu (JAMAIS bouillant : trop chaud, il fige le grain de riz).",
-            "Le soffritto : dans une casserole large à fond épais, fais fondre la moelle de bœuf avec 30 g de beurre à feu doux. Ajoute l'oignon, fais suer 5 min SANS coloration jusqu'à translucidité.",
-            "La tostatura (étape clé) : ajoute le riz CRU, augmente à feu moyen et fais-le 'griller' 2 min en remuant. Les grains doivent devenir translucides sur les bords (signal que l'amidon de surface est prêt). NE LE MOUILLE PAS encore.",
-            "Verse le vin blanc D'UN COUP, laisse-le s'évaporer complètement 2 min en remuant.",
-            "Ajoute le bouillon safrané (1ère louche), remue en continu à la spatule en bois. Quand le riz a presque tout absorbé (surface sèche), ajoute une nouvelle louche. Répète pendant 16-17 min en remuant SANS ARRÊT — c'est le frottement qui libère l'amidon et crée le crémeux.",
-            "Goûte régulièrement à partir de 14 min : le grain doit être 'al dente' (centre légèrement résistant). Sale avec parcimonie (le bouillon et le parmesan apportent déjà du sel).",
-            "La mantecatura (étape signature) : retire du feu, ATTENDS 30 SECONDES (la chaleur doit baisser sinon le beurre va huiler). Ajoute 30 g de beurre FROID en dés et 80 g de parmesan râpé, en battant ÉNERGIQUEMENT à la spatule pendant 1 min. C'est ce battage qui crée la texture 'all'onda' (en vague).",
-            "Couvre et laisse reposer 2 min. Au moment de servir, tape la casserole sur le plan de travail : la surface lisse doit 'former l'onde' caractéristique.",
-            "Sers dans des assiettes PLATES préchauffées (jamais creuses : la vague s'étale en cercle parfait). Saupoudre du parmesan restant et donne un tour de moulin de poivre noir. Le risotto doit s'écouler comme une lave si tu inclines l'assiette."
+          "commisIngredients": [
+            {
+              "name": "Riz spécial risotto (Arborio)",
+              "qty": 300,
+              "unit": "g"
+            },
+            {
+              "name": "Cubes de bouillon de volaille",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Eau chaude",
+              "qty": 1,
+              "unit": "L"
+            },
+            {
+              "name": "Safran en poudre (dosette)",
+              "qty": 1,
+              "unit": "g"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Vin blanc sec",
+              "qty": 100,
+              "unit": "ml"
+            },
+            {
+              "name": "Beurre",
+              "qty": 50,
+              "unit": "g"
+            },
+            {
+              "name": "Parmesan râpé",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 1,
+              "unit": "c. à soupe"
+            }
+          ],
+          "commisSteps": [
+            "Fais bouillir 1 L d'eau, dissous 2 cubes de bouillon dedans et ajoute le safran. Garde à feu très doux pendant toute la recette — le bouillon doit rester bien chaud.",
+            "Émince finement l'oignon. Dans une grande poêle ou casserole, fais-le fondre à feu doux avec l'huile et 20 g de beurre, 5 min, sans coloration.",
+            "Ajoute le riz cru et remue 2 min à feu moyen jusqu'à ce que les grains deviennent translucides sur les bords. Verse le vin blanc, laisse évaporer 1 min.",
+            "Verse le bouillon louche par louche : à chaque fois que le riz a tout absorbé, remets-en une. Remue souvent. Compte 18 min en tout — goûte à partir de 16 min, le grain doit être tendre mais légèrement ferme au cœur.",
+            "Coupe le feu. Ajoute le reste de beurre froid en dés et le parmesan râpé. Mélange vivement 1 min : tu dois obtenir une texture crémeuse \"à la vague\". Sale et poivre.",
+            "Sers tout de suite dans des assiettes chaudes, avec un peu de parmesan en plus sur le dessus."
           ]
         },
         {
@@ -2368,17 +2474,75 @@
           ],
           "story": "Né dans les trattorie milanaises au XIXᵉ siècle pour utiliser les jarrets, considérés alors comme une coupe pauvre. Le nom 'osso buco' (os troué) désigne le canal médullaire qui contient la moelle — la véritable star du plat aux yeux des Lombards.",
           "chefSecret": "Trois règles d'un bon osso buco selon les chefs lombards : (1) JARRETS DE 4 CM d'épaisseur — fines, elles se dessèchent ; trop épaisses, elles ne mijotent pas uniformément ; (2) FICELLE et INCISIONS de la membrane — sans ça, la tranche se rétracte et la moelle s'échappe en début de cuisson ; (3) GREMOLATA AU DERNIER MOMENT — préparée à l'avance, elle perd ses huiles essentielles d'agrume et d'ail. La servir sur une cuillère individuelle à table pour que chacun s'en sert au moment de manger est une technique de service de bistrot milanais.",
-          "simplifiedSteps": [
-            "Prépare les jarrets : ficelle chaque tranche tout autour (la ficelle empêche la viande de se rétracter et de perdre sa moelle). Sale et poivre généreusement.",
-            "Incise légèrement la membrane qui borde chaque tranche en 3 points (3 mm seulement) — ça évite qu'elle se déforme en boule. Roule les jarrets dans la farine et tapote pour enlever le surplus.",
-            "Dans une cocotte en fonte, fais chauffer 30 ml d'huile + 20 g de beurre à feu vif. Saisis les jarrets 4 min par face jusqu'à belle coloration caramel. Réserve.",
-            "Dans la même cocotte, baisse à feu moyen. Fais suer la brunoise oignon-carotte-céleri 8 min dans 20 g de beurre supplémentaire jusqu'à fondant. Les sucres des légumes caramélisent légèrement.",
-            "Déglace au vin blanc, laisse-le s'évaporer 5 min SANS couvercle (l'alcool s'envole, l'acidité se concentre).",
-            "Ajoute les tomates concassées, le fond de veau, le thym et le laurier. Porte à frémissement. Remets les jarrets dans la sauce en les nappant. Le liquide doit arriver aux 2/3 de la hauteur des tranches.",
-            "Couvre et laisse mijoter 1 h 30 à TRÈS PETIT FEU (à peine frémissant). La viande doit se détacher de l'os MAIS TENIR DESSUS, pas se désagréger.",
-            "La gremolata (à préparer JUSTE AVANT de servir, JAMAIS à l'avance) : mélange les zestes de citron râpés très fin, l'ail haché et le persil ciselé. Ses arômes vivent 5 min, pas plus.",
-            "Sers chaque jarret sur une assiette préchauffée, nappe de sauce, parsème 1 cuillère à café bombée de gremolata SUR LA VIANDE. Accompagne d'un risotto alla milanese (mariage canonique) ou d'une polenta crémeuse.",
-            "À TABLE : montre aux convives comment extraire la moelle de l'os avec une petite cuillère ou la pointe d'un couteau, pour la tartiner sur du pain. C'est le 'meglio del piatto' (le meilleur du plat) selon les Milanais."
+          "commisIngredients": [
+            {
+              "name": "Tranches de jarret de veau (3 cm)",
+              "qty": 4,
+              "unit": "u"
+            },
+            {
+              "name": "Farine",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Huile d'olive",
+              "qty": 3,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Oignon jaune",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Carottes",
+              "qty": 2,
+              "unit": "u"
+            },
+            {
+              "name": "Ail",
+              "qty": 2,
+              "unit": "gousses"
+            },
+            {
+              "name": "Tomates concassées en boîte",
+              "qty": 400,
+              "unit": "g"
+            },
+            {
+              "name": "Vin blanc sec",
+              "qty": 150,
+              "unit": "ml"
+            },
+            {
+              "name": "Cube de bouillon de volaille",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Eau chaude (pour le bouillon)",
+              "qty": 250,
+              "unit": "ml"
+            },
+            {
+              "name": "Bouquet garni (thym + laurier)",
+              "qty": 1,
+              "unit": "u"
+            },
+            {
+              "name": "Sel, poivre",
+              "qty": 1,
+              "unit": "pincée"
+            }
+          ],
+          "commisSteps": [
+            "Sale et poivre les jarrets, farine-les des deux côtés en tapotant pour enlever l'excédent. Dans une grosse cocotte, fais chauffer l'huile à feu vif et fais dorer les jarrets 3 min de chaque côté. Réserve-les sur une assiette.",
+            "Baisse à feu moyen. Dans la même cocotte, ajoute l'oignon émincé et les carottes en rondelles. Fais revenir 5 min jusqu'à ce qu'ils soient tendres. Ajoute l'ail écrasé, remue 30 s.",
+            "Déglace au vin blanc en grattant le fond avec une cuillère en bois. Laisse réduire 2 min à découvert.",
+            "Verse les tomates concassées et le cube de bouillon dilué dans 250 ml d'eau chaude. Ajoute le bouquet garni. Remets les jarrets dans la sauce et couvre.",
+            "Laisse mijoter à feu très doux 1 h 30, en retournant les jarrets à mi-cuisson. La viande doit se détacher facilement de l'os. Si la sauce est trop liquide en fin de cuisson, retire le couvercle 10 min pour réduire.",
+            "Sers avec un risotto, des pâtes fraîches ou de la polenta pour bien saucer."
           ]
         },
         {
@@ -2458,17 +2622,49 @@
           ],
           "story": "Né en 1969 au restaurant 'Le Beccherie' à Treviso (Vénétie) selon la version officielle, créé par Roberto Linguanotto et la pâtissière Alba Campeol pour 'remonter' (tirami sù = tire-moi vers le haut) après l'effort. Avant cette codification, des desserts similaires existaient en Italie sous d'autres noms.",
           "chefSecret": "Le sabayon DOIT tripler de volume et faire le 'ruban' — c'est le test absolu : laissez couler en filet, si la marque tient 5 secondes sur la surface, c'est bon. Sans ça, le tiramisu est dense au lieu d'être aérien. Et le repos de 24 h transforme littéralement le dessert : à 4 h c'est un assemblage, à 24 h c'est un tiramisu. Si vous êtes pressés, montez-le AU MOINS la veille au matin pour le servir le lendemain soir — jamais en service immédiat.",
-          "simplifiedSteps": [
-            "Sors le mascarpone du frigo 15 min avant. Trop froid il fait des grumeaux, trop chaud il rend de l'eau.",
-            "Prépare 300 ml de café espresso TRÈS FORT (8 expressos). Laisse refroidir COMPLÈTEMENT à température ambiante. Ajoute le Marsala secco. Verse dans une assiette creuse large.",
-            "Le sabayon (étape clé) : sépare jaunes et blancs avec soin (un grain de jaune dans les blancs, ils ne montent pas). Dans un grand saladier, fouette les 5 jaunes avec 100 g de sucre + le sucre vanillé au fouet électrique pendant 5 min PLEINES. Le mélange doit BLANCHIR, TRIPLER de volume et faire le 'ruban' (couler en filet épais qui retient sa trace 5 sec sur la surface). Ce blanchiment est NON NÉGOCIABLE : c'est lui qui donne l'aération du dessert.",
-            "Incorpore le mascarpone au sabayon, en 3 fois, à la spatule en soulevant la masse DÉLICATEMENT (jamais au fouet — ça liquéfie le mascarpone). Mélange juste assez pour homogénéiser.",
-            "Monte les blancs : dans un autre cul-de-poule PARFAITEMENT propre, monte les 5 blancs en neige FERME avec une pincée de sel (test : 'bec d'oiseau' qui tient sur le fouet sans tomber).",
-            "Incorpore 1/3 des blancs dans la crème mascarpone pour la détendre (mouvements vifs). Puis incorpore les 2/3 restants DÉLICATEMENT à la spatule en soulevant. JAMAIS écraser. La masse doit rester aérienne.",
-            "Le montage : trempe RAPIDEMENT (1 sec par face seulement) chaque biscuit dans le mélange café-Marsala. Un biscuit trop trempé devient bouillie. Dispose la moitié des biscuits en couche serrée au fond d'un plat de 22×28 cm.",
-            "Recouvre de la moitié de la crème mascarpone en lissant à la spatule. Dispose la 2ème couche de biscuits trempés, puis la 2ème couche de crème, lisse parfaitement.",
-            "Le repos NON NÉGOCIABLE : couvre d'un film alimentaire (sans qu'il touche la crème) et mets au frigo MINIMUM 12 h, idéalement 24 h. C'est ce repos qui transforme l'assemblage en tiramisu — les saveurs fusionnent, le café imprègne, l'alcool diffuse, la texture s'unifie.",
-            "Au moment de servir, saupoudre généreusement de cacao amer au tamis fin. JUSTE AVANT de servir : saupoudré à l'avance, le cacao boit l'humidité et devient pâteux. Sers froid directement sortant du frigo."
+          "commisIngredients": [
+            {
+              "name": "Mascarpone",
+              "qty": 250,
+              "unit": "g"
+            },
+            {
+              "name": "Œufs entiers",
+              "qty": 3,
+              "unit": "u"
+            },
+            {
+              "name": "Sucre en poudre",
+              "qty": 80,
+              "unit": "g"
+            },
+            {
+              "name": "Boudoirs (biscuits à la cuillère)",
+              "qty": 24,
+              "unit": "u"
+            },
+            {
+              "name": "Café fort (expresso ou soluble)",
+              "qty": 200,
+              "unit": "ml"
+            },
+            {
+              "name": "Cacao en poudre amer",
+              "qty": 2,
+              "unit": "c. à soupe"
+            },
+            {
+              "name": "Sucre vanillé (optionnel)",
+              "qty": 1,
+              "unit": "sachet"
+            }
+          ],
+          "commisSteps": [
+            "Prépare 200 ml de café noir bien fort (expresso ou 2 c. à café de café soluble dans l'eau chaude). Laisse refroidir. Sépare les blancs des jaunes d'œufs.",
+            "Fouette les jaunes avec le sucre 3 min, jusqu'à ce que le mélange blanchisse et double de volume. Ajoute le mascarpone et le sucre vanillé, mélange à la spatule jusqu'à obtenir une crème lisse.",
+            "Monte les blancs en neige ferme avec une pincée de sel. Incorpore-les délicatement à la crème mascarpone en soulevant la masse de bas en haut pour ne pas les casser.",
+            "Trempe rapidement chaque boudoir dans le café (1 seconde max, sinon ils se gorgent et s'effondrent). Tapisse le fond d'un plat carré avec une première couche. Couvre de la moitié de la crème. Refais une couche de boudoirs trempés, puis le reste de crème en lissant.",
+            "Filme et place au frais 4 h minimum (12 h c'est encore meilleur). Au moment de servir, saupoudre généreusement de cacao amer au tamis."
           ]
         }
       ]
