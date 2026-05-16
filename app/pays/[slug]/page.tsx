@@ -1,11 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { getAllCountries, getCountryBySlug } from "@/lib/data";
+import { getCountriesIndex, getCountry, getCountryIndexBySlug } from "@/lib/data";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 
 export function generateStaticParams() {
-  return getAllCountries().map((c) => ({ slug: c.slug }));
+  return getCountriesIndex().map((c) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata({
@@ -14,7 +14,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  // Pour les meta, on peut se contenter de l'index (intro y est).
+  const country = getCountryIndexBySlug(slug);
   if (!country) return {};
   return {
     title: `${country.name} — Map and Fork`,
@@ -28,7 +29,9 @@ export default async function CountryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  // Charge le pays complet (avec recettes ingredients+steps) en async.
+  // ~42 KB pour ce pays vs 454 KB du monolithe avant.
+  const country = await getCountry(slug);
   if (!country) notFound();
 
   return (

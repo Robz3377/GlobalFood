@@ -1,9 +1,14 @@
-import type { Country, Recipe } from "./types";
+import type { CountryIndex, RecipeIndex } from "./types-index";
 import { getActiveEvents, getISOWeek, getSeason } from "./seasons";
 
+/**
+ * Recommandation produite par l'algorithme. Utilise des types "index"
+ * (allégés) car on n'a pas besoin des ingredients/steps pour afficher
+ * une carte de recommandation (juste titre + image + meta + raisons).
+ */
 export type Recommendation = {
-  country: Country;
-  recipe: Recipe;
+  country: { slug: string; name: string; flag: string };
+  recipe: RecipeIndex;
   score: number;
   reasons: string[];
 };
@@ -15,8 +20,8 @@ type ScoreCtx = {
 };
 
 function score(
-  recipe: Recipe,
-  country: Country,
+  recipe: RecipeIndex,
+  country: { slug: string; name: string },
   ctx: ScoreCtx
 ): { score: number; reasons: string[] } {
   let total = 1;
@@ -74,29 +79,45 @@ function labelSeason(s: ReturnType<typeof getSeason>): string {
 
 export function getRecommendations({
   recipes,
+  countries,
   date = new Date(),
   visitedCountries = [],
   visitedRecipes = [],
   count = 3,
 }: {
-  recipes: { country: Country; recipe: Recipe }[];
+  recipes: RecipeIndex[];
+  /**
+   * Meta des pays — pour reconstituer flag/name dans les Recommendation.
+   * Passé séparément (au lieu d'être pré-joint dans recipes) pour rester
+   * le plus proche possible de la structure de `data/index.json`.
+   */
+  countries: CountryIndex[];
   date?: Date;
   visitedCountries?: string[];
   visitedRecipes?: string[];
   count?: number;
 }): Recommendation[] {
+  const countryBySlug = new Map(countries.map((c) => [c.slug, c]));
   const ctx: ScoreCtx = {
     date,
     visitedCountries: new Set(visitedCountries),
     visitedRecipes: new Set(visitedRecipes),
   };
 
-  const ranked = recipes
-    .map(({ country, recipe }) => ({
-      country,
-      recipe,
-      ...score(recipe, country, ctx),
-    }))
+  const ranked: Recommendation[] = recipes
+    .map((recipe) => {
+      const cMeta = countryBySlug.get(recipe.countrySlug);
+      const cLite = cMeta
+        ? { slug: cMeta.slug, name: cMeta.name, flag: cMeta.flag }
+        : { slug: recipe.countrySlug, name: recipe.countrySlug, flag: "🏳️" };
+      const s = score(recipe, cLite, ctx);
+      return {
+        country: cLite,
+        recipe,
+        score: s.score,
+        reasons: s.reasons,
+      };
+    })
     .sort((a, b) => b.score - a.score);
 
   // Pick top `count` while preferring distinct countries

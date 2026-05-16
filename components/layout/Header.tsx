@@ -2,10 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { NavMenu } from "./NavMenu";
 import { SearchBar } from "@/components/search/SearchBar";
-import { getAllCountries } from "@/lib/data";
+import { getCountriesIndex } from "@/lib/data";
 
 export function Header() {
-  const countries = getAllCountries();
+  const countries = getCountriesIndex();
   return (
     <header className="sticky top-0 z-30 bg-bone/85 backdrop-blur border-b border-bone-deep pt-[env(safe-area-inset-top)]">
       <div className="mx-auto max-w-6xl px-4 md:px-6 h-16 grid grid-cols-[auto_1fr_auto] items-center gap-3 md:gap-6">

@@ -4,24 +4,44 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Dices } from "lucide-react";
 import { clsx } from "clsx";
-import type { Country, Recipe } from "@/lib/types";
 
-type Item = { country: Country; recipe: Recipe };
-
-export function SurpriseButton({ recipes }: { recipes: Item[] }) {
+/**
+ * Bouton "Surprends-moi" — variant lazy.
+ *
+ * Avant : recevait `recipes` (50 items, ~454 KB) en prop depuis le root
+ * layout, qui se sérialisait dans le RSC payload de TOUTES les routes.
+ *
+ * Après : autonome — au clic, fetch `/api/random-recipe` qui renvoie
+ * `{ countrySlug, recipeSlug }` depuis l'index serveur, puis navigue.
+ * Zéro données embarquées au chargement initial.
+ */
+export function SurpriseButton() {
   const router = useRouter();
   const [rolling, setRolling] = useState(false);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => setMounted(true), []);
 
-  function pick() {
-    if (!recipes.length || rolling) return;
+  async function pick() {
+    if (rolling) return;
     setRolling(true);
-    const r = recipes[Math.floor(Math.random() * recipes.length)];
-    window.setTimeout(() => {
-      router.push(`/pays/${r.country.slug}/${r.recipe.slug}`);
-    }, 650);
+    try {
+      const res = await fetch("/api/random-recipe", { cache: "no-store" });
+      if (!res.ok) {
+        setRolling(false);
+        return;
+      }
+      const { countrySlug, recipeSlug } = (await res.json()) as {
+        countrySlug: string;
+        recipeSlug: string;
+      };
+      // Petit délai pour laisser l'animation tourner avant le push.
+      window.setTimeout(() => {
+        router.push(`/pays/${countrySlug}/${recipeSlug}`);
+      }, 450);
+    } catch {
+      setRolling(false);
+    }
   }
 
   if (!mounted) return null;

@@ -5,9 +5,9 @@ import { Lock, Trash2 } from "lucide-react";
 import { clsx } from "clsx";
 import { Button } from "@/components/ui/Button";
 import { usePassport } from "@/lib/hooks/usePassport";
-import type { Country } from "@/lib/types";
+import type { CountryIndex } from "@/lib/types-index";
 
-export function PassportGrid({ countries }: { countries: Country[] }) {
+export function PassportGrid({ countries }: { countries: CountryIndex[] }) {
   const { stamps, has, count, hydrated, reset } = usePassport();
 
   const total = countries.length;

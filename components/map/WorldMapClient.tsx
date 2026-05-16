@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import type { Country } from "@/lib/types";
+import type { CountryIndex } from "@/lib/types-index";
 
 const WorldGlobe = dynamic(
   () => import("./WorldGlobe").then((m) => m.WorldGlobe),
@@ -21,7 +21,7 @@ const WorldGlobe = dynamic(
  * WorldMapClient — wrapper Client qui charge dynamiquement WorldGlobe (ssr:
  * false car le globe utilise three.js/WebGL).
  */
-export function WorldMapClient({ countries }: { countries: Country[] }) {
+export function WorldMapClient({ countries }: { countries: CountryIndex[] }) {
   const params = useSearchParams();
   const router = useRouter();
   const focusSlug = params.get("focus");

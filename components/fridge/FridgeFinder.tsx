@@ -6,7 +6,8 @@ import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { Button } from "@/components/ui/Button";
 import { DietFilter, recipeMatchesDiets } from "@/components/ui/DietFilter";
 import { ingredientMatches } from "@/lib/text";
-import type { Country, Diet, Recipe } from "@/lib/types";
+import type { Diet } from "@/lib/types";
+import type { RecipeIndex } from "@/lib/types-index";
 
 const SUGGESTIONS = [
   "tomate",
@@ -19,7 +20,10 @@ const SUGGESTIONS = [
   "olive",
 ];
 
-type Item = { country: Country; recipe: Recipe };
+type Item = {
+  country: { slug: string; name: string; flag: string };
+  recipe: RecipeIndex;
+};
 type Scored = Item & {
   matches: string[];
   missing: number;
@@ -56,7 +60,10 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
       .map(({ country, recipe }) => {
         const matched = new Set<string>();
         for (const tag of tags) {
-          if (recipe.ingredients.some((i) => ingredientMatches(tag, i.name))) {
+          // Matching sur `ingredientNames` (union Chef + Commis aplatie dans
+          // l'index, voir scripts/split-data.mjs). Évite de charger les
+          // Ingredient[] complets côté client.
+          if (recipe.ingredientNames.some((name) => ingredientMatches(tag, name))) {
             matched.add(tag);
           }
         }
@@ -69,7 +76,11 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
         };
       })
       .filter((r) => r.matches.length > 0)
-      .sort((a, b) => b.ratio - a.ratio || a.recipe.ingredients.length - b.recipe.ingredients.length);
+      .sort(
+        (a, b) =>
+          b.ratio - a.ratio ||
+          a.recipe.ingredientNames.length - b.recipe.ingredientNames.length
+      );
   }, [tags, recipes, diets]);
 
   return (

@@ -2,15 +2,21 @@ import Link from "next/link";
 import { Newspaper, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { RecipeImage } from "@/components/recipe/RecipeImage";
-import { getAllRecipes } from "@/lib/data";
+import { getAllRecipesFull } from "@/lib/data";
 
 export const metadata = {
   title: "La Gazette — Map and Fork",
   description: "Les histoires culturelles derrière les recettes du monde.",
 };
 
-export default function GazettePage() {
-  const stories = getAllRecipes()
+// La page Gazette a besoin du champ `story` (présent uniquement dans la
+// recette complète, pas dans l'index allégé). On charge donc tous les pays
+// via getAllRecipesFull() qui résout les 10 dynamic imports en parallèle.
+// Exécuté côté serveur — le payload résultant ne contient que les recettes
+// avec story (filtrées), pas les 50 recettes complètes.
+export default async function GazettePage() {
+  const all = await getAllRecipesFull();
+  const stories = all
     .filter(({ recipe }) => recipe.story)
     .sort((a, b) => a.recipe.title.localeCompare(b.recipe.title, "fr"));
 

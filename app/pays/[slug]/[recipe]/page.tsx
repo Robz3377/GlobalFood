@@ -4,13 +4,15 @@ import { ArrowLeft } from "lucide-react";
 import { RecipeImage } from "@/components/recipe/RecipeImage";
 import { RecipeBody } from "@/components/recipe/RecipeBody";
 import { PassportStamper } from "@/components/passport/PassportStamper";
-import { getAllCountries, getRecipe } from "@/lib/data";
+import { getCountriesIndex, getRecipe } from "@/lib/data";
 
 export function generateStaticParams() {
-  return getAllCountries().flatMap((country) =>
-    country.recipes.map((recipe) => ({
+  // L'index allégé contient tous les recipeSlugs par pays — suffit pour
+  // pré-rendre les 50 pages au build sans charger les recettes complètes.
+  return getCountriesIndex().flatMap((country) =>
+    country.recipeSlugs.map((recipeSlug) => ({
       slug: country.slug,
-      recipe: recipe.slug,
+      recipe: recipeSlug,
     }))
   );
 }
@@ -21,7 +23,9 @@ export async function generateMetadata({
   params: Promise<{ slug: string; recipe: string }>;
 }) {
   const { slug, recipe } = await params;
-  const data = getRecipe(slug, recipe);
+  // generateMetadata utilise la recette complète pour `story` — coût OK
+  // car SSG (build-time) et le cache Map évite les rechargements.
+  const data = await getRecipe(slug, recipe);
   if (!data) return {};
   return {
     title: `${data.recipe.title} · ${data.country.name}`,
@@ -37,7 +41,7 @@ export default async function RecipePage({
   params: Promise<{ slug: string; recipe: string }>;
 }) {
   const { slug, recipe } = await params;
-  const data = getRecipe(slug, recipe);
+  const data = await getRecipe(slug, recipe);
   if (!data) notFound();
   const { country, recipe: r } = data;
 

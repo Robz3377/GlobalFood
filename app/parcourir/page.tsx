@@ -1,7 +1,7 @@
 import { BookOpen } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { ParcourirView } from "@/components/parcourir/ParcourirView";
-import { getAllRecipes } from "@/lib/data";
+import { getAllRecipesIndex, getCountriesIndex } from "@/lib/data";
 
 export const metadata = {
   title: "Parcourir — Map and Fork",
@@ -9,7 +9,12 @@ export const metadata = {
 };
 
 export default function ParcourirPage() {
-  const all = getAllRecipes();
+  // Index allégé — pas d'ingredients/steps embarqués (économie ~454 → ~78 KB).
+  const all = getAllRecipesIndex();
+  const countries = getCountriesIndex();
+  // Map slug → meta pays pour reconstituer les infos d'affichage (flag/name)
+  // sans embarquer les Country[] complets.
+  const countryBySlug = new Map(countries.map((c) => [c.slug, c]));
 
   return (
     <main className="flex-1">
@@ -35,7 +40,15 @@ export default function ParcourirPage() {
         </div>
       </section>
 
-      <ParcourirView items={all} />
+      <ParcourirView
+        items={all.map((r) => {
+          const c = countryBySlug.get(r.countrySlug)!;
+          return {
+            country: { slug: c.slug, name: c.name, flag: c.flag },
+            recipe: r,
+          };
+        })}
+      />
     </main>
   );
 }

@@ -1,0 +1,938 @@
+{
+  "slug": "bresil",
+  "name": "Brésil",
+  "iso3": "BRA",
+  "isoNumeric": "076",
+  "flag": "🇧🇷",
+  "intro": "Métissage afro-portugais et indigène : la table brésilienne est joyeuse, généreuse et festive.",
+  "tagline": "La chaleur d'une cuisine festive",
+  "recipes": [
+    {
+      "slug": "feijoada",
+      "title": "Feijoada complète",
+      "image": "/images/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
+      "prepTime": 30,
+      "cookTime": 210,
+      "servings": 8,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "events": [
+        "carnaval"
+      ],
+      "ingredients": [
+        {
+          "name": "Haricots noirs secs (feijão preto), trempés 12 h",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Carne seca (bœuf séché salé brésilien) — dessalage 12 h",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Costelinha (travers de porc fumé)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Linguiça calabresa (saucisse brésilienne fumée piquante)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Paio (saucisse de porc fumée plus douce)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Lard fumé en gros lardons",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Pied de porc précuit (apporte gélatine et profondeur)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignons jaunes finement émincés",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 8,
+          "unit": "gousse"
+        },
+        {
+          "name": "Feuilles de laurier",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Tranche d'1 orange entière (parfume + neutralise le gras)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Coriandre + persil ciselés (finition)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "ACCOMPAGNEMENTS — Riz blanc long grain",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Couve mineira (chou kale ou cavalier émincé fin)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Ail haché pour la couve",
+          "qty": 4,
+          "unit": "gousse"
+        },
+        {
+          "name": "FAROFA — Farine de manioc grillée (grasse)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre pour la farofa",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Lardons fumés pour la farofa",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Oranges navel pelées en tranches (service)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Sel fin (avec parcimonie : viandes salées)",
+          "qty": 5,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "VEILLE — DESSALAGE NON NÉGOCIABLE : couper la carne seca en gros cubes, la tremper dans un grand saladier d'eau froide 12 H en CHANGEANT L'EAU 3 fois (matin, midi, soir). C'est le seul moyen d'obtenir une viande dessalée mais qui garde son caractère ; sauter cette étape = feijoada immangeable.",
+        "VEILLE — TREMPAGE HARICOTS : rincer les haricots noirs, les couvrir d'eau froide en abondance (3× le volume), laisser tremper 12 h.",
+        "JOUR J — première cuisson des viandes : porter une grande marmite d'eau à frémissement. Plonger la carne seca dessalée + costelinha + pied de porc, mijoter 1 H pour les pré-cuire et libérer leur gras. Égoutter, JETER L'EAU (très grasse, salée). Les viandes ne sont qu'à mi-cuisson.",
+        "Égoutter les haricots, les rincer. Les mettre dans une grande cocotte avec 3 L d'eau fraîche, 4 feuilles de laurier, et les viandes pré-cuites + le pied de porc. Porter à frémissement, écumer.",
+        "Couvrir et mijoter 1 h 30 à feu doux — les haricots commencent à éclater et la sauce s'épaissit. Surveiller le niveau d'eau, ajouter de l'eau bouillante si nécessaire (les haricots ne doivent jamais sécher).",
+        "REFOGADO — base aromatique brésilienne : dans une poêle séparée, faire fondre les lardons fumés 5 min. Ajouter les oignons émincés, faire suer 8 min jusqu'à dorure. Ajouter l'ail + le cumin, cuire 1 min. Verser ce refogado avec son gras dans la cocotte des haricots.",
+        "Ajouter la linguiça + le paio en rondelles épaisses. Poursuivre 30 min de mijotage à découvert pour épaissir.",
+        "ÉCRASER 2 LOUCHES de haricots à la fourchette directement dans la sauce — c'est ce qui crée la consistance veloutée signature de la feijoada (technique d'épaississement naturel). Glisser la tranche d'orange entière 5 min en fin de cuisson, retirer avant de servir.",
+        "Goûter et SALER AVEC PARCIMONIE — les viandes salées + linguiça apportent déjà beaucoup de sel.",
+        "ACCOMPAGNEMENTS pendant ce temps : (a) RIZ BLANC : 400 g basmati, ratio 1:1.5 eau, sel, ébullition 2 min puis feu doux 12 min couvert + repos 10 min. (b) COUVE : émincer le chou en chiffonnade très fine. Faire revenir 4 gousses d'ail dans 30 ml d'huile, ajouter le chou, sauter 3 min à feu vif (al dente vert vif). (c) FAROFA : faire dorer 80 g de lardons à sec, ajouter 30 g de beurre, puis verser 200 g de farine de manioc, sauter 3 min jusqu'à ce qu'elle soit bien dorée et croustillante. Saler.",
+        "DRESSAGE EN MULTI-PLATS (la tradition brésilienne) : servir les haricots-viandes dans une grande terrine au centre, le riz dans un autre plat, la couve dans un autre, la farofa dans un autre, les tranches d'orange en assiette à part. Chacun se compose son assiette à la table.",
+        "Le rituel : sur l'assiette → riz à la base → louche de feijoada (haricots + viande) au centre → couronne de couve verte → poignée de farofa pour le croquant → 2 tranches d'orange pour la fraîcheur en bouche entre les bouchées. Boire de la caïpirinha (cachaça + citron vert + sucre + glace) ou un guaraná glacé."
+      ],
+      "story": "Plat national du Brésil né dans les fazendas (fermes coloniales) du XVIIIᵉ siècle où les esclaves d'origine africaine cuisinaient les bas morceaux de porc avec les haricots noirs locaux. Aujourd'hui, la feijoada est un PLAT DU SAMEDI midi traditionnel à Rio de Janeiro et Salvador — les vraies cariocas la commandent dans les bostecos de Santa Teresa ou de Lapa pour un déjeuner qui s'étire en sieste. Le Bar do Mineiro (Santa Teresa) est cité comme servant la meilleure feijoada de Rio.",
+      "chefSecret": "Trois clés des feijoadeiras (cuisinières brésiliennes traditionnelles) : (1) DESSALAGE 12 H DE LA CARNE SECA en changeant l'eau 3 fois — sauter cette étape est l'erreur fatale de débutant. La carne seca crue est immangeable de salinité ; (2) PRÉ-CUIRE LES VIANDES SÉPARÉMENT puis JETER L'EAU — c'est ce qui retire l'excès de gras et le sel résiduel. Cuire viandes + haricots du début ensemble = feijoada grasse et trop salée ; (3) ÉCRASER 2 LOUCHES DE HARICOTS DANS LA SAUCE en fin de cuisson — c'est la technique d'épaississement naturel qui donne la texture veloutée signature, sans recourir à la farine. Et la TRANCHE D'ORANGE 5 min en fin de cuisson : son acidité naturelle coupe le gras du porc et arrondit la sauce — un secret transmis de mère en fille.",
+      "commisIngredients": [
+        {
+          "name": "Haricots noirs en boîte (égouttés)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Lardons fumés",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Saucisses fumées (chorizo ou Morteau)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Travers de porc fumé",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Feuilles de laurier",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cube de bouillon de bœuf",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (bouillon)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Coriandre + persil ciselés",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Riz blanc (servir)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Chou vert ou kale",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Oranges en tranches (servir)",
+          "qty": 2,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Émince les oignons. Dans une grande cocotte, fais chauffer 2 c.s. d'huile à feu moyen. Fais revenir les lardons 4 min jusqu'à coloration dorée. Ajoute les oignons et l'ail écrasé, fais suer 5 min.",
+        "Ajoute les travers de porc fumé en morceaux et les saucisses coupées en rondelles épaisses. Fais saisir 5 min en remuant pour bien colorer.",
+        "Égoutte et rince les haricots noirs en boîte sous l'eau froide. Ajoute-les dans la cocotte avec le laurier, le cumin et le cube de bouillon dilué dans 500 ml d'eau chaude. Sale légèrement (les viandes salent déjà).",
+        "Couvre et laisse mijoter à feu doux 45 min. Découvre, écrase une partie des haricots à la fourchette contre le bord de la cocotte pour épaissir naturellement la sauce. Continue 10 min à découvert.",
+        "Pendant ce temps, fais cuire le riz blanc (300 g pour 450 ml d'eau salée, 11 min à très doux, repos 5 min). Émince le chou kale très finement et fais-le sauter 5 min dans une poêle avec 1 c.s. d'huile et 1 gousse d'ail jusqu'à ce qu'il soit tendre.",
+        "Sers la feijoada brûlante dans des assiettes creuses avec un peu de riz, le chou sauté à côté, des tranches d'orange (la tradition coupe le gras) et la coriandre/persil ciselés en finition."
+      ]
+    },
+    {
+      "slug": "moqueca",
+      "title": "Moqueca de poisson",
+      "image": "/images/moqueca-de-poisson-br%C3%A9sil.jpg",
+      "prepTime": 30,
+      "cookTime": 30,
+      "servings": 4,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "seasons": [
+        "summer",
+        "spring"
+      ],
+      "ingredients": [
+        {
+          "name": "Filets de poisson blanc ferme (cabillaud, lieu noir, sébaste, ou robalo brésilien) en darnes 3 cm",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes décortiquées (option Bahia 'moqueca de peixe e camarão')",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "MARINADE — Jus de citrons verts frais",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Ail dégermé écrasé en pâte",
+          "qty": 4,
+          "unit": "gousse"
+        },
+        {
+          "name": "Sel fin pour la marinade",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche (tiges hachées pour la marinade)",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "LÉGUMES — Oignons rouges en rondelles épaisses",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates Roma mûres en rondelles",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron rouge en lanières",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron jaune en lanières (couleurs vives = signature visuelle)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron vert en lanières",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche (feuilles, pour la cuisson + finition)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "LIQUIDES — Lait de coco entier de qualité",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "HUILE DE DENDÊ (palme rouge — non négociable pour la moqueca de Bahia)",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile d'olive vierge extra",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Piment malagueta brésilien ou piment oiseau (option Bahia)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 2,
+          "unit": "g"
+        },
+        {
+          "name": "RIZ BLANC pour l'accompagnement",
+          "qty": 300,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "MARINADE (la veille idéalement, ou 30 min minimum) : dans un saladier, mélanger jus de citrons verts + ail écrasé + sel + tiges de coriandre hachées + poivre. Y plonger les darnes de poisson + crevettes. Filmer et réserver au frais 30 min minimum (idéalement 2 h — l'acide cure légèrement le poisson, c'est l'esprit du ceviche brésilien).",
+        "PRÉPARATION DES LÉGUMES : couper TOUS les légumes en rondelles ou lanières d'épaisseur RÉGULIÈRE de 5-7 mm — la régularité est clé pour la cuisson uniforme en couches. Ciseler la coriandre.",
+        "POT EN TERRE CUITE traditionnel (panela de barro de Bahia, idéal — la terre cuite emmagasine la chaleur et la diffuse uniformément, ce qui transforme la cuisine de Bahia en une 'cuisson de cocotte parfaite'). À défaut : grande cocotte en fonte ou sauteuse à fond épais et bords hauts.",
+        "ÉTAGEMENT EN COUCHES (la signature absolue de la moqueca, JAMAIS REMUER) : huiler le fond du pot avec 30 ml d'huile d'olive. Disposer la 1ʳᵉ couche : MOITIÉ des oignons en rondelles, recouvrant tout le fond.",
+        "COUCHE 2 : la moitié des tomates en rondelles, par-dessus les oignons.",
+        "COUCHE 3 : la moitié des poivrons multicolores en lanières.",
+        "COUCHE 4 (cœur du plat) : les darnes de poisson marinées en couche égale, en gardant la marinade pour plus tard. Si moqueca au poisson + crevettes, alterner. Saler légèrement, parsemer de la moitié de la coriandre fraîche.",
+        "COUCHES 5-6-7 : reprise du même montage en miroir — poivrons → tomates → oignons sur le poisson.",
+        "Verser dans la cocotte : la marinade restante + 400 ml de lait de coco + 1 piment malagueta entier piqué (option, pour le piquant léger). NE PAS VERSER L'HUILE DE DENDÊ MAINTENANT.",
+        "CUISSON : couvrir hermétiquement, porter à frémissement à feu moyen. Baisser à feu doux dès les premières bulles. Mijoter 20-25 min SANS jamais soulever le couvercle ni remuer (juste secouer le pot par les poignées si vous voulez vérifier la consistance).",
+        "FINITION DENDÊ (étape signature de Bahia) : 5 min avant la fin, ouvrir le couvercle, verser les 30 ml d'huile de dendê en filet sur le dessus en répartissant — sa couleur orange profond se diffuse et donne à la moqueca sa teinte caractéristique safran-soleil. NE PAS l'ajouter au début (la haute chaleur prolongée détruit ses arômes et ses bienfaits).",
+        "Goûter (à la cuillère, par-dessus, sans plonger) — rectifier sel.",
+        "Hors du feu, parsemer généreusement du reste de coriandre fraîche.",
+        "SERVICE TRADITIONNEL : amener le pot en terre cuite à table (effet visuel, terre rougeâtre + sauce safran + verts/rouges des légumes = tableau brésilien) avec un bol séparé de riz blanc cuit à la vapeur. Servir à la grande cuillère en remontant doucement les couches sans casser le poisson. Boire avec de la caïpirinha ou un guaraná frais."
+      ],
+      "story": "Plat de Bahia (Salvador, Nord-Est brésilien), cœur de la cuisine afro-brésilienne née de la rencontre entre les esclaves yoruba (apport : huile de dendê du Nigeria, lait de coco africain) et les marins portugais (apport : pot de terre cuite, légumes du Nouveau Monde). La moqueca capixaba (de l'État de Espírito Santo) est sa cousine du Sud, plus 'européenne' (sans dendê, sans coco) — un débat enflammé oppose les Bahianais et les Capixabas sur 'la vraie moqueca'. Cette recette est la version baianaise, celle servie dans les barracas de la plage de Itacaré ou dans les restaurants de Salvador.",
+      "chefSecret": "Trois règles d'or des cuisinières de Bahia (toutes nommées 'baianas') : (1) HUILE DE DENDÊ EN FINITION SEULEMENT (5 min avant la fin) — au début, sa couleur orange brûle et ses bienfaits anti-oxydants détruisent ; en fin, elle parfume et colore profondément ; (2) NE JAMAIS REMUER pendant la cuisson — la moqueca cuit à la vapeur entre ses propres couches. Remuer = sauce qui se mélange et morceaux de poisson écrasés. Si nécessaire, juste secouer le pot ; (3) MARINADE ACIDE 30 MIN MINIMUM — le citron vert 'pré-cuit' légèrement le poisson (effet ceviche), ce qui le raffermit et lui permet de tenir aux 25 min de cuisson sans se désintégrer. Sans marinade, le poisson se défait en miettes. Et le POT EN TERRE CUITE est le 4ᵉ ingrédient invisible : sa porosité crée une cuisson par diffusion thermique unique, à acquérir sur place ou en épicerie brésilienne (chercher 'panela de barro').",
+      "commisIngredients": [
+        {
+          "name": "Cabillaud (filets)",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes décortiquées (optionnel)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Jus de citron vert",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Ail",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Poivron rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron jaune (ou vert)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Lait de coco entier",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika fumé",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sriracha (optionnel)",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Riz blanc (servir)",
+          "qty": 300,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Coupe le cabillaud en gros tronçons de 3 cm. Mets-les dans un plat, arrose du jus de citron vert + 2 gousses d'ail écrasées + 1 c.c. de sel. Laisse mariner 10 min pendant que tu prépares le reste.",
+        "Lance le riz blanc : 300 g pour 450 ml d'eau salée dans une casserole couverte. Porte à ébullition, baisse à feu très doux 11 min, repose 5 min couvert.",
+        "Émince l'oignon, coupe les poivrons en lanières, hache le reste d'ail. Dans une grande cocotte large, fais chauffer 4 c.s. d'huile d'olive à feu moyen. Fais fondre l'oignon 5 min, ajoute l'ail et le paprika fumé, remue 30 s.",
+        "Verse les tomates concassées et le lait de coco. Ajoute les poivrons en lanières. Sale, poivre. Laisse mijoter 8 min à feu moyen pour que les saveurs se concentrent.",
+        "Dépose délicatement les morceaux de cabillaud (avec leur marinade) en une seule couche dans la sauce. Couvre et laisse cuire 8 min à feu doux. Si tu mets des crevettes, ajoute-les à mi-cuisson (4 min suffisent — sinon elles deviennent caoutchouc).",
+        "Coupe le feu, parsème généreusement de coriandre ciselée. Sers chaud dans des assiettes creuses avec le riz blanc à côté pour saucer."
+      ]
+    },
+    {
+      "slug": "pao-de-queijo",
+      "title": "Pão de queijo",
+      "image": "/images/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
+      "prepTime": 25,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "ingredients": [
+        {
+          "name": "Polvilho doce (amidon de manioc DOUX — l'ingrédient signature de Minas Gerais)",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Lait entier",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile d'olive vierge extra (ou mélange huile + 30 g beurre)",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 8,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs entiers à température ambiante",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Queijo Minas meia-cura râpé (idéal — fromage de Minas semi-affiné)",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "OU Parmigiano Reggiano + Gruyère + mozzarella râpés (substitut occidental)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Poivre blanc moulu",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Huile pour graisser les mains",
+          "qty": 15,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "MISE EN PLACE : tamiser le polvilho doce dans un grand saladier (le polvilho est très volatile, il aère bien la pâte). Râper finement le fromage. Sortir les œufs du frigo 30 min avant utilisation.",
+        "ÉTAPE 'SCALDADO' (gélatinisation, signature de Minas Gerais — non négociable) : dans une casserole, porter le lait + l'huile + le sel à GROSSE ébullition. Le mélange doit FRÉMIR vigoureusement (90 °C+).",
+        "Verser IMMÉDIATEMENT (encore brûlant) le mélange liquide sur le polvilho. Mélanger ÉNERGIQUEMENT à la spatule en bois 2 min — l'amidon de manioc se gélatinise au contact de la chaleur, formant une pâte BLANCHE BRILLANTE collante (texture caoutchouteuse, c'est normal — c'est la signature). Cette transformation chimique est ce qui donne la texture moelleuse-élastique caractéristique du pão de queijo.",
+        "REFROIDISSEMENT : laisser tiédir la pâte 15-20 min jusqu'à ce qu'elle soit à 40 °C (chaude mais supportable au doigt) — sinon les œufs cuiraient au contact.",
+        "INCORPORATION DES ŒUFS UN PAR UN : ajouter le 1ᵉʳ œuf entier dans la pâte tiède, mélanger ÉNERGIQUEMENT au robot ou à la cuillère en bois 2 min jusqu'à incorporation totale (la pâte va d'abord 'rejeter' l'œuf, puis l'absorber). Répéter avec chaque œuf, attendre l'incorporation complète avant le suivant.",
+        "Ajouter le fromage râpé + poivre blanc + 5 g de sel supplémentaire (ajuster selon la salinité du fromage). Mélanger 1 min — la pâte est COLLANTE et SOUPLE (NORMAL).",
+        "FAÇONNAGE — option (a) classique aux mains : se huiler généreusement les mains. Prélever environ 30 g de pâte par boule, rouler entre les paumes en boule régulière. Disposer sur une plaque tapissée de papier sulfurisé en espaçant de 3 cm (elles vont gonfler). Continuer en se ré-huilant régulièrement les mains.",
+        "Option (b) à la cuillère : la pâte étant très collante, on peut aussi la déposer directement à la cuillère à glace de 30 g sur la plaque (résultat un peu moins régulier mais tout aussi bon).",
+        "Option (c) en moules à mini-muffins : pour des pains parfaitement réguliers de banquet, verser la pâte dans des empreintes silicone à mini-muffins remplis aux 3/4.",
+        "REPOS optionnel : 15 min au réfrigérateur permet une meilleure tenue au four.",
+        "CUISSON : préchauffer le four à 200 °C (chaleur tournante). Enfourner et baisser IMMÉDIATEMENT à 180 °C. Cuire 22-25 min jusqu'à ce que les pães soient légèrement dorés sur le dessus, gonflés (ils doublent de volume) et BIEN secs au toucher.",
+        "Sortir, laisser tiédir 5 min sur une grille (la croûte se raffermit en refroidissant). Servir CHAUDS — un pão de queijo se déguste dans les 30 min après cuisson, au plus tard. Refroidi, il se ramollit ; au-delà de 2 h, sa texture caractéristique est perdue."
+      ],
+      "story": "Né à Minas Gerais (Brésil intérieur) au XVIIIᵉ siècle quand la farine de blé importée du Portugal était de mauvaise qualité dans la région minière isolée. Les esclaves cuisiniers ont substitué la farine de blé par le polvilho (amidon de manioc, abondant localement) et utilisé les restes de fromage des fazendas. Le résultat : un pain unique au monde, naturellement sans gluten, à la texture moelleuse-élastique inimitable. Aujourd'hui, c'est l'apéritif national brésilien et un breakfast incontournable, servi avec un café fort ou un guaraná.",
+      "chefSecret": "Trois techniques signatures non négociables : (1) ÉTAPE 'SCALDADO' — verser les liquides BRÛLANTS (90 °C+) sur le polvilho et mélanger immédiatement gélatinise l'amidon ; ce phénomène chimique CRÉE la texture moelleuse-élastique. Verser tiède = pão plat et caoutchouteux ; (2) ŒUFS UN PAR UN avec attente d'incorporation totale entre chaque — la pâte rejette puis absorbe chaque œuf, c'est cette absorption progressive qui crée le réseau pour le 'gonflement' à la cuisson ; (3) POLVILHO DOCE > POLVILHO AZEDO — le doce (doux) est neutre et crée des pães doux et moelleux ; l'azedo (acide, fermenté) donne un goût acidulé-prononcé qui plaît moins en France. Demander 'polvilho doce' (Yoki, Amafil) en épicerie brésilienne ou en ligne. À DÉFAUT : tapioca pure (pas amidon de maïs ! qui est un autre amidon).",
+      "commisIngredients": [
+        {
+          "name": "Tapioca (farine de manioc)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Lait",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile végétale (ou beurre fondu)",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Œufs",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Parmesan râpé",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Mozzarella râpée",
+          "qty": 80,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Préchauffe le four à 200 °C. Dans une casserole, porte le lait, l'huile et le sel à frémissement. Coupe le feu dès les premières bulles.",
+        "Verse le tapioca dans un grand saladier. Verse le liquide chaud par-dessus en remuant à la cuillère en bois — le tapioca va légèrement gélifier et former une pâte grumeleuse. Laisse tiédir 10 min (sinon les œufs cuisent au contact).",
+        "Quand la pâte n'est plus brûlante (tiède), incorpore les œufs un par un en mélangeant énergiquement à la cuillère ou au robot. Ajoute le parmesan et la mozzarella râpés. Mélange jusqu'à pâte homogène — elle reste collante, c'est normal.",
+        "Huile-toi légèrement les mains et forme des boulettes de la taille d'une noix (~25 g). Dispose-les sur une plaque garnie de papier sulfurisé en les espaçant (elles gonflent à la cuisson).",
+        "Enfourne 20-25 min à 200 °C jusqu'à ce qu'ils soient dorés et bien gonflés. Sers tiède — c'est meilleur juste sorti du four, croustillant dehors, fondant dedans. Ils se mangent à la main, accompagnés d'un café (le rituel brésilien)."
+      ]
+    },
+    {
+      "slug": "coxinhas",
+      "title": "Coxinhas de poulet",
+      "image": "/images/coxinhas-de-poulet-br%C3%A9sil.jpg",
+      "prepTime": 90,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "events": [
+        "carnaval"
+      ],
+      "ingredients": [
+        {
+          "name": "Hauts de cuisse de poulet désossés (plus juteux que les blancs)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon de poulet maison ou cube qualité",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "Oignon jaune en brunoise (pour la farce)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 3,
+          "unit": "gousse"
+        },
+        {
+          "name": "Concentré de tomate",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche (cilantro) ciselée",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Persil plat ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Catupiry ou cream cheese (option Sao Paulo, signature moderne)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 2,
+          "unit": "g"
+        },
+        {
+          "name": "Paprika doux",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "PÂTE — Bouillon de poulet (récupéré du pochage)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Beurre doux pour la pâte (option huile végétale en version dairy-free)",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "PANURE — Œufs entiers battus",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Lait pour battre les œufs",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Chapelure fine (chapelure ou panko)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Huile neutre haute température pour la friture",
+          "qty": 1.5,
+          "unit": "L"
+        },
+        {
+          "name": "Sel + poivre noir du moulin",
+          "qty": 5,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "POCHAGE DU POULET : porter 1 L de bouillon à frémissement avec sel, poivre, 1 feuille de laurier, 1 grain de poivre. Plonger les hauts de cuisse, baisser à feu très doux et pocher 25 min jusqu'à tendreté complète. Laisser tiédir DANS le bouillon 15 min (le poulet absorbe les arômes).",
+        "Sortir le poulet, RÉSERVER 500 ml de bouillon de pochage filtré pour la pâte. Effilocher le poulet à la main en filaments fins (PAS au couteau ni mixeur — la texture artisanale signature des coxinhas brésiliennes).",
+        "FARCE : faire suer l'oignon brunoise dans 15 ml d'huile 6 min jusqu'à translucidité. Ajouter l'ail, cuire 1 min. Ajouter le concentré de tomate + cumin + paprika + 100 ml de bouillon, cuire 2 min jusqu'à concentration.",
+        "Hors du feu, mélanger avec le poulet effiloché + coriandre + persil. Si version moderne : incorporer le catupiry/cream cheese (apporte le cœur fondant). Saler, poivrer. Réserver au réfrigérateur 30 min pour faciliter le façonnage.",
+        "PÂTE — type pâte à choux salée (technique signature) : dans une grande casserole, porter à GROSSE ÉBULLITION 500 ml de bouillon (récupéré) + 40 g de beurre + 5 g de sel.",
+        "Hors du feu, verser TOUTE LA FARINE D'UN COUP, mélanger ÉNERGIQUEMENT à la spatule en bois jusqu'à formation d'une boule lisse qui se détache des parois (le 'panettage', identique à la pâte à choux française).",
+        "Remettre sur feu doux et DESSÉCHER la pâte 4-5 min en remuant constamment, jusqu'à ce qu'une fine pellicule blanche se forme au fond de la casserole — c'est le signe que la pâte est cuite et déshydratée correctement.",
+        "Sortir la pâte sur le plan de travail légèrement fariné, étaler en disque, laisser tiédir 15 min jusqu'à manipulable mais encore chaude (la pâte chaude est plus facile à façonner).",
+        "DIVISION : couper la pâte en boules régulières de ~40 g (environ 18 coxinhas). Travailler une boule à la fois, garder le reste sous un torchon humide pour éviter le dessèchement.",
+        "FAÇONNAGE EN GOUTTE (signature de la 'cuisse de poulet') : aplatir une boule à la paume en disque de 8 cm. Déposer 1 cuillère à café BOMBÉE de farce (avec un cube de cream cheese au centre si version Sao Paulo). Refermer en remontant les bords vers le haut, en formant une POINTE EN HAUT (comme un petit ballon de rugby tenant debout) — l'objectif est la silhouette d'une mini cuisse de poulet, large à la base et pointue au sommet.",
+        "Sceller la pointe en pinçant, lisser à la paume mouillée. Réserver sur un plateau au frais.",
+        "PANURE : battre les œufs avec 30 ml de lait dans une assiette creuse. Étaler la chapelure dans une autre. Tremper chaque coxinha dans l'œuf battu (couvrir totalement), puis rouler dans la chapelure en pressant pour bien faire adhérer.",
+        "OPTION DOUBLE-PANURE pour croustillance maximale : repasser dans l'œuf + chapelure une 2ᵉ fois.",
+        "REPOS : réfrigérer 30 min minimum (la panure se 'fixe', n'éclate pas à la friture).",
+        "FRITURE : chauffer 1.5 L d'huile dans une casserole haute à 170 °C (test : un bout de pain qui dore en 60 sec). Frire les coxinhas par lots de 4-5 (sans surcharger) pendant 4-5 min en les retournant à la cuillère pour une dorure UNIFORME caramel.",
+        "Égoutter sur grille (pas papier absorbant — l'humidité piégée ramollit). Servir IMMÉDIATEMENT, encore fumantes, avec un quartier de citron vert et de la sauce piquante chimichurri brésilienne ou simplement du ketchup."
+      ],
+      "story": "Inventées au XIXᵉ siècle dans la ville de Limeira (région de São Paulo) par une cuisinière au service de la famille royale brésilienne. Selon la légende, le jeune fils de la princesse Isabelle (héritière du trône du Brésil) ne mangeait QUE des cuisses de poulet ; un jour, n'ayant plus de cuisses, la cuisinière improvisa avec du poulet effiloché enrobé d'une pâte façonnée en forme de cuisse — la coxinha (= 'petite cuisse' en portugais) était née. Aujourd'hui, c'est LE salgadinho (snack salé) emblématique des padarias et lanchonetes brésiliennes, du nord au sud, du petit goûter à 16 h aux fêtes d'anniversaire des enfants.",
+      "chefSecret": "Trois techniques des padeiras (boulangères brésiliennes) : (1) PÂTE TYPE PÂTE À CHOUX — verser la farine D'UN COUP dans le bouillon bouillant + dessécher 4-5 min jusqu'à pellicule blanche au fond. Cette technique gélatinise l'amidon comme une pâte à choux et donne la souplesse et la tenue à la friture sans absorption d'huile ; (2) TRAVAILLER LA PÂTE TIÈDE — chaude elle est trop molle, froide elle craquelle au pliage ; le sweet spot est ~40 °C, manipulable mais ferme. Couvrir la pâte non utilisée d'un torchon humide pour éviter le dessèchement ; (3) DOUBLE-PANURE OPTIONNELLE — œuf+chapelure 2 fois donne une croûte ultra-craquante qui résiste 30 min après friture. Pour les coxinhas de banquet, c'est non-négociable. Et l'option moderne avec un cube de Catupiry (fromage crémeux brésilien) fondu au cœur est aujourd'hui la signature des padarias paulistas (São Paulo) — ne pas hésiter à utiliser un cream cheese type Philadelphia.",
+      "commisIngredients": [
+        {
+          "name": "Blancs de poulet",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Cube de bouillon de volaille",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (bouillon)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cream cheese (Philadelphia, optionnel)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Persil + coriandre ciselés",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Cumin + paprika",
+          "qty": 1,
+          "unit": "c. à café (chaque)"
+        },
+        {
+          "name": "Farine (pâte)",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre (pâte)",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs (panure)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Chapelure (panure)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Huile végétale (cuisson)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel + poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Dilue le cube de bouillon dans 500 ml d'eau chaude dans une casserole. Plonge les blancs de poulet et fais-les pocher 15 min à feu doux. Sors-les, GARDE LE BOUILLON pour la pâte. Effiloche le poulet à la fourchette dans un saladier.",
+        "Dans une poêle, fais fondre 1 c.s. d'huile, fais suer l'oignon émincé et l'ail écrasé 5 min. Ajoute concentré de tomates + cumin + paprika, remue 1 min. Verse 4 c.s. de bouillon, mélange. Verse sur le poulet effiloché. Ajoute le cream cheese (optionnel pour le moelleux), persil + coriandre ciselés. Sale, poivre.",
+        "PÂTE : porte le bouillon restant à frémissement avec 40 g de beurre. Verse 350 g de farine d'un coup, remue énergiquement à la spatule jusqu'à obtenir une pâte qui se détache des parois (1-2 min). Coupe le feu, laisse tiédir 10 min.",
+        "Pose la pâte sur le plan de travail légèrement fariné, pétris 1 min. Prends une boule de pâte de la taille d'une mandarine, aplatis-la dans ta paume en disque de 8 cm. Pose 1 c.s. bombée de farce au centre, referme en pinçant les bords pour former une goutte d'eau — c'est la forme \"coxinha\" qui imite une cuisse de poulet. Recommence — tu obtiens 20-25 coxinhas.",
+        "Trempe chaque coxinha dans les œufs battus puis dans la chapelure en appuyant légèrement pour bien faire adhérer la panure.",
+        "CUISSON AU FOUR (version simple) : préchauffe à 200 °C. Dispose les coxinhas panées sur une plaque, badigeonne d'un filet d'huile. Enfourne 25 min en retournant à mi-cuisson, jusqu'à coloration dorée croustillante. Alternative friture : 2 cm d'huile à 170 °C dans une poêle profonde, 4 min de chaque côté."
+      ]
+    },
+    {
+      "slug": "brigadeiros",
+      "title": "Brigadeiros",
+      "image": "/images/brigadeiros-br%C3%A9sil.jpg",
+      "prepTime": 15,
+      "cookTime": 18,
+      "servings": 8,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "events": [
+        "carnaval"
+      ],
+      "ingredients": [
+        {
+          "name": "Lait concentré sucré (1 boîte standard de 397 g)",
+          "qty": 397,
+          "unit": "g"
+        },
+        {
+          "name": "Cacao en poudre amer non sucré (Van Houten ou Valrhona idéal)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre doux",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "name": "Chocolat noir 70 % (option premium pour intensifier)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Pincée de sel (équilibre la sucre)",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Huile neutre ou beurre pour graisser les mains",
+          "qty": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "ENROBAGE — Vermicelles de chocolat brésiliens (granulado, le classique)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "OU Cacao en poudre tamisée (version 'pure')",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "OU Pistaches finement concassées (version chic)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "OU Noix de coco râpée (version 'beijinho')",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Caissettes en papier mini-cupcake (présentation traditionnelle)",
+          "qty": 30,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "MISE EN PLACE : tamiser le cacao au-dessus de la casserole. Préparer une assiette beurrée pour le refroidissement. Préparer un grand plat large couvert de vermicelles (granulado) pour le roulage.",
+        "CASSEROLE À FOND ÉPAIS (clé) : utiliser une casserole moyenne à fond épais (cuivre, fonte émaillée ou inox 3 plis). Le fond fin = caramelisation localisée et brûlage de la pâte ; le fond épais distribue la chaleur uniformément.",
+        "Ajouter dans la casserole : 397 g de lait concentré sucré, 30 g de cacao tamisé, 25 g de beurre, 30 g de chocolat noir cassé en morceaux (option) et 1 pincée de sel.",
+        "Mélanger énergiquement à la spatule en silicone OU en bois pour homogénéiser AVANT d'allumer le feu (sinon le cacao fait des grumeaux à la chaleur).",
+        "CUISSON — feu MOYEN-DOUX (jamais feu vif) : porter à frémissement DOUX en remuant CONSTAMMENT, en raclant le fond et les bords pour éviter toute caramélisation. Au bout de 5 min, la pâte commence à épaissir et brille.",
+        "Continuer 10-13 min de cuisson à feu doux en remuant SANS jamais s'arrêter. La pâte va passer par 3 stades : (1) liquide brillante, (2) crémeuse type ganache, (3) pâte épaisse qui se détache du fond.",
+        "TEST DU 'TRAÇAGE' (signature non négociable) : à 13-15 min, faire passer la spatule au fond de la casserole en traçant une ligne — si la ligne reste VISIBLE 2-3 SECONDES avant que la pâte ne se referme, c'est le BON POINT de cuisson. C'est le moment exact d'arrêter.",
+        "Si la ligne se referme trop vite : continuer 1 min et retester. Si la ligne ne se referme pas du tout : trop cuit (vous obtiendrez un caramel dur, pas un brigadeiro), ajouter 30 ml de crème liquide pour récupérer.",
+        "REFROIDISSEMENT : verser IMMÉDIATEMENT la pâte sur l'assiette beurrée en l'étalant en couche d'1 cm d'épaisseur. Ne pas gratter le fond de la casserole (caramélisé éventuellement). Couvrir d'un film alimentaire au CONTACT (empêche la formation d'une croûte). Refroidir 30 min à température ambiante puis 1 h au réfrigérateur — la pâte doit être ferme mais malléable.",
+        "FAÇONNAGE : huiler ou beurrer généreusement les mains (la pâte est très collante). Prélever environ 15 g de pâte (taille d'une grosse noix) à la cuillère à café, rouler entre les paumes en boule régulière. Continuer pour les 30 boules.",
+        "ROULAGE : déposer chaque boule dans le plat de granulado, rouler à la main pour enrober uniformément, en pressant légèrement pour faire adhérer. Tapoter pour retirer l'excès. Disposer chaque brigadeiro dans une caissette en papier individuelle.",
+        "CONSERVATION : 5-7 jours à TEMPÉRATURE AMBIANTE en boîte hermétique (ne JAMAIS réfrigérer après le façonnage final — le froid durcit la pâte et casse la texture moelleuse-fondante signature). Servir à température ambiante en fin de repas avec un café fort, un cafezinho brésilien, ou une caïpirinha pour les fins de fête."
+      ],
+      "story": "Inventés en 1945 au Brésil pour la campagne politique du brigadier (général de l'armée de l'air) Eduardo Gomes qui se présentait à la présidence. Une cuisinière de São Paulo a créé ces petites confiseries au chocolat pour être vendues lors des meetings — d'où le nom 'doce do brigadeiro' (la sucrerie du brigadier). Le candidat a perdu l'élection mais le bonbon est devenu immortel. Aujourd'hui, AUCUN anniversaire d'enfant brésilien ne se passe sans une montagne de brigadeiros (ils sont l'équivalent culturel des bonbons de fête en France, mais en mille fois meilleurs). On les sert aussi en mariage, baptême, première communion. À Rio et São Paulo, des chaînes de boutiques entières (La Brigaderie, Maria Brigadeiro) sont dédiées aux brigadeiros sous toutes leurs déclinaisons (pistache, café, fruits rouges, etc.).",
+      "chefSecret": "Le brigadeiro vit ou meurt par UN SEUL test : celui du TRAÇAGE de la spatule. La ligne tracée au fond de la casserole doit rester visible 2-3 SECONDES avant de se refermer — c'est le sweet spot exact entre 'trop liquide' (pâte qui ne tient pas la boule) et 'trop ferme' (caramel dur cassant). Trois techniques essentielles : (1) FOND DE CASSEROLE ÉPAIS — distribue la chaleur uniformément ; un fond fin brûle la pâte ; (2) REMUER CONSTAMMENT 13-15 min — pas une seule pause. Une seconde d'inattention = caramélisation localisée et goût brûlé qui ruine tout ; (3) PÂTE COULÉE SUR ASSIETTE BEURRÉE + FILM AU CONTACT pour le refroidissement — le contact direct du film empêche la formation d'une croûte sèche. Et JAMAIS de réfrigération du brigadeiro fini : le froid casse la texture moelleuse signature ; les brigadeiros se conservent et se servent à température ambiante.",
+      "commisIngredients": [
+        {
+          "name": "Lait concentré sucré (1 boîte)",
+          "qty": 397,
+          "unit": "g"
+        },
+        {
+          "name": "Cacao en poudre amer",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Beurre",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "name": "Sel",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Vermicelles de chocolat (granulado)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Caissettes en papier mini-cupcake",
+          "qty": 30,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Dans une petite casserole à fond épais, verse le lait concentré sucré, le cacao, le beurre et la pincée de sel. Mélange à froid au fouet pour homogénéiser le cacao (sinon il forme des grumeaux à la cuisson).",
+        "Mets sur feu moyen-doux et remue CONSTAMMENT à la cuillère en bois pendant 10-12 min. Au début c'est liquide, puis ça épaissit. C'est prêt quand la spatule racle le fond et que la préparation se détache des parois — c'est le test du \"fundo da panela\" (fond de casserole).",
+        "Verse la préparation dans une assiette beurrée, laisse refroidir à température ambiante 15 min puis filme et place au frigo 2 h minimum (idéalement une nuit) — elle doit être ferme pour pouvoir rouler.",
+        "Verse les vermicelles de chocolat dans un bol. Huile ou beurre légèrement tes mains (sinon la pâte colle). Prélève une cuillère à café de pâte et roule entre tes paumes pour former une boule de la taille d'une grosse noisette.",
+        "Plonge chaque boule dans les vermicelles et roule-la pour bien l'enrober. Dépose dans une caissette en papier. Continue jusqu'à épuisement de la pâte — tu obtiens 25-30 brigadeiros. Conserve au frais, sers à température ambiante 15 min avant pour la texture parfaite (fondant à cœur)."
+      ]
+    }
+  ]
+}

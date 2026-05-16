@@ -1,0 +1,949 @@
+{
+  "slug": "mexique",
+  "name": "Mexique",
+  "iso3": "MEX",
+  "isoNumeric": "484",
+  "flag": "🇲🇽",
+  "intro": "Maïs, piments et cacao : la cuisine mexicaine est un héritage millénaire reconnu par l'UNESCO.",
+  "tagline": "L'âme vibrante et colorée",
+  "recipes": [
+    {
+      "slug": "tacos-al-pastor",
+      "title": "Tacos al pastor",
+      "image": "/images/tacos-al-pastor-mexique.jpg",
+      "prepTime": 45,
+      "cookTime": 25,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "events": [
+        "cinco-de-mayo"
+      ],
+      "ingredients": [
+        {
+          "name": "Échine ou épaule de porc en tranches très fines (2-3 mm)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Tortillas de maïs (idéalement nixtamalisées)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "MARINADE — Piments guajillo séchés (épépinés)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Piments ancho séchés (épépinés)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Pâte d'achiote (Recado Rojo)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Jus d'ananas frais (l'enzyme bromélaïne attendrit)",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Ail dégermé",
+          "qty": 5,
+          "unit": "gousse"
+        },
+        {
+          "name": "Oignon blanc (1/2 pour marinade, 1/2 pour garniture)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Origan séché mexicain",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Cannelle moulue",
+          "qty": 2,
+          "unit": "g"
+        },
+        {
+          "name": "Clous de girofle moulus",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Anis vert moulu",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 8,
+          "unit": "g"
+        },
+        {
+          "name": "Huile végétale neutre",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "GARNITURE — Tranches d'ananas frais (à griller)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche ciselée",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Citrons verts coupés en quartiers",
+          "qty": 2,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "MARINADE (la veille) : faire griller les piments guajillo et ancho à sec dans une poêle 30 sec par face (juste pour libérer les arômes, ne pas brûler). Les couvrir d'eau bouillante, laisser réhydrater 30 min jusqu'à ce qu'ils soient souples.",
+        "Mixer les piments réhydratés avec la pâte d'achiote, le jus d'ananas, le vinaigre, l'ail, 1/2 oignon blanc, l'origan, le cumin, la cannelle, les clous, l'anis, le sel et 30 ml d'huile jusqu'à obtenir une marinade rouge brique épaisse et lisse.",
+        "Disposer les tranches de porc dans un grand plat, recouvrir entièrement de marinade en s'assurant que chaque tranche est enrobée. Filmer et réserver au réfrigérateur 12 h MINIMUM (24 h optimal).",
+        "PRÉPARATION DU SERVICE : couper l'ananas en tranches de 1 cm. Émincer finement le 1/2 oignon blanc restant, ciseler la coriandre.",
+        "CUISSON DU PORC (méthode poêle ou plancha pour adapter le 'trompo' vertical traditionnel) : chauffer une grande poêle ou plancha à FEU TRÈS VIF. Saisir les tranches en plusieurs fournées 90 secondes par face — la marinade doit caraméliser et noircir légèrement aux bords (effet 'al pastor' = du berger, qui fait référence au caractère grillé). Réserver au chaud.",
+        "GRILLAGE DE L'ANANAS : dans la même poêle déglacée, griller les tranches d'ananas 2 min par face jusqu'à belles marques de caramélisation. Couper en petits dés.",
+        "DÉCOUPE FINALE : sur une planche, hacher grossièrement le porc grillé en petits morceaux (pas en cubes, plutôt en lanières-mosaïque pour garder les bords caramélisés visibles).",
+        "TORTILLAS : chauffer chaque tortilla 30 sec par face dans une poêle SÈCHE bien chaude jusqu'à ce qu'elle gonfle et marque légèrement (jamais à l'huile : la tortilla traditionnelle se chauffe à sec).",
+        "DRESSAGE (en taquería authentique) : dans chaque tortilla chaude, déposer 2 cs de porc, parsemer 1 cs de dés d'ananas grillé, parsemer d'oignon blanc cru ciselé fin, de coriandre. Servir un quartier de citron vert à presser au dernier moment.",
+        "Accompagner d'une salsa rouge piquante (option), de petits radis et limettes mexicaines."
+      ],
+      "story": "Né à Mexico dans les années 1930 de la rencontre entre immigrés libanais (qui apportèrent le shawarma rotatif) et la cuisine mexicaine. Le porc remplaça l'agneau du shawarma, l'achiote remplaça les épices levantines, et l'ananas fut posé au sommet du 'trompo' (broche verticale rotative) pour que son jus arrose la viande pendant la cuisson. C'est aujourd'hui le taco le plus emblématique de la street food mexicaine.",
+      "chefSecret": "Trois clés des taquerías de Mexico : (1) JUS D'ANANAS dans la marinade — la bromélaïne (enzyme protéolytique) attendrit la viande sans qu'on en sente le goût après cuisson. SUR-mariner au-delà de 24 h transforme la viande en bouillie : respecter le timing ; (2) PIMENTS GRILLÉS À SEC AVANT RÉHYDRATATION — 30 secondes en poêle libère leurs huiles essentielles fumées (technique 'tatemar') ; sans ça, la marinade est plate ; (3) HACHAGE GROSSIER POST-CUISSON sur planche — c'est ce qui mélange les bords caramélisés noirs avec les morceaux roses tendres, et c'est cette mosaïque qu'on glisse dans la tortilla. Au 'trompo' vertical, le taquero le rase à la machette : à la maison, planche + couteau lourd font le même travail.",
+      "commisIngredients": [
+        {
+          "name": "Émincé de porc (échine ou filet)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Tortillas de blé ou maïs (supermarché)",
+          "qty": 10,
+          "unit": "u"
+        },
+        {
+          "name": "Jus d'ananas (briquette ou frais)",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Vinaigre blanc ou de cidre",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Oignon rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Paprika fumé",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Origan séché",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ananas en tranches (frais ou boîte)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Citrons verts (servir)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Dans un grand saladier, mélange le jus d'ananas + vinaigre + ail écrasé + paprika fumé + cumin + origan + concentré de tomates + 1 c.s. d'huile + sel. Ajoute le porc émincé, mélange et laisse mariner 30 min minimum (1 h c'est mieux).",
+        "Émince finement l'oignon rouge, cisèle la coriandre, coupe les citrons verts en quartiers, et coupe les tranches d'ananas en petits dés. Réserve dans des bols séparés (style taqueria).",
+        "Fais chauffer une grande poêle à feu vif avec 1 c.s. d'huile. Égoutte le porc en gardant la marinade. Étale la viande en une seule couche et fais saisir 5 min en remuant, jusqu'à coloration dorée caramel sur les bords.",
+        "Verse un peu de marinade dans la poêle et laisse réduire 2 min : la viande doit être glacée par la sauce sans baigner dedans.",
+        "Réchauffe les tortillas 30 s par face dans une poêle sèche bien chaude (ou 10 s au micro-ondes couvertes d'un torchon humide). Empile-les dans un torchon pour qu'elles restent souples.",
+        "Pour servir, dépose une cuillerée de porc sur chaque tortilla, garnis de quelques dés d'ananas, d'oignon rouge ciselé et de beaucoup de coriandre. Presse un quartier de citron vert juste avant de croquer."
+      ]
+    },
+    {
+      "slug": "guacamole-totopos",
+      "title": "Guacamole et totopos",
+      "image": "/images/guacamaole-et-topopos-mexique.jpg",
+      "prepTime": 15,
+      "cookTime": 10,
+      "servings": 4,
+      "diets": [
+        "vegan",
+        "vegetarian",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "seasons": [
+        "summer",
+        "spring"
+      ],
+      "events": [
+        "cinco-de-mayo"
+      ],
+      "ingredients": [
+        {
+          "name": "Avocats Hass bien mûrs (peau noire, légèrement souples)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon BLANC (la version authentique mexicaine — pas rouge)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Piments serrano frais (plus authentique que le jalapeño)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche (feuilles, sans tiges dures)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Tomate Roma mûre, épépinée et concassée (option, traditionnelle dans le Yucatán)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Jus de citron vert frais (à doser AVEC PARCIMONIE)",
+          "qty": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin de mer",
+          "qty": 4,
+          "unit": "g"
+        },
+        {
+          "name": "TOTOPOS — Tortillas de maïs (à transformer en chips)",
+          "qty": 8,
+          "unit": "u"
+        },
+        {
+          "name": "Huile végétale pour les totopos",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin pour les totopos",
+          "qty": 3,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "PRÉPARATION DU MOLCAJETE : si vous utilisez un molcajete (mortier mexicain en pierre volcanique) neuf, le 'curer' au préalable (1 fois pour la vie : piler du riz cru jusqu'à devenir blanc, puis ail+oignon+sel pour développer la patine aromatique). Sinon, à défaut, un grand bol + une fourchette font l'affaire.",
+        "ORDRE EXACT (la signature) : ciseler très finement l'oignon blanc, hacher fin la coriandre (juste les feuilles), épépiner et hacher fin les serranos.",
+        "PHASE 1 — base aromatique : déposer dans le molcajete l'oignon ciselé + 1 piment serrano (garder l'autre pour ajuster) + 4 g de sel fin. Piler 1 min jusqu'à obtenir une pâte humide grossière — les huiles essentielles se libèrent dans la pierre poreuse et imprègnent toute la suite.",
+        "Ajouter la coriandre, piler 30 secondes pour l'incorporer.",
+        "PHASE 2 — avocats : couper les avocats en 2, retirer les noyaux (en GARDER UN), prélever la chair à la cuillère. La déposer dans le molcajete sur la base aromatique.",
+        "ÉCRASER À LA FOURCHETTE OU AU PILON par mouvements doux et brefs — le guacamole authentique reste GRUMELEUX (morceaux d'avocat visibles), JAMAIS lisse comme une purée. La fourchette de molcajete écrase ; la main qui la tient mélange du fond vers le dessus pour bien enrober.",
+        "Goûter. Ajouter UNE PETITE QUANTITÉ de jus de citron vert (15 ml max) — pas plus, le citron ne doit pas dominer. Rectifier sel. Si ça pique trop peu, hacher et ajouter le 2ème serrano. Mélanger 5 secondes, pas plus.",
+        "OPTION YUCATÁN : ajouter la tomate concassée et égouttée juste avant le service — la tomate est une tradition régionale, pas obligatoire dans la version Mexico.",
+        "TOTOPOS (chips de maïs frites) : couper les 8 tortillas de maïs en 6 triangles chacune (48 chips). Chauffer 100 ml d'huile dans une poêle à 175 °C. Frire les triangles par lots de 12 environ 1 min jusqu'à dorure légère et croustillance. Égoutter sur papier absorbant, saler aussitôt.",
+        "DRESSAGE FINAL : laisser le guacamole DANS LE MOLCAJETE pour servir (chaud de la pierre = température parfaite). Y planter le noyau d'avocat (mythe esthétique : ne ralentit pas vraiment l'oxydation, mais c'est joli). Servir IMMÉDIATEMENT avec les totopos chauds croustillants — un guacamole authentique se mange dans les 15 minutes après préparation, pas plus.",
+        "Pour conservation courte (max 2 h) : presser un film alimentaire DIRECTEMENT au contact de la surface (zéro air), garder au frais. Au-delà, c'est une bouillie marron."
+      ],
+      "story": "Mot dérivé du nahuatl 'āhuacamolli' (āhuacatl = avocat + molli = sauce), le guacamole remonte aux Aztèques bien avant la colonisation espagnole. Le frère Bernardino de Sahagún le décrivait dès 1565. Symbole de la cuisine mexicaine moderne, il est servi dans le molcajete ('mortar' en náhuatl) en pierre volcanique qui en est l'écrin traditionnel.",
+      "chefSecret": "Trois règles des guacamoleros de Mexico : (1) OIGNON BLANC, PAS ROUGE — l'oignon rouge est plus doux mais a une note sucrée qui déséquilibre ; le blanc apporte le mordant nécessaire. Beaucoup de recettes occidentales utilisent rouge par habitude française, c'est une erreur ; (2) ORDRE STRICT MOLCAJETE — oignon+piment+sel D'ABORD pilés, PUIS coriandre, PUIS avocat. Tout mélanger en même temps = saveurs plates ; (3) CITRON VERT EN PETITE QUANTITÉ — c'est un anti-oxydant et un rehausseur, pas le goût principal. Au-delà de 15 ml pour 3 avocats, vous tuez la finesse de l'avocat. Et SERVIR IMMÉDIATEMENT : le guacamole a une fenêtre de dégustation de 15 min, après quoi il commence à oxyder même sous film. Ne le préparez JAMAIS à l'avance pour un dîner.",
+      "commisIngredients": [
+        {
+          "name": "Avocats mûrs",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Citron vert",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge (ou blanc)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Tomates cerise (optionnel)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Piment en poudre (ou jalapeño en bocal)",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Tortillas chips (sachet)",
+          "qty": 150,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Coupe les avocats en 2, retire les noyaux. Récupère la chair à la cuillère dans un grand bol. Presse le jus du citron vert dessus IMMÉDIATEMENT — c'est l'anti-noircissement.",
+        "Émince très finement le demi-oignon rouge. Cisèle finement la coriandre (feuilles, sans les tiges dures). Coupe les tomates cerise en petits dés (épépine-les si tu veux moins liquide).",
+        "Écrase la chair des avocats à la fourchette en gardant des morceaux — la texture rustique fait l'authenticité. Surtout pas de mixeur, ça fait de la purée pour bébé.",
+        "Ajoute l'oignon, la coriandre, les tomates, 1 pincée de piment et 1 c.c. de sel. Mélange délicatement à la fourchette. Goûte, rectifie sel et citron vert.",
+        "Sers immédiatement dans un grand bol avec les tortillas chips à côté pour piocher. Si tu dois attendre, pose un film plastique AU CONTACT du guacamole (jamais juste sur le bol) pour éviter qu'il noircisse."
+      ]
+    },
+    {
+      "slug": "mole-poblano",
+      "title": "Mole poblano",
+      "image": "/images/mole-poblano-mexique.jpg",
+      "prepTime": 60,
+      "cookTime": 120,
+      "servings": 6,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "events": [
+        "cinco-de-mayo"
+      ],
+      "ingredients": [
+        {
+          "name": "Cuisses de poulet entières (haut + pilon)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Bouillon de poulet maison",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "PILES — Piments ancho séchés (épépinés)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Piments mulato séchés (épépinés)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Piments pasilla séchés (épépinés)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Piment chipotle ou morita séché",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "GRAINES & FRUITS — Graines de sésame torréfiées",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Cacahuètes natures torréfiées",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Amandes mondées",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Raisins secs blonds",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Tortilla de maïs sèche (pour épaissir)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Tranche de pain rassis (technique du couvent)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "ÉPICES — Bâtons de cannelle",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Clous de girofle",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Anis vert (graines)",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Grains de poivre noir",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "AROMATES — Tomates Roma mûres",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomatillos verts",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon blanc émincé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé",
+          "qty": 6,
+          "unit": "gousse"
+        },
+        {
+          "name": "CHOCOLAT — Chocolat mexicain Abuelita ou Ibarra (à défaut chocolat noir 70% + 1 bâton cannelle moulue)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Cacao en poudre amer",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Saindoux ou huile végétale (saindoux plus authentique)",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre roux ou piloncillo",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 8,
+          "unit": "g"
+        },
+        {
+          "name": "Graines de sésame réservées (décoration)",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Riz blanc à la mexicaine pour l'accompagnement",
+          "qty": 300,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "POCHAGE DU POULET : porter 1 L de bouillon à frémissement avec 1/2 oignon, 2 gousses d'ail, sel. Plonger les cuisses, pocher 30 min jusqu'à tendreté. Réserver le poulet et FILTRER LE BOUILLON (le 'caldo' sera la base de la sauce).",
+        "RÉHYDRATATION DES PILES (étape signature) : faire griller TOUS les piments séchés à sec dans une poêle 30 sec/face (technique 'tatemar' — libère les arômes torréfiés). ATTENTION : ne pas brûler, sinon la sauce sera amère.",
+        "Couvrir les piments grillés d'eau chaude, laisser réhydrater 30 min jusqu'à souples. Égoutter, RÉSERVER 200 ml d'eau de trempage.",
+        "TORRÉFACTION DES SECS : dans la même poêle sèche, torréfier successivement : sésame 2 min (jusqu'à doré), cacahuètes 3 min, amandes 3 min, anis + clous + cumin + poivre 30 sec. Réserver chacun à part.",
+        "BASE AROMATIQUE : faire chauffer 50 ml de saindoux dans une grande cocotte. Faire revenir l'oignon + ail 5 min. Ajouter tomates + tomatillos en quartiers, cuire 8 min jusqu'à éclatement.",
+        "MIXAGE EN PLUSIEURS LOTS (étape critique pour texture lisse) : mixer le tout au mixeur PUISSANT par petits lots avec un peu de bouillon : (1) piments réhydratés + 200 ml eau de trempage = 'la pâte des piments', (2) sésame + cacahuètes + amandes + raisins + tortilla + pain = 'la pâte des secs', (3) tomates-oignon-ail-épices = 'la pâte aromatique'.",
+        "PASSER CHAQUE PÂTE AU CHINOIS FIN (étape essentielle pour texture velours signature). Le mole authentique est SOYEUX comme une crème, sans morceaux.",
+        "ASSEMBLAGE DE LA SAUCE : dans la cocotte, faire chauffer 50 ml de saindoux. Verser la pâte des piments, frire 5 min en remuant — l'huile rougit (signature). Ajouter la pâte aromatique, cuire 5 min. Ajouter la pâte des secs, cuire 3 min.",
+        "Verser 600 ml de bouillon de pochage du poulet, mélanger énergiquement au fouet pour homogénéiser parfaitement.",
+        "AJOUT DU CHOCOLAT (étape finale signature) : casser le chocolat mexicain Abuelita en morceaux, ajouter à la sauce avec le cacao en poudre, le sucre et le sel. Le chocolat dans le mole n'est PAS pour le sucré (qui est minime) mais pour la PROFONDEUR, l'AMERTUME COMPLEXE et l'ONCTUOSITÉ — il lie la sauce et arrondit les piments.",
+        "MIJOTAGE LONG (le secret) : couvrir partiellement et mijoter 1 h 30 à feu très doux en remuant toutes les 5 min (la sauce ATTACHE et BRÛLE en bas si on s'arrête). La sauce doit réduire d'1/3, devenir épaisse comme une crème, brillante, brun-rouge profond.",
+        "Goûter et rectifier : sel, sucre selon goût (la sauce doit être complexe — épicée, fumée, légèrement amère, à peine sucrée).",
+        "RÉCHAUFFAGE DU POULET : remettre les cuisses dans la sauce, mijoter 15 min couvert pour les imprégner.",
+        "REPOS NON NÉGOCIABLE (la maturation) : éteindre, laisser reposer COUVERT 1 h minimum. IDÉAL : préparer la veille et réchauffer doucement le lendemain — le mole est l'un des rares plats qui se BONIFIE 24-48 h après préparation.",
+        "SERVICE : disposer les cuisses sur des assiettes plates préchauffées, napper généreusement de sauce mole. Saupoudrer de graines de sésame torréfiées. Accompagner de riz à la mexicaine et de tortillas chaudes pour saucer (le rituel mexicain veut qu'on TARTINE chaque bouchée de mole sur de la tortilla)."
+      ],
+      "story": "Plat national du Mexique, inscrit au patrimoine immatériel UNESCO depuis 2010. La légende la plus populaire situe sa création en 1681 au couvent de Santa Rosa de Puebla : Sœur Andrea de la Asunción, sommée de préparer un plat exceptionnel pour la visite surprise de l'archevêque Manuel Fernández de Santa Cruz, mélangea dans un moment d'angoisse tout ce qui restait dans la cuisine du couvent — piments, chocolat, cacahuètes, amandes, épices. Le résultat conquit l'archevêque et devint le mole poblano. Aujourd'hui, chaque famille mexicaine de Puebla a SA recette de mole, jalousement gardée et transmise de mère en fille (les recettes peuvent contenir jusqu'à 30 ingrédients).",
+      "chefSecret": "Trois clés des moleras (cuisinières mexicaines spécialistes du mole) : (1) GRILLER LES PILES À SEC PUIS RÉHYDRATER — le 'tatemar' (torréfaction) 30 sec/face libère les arômes fumés-torréfiés ; piments crus = mole plat sans complexité ; (2) MIXER PUIS PASSER AU CHINOIS FIN — la signature texture velours est non négociable. Le mole authentique est SOYEUX, JAMAIS granuleux. Cette étape demande de la patience mais fait toute la différence ; (3) MATURATION 24 H — le mole frais est bon ; le mole de la veille est SUBLIME. Les saveurs (piments, chocolat, épices, fruits secs) ont besoin de temps pour fusionner en cette complexité unique. C'est pour ça que dans les fêtes mexicaines (anniversaires, mariages, jour des morts), on prépare TOUJOURS le mole 1-2 jours à l'avance.",
+      "commisIngredients": [
+        {
+          "name": "Cuisses de poulet",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Cube de bouillon de volaille",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (bouillon)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Chocolat noir 70%",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Cacao en poudre amer",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika doux",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cannelle en poudre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Graines de sésame torréfiées (déco)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Dans une grande cocotte, fais chauffer 3 c.s. d'huile à feu moyen-vif. Sale et poivre les cuisses de poulet, fais-les dorer 4 min de chaque côté. Réserve sur une assiette.",
+        "Dans la même cocotte, baisse à feu moyen. Ajoute l'oignon émincé, fais fondre 5 min jusqu'à coloration légère. Ajoute l'ail écrasé, le paprika, la cannelle et le cumin. Remue 30 s pour libérer les arômes.",
+        "Verse les tomates concassées et le cube de bouillon dilué dans 500 ml d'eau chaude. Laisse mijoter 10 min jusqu'à ce que ça réduise un peu.",
+        "Mixe la sauce au mixeur plongeant (ou au blender) pour obtenir une texture lisse. Remets dans la cocotte. Ajoute le chocolat cassé en morceaux + le cacao. Remue à feu doux jusqu'à dissolution complète — la sauce devient brun profond, presque noire.",
+        "Replonge les cuisses de poulet dans la sauce, peau vers le haut. Couvre et laisse mijoter à feu doux 25 min : la viande doit être tendre et se détacher de l'os.",
+        "Sers chaud avec du riz blanc nature pour bien saucer. Parsème de graines de sésame torréfiées juste avant de servir."
+      ]
+    },
+    {
+      "slug": "enchiladas-verdes",
+      "title": "Enchiladas verdes",
+      "image": "/images/enchiladas-verde-mexique.jpg",
+      "prepTime": 30,
+      "cookTime": 35,
+      "servings": 4,
+      "diets": [
+        "gluten-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "name": "Tortillas de maïs (12-15 cm de diamètre)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "Tomatillos frais (épluchés et rincés)",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Piments serrano frais (ou jalapeños à défaut)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon blanc émincé (60g)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé",
+          "qty": 2,
+          "unit": "gousse"
+        },
+        {
+          "name": "Coriandre fraîche (feuilles + tiges fines)",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "name": "Blancs de poulet cuits effilés",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Crema mexicaine (ou crème fraîche entière épaisse)",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Queso fresco émietté (ou feta légère à défaut)",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Huile neutre (pour la salsa + les tortillas)",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon blanc cru ciselé (finition)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche (finition)",
+          "qty": 0.5,
+          "unit": "bouquet"
+        }
+      ],
+      "steps": [
+        "SALSA VERDE (la base) : porter une grande casserole d'eau à ébullition. Plonger les tomatillos entiers et les piments serrano, cuire 8-10 min à frémissement jusqu'à ce que les tomatillos virent du vert vif au vert pâle olive et soient tendres (signal de cuisson aboutie).",
+        "Égoutter en réservant 100 ml d'eau de cuisson. Transférer les tomatillos + piments dans le mixeur avec l'oignon, l'ail, la coriandre, 1 cs de sel et 50 ml d'eau de cuisson. Mixer en pulses jusqu'à obtenir une salsa lisse (pas de morceaux).",
+        "ÉTAPE SIGNATURE PATI JINICH — frire la salsa : chauffer 2 cs d'huile dans une grande sauteuse à feu moyen-vif. Quand l'huile fume légèrement, verser la salsa D'UN COUP (attention aux projections) et la cuire 6 min en remuant constamment — elle s'épaissit, fonce légèrement et ses arômes se concentrent. Goûter, rectifier sel.",
+        "GARNITURE : dans un saladier, mélanger le poulet effilé avec 4 cs de salsa verde refroidie pour qu'il s'imprègne. Saler.",
+        "TORTILLAS — la technique anti-déchirure : dans une autre poêle, chauffer 1 cm d'huile à 175 °C. Y passer chaque tortilla 15 secondes par face avec une pince — elle doit s'assouplir sans cuire complètement (juste devenir flexible et s'huiler légèrement, ce qui empêche qu'elle se déchire au pliage). Égoutter sur papier absorbant.",
+        "MONTAGE : préchauffer le four à 190 °C. Verser une fine couche de salsa verde au fond d'un plat à gratin de 20×30 cm.",
+        "Pour chaque tortilla : tremper RAPIDEMENT (3 secondes) dans la salsa chaude, déposer sur une assiette, garnir d'1/2 cs bombée de poulet à la salsa au centre. Rouler sans serrer (couture vers le bas) et déposer dans le plat à gratin.",
+        "Recouvrir TOTALEMENT les enchiladas roulées de salsa restante (la salsa doit napper, pas être en bordure).",
+        "Cuire 15 min à 190 °C juste pour réchauffer (pas de gratiner — les enchiladas verdes ne sont JAMAIS gratinées au fromage à la mexicaine ; c'est une dérive Tex-Mex).",
+        "À LA SORTIE DU FOUR (étape signature non négociable) : verser la crema mexicaine en filet aléatoire, parsemer généreusement de queso fresco émietté, oignon blanc cru ciselé et coriandre fraîche. Le contraste chaud-froid frais EST l'identité de l'enchilada verte mexicaine.",
+        "Servir IMMÉDIATEMENT avec du riz mexicain (arroz rojo) ou des frijoles refritos."
+      ],
+      "story": "Plat populaire des cuisines de quartier de Mexico, particulièrement consommé au petit-déjeuner ou au brunch (enchiladas suizas avec un œuf au plat dessus). Le mot 'enchilada' vient du verbe espagnol 'enchilar' (mettre dans le piment) et désigne la tortilla trempée et roulée garnie d'une protéine, nappée de salsa.",
+      "chefSecret": "Trois différences entre un vrai 'enchilada verde' et la version Tex-Mex bâtarde : (1) LA SALSA VERDE EST FRITE DANS L'HUILE après mixage (technique de Pati Jinich, la chef-icône mexicaine) — c'est ce qui transforme une simple sauce mixée en salsa profonde, légèrement caramélisée, complexe ; (2) LES TORTILLAS PASSENT 15 SEC DANS L'HUILE CHAUDE — sans cette étape, elles se déchirent au pliage et libèrent leur amidon dans la sauce ; (3) FROMAGE ET CRÈME APRÈS CUISSON, JAMAIS GRATINÉS — l'enchilada verte authentique se sert avec queso fresco émietté + crema froide À LA SORTIE du four. Le gratinage au cheddar/Monterey Jack est la signature Tex-Mex, pas mexicaine.",
+      "commisIngredients": [
+        {
+          "name": "Tortillas de blé ou maïs",
+          "qty": 10,
+          "unit": "u"
+        },
+        {
+          "name": "Tomatillos en boîte (ou tomates vertes)",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Piment vert en bocal (ou jalapeño)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Oignon blanc",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Blancs de poulet cuits effilés",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Crème fraîche épaisse",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Feta émiettée (ou queso fresco)",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Préchauffe le four à 200 °C. Égoutte les tomatillos en boîte. Mets-les dans un blender avec la moitié de l'oignon émincé, l'ail, le piment, la moitié de la coriandre et 1 c.c. de sel. Mixe 30 s — tu obtiens une sauce verte lisse.",
+        "Dans une grande poêle, fais chauffer 1 c.s. d'huile, verse la sauce verte et cuis 8 min à feu moyen-vif : elle change de couleur et épaissit légèrement. Goûte, rectifie le sel.",
+        "Cisèle finement l'autre moitié de l'oignon et le reste de coriandre. Dans un bol, mélange le poulet effiloché avec 4 c.s. de sauce verte — c'est ta farce.",
+        "Dans une autre poêle, fais chauffer 1 c.s. d'huile. Plonge chaque tortilla 10 s par face juste pour la ramollir (sinon elle craque au pliage). Égoutte sur du papier absorbant.",
+        "Verse un peu de sauce verte au fond d'un plat à gratin. Garnis chaque tortilla d'1 c.s. bombée de farce poulet, enroule en cigare et pose côté soudure vers le bas dans le plat. Continue jusqu'à remplir.",
+        "Nappe les enchiladas du reste de sauce verte. Verse des filets de crème fraîche par-dessus puis saupoudre généreusement de feta émiettée. Enfourne 15 min jusqu'à ce que ça gratine. Parsème d'oignon et coriandre frais. Sers immédiatement."
+      ]
+    },
+    {
+      "slug": "chiles-rellenos",
+      "title": "Chiles rellenos",
+      "image": "/images/chiles-rellenos-mexique.jpg",
+      "prepTime": 35,
+      "cookTime": 30,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "seasons": [
+        "summer",
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "name": "Piments poblanos (gros, à peau lisse)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Fromage Oaxaca effiloché (ou Monterey Jack à défaut)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs (jaunes et blancs séparés)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Farine T55 pour enrobage",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Tomates Roma bien mûres",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon blanc émincé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé",
+          "qty": 3,
+          "unit": "gousse"
+        },
+        {
+          "name": "Bouillon de poulet",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Origan mexicain séché",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Huile neutre pour friture",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Cure-dents en bois",
+          "qty": 8,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "Torréfier les poblanos directement sur la flamme du gaz (ou sous le grill 5 min par face) en les retournant à la pince jusqu'à ce que la peau soit entièrement noire et cloquée.",
+        "Enfermer les poblanos brûlants dans un sac plastique fermé hermétiquement et laisser suer 10 min — la vapeur décolle la peau (étape non négociable pour un pelage propre).",
+        "Sortir les piments, frotter délicatement la peau noircie sous un filet d'eau froide pour la retirer entièrement. Pratiquer une fente verticale, retirer délicatement le placenta et les graines en gardant la queue et la base intactes.",
+        "Pour la salsa : mixer tomates, oignon, ail, cumin, origan et bouillon. Verser dans une sauteuse, saler, mijoter 15 min à découvert pour réduire et concentrer.",
+        "Garnir chaque poblano de fromage (≈60 g) sans surcharger, refermer la fente avec 2 cure-dents.",
+        "Monter les blancs en neige ferme avec 1 pincée de sel ; incorporer délicatement les jaunes battus à la spatule en 3 fois (sans casser) pour obtenir une mousse aérienne.",
+        "Chauffer 3 cm d'huile dans une grande poêle à 175 °C (vérifier avec un thermomètre ou avec un cube de pain qui doit dorer en 30 s).",
+        "Rouler chaque poblano dans la farine en tapotant l'excédent, puis le napper généreusement de la mousse d'œufs en le retournant dans le bol.",
+        "Plonger immédiatement dans l'huile chaude, frire 3 min par face en arrosant le dessus à la cuillère pour faire dorer uniformément. Égoutter sur papier absorbant.",
+        "Déposer chaque chile dans la sauce tomate chaude, laisser réchauffer 5 min à feu doux. Retirer les cure-dents avant de servir avec du riz blanc."
+      ],
+      "story": "Né à Puebla pendant la guerre d'indépendance mexicaine, le chile relleno aurait été inventé par les religieuses pour accueillir le général Iturbide — ses couleurs (vert, blanc, rouge) rappellent le drapeau national.",
+      "chefSecret": "L'huile DOIT être à 175 °C précisément : trop froide, les piments absorbent l'huile et deviennent gras ; trop chaude, la pâte brûle avant que le fromage fonde. Et surtout, monter les blancs en neige juste avant de tremper les poblanos — la mousse retombe en quelques minutes et perd sa légèreté caractéristique.",
+      "commisIngredients": [
+        {
+          "name": "Poivrons verts (ou poblanos si dispo)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Mozzarella râpée (ou emmental)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Farine",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Cube de bouillon de volaille",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (bouillon)",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Origan séché + cumin",
+          "qty": 1,
+          "unit": "c. à café (chaque)"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Préchauffe le four à 220 °C. Pose les poivrons entiers sur une plaque, enfourne 20 min en les retournant à mi-cuisson, jusqu'à ce que la peau soit noircie et boursouflée. Sors-les et mets-les dans un sac plastique fermé 10 min : la peau s'enlève toute seule ensuite.",
+        "Pendant ce temps, prépare la sauce tomate : émince l'oignon, fais-le fondre 5 min dans 2 c.s. d'huile dans une casserole. Ajoute l'ail écrasé, origan, cumin, remue 30 s. Verse les tomates + le cube de bouillon dilué dans 200 ml d'eau chaude. Laisse mijoter 15 min, sale et poivre. Mixe au mixeur plongeant.",
+        "Épluche les poivrons (la peau part toute seule). Fais une incision longitudinale d'un seul côté, retire les graines et les membranes blanches en gardant le pédoncule entier.",
+        "Garnis chaque poivron de mozzarella râpée bien tassée (~60 g par poivron). Referme délicatement — le poivron grillé est suffisamment souple pour tenir tout seul, sans cure-dent.",
+        "Pose 3 assiettes : farine / œufs battus dans un grand bol / une assiette vide pour réserver. Roule chaque poivron farci dans la farine en tapotant l'excédent, puis trempe-le entièrement dans les œufs battus.",
+        "Chauffe 2 c.s. d'huile dans une grande poêle à feu moyen-vif. Pose les poivrons enrobés et fais-les dorer 2 min par côté, en les retournant délicatement à la spatule. Égoutte sur du papier absorbant. Sers immédiatement nappé de la sauce tomate chaude (ou avec la sauce dans une assiette à côté)."
+      ]
+    }
+  ]
+}

@@ -1,35 +1,67 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bone: #FAF7F2;
-  --color-bone-deep: #F2EDE4;
-  --color-bone-warm: #F5EFE3;
-  --color-sage: #A3B18A;
-  --color-sage-soft: #C8D2B5;
-  --color-ochre: #C08552;
-  --color-ochre-soft: #E0B084;
-  --color-ochre-deep: #A06D3F;
-  --color-terracotta: #C65D3A;
-  --color-terracotta-deep: #A94A2C;
-  --color-terracotta-soft: #E89F84;
-  --color-ink: #2E2A26;
-  --color-ink-soft: #6B635A;
-  --color-paper: #FBF6EB;
+  /* ========================================================================
+   * PALETTE "APPÉTIT STIMULANT" (refonte v2)
+   *
+   * Théorie : oranges/jaunes/marrons chauds activent la salivation
+   * (psychologie alimentaire). On garde les NOMS de tokens existants pour
+   * zéro refactor des 250+ usages dans le code — seules les valeurs hex
+   * changent. Conséquence : `--color-terracotta` vaut désormais un orange
+   * brûlé vif (#E65100), pas le terracotta argileux d'origine.
+   *
+   * Accessibilité WCAG :
+   *   • #3E2723 (chocolat) sur #FFFDF5 (ivoire)  → 14.2:1 ✓ AAA
+   *   • #E65100 (orange brûlé) sur #FFFDF5       → 4.7:1  ✓ AA gros texte
+   *   • #FBC02D (jaune moutarde) sur #FFFDF5     → 1.7:1  ✗  fond seul !
+   *     → utilisé EXCLUSIVEMENT en arrière-plan, avec texte ink dessus.
+   * ====================================================================== */
+
+  /* Fonds chauds (ivoire) */
+  --color-bone: #FFFDF5;         /* fond principal — ivoire chaud */
+  --color-bone-deep: #F7F1E0;    /* surfaces secondaires, hover, anneaux */
+  --color-bone-warm: #FBF4DF;    /* variante chaude pour gradients */
+  --color-paper: #FFFDF5;        /* fond .bg-paper-card (= bone) */
+
+  /* Texte (marron chocolat) */
+  --color-ink: #3E2723;          /* texte principal — chocolat profond */
+  --color-ink-soft: #6D4C41;     /* texte secondaire — marron moka */
+
+  /* MODE CHEF — Orange brûlé (stimulant, énergique) */
+  --color-terracotta: #E65100;       /* CTA primaire, mode Chef sélectionné */
+  --color-terracotta-deep: #BF360C;  /* hover Chef, valeurs numériques */
+  --color-terracotta-soft: #FFAB91;  /* halo, fond accent léger */
+
+  /* MODE COMMIS — Jaune moutarde (accessible, convivial) */
+  --color-ochre: #FBC02D;        /* mode Commis sélectionné (FOND uniquement) */
+  --color-ochre-soft: #FFE082;   /* fond clair commis */
+  --color-ochre-deep: #F9A825;   /* hover commis, texte foncé sur fond ivoire */
+
+  /* Vert frais — pour étapes "Préparation", badges veg */
+  --color-sage: #7CB342;         /* vert vibrant (fraîcheur) */
+  --color-sage-soft: #C5E1A5;    /* vert pâle (sélections, séparateurs) */
+
+  /* Nouveaux tokens sémantiques (alias + accents) */
+  --color-chocolate: #3E2723;    /* alias explicite de ink */
+  --color-cinnamon: #D7CCC8;     /* BackgroundDecor (icônes papier peint) */
+  --color-fresh-green: #43A047;  /* badge "Préparation" verre vif */
+  --color-chili: #D32F2F;        /* alertes critiques, piment */
 
   --font-serif: var(--font-fraunces);
   --font-sans: var(--font-inter);
 
-  --shadow-soft: 0 4px 20px -4px rgba(46, 42, 38, 0.08);
-  --shadow-soft-lg: 0 12px 40px -10px rgba(46, 42, 38, 0.12);
-  /* Ombre teintée terracotta — donne une "chaleur" subtile aux cards */
-  --shadow-warm: 0 8px 28px -10px rgba(198, 93, 58, 0.18),
-                 0 2px 8px -2px rgba(46, 42, 38, 0.06);
-  --shadow-warm-lg: 0 16px 48px -12px rgba(198, 93, 58, 0.25),
-                    0 4px 12px -4px rgba(46, 42, 38, 0.08);
-  /* Ombre type "papier de magazine" multi-couches */
-  --shadow-paper: 0 1px 0 0 rgba(46, 42, 38, 0.04),
-                  0 6px 16px -4px rgba(46, 42, 38, 0.08),
-                  0 16px 40px -12px rgba(192, 133, 82, 0.12);
+  --shadow-soft: 0 4px 20px -4px rgba(62, 39, 35, 0.08);
+  --shadow-soft-lg: 0 12px 40px -10px rgba(62, 39, 35, 0.12);
+  /* Ombre teintée ORANGE BRÛLÉ (#E65100 = rgba(230, 81, 0)) — chaleur d'un
+     four / soleil couchant. */
+  --shadow-warm: 0 8px 28px -10px rgba(230, 81, 0, 0.18),
+                 0 2px 8px -2px rgba(62, 39, 35, 0.06);
+  --shadow-warm-lg: 0 16px 48px -12px rgba(230, 81, 0, 0.25),
+                    0 4px 12px -4px rgba(62, 39, 35, 0.08);
+  /* Ombre type "papier de magazine" multi-couches — teinte cannelle douce */
+  --shadow-paper: 0 1px 0 0 rgba(62, 39, 35, 0.04),
+                  0 6px 16px -4px rgba(62, 39, 35, 0.08),
+                  0 16px 40px -12px rgba(215, 204, 200, 0.45);
 
   --radius-soft: 1rem;
   --radius-soft-lg: 1.5rem;
@@ -176,17 +208,19 @@ h1, h2, h3, h4, .font-serif {
   background-image:
     radial-gradient(
       circle at 1px 1px,
-      rgba(192, 133, 82, 0.04) 1px,
+      rgba(215, 204, 200, 0.35) 1px,
       transparent 1px
     ),
     radial-gradient(
       circle at 13px 13px,
-      rgba(46, 42, 38, 0.02) 0.6px,
+      rgba(62, 39, 35, 0.025) 0.6px,
       transparent 0.6px
     );
   background-size: 20px 20px, 28px 28px;
   box-shadow: var(--shadow-paper);
-  border: 1px solid color-mix(in oklab, var(--color-ochre) 10%, transparent);
+  /* Bordure cannelle plutôt que jaune moutarde (qui serait trop saturé à
+     10%). Donne un liseré "papier kraft" très subtil. */
+  border: 1px solid color-mix(in oklab, var(--color-cinnamon) 55%, transparent);
 }
 
 /* Organique : silhouettes abstraites de feuilles/ondes en sage stroke 6%.

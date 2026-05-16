@@ -1,7 +1,7 @@
 import { Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { RecommendationsBoard } from "@/components/recommendations/RecommendationsBoard";
-import { getAllRecipes } from "@/lib/data";
+import { getAllRecipesIndex, getCountriesIndex } from "@/lib/data";
 
 export const metadata = {
   title: "Recommandations — Map and Fork",
@@ -9,7 +9,11 @@ export const metadata = {
 };
 
 export default function RecommandationsPage() {
-  const recipes = getAllRecipes();
+  // Index allégé : le calcul des 3 reco se fait côté CLIENT car il dépend de
+  // l'historique localStorage de l'utilisateur (impossible côté serveur sans
+  // l'historique). Le gain est sur le PAYLOAD : 454 KB → 78 KB.
+  const recipes = getAllRecipesIndex();
+  const countries = getCountriesIndex();
   return (
     <main className="flex-1">
       <section className="mx-auto max-w-5xl px-6 pt-12 pb-6">
@@ -27,7 +31,7 @@ export default function RecommandationsPage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-6 pb-20">
-        <RecommendationsBoard recipes={recipes} />
+        <RecommendationsBoard recipes={recipes} countries={countries} />
       </section>
     </main>
   );

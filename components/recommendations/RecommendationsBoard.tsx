@@ -15,11 +15,14 @@ import {
   getActiveEvents,
   getSeason,
 } from "@/lib/seasons";
-import type { Country, Recipe } from "@/lib/types";
+import type { CountryIndex, RecipeIndex } from "@/lib/types-index";
 
-type Item = { country: Country; recipe: Recipe };
+type Props = {
+  recipes: RecipeIndex[];
+  countries: CountryIndex[];
+};
 
-export function RecommendationsBoard({ recipes }: { recipes: Item[] }) {
+export function RecommendationsBoard({ recipes, countries }: Props) {
   const { history, hydrated } = useHistory();
   // Force a stable date for the algo (today). Memoised to keep results steady.
   const today = useMemo(() => new Date(), []);
@@ -42,12 +45,13 @@ export function RecommendationsBoard({ recipes }: { recipes: Item[] }) {
     () =>
       getRecommendations({
         recipes,
+        countries,
         date: today,
         visitedCountries,
         visitedRecipes,
         count: 3,
       }),
-    [recipes, today, visitedCountries, visitedRecipes]
+    [recipes, countries, today, visitedCountries, visitedRecipes]
   );
 
   return (

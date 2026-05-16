@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Clock, Users } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { RecipeImage } from "@/components/recipe/RecipeImage";
-import type { Country, Recipe } from "@/lib/types";
+import type { Diet } from "@/lib/types";
 
 const dietLabels: Record<string, string> = {
   vegan: "Vegan",
@@ -11,12 +11,35 @@ const dietLabels: Record<string, string> = {
   "dairy-free": "Sans lactose",
 };
 
+/**
+ * Forme minimale acceptée par RecipeCard. Compatible à la fois avec :
+ *   • `Recipe` (lib/types.ts) — recette complète
+ *   • `RecipeIndex` (lib/types-index.ts) — meta sans ingredients/steps
+ * Évite de bundler les Ingredient[] et string[] dans les pages clients
+ * qui n'affichent qu'une carte.
+ */
+type RecipeCardRecipe = {
+  slug: string;
+  title: string;
+  image: string;
+  prepTime: number;
+  cookTime: number;
+  servings: number;
+  diets: Diet[];
+};
+
+type RecipeCardCountry = {
+  slug: string;
+  flag: string;
+  name: string;
+};
+
 export function RecipeCard({
   country,
   recipe,
 }: {
-  country: Pick<Country, "slug" | "flag" | "name">;
-  recipe: Recipe;
+  country: RecipeCardCountry;
+  recipe: RecipeCardRecipe;
 }) {
   const total = recipe.prepTime + recipe.cookTime;
   return (

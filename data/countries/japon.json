@@ -1,0 +1,890 @@
+{
+  "slug": "japon",
+  "name": "Japon",
+  "iso3": "JPN",
+  "isoNumeric": "392",
+  "flag": "🇯🇵",
+  "intro": "Une cuisine de précision et de saisons, où la simplicité du dashi rencontre la délicatesse du tranchant.",
+  "tagline": "L'art de l'harmonie pure",
+  "recipes": [
+    {
+      "slug": "ramen-shoyu",
+      "title": "Ramen Shoyu",
+      "image": "/images/ramen-shoyu-japon.jpg",
+      "prepTime": 30,
+      "cookTime": 90,
+      "servings": 2,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "winter",
+        "autumn"
+      ],
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredients": [
+        {
+          "name": "Nouilles ramen fraîches (frisées, à teneur en kansui)",
+          "qty": 240,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon de volaille concentré (ou maison)",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Poitrine de porc roulée pour chashu",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja japonaise (shoyu) pour le tare",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Mirin",
+          "qty": 40,
+          "unit": "ml"
+        },
+        {
+          "name": "Saké de cuisine",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre roux",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "name": "Algue kombu (5 cm)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Gingembre frais en lamelles",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Ail écrasé",
+          "qty": 2,
+          "unit": "gousse"
+        },
+        {
+          "name": "Œufs frais (gros calibre)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon vert (negi) ciselé fin",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Algue nori grillée",
+          "qty": 2,
+          "unit": "feuille"
+        },
+        {
+          "name": "Huile de sésame grillé",
+          "qty": 5,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "CHASHU (la veille idéalement) : rouler et ficeler la poitrine de porc, la dorer sans matière grasse 5 min sur toutes les faces dans une cocotte. Couvrir avec 60 ml de soja, 30 ml de mirin, 30 ml de saké, 25 g de sucre, gingembre, ail et eau à mi-hauteur. Mijoter 1 h à très petit feu, retourner à mi-cuisson. Laisser refroidir DANS le jus, idéalement une nuit.",
+        "AJITSUKE TAMAGO (la veille idéalement) : cuire les œufs 6 min 30 sec dans l'eau bouillante (départ eau frémissante), plonger immédiatement dans l'eau glacée 5 min, écaler avec précaution. Mariner 12 h minimum (24 h optimal) au réfrigérateur dans 50 ml de soja + 25 ml de mirin + 75 ml d'eau + 8 g de sucre.",
+        "TARE SHOYU : porter doucement 80 ml de soja + 40 ml de mirin + 30 ml de saké + 15 g de sucre roux + le kombu à frémissement (jamais à ébullition). Couper le feu, infuser 10 min, retirer le kombu. Le tare se conserve 1 mois au frais.",
+        "Préchauffer 2 grands bols à ramen avec de l'eau bouillante 5 min, vider.",
+        "Faire chauffer le bouillon de volaille à 85-90 °C (frémissement, jamais bouillir).",
+        "Cuire les nouilles ramen 2 min dans une grande quantité d'eau frémissante non salée, en les démêlant à la baguette.",
+        "Dans chaque bol vidé : verser 25-30 ml de tare + 2,5 ml d'huile de sésame, puis 400 ml de bouillon chaud. Émulsionner à la baguette.",
+        "Ajouter les nouilles fraîchement égouttées en les pliant en deux, dresser 3 tranches fines de chashu, un demi-œuf coupé dans le sens de la longueur (jaune coulant orienté visible), parsemer de negi, planter 1 feuille de nori sur le bord. Servir immédiatement, bouillant."
+      ],
+      "story": "Né à Yokohama au début du XXᵉ siècle, le ramen est l'enfant d'un dialogue gourmand entre la Chine et le Japon — chaque ville japonaise a aujourd'hui sa signature : Tokyo pour le shoyu, Sapporo pour le miso, Hakata pour le tonkotsu.",
+      "chefSecret": "Le tare est l'âme du ramen : c'est lui (et non le bouillon) qui définit le style shoyu/shio/miso. Préparez-le 24 h à l'avance pour que les saveurs s'arrondissent. Et préchauffez impérativement les bols : un ramen servi dans un bol froid perd 10 °C en 30 secondes — la dégustation devient tiède au lieu d'être cette expérience brûlante et réconfortante qui définit le plat.",
+      "commisIngredients": [
+        {
+          "name": "Nouilles ramen sèches (paquet)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Cubes de bouillon de volaille",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Eau",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "Blanc de poulet",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Miel (ou sucre)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Œufs",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon vert (ciboule)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Feuilles de nori",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile de sésame",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Plonge les 2 œufs dans une casserole d'eau bouillante et cuis-les 6 min pile (chronomètre, sinon le jaune se fige). Refroidis-les sous l'eau froide, écale-les délicatement et coupe-les en deux.",
+        "Fais bouillir 1 L d'eau, dissous les 2 cubes de bouillon dedans. Ajoute 3 c.s. de sauce soja et 1 c.s. de miel. Garde à feu très doux.",
+        "Coupe le blanc de poulet en fines lamelles. Pose-les directement dans le bouillon chaud et laisse pocher 5 min — la viande doit être juste cuite, pas filandreuse.",
+        "En parallèle, fais bouillir une autre casserole d'eau (sans sel). Plonge les nouilles ramen et cuis-les selon le paquet (en général 3-4 min). Égoutte rapidement.",
+        "Préchauffe 2 grands bols à l'eau chaude, vide-les. Dépose les nouilles dedans, verse le bouillon brûlant avec le poulet par-dessus.",
+        "Garnis avec les demi-œufs, l'oignon vert ciselé, une feuille de nori entière posée sur le bord du bol et un filet d'huile de sésame. Sers immédiatement — un ramen tiède, c'est un ramen raté."
+      ]
+    },
+    {
+      "slug": "onigiri-saumon",
+      "title": "Onigiri au saumon",
+      "image": "/images/onigiri-au-saumon-japon.jpg",
+      "prepTime": 20,
+      "cookTime": 30,
+      "servings": 4,
+      "diets": [
+        "dairy-free",
+        "gluten-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "name": "Riz japonais rond Koshihikari (jamais long grain ni basmati)",
+          "qty": 450,
+          "unit": "g"
+        },
+        {
+          "name": "Eau filtrée pour la cuisson",
+          "qty": 600,
+          "unit": "ml"
+        },
+        {
+          "name": "Filet de saumon frais (sans peau, sans arêtes)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin pour saler le saumon",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin pour assaisonner les mains et le riz",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Bol d'eau froide salée pour mouiller les mains",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Feuilles de nori grillé (yakinori)",
+          "qty": 2,
+          "unit": "feuille"
+        },
+        {
+          "name": "Graines de sésame noir et blanc mélangées (optionnel)",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja pour la table",
+          "qty": 30,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "RIZ (étape clé) : rincer le riz dans un saladier d'eau froide 4-5 fois en frottant doucement entre les paumes — l'eau passe de laiteuse à claire. Égoutter parfaitement, laisser reposer 30 min dans la passoire (le grain absorbe l'humidité résiduelle uniformément).",
+        "Mettre le riz dans une casserole épaisse avec 600 ml d'eau filtrée (ratio 1:1.3). Couvrir, porter à ébullition à feu vif, baisser à feu très doux dès la première vapeur, cuire 12 min sans JAMAIS soulever le couvercle (la vapeur ne doit pas s'échapper).",
+        "Couper le feu, laisser reposer 15 min couvercle fermé hors du feu — le riz finit de gonfler à la vapeur résiduelle. Ouvrir, le 'détendre' à la spatule en bois en mouvements de coupe (jamais écraser). Le riz doit être collant mais avec grains distincts.",
+        "SAUMON GARNITURE : pendant le repos du riz, saler le filet de saumon (5 g sur les deux faces), laisser dégorger 10 min puis essuyer. Cuire 8 min à 180 °C au four (peau dessous), ou à la poêle 4 min/face dans 1 cs d'huile.",
+        "Émietter le saumon refroidi à la fourchette en retirant méticuleusement la peau et toute arête — vérifier 2 fois (un onigiri doit se manger à la main sans crainte).",
+        "FAÇONNAGE : préparer un bol d'eau froide additionnée de sel (5 g pour 200 ml) — mains mouillées + salées = riz qui ne colle pas + assaisonnement extérieur subtil.",
+        "Mouiller les mains, prendre 75-80 g de riz tiède dans la main creusée, écraser le centre du pouce pour créer un puits. Y déposer 1 cuillère à café de saumon émietté.",
+        "Refermer le riz sur la garniture en formant un triangle (paume gauche en V, pression douce des 3 côtés en faisant pivoter, pression alternée pouce-paume). 5 pressions par côté max, sinon le riz devient pâteux.",
+        "Saupoudrer une pincée de sésame mélangé sur le triangle. Couper la feuille de nori en bandes de 4 cm de large × 8 cm de long, enrouler une bande à la BASE de chaque onigiri.",
+        "Servir IMMÉDIATEMENT à température ambiante avec un filet de sauce soja optionnel. Pour emporter (bento), enrouler le nori SÉPARÉMENT (dans un carré de papier sulfurisé) et l'appliquer juste avant de manger pour qu'il reste croustillant — le nori se ramollit en 30 min au contact du riz."
+      ],
+      "story": "Plat emblématique des bento japonais et symbole du pique-nique sous les cerisiers en fleurs (hanami) au printemps. La tradition remonte à l'époque féodale où les samouraïs en emportaient pendant leurs campagnes — le riz salé pressé se conservait plusieurs jours.",
+      "chefSecret": "Trois clés des mamans japonaises : (1) RIZ JAPONAIS UNIQUEMENT — Koshihikari ou Akitakomachi, jamais basmati ni thaï, leur amidon collant est non substituable ; (2) MAINS MOUILLÉES + SALÉES — l'eau empêche le riz de coller, le sel parfume l'extérieur sans en mettre dans la masse ; (3) NORI EN DERNIÈRE MINUTE — au contact du riz tiède, le nori se ramollit en 30 min. Un onigiri de bento se vend avec le nori enroulé dans un emballage SÉPARÉ (système 'origami' à l'industrie) que le mangeur déchire pour appliquer le nori croustillant juste avant la bouchée.",
+      "commisIngredients": [
+        {
+          "name": "Riz rond japonais (ou Arborio)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eau",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Saumon fumé (tranches)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Mayonnaise (optionnel)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Feuilles de nori",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Eau pour mouiller les mains",
+          "qty": 200,
+          "unit": "ml"
+        }
+      ],
+      "commisSteps": [
+        "Rince le riz à l'eau froide jusqu'à ce qu'elle devienne presque claire (3-4 fois en frottant doucement). Mets-le dans une casserole avec 400 ml d'eau, couvre et porte à ébullition à feu vif.",
+        "Dès que ça bout, baisse à feu très doux et cuis 12 min sans soulever le couvercle. Coupe le feu, laisse reposer 10 min toujours couvert. Le riz finit de gonfler à la vapeur.",
+        "Pendant ce temps, coupe le saumon fumé en petits morceaux et mélange-le avec 2 c.s. de mayonnaise dans un bol — c'est la garniture express.",
+        "Prépare un petit bol d'eau froide avec 1 c.c. de sel. Mouille-toi les mains dedans : c'est le secret pour que le riz ne colle pas. Prends une poignée de riz tiède (~75 g), creuse un puits au pouce et mets 1 c.c. de garniture au centre.",
+        "Referme le riz par-dessus et forme un triangle dans tes paumes : pression douce de chaque côté en pivotant d'1/3 à chaque fois. Recommence — tu obtiens 6 onigiri.",
+        "Coupe la nori en bandes de 4 cm × 8 cm et colle-en une à la base de chaque triangle. Sers à température ambiante, parfait pour le bento du lendemain."
+      ]
+    },
+    {
+      "slug": "tempura-legumes",
+      "title": "Tempura de légumes",
+      "image": "/images/tempura-de-l%C3%A9gumes.jpg",
+      "prepTime": 25,
+      "cookTime": 15,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "dairy-free"
+      ],
+      "seasons": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "name": "PÂTE — Farine T45 (idéalement 'farine à tempura' japonaise)",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Fécule de maïs (Maïzena)",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Œuf très froid",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau pétillante GLACÉE (au congélateur 15 min avant)",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Glaçons (à mettre dans le bol de pâte)",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "LÉGUMES — Patate douce en rondelles 5 mm",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Brocolis en bouquets",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Asperges vertes (parties tendres)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Champignons shiitake frais",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Aubergine en bâtonnets",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron rouge en lanières",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Farine pour pré-enrobage léger",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Huile neutre haute température (pépins de raisin ou tournesol)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "SAUCE TENTSUYU — Bouillon dashi",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce soja japonaise",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Mirin",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Daikon (radis blanc) finement râpé",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Gingembre frais finement râpé",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Fleur de sel pour le service",
+          "qty": 1,
+          "unit": "pincée"
+        }
+      ],
+      "steps": [
+        "PRÉPARATION FROID (clé absolue) : 30 min avant, mettre AU CONGÉLATEUR : la farine, la fécule, l'œuf, le bol où sera faite la pâte, la baguette/fouet. Mettre l'eau pétillante au réfrigérateur (sortie 30 sec avant utilisation seulement).",
+        "Laver et sécher PARFAITEMENT tous les légumes (l'eau résiduelle = projections d'huile + pâte qui tient mal). Couper en morceaux uniformes pour cuisson homogène.",
+        "Faire chauffer 1 L d'huile dans une grande casserole haute jusqu'à 175-180 °C (vérifier au thermomètre obligatoirement, ou avec une goutte de pâte qui doit remonter immédiatement à la surface en grésillant).",
+        "Préparer la sauce tentsuyu : porter dashi + soja + mirin à frémissement 2 min, retirer du feu, laisser tiédir. Disposer le daikon et le gingembre râpés à part — chaque convive les ajoute dans son bol de sauce à sa convenance.",
+        "PÂTE TEMPURA (au DERNIER moment) : dans le bol glacé, fouetter brièvement l'œuf froid avec l'eau pétillante glacée. Ajouter la farine + fécule d'UN SEUL COUP, mélanger À LA BAGUETTE en 10-15 mouvements seulement — la pâte DOIT rester GRUMELEUSE (les grumeaux = légèreté, le mélange parfait = pâte qui fait un beignet épais et lourd).",
+        "Maintenir le bol de pâte sur de la glace pendant tout le service.",
+        "FRITURE par petits lots : pré-enrober légèrement chaque morceau de farine en tapotant l'excédent (l'humidité résiduelle est absorbée). Tremper dans la pâte, secouer 1 sec, plonger dans l'huile à 175 °C.",
+        "Ne JAMAIS surcharger l'huile (max 4-5 morceaux à la fois, sinon la température chute, l'huile pénètre la pâte = beignet gras). Frire 2-3 min en retournant 1 fois — la couleur doit rester PÂLE-DORÉE (pas brun foncé).",
+        "Égoutter immédiatement sur grille (PAS sur papier absorbant : l'humidité piégée ramollit la pâte). Saupoudrer d'une pincée de fleur de sel à chaud.",
+        "Servir IMMÉDIATEMENT (la tempura ne se conserve pas 5 min : elle ramollit) avec la sauce tentsuyu tiède, le daikon râpé et le gingembre à part."
+      ],
+      "story": "Apportée au Japon par les missionnaires portugais au XVIᵉ siècle (le mot 'tempura' viendrait du latin 'tempora' désignant les jours maigres de Carême où ils mangeaient des légumes frits). Les chefs japonais l'ont raffinée en cet art de la friture aérienne qui n'a plus rien à voir avec un beignet portugais.",
+      "chefSecret": "Le secret est THERMIQUE : tout doit être glacial à 4 °C ou moins (farine, œuf, bol, eau pétillante), l'huile à 175 °C exactement. Le choc thermique entre la pâte glacée et l'huile brûlante crée des micro-bulles de vapeur instantanées qui repoussent l'huile — d'où la texture dentelée croustillante caractéristique. Et la pâte DOIT être grumeleuse : si vous mélangez parfaitement, le gluten se développe et la tempura devient un beignet de foire. Travaillez à la baguette, 10 coups maximum, c'est tout.",
+      "commisIngredients": [
+        {
+          "name": "Farine",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Eau pétillante très froide",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Œuf",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Courgette",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Carotte",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Champignons de Paris",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Huile de friture (tournesol)",
+          "qty": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce soja (pour servir)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron (pour servir)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Mets l'eau pétillante au congélateur 10 min avant — elle doit être glacée. Coupe la courgette en rondelles de 5 mm, la carotte en bâtonnets, l'oignon en demi-rondelles, les champignons en deux. Sèche-les bien dans un torchon (l'eau résiduelle = pâte qui ne tient pas).",
+        "Fais chauffer 750 ml d'huile dans une grande casserole haute jusqu'à ~170 °C. Test sans thermomètre : jette une goutte de pâte, elle doit grésiller et remonter en 2 secondes.",
+        "Au DERNIER moment, casse l'œuf dans un bol, ajoute l'eau pétillante glacée et fouette 2 secondes. Verse la farine d'un coup et mélange en 4-5 coups de baguette MAXIMUM — laisse des grumeaux, c'est ce qui fait le craquant.",
+        "Trempe chaque morceau de légume dans la pâte et plonge dans l'huile par groupes de 4-5 (jamais plus, sinon la température chute et la tempura devient grasse). Frit 1-2 min jusqu'à ce que la pâte soit pâle dorée et croustillante.",
+        "Égoutte sur une grille (jamais sur du papier absorbant : la vapeur piégée ramollit la pâte). Sers IMMÉDIATEMENT avec un petit bol de sauce soja additionnée d'un filet de jus de citron pour tremper."
+      ]
+    },
+    {
+      "slug": "gyoza-porc",
+      "title": "Gyoza au porc",
+      "image": "/images/gyoza-au-porc-japon.jpg",
+      "prepTime": 60,
+      "cookTime": 10,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "winter",
+        "autumn"
+      ],
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredients": [
+        {
+          "name": "PÂTE (30 disques) — Farine T55",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Eau bouillante (la chaleur cuit l'amidon = pâte plus souple)",
+          "qty": 130,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin pour la pâte",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Fécule de maïs pour saupoudrer",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "FARCE — Porc haché (échine, ratio 70/30 maigre/gras)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Chou chinois (pak-choï ou Napa) finement émincé",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sel pour dégorger le chou",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Ciboule (oignon vert) finement ciselée",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé râpé fin",
+          "qty": 2,
+          "unit": "gousse"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja japonaise",
+          "qty": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Saké de cuisine (ou mirin)",
+          "qty": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile de sésame grillé",
+          "qty": 10,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "CUISSON — Huile végétale",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Eau pour la cuisson vapeur",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile de sésame finition",
+          "qty": 5,
+          "unit": "ml"
+        },
+        {
+          "name": "SAUCE — Sauce soja",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Vinaigre de riz",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile de sésame (pour la sauce)",
+          "qty": 5,
+          "unit": "ml"
+        },
+        {
+          "name": "Rayu (huile pimentée japonaise) ou piment frais",
+          "qty": 5,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "PÂTE : dans un saladier, mélanger la farine et le sel. Verser l'eau BOUILLANTE d'un coup en remuant à la baguette — la chaleur précuit l'amidon, ce qui rend la pâte plus souple et facile à étaler. Pétrir 8 min sur le plan de travail jusqu'à obtention d'une boule lisse, satinée, élastique. Filmer et reposer 30 min minimum à température ambiante.",
+        "DÉGORGEMENT DU CHOU (étape non négociable) : émincer finement le chou chinois (largeur 2-3 mm). Saler avec 5 g de sel, masser 1 min, laisser dégorger 15 min. PRESSER ÉNERGIQUEMENT entre les paumes pour extraire un MAXIMUM d'eau (sinon la farce humide rend la cuisson catastrophique : ça crève la pâte). On doit pouvoir extraire ~50 ml d'eau.",
+        "FARCE : dans un grand saladier, mélanger le porc haché, le chou pressé, la ciboule, l'ail, le gingembre, le soja, le saké, l'huile de sésame, le sucre et 2 g de sel. PÉTRIR ÉNERGIQUEMENT à la main pendant 3 min — la farce doit devenir homogène et collante (les protéines du porc s'activent et lient).",
+        "FAÇONNAGE DES DISQUES : diviser la pâte en 2 boudins, couper chaque boudin en 15 portions de ~13 g. Sur un plan saupoudré de fécule de maïs, étaler chaque portion en disque de 9 cm de diamètre, plus FIN au centre (3 mm) qu'aux bords (1 mm) — pli classique : épaisse au centre = tient la cuisson, fine sur les bords = se plisse facilement.",
+        "FAÇONNAGE DES GYOZA : déposer 1 cuillère à café bombée de farce au centre. Mouiller la moitié du bord avec un peu d'eau au pinceau. Replier en demi-lune et plisser 5-6 fois D'UN SEUL CÔTÉ (l'autre côté reste lisse) — c'est le pli traditionnel japonais en éventail. Poser sur un plateau saupoudré de fécule, face plissée vers le haut, face plate vers le bas.",
+        "CUISSON YAKI-GYOZA (style poêle) : chauffer une grande poêle antiadhésive à feu moyen-vif, ajouter 30 ml d'huile végétale. Disposer 12-15 gyoza face PLATE vers le bas, en cercle bien serré.",
+        "Cuire 3 min sans bouger jusqu'à ce que la base soit dorée caramel.",
+        "Verser 80 ml d'eau d'un coup (attention aux projections), couvrir IMMÉDIATEMENT avec un couvercle hermétique. La vapeur cuit le dessus pendant que la base reste croustillante. Cuire 5 min couvert.",
+        "Retirer le couvercle, laisser l'eau s'évaporer complètement (1 min). Verser 5 ml d'huile de sésame en filet sur les gyoza pour finir le craquant et donner brillant.",
+        "SAUCE D'ACCOMPAGNEMENT : mélanger soja + vinaigre de riz + huile de sésame + rayu. Servir les gyoza CHAUDS, face dorée visible (basculer la poêle sur l'assiette d'un coup sec) avec la sauce dans un petit bol individuel."
+      ],
+      "story": "Importés de Chine après la Seconde Guerre mondiale par des soldats japonais rapatriés de Mandchourie, les gyoza ont été adaptés au goût japonais (plus aillés, plus fins, à la cuisson 'yaki' poêle/vapeur). Aujourd'hui, ils sont l'accompagnement classique du ramen et un plat de famille incontournable.",
+      "chefSecret": "Trois techniques japonaises souvent négligées : (1) EAU BOUILLANTE dans la pâte — l'amidon précuit donne une pâte beaucoup plus souple à étaler et à plisser, sans se déchirer ; (2) PRESSER LE CHOU JUSQU'À 50 ML D'EAU EXTRAITE — c'est la différence entre des gyoza qui croustillent et des gyoza qui suintent en cuisson ; (3) LA CUISSON 'YAKI-GYOZA' EN 3 PHASES — frit (croustillant base), vapeur (cuit la pâte et la farce), sec (recroquillant) — chacune indispensable, dans cet ordre exact. Le HUILE DE SÉSAME EN FINITION sur la poêle, juste avant de retourner, est l'astuce des izakayas japonais pour la brillance et l'arôme final.",
+      "commisIngredients": [
+        {
+          "name": "Disques à gyoza ou wonton (rayon Asie)",
+          "qty": 30,
+          "unit": "u"
+        },
+        {
+          "name": "Porc haché",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Chou blanc (ou chou chinois)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sel (pour dégorger le chou)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Oignon vert (ciboule)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Gingembre frais râpé (ou 1 c.c. en poudre)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce soja (farce + sauce)",
+          "qty": 6,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile de sésame",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile végétale (cuisson)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Eau (vapeur)",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Vinaigre de riz (ou vinaigre blanc)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Émince le chou très finement. Sale-le avec 1 c.c. de sel, masse 2 min, laisse dégorger 10 min puis presse-le très fort à la main pour évacuer l'eau (sinon les gyoza détrempent à la cuisson).",
+        "Dans un saladier, mélange à la main le porc haché, le chou pressé, l'oignon vert ciselé, l'ail râpé, le gingembre, 2 c.s. de sauce soja et 1 c.s. d'huile de sésame. Tu obtiens une farce homogène et collante.",
+        "Pose un disque dans ta paume. Dépose 1 c.c. bombée de farce au centre. Mouille le bord avec un peu d'eau au doigt, plie en demi-lune et fais 4-5 petits plis sur un seul côté pour souder. Recommence — tu obtiens environ 30 gyoza.",
+        "Fais chauffer 2 c.s. d'huile végétale dans une grande poêle antiadhésive à feu moyen-vif. Pose les gyoza côte à côte, fond plat vers le bas. Laisse dorer 3 min sans toucher : la base doit être caramel.",
+        "Verse 80 ml d'eau d'un coup (attention aux projections) et couvre IMMÉDIATEMENT. Cuis à la vapeur 5 min. Découvre, laisse l'eau s'évaporer 1 min. Termine par un filet d'huile de sésame.",
+        "Mélange 4 c.s. de sauce soja + 2 c.s. de vinaigre de riz dans un petit bol — c'est la sauce. Sers les gyoza chauds, face dorée vers le haut."
+      ]
+    },
+    {
+      "slug": "katsudon",
+      "title": "Katsudon",
+      "image": "/images/katsudon-japon.jpg",
+      "prepTime": 25,
+      "cookTime": 25,
+      "servings": 2,
+      "diets": [
+        "dairy-free"
+      ],
+      "seasons": [
+        "winter",
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "name": "TONKATSU — Côtes de porc longe sans os (épaisseur 1,5 cm)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 1,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Œuf entier (pour panure tonkatsu)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Panko (chapelure japonaise grosse)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Huile neutre haute température (tournesol ou pépins de raisin)",
+          "qty": 700,
+          "unit": "ml"
+        },
+        {
+          "name": "RIZ — Riz japonais rond",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eau pour le riz",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "BOUILLON-OMELETTE — Bouillon dashi (kombu + katsuobushi maison ou granulé)",
+          "qty": 240,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce soja japonaise",
+          "qty": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "Mirin",
+          "qty": 45,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre roux",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon jaune émincé en demi-lunes épaisses",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Œufs (pour omelette finale)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Mitsuba (cerfeuil japonais) ou ciboule en finition",
+          "qty": 1,
+          "unit": "branche"
+        }
+      ],
+      "steps": [
+        "RIZ (à démarrer en premier) : rincer le riz 4 fois jusqu'à eau claire. Cuire avec 400 ml d'eau (ratio 1:1.3) couvert : ébullition vive 1 min, feu doux 12 min, repos hors feu 15 min. Détendre à la spatule.",
+        "TONKATSU : aplatir légèrement les côtes de porc au maillet à 1 cm d'épaisseur (les fibres se relâchent = viande tendre après cuisson). Saler, poivrer chaque face.",
+        "Fariner légèrement (tapoter l'excédent), tremper dans l'œuf battu, paner abondamment dans le panko en pressant pour faire adhérer. Réserver 5 min au réfrigérateur (la panure se 'fixe' = ne tombe pas pendant la friture).",
+        "Chauffer 700 ml d'huile dans une casserole haute jusqu'à 170 °C (test : un grain de panko jeté dans l'huile doit grésiller immédiatement et remonter à la surface).",
+        "Frire les côtes de porc 4-5 min en retournant à mi-temps (2 min par face). La panure doit être dorée caramel, pas brun foncé. Égoutter sur une grille (PAS sur papier absorbant : l'humidité ramollit la panure).",
+        "REPOS : laisser les tonkatsu reposer 3 min sur la grille (la chaleur résiduelle achève la cuisson sans dessécher). Trancher en lanières de 1,5 cm, garder la forme de la côte.",
+        "BOUILLON-OMELETTE (le 'tare' du katsudon) : dans une petite poêle (idéalement 18 cm = donburi-nabe traditionnel), mélanger dashi + soja + mirin + sucre. Ajouter l'oignon, porter à frémissement, mijoter 4 min jusqu'à ce que l'oignon soit tendre et que le bouillon réduise légèrement.",
+        "Disposer les tranches de tonkatsu sur l'oignon dans le bouillon (panure vers le HAUT pour qu'elle reste croustillante).",
+        "Battre brièvement les 4 œufs à la fourchette (PAS au fouet — ils doivent rester en filaments distincts, pas mousser). Verser en spirale sur le tonkatsu et l'oignon. Couvrir IMMÉDIATEMENT.",
+        "Cuire 1 min à feu moyen — l'œuf doit rester baveux à 75 % cuit (le blanc pris, le jaune encore coulant en surface). C'est le 'fuwa-fuwa' japonais : moelleux, presque crémeux. JAMAIS attendre que l'œuf soit pris totalement.",
+        "ASSEMBLAGE : remplir 2 grands bols (donburi) de riz chaud à mi-hauteur. Faire glisser délicatement le tonkatsu-oignon-œuf de la poêle DIRECTEMENT sur le riz, en gardant la forme et en versant un peu de bouillon par-dessus pour que le riz s'imprègne.",
+        "Garnir d'1 brin de mitsuba ciselé (ou ciboule à défaut) et servir IMMÉDIATEMENT — la chaleur résiduelle finit la cuisson de l'œuf en bouche."
+      ],
+      "story": "Inventé en 1921 à Tokyo dans le restaurant Sanchoan : un cuisinier eut l'idée de napper un tonkatsu (porc pané importé d'Europe au XIXᵉ) avec de l'œuf et du bouillon sucré-salé, le tout sur un bol de riz. C'est aujourd'hui le 'comfort food' national, particulièrement consommé par les étudiants la veille d'un examen — 'katsu' signifie 'gagner' en japonais.",
+      "chefSecret": "Le katsudon est un plat de TIMING absolu : tout doit être prêt simultanément (riz chaud, tonkatsu frit reposé, dashi à frémissement) car l'œuf cuit en 60 secondes maximum et le plat se sert à la seconde. La règle des chefs des restaurants katsuya : (1) PANURE FACE EN HAUT dans le bouillon (sinon elle se détrempe et perd le contraste croustillant) ; (2) ŒUF JAMAIS BATTU EN MOUSSE — fourchette, 5 secondes max, on doit voir les filaments de jaune et blanc séparément ; (3) ŒUF À 75 % CUIT — couvercle 1 min puis service immédiat. Si vous attendez 30 secondes de plus à table, l'œuf devient caoutchouteux. C'est un plat qui ne se réchauffe pas.",
+      "commisIngredients": [
+        {
+          "name": "Escalopes de porc fines",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Farine (panure)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Œuf (panure)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Panko (ou chapelure classique)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Huile de friture",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Riz rond (japonais ou Arborio)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eau (riz)",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Cube de bouillon de volaille (ou dashi)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (bouillon)",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Miel ou sucre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Œufs (omelette finale)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Ciboule ciselée",
+          "qty": 2,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Rince le riz à l'eau froide 3 fois. Mets-le avec 400 ml d'eau dans une casserole, couvre et porte à ébullition. Baisse à feu très doux et cuis 12 min sans toucher. Coupe le feu, laisse reposer 10 min couvert.",
+        "Sale et poivre les escalopes. Prépare 3 assiettes : farine / œuf battu / panko. Passe chaque escalope dans la farine (tapote l'excédent), puis l'œuf, puis le panko en appuyant pour bien faire adhérer.",
+        "Chauffe 1 cm d'huile dans une grande poêle profonde à feu moyen-vif. Fais dorer les escalopes 3 min de chaque côté jusqu'à panure caramel. Égoutte sur une grille et coupe en lanières d'1 cm.",
+        "Émince l'oignon en demi-rondelles. Dans une petite poêle, verse 250 ml de bouillon (cube dilué dans l'eau chaude) + 3 c.s. de sauce soja + 1 c.s. de miel. Ajoute l'oignon et fais frémir 3 min à feu moyen jusqu'à ce qu'il devienne tendre.",
+        "Dépose les lanières de tonkatsu dans la poêle sur l'oignon, panure vers le HAUT (pour qu'elle reste croustillante). Bats les 4 œufs à la fourchette (jamais au fouet — ils doivent rester en filaments distincts). Verse-les en pluie sur le tout.",
+        "Couvre, baisse à feu doux et cuis 1-2 min : l'œuf doit rester baveux (blanc pris, jaune coulant en surface). Coupe le feu — la chaleur résiduelle termine la cuisson.",
+        "Remplis 2 grands bols de riz chaud à mi-hauteur. Fais glisser le tonkatsu-oignon-œuf avec sa sauce par-dessus. Parsème de ciboule ciselée et mange immédiatement, à la cuillère."
+      ]
+    }
+  ]
+}

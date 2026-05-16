@@ -28,8 +28,12 @@ import {
 
 const ICONS: LucideIcon[] = [CookingPot, Utensils, Soup, ChefHat, Coffee];
 
-/** Palette stricte ocre + sauge */
-const COLORS = ["#C08552", "#A3B18A"] as const;
+/**
+ * Palette refonte v2 — cannelle douce (#D7CCC8) uniquement, monochrome.
+ * Le motif "papier peint" devient encore plus subtil pour ne pas concurrencer
+ * la nouvelle palette appétissante (oranges/jaunes saturés au premier plan).
+ */
+const COLORS = ["#D7CCC8"] as const;
 
 /**
  * Taille de cellule de référence — sur mobile 375 px de large : 5 colonnes
@@ -126,7 +130,9 @@ export function BackgroundDecor() {
               top: `${d.y}px`,
               left: `${d.x}px`,
               transform: "translate(-50%, -50%)",
-              opacity: 0.2,
+              // Opacity réduite de 0.20 → 0.12 pour laisser respirer la
+              // nouvelle palette appétissante au premier plan.
+              opacity: 0.12,
             }}
           />
         );

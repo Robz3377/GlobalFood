@@ -12,10 +12,10 @@ import { useRouter, usePathname } from "next/navigation";
 import { Search, X } from "lucide-react";
 import { clsx } from "clsx";
 import { normalize } from "@/lib/text";
-import type { Country } from "@/lib/types";
+import type { CountryIndex } from "@/lib/types-index";
 
 type Props = {
-  countries: Country[];
+  countries: CountryIndex[];
   className?: string;
 };
 
@@ -66,7 +66,7 @@ export function SearchBar({ countries, className }: Props) {
     setActive(0);
   }, [matches.length]);
 
-  function pick(country: Country) {
+  function pick(country: CountryIndex) {
     setOpen(false);
     setQuery("");
     inputRef.current?.blur();
@@ -182,7 +182,7 @@ export function SearchBar({ countries, className }: Props) {
                       {c.name}
                     </span>
                     <span className="text-xs text-ink-soft flex-none">
-                      {c.recipes.length} recettes
+                      {c.recipeSlugs.length} recettes
                     </span>
                   </button>
                 </li>

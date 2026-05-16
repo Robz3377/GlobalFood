@@ -3,11 +3,14 @@ import { Suspense } from "react";
 import { Globe2, Sparkles, ChevronRight } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { WorldMapClient } from "@/components/map/WorldMapClient";
-import { getAllCountries } from "@/lib/data";
+import { getCountriesIndex } from "@/lib/data";
 
 export default function Home() {
-  const countries = getAllCountries();
-  const recipeCount = countries.reduce((acc, c) => acc + c.recipes.length, 0);
+  const countries = getCountriesIndex();
+  const recipeCount = countries.reduce(
+    (acc, c) => acc + c.recipeSlugs.length,
+    0
+  );
 
   return (
     <main className="flex-1">
@@ -98,7 +101,7 @@ export default function Home() {
                         strokeWidth={2}
                         aria-hidden
                       />
-                      {c.recipes.length}
+                      {c.recipeSlugs.length}
                     </span>
                     <ChevronRight
                       className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"

@@ -101,10 +101,19 @@ export function RecipeBody({ country, recipe }: Props) {
       ? recipe.commisIngredients ?? recipe.ingredients
       : recipe.ingredients;
 
-  // Parcours séquentiel — l'état n'est PAS persisté : chaque visite force
-  // l'utilisateur à reconfirmer son mode (= déclencheur de "rituel cuisine").
-  // Les recettes sans variante Commis affichent tout dès le départ (step 2).
-  const [step, setStep] = useState<FlowStep>(hasCommisMode ? 0 : 2);
+  // Parcours séquentiel — l'état est désormais PERSISTÉ en localStorage
+  // (clé globale, pas par recette). Un utilisateur qui a déjà validé son
+  // mode sur n'importe quelle recette retombe directement à l'étape où il
+  // s'était arrêté la dernière fois. La friction "re-cliquer à chaque
+  // visite" devient inexistante pour les utilisateurs récurrents.
+  // Pour les recettes sans variante Commis, on force step=2 (tout visible)
+  // indépendamment de ce qui est stocké.
+  const [storedStep, setStoredStep] = useLocalStorage<FlowStep>(
+    "mapandfork.recipe-flow-step",
+    hasCommisMode ? 0 : 2
+  );
+  const step: FlowStep = hasCommisMode ? storedStep : 2;
+  const setStep = setStoredStep;
   const ingredientsRevealed = step >= 1;
   const stepsRevealed = step >= 2;
 
@@ -219,14 +228,27 @@ export function RecipeBody({ country, recipe }: Props) {
             <div className="flex flex-col gap-5">
               <StepsModeToggle mode={mode} onChange={setStoredMode} />
               {step === 0 ? (
-                <button
-                  type="button"
-                  onClick={() => setStep(1)}
-                  className="self-stretch md:self-start inline-flex items-center justify-center gap-2 rounded-full bg-terracotta text-bone font-semibold px-6 py-3 shadow-warm hover:bg-terracotta-deep active:scale-95 transition-all"
-                >
-                  Valider — voir les ingrédients
-                  <ArrowRight className="h-4 w-4" strokeWidth={2.25} aria-hidden />
-                </button>
+                <div className="flex flex-col gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setStep(1)}
+                    className="self-stretch md:self-start inline-flex items-center justify-center gap-2 rounded-full bg-terracotta text-bone font-semibold px-6 py-3 shadow-warm hover:bg-terracotta-deep active:scale-95 transition-all"
+                  >
+                    Valider — voir les ingrédients
+                    <ArrowRight className="h-4 w-4" strokeWidth={2.25} aria-hidden />
+                  </button>
+                  {/* Escape hatch pour cuisiniers pressés : saute directement à
+                      l'étape 2 (ingrédients + étapes visibles). Discret pour
+                      ne pas casser l'incitation au parcours guidé, mais
+                      accessible aux récurrents qui savent ce qu'ils font. */}
+                  <button
+                    type="button"
+                    onClick={() => setStep(2)}
+                    className="self-stretch md:self-start text-sm text-ink-soft hover:text-terracotta underline underline-offset-4 transition-colors py-1"
+                  >
+                    Sauter — tout afficher d&rsquo;un coup
+                  </button>
+                </div>
               ) : (
                 <p className="text-sm text-sage flex items-center gap-2">
                   <span aria-hidden>✓</span>

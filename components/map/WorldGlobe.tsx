@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { feature } from "topojson-client";
 import * as THREE from "three";
 import { COUNTRY_COORDS } from "@/lib/coords";
-import type { Country } from "@/lib/types";
+import type { CountryIndex } from "@/lib/types-index";
 
 type GeoFeature = {
   type: "Feature";
@@ -40,7 +40,7 @@ type CountryLabel = {
 };
 
 type Props = {
-  countries: Country[];
+  countries: CountryIndex[];
   focusSlug?: string | null;
   onFocusComplete?: (slug: string) => void;
 };
@@ -77,7 +77,7 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
 
   const [features, setFeatures] = useState<GeoFeature[]>([]);
   const [size, setSize] = useState({ w: 800, h: 520 });
-  const [hovered, setHovered] = useState<Country | null>(null);
+  const [hovered, setHovered] = useState<CountryIndex | null>(null);
   const [ready, setReady] = useState(false);
   /**
    * Opacité des labels gérée en IMPERATIF (via CSS var) plutôt qu'en state
@@ -87,7 +87,7 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
   const lastLabelOpacityRef = useRef<number>(0);
 
   const byIso = useMemo(() => {
-    const m = new Map<string, Country>();
+    const m = new Map<string, CountryIndex>();
     for (const c of countries) m.set(c.isoNumeric, c);
     return m;
   }, [countries]);
@@ -169,7 +169,7 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
     return el;
   }
 
-  function getCountryFor(d: GeoFeature | null | undefined): Country | undefined {
+  function getCountryFor(d: GeoFeature | null | undefined): CountryIndex | undefined {
     if (!d || d.id === undefined || d.id === null) return undefined;
     const id = String(d.id).padStart(3, "0");
     return byIso.get(id);
@@ -309,8 +309,8 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           polygonLabel={(d: object) => {
             const c = getCountryFor(d as GeoFeature);
             if (!c) return "";
-            const recipes = `${c.recipes.length} recette${
-              c.recipes.length > 1 ? "s" : ""
+            const recipes = `${c.recipeSlugs.length} recette${
+              c.recipeSlugs.length > 1 ? "s" : ""
             }`;
             return `
               <div style="

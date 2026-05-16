@@ -1,7 +1,7 @@
 import { Stamp } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { PassportGrid } from "@/components/passport/PassportGrid";
-import { getAllCountries } from "@/lib/data";
+import { getCountriesIndex } from "@/lib/data";
 
 export const metadata = {
   title: "Passeport Culinaire — Map and Fork",
@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 export default function PasseportPage() {
-  const countries = getAllCountries();
+  const countries = getCountriesIndex();
   return (
     <main className="flex-1">
       {/* Hero "carnet de voyage" — grain papier sobre ocre/sage */}

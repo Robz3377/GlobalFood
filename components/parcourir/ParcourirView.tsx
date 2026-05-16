@@ -4,9 +4,13 @@ import { useMemo, useState } from "react";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { DietFilter, recipeMatchesDiets } from "@/components/ui/DietFilter";
 import { normalize } from "@/lib/text";
-import type { Country, Diet, Recipe } from "@/lib/types";
+import type { Diet } from "@/lib/types";
+import type { RecipeIndex } from "@/lib/types-index";
 
-type Item = { country: Country; recipe: Recipe };
+type Item = {
+  country: { slug: string; name: string; flag: string };
+  recipe: RecipeIndex;
+};
 
 export function ParcourirView({ items }: { items: Item[] }) {
   const [diets, setDiets] = useState<Diet[]>([]);

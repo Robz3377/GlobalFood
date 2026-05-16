@@ -7,8 +7,10 @@ import type { MetadataRoute } from "next";
  * <head> via un <link rel="manifest"> injecté.
  *
  * Couleurs alignées sur le design system Tailwind v4 (cf. app/globals.css) :
- * - background_color: --color-bone (#FAF7F2) pour le splash screen iOS/Android
- * - theme_color: --color-terracotta (#C65D3A) pour la barre d'URL Safari/Chrome
+ * - background_color: --color-bone (#FFFDF5) — ivoire chaud pour splash iOS/Android
+ * - theme_color: --color-terracotta (#E65100) — orange brûlé vif pour la barre URL
+ *   Safari/Chrome (psychologie de l'appétit : oranges saturés stimulent la
+ *   salivation).
  *
  * En attendant la génération d'icônes 192/512 dédiées (recommandé par les guides
  * PWA), on utilise le PNG du logo source qui sert aussi de favicon principal.
@@ -23,8 +25,8 @@ export default function manifest(): MetadataRoute.Manifest {
     scope: "/",
     display: "standalone",
     orientation: "portrait-primary",
-    background_color: "#FAF7F2",
-    theme_color: "#C65D3A",
+    background_color: "#FFFDF5",
+    theme_color: "#E65100",
     lang: "fr",
     categories: ["food", "lifestyle", "travel"],
     icons: [

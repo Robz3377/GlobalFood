@@ -6,7 +6,6 @@ import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
 import { BackgroundDecor } from "@/components/layout/BackgroundDecor";
 import { SurpriseButton } from "@/components/surprise/SurpriseButton";
-import { getAllRecipes } from "@/lib/data";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -81,15 +80,16 @@ export const viewport: Viewport = {
   initialScale: 1,
   viewportFit: "cover",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FAF7F2" },
-    { media: "(prefers-color-scheme: dark)", color: "#C65D3A" },
+    // Refonte v2 — palette appétissante. Light = ivoire chaud, dark = orange
+    // brûlé vif (psychologie de l'appétit : oranges saturés salivants).
+    { media: "(prefers-color-scheme: light)", color: "#FFFDF5" },
+    { media: "(prefers-color-scheme: dark)", color: "#E65100" },
   ],
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  const recipes = getAllRecipes();
   return (
     <html
       lang="fr"
@@ -100,7 +100,10 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <SurpriseButton recipes={recipes} />
+        {/* SurpriseButton est autonome — fetch /api/random-recipe au clic.
+            Aucune donnée embarquée au chargement initial (économie ~454 KB
+            sur le RSC payload de chaque route). */}
+        <SurpriseButton />
         <BottomNav />
       </body>
     </html>

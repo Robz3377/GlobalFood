@@ -1,7 +1,7 @@
 import { Refrigerator } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { FridgeFinder } from "@/components/fridge/FridgeFinder";
-import { getAllRecipes } from "@/lib/data";
+import { getAllRecipesIndex, getCountriesIndex } from "@/lib/data";
 
 export const metadata = {
   title: "Mon Frigo — Map and Fork",
@@ -10,7 +10,18 @@ export const metadata = {
 };
 
 export default function MonFrigoPage() {
-  const recipes = getAllRecipes();
+  // Index allégé — le matching utilise `ingredientNames` (union Chef + Commis
+  // aplatie), donc inutile de charger les Ingredient[] complets.
+  const recipes = getAllRecipesIndex();
+  const countries = getCountriesIndex();
+  const countryBySlug = new Map(countries.map((c) => [c.slug, c]));
+  const items = recipes.map((r) => {
+    const c = countryBySlug.get(r.countrySlug)!;
+    return {
+      country: { slug: c.slug, name: c.name, flag: c.flag },
+      recipe: r,
+    };
+  });
   return (
     <main className="flex-1">
       {/* Hero chaleureux ochre — palette "épices" */}
@@ -36,7 +47,7 @@ export default function MonFrigoPage() {
       </section>
 
       <section className="mx-auto max-w-5xl px-4 md:px-6 pb-20">
-        <FridgeFinder recipes={recipes} />
+        <FridgeFinder recipes={items} />
       </section>
     </main>
   );
