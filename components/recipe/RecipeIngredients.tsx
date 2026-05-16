@@ -147,7 +147,9 @@ export function RecipeIngredients({
               className="flex items-center justify-between gap-3 px-4 md:px-5 py-3"
             >
               <span className="flex items-center gap-3 min-w-0">
-                {/* Pastille de catégorie — lecture instantanée du plat */}
+                {/* Pastille de catégorie — lecture instantanée du plat.
+                    Si la catégorie a un composant Lucide (ex: Egg pour les
+                    œufs), il est rendu en vectoriel ; sinon fallback emoji. */}
                 <span
                   aria-hidden
                   className={clsx(
@@ -156,7 +158,14 @@ export function RecipeIngredients({
                   )}
                   title={cat.category}
                 >
-                  {cat.icon}
+                  {cat.lucide ? (
+                    <cat.lucide
+                      className="h-5 w-5 text-ink"
+                      strokeWidth={1.75}
+                    />
+                  ) : (
+                    cat.icon
+                  )}
                 </span>
                 <span className="text-ink text-base leading-snug">
                   {ing.name}

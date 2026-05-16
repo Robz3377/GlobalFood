@@ -2,7 +2,18 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BookOpen, ChefHat, ChevronDown, Clock, Flame, Minus, Plus } from "lucide-react";
+import {
+  ArrowRight,
+  BookOpen,
+  ChefHat,
+  ChevronDown,
+  Clock,
+  Flame,
+  ListChecks,
+  Minus,
+  Plus,
+  ShoppingBasket,
+} from "lucide-react";
 import { clsx } from "clsx";
 import { Badge } from "@/components/ui/Badge";
 import { useLocalStorage } from "@/lib/hooks/useLocalStorage";
@@ -16,6 +27,18 @@ const STEPS_MODE_LEGACY_KEY = "global-food.steps-mode";
 
 const SERVINGS_MIN = 1;
 const SERVINGS_MAX = 12;
+
+/**
+ * Étapes du parcours séquentiel sur la page recette (recettes ayant la
+ * variante Commis) :
+ * - 0 : choix de la brigade. Ingrédients + préparation masqués.
+ * - 1 : ingrédients révélés. Préparation masquée.
+ * - 2 : préparation révélée. Tout le contenu est visible.
+ *
+ * Les recettes sans variante Commis sautent ce parcours (rendu legacy
+ * direct, identique à avant).
+ */
+type FlowStep = 0 | 1 | 2;
 
 const dietLabels: Record<string, string> = {
   vegan: "Vegan",
@@ -75,6 +98,13 @@ export function RecipeBody({ country, recipe }: Props) {
     mode === "commis"
       ? recipe.commisIngredients ?? recipe.ingredients
       : recipe.ingredients;
+
+  // Parcours séquentiel — l'état n'est PAS persisté : chaque visite force
+  // l'utilisateur à reconfirmer son mode (= déclencheur de "rituel cuisine").
+  // Les recettes sans variante Commis affichent tout dès le départ (step 2).
+  const [step, setStep] = useState<FlowStep>(hasCommisMode ? 0 : 2);
+  const ingredientsRevealed = step >= 1;
+  const stepsRevealed = step >= 2;
 
   function dec() {
     setServings((v) => Math.max(SERVINGS_MIN, v - 1));
@@ -164,38 +194,129 @@ export function RecipeBody({ country, recipe }: Props) {
         </section>
       )}
 
-      {/* INGRÉDIENTS — feuille de carnet posée sur le fond topographique.
-          Padding généreux pour aérer le texte du bord de la "feuille". */}
-      <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14">
-        <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
-          <RecipeIngredients
-            ingredients={activeIngredients}
-            servings={servings}
-            baseline={baseline}
-            collapsible
-          />
-        </div>
-      </section>
-
-      {/* PRÉPARATION — feuille de carnet jumelle, magazine drop-cap serif */}
-      <section className="mx-auto max-w-3xl px-4 md:px-6 mt-6 md:mt-8 pb-24">
-        <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
-          <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-baseline gap-3">
-              <h2 className="font-serif text-3xl md:text-4xl font-semibold">
-                Préparation
-              </h2>
-              <span className="font-serif italic text-sm text-ink-soft">
-                {activeSteps.length} étapes
+      {/* === ÉTAPE 1 — CHOIX DU MODE (BRIGADE) ===
+          Affiché uniquement si la recette propose la variante Commis. Sinon
+          on saute direct aux ingrédients. Le composant gate le reste du
+          parcours : tant que l'utilisateur n'a pas confirmé sa brigade,
+          ni les ingrédients ni les étapes ne sont rendus. */}
+      {hasCommisMode && (
+        <section className="mx-auto max-w-3xl px-4 md:px-6 mt-10 md:mt-14">
+          <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
+            <header className="mb-5 md:mb-6">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-terracotta/10 text-terracotta-deep px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em]">
+                Étape 1 · Choisis ta brigade
               </span>
-            </div>
-            {hasCommisMode && (
+              <h2 className="mt-3 font-serif text-3xl md:text-4xl font-semibold leading-tight">
+                Comment tu cuisines aujourd&rsquo;hui&nbsp;?
+              </h2>
+              <p className="mt-2 text-ink-soft text-base leading-relaxed">
+                Chaque mode adapte la liste d&rsquo;ingrédients ET les étapes
+                de préparation. Tu pourras changer d&rsquo;avis à tout moment.
+              </p>
+            </header>
+            <div className="flex flex-col gap-5">
               <StepsModeToggle mode={mode} onChange={setStoredMode} />
+              {step === 0 ? (
+                <button
+                  type="button"
+                  onClick={() => setStep(1)}
+                  className="self-stretch md:self-start inline-flex items-center justify-center gap-2 rounded-full bg-terracotta text-bone font-semibold px-6 py-3 shadow-warm hover:bg-terracotta-deep active:scale-95 transition-all"
+                >
+                  Valider — voir les ingrédients
+                  <ArrowRight className="h-4 w-4" strokeWidth={2.25} aria-hidden />
+                </button>
+              ) : (
+                <p className="text-sm text-sage flex items-center gap-2">
+                  <span aria-hidden>✓</span>
+                  Mode validé. Tu peux toujours basculer ci-dessus.
+                </p>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* === ÉTAPE 2 — INGRÉDIENTS ===
+          Révélés après validation du mode (ou directement si pas de variante
+          Commis). Padding généreux pour aérer le texte du bord de la
+          "feuille". Un bouton de progression vers les étapes apparaît à la
+          fin de la liste tant que les étapes ne sont pas dévoilées. */}
+      {ingredientsRevealed && (
+        <section
+          id="ingredients"
+          className={clsx(
+            "mx-auto max-w-3xl px-4 md:px-6",
+            hasCommisMode ? "mt-6 md:mt-8" : "mt-10 md:mt-14"
+          )}
+        >
+          <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
+            {hasCommisMode && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-ochre/15 text-ochre px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] mb-4">
+                <ShoppingBasket className="h-3.5 w-3.5" strokeWidth={2} aria-hidden />
+                Étape 2 · Tes courses
+              </span>
             )}
-          </header>
-          <StepList steps={activeSteps} />
-        </div>
-      </section>
+            <RecipeIngredients
+              ingredients={activeIngredients}
+              servings={servings}
+              baseline={baseline}
+              collapsible
+            />
+            {hasCommisMode && !stepsRevealed && (
+              <div className="mt-8 pt-6 border-t border-bone-deep flex flex-col gap-3">
+                <p className="text-sm text-ink-soft">
+                  Tu as tout sous la main&nbsp;? Passe à la préparation.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setStep(2)}
+                  className="self-stretch md:self-start inline-flex items-center justify-center gap-2 rounded-full bg-terracotta text-bone font-semibold px-6 py-3 shadow-warm hover:bg-terracotta-deep active:scale-95 transition-all"
+                >
+                  Voir les étapes de préparation
+                  <ArrowRight className="h-4 w-4" strokeWidth={2.25} aria-hidden />
+                </button>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* === ÉTAPE 3 — PRÉPARATION ===
+          Dernière étape du parcours. Feuille de carnet jumelle, drop-cap
+          serif. Toggle Brigade rappelé dans le header pour permettre une
+          bascule rapide pendant la lecture (les étapes se mettent à jour
+          instantanément). */}
+      {stepsRevealed && (
+        <section
+          id="preparation"
+          className="mx-auto max-w-3xl px-4 md:px-6 mt-6 md:mt-8 pb-24"
+        >
+          <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
+            <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
+              <div>
+                {hasCommisMode && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-sage/20 text-sage px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] mb-2">
+                    <ListChecks className="h-3.5 w-3.5" strokeWidth={2} aria-hidden />
+                    Étape 3 · À la casserole
+                  </span>
+                )}
+                <div className="flex items-baseline gap-3">
+                  <h2 className="font-serif text-3xl md:text-4xl font-semibold">
+                    Préparation
+                  </h2>
+                  <span className="font-serif italic text-sm text-ink-soft">
+                    {activeSteps.length} étapes
+                  </span>
+                </div>
+              </div>
+              {hasCommisMode && (
+                <StepsModeToggle mode={mode} onChange={setStoredMode} />
+              )}
+            </header>
+            <StepList steps={activeSteps} />
+          </div>
+        </section>
+      )}
     </>
   );
 }

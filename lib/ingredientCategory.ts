@@ -1,14 +1,22 @@
 /**
  * Catégorisation d'ingrédients par mots-clés.
  *
- * Renvoie un emoji + une catégorie pour chaque ingrédient en fonction de son
- * nom. Utilisé par RecipeIngredients pour afficher une icône à gauche de
- * chaque ligne — la composition du plat devient lisible d'un seul coup d'œil.
+ * Renvoie un emoji (ou une icône Lucide) + une catégorie pour chaque
+ * ingrédient en fonction de son nom. Utilisé par RecipeIngredients pour
+ * afficher une icône à gauche de chaque ligne — la composition du plat
+ * devient lisible d'un seul coup d'œil.
  *
  * Logique : matching par regex avec priorité (la première règle qui matche
  * gagne). L'ordre est important : les règles spécifiques (épices, herbes,
  * alcool) passent avant les règles génériques (liquide).
+ *
+ * Notes Unicode : la ligature `Œ`/`œ` (U+0152/U+0153) n'est PAS reconnue
+ * comme un word-character par `\w` en JS, donc `\bŒufs\b` échoue. Les règles
+ * impliquant ces ligatures utilisent des lookbehind/lookahead Unicode
+ * (`(?<!\p{L})`/`(?!\p{L})`) avec le flag `u` pour matcher correctement.
  */
+
+import { Egg, type LucideIcon } from "lucide-react";
 
 export type IngredientCategory =
   | "viande"
@@ -29,18 +37,30 @@ export type IngredientCategory =
 
 export type CategoryInfo = {
   category: IngredientCategory;
+  /** Emoji utilisé par défaut (fallback si pas de composant Lucide). */
   icon: string;
+  /**
+   * Icône Lucide optionnelle. Si présente, RecipeIngredients la rend à la
+   * place de l'emoji (rendu plus fin, vectoriel, aligné au reste de l'UI).
+   */
+  lucide?: LucideIcon;
   /** Couleur Tailwind utilisée pour la pastille de fond de l'icône */
   bgClass: string;
 };
 
-const CATEGORIES: Record<IngredientCategory, { icon: string; bgClass: string }> = {
+const CATEGORIES: Record<
+  IngredientCategory,
+  { icon: string; bgClass: string; lucide?: LucideIcon }
+> = {
   viande: { icon: "🥩", bgClass: "bg-terracotta/15" },
   poisson: { icon: "🐟", bgClass: "bg-sage/20" },
   legume: { icon: "🥦", bgClass: "bg-sage-soft/70" },
   fruit: { icon: "🍋", bgClass: "bg-ochre-soft/60" },
   fromage: { icon: "🧀", bgClass: "bg-bone-deep" },
-  oeuf: { icon: "🥚", bgClass: "bg-ochre-soft/50" },
+  // Œufs : icône Lucide `Egg` (le fallback `\b` JS rate la ligature Œ ; le
+  // rendu vectoriel garantit aussi un alignement parfait avec les autres
+  // icônes UI lorsque l'item s'affiche dans la liste Commis).
+  oeuf: { icon: "🥚", lucide: Egg, bgClass: "bg-ochre-soft/50" },
   cereale: { icon: "🌾", bgClass: "bg-ochre/15" },
   epice: { icon: "🧂", bgClass: "bg-terracotta-soft/40" },
   herbe: { icon: "🌿", bgClass: "bg-sage-soft/70" },
@@ -65,7 +85,13 @@ const RULES: Array<[RegExp, IngredientCategory]> = [
   [/\b(vin (rouge|blanc|de bourgogne|de cuisine)?|cognac|marc|marsala|grand marnier|amaretto|ouzo|pastis|cachaça|sake|shaoxing|mirin|saké)\b/i, "alcool"],
 
   // === ŒUF (avant fromage/laitier qui peut contenir le mot "œuf battu") ===
-  [/\b(œufs?|oeufs?|jaunes? d'?œuf|blancs? d'?œuf|jaune ?d'?oeuf)\b/i, "oeuf"],
+  // Lookbehind/lookahead Unicode (`\p{L}` + flag `u`) car la ligature `Œ`
+  // n'est pas reconnue par `\b` (qui se base sur `\w` ASCII). Sans ça,
+  // "Œufs entiers" ne matche pas et tombe en catégorie "autre".
+  [
+    /(?<!\p{L})(?:œufs?|oeufs?|jaunes? d['']?(?:œuf|oeuf)s?|blancs? d['']?(?:œuf|oeuf)s?)(?!\p{L})/iu,
+    "oeuf",
+  ],
 
   // === HERBES FRAÎCHES (avant épices — la coriandre fraîche est herbe, pas épice) ===
   [/\b(coriandre|persil|basilic|menthe|aneth|thym|romarin|laurier|estragon|cerfeuil|ciboule|ciboulette|pandan|mitsuba|oignon vert|negi|sauge|origan)\b/i, "herbe"],
@@ -103,6 +129,8 @@ const RULES: Array<[RegExp, IngredientCategory]> = [
 
 /**
  * Catégorise un ingrédient par son nom et renvoie l'icône + la classe de fond.
+ * Si la catégorie a un composant Lucide enregistré (ex: `Egg` pour œufs), il
+ * est exposé via la clé `lucide`, sinon seul l'emoji `icon` est fourni.
  * Fallback: "autre" (point neutre).
  */
 export function categorizeIngredient(name: string): CategoryInfo {
