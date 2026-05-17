@@ -22,7 +22,8 @@
         "autumn"
       ],
       "events": [
-        "diwali"
+        "diwali",
+        "holi"
       ],
       "ingredients": [
         {
@@ -215,7 +216,8 @@
         "autumn"
       ],
       "events": [
-        "diwali"
+        "diwali",
+        "holi"
       ],
       "ingredients": [
         {
@@ -701,7 +703,8 @@
         "winter"
       ],
       "events": [
-        "diwali"
+        "diwali",
+        "holi"
       ],
       "ingredients": [
         {
@@ -1032,6 +1035,9 @@
         "Ajoute le thé (sachets ou feuilles directement dans la casserole). Laisse infuser 3 min à frémissement — le mélange prend une belle couleur brun caramel.",
         "Ajoute le sucre roux, mélange. Goûte et rectifie selon ton goût (les Indiens le boivent assez sucré, mais c'est à toi de voir).",
         "Coupe le feu. Filtre le chai à la passoire fine directement dans des tasses ou des verres épais. Sers brûlant — c'est la base du goûter dans toute l'Inde."
+      ],
+      "events": [
+        "holi"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -124,6 +124,27 @@ export function RecipeBody({ country, recipe }: Props) {
     setServings((v) => Math.min(SERVINGS_MAX, v + 1));
   }
 
+  // === STICKY HEADER DYNAMIQUE ===
+  // Le sticky bar (Prép./Cuisson/Portions) reste en place ; quand le titre
+  // h1 sort de la vue (l'utilisateur a scrollé au-delà de la carte titre),
+  // on swap son contenu pour afficher le NOM DE LA RECETTE à la place. Ça
+  // donne un contexte permanent sur mobile sans gaspiller de surface.
+  // Implémentation IntersectionObserver : zéro re-render par scroll.
+  const titleRef = useRef<HTMLHeadingElement | null>(null);
+  const [titleInView, setTitleInView] = useState(true);
+  useEffect(() => {
+    const el = titleRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setTitleInView(entry.isIntersecting),
+      // rootMargin top négatif = on considère le titre "sorti" dès qu'il
+      // passe sous la sticky bar (~ 64px header + 60px sticky bar).
+      { rootMargin: "-130px 0px 0px 0px", threshold: 0 }
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
+
   return (
     <>
       {/* TITRE — débordant le hero, façon magazine, avec badge pays intégré */}
@@ -142,7 +163,10 @@ export function RecipeBody({ country, recipe }: Props) {
           <p className="font-serif italic text-sm text-ink-soft mt-3 mb-2">
             Cuisine {country.name.toLowerCase()}
           </p>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight">
+          <h1
+            ref={titleRef}
+            className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight"
+          >
             {recipe.title}
           </h1>
           {recipe.diets.length > 0 && (
@@ -157,20 +181,54 @@ export function RecipeBody({ country, recipe }: Props) {
         </div>
       </section>
 
-      {/* STICKY INFO BAR — interactive : prép / cuisson / portions ± */}
+      {/* STICKY INFO BAR — DYNAMIQUE selon la position de scroll :
+          • Quand le titre h1 est visible (haut de page) → bar large avec
+            Prép. / Cuisson / Portions ± (mode "interactif")
+          • Quand le titre est sorti (scroll vers ingrédients/étapes) → bar
+            compacte affichant le nom de la recette + portions, libère de
+            la surface de lecture sur mobile (Axe 5 v2.2).
+          La transition opacity+max-height est gérée en CSS pur. */}
       <div className="sticky top-[calc(env(safe-area-inset-top)+4rem)] z-20 mt-6 md:mt-8">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
-          <div className="grid grid-cols-3 items-center gap-1 rounded-full bg-white/95 backdrop-blur shadow-warm p-1.5 border border-bone-deep">
-            <StickyStat icon={Clock} label="Prép." value={`${recipe.prepTime}'`} />
-            <StickyStat icon={Flame} label="Cuisson" value={`${recipe.cookTime}'`} />
-            <PortionsControl
-              value={servings}
-              baseline={baseline}
-              onDec={dec}
-              onInc={inc}
-            />
+          <div
+            className={clsx(
+              "relative rounded-full bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden transition-all duration-300 ease-out",
+              // En mode compact (titre hors vue), on resserre légèrement la
+              // hauteur globale (perd les chiffres décoratifs serif xl).
+              titleInView ? "p-1.5" : "p-1"
+            )}
+          >
+            {titleInView ? (
+              // MODE LARGE — page haute, focus sur les meta interactives.
+              <div className="grid grid-cols-3 items-center gap-1">
+                <StickyStat icon={Clock} label="Prép." value={`${recipe.prepTime}'`} />
+                <StickyStat icon={Flame} label="Cuisson" value={`${recipe.cookTime}'`} />
+                <PortionsControl
+                  value={servings}
+                  baseline={baseline}
+                  onDec={dec}
+                  onInc={inc}
+                />
+              </div>
+            ) : (
+              // MODE COMPACT — page basse, focus sur le nom du plat lu.
+              <div className="flex items-center gap-3 px-3 py-2 min-w-0">
+                <span aria-hidden className="text-lg leading-none shrink-0">
+                  {country.flag}
+                </span>
+                <h2 className="font-serif text-sm md:text-base font-semibold text-ink leading-tight truncate flex-1 min-w-0">
+                  {recipe.title}
+                </h2>
+                <PortionsControl
+                  value={servings}
+                  baseline={baseline}
+                  onDec={dec}
+                  onInc={inc}
+                />
+              </div>
+            )}
           </div>
-          {totalTime >= 60 && (
+          {titleInView && totalTime >= 60 && (
             <p className="mt-2 text-center text-xs text-ink-soft">
               Temps total ≈{" "}
               <strong className="font-medium text-ink">

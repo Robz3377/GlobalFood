@@ -22,7 +22,8 @@
         "summer"
       ],
       "events": [
-        "cinco-de-mayo"
+        "cinco-de-mayo",
+        "dia-de-los-muertos"
       ],
       "ingredients": [
         {
@@ -373,7 +374,8 @@
         "winter"
       ],
       "events": [
-        "cinco-de-mayo"
+        "cinco-de-mayo",
+        "dia-de-los-muertos"
       ],
       "ingredients": [
         {
@@ -777,6 +779,9 @@
         "Dans une autre poêle, fais chauffer 1 c.s. d'huile. Plonge chaque tortilla 10 s par face juste pour la ramollir (sinon elle craque au pliage). Égoutte sur du papier absorbant.",
         "Verse un peu de sauce verte au fond d'un plat à gratin. Garnis chaque tortilla d'1 c.s. bombée de farce poulet, enroule en cigare et pose côté soudure vers le bas dans le plat. Continue jusqu'à remplir.",
         "Nappe les enchiladas du reste de sauce verte. Verse des filets de crème fraîche par-dessus puis saupoudre généreusement de feta émiettée. Enfourne 15 min jusqu'à ce que ça gratine. Parsème d'oignon et coriandre frais. Sers immédiatement."
+      ],
+      "events": [
+        "dia-de-los-muertos"
       ]
     },
     {
@@ -943,6 +948,9 @@
         "Garnis chaque poivron de mozzarella râpée bien tassée (~60 g par poivron). Referme délicatement — le poivron grillé est suffisamment souple pour tenir tout seul, sans cure-dent.",
         "Pose 3 assiettes : farine / œufs battus dans un grand bol / une assiette vide pour réserver. Roule chaque poivron farci dans la farine en tapotant l'excédent, puis trempe-le entièrement dans les œufs battus.",
         "Chauffe 2 c.s. d'huile dans une grande poêle à feu moyen-vif. Pose les poivrons enrobés et fais-les dorer 2 min par côté, en les retournant délicatement à la spatule. Égoutte sur du papier absorbant. Sers immédiatement nappé de la sauce tomate chaude (ou avec la sauce dans une assiette à côté)."
+      ],
+      "events": [
+        "dia-de-los-muertos"
       ]
     }
   ]

@@ -75,10 +75,16 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
           ratio: matched.size / tags.length,
         };
       })
-      .filter((r) => r.matches.length > 0)
+      // === LOGIQUE EXCLUSIVE PAR INTERSECTION (AND) ===
+      // Une recette n'apparaît QUE si TOUS les ingrédients saisis sont
+      // présents dans sa liste (intersection complète). Si l'utilisateur
+      // saisit "tomate" + "oignon", seules les recettes contenant les
+      // deux apparaissent — pas celles avec un seul des deux.
+      // Tri ensuite par sobriété (recette avec le moins d'ingrédients
+      // total = plus pure / plus ciblée sur ce que l'utilisateur a).
+      .filter((r) => r.matches.length === tags.length)
       .sort(
         (a, b) =>
-          b.ratio - a.ratio ||
           a.recipe.ingredientNames.length - b.recipe.ingredientNames.length
       );
   }, [tags, recipes, diets]);
@@ -160,30 +166,30 @@ export function FridgeFinder({ recipes }: { recipes: Item[] }) {
         <div className="rounded-soft-lg bg-paper-card p-10 text-center">
           <p className="font-serif text-2xl font-semibold">Aucune correspondance</p>
           <p className="mt-2 text-sm text-ink-soft">
-            Essayez avec d'autres ingrédients ou retirez-en certains.
+            Aucune recette ne contient TOUS ces ingrédients à la fois. Essayez
+            d&rsquo;en retirer certains pour élargir les résultats.
           </p>
         </div>
       ) : (
         <div className="space-y-4">
-          <div className="flex items-baseline justify-between">
+          <div className="flex items-baseline justify-between gap-3">
             <h2 className="font-serif text-2xl font-semibold">
-              {scored.length} recette{scored.length > 1 ? "s" : ""} trouvée
-              {scored.length > 1 ? "s" : ""}
+              {scored.length} recette{scored.length > 1 ? "s" : ""} contenant
+              tous vos ingrédients
             </h2>
-            <span className="text-sm text-ink-soft">triées par pertinence</span>
+            <span className="text-sm text-ink-soft shrink-0">
+              triées : les plus simples d&rsquo;abord
+            </span>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {scored.map((s) => (
               <div key={`${s.country.slug}-${s.recipe.slug}`} className="space-y-2">
                 <RecipeCard country={s.country} recipe={s.recipe} />
-                <div className="px-1 text-xs">
-                  <span className="font-medium text-sage">
-                    {s.matches.length} / {tags.length} ingrédient
-                    {tags.length > 1 ? "s" : ""}
-                  </span>
-                  <span className="text-ink-soft">
+                <div className="px-1 text-xs text-ink-soft">
+                  <span className="font-medium text-sage">✓ tous présents</span>
+                  <span>
                     {" "}
-                    · trouvés : {s.matches.join(", ")}
+                    · {s.recipe.ingredientNames.length} ingrédients au total
                   </span>
                 </div>
               </div>

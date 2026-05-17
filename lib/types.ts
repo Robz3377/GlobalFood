@@ -13,7 +13,11 @@ export type CulturalEvent =
   | "bastille-day"
   | "carnaval"
   | "songkran"
-  | "orthodox-easter";
+  | "orthodox-easter"
+  // Nouveaux events v2.2 — couverture culturelle complète des 10 pays
+  | "holi" // Inde, fête des couleurs, mars
+  | "dia-de-los-muertos" // Mexique, 1-2 novembre
+  | "hanami"; // Japon, contemplation cerisiers en fleurs, fin mars/début avril
 
 export type Ingredient = {
   name: string;

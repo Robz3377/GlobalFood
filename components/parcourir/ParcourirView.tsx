@@ -37,23 +37,27 @@ export function ParcourirView({ items }: { items: Item[] }) {
 
   return (
     <>
+      {/* En-tête compact : filtres + lettres sur une SEULE rangée chacun.
+          Padding vertical réduit (py-1.5 au lieu de py-3) pour économiser
+          ~24px en haut de la liste et donner plus de place aux cartes. */}
       <section
-        className="mx-auto max-w-5xl px-6 pb-3 sticky top-16 z-20 bg-bone/90 backdrop-blur"
+        className="mx-auto max-w-5xl px-6 pb-1 sticky top-16 z-20 bg-bone/90 backdrop-blur"
         aria-label="Filtres et lettres"
       >
-        <div className="py-3 flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-bone-deep">
+        <div className="py-1.5 flex flex-wrap items-center gap-x-4 gap-y-1.5 border-b border-bone-deep">
           <DietFilter value={diets} onChange={setDiets} />
-          <span className="ml-auto text-sm text-ink-soft">
+          <span className="ml-auto text-[11px] text-ink-soft">
             {filtered.length} recette{filtered.length > 1 ? "s" : ""}
           </span>
         </div>
         {letters.length > 0 && (
-          <ul className="flex flex-wrap gap-2 py-3 border-b border-bone-deep">
+          <ul className="flex flex-wrap gap-1 py-1.5 border-b border-bone-deep">
             {letters.map((l) => (
               <li key={l}>
                 <a
                   href={`#letter-${l}`}
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-soft bg-white shadow-soft font-serif font-semibold text-ink hover:bg-sage-soft transition-colors"
+                  // Lettres réduites : 28×28 au lieu de 36×36, font-size base.
+                  className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-white shadow-soft font-serif text-sm font-semibold text-ink hover:bg-sage-soft transition-colors"
                 >
                   {l}
                 </a>
@@ -77,9 +81,10 @@ export function ParcourirView({ items }: { items: Item[] }) {
           <section
             id={`letter-${letter}`}
             key={letter}
-            className="mx-auto max-w-5xl px-6 py-8 scroll-mt-40"
+            className="mx-auto max-w-5xl px-6 py-5 scroll-mt-32"
           >
-            <h2 className="font-serif text-3xl font-semibold mb-5 text-terracotta">
+            {/* Lettre de section compacte : text-xl au lieu de text-3xl. */}
+            <h2 className="font-serif text-xl font-semibold mb-3 text-terracotta">
               {letter}
             </h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

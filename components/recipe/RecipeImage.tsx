@@ -13,10 +13,16 @@ type Props = {
   /** Above-the-fold image: load eagerly with high fetch priority. */
   priority?: boolean;
   /**
-   * Responsive sizes hint for the browser. Override per-caller for accurate
-   * srcset selection. Default targets 3-up grids on desktop.
+   * Responsive sizes hint for the browser. Override per-caller pour un
+   * srcset précis. Défaut visant les grilles 3-up sur desktop.
    */
   sizes?: string;
+  /**
+   * Qualité Next/Image (1-100). Élevée par défaut (88) pour valoriser le
+   * visuel — c'est l'élément principal d'une fiche recette. La taille
+   * AVIF/WebP reste raisonnable même à 88.
+   */
+  quality?: number;
 };
 
 const DEFAULT_SIZES =
@@ -29,13 +35,16 @@ export function RecipeImage({
   aspect,
   priority = false,
   sizes = DEFAULT_SIZES,
+  quality = 88,
 }: Props) {
   const [failed, setFailed] = useState(false);
 
   return (
     <div
       className={clsx(
-        "relative overflow-hidden bg-sage",
+        // Fond bone-deep plus neutre que sage (évite un flash vert pendant
+        // le chargement d'une photo plat qui sera majoritairement chaude).
+        "relative overflow-hidden bg-bone-deep",
         aspect,
         className
       )}
@@ -46,6 +55,7 @@ export function RecipeImage({
           alt={alt}
           fill
           sizes={sizes}
+          quality={quality}
           loading={priority ? "eager" : "lazy"}
           fetchPriority={priority ? "high" : "auto"}
           onError={() => setFailed(true)}

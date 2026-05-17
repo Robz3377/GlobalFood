@@ -24,17 +24,39 @@ type EventDef = {
   date: { month: number; day: number };
 };
 
+/**
+ * Calendrier culturel élargi v2.2 — couvre les 10 pays disponibles.
+ * Dates approximatives (les fêtes lunaires varient légèrement chaque
+ * année) ; pour un produit réel, brancher sur une vraie API de calendrier
+ * liturgique/lunaire.
+ *
+ * Mapping pays ↔ event :
+ *   🇨🇳 Chine    → chinese-new-year (févr)
+ *   🇧🇷 Brésil   → carnaval (févr/mars selon Mardi Gras)
+ *   🇲🇦 Maroc    → ramadan-end (mars selon hégire)
+ *   🇮🇳 Inde     → holi (mars) + diwali (oct/nov)
+ *   🇫🇷 France   → easter (avr) + bastille-day (juil)
+ *   🇬🇷 Grèce    → orthodox-easter (avr)
+ *   🇹🇭 Thaï     → songkran (avr, nouvel an thaï)
+ *   🇯🇵 Japon    → hanami (avr, cerisiers en fleurs)
+ *   🇲🇽 Mexique  → cinco-de-mayo (mai) + dia-de-los-muertos (nov)
+ *   🇮🇹 Italie   → ferragosto (août)
+ *   🌍 Universel → christmas (déc), easter (avr)
+ */
 const EVENTS: EventDef[] = [
   { id: "chinese-new-year", label: "Nouvel An Chinois", date: { month: 2, day: 17 } },
-  { id: "carnaval", label: "Carnaval (Brésil)", date: { month: 2, day: 14 } },
+  { id: "carnaval", label: "Carnaval de Rio (Brésil)", date: { month: 2, day: 14 } },
+  { id: "holi", label: "Holi — fête des couleurs (Inde)", date: { month: 3, day: 14 } },
   { id: "ramadan-end", label: "Aïd el-Fitr", date: { month: 3, day: 20 } },
+  { id: "hanami", label: "Hanami — cerisiers en fleurs (Japon)", date: { month: 4, day: 1 } },
   { id: "easter", label: "Pâques", date: { month: 4, day: 5 } },
-  { id: "orthodox-easter", label: "Pâques orthodoxe", date: { month: 4, day: 12 } },
-  { id: "songkran", label: "Songkran (Thaïlande)", date: { month: 4, day: 13 } },
-  { id: "cinco-de-mayo", label: "Cinco de Mayo", date: { month: 5, day: 5 } },
+  { id: "orthodox-easter", label: "Pâques orthodoxe (Grèce)", date: { month: 4, day: 12 } },
+  { id: "songkran", label: "Songkran — Nouvel An thaï (Thaïlande)", date: { month: 4, day: 13 } },
+  { id: "cinco-de-mayo", label: "Cinco de Mayo (Mexique)", date: { month: 5, day: 5 } },
   { id: "bastille-day", label: "Fête nationale française", date: { month: 7, day: 14 } },
-  { id: "ferragosto", label: "Ferragosto", date: { month: 8, day: 15 } },
-  { id: "diwali", label: "Diwali", date: { month: 11, day: 8 } },
+  { id: "ferragosto", label: "Ferragosto (Italie)", date: { month: 8, day: 15 } },
+  { id: "dia-de-los-muertos", label: "Día de los Muertos (Mexique)", date: { month: 11, day: 1 } },
+  { id: "diwali", label: "Diwali — fête des lumières (Inde)", date: { month: 11, day: 8 } },
   { id: "christmas", label: "Noël", date: { month: 12, day: 25 } },
 ];
 

@@ -22,8 +22,8 @@ export function DietFilter({
     onChange(value.includes(id) ? value.filter((d) => d !== id) : [...value, id]);
   }
   return (
-    <div className="flex flex-wrap items-center gap-2">
-      <span className="text-xs uppercase tracking-wider text-ink-soft mr-1">
+    <div className="flex flex-wrap items-center gap-1.5">
+      <span className="text-[10px] uppercase tracking-wider text-ink-soft mr-1">
         Régime :
       </span>
       {DIET_OPTIONS.map((opt) => {
@@ -35,13 +35,14 @@ export function DietFilter({
             onClick={() => toggle(opt.id)}
             aria-pressed={active}
             className={clsx(
-              "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium transition-colors border",
+              // Plus compact : padding réduit + text-[11px] au lieu de text-xs (12px)
+              "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-medium transition-colors border",
               active
                 ? "bg-sage text-bone border-sage shadow-soft"
                 : "bg-white text-ink border-bone-deep hover:border-sage hover:bg-sage-soft/40"
             )}
           >
-            <opt.icon className="h-3.5 w-3.5" strokeWidth={1.75} />
+            <opt.icon className="h-3 w-3" strokeWidth={1.75} />
             {opt.label}
           </button>
         );
@@ -50,7 +51,7 @@ export function DietFilter({
         <button
           type="button"
           onClick={() => onChange([])}
-          className="ml-1 text-xs text-ink-soft hover:text-terracotta-deep"
+          className="ml-1 text-[11px] text-ink-soft hover:text-terracotta-deep"
         >
           Effacer
         </button>
