@@ -10,7 +10,7 @@
     {
       "slug": "mapo-tofu",
       "title": "Mapo tofu",
-      "image": "/images/mapo-tofu-chine.jpg",
+      "image": "/images/mapo-tofu-chine.png",
       "prepTime": 20,
       "cookTime": 20,
       "servings": 3,
@@ -231,7 +231,7 @@
     {
       "slug": "canard-laque",
       "title": "Canard laqué pékinois",
-      "image": "/images/canard-laque-chine.jpg",
+      "image": "/images/canard-laque-pekinois-chine.png",
       "prepTime": 60,
       "cookTime": 90,
       "servings": 6,
@@ -633,7 +633,7 @@
     {
       "slug": "nouilles-dan-dan",
       "title": "Nouilles dan dan",
-      "image": "/images/nouilles-dan-dan-chine.jpg",
+      "image": "/images/nouilles-dan-dan-chine.png",
       "prepTime": 20,
       "cookTime": 15,
       "servings": 2,
@@ -829,7 +829,7 @@
     {
       "slug": "riz-cantonais",
       "title": "Riz cantonais",
-      "image": "/images/riz-cantonais-chine.jpg",
+      "image": "/images/riz-cantonais-chine.png",
       "prepTime": 15,
       "cookTime": 12,
       "servings": 4,

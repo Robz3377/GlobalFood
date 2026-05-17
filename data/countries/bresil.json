@@ -247,7 +247,7 @@
     {
       "slug": "moqueca",
       "title": "Moqueca de poisson",
-      "image": "/images/moqueca-bresil.jpg",
+      "image": "/images/mocequa-de-poisson-bresil.png",
       "prepTime": 30,
       "cookTime": 30,
       "servings": 4,
@@ -459,7 +459,7 @@
     {
       "slug": "pao-de-queijo",
       "title": "Pão de queijo",
-      "image": "/images/pao-de-queijo-bresil.jpg",
+      "image": "/images/pao-de-queijo-bresil.png",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 6,
@@ -808,7 +808,7 @@
     {
       "slug": "brigadeiros",
       "title": "Brigadeiros",
-      "image": "/images/brigadeiros-bresil.jpg",
+      "image": "/images/brigadeiros-bresil.png",
       "prepTime": 15,
       "cookTime": 18,
       "servings": 8,

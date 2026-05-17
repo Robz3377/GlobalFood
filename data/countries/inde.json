@@ -10,7 +10,7 @@
     {
       "slug": "butter-chicken",
       "title": "Butter Chicken",
-      "image": "/images/butter-chicken-inde.jpg",
+      "image": "/images/butter-chicken-inde.png",
       "prepTime": 30,
       "cookTime": 45,
       "servings": 4,
@@ -427,7 +427,7 @@
     {
       "slug": "biryani-agneau",
       "title": "Biryani d'agneau",
-      "image": "/images/biryani-agneau-inde.jpg",
+      "image": "/images/biryani-d-agneau-inde.png",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
@@ -691,7 +691,7 @@
     {
       "slug": "samosa-legumes",
       "title": "Samosas aux légumes",
-      "image": "/images/samosa-legumes-inde.jpg",
+      "image": "/images/samosas-aux-legumes-inde.png",
       "prepTime": 60,
       "cookTime": 25,
       "servings": 6,
@@ -910,7 +910,7 @@
     {
       "slug": "chai-masala",
       "title": "Chai masala",
-      "image": "/images/chai-masala-inde.jpg",
+      "image": "/images/chai-masala-inde.png",
       "prepTime": 5,
       "cookTime": 15,
       "servings": 4,

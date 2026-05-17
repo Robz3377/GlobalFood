@@ -1,23 +1,24 @@
 #!/usr/bin/env node
 /**
- * v2.5 — Cartographie auto des fichiers /public/images/*.jpg vers les
- * champs `image` des 50 recettes data/countries/*.json + data/index.json.
+ * v2.6 — Cartographie agnostique à l'extension.
+ *
+ * Changement vs v2.5 : on ne filtre plus sur .jpg. On lit TOUS les
+ * fichiers de /public/images/, on isole le nom de base via path.parse()
+ * pour le matching textuel, et on enregistre l'URL avec la VRAIE
+ * extension détectée sur disque (jpg, jpeg, png, webp, avif…).
  *
  * Stratégie de matching (par ordre de priorité décroissante) :
- *   1. Match exact `{slug-recette}-{slug-pays}.jpg`
- *   2. Match préfixe `{slug-recette}-...` (premier hit)
- *      → couvre `curry-vert-poulet` matché par `curry-vert-au-poulet.jpg`
- *   3. Table d'exceptions explicites pour les anomalies de naming
- *      (typos, accents conservés par l'user)
+ *   1. Exceptions explicites (typos / accents conservés par l'user)
+ *   2. Match exact `{slug-recette}-{slug-pays}` (nom de base)
+ *   3. Match préfixe `{slug-recette}-...`
  *   4. Fallback : chemin théorique `/images/{slug}-{country.slug}.jpg`
- *      (image cassée jusqu'à upload — RecipeImage a un fallback bg-bone-deep)
+ *      (.jpg par défaut, RecipeImage a un fallback bg-bone-deep si fail)
  *
- * Régénère data/index.json à la fin pour répercuter les chemins dans le
- * bundle client.
+ * Régénère data/index.json à la fin.
  */
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
+import { dirname, join, parse as parsePath } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -25,59 +26,99 @@ const IMAGES_DIR = join(ROOT, "public", "images");
 const COUNTRIES_DIR = join(ROOT, "data", "countries");
 const INDEX_PATH = join(ROOT, "data", "index.json");
 
-// Table d'exceptions pour les anomalies de naming (typos / variations).
-// Clé = slug recette, valeur = nom de fichier exact (sans /images/ ni .jpg).
+// Extensions image acceptées (le user peut uploader en n'importe quel
+// format raster supporté par next/image). Tout autre fichier est ignoré.
+const IMAGE_EXTENSIONS = new Set([
+  ".jpg", ".jpeg", ".png", ".webp", ".avif", ".gif",
+]);
+
+// Logos / icônes à ignorer (non-recettes)
+const NON_RECIPE_BASENAMES = new Set(["logo", "logo-mapandfork"]);
+
+// Table d'exceptions pour les anomalies de naming (typos / variations
+// conservées par l'user). Étendue v2.6 après audit des 33 nouvelles
+// images .png ajoutées par l'utilisateur (suffixes "de" / "au" / "aux" /
+// "et" / "alla" insérés dans les titres, pluriels "samosas", typo "mocequa").
 const NAMING_EXCEPTIONS = {
-  // Typo "coxhinas" au lieu de "coxinhas" — l'user veut garder son nom
+  // Anciennes (v2.5) — slugs des recettes .jpg historiques
   coxinhas: "coxhinas-de-poulet-bresil",
-  // curry-vert-au-poulet sans suffixe -thailande — l'user veut garder
   "curry-vert-poulet": "curry-vert-au-poulet",
-  // ratatouille avec accent ç dans niçoise — l'user veut garder l'accent
   ratatouille: "ratatouille-niçoise-france",
-  // guacamole-totopos vs guacamole-et-totopos-mexique (variation 'et')
   "guacamole-totopos": "guacamole-et-totopos-mexique",
-  // jiaozi-raviolis-chinois (parenthèses retirées)
   jiaozi: "jiaozi-raviolis-chinois-chine",
-  // feijoada-complete vs slug feijoada
   feijoada: "feijoada-complete-bresil",
-  // couscous-aux-sept-legumes vs slug couscous-legumes
   "couscous-legumes": "couscous-aux-sept-legumes-maroc",
-  // souvlaki-de-poulet vs slug souvlaki
   souvlaki: "souvlaki-de-poulet-grece",
-  // coq-au-vin (déjà OK avec slug — pour info)
-  // dhal-aux-lentilles-corail vs slug dhal-lentilles
   "dhal-lentilles": "dhal-aux-lentilles-corail-inde",
-  // gyoza-au-porc vs slug gyoza-porc
   "gyoza-porc": "gyoza-au-porc-japon",
+  // Nouvelles (v2.6) — slugs des recettes .png ajoutées par l'user
+  moqueca: "mocequa-de-poisson-bresil", // typo source mocequa/moqueca
+  "tzatziki-pita": "tzatziki-et-pita-grece", // "et" inséré
+  "biryani-agneau": "biryani-d-agneau-inde", // "d'" inséré
+  "samosa-legumes": "samosas-aux-legumes-inde", // pluriel + "aux"
+  "risotto-milanese": "risotto-alla-milanese-italie", // "alla"
+  "onigiri-saumon": "onigiri-au-saumon-japon", // "au"
+  "tempura-legumes": "tempura-de-legumes-japon", // "de"
+  "tajine-poulet-citron": "tajine-de-poulet-au-citron-confit", // sans -maroc
+  "pastilla-poulet": "pastilla-de-poulet-maroc", // "de"
+  "briouates": "briouates-au-miel-maroc", // "au miel" ajouté
+  // NB : le fichier "Gemini_Generated_Image_uhiw52uhiw52uhiw.png" reste
+  // orphelin — impossible de deviner à quelle recette il correspond sans
+  // l'ouvrir. À renommer manuellement par l'user dans son main repo.
 };
 
-// 1) Liste les fichiers .jpg disponibles sur disque
-const available = readdirSync(IMAGES_DIR)
-  .filter((f) => f.endsWith(".jpg"))
-  .sort();
-console.log(`📂 ${available.length} fichiers .jpg trouvés dans public/images/\n`);
+// 1) Scan agnostique du dossier images
+const allFiles = readdirSync(IMAGES_DIR)
+  .map((name) => {
+    const p = join(IMAGES_DIR, name);
+    try {
+      if (!statSync(p).isFile()) return null;
+    } catch {
+      return null;
+    }
+    const parsed = parsePath(name);
+    const ext = parsed.ext.toLowerCase();
+    if (!IMAGE_EXTENSIONS.has(ext)) return null;
+    if (NON_RECIPE_BASENAMES.has(parsed.name)) return null;
+    return { filename: name, basename: parsed.name, ext };
+  })
+  .filter(Boolean)
+  .sort((a, b) => a.basename.localeCompare(b.basename));
+
+console.log(`📂 ${allFiles.length} fichiers images détectés dans public/images/`);
+const byExt = {};
+for (const f of allFiles) byExt[f.ext] = (byExt[f.ext] || 0) + 1;
+console.log(
+  "   Extensions :",
+  Object.entries(byExt)
+    .map(([e, n]) => `${e}×${n}`)
+    .join(", ") || "(aucune)"
+);
+console.log();
+
+/** Index { basename → filename } pour lookup O(1) */
+const byBasename = new Map();
+for (const f of allFiles) byBasename.set(f.basename, f.filename);
 
 /**
- * Retourne le filename à utiliser pour une recette, ou null si rien
- * trouvé (chemin théorique sera généré par le caller).
+ * Trouve le filename à utiliser pour une recette donnée.
+ * Retourne { filename, strategy } si trouvé, sinon null.
  */
 function findMatch(recipeSlug, countrySlug) {
-  // 1. Exceptions explicites (priorité maximale)
-  if (NAMING_EXCEPTIONS[recipeSlug]) {
-    const candidate = `${NAMING_EXCEPTIONS[recipeSlug]}.jpg`;
-    if (available.includes(candidate)) {
-      return { filename: candidate, strategy: "exception" };
-    }
+  // 1. Exceptions explicites
+  const exception = NAMING_EXCEPTIONS[recipeSlug];
+  if (exception && byBasename.has(exception)) {
+    return { filename: byBasename.get(exception), strategy: "exception" };
   }
   // 2. Match exact slug-recette + slug-pays
-  const exact = `${recipeSlug}-${countrySlug}.jpg`;
-  if (available.includes(exact)) {
-    return { filename: exact, strategy: "exact" };
+  const exact = `${recipeSlug}-${countrySlug}`;
+  if (byBasename.has(exact)) {
+    return { filename: byBasename.get(exact), strategy: "exact" };
   }
   // 3. Match préfixe slug-recette-
-  const prefixHit = available.find((f) => f.startsWith(`${recipeSlug}-`));
+  const prefixHit = allFiles.find((f) => f.basename.startsWith(`${recipeSlug}-`));
   if (prefixHit) {
-    return { filename: prefixHit, strategy: "prefix" };
+    return { filename: prefixHit.filename, strategy: "prefix" };
   }
   return null;
 }
@@ -120,7 +161,7 @@ if (missing.length > 0) {
   for (const m of missing) console.log(`    ${m}`);
 }
 
-// Régénère data/index.json avec les nouveaux chemins
+// Régénère data/index.json
 const index = {
   countries: allCountries.map((c) => ({
     slug: c.slug,
@@ -160,5 +201,5 @@ writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2) + "\n", "utf8");
 
 console.log(`\n📊 Bilan :`);
 console.log(`  ✓ ${foundCount}/50 recettes ont une image physique`);
-console.log(`  ⚠ ${missingCount}/50 recettes ont un chemin théorique (à uploader)`);
+console.log(`  ⚠ ${missingCount}/50 recettes ont un chemin théorique`);
 console.log(`  ✓ data/index.json régénéré`);

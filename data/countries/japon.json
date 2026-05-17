@@ -10,7 +10,7 @@
     {
       "slug": "ramen-shoyu",
       "title": "Ramen Shoyu",
-      "image": "/images/ramen-shoyu-japon.jpg",
+      "image": "/images/ramen-shoyu-japon.png",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 2,
@@ -173,7 +173,7 @@
     {
       "slug": "onigiri-saumon",
       "title": "Onigiri au saumon",
-      "image": "/images/onigiri-saumon-japon.jpg",
+      "image": "/images/onigiri-au-saumon-japon.png",
       "prepTime": 20,
       "cookTime": 30,
       "servings": 4,
@@ -299,7 +299,7 @@
     {
       "slug": "tempura-legumes",
       "title": "Tempura de légumes",
-      "image": "/images/tempura-legumes-japon.jpg",
+      "image": "/images/tempura-de-legumes-japon.png",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,

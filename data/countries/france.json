@@ -327,7 +327,7 @@
     {
       "slug": "bouillabaisse",
       "title": "Bouillabaisse marseillaise",
-      "image": "/images/bouillabaisse-france.jpg",
+      "image": "/images/bouillabaisse-marseillaise-france.png",
       "prepTime": 60,
       "cookTime": 75,
       "servings": 6,
@@ -710,7 +710,7 @@
     {
       "slug": "quiche-lorraine",
       "title": "Quiche lorraine",
-      "image": "/images/quiche-lorraine-france.jpg",
+      "image": "/images/quiche-lorraine-france.png",
       "prepTime": 30,
       "cookTime": 50,
       "servings": 6,

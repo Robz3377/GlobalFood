@@ -5,7 +5,7 @@ import { getAllRecipesIndex, getCountriesIndex } from "@/lib/data";
 
 export const metadata = {
   title: "Parcourir — Map and Fork",
-  description: "Toutes les recettes du monde, classées de A à Z.",
+  description: "Toutes nos recettes par catégorie : entrées, plats, desserts et boissons.",
 };
 
 export default function ParcourirPage() {
@@ -30,12 +30,13 @@ export default function ParcourirPage() {
             Parcourir
           </Badge>
           <h1 className="mt-5 font-serif text-4xl md:text-5xl lg:text-6xl font-semibold leading-[1.05] tracking-tight">
-            Toutes les recettes,{" "}
-            <span className="text-terracotta italic">de A à Z</span>
+            Toutes nos recettes{" "}
+            <span className="text-terracotta italic">par catégorie</span>
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-ink-soft">
             <strong className="text-ink font-medium">{all.length} recettes</strong>{" "}
-            au total. Filtrez par régime alimentaire pour affiner vos envies.
+            regroupées en entrées, plats principaux, desserts et boissons. Filtrez
+            par régime alimentaire pour affiner vos envies.
           </p>
         </div>
       </section>

@@ -10,7 +10,7 @@
     {
       "slug": "tajine-poulet-citron",
       "title": "Tajine de poulet au citron confit",
-      "image": "/images/tajine-poulet-citron-maroc.jpg",
+      "image": "/images/tajine-de-poulet-au-citron-confit.png",
       "prepTime": 20,
       "cookTime": 75,
       "servings": 4,
@@ -400,7 +400,7 @@
     {
       "slug": "pastilla-poulet",
       "title": "Pastilla de poulet",
-      "image": "/images/pastilla-poulet-maroc.jpg",
+      "image": "/images/pastilla-de-poulet-maroc.png",
       "prepTime": 45,
       "cookTime": 70,
       "servings": 6,
@@ -840,7 +840,7 @@
     {
       "slug": "briouates",
       "title": "Briouates au miel",
-      "image": "/images/briouates-maroc.jpg",
+      "image": "/images/briouates-au-miel-maroc.png",
       "prepTime": 60,
       "cookTime": 20,
       "servings": 8,

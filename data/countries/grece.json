@@ -10,7 +10,7 @@
     {
       "slug": "moussaka",
       "title": "Moussaka",
-      "image": "/images/moussaka-grece.jpg",
+      "image": "/images/moussaka-grece.png",
       "prepTime": 45,
       "cookTime": 90,
       "servings": 6,
@@ -427,7 +427,7 @@
     {
       "slug": "tzatziki-pita",
       "title": "Tzatziki et pita",
-      "image": "/images/tzatziki-pita-grece.jpg",
+      "image": "/images/tzatziki-et-pita-grece.png",
       "prepTime": 25,
       "cookTime": 5,
       "servings": 4,
@@ -773,7 +773,7 @@
     {
       "slug": "baklava",
       "title": "Baklava aux pistaches",
-      "image": "/images/baklava-grece.jpg",
+      "image": "/images/baklava-aux-pistaches-grece.png",
       "prepTime": 60,
       "cookTime": 70,
       "servings": 8,

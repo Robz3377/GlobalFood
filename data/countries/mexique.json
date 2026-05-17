@@ -10,7 +10,7 @@
     {
       "slug": "tacos-al-pastor",
       "title": "Tacos al pastor",
-      "image": "/images/tacos-al-pastor-mexique.jpg",
+      "image": "/images/tacos-al-pastor-mexique.png",
       "prepTime": 45,
       "cookTime": 25,
       "servings": 4,
@@ -364,7 +364,7 @@
     {
       "slug": "mole-poblano",
       "title": "Mole poblano",
-      "image": "/images/mole-poblano-mexique.jpg",
+      "image": "/images/mole-poblano-mexique.png",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
@@ -791,7 +791,7 @@
     {
       "slug": "chiles-rellenos",
       "title": "Chiles rellenos",
-      "image": "/images/chiles-rellenos-mexique.jpg",
+      "image": "/images/chiles-rellenos-mexique.png",
       "prepTime": 35,
       "cookTime": 30,
       "servings": 4,
