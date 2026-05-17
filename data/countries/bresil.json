@@ -10,7 +10,7 @@
     {
       "slug": "feijoada",
       "title": "Feijoada complète",
-      "image": "/images/recipes/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
+      "image": "/images/feijoada-complete-bresil.jpg",
       "prepTime": 30,
       "cookTime": 210,
       "servings": 8,
@@ -247,7 +247,7 @@
     {
       "slug": "moqueca",
       "title": "Moqueca de poisson",
-      "image": "/images/recipes/moqueca-de-poisson-br%C3%A9sil.jpg",
+      "image": "/images/moqueca-bresil.jpg",
       "prepTime": 30,
       "cookTime": 30,
       "servings": 4,
@@ -459,7 +459,7 @@
     {
       "slug": "pao-de-queijo",
       "title": "Pão de queijo",
-      "image": "/images/recipes/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
+      "image": "/images/pao-de-queijo-bresil.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 6,
@@ -585,7 +585,7 @@
     {
       "slug": "coxinhas",
       "title": "Coxinhas de poulet",
-      "image": "/images/recipes/coxinhas-de-poulet-br%C3%A9sil.jpg",
+      "image": "/images/coxhinas-de-poulet-bresil.jpg",
       "prepTime": 90,
       "cookTime": 25,
       "servings": 6,
@@ -808,7 +808,7 @@
     {
       "slug": "brigadeiros",
       "title": "Brigadeiros",
-      "image": "/images/recipes/brigadeiros-br%C3%A9sil.jpg",
+      "image": "/images/brigadeiros-bresil.jpg",
       "prepTime": 15,
       "cookTime": 18,
       "servings": 8,

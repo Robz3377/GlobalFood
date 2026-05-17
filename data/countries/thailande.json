@@ -10,7 +10,7 @@
     {
       "slug": "pad-thai",
       "title": "Pad Thai aux crevettes",
-      "image": "/images/recipes/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
+      "image": "/images/pad-thai-thailande.jpg",
       "prepTime": 25,
       "cookTime": 8,
       "servings": 2,
@@ -189,7 +189,7 @@
     {
       "slug": "curry-vert-poulet",
       "title": "Curry vert au poulet",
-      "image": "/images/recipes/curry-vert-au-poulet-tha%C3%AFlande.jpg",
+      "image": "/images/curry-vert-au-poulet.jpg",
       "prepTime": 20,
       "cookTime": 25,
       "servings": 4,
@@ -362,7 +362,7 @@
     {
       "slug": "tom-yum-kung",
       "title": "Tom yum kung",
-      "image": "/images/recipes/tom-yum-kung-tha%C3%AFlande.jpg",
+      "image": "/images/tom-yum-kung-thailande.jpg",
       "prepTime": 25,
       "cookTime": 20,
       "servings": 4,
@@ -565,7 +565,7 @@
     {
       "slug": "som-tam",
       "title": "Som tam (salade de papaye verte)",
-      "image": "/images/recipes/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
+      "image": "/images/som-tam-thailande.jpg",
       "prepTime": 25,
       "cookTime": 0,
       "servings": 4,
@@ -731,7 +731,7 @@
     {
       "slug": "mango-sticky-rice",
       "title": "Mango sticky rice",
-      "image": "/images/recipes/mango-sticky-rice-tha%C3%AFlande.jpg",
+      "image": "/images/mango-sticky-rice-thailande.jpg",
       "prepTime": 30,
       "cookTime": 25,
       "servings": 4,

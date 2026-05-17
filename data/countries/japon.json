@@ -10,7 +10,7 @@
     {
       "slug": "ramen-shoyu",
       "title": "Ramen Shoyu",
-      "image": "/images/recipes/ramen-shoyu-japon.jpg",
+      "image": "/images/ramen-shoyu-japon.jpg",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 2,
@@ -173,7 +173,7 @@
     {
       "slug": "onigiri-saumon",
       "title": "Onigiri au saumon",
-      "image": "/images/recipes/onigiri-au-saumon-japon.jpg",
+      "image": "/images/onigiri-saumon-japon.jpg",
       "prepTime": 20,
       "cookTime": 30,
       "servings": 4,
@@ -299,7 +299,7 @@
     {
       "slug": "tempura-legumes",
       "title": "Tempura de légumes",
-      "image": "/images/recipes/tempura-de-l%C3%A9gumes.jpg",
+      "image": "/images/tempura-legumes-japon.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -490,7 +490,7 @@
     {
       "slug": "gyoza-porc",
       "title": "Gyoza au porc",
-      "image": "/images/recipes/gyoza-au-porc-japon.jpg",
+      "image": "/images/gyoza-au-porc-japon.jpg",
       "prepTime": 60,
       "cookTime": 10,
       "servings": 4,
@@ -700,7 +700,7 @@
     {
       "slug": "katsudon",
       "title": "Katsudon",
-      "image": "/images/recipes/katsudon-japon.jpg",
+      "image": "/images/katsudon-japon.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 2,

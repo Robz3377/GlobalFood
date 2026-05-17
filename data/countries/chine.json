@@ -10,7 +10,7 @@
     {
       "slug": "mapo-tofu",
       "title": "Mapo tofu",
-      "image": "/images/recipes/mapo-tofu-chine.jpg",
+      "image": "/images/mapo-tofu-chine.jpg",
       "prepTime": 20,
       "cookTime": 20,
       "servings": 3,
@@ -231,7 +231,7 @@
     {
       "slug": "canard-laque",
       "title": "Canard laqué pékinois",
-      "image": "/images/recipes/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
+      "image": "/images/canard-laque-chine.jpg",
       "prepTime": 60,
       "cookTime": 90,
       "servings": 6,
@@ -433,7 +433,7 @@
     {
       "slug": "jiaozi",
       "title": "Jiaozi (raviolis chinois)",
-      "image": "/images/recipes/jiaozi-(raviolis-chinois)-chine.jpg",
+      "image": "/images/jiaozi-raviolis-chinois-chine.jpg",
       "prepTime": 75,
       "cookTime": 8,
       "servings": 4,
@@ -633,7 +633,7 @@
     {
       "slug": "nouilles-dan-dan",
       "title": "Nouilles dan dan",
-      "image": "/images/recipes/nouilles-dan-dan-chine.jpg",
+      "image": "/images/nouilles-dan-dan-chine.jpg",
       "prepTime": 20,
       "cookTime": 15,
       "servings": 2,
@@ -829,7 +829,7 @@
     {
       "slug": "riz-cantonais",
       "title": "Riz cantonais",
-      "image": "/images/recipes/riz-cantonais-chine.jpg",
+      "image": "/images/riz-cantonais-chine.jpg",
       "prepTime": 15,
       "cookTime": 12,
       "servings": 4,

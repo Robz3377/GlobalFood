@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -193,8 +194,12 @@ export function RecipeBody({ country, recipe }: Props) {
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <div
             className={clsx(
-              "relative rounded-full bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden transition-all duration-300 ease-out",
-              titleInView ? "p-1.5" : "p-1"
+              "relative bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden transition-all duration-300 ease-out",
+              // En mode large : pill arrondi (rounded-full) pour le look
+              // info-bar élégant. En mode compact : rounded-2xl pour
+              // accueillir proprement la vignette horizontale (rectangle
+              // ne va pas avec un pill complet).
+              titleInView ? "rounded-full p-1.5" : "rounded-2xl p-1.5"
             )}
           >
             {titleInView ? (
@@ -204,10 +209,21 @@ export function RecipeBody({ country, recipe }: Props) {
                 <StickyStat icon={Flame} label="Cuisson" value={`${recipe.cookTime}'`} />
               </div>
             ) : (
-              // MODE COMPACT — page basse, focus uniquement sur le plat lu.
-              // Drapeau + nom de recette, plus rien d'autre (v2.3).
-              <div className="flex items-center gap-3 px-3 py-2 min-w-0">
-                <span aria-hidden className="text-lg leading-none shrink-0">
+              // MODE COMPACT — page basse, focus sur le plat lu.
+              // v2.5 : ajout d'une mini-vignette horizontale (h-9 w-14 =
+              // ratio 14/9, proche du 16/9 cinéma de la card principale).
+              // object-cover object-center : crop centré, jamais déformé.
+              <div className="flex items-center gap-2.5 pr-3 min-w-0">
+                <div className="relative h-9 w-14 shrink-0 rounded-lg overflow-hidden bg-bone-deep">
+                  <Image
+                    src={recipe.image}
+                    alt=""
+                    fill
+                    sizes="56px"
+                    className="object-cover object-center"
+                  />
+                </div>
+                <span aria-hidden className="text-base leading-none shrink-0">
                   {country.flag}
                 </span>
                 <h2 className="font-serif text-sm md:text-base font-semibold text-ink leading-tight truncate flex-1 min-w-0">

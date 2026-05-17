@@ -10,7 +10,7 @@
     {
       "slug": "moussaka",
       "title": "Moussaka",
-      "image": "/images/recipes/moussaka-gr%C3%A8ce.jpg",
+      "image": "/images/moussaka-grece.jpg",
       "prepTime": 45,
       "cookTime": 90,
       "servings": 6,
@@ -233,7 +233,7 @@
     {
       "slug": "souvlaki",
       "title": "Souvlaki de poulet",
-      "image": "/images/recipes/souvlaki-de-poulet-gr%C3%A8ce.jpg",
+      "image": "/images/souvlaki-de-poulet-grece.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -427,7 +427,7 @@
     {
       "slug": "tzatziki-pita",
       "title": "Tzatziki et pita",
-      "image": "/images/recipes/tzatziki-et-pita-gr%C3%A8ce.jpg",
+      "image": "/images/tzatziki-pita-grece.jpg",
       "prepTime": 25,
       "cookTime": 5,
       "servings": 4,
@@ -589,7 +589,7 @@
     {
       "slug": "spanakopita",
       "title": "Spanakopita",
-      "image": "/images/recipes/spanakopita-gr%C3%A8ce.jpg",
+      "image": "/images/spanakopita-grece.jpg",
       "prepTime": 45,
       "cookTime": 50,
       "servings": 6,
@@ -773,7 +773,7 @@
     {
       "slug": "baklava",
       "title": "Baklava aux pistaches",
-      "image": "/images/recipes/baklava-aux-pistaches-gr%C3%A8ce.jpg",
+      "image": "/images/baklava-grece.jpg",
       "prepTime": 60,
       "cookTime": 70,
       "servings": 8,

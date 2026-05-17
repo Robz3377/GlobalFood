@@ -59,7 +59,9 @@ export function RecipeImage({
           loading={priority ? "eager" : "lazy"}
           fetchPriority={priority ? "high" : "auto"}
           onError={() => setFailed(true)}
-          className="object-cover"
+          // object-cover + object-center : crop centré sans déformation.
+          // Critique pour les nouveaux ratios horizontaux 16/9 et 3/2.
+          className="object-cover object-center"
         />
       )}
     </div>

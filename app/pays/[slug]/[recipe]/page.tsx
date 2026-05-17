@@ -53,12 +53,17 @@ export default async function RecipePage({
           bloc titre (cf. RecipeBody) pour éviter le conflit z-index avec la
           carte titre qui déborde en négative margin. */}
       <header className="relative">
+        {/* v2.5 — hero en aspect-[3/2] uniforme (au lieu d'un mélange
+            16/9 → 2/1 → 21/9 selon le breakpoint). Format plus court
+            sur mobile → ingrédients remontent plus haut dans la vue
+            initiale. quality=92 pour magnifier les nouvelles photos HD. */}
         <RecipeImage
           src={r.image}
           alt={r.title}
           priority
-          aspect="aspect-[16/9] sm:aspect-[2/1] lg:aspect-[21/9]"
+          aspect="aspect-[3/2]"
           sizes="100vw"
+          quality={92}
           className="rounded-none"
         />
         {/* Gradient overlay bas pour la profondeur visuelle */}

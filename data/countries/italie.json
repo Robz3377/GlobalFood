@@ -10,7 +10,7 @@
     {
       "slug": "carbonara",
       "title": "Spaghetti alla Carbonara",
-      "image": "/images/recipes/spaghetti-alla-carbonara-italie.jpg",
+      "image": "/images/carbonara-italie.jpg",
       "prepTime": 10,
       "cookTime": 15,
       "servings": 2,
@@ -106,7 +106,7 @@
     {
       "slug": "pizza-margherita",
       "title": "Pizza Margherita",
-      "image": "/images/recipes/pizza-margherita-italie.jpg",
+      "image": "/images/pizza-margherita-italie.jpg",
       "prepTime": 60,
       "cookTime": 8,
       "servings": 4,
@@ -234,7 +234,7 @@
     {
       "slug": "risotto-milanese",
       "title": "Risotto alla milanese",
-      "image": "/images/recipes/risotto-alla-milanese.jpg",
+      "image": "/images/risotto-milanese-italie.jpg",
       "prepTime": 15,
       "cookTime": 25,
       "servings": 4,
@@ -372,7 +372,7 @@
     {
       "slug": "osso-buco",
       "title": "Osso buco alla milanese",
-      "image": "/images/recipes/osso-buco-alla-milanese-italie.jpg",
+      "image": "/images/osso-buco-italie.jpg",
       "prepTime": 30,
       "cookTime": 120,
       "servings": 4,
@@ -557,7 +557,7 @@
     {
       "slug": "tiramisu",
       "title": "Tiramisu classique",
-      "image": "/images/recipes/tiramisu-classique-italie.jpg",
+      "image": "/images/tiramisu-italie.jpg",
       "prepTime": 30,
       "cookTime": 0,
       "servings": 6,

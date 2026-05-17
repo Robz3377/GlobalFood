@@ -10,7 +10,7 @@
     {
       "slug": "coq-au-vin",
       "title": "Coq au vin",
-      "image": "/images/recipes/coq-au-vin-france.jpg",
+      "image": "/images/coq-au-vin-france.jpg",
       "prepTime": 40,
       "cookTime": 150,
       "servings": 6,
@@ -176,7 +176,7 @@
     {
       "slug": "ratatouille",
       "title": "Ratatouille niçoise",
-      "image": "/images/recipes/ratatouille-ni%C3%A7oise-france.jpg",
+      "image": "/images/ratatouille-niçoise-france.jpg",
       "prepTime": 30,
       "cookTime": 60,
       "servings": 6,
@@ -327,7 +327,7 @@
     {
       "slug": "bouillabaisse",
       "title": "Bouillabaisse marseillaise",
-      "image": "/images/recipes/bouillabaisse-marseillaise-france.jpg",
+      "image": "/images/bouillabaisse-france.jpg",
       "prepTime": 60,
       "cookTime": 75,
       "servings": 6,
@@ -537,7 +537,7 @@
     {
       "slug": "crepes-suzette",
       "title": "Crêpes Suzette",
-      "image": "/images/recipes/cr%C3%AApes-suzette-france.jpg",
+      "image": "/images/crepes-suzette-france.jpg",
       "prepTime": 25,
       "cookTime": 30,
       "servings": 6,
@@ -710,7 +710,7 @@
     {
       "slug": "quiche-lorraine",
       "title": "Quiche lorraine",
-      "image": "/images/recipes/quiche-lorraine-france.jpg",
+      "image": "/images/quiche-lorraine-france.jpg",
       "prepTime": 30,
       "cookTime": 50,
       "servings": 6,

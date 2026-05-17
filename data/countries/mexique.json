@@ -10,7 +10,7 @@
     {
       "slug": "tacos-al-pastor",
       "title": "Tacos al pastor",
-      "image": "/images/recipes/tacos-al-pastor-mexique.jpg",
+      "image": "/images/tacos-al-pastor-mexique.jpg",
       "prepTime": 45,
       "cookTime": 25,
       "servings": 4,
@@ -226,7 +226,7 @@
     {
       "slug": "guacamole-totopos",
       "title": "Guacamole et totopos",
-      "image": "/images/recipes/guacamaole-et-topopos-mexique.jpg",
+      "image": "/images/guacamole-et-totopos-mexique.jpg",
       "prepTime": 15,
       "cookTime": 10,
       "servings": 4,
@@ -364,7 +364,7 @@
     {
       "slug": "mole-poblano",
       "title": "Mole poblano",
-      "image": "/images/recipes/mole-poblano-mexique.jpg",
+      "image": "/images/mole-poblano-mexique.jpg",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
@@ -625,7 +625,7 @@
     {
       "slug": "enchiladas-verdes",
       "title": "Enchiladas verdes",
-      "image": "/images/recipes/enchiladas-verde-mexique.jpg",
+      "image": "/images/enchiladas-verdes-mexique.jpg",
       "prepTime": 30,
       "cookTime": 35,
       "servings": 4,
@@ -791,7 +791,7 @@
     {
       "slug": "chiles-rellenos",
       "title": "Chiles rellenos",
-      "image": "/images/recipes/chiles-rellenos-mexique.jpg",
+      "image": "/images/chiles-rellenos-mexique.jpg",
       "prepTime": 35,
       "cookTime": 30,
       "servings": 4,
