@@ -4,6 +4,11 @@
  * Chaque étape utilise un grand chiffre serif italique en terracotta (drop-cap
  * style) sur la gauche, le texte serif-light à droite pour une lecture posée.
  * Une fine ligne sage sépare les étapes (signature visuelle du design system).
+ *
+ * Refonte UX v2.3 : police instructions réduite (text-[15px] mobile, text-base
+ * desktop au lieu de text-base/text-lg), gouttières resserrées et chiffre
+ * drop-cap recalibré pour gagner ~15% de surface texte → moins de lignes par
+ * étape → meilleure scannabilité.
  */
 export function StepList({ steps }: { steps: string[] }) {
   return (
@@ -13,12 +18,15 @@ export function StepList({ steps }: { steps: string[] }) {
         return (
           <li
             key={i}
-            className="relative grid grid-cols-[3.5rem_1fr] md:grid-cols-[5rem_1fr] gap-4 md:gap-6 pb-7 md:pb-10"
+            // Gouttière gauche réduite : 2.75rem mobile (vs 3.5) / 4rem desktop
+            // (vs 5rem). Donne ~12-16px de plus à la colonne texte.
+            className="relative grid grid-cols-[2.75rem_1fr] md:grid-cols-[4rem_1fr] gap-3 md:gap-5 pb-5 md:pb-7"
           >
-            {/* Chiffre drop-cap */}
+            {/* Chiffre drop-cap — taille légèrement réduite pour matcher
+                la nouvelle compacité du texte. */}
             <span
               aria-hidden
-              className="font-serif italic text-5xl md:text-6xl font-semibold text-terracotta leading-none tabular-nums text-right pr-0.5 -mt-1"
+              className="font-serif italic text-4xl md:text-5xl font-semibold text-terracotta leading-none tabular-nums text-right pr-0.5 -mt-0.5"
             >
               {(i + 1).toString().padStart(2, "0")}
             </span>
@@ -27,12 +35,13 @@ export function StepList({ steps }: { steps: string[] }) {
             {!isLast && (
               <span
                 aria-hidden
-                className="absolute left-[1.65rem] md:left-[2.4rem] top-12 md:top-14 bottom-0 w-px bg-sage-soft"
+                className="absolute left-[1.3rem] md:left-[1.95rem] top-10 md:top-12 bottom-0 w-px bg-sage-soft"
               />
             )}
 
-            {/* Texte de l'étape */}
-            <p className="text-ink text-base md:text-lg leading-relaxed pt-3 md:pt-3.5">
+            {/* Texte de l'étape — text-[15px] mobile / text-base desktop,
+                leading-relaxed conservé pour le confort de lecture. */}
+            <p className="text-ink text-[15px] md:text-base leading-relaxed pt-2 md:pt-2.5">
               {step}
             </p>
           </li>

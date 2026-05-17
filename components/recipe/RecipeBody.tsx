@@ -183,35 +183,29 @@ export function RecipeBody({ country, recipe }: Props) {
 
       {/* STICKY INFO BAR — DYNAMIQUE selon la position de scroll :
           • Quand le titre h1 est visible (haut de page) → bar large avec
-            Prép. / Cuisson / Portions ± (mode "interactif")
+            Prép. / Cuisson uniquement (les portions ne sont plus dans le
+            sticky depuis v2.3, elles ont été déplacées en tête de la
+            section Ingrédients qui est leur cible logique).
           • Quand le titre est sorti (scroll vers ingrédients/étapes) → bar
-            compacte affichant le nom de la recette + portions, libère de
-            la surface de lecture sur mobile (Axe 5 v2.2).
-          La transition opacity+max-height est gérée en CSS pur. */}
+            ULTRA-COMPACTE : drapeau + nom de la recette, point. Libère un
+            maximum de surface de lecture sur mobile. */}
       <div className="sticky top-[calc(env(safe-area-inset-top)+4rem)] z-20 mt-6 md:mt-8">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <div
             className={clsx(
               "relative rounded-full bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden transition-all duration-300 ease-out",
-              // En mode compact (titre hors vue), on resserre légèrement la
-              // hauteur globale (perd les chiffres décoratifs serif xl).
               titleInView ? "p-1.5" : "p-1"
             )}
           >
             {titleInView ? (
-              // MODE LARGE — page haute, focus sur les meta interactives.
-              <div className="grid grid-cols-3 items-center gap-1">
+              // MODE LARGE — page haute, focus sur les meta lecture.
+              <div className="grid grid-cols-2 items-center gap-1">
                 <StickyStat icon={Clock} label="Prép." value={`${recipe.prepTime}'`} />
                 <StickyStat icon={Flame} label="Cuisson" value={`${recipe.cookTime}'`} />
-                <PortionsControl
-                  value={servings}
-                  baseline={baseline}
-                  onDec={dec}
-                  onInc={inc}
-                />
               </div>
             ) : (
-              // MODE COMPACT — page basse, focus sur le nom du plat lu.
+              // MODE COMPACT — page basse, focus uniquement sur le plat lu.
+              // Drapeau + nom de recette, plus rien d'autre (v2.3).
               <div className="flex items-center gap-3 px-3 py-2 min-w-0">
                 <span aria-hidden className="text-lg leading-none shrink-0">
                   {country.flag}
@@ -219,12 +213,6 @@ export function RecipeBody({ country, recipe }: Props) {
                 <h2 className="font-serif text-sm md:text-base font-semibold text-ink leading-tight truncate flex-1 min-w-0">
                   {recipe.title}
                 </h2>
-                <PortionsControl
-                  value={servings}
-                  baseline={baseline}
-                  onDec={dec}
-                  onInc={inc}
-                />
               </div>
             )}
           </div>
@@ -338,6 +326,21 @@ export function RecipeBody({ country, recipe }: Props) {
                 Étape 2 · Tes courses
               </span>
             )}
+            {/* PortionsControl déplacé du sticky bar vers ici (v2.3) — c'est
+                le contrôle qui pilote les quantités d'ingrédients, sa place
+                est donc naturellement à côté de la liste. Sticky désencombré
+                pour libérer de la surface de lecture sur mobile. */}
+            <div className="mb-5 flex items-center justify-between gap-3 rounded-soft border border-bone-deep bg-bone/60 px-4 py-2.5">
+              <span className="text-xs uppercase tracking-wider text-ink-soft font-medium">
+                Quantités pour
+              </span>
+              <PortionsControl
+                value={servings}
+                baseline={baseline}
+                onDec={dec}
+                onInc={inc}
+              />
+            </div>
             <RecipeIngredients
               ingredients={activeIngredients}
               servings={servings}
@@ -371,10 +374,15 @@ export function RecipeBody({ country, recipe }: Props) {
       {stepsRevealed && (
         <section
           id="preparation"
-          className="mx-auto max-w-3xl px-4 md:px-6 mt-6 md:mt-8 pb-24"
+          // v2.3 : container élargi max-w-4xl (vs 3xl) + padding latéraux
+          // réduits px-3 md:px-4 (vs px-4 md:px-6) → ~80px de plus en
+          // largeur sur desktop, surface de lecture étapes maximisée.
+          className="mx-auto max-w-4xl px-3 md:px-4 mt-6 md:mt-8 pb-24"
         >
-          <div className="bg-paper-card rounded-soft-xl p-6 md:p-10">
-            <header className="mb-6 md:mb-8 flex flex-wrap items-center justify-between gap-3">
+          {/* Padding intérieur réduit : p-4 md:p-7 (vs p-6 md:p-10) — moins
+              d'espace perdu autour des étapes, plus de focus sur le texte. */}
+          <div className="bg-paper-card rounded-soft-xl p-4 md:p-7">
+            <header className="mb-5 md:mb-7 flex flex-wrap items-center justify-between gap-3">
               <div>
                 {hasCommisMode && (
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-sage/20 text-sage px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] mb-2">
