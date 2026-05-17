@@ -1,0 +1,780 @@
+{
+  "slug": "senegal",
+  "name": "Sénégal",
+  "iso3": "SEN",
+  "isoNumeric": "686",
+  "flag": "🇸🇳",
+  "intro": "Cuisine de partage et de générosité, la table sénégalaise marie le riz brisé du fleuve, le poisson de l'Atlantique et les épices de l'arrière-pays. On mange ensemble, dans un grand plat commun, à la main droite ou à la cuillère.",
+  "tagline": "Le grand plat commun, à partager",
+  "recipes": [
+    {
+      "slug": "pastels",
+      "title": "Pastels au poisson",
+      "image": "/images/pastels-senegal.jpg",
+      "prepTime": 30,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [],
+      "category": "entree",
+      "events": [
+        "ramadan-end"
+      ],
+      "ingredients": [
+        {
+          "name": "Thon frais (filet sans peau)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes émincés",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates mûres concassées",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Persil plat ciselé",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Cube de bouillon de poisson",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Piment frais haché (optionnel)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide (farce + friture)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "PÂTE — Farine T55",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin (pâte)",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Eau tiède",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Levure chimique",
+          "qty": 5,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Faire pocher le thon 8 min dans l'eau frémissante salée. Égoutter, refroidir, émietter finement à la fourchette.",
+        "Dans une poêle, faire chauffer 30 ml d'huile d'arachide à feu moyen. Faire suer les oignons 10 min jusqu'à translucidité. Ajouter l'ail, remuer 30 s.",
+        "Incorporer les tomates concassées, le concentré, le cube de bouillon émietté. Cuire à découvert 15 min jusqu'à obtenir une \"confiture\" épaisse (étape clé : la farce doit être SÈCHE pour ne pas détremper la pâte).",
+        "Hors du feu, ajouter le thon émietté, le persil, le piment haché. Saler, mélanger. Réserver et laisser refroidir complètement.",
+        "PÂTE : mélanger farine + sel + levure dans un saladier. Verser l'eau tiède en filet, pétrir 5 min jusqu'à obtenir une pâte lisse, non collante. Couvrir, laisser reposer 30 min.",
+        "Abaisser la pâte au rouleau sur un plan fariné à 2 mm d'épaisseur. Découper des disques de 10 cm de diamètre (verre retourné).",
+        "Déposer 1 c.s. de farce au centre de chaque disque. Humidifier le bord à l'eau, plier en demi-lune, sceller à la fourchette (motif gaufré signature).",
+        "Faire chauffer 1 L d'huile d'arachide dans une casserole haute à 170 °C. Faire frire les pastels par lots de 4-5, 3 min par face jusqu'à doré profond. Égoutter sur grille. Servir chauds avec une sauce kani (oignons-tomate piquants)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Thon en boîte au naturel (égoutté)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Persil ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Disques de pâte brick OU à raviolis (rayon Asie)",
+          "qty": 20,
+          "unit": "u"
+        },
+        {
+          "name": "Œuf battu (souder)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile de friture",
+          "qty": 500,
+          "unit": "ml"
+        }
+      ],
+      "commisSteps": [
+        "Émincer finement les oignons. Dans une poêle, faire chauffer 2 c.s. d'huile, faire suer les oignons 10 min jusqu'à coloration dorée. Ajouter le concentré de tomates, cuire 3 min en remuant.",
+        "Hors du feu, incorporer le thon en boîte émietté et le persil ciselé. Saler, poivrer. Laisser tiédir 10 min.",
+        "Déposer 1 c.s. de farce au centre de chaque disque de pâte. Badigeonner le bord d'œuf battu, refermer en demi-lune, sceller à la fourchette.",
+        "Faire chauffer 500 ml d'huile dans une casserole haute jusqu'à frémissement franc (test : un bout de pâte doit dorer en 30 s).",
+        "Faire frire les pastels par 4-5 à la fois, 2 min par face jusqu'à coloration dorée. Égoutter sur papier absorbant. Servir chauds avec une sauce piquante."
+      ],
+      "story": "Servis chauds dans toute Dakar, les pastels accompagnent le ndogou (rupture du jeûne) et s'invitent dans les apéritifs familiaux du dimanche.",
+      "chefSecret": "Cuire l'oignon-tomate à part jusqu'au confit AVANT d'incorporer le thon : la farce reste sèche et ne détrempe pas la pâte à la friture."
+    },
+    {
+      "slug": "thieboudienne",
+      "title": "Thiéboudienne",
+      "image": "/images/thieboudienne-senegal.jpg",
+      "prepTime": 30,
+      "cookTime": 90,
+      "servings": 6,
+      "diets": [],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Mérou ou capitaine en darnes (3 cm)",
+          "qty": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "Riz brisé (riz cassé)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Persil plat ciselé",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 6,
+          "unit": "gousses"
+        },
+        {
+          "name": "Piment fort frais",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes en bâtonnets épais",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Chou pommé en quartiers",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Aubergines amères (jaxatu)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Manioc frais (ou patate douce)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Gombos",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Tomates fraîches mondées",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Cubes bouillon Maggi crevette",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Tamarin (boules ou pâte)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "steps": [
+        "FARCE ROFF : piler au mortier le persil, 3 gousses d'ail, la moitié du piment, un peu de sel jusqu'à obtenir une pâte verte épaisse. Inciser les darnes en croix sur 2 cm de profondeur, garnir chaque incision de roff.",
+        "Faire chauffer 150 ml d'huile d'arachide dans une grande marmite en fonte. Saisir les darnes 3 min de chaque côté jusqu'à coloration dorée. Réserver sur assiette (mais GARDER l'huile parfumée : c'est le xoss).",
+        "Dans la même huile, faire suer les oignons émincés 8 min. Ajouter le reste d'ail écrasé, remuer 30 s.",
+        "Incorporer le concentré de tomates, cuire 5 min en remuant. Ajouter les tomates mondées concassées, cuire 10 min jusqu'à réduction épaisse.",
+        "Verser 2,5 L d'eau bouillante, ajouter les cubes Maggi, le tamarin, le reste de piment. Saler. Porter à frémissement.",
+        "Ajouter les légumes les plus durs (manioc, carottes), cuire 20 min.",
+        "Ajouter chou et aubergines, cuire 15 min. Ajouter les gombos, cuire 5 min. Tous les légumes doivent être tendres mais entiers.",
+        "Sortir tous les légumes à l'écumoire, réserver dans un grand plat. Sortir aussi le poisson, recouvrir.",
+        "PRÉLEVER 1,5 L de bouillon, réserver pour le service. Le reste doit représenter ~1,2 fois le volume du riz pour la cuisson absorbée.",
+        "Rincer le riz brisé 3 fois. L'ajouter dans la marmite, lisser. Couvrir hermétiquement, cuire 25 min à feu très doux sans remuer (cuisson absorbée signature).",
+        "Pendant ce temps, remettre poisson et légumes à réchauffer dans le bouillon réservé.",
+        "SERVICE TRADITIONNEL : déposer le riz orange en dôme au centre d'un grand plat rond. Disposer le poisson au centre, les légumes en couronne autour. Arroser d'un peu de bouillon. Manger ensemble, à la main droite ou à la cuillère, dans le plat commun."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Pavés de cabillaud",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Riz long grain",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Carottes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Chou blanc",
+          "qty": 0.25,
+          "unit": "u"
+        },
+        {
+          "name": "Aubergine",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Patate douce",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Cubes de bouillon de poisson",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Persil ciselé",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Émincer les oignons, écraser l'ail. Couper carottes, chou, aubergine, patate douce en gros cubes.",
+        "Dans une grande cocotte, faire chauffer 3 c.s. d'huile. Saisir les pavés de cabillaud 2 min de chaque côté. Réserver.",
+        "Dans la même cocotte, faire suer les oignons 6 min. Ajouter ail et concentré de tomates, cuire 1 min en remuant.",
+        "Verser les tomates concassées et 1,5 L d'eau chaude avec les 2 cubes de bouillon dilués. Porter à frémissement. Ajouter carottes et patate douce, cuire 12 min.",
+        "Ajouter chou et aubergine, cuire 10 min. Goûter, rectifier sel et poivre. Retirer les légumes à l'écumoire et garder au chaud.",
+        "Verser le riz dans le bouillon (volume bouillon = 1,2 × volume riz). Couvrir, cuire 18 min à feu doux sans remuer.",
+        "Remettre poisson et légumes sur le riz cuit pour réchauffer 5 min couvert. Parsemer de persil. Servir dans un grand plat commun avec les légumes en couronne autour."
+      ],
+      "story": "Plat national sénégalais inscrit à l'UNESCO depuis 2021, le « riz au poisson » est né à Saint-Louis sous la cuisinière Penda Mbaye. Il marie poisson, riz brisé et sept légumes dans un bouillon orange-rouge signature.",
+      "chefSecret": "Réserver l'huile de cuisson du poisson pour parfumer le riz : c'est ce « xoss » qui donne au plat sa couleur orange-rouge ambrée caractéristique."
+    },
+    {
+      "slug": "yassa-poulet",
+      "title": "Yassa au poulet",
+      "image": "/images/yassa-poulet-senegal.jpg",
+      "prepTime": 30,
+      "cookTime": 60,
+      "servings": 4,
+      "diets": [],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Cuisses de poulet entières (hauts + pilons)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Oignons jaunes émincés très fin",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "Jus de citrons verts frais (4 citrons)",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Moutarde de Dijon",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 6,
+          "unit": "gousses"
+        },
+        {
+          "name": "Vinaigre de vin blanc",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Cube bouillon de poulet",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Piment Scotch Bonnet ou habanero (entier non percé)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Olives vertes dénoyautées",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Feuilles de laurier",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Thym frais",
+          "qty": 3,
+          "unit": "brins"
+        },
+        {
+          "name": "Huile d'arachide",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel et poivre noir",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "steps": [
+        "MARINADE : dans un grand saladier, mélanger jus de citron + moutarde + ail écrasé + vinaigre + cube émietté + sel + poivre. Ajouter les cuisses de poulet, masser pour bien enrober. Ajouter la moitié des oignons émincés. Couvrir, laisser mariner 4 h minimum (idéal 24 h au frigo).",
+        "Sortir les cuisses de la marinade, RÉSERVER la marinade avec ses oignons.",
+        "Dans une grande cocotte, faire chauffer 30 ml d'huile à feu vif. Faire dorer les cuisses 4 min par côté jusqu'à coloration caramel dorée. Réserver.",
+        "Dans la même cocotte, faire chauffer le reste d'huile. Ajouter le RESTE des oignons (non marinés). Faire suer à feu doux 25 min en remuant souvent, jusqu'à compote dorée jaune-orangée (étape signature : oignons fondants, pas grillés).",
+        "Ajouter la marinade réservée (avec ses oignons), porter à frémissement. Laisser réduire 10 min.",
+        "Remettre les cuisses dans la cocotte. Ajouter le piment entier (non percé pour le parfum sans piquant fort), le laurier, le thym, les olives.",
+        "Verser 250 ml d'eau chaude. Couvrir, laisser mijoter à feu doux 35 min. Retourner les cuisses à mi-cuisson.",
+        "Découvrir, retirer le piment entier. Si la sauce est trop liquide, réduire 10 min à découvert (sauce nappante avec beaucoup d'oignons-jus).",
+        "Servir avec du riz blanc parfumé (jasmin), arroser généreusement de sauce et d'oignons confits."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Cuisses de poulet",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Jus de citron jaune (2 citrons)",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Moutarde forte",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Cube de bouillon de volaille",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Olives vertes en bocal",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Bouquet garni (sachet)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "MARINADE : dans un grand saladier, mélanger jus de citron + moutarde + ail écrasé + sel + poivre. Ajouter les cuisses, masser, laisser mariner 30 min minimum (1 h c'est mieux).",
+        "Émincer les oignons. Dans une cocotte, faire chauffer 2 c.s. d'huile à feu vif, faire dorer les cuisses 3 min par côté. Réserver.",
+        "Dans la même cocotte, faire chauffer le reste d'huile. Faire suer les oignons 15 min à feu doux jusqu'à coloration dorée fondante.",
+        "Ajouter la marinade restante + le cube de bouillon dilué dans 250 ml d'eau chaude + le bouquet garni. Porter à frémissement, laisser réduire 5 min.",
+        "Remettre les cuisses dans la cocotte avec les olives égouttées. Couvrir, laisser mijoter à feu doux 30 min en retournant à mi-cuisson.",
+        "Découvrir, laisser réduire 5 min si nécessaire. Servir avec du riz blanc, arroser de sauce et d'oignons confits."
+      ],
+      "story": "Né en Casamance, le yassa est devenu le plat dominical sénégalais par excellence. La marinade citron-oignon-moutarde fait la magie : elle attendrit la viande et parfume la sauce d'oignons confits.",
+      "chefSecret": "Mariner le poulet 24 h au frigo : les acides du citron et de la moutarde de Dijon décomposent les fibres pour une viande fondante."
+    },
+    {
+      "slug": "maafe",
+      "title": "Maafé (ragoût à la pâte d'arachide)",
+      "image": "/images/maafe-senegal.jpg",
+      "prepTime": 20,
+      "cookTime": 90,
+      "servings": 6,
+      "diets": [],
+      "category": "plat",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "ingredients": [
+        {
+          "name": "Bœuf à mijoter (gîte ou paleron) en cubes 4 cm",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Pâte d'arachide pure (100% cacahuètes)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes émincés",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates fraîches concassées",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Patate douce en cubes 3 cm",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Manioc en tronçons",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Chou pommé en quartiers",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes en bâtonnets",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Aubergines amères (jaxatu) ou violettes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Piment Scotch Bonnet entier non percé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Cubes bouillon bœuf",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Riz blanc (servir)",
+          "qty": 400,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Saler et poivrer les cubes de bœuf. Dans une grande cocotte en fonte, faire chauffer 60 ml d'huile d'arachide à feu vif. Saisir les cubes 5 min en remuant jusqu'à coloration brune sur toutes faces. Réserver.",
+        "Dans la même cocotte, baisser à feu moyen. Faire suer les oignons 10 min. Ajouter l'ail, remuer 30 s.",
+        "Incorporer le concentré de tomates, cuire 3 min en remuant. Ajouter les tomates concassées, cuire 10 min jusqu'à réduction.",
+        "Remettre la viande dans la cocotte. Verser 2 L d'eau bouillante avec les cubes Maggi. Ajouter le piment entier. Porter à frémissement, couvrir, laisser mijoter 45 min.",
+        "Pendant ce temps, dans un bol, prélever 500 ml de bouillon CHAUD de la cocotte. Y délayer la pâte d'arachide en fouettant vigoureusement jusqu'à mélange parfaitement lisse (étape clé : pas de grumeaux).",
+        "Verser la pâte d'arachide délayée dans la cocotte, mélanger doucement à la cuillère en bois. Continuer à cuire 20 min à feu très doux, en remuant souvent pour ne pas attacher (la pâte épaissit la sauce naturellement).",
+        "Ajouter les légumes les plus durs (manioc, carottes), cuire 15 min.",
+        "Ajouter patate douce et chou, cuire 10 min. Ajouter aubergines, cuire 5 min. Tous les légumes doivent être tendres.",
+        "Goûter, rectifier le sel. Retirer le piment entier. La sauce doit être épaisse, brun-caramel, nappant les ingrédients.",
+        "Pendant ce temps, cuire le riz blanc. Servir le maafé sur un lit de riz, dans un grand plat commun, à manger à la main droite ou à la cuillère."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Bœuf à mijoter en cubes",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre de cacahuète sans sucre",
+          "qty": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Patate douce",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Carottes",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Cubes de bouillon de bœuf",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude",
+          "qty": 1.5,
+          "unit": "L"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel et poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Riz blanc (servir)",
+          "qty": 300,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Couper la viande en cubes de 3 cm. Émincer les oignons. Couper carottes et patate douce en gros cubes.",
+        "Dans une grande cocotte, faire chauffer 3 c.s. d'huile à feu vif. Saisir la viande 5 min jusqu'à coloration. Réserver.",
+        "Dans la même cocotte, faire suer les oignons 8 min à feu moyen. Verser les tomates concassées et 1,5 L d'eau chaude avec les 2 cubes de bouillon. Remettre la viande. Saler, poivrer. Couvrir, laisser mijoter 40 min.",
+        "Dans un bol, prélever 500 ml de bouillon chaud de la cocotte. Délayer le beurre de cacahuète au fouet jusqu'à dissolution parfaite (zéro grumeau).",
+        "Verser le mélange dans la cocotte, mélanger doucement. Ajouter carottes et patate douce. Continuer à cuire 25 min à découvert pour épaissir la sauce.",
+        "Pendant ce temps, cuire le riz blanc (300 g pour 450 ml d'eau salée, 11 min à feu très doux, repos 5 min). Servir le maafé sur le riz dans un grand plat commun."
+      ],
+      "story": "Plat de fête mandingue partagé du Sénégal au Mali, le maafé tire sa richesse de la pâte d'arachide qui épaissit la sauce et lui donne sa profondeur caramel-grillée.",
+      "chefSecret": "Diluer la pâte d'arachide dans le bouillon CHAUD avant de l'incorporer à la cocotte. Mélangée directement à froid, elle forme des grumeaux qui ne se redéfont jamais."
+    },
+    {
+      "slug": "thiakry",
+      "title": "Thiakry (couscous de mil au lait)",
+      "image": "/images/thiakry-senegal.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "seasons": [
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "name": "Semoule de mil fine (couscous de mil)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Lait caillé (lait de brebis fermenté, type « soow »)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Lait concentré sucré",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Crème fraîche épaisse",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre en poudre",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Gousse de vanille fendue",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau de fleur d'oranger",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Raisins secs (optionnel)",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin (semoule)",
+          "qty": 1,
+          "unit": "pincée"
+        }
+      ],
+      "steps": [
+        "HYDRATATION DU MIL : verser la semoule dans un grand plat, humidifier avec 150 ml d'eau froide salée. Rouler entre les paumes 5 min pour bien hydrater chaque grain (méthode signature des 3 vapeurs).",
+        "1ʳᵉ VAPEUR : transférer dans le panier d'une couscoussière, sur de l'eau frémissante. Cuire 15 min sans couvrir. Sortir, étaler sur le plat, arroser de 80 ml d'eau froide, rouler entre paumes pour aérer.",
+        "2ᵉ VAPEUR : remettre 10 min à la vapeur. Aération identique avec 60 ml d'eau.",
+        "3ᵉ VAPEUR : remettre 5 min à la vapeur. Aération finale, laisser refroidir totalement (les grains doivent être tendres, séparés, légers).",
+        "Pendant ce temps, gratter la gousse de vanille pour extraire les graines.",
+        "CRÈME : dans un grand saladier, fouetter le lait caillé + lait concentré sucré + crème fraîche + sucre + graines de vanille + fleur d'oranger jusqu'à mélange parfaitement lisse et crémeux. Goûter, rectifier le sucre (à doser selon le pétillant du lait caillé).",
+        "Incorporer la semoule refroidie dans la crème, mélanger délicatement à la spatule (le mil absorbe la crème mais reste perceptible en grains).",
+        "Ajouter les raisins secs si utilisés. Filmer au contact, placer au frais 2 h minimum (idéal 4 h) — le thiakry doit être TRÈS frais.",
+        "Servir dans des bols individuels ou dans un grand plat commun à partager à la cuillère."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Semoule fine (couscous de blé, à défaut de mil)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Yaourt nature brassé",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Lait concentré sucré",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre vanillé",
+          "qty": 2,
+          "unit": "sachets"
+        },
+        {
+          "name": "Eau de fleur d'oranger",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Raisins secs",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Eau (hydratation semoule)",
+          "qty": 250,
+          "unit": "ml"
+        }
+      ],
+      "commisSteps": [
+        "Verser la semoule fine dans un grand bol. Verser 250 ml d'eau bouillante salée par-dessus, couvrir d'une assiette, laisser gonfler 5 min. Aérer à la fourchette pour séparer les grains. Laisser refroidir complètement.",
+        "Dans un grand saladier, fouetter le yaourt + lait concentré sucré + sucre vanillé + fleur d'oranger jusqu'à mélange crémeux.",
+        "Incorporer la semoule refroidie dans la crème, mélanger à la spatule en soulevant la masse de bas en haut.",
+        "Ajouter les raisins secs. Filmer au contact, placer au frais 2 h minimum.",
+        "Servir très frais dans des bols ou dans un grand plat commun à la cuillère."
+      ],
+      "story": "Dessert frais des fins de repas sénégalais, le thiakry marie la semoule de mil cuite à la vapeur avec un lait caillé crémeux sucré à la vanille. Servi très frais après la prière du vendredi.",
+      "chefSecret": "Faire 3 vapeurs successives sur la semoule de mil avec des aérations intercalées — c'est ce qui donne le grain qui ne colle pas et reste léger en bouche."
+    }
+  ]
+}

@@ -62,9 +62,7 @@ const NAMING_EXCEPTIONS = {
   "tajine-poulet-citron": "tajine-de-poulet-au-citron-confit", // sans -maroc
   "pastilla-poulet": "pastilla-de-poulet-maroc", // "de"
   "briouates": "briouates-au-miel-maroc", // "au miel" ajouté
-  // NB : le fichier "Gemini_Generated_Image_uhiw52uhiw52uhiw.png" reste
-  // orphelin — impossible de deviner à quelle recette il correspond sans
-  // l'ouvrir. À renommer manuellement par l'user dans son main repo.
+  carbonara: "spaghetti-alla-carbonara-italie", // titre complet préféré au slug
 };
 
 // 1) Scan agnostique du dossier images
@@ -199,7 +197,8 @@ const index = {
 };
 writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2) + "\n", "utf8");
 
+const totalRecipes = foundCount + missingCount;
 console.log(`\n📊 Bilan :`);
-console.log(`  ✓ ${foundCount}/50 recettes ont une image physique`);
-console.log(`  ⚠ ${missingCount}/50 recettes ont un chemin théorique`);
+console.log(`  ✓ ${foundCount}/${totalRecipes} recettes ont une image physique`);
+console.log(`  ⚠ ${missingCount}/${totalRecipes} recettes ont un chemin théorique`);
 console.log(`  ✓ data/index.json régénéré`);

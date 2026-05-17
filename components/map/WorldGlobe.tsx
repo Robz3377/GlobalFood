@@ -100,36 +100,11 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
     [countries]
   );
 
-  /**
-   * Arcs de voyage — chaque pays se connecte au suivant dans la liste pour
-   * former un "itinéraire" qui boucle. Animation dash gradient pour donner
-   * un effet de voyage (orange brûlé → ochre selon la palette appétissante).
-   */
-  const arcs = useMemo(() => {
-    const coords = countries
-      .map((c) => ({ slug: c.slug, ...(COUNTRY_COORDS[c.slug] ?? {}) }))
-      .filter(
-        (c): c is { slug: string; lat: number; lng: number } =>
-          typeof c.lat === "number" && typeof c.lng === "number"
-      );
-    const list: {
-      startLat: number;
-      startLng: number;
-      endLat: number;
-      endLng: number;
-    }[] = [];
-    for (let i = 0; i < coords.length; i++) {
-      const a = coords[i];
-      const b = coords[(i + 1) % coords.length];
-      list.push({
-        startLat: a.lat,
-        startLng: a.lng,
-        endLat: b.lat,
-        endLng: b.lng,
-      });
-    }
-    return list;
-  }, [countries]);
+  // v2.7 — Les arcs de voyage ont été retirés (épuration du globe). Le
+  // useMemo `arcs` + les props arcsData/arcStart*/arcEnd*/arcColor/arcStroke/
+  // arcDash* du composant <Globe> ne sont plus rendus. Le globe affiche
+  // désormais uniquement les rings sur les capitales, sans tracés
+  // reliant les pays entre eux.
 
   /**
    * Markers HTML (un par pays disponible). Liste STABLE — ne dépend que de
@@ -377,20 +352,6 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           ringPropagationSpeed={1.6}
           ringRepeatPeriod={1700}
           ringAltitude={0.018}
-          // === ARCS DE VOYAGE — itinéraire en boucle ===
-          // Connecte chaque pays au suivant pour donner un effet "carnet de
-          // voyage" — la palette terracotta/orange anime le parcours.
-          arcsData={arcs}
-          arcStartLat="startLat"
-          arcStartLng="startLng"
-          arcEndLat="endLat"
-          arcEndLng="endLng"
-          arcColor={() => ["rgba(230, 81, 0, 0.55)", "rgba(251, 192, 45, 0.45)"]}
-          arcStroke={0.35}
-          arcDashLength={0.4}
-          arcDashGap={0.18}
-          arcDashAnimateTime={4500}
-          arcAltitudeAutoScale={0.35}
           // === HTML MARKERS — pill DOM avec drapeau emoji + nom du pays ===
           // Utilise des éléments DOM (pas la TextGeometry 3D de Three.js qui
           // affichait des "?" pour les drapeaux emoji absents de la typeface).

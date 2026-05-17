@@ -94,6 +94,9 @@ const COUNTRY_LOADERS: Record<string, () => Promise<{ default: unknown }>> = {
   chine: () => import("@/data/countries/chine.json"),
   bresil: () => import("@/data/countries/bresil.json"),
   grece: () => import("@/data/countries/grece.json"),
+  // v2.7 — nouveaux pays (Sénégal + Vietnam)
+  senegal: () => import("@/data/countries/senegal.json"),
+  vietnam: () => import("@/data/countries/vietnam.json"),
 };
 
 /** Cache process-local pour éviter de re-importer le même JSON pays. */

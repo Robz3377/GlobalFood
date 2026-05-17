@@ -1,0 +1,932 @@
+{
+  "slug": "vietnam",
+  "name": "Vietnam",
+  "iso3": "VNM",
+  "isoNumeric": "704",
+  "flag": "🇻🇳",
+  "intro": "Cuisine d'équilibre où chaque plat marie le salé, le sucré, l'acide et le piquant. Les herbes fraîches sont reines, la galette de riz transparente est un art, et le bouillon parfumé à l'anis étoilé court de Hanoï à Hô Chi Minh-Ville.",
+  "tagline": "L'équilibre des cinq saveurs",
+  "recipes": [
+    {
+      "slug": "goi-cuon",
+      "title": "Gỏi Cuốn (rouleaux de printemps)",
+      "image": "/images/goi-cuon-vietnam.jpg",
+      "prepTime": 40,
+      "cookTime": 10,
+      "servings": 4,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "entree",
+      "ingredients": [
+        {
+          "name": "Galettes de riz vietnamiennes 22 cm (bánh tráng)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "Crevettes tigres cuites décortiquées (queue gardée)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "Poitrine de porc cuite à l'eau froide 30 min",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Vermicelles de riz fins (bún)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Salade rouge (feuilles tendres)",
+          "qty": 12,
+          "unit": "feuilles"
+        },
+        {
+          "name": "Menthe fraîche (feuilles entières)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Coriandre fraîche (avec tiges fines)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Basilic thaï (horapa)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Ciboule (longueurs entières)",
+          "qty": 6,
+          "unit": "brins"
+        },
+        {
+          "name": "SAUCE NUOC CHẤM — Sauce nuoc-mâm",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Jus de citron vert frais",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Ail dégermé haché EXTRÊMEMENT FIN",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Piment oiseau haché",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau chaude (sauce)",
+          "qty": 60,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "Faire bouillir une casserole d'eau, plonger les vermicelles de riz 3 min, égoutter, rafraîchir à l'eau froide pour stopper la cuisson, étaler sur un plat.",
+        "Faire pocher la poitrine de porc 30 min dans l'eau frémissante salée (départ eau froide pour viande tendre). Refroidir, émincer à la mandoline en tranches très fines de 2 mm.",
+        "Décortiquer les crevettes en gardant la queue. Les ouvrir en deux dans le sens de la longueur pour qu'elles tiennent à plat dans le rouleau.",
+        "Effeuiller herbes et salade, laver, sécher PARFAITEMENT (essoreuse + torchon).",
+        "SAUCE NUOC CHẤM : mélanger eau chaude + sucre dans un bol jusqu'à dissolution. Ajouter nuoc-mâm + jus de citron + ail extra fin + piment. Goûter, équilibrer salé-sucré-acide-piquant. Réserver.",
+        "PRÉPARER LE POSTE : grande assiette d'eau tiède (pas chaude), torchon humide propre sur le plan de travail, tous les ingrédients à portée de main dans l'ordre de garniture.",
+        "ASSEMBLAGE (1 rouleau à la fois) : plonger 1 galette de riz dans l'eau tiède PENDANT 5 SECONDES (chronométrer). Étaler sur le torchon humide.",
+        "Sur le tiers inférieur de la galette, disposer dans cet ordre : 1 feuille de salade légèrement déchirée, 2 c.s. de vermicelles, 2 tranches de porc, 4-5 feuilles de menthe/coriandre/basilic. Au-dessus, aligner 2 crevettes coupées en deux, face rouge contre la galette (elles apparaîtront roses à travers).",
+        "ROULAGE : replier le bord gauche puis le bord droit vers le centre. Rouler depuis le bas vers le haut, en serrant FERMEMENT mais sans déchirer. Le rouleau doit être bien tendu.",
+        "Réserver les rouleaux côte à côte sur un plat (sans qu'ils se touchent, sinon ils collent). Servir frais avec la sauce nuoc chấm à part. Manger à la main en trempant chaque rouleau."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Galettes de riz rondes (rayon Asie)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "Crevettes cuites décortiquées surgelées",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Vermicelles de riz (paquet rayon Asie)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Salade type batavia",
+          "qty": 12,
+          "unit": "feuilles"
+        },
+        {
+          "name": "Menthe fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Sauce nuoc-mâm",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron vert (1 citron)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 1,
+          "unit": "gousse"
+        },
+        {
+          "name": "Eau chaude (sauce)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Faire bouillir de l'eau, plonger les vermicelles 3 min, égoutter, rafraîchir à l'eau froide. Étaler sur un plat.",
+        "SAUCE : dans un bol, mélanger eau chaude + sucre jusqu'à dissolution. Ajouter nuoc-mâm + jus de citron + ail écrasé fin. Goûter et rectifier.",
+        "Préparer le poste : grande assiette d'eau tiède, torchon humide, ingrédients alignés.",
+        "Pour chaque rouleau : tremper la galette 5 secondes dans l'eau tiède, étaler sur le torchon. Au tiers inférieur, déposer 1/2 feuille de salade + 2 c.s. de vermicelles + 2 crevettes + 4 feuilles de menthe/coriandre.",
+        "Replier les bords gauche-droite vers le centre, puis rouler du bas vers le haut en serrant. Réserver les rouleaux séparés sur un plat. Servir frais avec la sauce."
+      ],
+      "story": "Délicats rouleaux frais du Sud-Vietnam, les gỏi cuốn arrivent en première étape d'un repas familial. La galette de riz transparente laisse voir les couleurs : rose des crevettes, vert de la menthe, blanc des vermicelles.",
+      "chefSecret": "Tremper la galette de riz dans l'eau tiède SEULEMENT 5 secondes (pas plus), puis poser-la sur un torchon humide. Elle finit de s'assouplir pendant qu'on la garnit."
+    },
+    {
+      "slug": "pho-bo",
+      "title": "Phở Bò (soupe de nouilles au bœuf)",
+      "image": "/images/pho-bo-vietnam.jpg",
+      "prepTime": 30,
+      "cookTime": 240,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [
+        "winter"
+      ],
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredients": [
+        {
+          "name": "Os à moelle de bœuf",
+          "qty": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "Jarret de bœuf (bouillon + tranches finales)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Faux-filet ou romsteak cru bien froid (à trancher fin)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Nouilles de riz larges plates (bánh phở)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes ENTIERS non pelés (à torréfier)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Gingembre frais ENTIER (morceau 8 cm)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Anis étoilé",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Bâton de cannelle (5 cm)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Clous de girofle",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "Graines de coriandre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cardamome noire (grande)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sucre de canne",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce nuoc-mâm",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "GARNITURES — Ciboule blanche en biais",
+          "qty": 4,
+          "unit": "brins"
+        },
+        {
+          "name": "Oignon rouge en lamelles fines",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Basilic thaï (horapa)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Pousses de soja crues",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Citrons verts en quartiers",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Piments oiseaux en rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce hoisin et Sriracha (à part pour chaque convive)",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "BLANCHIR LES OS (étape clé pour bouillon CLAIR) : déposer os et jarret dans une grande marmite d'eau froide, porter à ébullition franche, cuire 10 min. L'eau devient brunâtre (impuretés). Égoutter, rincer os et viande sous l'eau froide. JETER l'eau.",
+        "TORRÉFIER OIGNONS + GINGEMBRE : faire griller les oignons non pelés et le gingembre entier directement sur la flamme du gaz (rotation à la pince) pendant 8-10 min jusqu'à noircissement extérieur (à défaut : sous le grill du four à 250 °C, 15 min). Peler grossièrement les parties carbonisées.",
+        "TORRÉFIER LES ÉPICES : dans une poêle sèche, faire torréfier anis + cannelle + clous + coriandre + cardamome 2 min à feu moyen jusqu'à libération des arômes (étape clé : sans cette torréfaction le bouillon est plat).",
+        "Dans la marmite rincée, remettre os et jarret. Couvrir d'eau froide PROPRE (5 L). Ajouter oignons et gingembre torréfiés + épices torréfiées (dans une gaze de mousseline pour faciliter le retrait).",
+        "Porter à ébullition franche, puis IMMÉDIATEMENT baisser à frémissement très doux. Écumer toutes les impuretés qui remontent en surface pendant les 30 premières minutes.",
+        "Laisser frémir doucement 3 h 30 à découvert (le bouillon doit JUSTE frémir). Ajouter le sucre et 30 ml de nuoc-mâm à 2 h 30. Goûter, ajuster sel et nuoc-mâm.",
+        "PRÉPARATION DU BŒUF CRU : pendant le bouillon, placer le faux-filet 1 h au congélateur (ça fige les fibres). Le sortir, trancher au couteau bien aiguisé en lamelles ULTRA-FINES (1,5-2 mm, translucides). Réserver couvert au frais.",
+        "Sortir le jarret cuit du bouillon, laisser tiédir, trancher en lamelles fines. Réserver.",
+        "Filtrer le bouillon à la passoire fine doublée d'une mousseline. Le bouillon final doit être DORÉ AMBRÉ et CLAIR (signature visuelle). Maintenir à frémissement.",
+        "Cuire les nouilles plates 4-5 min dans une grande casserole d'eau bouillante non salée. Égoutter, ne pas rafraîchir.",
+        "DRESSAGE (rapide, le bouillon doit être BRÛLANT) : répartir les nouilles dans 4 grands bols à phở. Disposer les tranches de jarret cuit et 5-6 lamelles de bœuf cru sur le dessus. Verser le bouillon brûlant directement sur le bœuf cru (la chaleur va le saisir).",
+        "Garnir immédiatement de ciboule, oignon rouge, herbes. Servir avec assiette de pousses de soja, basilic, citron vert, piments, et sauces hoisin + Sriracha à part — chacun assaisonne dans son bol selon son goût."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Bœuf à mijoter (gîte)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Faux-filet (pour les tranches crues finales)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Nouilles de riz plates (rayon Asie)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Cubes de bouillon de bœuf",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Eau",
+          "qty": 2,
+          "unit": "L"
+        },
+        {
+          "name": "Gingembre frais",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Anis étoilé (badiane)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Bâton de cannelle",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce nuoc-mâm",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Pousses de soja",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Citrons verts",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sriracha (au choix de chacun)",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Couper l'oignon en deux. Faire griller l'oignon et le gingembre entier sur la flamme du gaz 5 min (ou sous le grill au four 10 min à 230 °C) jusqu'à coloration extérieure noircie.",
+        "Dans une grande casserole, verser 2 L d'eau avec les 3 cubes de bouillon. Ajouter oignon et gingembre grillés + anis étoilé + cannelle. Porter à frémissement.",
+        "Ajouter le bœuf à mijoter en gros cubes. Couvrir, laisser mijoter 1 h 30 à feu doux. Ajouter nuoc-mâm + sucre. Cuire encore 30 min. Goûter, rectifier.",
+        "Sortir le gîte du bouillon, trancher en lamelles fines. Filtrer le bouillon à la passoire (retirer oignon, gingembre, épices). Maintenir à frémissement.",
+        "Trancher le faux-filet en lamelles ULTRA-FINES (1-2 mm). Pour faciliter : placer la viande 30 min au congélateur avant de trancher.",
+        "Cuire les nouilles 4 min dans l'eau bouillante non salée. Égoutter, répartir dans 4 bols. Ajouter les tranches de gîte cuit + les lamelles de faux-filet cru. Verser le bouillon BRÛLANT par-dessus (cuit la viande crue à point). Garnir de pousses de soja, coriandre, citron vert. Sriracha au choix."
+      ],
+      "story": "Soupe nationale vietnamienne née à Hanoï au début du XXᵉ siècle, le phở est le petit-déjeuner traditionnel du Nord. Son bouillon clair-doré, parfumé à l'anis étoilé et au gingembre torréfié, est le secret de sa profondeur.",
+      "chefSecret": "TORRÉFIER le gingembre et l'oignon ENTIERS directement sur la flamme du gaz jusqu'à ce qu'ils noircissent. Cette caramélisation donne au bouillon sa couleur ambrée et son parfum signature."
+    },
+    {
+      "slug": "banh-mi",
+      "title": "Bánh Mì (sandwich vietnamien)",
+      "image": "/images/banh-mi-vietnam.jpg",
+      "prepTime": 30,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Échine de porc en tranches 1 cm (ou poitrine désossée)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "MARINADE — Sauce soja",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce nuoc-mâm",
+          "qty": 15,
+          "unit": "ml"
+        },
+        {
+          "name": "Miel ou sucre de canne",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Citronnelle hachée fin (partie tendre)",
+          "qty": 2,
+          "unit": "tiges"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Échalote thaïe hachée fin",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "5 épices chinoises",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile végétale (marinade)",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "PICKLES — Carottes en julienne 3 mm",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Daikon (radis blanc) en julienne 3 mm",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vinaigre de riz",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre (pickles)",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Sel (pickles)",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Baguette tradition française (peu cuite)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Pâté de campagne français OU pâté chinois",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Concombre en bâtonnets",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Piments oiseaux en rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce soja Maggi pour arroser",
+          "qty": 2,
+          "unit": "c. à soupe"
+        }
+      ],
+      "steps": [
+        "PICKLES (la veille idéal, ou 2 h minimum) : mélanger carotte et daikon en julienne dans un saladier. Saler avec 5 g de sel, masser 2 min, laisser dégorger 15 min, presser pour évacuer l'eau.",
+        "Dans une casserole, porter vinaigre de riz + sucre + 100 ml d'eau à frémissement, fouetter jusqu'à dissolution. Verser chaud sur les juliennes, laisser mariner 2 h minimum à T° ambiante.",
+        "MARINADE PORC : dans un saladier, mélanger sauce soja + nuoc-mâm + miel + citronnelle + ail + échalote + 5 épices + 30 ml d'huile. Ajouter les tranches de porc, masser, laisser mariner 30 min à 4 h.",
+        "Faire chauffer une plancha ou poêle striée à feu vif. Égoutter les tranches de porc, faire griller 3 min par côté jusqu'à coloration caramel-laquée (la marinade au miel caramélise).",
+        "Laisser reposer 5 min, trancher en lamelles épaisses de 1 cm contre le sens des fibres.",
+        "PRÉPARER LES BAGUETTES : passer brièvement les baguettes 3 min au four à 200 °C pour les réchauffer et raviver la croûte. Fendre en deux dans la longueur sans détacher les deux côtés.",
+        "Tartiner un côté intérieur de pâté, l'autre côté de mayonnaise (le pâté + la mayo imperméabilisent la mie contre le jus du porc).",
+        "Garnir abondamment : tranches de porc grillé, pickles carotte-daikon (bien essorés), concombre, coriandre en bouquet, rondelles de piment.",
+        "Arroser de quelques gouttes de sauce soja Maggi (touche signature vietnamienne).",
+        "Refermer en pressant fermement. Couper en deux dans le sens de la largeur si grande baguette. Servir immédiatement (le bánh mì se mange tout de suite, sinon les pickles détrempent le pain)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Émincé de porc déjà coupé fin",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Miel",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "5 épices (sachet)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile végétale",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "PICKLES — Carottes râpées (sachet)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Vinaigre blanc",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre (pickles)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Baguettes",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Pâté de campagne",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Concombre",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "PICKLES EXPRESS : dans un bol, mélanger les carottes râpées + vinaigre blanc + sucre + une pincée de sel. Laisser mariner 15 min minimum (1 h c'est mieux).",
+        "MARINADE PORC : mélanger sauce soja + miel + ail écrasé + 5 épices + 1 c.s. d'huile. Ajouter l'émincé de porc, mélanger, laisser mariner 10 min.",
+        "Dans une grande poêle, faire chauffer 1 c.s. d'huile à feu vif. Faire sauter le porc 4 min en remuant jusqu'à coloration caramel.",
+        "Réchauffer les baguettes 3 min au four à 200 °C. Fendre en deux sans détacher.",
+        "Tartiner un côté de pâté, l'autre de mayonnaise. Garnir avec porc grillé + pickles essorés + bâtonnets de concombre + coriandre.",
+        "Refermer en pressant. Servir immédiatement (les bánh mì se mangent dans la foulée)."
+      ],
+      "story": "Héritage de la colonisation française (la baguette) marié aux saveurs vietnamiennes (porc laqué, pickles, coriandre), le bánh mì est devenu un emblème de la cuisine de rue à Saïgon comme à Hanoï.",
+      "chefSecret": "Tartiner la baguette de mayonnaise sur UN côté intérieur et de pâté sur l'AUTRE : c'est ce qui imperméabilise le pain et l'empêche de se détremper du jus du porc."
+    },
+    {
+      "slug": "bun-cha",
+      "title": "Bún Chả (porc grillé et vermicelles)",
+      "image": "/images/bun-cha-vietnam.jpg",
+      "prepTime": 30,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Échine de porc en tranches 1 cm",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Porc haché à 30% de gras",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "MARINADE — Sauce nuoc-mâm",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Miel ou caramel salé",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 6,
+          "unit": "gousses"
+        },
+        {
+          "name": "Échalote thaïe hachée fin",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce huître (boulettes)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "BOUILLON TREMPAGE — Sauce nuoc-mâm",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre (bouillon)",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Jus de citron vert frais",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "name": "Eau tiède (bouillon)",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Ail écrasé fin (bouillon)",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Piments oiseaux en rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes en très fine julienne",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vermicelles de riz fins (bún)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Salade verte croquante (laitue)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre, menthe, perilla (lá tía tô)",
+          "qty": 1,
+          "unit": "bouquet de chaque"
+        }
+      ],
+      "steps": [
+        "MARINADE TRANCHES + BOULETTES : dans un saladier, mélanger nuoc-mâm + miel + sauce soja + 4 gousses d'ail écrasées + 1 échalote hachée + 30 ml d'huile + poivre + une pincée de sucre. Diviser en deux.",
+        "Mettre les tranches de porc dans la moitié, masser, laisser mariner 2 h à 4 h.",
+        "Dans la 2ᵉ moitié, ajouter la sauce huître + 1 échalote + 2 gousses d'ail. Mélanger avec le porc haché. Former 16 boulettes (~20 g chacune), aplatir légèrement en galettes. Réserver au frais.",
+        "BOUILLON TREMPAGE : dans un bol, dissoudre le sucre dans l'eau tiède. Ajouter nuoc-mâm + jus de citron + ail extra fin + piment + carotte en julienne. Goûter, équilibrer salé-sucré-acide-piquant. Couvrir, réserver à T° ambiante.",
+        "Préparer la table : grande assiette de salades + herbes lavées-essorées, vermicelles cuits égouttés répartis dans 4 bols séparés, baguettes prêtes.",
+        "CUISSON DES VERMICELLES : porter une grande casserole d'eau à ébullition non salée. Plonger les vermicelles 3 min, égoutter, rafraîchir IMMÉDIATEMENT à l'eau glacée pour stopper la cuisson (les vermicelles se mangent FROIDS dans le bún chả).",
+        "PRÉCHAUFFER LE GRILL CHARBON (idéal) ou plancha-grill fonte à feu vif. Quand les braises sont blanches, déposer tranches de porc et galettes de boulettes côte à côte.",
+        "Cuire 3 min par face en arrosant d'un peu de marinade au pinceau (le miel caramélise = laque foncée brillante). Les boulettes prennent 4 min par face, plus épaisses.",
+        "ASSEMBLAGE INDIVIDUEL : verser le bouillon trempage tiède dans un grand bol de service. Y déposer 3-4 tranches de porc + 4 boulettes (toutes chaudes). Servir avec assiette d'herbes/salade et bol de vermicelles à part pour chacun.",
+        "À MANGER : prélever vermicelles + herbes + porc à la baguette, tremper dans le bouillon, manger immédiatement. Alterner tremper-déguster jusqu'à la fin."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Porc haché",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Émincé de porc",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce nuoc-mâm (marinade + bouillon)",
+          "qty": 8,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Miel",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 5,
+          "unit": "gousses"
+        },
+        {
+          "name": "Sucre",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron vert (2 citrons)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Eau tiède",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Sriracha (remplace piment frais)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vermicelles de riz (rayon Asie)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Salade verte",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre + menthe",
+          "qty": 1,
+          "unit": "bouquet chacun"
+        },
+        {
+          "name": "Carotte (pour le bouillon)",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "MARINADE : mélanger 4 c.s. nuoc-mâm + 3 c.s. miel + 3 gousses d'ail écrasées dans un saladier. Diviser en deux. Mettre les tranches de porc dans une moitié, le porc haché dans l'autre. Former 12 boulettes plates avec le porc haché. Laisser mariner 30 min minimum.",
+        "BOUILLON TREMPAGE : dans un grand bol, dissoudre 4 c.s. de sucre dans 400 ml d'eau tiède. Ajouter 4 c.s. nuoc-mâm + 4 c.s. jus de citron + 2 gousses d'ail écrasées + 1 c.s. Sriracha + carotte râpée. Goûter, équilibrer.",
+        "Cuire les vermicelles 3 min dans l'eau bouillante non salée. Égoutter, rafraîchir à l'eau glacée. Répartir dans 4 bols.",
+        "Faire chauffer une plancha ou grande poêle à feu vif. Faire griller tranches de porc + boulettes 3 min par face jusqu'à coloration caramel.",
+        "Pour chaque convive : grand bol avec une part de bouillon tiède. Ajouter 3-4 tranches de porc et 3 boulettes chaudes.",
+        "Servir avec assiette de salade + herbes, bol de vermicelles à part. Manger en trempant vermicelles + herbes + porc dans le bouillon."
+      ],
+      "story": "Spécialité hanoïenne immortalisée par le déjeuner d'Anthony Bourdain et Barack Obama en 2016. Boulettes et tranches de porc grillé au charbon, vermicelles de riz froids, bol de bouillon tiède aigre-doux-pimenté — c'est un puzzle gustatif à assembler dans le bol.",
+      "chefSecret": "Le grillage AU CHARBON DE BOIS est non négociable pour les puristes : la fumée caramélise le miel de la marinade et donne le parfum signature."
+    },
+    {
+      "slug": "che-chuoi",
+      "title": "Chè Chuối (banane au lait de coco)",
+      "image": "/images/che-chuoi-vietnam.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "servings": 4,
+      "diets": [
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "dessert",
+      "ingredients": [
+        {
+          "name": "Bananes mûres mais fermes (Cavendish ou plantains semi-mûres)",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Lait de coco entier",
+          "qty": 600,
+          "unit": "ml"
+        },
+        {
+          "name": "Perles de tapioca (petites, blanches)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre de palme thaï (jaggery) ou sucre roux",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Feuille de pandanus nouée (optionnel)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Cacahuètes torréfiées concassées (finition)",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Graines de sésame blanches torréfiées (finition)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Maïzena (épaississant)",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "steps": [
+        "Faire tremper les perles de tapioca dans un bol d'eau froide 15 min (elles vont gonfler). Égoutter, rincer.",
+        "Faire bouillir une casserole d'eau, plonger les perles 8 min jusqu'à ce qu'elles deviennent transparentes au centre. Égoutter, rafraîchir à l'eau froide pour stopper la cuisson. Réserver.",
+        "Pendant ce temps, peler les bananes et les couper en biais en tronçons de 4 cm (les coupes biaisées présentent mieux à l'assiette).",
+        "Dans une casserole large à fond épais, verser le lait de coco + sucre de palme + pincée de sel + feuille de pandanus (si utilisée). Chauffer doucement à feu moyen en remuant jusqu'à dissolution complète du sucre. JAMAIS bouillir (le lait de coco se sépare en huile + solides).",
+        "Quand le lait frémit doucement, ajouter les tronçons de banane. Pocher 5 min à feu très doux en retournant délicatement à mi-cuisson (les bananes deviennent tendres mais doivent garder leur forme).",
+        "Ajouter les perles de tapioca pré-cuites. Diluer la maïzena dans 2 c.s. d'eau froide, verser dans la casserole en remuant doucement. Cuire 2 min jusqu'à léger épaississement (texture nappante).",
+        "Servir tiède dans des bols individuels. Parsemer généreusement de cacahuètes concassées et de graines de sésame torréfiées. La chaleur résiduelle finit de marier les saveurs."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Bananes mûres mais fermes",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "Lait de coco entier (boîte 400 ml)",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Perles de tapioca (rayon Asie ou bio)",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre roux",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Cacahuètes salées concassées (finition)",
+          "qty": 50,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Faire tremper les perles de tapioca dans un bol d'eau froide 10 min. Égoutter.",
+        "Plonger les perles dans une casserole d'eau bouillante 7 min jusqu'à transparence. Égoutter, rincer à l'eau froide.",
+        "Peler les bananes, couper en biais en tronçons de 3-4 cm.",
+        "Dans une casserole, verser le lait de coco + sucre roux + pincée de sel. Chauffer à feu doux en remuant jusqu'à dissolution du sucre. JAMAIS bouillir.",
+        "Ajouter les bananes, pocher 5 min à feu très doux. Ajouter les perles de tapioca, mélanger doucement. Servir tiède dans des bols, parsemer de cacahuètes concassées."
+      ],
+      "story": "Dessert chaud-tiède du Sud-Vietnam, le chè chuối marie des bananes mûres dans une crème de coco onctueuse parfumée au tapioca. Servi en fin de repas ou comme goûter dans les rues de Hô Chi Minh-Ville.",
+      "chefSecret": "Choisir des bananes MÛRES MAIS FERMES (peau jaune avec quelques points bruns). Trop mûres elles se désintègrent dans le sirop, pas assez elles restent amères et farineuses."
+    }
+  ]
+}
