@@ -10,7 +10,7 @@
     {
       "slug": "pad-thai",
       "title": "Pad Thai aux crevettes",
-      "image": "/images/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 8,
       "servings": 2,
@@ -183,12 +183,13 @@
         "Faire chauffer un wok ou une grande poêle à feu vif avec 3 c.s. d'huile. Lancer l'ail 15 s puis les crevettes 2 min jusqu'à coloration rose. Pousser tout sur un côté de la poêle, casser les 2 œufs dans le vider et brouille-les 30 s à la spatule.",
         "Ajouter les nouilles égouttées + toute la sauce. Mélanger à la pince ou aux baguettes 2 min jusqu'à ce que les nouilles absorbent la sauce et soient tendres et brillantes.",
         "Couper le feu. Ajouter les germes de soja, les ciboules et la moitié des cacahuètes. Mélanger brièvement (les germes doivent rester croquants). Servir immédiatement avec le reste des cacahuètes par-dessus et un quartier de citron vert à presser."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "curry-vert-poulet",
       "title": "Curry vert au poulet",
-      "image": "/images/curry-vert-au-poulet-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/curry-vert-au-poulet-tha%C3%AFlande.jpg",
       "prepTime": 20,
       "cookTime": 25,
       "servings": 4,
@@ -355,12 +356,13 @@
         "Ajouter le poulet et faire-le saisir 4 min en remuant pour bien l'enrober de pâte.",
         "Verser le lait de coco, ajouter la sauce nuoc-mâm et le sucre roux. Porter à frémissement. Ajouter les carottes et l'aubergine. Couvrir et laisser mijoter 12 min à feu moyen — les légumes doivent être tendres.",
         "Ajouter les pois gourmands, cuire encore 3 min — ils doivent rester croquants. Couper le feu, ajouter le basilic et la coriandre ciselés. Servir chaud sur le riz jasmin."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "tom-yum-kung",
       "title": "Tom yum kung",
-      "image": "/images/tom-yum-kung-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/tom-yum-kung-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 20,
       "servings": 4,
@@ -557,12 +559,13 @@
         "Ajouter les crevettes décortiquées, la sauce nuoc-mâm, le sucre roux et la Sriracha. Laisser cuire 3 min : les crevettes deviennent roses et fermes.",
         "Couper LE FEU. C'est essentiel : c'est hors du feu qu'on ajoute le jus de citron vert (4 c.s.) pour garder son côté frais et acide. Mélanger.",
         "Servir immédiatement dans des bols brûlants avec la coriandre fraîche par-dessus. Si trouves les morceaux de citronnelle/gingembre/zeste, écarte-les de la cuillère en mangeant (ils ont parfumé mais ne se mangent pas)."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "som-tam",
       "title": "Som tam (salade de papaye verte)",
-      "image": "/images/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 0,
       "servings": 4,
@@ -722,12 +725,13 @@
         "Dans un grand saladier (ou un mortier si en as un), écraser l'ail au pilon avec 1 c.s. de cacahuètes torréfiées. Ajouter le sucre roux, la sauce nuoc-mâm, le jus de citron vert et la Sriracha. Mélanger jusqu'à dissolution du sucre — c'est la sauce signature.",
         "Ajouter carottes, concombre, tomates et haricots verts. Mélanger délicatement à la main ou avec deux cuillères en bois en pressant légèrement pour que la sauce imprègne bien les légumes.",
         "Servir IMMÉDIATEMENT dans des assiettes creuses. Parsemer du reste des cacahuètes concassées, de coriandre et menthe ciselées. La salade ne se garder pas : la carotte rend de l'eau et la salade devient flasque en 30 min."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "mango-sticky-rice",
       "title": "Mango sticky rice",
-      "image": "/images/mango-sticky-rice-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/mango-sticky-rice-tha%C3%AFlande.jpg",
       "prepTime": 30,
       "cookTime": 25,
       "servings": 4,
@@ -873,7 +877,8 @@
         "Pendant ce temps, préparer le topping crémeux : dans une petite casserole, verser les 100 ml de lait de coco restants + 20 g de sucre roux + 1 c.c. de maïzena diluée dans 1 c.s. d'eau froide. Chauffer à feu doux en remuant 2 min jusqu'à ce que la sauce épaississe et napper la cuillère.",
         "Peler les mangues et couper-les en tranches épaisses (ou en demi-cubes). Viser les plus mûres du rayon : la chair doit céder légèrement sous la pression.",
         "Dresser dans des assiettes : un dôme de riz coco au centre, les tranches de mangue posées à côté. Verser le topping crémeux sur le riz (et un peu sur la mangue si veux). Parsemer de graines de sésame torréfiées. Servir tiède ou à température ambiante — JAMAIS froid (le riz devient dur)."
-      ]
+      ],
+      "category": "dessert"
     }
   ]
 }

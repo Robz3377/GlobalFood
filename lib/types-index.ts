@@ -8,7 +8,7 @@
  * lib/types.ts et sont chargés à la demande via `getCountry(slug)`.
  */
 
-import type { Diet, Season, CulturalEvent } from "./types";
+import type { Diet, Season, CulturalEvent, RecipeCategory } from "./types";
 
 /**
  * Meta d'un pays — sans les recettes complètes, juste les slugs.
@@ -39,6 +39,8 @@ export type RecipeIndex = {
   cookTime: number;
   servings: number;
   diets: Diet[];
+  /** Catégorie culinaire — pour grouper sur /parcourir (v2.4). */
+  category: RecipeCategory;
   seasons?: Season[];
   events?: CulturalEvent[];
   /** Noms d'ingrédients aplatis (Chef + Commis, dédupliqués). Pour le frigo. */

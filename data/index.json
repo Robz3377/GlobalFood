@@ -166,13 +166,14 @@
       "countrySlug": "bresil",
       "slug": "feijoada",
       "title": "Feijoada complète",
-      "image": "/images/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
+      "image": "/images/recipes/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
       "prepTime": 30,
       "cookTime": 210,
       "servings": 8,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -222,7 +223,7 @@
       "countrySlug": "bresil",
       "slug": "moqueca",
       "title": "Moqueca de poisson",
-      "image": "/images/moqueca-de-poisson-br%C3%A9sil.jpg",
+      "image": "/images/recipes/moqueca-de-poisson-br%C3%A9sil.jpg",
       "prepTime": 30,
       "cookTime": 30,
       "servings": 4,
@@ -230,6 +231,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "summer",
         "spring"
@@ -275,7 +277,7 @@
       "countrySlug": "bresil",
       "slug": "pao-de-queijo",
       "title": "Pão de queijo",
-      "image": "/images/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
+      "image": "/images/recipes/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 6,
@@ -283,6 +285,7 @@
         "vegetarian",
         "gluten-free"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "summer",
@@ -313,13 +316,14 @@
       "countrySlug": "bresil",
       "slug": "coxinhas",
       "title": "Coxinhas de poulet",
-      "image": "/images/coxinhas-de-poulet-br%C3%A9sil.jpg",
+      "image": "/images/recipes/coxinhas-de-poulet-br%C3%A9sil.jpg",
       "prepTime": 90,
       "cookTime": 25,
       "servings": 6,
       "diets": [
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "summer",
@@ -370,7 +374,7 @@
       "countrySlug": "bresil",
       "slug": "brigadeiros",
       "title": "Brigadeiros",
-      "image": "/images/brigadeiros-br%C3%A9sil.jpg",
+      "image": "/images/recipes/brigadeiros-br%C3%A9sil.jpg",
       "prepTime": 15,
       "cookTime": 18,
       "servings": 8,
@@ -378,6 +382,7 @@
         "vegetarian",
         "gluten-free"
       ],
+      "category": "dessert",
       "seasons": [
         "spring",
         "summer",
@@ -411,13 +416,14 @@
       "countrySlug": "chine",
       "slug": "mapo-tofu",
       "title": "Mapo tofu",
-      "image": "/images/mapo-tofu-chine.jpg",
+      "image": "/images/recipes/mapo-tofu-chine.jpg",
       "prepTime": 20,
       "cookTime": 20,
       "servings": 3,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -465,13 +471,14 @@
       "countrySlug": "chine",
       "slug": "canard-laque",
       "title": "Canard laqué pékinois",
-      "image": "/images/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
+      "image": "/images/recipes/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
       "prepTime": 60,
       "cookTime": 90,
       "servings": 6,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -515,13 +522,14 @@
       "countrySlug": "chine",
       "slug": "jiaozi",
       "title": "Jiaozi (raviolis chinois)",
-      "image": "/images/jiaozi-(raviolis-chinois)-chine.jpg",
+      "image": "/images/recipes/jiaozi-(raviolis-chinois)-chine.jpg",
       "prepTime": 75,
       "cookTime": 8,
       "servings": 4,
       "diets": [
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "winter",
         "autumn"
@@ -564,13 +572,14 @@
       "countrySlug": "chine",
       "slug": "nouilles-dan-dan",
       "title": "Nouilles dan dan",
-      "image": "/images/nouilles-dan-dan-chine.jpg",
+      "image": "/images/recipes/nouilles-dan-dan-chine.jpg",
       "prepTime": 20,
       "cookTime": 15,
       "servings": 2,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -613,13 +622,14 @@
       "countrySlug": "chine",
       "slug": "riz-cantonais",
       "title": "Riz cantonais",
-      "image": "/images/riz-cantonais-chine.jpg",
+      "image": "/images/recipes/riz-cantonais-chine.jpg",
       "prepTime": 15,
       "cookTime": 12,
       "servings": 4,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "spring",
         "summer",
@@ -662,11 +672,12 @@
       "countrySlug": "france",
       "slug": "coq-au-vin",
       "title": "Coq au vin",
-      "image": "/images/coq-au-vin-france.jpg",
+      "image": "/images/recipes/coq-au-vin-france.jpg",
       "prepTime": 40,
       "cookTime": 150,
       "servings": 6,
       "diets": [],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -704,7 +715,7 @@
       "countrySlug": "france",
       "slug": "ratatouille",
       "title": "Ratatouille niçoise",
-      "image": "/images/ratatouille-ni%C3%A7oise-france.jpg",
+      "image": "/images/recipes/ratatouille-ni%C3%A7oise-france.jpg",
       "prepTime": 30,
       "cookTime": 60,
       "servings": 6,
@@ -714,6 +725,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "summer",
         "autumn"
@@ -746,13 +758,14 @@
       "countrySlug": "france",
       "slug": "bouillabaisse",
       "title": "Bouillabaisse marseillaise",
-      "image": "/images/bouillabaisse-marseillaise-france.jpg",
+      "image": "/images/recipes/bouillabaisse-marseillaise-france.jpg",
       "prepTime": 60,
       "cookTime": 75,
       "servings": 6,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "summer",
         "autumn"
@@ -799,13 +812,14 @@
       "countrySlug": "france",
       "slug": "crepes-suzette",
       "title": "Crêpes Suzette",
-      "image": "/images/cr%C3%AApes-suzette-france.jpg",
+      "image": "/images/recipes/cr%C3%AApes-suzette-france.jpg",
       "prepTime": 25,
       "cookTime": 30,
       "servings": 6,
       "diets": [
         "vegetarian"
       ],
+      "category": "dessert",
       "seasons": [
         "winter",
         "spring"
@@ -845,11 +859,12 @@
       "countrySlug": "france",
       "slug": "quiche-lorraine",
       "title": "Quiche lorraine",
-      "image": "/images/quiche-lorraine-france.jpg",
+      "image": "/images/recipes/quiche-lorraine-france.jpg",
       "prepTime": 30,
       "cookTime": 50,
       "servings": 6,
       "diets": [],
+      "category": "entree",
       "seasons": [
         "autumn",
         "winter",
@@ -882,11 +897,12 @@
       "countrySlug": "grece",
       "slug": "moussaka",
       "title": "Moussaka",
-      "image": "/images/moussaka-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/moussaka-gr%C3%A8ce.jpg",
       "prepTime": 45,
       "cookTime": 90,
       "servings": 6,
       "diets": [],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -934,7 +950,7 @@
       "countrySlug": "grece",
       "slug": "souvlaki",
       "title": "Souvlaki de poulet",
-      "image": "/images/souvlaki-de-poulet-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/souvlaki-de-poulet-gr%C3%A8ce.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -942,6 +958,7 @@
         "dairy-free",
         "gluten-free"
       ],
+      "category": "plat",
       "seasons": [
         "summer",
         "spring"
@@ -983,13 +1000,14 @@
       "countrySlug": "grece",
       "slug": "tzatziki-pita",
       "title": "Tzatziki et pita",
-      "image": "/images/tzatziki-et-pita-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/tzatziki-et-pita-gr%C3%A8ce.jpg",
       "prepTime": 25,
       "cookTime": 5,
       "servings": 4,
       "diets": [
         "vegetarian"
       ],
+      "category": "entree",
       "seasons": [
         "summer",
         "spring"
@@ -1025,13 +1043,14 @@
       "countrySlug": "grece",
       "slug": "spanakopita",
       "title": "Spanakopita",
-      "image": "/images/spanakopita-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/spanakopita-gr%C3%A8ce.jpg",
       "prepTime": 45,
       "cookTime": 50,
       "servings": 6,
       "diets": [
         "vegetarian"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "winter"
@@ -1073,13 +1092,14 @@
       "countrySlug": "grece",
       "slug": "baklava",
       "title": "Baklava aux pistaches",
-      "image": "/images/baklava-aux-pistaches-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/baklava-aux-pistaches-gr%C3%A8ce.jpg",
       "prepTime": 60,
       "cookTime": 70,
       "servings": 8,
       "diets": [
         "vegetarian"
       ],
+      "category": "dessert",
       "seasons": [
         "spring",
         "summer",
@@ -1117,13 +1137,14 @@
       "countrySlug": "inde",
       "slug": "butter-chicken",
       "title": "Butter Chicken",
-      "image": "/images/butter-chicken-inde.jpg",
+      "image": "/images/recipes/butter-chicken-inde.jpg",
       "prepTime": 30,
       "cookTime": 45,
       "servings": 4,
       "diets": [
         "gluten-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -1167,7 +1188,7 @@
       "countrySlug": "inde",
       "slug": "dhal-lentilles",
       "title": "Dhal aux lentilles corail",
-      "image": "/images/dhal-aux-lentilles-corail-inde.jpg",
+      "image": "/images/recipes/dhal-aux-lentilles-corail-inde.jpg",
       "prepTime": 15,
       "cookTime": 35,
       "servings": 4,
@@ -1177,6 +1198,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "spring",
@@ -1226,13 +1248,14 @@
       "countrySlug": "inde",
       "slug": "biryani-agneau",
       "title": "Biryani d'agneau",
-      "image": "/images/biryani-d-agneau-inde.jpg",
+      "image": "/images/recipes/biryani-d-agneau-inde.jpg",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
       "diets": [
         "gluten-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -1289,7 +1312,7 @@
       "countrySlug": "inde",
       "slug": "samosa-legumes",
       "title": "Samosas aux légumes",
-      "image": "/images/samosas-aux-l%C3%A9gumes-inde.jpg",
+      "image": "/images/recipes/samosas-aux-l%C3%A9gumes-inde.jpg",
       "prepTime": 60,
       "cookTime": 25,
       "servings": 6,
@@ -1298,6 +1321,7 @@
         "vegetarian",
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "autumn",
@@ -1346,13 +1370,14 @@
       "countrySlug": "inde",
       "slug": "chai-masala",
       "title": "Chai masala",
-      "image": "/images/chai-masala-inde.jpg",
+      "image": "/images/recipes/chai-masala-inde.jpg",
       "prepTime": 5,
       "cookTime": 15,
       "servings": 4,
       "diets": [
         "vegetarian"
       ],
+      "category": "boisson",
       "seasons": [
         "winter",
         "autumn"
@@ -1385,11 +1410,12 @@
       "countrySlug": "italie",
       "slug": "carbonara",
       "title": "Spaghetti alla Carbonara",
-      "image": "/images/spaghetti-alla-carbonara-italie.jpg",
+      "image": "/images/recipes/spaghetti-alla-carbonara-italie.jpg",
       "prepTime": 10,
       "cookTime": 15,
       "servings": 2,
       "diets": [],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -1414,13 +1440,14 @@
       "countrySlug": "italie",
       "slug": "pizza-margherita",
       "title": "Pizza Margherita",
-      "image": "/images/pizza-margherita-italie.jpg",
+      "image": "/images/recipes/pizza-margherita-italie.jpg",
       "prepTime": 60,
       "cookTime": 8,
       "servings": 4,
       "diets": [
         "vegetarian"
       ],
+      "category": "plat",
       "seasons": [
         "spring",
         "summer"
@@ -1452,7 +1479,7 @@
       "countrySlug": "italie",
       "slug": "risotto-milanese",
       "title": "Risotto alla milanese",
-      "image": "/images/risotto-alla-milanese.jpg",
+      "image": "/images/recipes/risotto-alla-milanese.jpg",
       "prepTime": 15,
       "cookTime": 25,
       "servings": 4,
@@ -1460,6 +1487,7 @@
         "vegetarian",
         "gluten-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -1491,11 +1519,12 @@
       "countrySlug": "italie",
       "slug": "osso-buco",
       "title": "Osso buco alla milanese",
-      "image": "/images/osso-buco-alla-milanese-italie.jpg",
+      "image": "/images/recipes/osso-buco-alla-milanese-italie.jpg",
       "prepTime": 30,
       "cookTime": 120,
       "servings": 4,
       "diets": [],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -1536,13 +1565,14 @@
       "countrySlug": "italie",
       "slug": "tiramisu",
       "title": "Tiramisu classique",
-      "image": "/images/tiramisu-classique-italie.jpg",
+      "image": "/images/recipes/tiramisu-classique-italie.jpg",
       "prepTime": 30,
       "cookTime": 0,
       "servings": 6,
       "diets": [
         "vegetarian"
       ],
+      "category": "dessert",
       "seasons": [
         "spring",
         "summer",
@@ -1573,13 +1603,14 @@
       "countrySlug": "japon",
       "slug": "ramen-shoyu",
       "title": "Ramen Shoyu",
-      "image": "/images/ramen-shoyu-japon.jpg",
+      "image": "/images/recipes/ramen-shoyu-japon.jpg",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 2,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -1618,7 +1649,7 @@
       "countrySlug": "japon",
       "slug": "onigiri-saumon",
       "title": "Onigiri au saumon",
-      "image": "/images/onigiri-au-saumon-japon.jpg",
+      "image": "/images/recipes/onigiri-au-saumon-japon.jpg",
       "prepTime": 20,
       "cookTime": 30,
       "servings": 4,
@@ -1626,6 +1657,7 @@
         "dairy-free",
         "gluten-free"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "summer"
@@ -1656,7 +1688,7 @@
       "countrySlug": "japon",
       "slug": "tempura-legumes",
       "title": "Tempura de légumes",
-      "image": "/images/tempura-de-l%C3%A9gumes.jpg",
+      "image": "/images/recipes/tempura-de-l%C3%A9gumes.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -1664,6 +1696,7 @@
         "vegetarian",
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "spring",
         "summer",
@@ -1708,13 +1741,14 @@
       "countrySlug": "japon",
       "slug": "gyoza-porc",
       "title": "Gyoza au porc",
-      "image": "/images/gyoza-au-porc-japon.jpg",
+      "image": "/images/recipes/gyoza-au-porc-japon.jpg",
       "prepTime": 60,
       "cookTime": 10,
       "servings": 4,
       "diets": [
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "winter",
         "autumn"
@@ -1762,13 +1796,14 @@
       "countrySlug": "japon",
       "slug": "katsudon",
       "title": "Katsudon",
-      "image": "/images/katsudon-japon.jpg",
+      "image": "/images/recipes/katsudon-japon.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 2,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -1812,7 +1847,7 @@
       "countrySlug": "maroc",
       "slug": "tajine-poulet-citron",
       "title": "Tajine de poulet au citron confit",
-      "image": "/images/tajine-de-poulet-au-citron-confit-maroc.jpg",
+      "image": "/images/recipes/tajine-de-poulet-au-citron-confit-maroc.jpg",
       "prepTime": 20,
       "cookTime": 75,
       "servings": 4,
@@ -1820,6 +1855,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -1856,7 +1892,7 @@
       "countrySlug": "maroc",
       "slug": "couscous-legumes",
       "title": "Couscous aux sept légumes",
-      "image": "/images/couscous-aux-sept-l%C3%A9gumes-maroc.jpg",
+      "image": "/images/recipes/couscous-aux-sept-l%C3%A9gumes-maroc.jpg",
       "prepTime": 40,
       "cookTime": 90,
       "servings": 6,
@@ -1865,6 +1901,7 @@
         "vegetarian",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "spring"
@@ -1915,11 +1952,12 @@
       "countrySlug": "maroc",
       "slug": "pastilla-poulet",
       "title": "Pastilla de poulet",
-      "image": "/images/pastilla-de-poulet-maroc.jpg",
+      "image": "/images/recipes/pastilla-de-poulet-maroc.jpg",
       "prepTime": 45,
       "cookTime": 70,
       "servings": 6,
       "diets": [],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -1965,13 +2003,14 @@
       "countrySlug": "maroc",
       "slug": "harira",
       "title": "Harira",
-      "image": "/images/harira-maroc.jpg",
+      "image": "/images/recipes/harira-maroc.jpg",
       "prepTime": 25,
       "cookTime": 90,
       "servings": 6,
       "diets": [
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "winter",
         "autumn"
@@ -2022,13 +2061,14 @@
       "countrySlug": "maroc",
       "slug": "briouates",
       "title": "Briouates au miel",
-      "image": "/images/briouates-aux-miel-maroc.jpg",
+      "image": "/images/recipes/briouates-aux-miel-maroc.jpg",
       "prepTime": 60,
       "cookTime": 20,
       "servings": 8,
       "diets": [
         "vegetarian"
       ],
+      "category": "dessert",
       "seasons": [
         "winter",
         "autumn"
@@ -2065,13 +2105,14 @@
       "countrySlug": "mexique",
       "slug": "tacos-al-pastor",
       "title": "Tacos al pastor",
-      "image": "/images/tacos-al-pastor-mexique.jpg",
+      "image": "/images/recipes/tacos-al-pastor-mexique.jpg",
       "prepTime": 45,
       "cookTime": 25,
       "servings": 4,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "spring",
         "summer"
@@ -2120,7 +2161,7 @@
       "countrySlug": "mexique",
       "slug": "guacamole-totopos",
       "title": "Guacamole et totopos",
-      "image": "/images/guacamaole-et-topopos-mexique.jpg",
+      "image": "/images/recipes/guacamaole-et-topopos-mexique.jpg",
       "prepTime": 15,
       "cookTime": 10,
       "servings": 4,
@@ -2130,6 +2171,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "summer",
         "spring"
@@ -2162,13 +2204,14 @@
       "countrySlug": "mexique",
       "slug": "mole-poblano",
       "title": "Mole poblano",
-      "image": "/images/mole-poblano-mexique.jpg",
+      "image": "/images/recipes/mole-poblano-mexique.jpg",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "autumn",
         "winter"
@@ -2224,13 +2267,14 @@
       "countrySlug": "mexique",
       "slug": "enchiladas-verdes",
       "title": "Enchiladas verdes",
-      "image": "/images/enchiladas-verde-mexique.jpg",
+      "image": "/images/recipes/enchiladas-verde-mexique.jpg",
       "prepTime": 30,
       "cookTime": 35,
       "servings": 4,
       "diets": [
         "gluten-free"
       ],
+      "category": "plat",
       "seasons": [
         "spring",
         "summer"
@@ -2268,13 +2312,14 @@
       "countrySlug": "mexique",
       "slug": "chiles-rellenos",
       "title": "Chiles rellenos",
-      "image": "/images/chiles-rellenos-mexique.jpg",
+      "image": "/images/recipes/chiles-rellenos-mexique.jpg",
       "prepTime": 35,
       "cookTime": 30,
       "servings": 4,
       "diets": [
         "vegetarian"
       ],
+      "category": "plat",
       "seasons": [
         "summer",
         "autumn"
@@ -2314,13 +2359,14 @@
       "countrySlug": "thailande",
       "slug": "pad-thai",
       "title": "Pad Thai aux crevettes",
-      "image": "/images/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/pad-thai-aux-crevettes-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 8,
       "servings": 2,
       "diets": [
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "spring",
         "summer",
@@ -2363,7 +2409,7 @@
       "countrySlug": "thailande",
       "slug": "curry-vert-poulet",
       "title": "Curry vert au poulet",
-      "image": "/images/curry-vert-au-poulet-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/curry-vert-au-poulet-tha%C3%AFlande.jpg",
       "prepTime": 20,
       "cookTime": 25,
       "servings": 4,
@@ -2371,6 +2417,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "plat",
       "seasons": [
         "winter",
         "autumn"
@@ -2408,7 +2455,7 @@
       "countrySlug": "thailande",
       "slug": "tom-yum-kung",
       "title": "Tom yum kung",
-      "image": "/images/tom-yum-kung-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/tom-yum-kung-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 20,
       "servings": 4,
@@ -2416,6 +2463,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "winter",
         "autumn",
@@ -2462,7 +2510,7 @@
       "countrySlug": "thailande",
       "slug": "som-tam",
       "title": "Som tam (salade de papaye verte)",
-      "image": "/images/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/som-tam-(salade-de-papaye-verte)-tha%C3%AFlande.jpg",
       "prepTime": 25,
       "cookTime": 0,
       "servings": 4,
@@ -2470,6 +2518,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "entree",
       "seasons": [
         "summer",
         "spring"
@@ -2508,7 +2557,7 @@
       "countrySlug": "thailande",
       "slug": "mango-sticky-rice",
       "title": "Mango sticky rice",
-      "image": "/images/mango-sticky-rice-tha%C3%AFlande.jpg",
+      "image": "/images/recipes/mango-sticky-rice-tha%C3%AFlande.jpg",
       "prepTime": 30,
       "cookTime": 25,
       "servings": 4,
@@ -2518,6 +2567,7 @@
         "gluten-free",
         "dairy-free"
       ],
+      "category": "dessert",
       "seasons": [
         "summer",
         "spring"

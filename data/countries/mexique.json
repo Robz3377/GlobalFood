@@ -10,7 +10,7 @@
     {
       "slug": "tacos-al-pastor",
       "title": "Tacos al pastor",
-      "image": "/images/tacos-al-pastor-mexique.jpg",
+      "image": "/images/recipes/tacos-al-pastor-mexique.jpg",
       "prepTime": 45,
       "cookTime": 25,
       "servings": 4,
@@ -220,12 +220,13 @@
         "Verser un peu de marinade dans la poêle et laisser réduire 2 min : la viande doit être glacée par la sauce sans baigner dedans.",
         "Réchauffer les tortillas 30 s par face dans une poêle sécher bien chaude (ou 10 s au micro-ondes couvertes d'un torchon humide). Empiler-les dans un torchon pour qu'elles restent souples.",
         "Pour servir, déposer une cuillerée de porc sur chaque tortilla, garnir de quelques dés d'ananas, d'oignon rouge ciselé et de beaucoup de coriandre. Presser un quartier de citron vert juste avant de croquer."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "guacamole-totopos",
       "title": "Guacamole et totopos",
-      "image": "/images/guacamaole-et-topopos-mexique.jpg",
+      "image": "/images/recipes/guacamaole-et-topopos-mexique.jpg",
       "prepTime": 15,
       "cookTime": 10,
       "servings": 4,
@@ -357,12 +358,13 @@
         "Écraser la chair des avocats à la fourchette en gardant des morceaux — la texture rustique fait l'authenticité. Surtout pas de mixeur, ça fait de la purée pour bébé.",
         "Ajouter l'oignon, la coriandre, les tomates, 1 pincée de piment et 1 c.c. de sel. Mélanger délicatement à la fourchette. Goûter, rectifie sel et citron vert.",
         "Servir immédiatement dans un grand bol avec les tortillas chips à côté pour piocher. Si dois attendre, poser un film plastique AU CONTACT du guacamole (jamais juste sur le bol) pour éviter qu'il noircisse."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "mole-poblano",
       "title": "Mole poblano",
-      "image": "/images/mole-poblano-mexique.jpg",
+      "image": "/images/recipes/mole-poblano-mexique.jpg",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
@@ -617,12 +619,13 @@
         "Mixer la sauce au mixeur plongeant (ou au blender) pour obtenir une texture lisse. Remettre dans la cocotte. Ajouter le chocolat cassé en morceaux + le cacao. Remuer à feu doux jusqu'à dissolution complète — la sauce devient brun profond, presque noire.",
         "Replonger les cuisses de poulet dans la sauce, peau vers le haut. Couvrir et laisser mijoter à feu doux 25 min : la viande doit être tendre et se détacher de l'os.",
         "Servir chaud avec du riz blanc nature pour bien saucer. Parsemer de graines de sésame torréfiées juste avant de servir."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "enchiladas-verdes",
       "title": "Enchiladas verdes",
-      "image": "/images/enchiladas-verde-mexique.jpg",
+      "image": "/images/recipes/enchiladas-verde-mexique.jpg",
       "prepTime": 30,
       "cookTime": 35,
       "servings": 4,
@@ -782,12 +785,13 @@
       ],
       "events": [
         "dia-de-los-muertos"
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "chiles-rellenos",
       "title": "Chiles rellenos",
-      "image": "/images/chiles-rellenos-mexique.jpg",
+      "image": "/images/recipes/chiles-rellenos-mexique.jpg",
       "prepTime": 35,
       "cookTime": 30,
       "servings": 4,
@@ -951,7 +955,8 @@
       ],
       "events": [
         "dia-de-los-muertos"
-      ]
+      ],
+      "category": "plat"
     }
   ]
 }

@@ -10,7 +10,7 @@
     {
       "slug": "butter-chicken",
       "title": "Butter Chicken",
-      "image": "/images/butter-chicken-inde.jpg",
+      "image": "/images/recipes/butter-chicken-inde.jpg",
       "prepTime": 30,
       "cookTime": 45,
       "servings": 4,
@@ -195,12 +195,13 @@
         "Dans la même poêle, faire fondre le reste de beurrer, ajouter 1 c.s. de pâte de curry et remuer 30 s. Verser le coulis de tomates et la marinade restante. Cuire 8 min à feu moyen jusqu'à ce que la sauce épaississe et change de couleur.",
         "Ajouter la crème liquide et 1 c.c. de sucre. Mélanger. Remettre le poulet, baisser à feu doux et laisser mijoter 12 min : la sauce doit être nappante et le poulet juste cuit.",
         "Goûter, rectifie le sel. Parsemer de coriandre ciselée. Servir chaud sur le riz basmati avec du naan si en as."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "dhal-lentilles",
       "title": "Dhal aux lentilles corail",
-      "image": "/images/dhal-aux-lentilles-corail-inde.jpg",
+      "image": "/images/recipes/dhal-aux-lentilles-corail-inde.jpg",
       "prepTime": 15,
       "cookTime": 35,
       "servings": 4,
@@ -420,12 +421,13 @@
         "Ajouter 2 c.s. de curry en poudre et 1 c.c. de cumin moulu. Remuer 30 s pour libérer les arômes (attention à ne pas brûler les épices : baisser le feu si besoin).",
         "Verser les lentilles, les tomates concassées, le lait de coco et 700 ml d'eau. Saler. Porter à frémissement, baisser à feu doux et laisser mijoter 20 min en remuant de temps en temps, jusqu'à ce que les lentilles soient fondantes et la texture crémeuse.",
         "Couper le feu. Presser le 1/2 citron vert sur le dhal, mélanger. Servir dans des bols, parsemer de coriandre ciselée. Accompagne de riz basmati ou de naan."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "biryani-agneau",
       "title": "Biryani d'agneau",
-      "image": "/images/biryani-d-agneau-inde.jpg",
+      "image": "/images/recipes/biryani-d-agneau-inde.jpg",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
@@ -683,12 +685,13 @@
         "Préchauffer le four à 180 °C. Si la sauce d'agneau est trop liquide, faire-la réduire 5 min à découvert. Étaler le riz cuit en couche égale par-dessus dans la cocotte. Diluer la pincée de safran dans 2 c.s. d'eau chaude et arroser le riz. Parsemer de la moitié des oignons frits réservés et de la moitié de la coriandre + menthe ciselées.",
         "Couvrir hermétiquement avec un couvercle ET du papier alu pour bien emprisonner la vapeur. Enfourner 25 min — c'est la cuisson dum, le riz absorbe les arômes de l'agneau par en dessous.",
         "Sortir du four, laisser reposer 5 min couvert. Mélanger délicatement à la fourchette pour répartir riz et agneau. Servir chaud avec le reste de coriandre/menthe et d'oignons frits sur le dessus."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "samosa-legumes",
       "title": "Samosas aux légumes",
-      "image": "/images/samosas-aux-l%C3%A9gumes-inde.jpg",
+      "image": "/images/recipes/samosas-aux-l%C3%A9gumes-inde.jpg",
       "prepTime": 60,
       "cookTime": 25,
       "servings": 6,
@@ -901,12 +904,13 @@
         "Couper chaque feuille de brick en 2 demi-cercles. Plier chaque demi-cercle en 2 dans le sens de la longueur pour former une bande triangulaire. Badigeonner légèrement d'huile au pinceau.",
         "Poser 1 c.s. bombée de farce à l'extrémité d'une bande. Plier en triangle : replier le coin sur la farce puis continuer à plier en triangle jusqu'au bout (technique du drapeau). Souder le dernier bout avec un peu d'huile. Recommencer — obtiens 16 samosas.",
         "Poser les samosas sur une plaque garnie de papier sulfurisé. Badigeonner le dessus d'un peu d'huile. Enfourner 15-18 min en retournant à mi-cuisson, jusqu'à ce qu'ils soient bien dorés et croustillants. Servir chauds avec une sauce yaourt-menthe ou un chutney mangue."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "chai-masala",
       "title": "Chai masala",
-      "image": "/images/chai-masala-inde.jpg",
+      "image": "/images/recipes/chai-masala-inde.jpg",
       "prepTime": 5,
       "cookTime": 15,
       "servings": 4,
@@ -1038,7 +1042,8 @@
       ],
       "events": [
         "holi"
-      ]
+      ],
+      "category": "boisson"
     }
   ]
 }

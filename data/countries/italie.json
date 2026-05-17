@@ -10,7 +10,7 @@
     {
       "slug": "carbonara",
       "title": "Spaghetti alla Carbonara",
-      "image": "/images/spaghetti-alla-carbonara-italie.jpg",
+      "image": "/images/recipes/spaghetti-alla-carbonara-italie.jpg",
       "prepTime": 10,
       "cookTime": 15,
       "servings": 2,
@@ -100,12 +100,13 @@
         "Dans un bol, casser les 2 œufs entiers, ajouter 50 g de parmesan râpé et un bon tour de moulin de poivre. Mélanger à la fourchette.",
         "Égoutter les pâtes en gardant un verre d'eau de cuisson. Verser-les directement dans la poêle aux lardons (hors du feu, c'est crucial : sinon l'œuf cuit en omelette).",
         "Verser le mélange œufs-parmesan sur les pâtes chaudes et mélanger à toute vitesse. Si c'est trop sec, ajouter de l'eau de cuisson cuillère par cuillère jusqu'à obtenir une sauce nappante. Servir immédiatement avec le reste de parmesan et du poivre."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "pizza-margherita",
       "title": "Pizza Margherita",
-      "image": "/images/pizza-margherita-italie.jpg",
+      "image": "/images/recipes/pizza-margherita-italie.jpg",
       "prepTime": 60,
       "cookTime": 8,
       "servings": 4,
@@ -227,12 +228,13 @@
         "Égoutter la mozzarella et déchire-la grossièrement à la main. Répartir les morceaux sur la pizza sans aller jusqu'au bord.",
         "Verser un filet d'huile d'olive en spirale. Enfourner 12-15 min, jusqu'à ce que les bords soient dorés et la mozzarella bien fondue.",
         "Sortir la pizza et ajouter le basilic frais maintenant (jamais avant : il brûler). Un dernier filet d'huile d'olive et manges à la main, tout de suite."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "risotto-milanese",
       "title": "Risotto alla milanese",
-      "image": "/images/risotto-alla-milanese.jpg",
+      "image": "/images/recipes/risotto-alla-milanese.jpg",
       "prepTime": 15,
       "cookTime": 25,
       "servings": 4,
@@ -364,12 +366,13 @@
         "Verser le bouillon louche par louche : à chaque fois que le riz a tout absorbé, remettre-en une. Remuer souvent. Compter 18 min en tout — goûter à partir de 16 min, le grain doit être tendre mais légèrement ferme au cœur.",
         "Couper le feu. Ajouter le reste de beurrer froid en dés et le parmesan râpé. Mélanger vivement 1 min : dois obtenir une texture crémeuse \"à la vague\". Saler et poivre.",
         "Servir tout de suite dans des assiettes chaudes, avec un peu de parmesan en plus sur le dessus."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "osso-buco",
       "title": "Osso buco alla milanese",
-      "image": "/images/osso-buco-alla-milanese-italie.jpg",
+      "image": "/images/recipes/osso-buco-alla-milanese-italie.jpg",
       "prepTime": 30,
       "cookTime": 120,
       "servings": 4,
@@ -548,12 +551,13 @@
         "Verser les tomates concassées et le cube de bouillon dilué dans 250 ml d'eau chaude. Ajouter le bouquet garni. Remettre les jarrets dans la sauce et couvrir.",
         "Laisser mijoter à feu très doux 1 h 30, en retournant les jarrets à mi-cuisson. La viande doit se détacher facilement de l'os. Si la sauce est trop liquide en fin de cuisson, retirer le couvercle 10 min pour réduire.",
         "Servir avec un risotto, des pâtes fraîches ou de la polenta pour bien saucer."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "tiramisu",
       "title": "Tiramisu classique",
-      "image": "/images/tiramisu-classique-italie.jpg",
+      "image": "/images/recipes/tiramisu-classique-italie.jpg",
       "prepTime": 30,
       "cookTime": 0,
       "servings": 6,
@@ -670,7 +674,8 @@
         "Monter les blancs en neige ferme avec une pincée de sel. Incorporer-les délicatement à la crème mascarpone en soulevant la masser de bas en haut pour ne pas les casser.",
         "Tremper rapidement chaque boudoir dans le café (1 seconde max, sinon ils se gorgent et s'effondrent). Tapisser le fond d'un plat carré avec une première couche. Couvrir de la moitié de la crème. Refaire une couche de boudoirs trempés, puis le reste de crème en lissant.",
         "Filmer et placer au frais 4 h minimum (12 h c'est encore meilleur). Au moment de servir, saupoudrer généreusement de cacao amer au tamis."
-      ]
+      ],
+      "category": "dessert"
     }
   ]
 }

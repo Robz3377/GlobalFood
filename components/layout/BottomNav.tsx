@@ -18,15 +18,24 @@ import { clsx } from "clsx";
 
 type Item = { href: string; label: string; icon: LucideIcon };
 
+/**
+ * v2.4 — Hiérarchie de navigation mobile revisitée :
+ *   • PRIMARY (onglets visibles) : Carte, Parcourir, Frigo, Recommandations.
+ *     Recommandations est mis en avant car c'est un point d'engagement
+ *     quotidien (3 plats pour la semaine).
+ *   • SECONDARY (menu Plus) : Passeport, Gazette. Le Passeport reste
+ *     accessible mais déplacé là car c'est une feature de gamification
+ *     consultée moins fréquemment.
+ */
 const PRIMARY: Item[] = [
   { href: "/", label: "Carte", icon: Globe2 },
   { href: "/parcourir", label: "Parcourir", icon: BookOpen },
   { href: "/mon-frigo", label: "Frigo", icon: Refrigerator },
-  { href: "/passeport", label: "Passeport", icon: Stamp },
+  { href: "/recommandations", label: "Reco", icon: Sparkles },
 ];
 
 const SECONDARY: Item[] = [
-  { href: "/recommandations", label: "Recommandations", icon: Sparkles },
+  { href: "/passeport", label: "Passeport", icon: Stamp },
   { href: "/gazette", label: "La Gazette", icon: Newspaper },
 ];
 

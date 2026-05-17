@@ -10,7 +10,7 @@
     {
       "slug": "coq-au-vin",
       "title": "Coq au vin",
-      "image": "/images/coq-au-vin-france.jpg",
+      "image": "/images/recipes/coq-au-vin-france.jpg",
       "prepTime": 40,
       "cookTime": 150,
       "servings": 6,
@@ -170,12 +170,13 @@
         "Remettre les cuisses dans la cocotte, le vin doit les recouvrir à mi-hauteur. Saler, poivre. Couvrir et laisser mijoter à feu doux 1 h 15 — la viande doit se détacher de l'os à la fourchette.",
         "Pendant ce temps, couper les champignons en quartiers. Dans une poêle, faire-les sauter 5 min à feu vif avec 1 noisette de beurrer jusqu'à ce qu'ils soient bien dorés. Réserver.",
         "Quand le poulet est tendre, ajouter les champignons dans la cocotte, mélanger et laisser mijoter à découvert 10 min pour que la sauce réduise et napper. Retirer le bouquet garni. Servir chaud avec des pommes vapeur ou des tagliatelles fraîches."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "ratatouille",
       "title": "Ratatouille niçoise",
-      "image": "/images/ratatouille-ni%C3%A7oise-france.jpg",
+      "image": "/images/recipes/ratatouille-ni%C3%A7oise-france.jpg",
       "prepTime": 30,
       "cookTime": 60,
       "servings": 6,
@@ -320,12 +321,13 @@
         "Dans la même poêle, ajouter 2 c.s. d'huile. Faire revenir les courgettes 5 min, ajouter les poivrons et l'oignon, continuer 5 min. Ajouter l'ail haché, remuer 30 s.",
         "Verser les tomates concassées, remettre l'aubergine réservée et ajouter les herbes de Provence. Saler, poivre. Couvrir et laisser mijoter à feu doux 25 min en remuant de temps en temps.",
         "Découvrir, laisser réduire 5 min à feu moyen pour évaporer l'excès d'eau. Couper le feu, parsemer de basilic ciselé. Servir chaud, tiède ou froid — c'est encore meilleur le lendemain (les saveurs se développent une nuit au frigo)."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "bouillabaisse",
       "title": "Bouillabaisse marseillaise",
-      "image": "/images/bouillabaisse-marseillaise-france.jpg",
+      "image": "/images/recipes/bouillabaisse-marseillaise-france.jpg",
       "prepTime": 60,
       "cookTime": 75,
       "servings": 6,
@@ -529,12 +531,13 @@
         "Ajouter les pommes de terre. Couvrir et laisser cuire 15 min à feu moyen jusqu'à ce qu'elles soient presque tendres (la pointe d'un couteau s'enfonce avec une légère résistance).",
         "Plonger d'abord les poissons les plus fermes (lotte, cabillaud) 4 min. Puis le saumon, 3 min — il ne doit pas trop cuire (chair encore légèrement nacrée à cœur).",
         "ROUILLE EXPRESS : dans un petit bol, mélanger la mayonnaise + 1 gousse d'ail écrasée + 1 pincée de safran. Servir la bouillabaisse dans des assiettes creuses avec les tranches de baguette grillées tartinées de rouille à côté. La tradition : on trempe le pain dans la soupe."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "crepes-suzette",
       "title": "Crêpes Suzette",
-      "image": "/images/cr%C3%AApes-suzette-france.jpg",
+      "image": "/images/recipes/cr%C3%AApes-suzette-france.jpg",
       "prepTime": 25,
       "cookTime": 30,
       "servings": 6,
@@ -701,12 +704,13 @@
         "Ajouter le zeste d'une orange râpé. Laisser réduire 3 min à feu moyen jusqu'à ce que la sauce devienne sirupeuse. Couper le feu.",
         "Ajouter le beurrer froid en dés et fouetter pour obtenir une sauce onctueuse et brillante. Ajouter 3 c.s. de Grand Marnier. ATTENTION : ne faire plus bouillir, la sauce se séparerait.",
         "Plier chaque crêpe en 4 et plonger-les dans la sauce chaude pour les imprégner. Servir immédiatement 3 crêpes par personne avec un peu de sauce nappée par-dessus. Le flambage spectacle est OPTIONNEL : chauffer 50 ml de Grand Marnier dans une louche, enflamme et verser sur les crêpes en présentation."
-      ]
+      ],
+      "category": "dessert"
     },
     {
       "slug": "quiche-lorraine",
       "title": "Quiche lorraine",
-      "image": "/images/quiche-lorraine-france.jpg",
+      "image": "/images/recipes/quiche-lorraine-france.jpg",
       "prepTime": 30,
       "cookTime": 50,
       "servings": 6,
@@ -838,7 +842,8 @@
         "Dans un saladier, battre les 4 œufs entiers à la fourchette. Ajouter la crème liquide, le lait, une pincée de muscade et un tour de moulin de poivre. PAS DE SEL — les lardons salent déjà bien assez.",
         "Répartir les lardons égouttés sur la pâte. Verser l'appareil œufs-crème par-dessus sans dépasser le bord (l'appareil monter légèrement à la cuisson, prévois 5 mm de marge).",
         "Enfourner 35-40 min à 200 °C. La quiche doit être bien dorée sur le dessus et tremblotante au centre quand la sortir (elle se fige en refroidissant 5 min hors du four). Servir tiède ou froide avec une salade verte simple à côté."
-      ]
+      ],
+      "category": "entree"
     }
   ]
 }

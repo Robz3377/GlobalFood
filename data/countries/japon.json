@@ -10,7 +10,7 @@
     {
       "slug": "ramen-shoyu",
       "title": "Ramen Shoyu",
-      "image": "/images/ramen-shoyu-japon.jpg",
+      "image": "/images/recipes/ramen-shoyu-japon.jpg",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 2,
@@ -167,12 +167,13 @@
         "En parallèle, faire bouillir une autre casserole d'eau (sans sel). Plonger les nouilles ramen et cuire-les selon le paquet (en général 3-4 min). Égoutter rapidement.",
         "Préchauffer 2 grands bols à l'eau chaude, vider-les. Déposer les nouilles dedans, verser le bouillon brûlant avec le poulet par-dessus.",
         "Garnir avec les demi-œufs, l'oignon vert ciselé, une feuille de nori entière posée sur le bord du bol et un filet d'huile de sésame. Servir immédiatement — un ramen tiède, c'est un ramen raté."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "onigiri-saumon",
       "title": "Onigiri au saumon",
-      "image": "/images/onigiri-au-saumon-japon.jpg",
+      "image": "/images/recipes/onigiri-au-saumon-japon.jpg",
       "prepTime": 20,
       "cookTime": 30,
       "servings": 4,
@@ -292,12 +293,13 @@
       ],
       "events": [
         "hanami"
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "tempura-legumes",
       "title": "Tempura de légumes",
-      "image": "/images/tempura-de-l%C3%A9gumes.jpg",
+      "image": "/images/recipes/tempura-de-l%C3%A9gumes.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -482,12 +484,13 @@
       ],
       "events": [
         "hanami"
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "gyoza-porc",
       "title": "Gyoza au porc",
-      "image": "/images/gyoza-au-porc-japon.jpg",
+      "image": "/images/recipes/gyoza-au-porc-japon.jpg",
       "prepTime": 60,
       "cookTime": 10,
       "servings": 4,
@@ -691,12 +694,13 @@
         "Faire chauffer 2 c.s. d'huile végétale dans une grande poêle antiadhésive à feu moyen-vif. Poser les gyoza côte à côte, fond plat vers le bas. Laisser dorer 3 min sans toucher : la base doit être caramel.",
         "Verser 80 ml d'eau d'un coup (attention aux projections) et couvrir IMMÉDIATEMENT. Cuire à la vapeur 5 min. Découvrir, laisser l'eau s'évaporer 1 min. Terminer par un filet d'huile de sésame.",
         "Mélanger 4 c.s. de sauce soja + 2 c.s. de vinaigre de riz dans un petit bol — c'est la sauce. Servir les gyoza chauds, face dorée vers le haut."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "katsudon",
       "title": "Katsudon",
-      "image": "/images/katsudon-japon.jpg",
+      "image": "/images/recipes/katsudon-japon.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 2,
@@ -890,7 +894,8 @@
         "Déposer les lanières de tonkatsu dans la poêle sur l'oignon, panure vers le HAUT (pour qu'elle reste croustillante). Battre les 4 œufs à la fourchette (jamais au fouet — ils doivent rester en filaments distincts). Verser-les en pluie sur le tout.",
         "Couvrir, baisser à feu doux et cuire 1-2 min : l'œuf doit rester baveux (blanc pris, jaune coulant en surface). Couper le feu — la chaleur résiduelle terminer la cuisson.",
         "Remplir 2 grands bols de riz chaud à mi-hauteur. Faire glisser le tonkatsu-oignon-œuf avec sa sauce par-dessus. Parsemer de ciboule ciselée et manger immédiatement, à la cuillère."
-      ]
+      ],
+      "category": "plat"
     }
   ]
 }

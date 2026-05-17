@@ -10,7 +10,7 @@
     {
       "slug": "mapo-tofu",
       "title": "Mapo tofu",
-      "image": "/images/mapo-tofu-chine.jpg",
+      "image": "/images/recipes/mapo-tofu-chine.jpg",
       "prepTime": 20,
       "cookTime": 20,
       "servings": 3,
@@ -225,12 +225,13 @@
         "Verser le vin blanc, laisser évaporer 30 s. Ajouter le cube de bouillon dilué dans 250 ml d'eau chaude + 3 c.s. de sauce soja + 1 c.c. de sucre. Porter à frémissement.",
         "Ajouter délicatement les cubes de tofu égouttés (ils sont fragiles). Laisser mijoter 5 min à feu doux en remuant juste à la spatule en bois pour ne pas casser le tofu.",
         "Dans un petit bol, mélanger 1 c.s. de fécule + 3 c.s. d'eau froide. Verser dans le wok en remuant doucement — la sauce épaissit en 1 min. Couper le feu. Ajouter 1 c.c. d'huile de sésame et l'oignon vert ciselé. Servir chaud sur un bol de riz blanc."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "canard-laque",
       "title": "Canard laqué pékinois",
-      "image": "/images/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
+      "image": "/images/recipes/canard-laqu%C3%A9-p%C3%A9kinois-chine.jpg",
       "prepTime": 60,
       "cookTime": 90,
       "servings": 6,
@@ -426,12 +427,13 @@
         "Retourner les magrets, badigeonner généreusement la peau croustillante de laque au pinceau. Transférer dans un plat allant au four. Enfourner 8 min en re-badigeonnant 2-3 fois pour que la laque caramélise en croûte brillante (ATTENTION, ça brûler vite : surveiller).",
         "Sortir le plat, couvrir lâche de papier alu et laisser reposer 5 min. Trancher les magrets en fines lamelles biseautées (3-4 mm d'épaisseur).",
         "Pendant le repos, réchauffer les galettes ou tortillas 10 s par face à la poêle sécher. Pour servir : chacun tartine une galette de sauce hoisin, déposer quelques lamelles de canard, des bâtonnets de concombre et d'oignon vert, et rouler la crêpe. Manger à la main, c'est la tradition."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "jiaozi",
       "title": "Jiaozi (raviolis chinois)",
-      "image": "/images/jiaozi-(raviolis-chinois)-chine.jpg",
+      "image": "/images/recipes/jiaozi-(raviolis-chinois)-chine.jpg",
       "prepTime": 75,
       "cookTime": 8,
       "servings": 4,
@@ -625,12 +627,13 @@
         "Porter une grande casserole d'eau salée à frémissement (jamais à gros bouillons : les jiaozi éclateraient). Plonger les jiaozi par 10-12 à la fois — ne surcharge pas la casserole.",
         "Quand ils remontent à la surface (3-4 min), ajouter 1 verre d'eau froide pour calmer l'ébullition. Attendre qu'ils remontent une 2e fois, puis 1 minute supplémentaire. Égoutter à l'écumoire.",
         "Mélanger dans un petit bol 3 c.s. de sauce soja + 2 c.s. de vinaigre de riz + 1 c.s. d'huile de sésame — c'est la sauce trempage classique. Servir les jiaozi brûlants avec la sauce à côté. Tremper-les un par un avant de croquer."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "nouilles-dan-dan",
       "title": "Nouilles dan dan",
-      "image": "/images/nouilles-dan-dan-chine.jpg",
+      "image": "/images/recipes/nouilles-dan-dan-chine.jpg",
       "prepTime": 20,
       "cookTime": 15,
       "servings": 2,
@@ -820,12 +823,13 @@
         "Plonger les nouilles dans l'eau bouillante salée et cuire selon le paquet (en général 3-4 min). 1 min avant la fin, ajouter les épinards (frais ou surgelés) dans la casserole pour les blanchir. Réserver 100 ml d'eau de cuisson avant d'égoutter.",
         "Verser 3-4 c.s. d'eau de cuisson chaude sur la sauce dans le grand bol pour la détendre — elle doit être fluide et nappante. Mélanger.",
         "Ajouter les nouilles + épinards égouttés directement dans le bol de sauce. Mélanger vivement à la pince pour bien enrober. Dresser dans des bols individuels, déposer le porc haché chaud sur le dessus, parsemer de cacahuètes concassées et de ciboule ciselée. Manger immédiatement en mélangeant tout dans le bol — c'est le rituel."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "riz-cantonais",
       "title": "Riz cantonais",
-      "image": "/images/riz-cantonais-chine.jpg",
+      "image": "/images/recipes/riz-cantonais-chine.jpg",
       "prepTime": 15,
       "cookTime": 12,
       "servings": 4,
@@ -1005,7 +1009,8 @@
         "Remettre 2 c.s. d'huile dans le wok. Ajouter l'oignon et l'ail, remuer 1 min. Ajouter les petits pois (directement surgelés) et le jambon, faire sauter 2 min.",
         "Ajouter les crevettes cuites, remuer 1 min. Verser le riz refroidi en l'émiettant à la main pour séparer les grains. Faire sauter à feu vif 3 min en remuant constamment — le riz doit chauffer et se détacher en grains.",
         "Verser 3 c.s. de sauce soja, ajouter les œufs brouillés réservés, mélanger 1 min. Couper le feu. Ajouter 1 c.c. d'huile de sésame et la moitié de la ciboule ciselée. Saler et poivre. Servir chaud avec le reste de ciboule en finition."
-      ]
+      ],
+      "category": "plat"
     }
   ]
 }

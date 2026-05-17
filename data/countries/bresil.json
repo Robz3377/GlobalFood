@@ -10,7 +10,7 @@
     {
       "slug": "feijoada",
       "title": "Feijoada complète",
-      "image": "/images/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
+      "image": "/images/recipes/feijoada-compl%C3%A8te-br%C3%A9sil.jpg",
       "prepTime": 30,
       "cookTime": 210,
       "servings": 8,
@@ -241,12 +241,13 @@
         "Couvrir et laisser mijoter à feu doux 45 min. Découvrir, écraser une partie des haricots à la fourchette contre le bord de la cocotte pour épaissir naturellement la sauce. Continuer 10 min à découvert.",
         "Pendant ce temps, faire cuire le riz blanc (300 g pour 450 ml d'eau salée, 11 min à très doux, repos 5 min). Émincer le chou kale très finement et faire-le sauter 5 min dans une poêle avec 1 c.s. d'huile et 1 gousse d'ail jusqu'à ce qu'il soit tendre.",
         "Servir la feijoada brûlante dans des assiettes creuses avec un peu de riz, le chou sauté à côté, des tranches d'orange (la tradition coupe le gras) et la coriandre/persil ciselés en finition."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "moqueca",
       "title": "Moqueca de poisson",
-      "image": "/images/moqueca-de-poisson-br%C3%A9sil.jpg",
+      "image": "/images/recipes/moqueca-de-poisson-br%C3%A9sil.jpg",
       "prepTime": 30,
       "cookTime": 30,
       "servings": 4,
@@ -452,12 +453,13 @@
         "Verser les tomates concassées et le lait de coco. Ajouter les poivrons en lanières. Saler, poivre. Laisser mijoter 8 min à feu moyen pour que les saveurs se concentrent.",
         "Déposer délicatement les morceaux de cabillaud (avec leur marinade) en une seule couche dans la sauce. Couvrir et laisser cuire 8 min à feu doux. Si mettre des crevettes, ajouter-les à mi-cuisson (4 min suffisent — sinon elles deviennent caoutchouc).",
         "Couper le feu, parsemer généreusement de coriandre ciselée. Servir chaud dans des assiettes creuses avec le riz blanc à côté pour saucer."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "pao-de-queijo",
       "title": "Pão de queijo",
-      "image": "/images/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
+      "image": "/images/recipes/p%C3%A3o-de-queijo-br%C3%A9sil.jpg",
       "prepTime": 25,
       "cookTime": 25,
       "servings": 6,
@@ -577,12 +579,13 @@
         "Quand la pâte n'est plus brûlante (tiède), incorporer les œufs un par un en mélangeant énergiquement à la cuillère ou au robot. Ajouter le parmesan et la mozzarella râpés. Mélanger jusqu'à pâte homogène — elle reste collante, c'est normal.",
         "Huiler-soi légèrement les mains et former des boulettes de la tailler d'une noix (~25 g). Disposer-les sur une plaque garnie de papier sulfurisé en les espaçant (elles gonflent à la cuisson).",
         "Enfourner 20-25 min à 200 °C jusqu'à ce qu'ils soient dorés et bien gonflés. Servir tiède — c'est meilleur juste sorti du four, croustillant dehors, fondant dedans. Ils se mangent à la main, accompagnés d'un café (le rituel brésilien)."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "coxinhas",
       "title": "Coxinhas de poulet",
-      "image": "/images/coxinhas-de-poulet-br%C3%A9sil.jpg",
+      "image": "/images/recipes/coxinhas-de-poulet-br%C3%A9sil.jpg",
       "prepTime": 90,
       "cookTime": 25,
       "servings": 6,
@@ -799,12 +802,13 @@
         "Poser la pâte sur le plan de travail légèrement fariné, pétrir 1 min. Prendre une boule de pâte de la tailler d'une mandarine, aplatir-la dans la paume en disque de 8 cm. Poser 1 c.s. bombée de farce au centre, refermer en pinçant les bords pour former une goutte d'eau — c'est la forme \"coxinha\" qui imite une cuisse de poulet. Recommencer — obtiens 20-25 coxinhas.",
         "Tremper chaque coxinha dans les œufs battus puis dans la chapelure en appuyant légèrement pour bien faire adhérer la panure.",
         "CUISSON AU FOUR (version simple) : préchauffer à 200 °C. Disposer les coxinhas panées sur une plaque, badigeonner d'un filet d'huile. Enfourner 25 min en retournant à mi-cuisson, jusqu'à coloration dorée croustillante. Alternative friture : 2 cm d'huile à 170 °C dans une poêle profonde, 4 min de chaque côté."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "brigadeiros",
       "title": "Brigadeiros",
-      "image": "/images/brigadeiros-br%C3%A9sil.jpg",
+      "image": "/images/recipes/brigadeiros-br%C3%A9sil.jpg",
       "prepTime": 15,
       "cookTime": 18,
       "servings": 8,
@@ -932,7 +936,8 @@
         "Verser la préparation dans une assiette beurrée, laisser refroidir à température ambiante 15 min puis filmer et placer au frigo 2 h minimum (idéalement une nuit) — elle doit être ferme pour pouvoir rouler.",
         "Verser les vermicelles de chocolat dans un bol. Huiler ou beurrer légèrement les mains (sinon la pâte colle). Prélever une cuillère à café de pâte et rouler entre les paumes pour former une boule de la tailler d'une grosse noisette.",
         "Plonger chaque boule dans les vermicelles et rouler-la pour bien l'enrober. Déposer dans une caissette en papier. Continuer jusqu'à épuisement de la pâte — obtiens 25-30 brigadeiros. Conserver au frais, servir à température ambiante 15 min avant pour la texture parfaite (fondant à cœur)."
-      ]
+      ],
+      "category": "dessert"
     }
   ]
 }

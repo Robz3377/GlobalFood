@@ -10,7 +10,7 @@
     {
       "slug": "moussaka",
       "title": "Moussaka",
-      "image": "/images/moussaka-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/moussaka-gr%C3%A8ce.jpg",
       "prepTime": 45,
       "cookTime": 90,
       "servings": 6,
@@ -227,12 +227,13 @@
         "BÉCHAMEL EXPRESS : dans une casserole, faire fondre 50 g de beurrer. Ajouter 50 g de fariner en pluie, remuer à la spatule 1 min (c'est le roux). Verser le lait chaud d'un coup et fouetter énergiquement pour éviter les grumeaux. Laisser épaissir 3-4 min à feu moyen en fouettant. Hors du feu, ajouter la muscade, le poivre, 40 g de parmesan et l'œuf entier en fouettant rapidement (l'œuf doit s'incorporer sans cuire en omelette).",
         "MONTAGE : dans un plat à gratin (~25×35 cm), disposer une première couche d'aubergines grillées. Couvrir de la moitié de la sauce viande. Re-couche d'aubergines. Verser le reste de sauce viande. Terminer par les aubergines restantes. Napper de toute la béchamel en lissant. Saupoudrer du reste de parmesan râpé (40 g).",
         "Enfourner 35-40 min à 180 °C jusqu'à coloration dorée et bouillonnement. Laisser reposer 10 min hors du four avant de servir — c'est important pour que les couches se stabilisent et que les parts se tiennent au service."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "souvlaki",
       "title": "Souvlaki de poulet",
-      "image": "/images/souvlaki-de-poulet-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/souvlaki-de-poulet-gr%C3%A8ce.jpg",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -420,12 +421,13 @@
         "CUISSON POÊLE OU PLANCHA : faire chauffer une grande poêle ou plancha à feu vif avec 2 c.s. d'huile d'olive. Poser les brochettes et faire-les saisir 3 min de chaque côté (12 min total en tournant 4 fois). Le poulet doit être doré-grillé sur les arêtes mais juteux à cœur.",
         "Pendant la cuisson, réchauffer les pains pita 20 s par face dans une poêle sécher bien chaude (ou 30 s au micro-ondes sous un torchon humide).",
         "Pour servir : ouvrir chaque pita en deux poches. Garnir de poulet sorti des brochettes, ajouter tomate, oignon rouge et 1 grosse cuillère de tzatziki. Manger à la main, c'est la tradition du street food grec."
-      ]
+      ],
+      "category": "plat"
     },
     {
       "slug": "tzatziki-pita",
       "title": "Tzatziki et pita",
-      "image": "/images/tzatziki-et-pita-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/tzatziki-et-pita-gr%C3%A8ce.jpg",
       "prepTime": 25,
       "cookTime": 5,
       "servings": 4,
@@ -581,12 +583,13 @@
         "Filmer au contact et placer au frais MINIMUM 1 heure (2-3 h c'est encore mieux) — le repos permet aux saveurs de se développer et au tzatziki d'épaissir naturellement.",
         "Au moment de servir : badigeonner les pitas d'un filet d'huile d'olive, saupoudrer d'origan séché. Réchauffer-les 1 min par face dans une poêle sécher bien chaude (ou 2 min au four à 200 °C). Couper-les en quartiers.",
         "Servir le tzatziki bien frais dans un bol creux avec un filet d'huile d'olive en finition, accompagné des quartiers de pita chauds à tremper. Se conserver 3 jours au frigo en bocal fermé."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "spanakopita",
       "title": "Spanakopita",
-      "image": "/images/spanakopita-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/spanakopita-gr%C3%A8ce.jpg",
       "prepTime": 45,
       "cookTime": 50,
       "servings": 6,
@@ -764,12 +767,13 @@
         "Préchauffer le four à 180 °C. Beurrer généreusement un moule rond ou rectangulaire (~24 cm) au pinceau.",
         "MONTAGE : déposer 5 feuilles de brick beurrées au pinceau au fond du moule en étoile (elles débordent largement). Verser toute la farce d'épinards et égalise à la spatule. Replier les feuilles débordantes vers le centre comme un emballage cadeau. Couvrir de 5 autres feuilles beurrées en scellant les bords.",
         "Badigeonner la dernière couche de beurrer fondu, saupoudrer de graines de sésame. Enfourner 25-30 min à 180 °C jusqu'à coloration dorée intense et croustillante. Laisser reposer 10 min avant de couper en parts généreuses. Servir tiède ou à température ambiante."
-      ]
+      ],
+      "category": "entree"
     },
     {
       "slug": "baklava",
       "title": "Baklava aux pistaches",
-      "image": "/images/baklava-aux-pistaches-gr%C3%A8ce.jpg",
+      "image": "/images/recipes/baklava-aux-pistaches-gr%C3%A8ce.jpg",
       "prepTime": 60,
       "cookTime": 70,
       "servings": 8,
@@ -928,7 +932,8 @@
         "Couvrir de 8 nouvelles feuilles de filo, beurrées une par une comme avant. Terminer par une généreuse couche de beurrer sur le dessus.",
         "Avec un couteau bien aiguisé, découpe le baklava AVANT cuisson en losanges ou rectangles de 4-5 cm (sinon il s'effrite après cuisson). Enfourner 35-40 min à 170 °C jusqu'à coloration dorée caramel.",
         "Pendant la cuisson, préparer le SIROP : dans une casserole, verser 200 g de sucre + 200 ml d'eau + le jus de citron. Porter à ébullition, laisser frémir 5 min. Couper le feu, ajouter le miel et mélanger. Quand le baklava sort du four BRÛLANT, verser IMMÉDIATEMENT le sirop FROID dessus dans toutes les découpes — ce choc thermique est la clé du croustillant. Laisser absorber 4 h minimum (toute une nuit c'est mieux). Parsemer des pistaches concassées avant de servir."
-      ]
+      ],
+      "category": "dessert"
     }
   ]
 }

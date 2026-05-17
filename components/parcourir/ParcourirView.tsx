@@ -3,8 +3,12 @@
 import { useMemo, useState } from "react";
 import { RecipeCard } from "@/components/recipe/RecipeCard";
 import { DietFilter, recipeMatchesDiets } from "@/components/ui/DietFilter";
-import { normalize } from "@/lib/text";
-import type { Diet } from "@/lib/types";
+import {
+  RECIPE_CATEGORY_LABELS,
+  RECIPE_CATEGORY_ORDER,
+  type Diet,
+  type RecipeCategory,
+} from "@/lib/types";
 import type { RecipeIndex } from "@/lib/types-index";
 
 type Item = {
@@ -12,6 +16,17 @@ type Item = {
   recipe: RecipeIndex;
 };
 
+/**
+ * ParcourirView — refonte v2.4 : regroupement par catégorie culinaire au
+ * lieu du tri alphabétique. La séquence respecte l'ordre canonique d'un
+ * repas (entrées → plats → desserts → boissons) défini dans lib/types.
+ *
+ * Une catégorie vide (après filtres diets) est automatiquement masquée
+ * pour ne pas afficher de séparateur orphelin.
+ *
+ * Séparateurs : pastille catégorie + titre serif + ligne fine sage —
+ * cohérent avec le design system carnet de voyage.
+ */
 export function ParcourirView({ items }: { items: Item[] }) {
   const [diets, setDiets] = useState<Diet[]>([]);
 
@@ -20,12 +35,16 @@ export function ParcourirView({ items }: { items: Item[] }) {
     [items, diets]
   );
 
+  /**
+   * Map catégorie → recettes (triées alphabétiquement à l'intérieur de
+   * chaque groupe pour la lisibilité).
+   */
   const grouped = useMemo(() => {
-    const map = new Map<string, Item[]>();
+    const map = new Map<RecipeCategory, Item[]>();
     for (const it of filtered) {
-      const letter = normalize(it.recipe.title)[0]?.toUpperCase() ?? "?";
-      if (!map.has(letter)) map.set(letter, []);
-      map.get(letter)!.push(it);
+      const cat = it.recipe.category;
+      if (!map.has(cat)) map.set(cat, []);
+      map.get(cat)!.push(it);
     }
     for (const [, arr] of map) {
       arr.sort((a, b) => a.recipe.title.localeCompare(b.recipe.title, "fr"));
@@ -33,16 +52,18 @@ export function ParcourirView({ items }: { items: Item[] }) {
     return map;
   }, [filtered]);
 
-  const letters = Array.from(grouped.keys()).sort();
+  // Catégories présentes, dans l'ordre canonique (séquence de repas).
+  // Les vides sont masquées (filter sur Map.has).
+  const presentCategories = RECIPE_CATEGORY_ORDER.filter((cat) =>
+    grouped.has(cat)
+  );
 
   return (
     <>
-      {/* En-tête compact : filtres + lettres sur une SEULE rangée chacun.
-          Padding vertical réduit (py-1.5 au lieu de py-3) pour économiser
-          ~24px en haut de la liste et donner plus de place aux cartes. */}
+      {/* En-tête compact : filtres + chips de raccourci catégories. */}
       <section
         className="mx-auto max-w-5xl px-6 pb-1 sticky top-16 z-20 bg-bone/90 backdrop-blur"
-        aria-label="Filtres et lettres"
+        aria-label="Filtres et catégories"
       >
         <div className="py-1.5 flex flex-wrap items-center gap-x-4 gap-y-1.5 border-b border-bone-deep">
           <DietFilter value={diets} onChange={setDiets} />
@@ -50,16 +71,19 @@ export function ParcourirView({ items }: { items: Item[] }) {
             {filtered.length} recette{filtered.length > 1 ? "s" : ""}
           </span>
         </div>
-        {letters.length > 0 && (
-          <ul className="flex flex-wrap gap-1 py-1.5 border-b border-bone-deep">
-            {letters.map((l) => (
-              <li key={l}>
+        {presentCategories.length > 0 && (
+          <ul className="flex flex-wrap gap-1.5 py-1.5 border-b border-bone-deep">
+            {presentCategories.map((cat) => (
+              <li key={cat}>
                 <a
-                  href={`#letter-${l}`}
-                  // Lettres réduites : 28×28 au lieu de 36×36, font-size base.
-                  className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-white shadow-soft font-serif text-sm font-semibold text-ink hover:bg-sage-soft transition-colors"
+                  href={`#cat-${cat}`}
+                  // Chips raccourci de section — compactes, style "tag".
+                  className="inline-flex items-center gap-1.5 h-7 px-2.5 rounded-full bg-white shadow-soft text-[11px] font-medium text-ink hover:bg-sage-soft transition-colors"
                 >
-                  {l}
+                  {RECIPE_CATEGORY_LABELS[cat]}
+                  <span className="text-[10px] text-ink-soft tabular-nums">
+                    {grouped.get(cat)!.length}
+                  </span>
                 </a>
               </li>
             ))}
@@ -67,28 +91,51 @@ export function ParcourirView({ items }: { items: Item[] }) {
         )}
       </section>
 
-      {letters.length === 0 ? (
+      {presentCategories.length === 0 ? (
         <section className="mx-auto max-w-5xl px-6 py-16">
           <div className="rounded-soft-lg bg-white p-10 shadow-soft text-center">
-            <p className="font-serif text-2xl font-semibold">Aucune recette ne correspond</p>
+            <p className="font-serif text-2xl font-semibold">
+              Aucune recette ne correspond
+            </p>
             <p className="mt-2 text-sm text-ink-soft">
               Essayez de retirer certains filtres pour élargir les résultats.
             </p>
           </div>
         </section>
       ) : (
-        letters.map((letter) => (
+        presentCategories.map((cat) => (
           <section
-            id={`letter-${letter}`}
-            key={letter}
-            className="mx-auto max-w-5xl px-6 py-5 scroll-mt-32"
+            id={`cat-${cat}`}
+            key={cat}
+            className="mx-auto max-w-5xl px-6 py-6 scroll-mt-32"
           >
-            {/* Lettre de section compacte : text-xl au lieu de text-3xl. */}
-            <h2 className="font-serif text-xl font-semibold mb-3 text-terracotta">
-              {letter}
-            </h2>
+            {/* === SÉPARATEUR DE CATÉGORIE — élégant et épuré ===
+                Pastille terracotta + titre serif large + ligne fine sage
+                qui s'étend horizontalement. Style "intercalaire de carnet". */}
+            <header
+              className="mb-5 flex items-center gap-4"
+              aria-label={RECIPE_CATEGORY_LABELS[cat]}
+            >
+              <span
+                aria-hidden
+                className="h-2 w-2 rounded-full bg-terracotta shrink-0"
+              />
+              <h2 className="font-serif text-2xl md:text-3xl font-semibold text-ink leading-none">
+                {RECIPE_CATEGORY_LABELS[cat]}
+              </h2>
+              <span
+                aria-hidden
+                className="font-serif italic text-sm text-ink-soft tabular-nums shrink-0"
+              >
+                {grouped.get(cat)!.length}
+              </span>
+              <span
+                aria-hidden
+                className="flex-1 h-px bg-gradient-to-r from-bone-deep via-bone-deep to-transparent"
+              />
+            </header>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {grouped.get(letter)!.map(({ country, recipe }) => (
+              {grouped.get(cat)!.map(({ country, recipe }) => (
                 <RecipeCard
                   key={`${country.slug}-${recipe.slug}`}
                   country={country}

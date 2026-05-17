@@ -2,6 +2,31 @@ export type Diet = "vegan" | "vegetarian" | "gluten-free" | "dairy-free";
 
 export type Season = "winter" | "spring" | "summer" | "autumn";
 
+/**
+ * Catégorie culinaire — utilisée pour le tri et le regroupement sur la page
+ * /parcourir (v2.4). Chaque recette appartient à UNE catégorie.
+ *   • entree   — soupes, salades, mezze, finger food, dim sum
+ *   • plat     — plats principaux (chauds ou froids)
+ *   • dessert  — pâtisseries, fruits préparés, douceurs sucrées
+ *   • boisson  — thés, infusions, cocktails non-alcoolisés
+ */
+export type RecipeCategory = "entree" | "plat" | "dessert" | "boisson";
+
+export const RECIPE_CATEGORY_LABELS: Record<RecipeCategory, string> = {
+  entree: "Entrées",
+  plat: "Plats principaux",
+  dessert: "Desserts",
+  boisson: "Boissons",
+};
+
+/** Ordre de tri canonique des catégories (séquence d'un repas complet). */
+export const RECIPE_CATEGORY_ORDER: RecipeCategory[] = [
+  "entree",
+  "plat",
+  "dessert",
+  "boisson",
+];
+
 export type CulturalEvent =
   | "chinese-new-year"
   | "ramadan-end"
@@ -33,6 +58,11 @@ export type Recipe = {
   cookTime: number;
   servings: number;
   diets: Diet[];
+  /**
+   * Catégorie culinaire (entrée, plat, dessert, boisson) — utilisée pour le
+   * regroupement sur /parcourir. Champ requis depuis v2.4.
+   */
+  category: RecipeCategory;
   seasons?: Season[];
   events?: CulturalEvent[];
   /**
