@@ -20,7 +20,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Map and Fork — Cuisine du monde",
     short_name: "Map and Fork",
     description:
-      "Voyagez à travers la cuisine du monde via un globe 3D interactif et 50 recettes authentiques, accompagnées du secret du chef pour chaque plat.",
+      "Voyagez à travers la cuisine du monde via un globe 3D interactif et 60 recettes authentiques, accompagnées du secret du chef pour chaque plat.",
     start_url: "/",
     scope: "/",
     display: "standalone",
