@@ -938,6 +938,268 @@
         "Plonger chaque boule dans les vermicelles et rouler-la pour bien l'enrober. Déposer dans une caissette en papier. Continuer jusqu'à épuisement de la pâte — obtiens 25-30 brigadeiros. Conserver au frais, servir à température ambiante 15 min avant pour la texture parfaite (fondant à cœur)."
       ],
       "category": "dessert"
+    },
+    {
+      "slug": "churrasco-picanha",
+      "title": "Churrasco de Picanha",
+      "image": "/images/churrasco-picanha-bresil.jpg",
+      "prepTime": 20,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "events": [
+        "carnaval"
+      ],
+      "ingredients": [
+        {
+          "name": "Picanha entière de bœuf (cap de rumsteak avec sa graisse intacte)",
+          "qty": 1.5,
+          "unit": "kg"
+        },
+        {
+          "name": "Gros sel de mer non raffiné (sal grosso brésilien)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "FAROFA — Manioc fariné (farinha de mandioca, grossière)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre clarifié",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon jaune en brunoise",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Lardons fumés",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Bananes plantains mûres en rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Persil plat ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "VINAIGRETTE — Tomates fermes en brunoise",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge en brunoise",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron vert en brunoise",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile d'olive vierge extra",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Coriandre fraîche ciselée",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Piment malagueta haché (optionnel)",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "Sortir la picanha du réfrigérateur 1 h avant cuisson (température ambiante = cuisson uniforme, jamais saisir une viande froide à cœur).",
+        "Quadriller le côté gras au couteau bien aiguisé (incisions de 2 cm, sans entamer la chair) : la graisse pourra rendre uniformément et caraméliser.",
+        "Découper la picanha dans le sens du grain en 3 ou 4 morceaux en forme de C de 4 cm d'épaisseur (méthode brésilienne authentique : on plie le morceau en C avant de l'embrocher).",
+        "Saler généreusement chaque morceau au sal grosso côté gras uniquement (le sel agit comme un sucre : il caramélise la croûte sans dessaler la chair). NE PAS poivrer (les Brésiliens authentiques ne poivrent jamais leur picanha).",
+        "Embrocher les C sur une grande brochette en métal côté gras vers l'extérieur (forme arquée).",
+        "Préparer un feu de braises à 350 °C (charbon de bois ou hêtre) : les braises doivent être grises avec rougeoiement uniforme. Disposer la brochette à 25-30 cm des braises.",
+        "Cuisson lente côté gras d'abord, 8 min jusqu'à fonte et caramélisation dorée. Retourner, cuire côté chair 10 min pour saignant (cœur 54 °C) ou 12 min pour rosé (58 °C). Un thermomètre à viande est précieux.",
+        "FAROFA : pendant ce temps, faire fondre le beurre clarifié dans une poêle. Faire suer l'oignon 5 min, ajouter les lardons, faire colorer 3 min. Ajouter les rondelles de plantain, faire dorer 3 min.",
+        "Incorporer la farinha de mandioca, mélanger pour enrober. Cuire 5 min à feu doux en remuant : la farinha doit être dorée, sablée, parfumée. Saler, parsemer de persil.",
+        "VINAIGRETTE BRASILEIRA : mélanger tomates, oignon rouge, poivron, vinaigre, huile, coriandre, sel et éventuellement piment haché. Laisser reposer 15 min pour mariner.",
+        "Sortir la picanha des braises, faire reposer 10 min sous papier alu (étape essentielle : la chair se détend, les jus se redistribuent).",
+        "Couper en tranches de 1 cm contre le grain (méthode rodizio : trancher fin pour découvrir le dégradé saignant au centre). Servir avec la farofa et la vinaigrette brasileira à part."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Rumsteak épais en pavés",
+          "qty": 1,
+          "unit": "kg"
+        },
+        {
+          "name": "Gros sel",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Poivre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "FAROFA EXPRESS — Chapelure japonaise (panko)",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Lardons fumés",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Bananes mûres",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "VINAIGRETTE — Tomates",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Persil et coriandre",
+          "qty": 1,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "Sortir la viande 30 min avant cuisson. Saler généreusement.",
+        "Faire chauffer une poêle en fonte ou un gril à feu très vif avec 1 c.s. d'huile. Saisir les pavés 3 min par face pour saignant, 4 min pour rosé. Réserver 5 min sous papier alu.",
+        "Pendant la cuisson : faire fondre le beurre dans une poêle, faire revenir l'oignon haché et les lardons 5 min. Ajouter les bananes en rondelles, faire dorer 3 min, puis ajouter le panko en mélangeant 3 min jusqu'à coloration dorée.",
+        "Mélanger les tomates en dés, l'oignon rouge haché, le vinaigre, 2 c.s. d'huile, sel, persil et coriandre ciselés. Réserver.",
+        "Trancher la viande contre le grain en tranches fines. Servir avec la farofa croustillante et la vinaigrette brasileira."
+      ],
+      "story": "Coupe sacrée du churrasco brésilien, la picanha (cap de rumsteak) est la pièce favorite des gaúchos du Rio Grande do Sul. Servie en rodízio dans tout le pays, elle se reconnait à sa couche de graisse blanche caractéristique qu'il ne faut JAMAIS enlever — c'est elle qui parfume la viande pendant la cuisson.",
+      "chefSecret": "La règle des trois interdits brésiliens pour la picanha : ne JAMAIS retirer la graisse (elle se mange), ne JAMAIS la mariner (le sel grossier suffit), ne JAMAIS la cuire au-delà du rosé (au-delà, elle devient sèche et coriace). Le gros sel marin et les braises de bois sont les seuls assaisonnements admis."
+    },
+    {
+      "slug": "caipirinha",
+      "title": "Caipirinha",
+      "image": "/images/caipirinha-bresil.jpg",
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 1,
+      "diets": [
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "boisson",
+      "events": [
+        "carnaval"
+      ],
+      "ingredients": [
+        {
+          "name": "Cachaça artisanale vieillie (Yaguara, Sagatiba, Leblon)",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Citron vert de Tahiti (lime) bio non traité",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sucre de canne complet (rapadura ou demerara)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Glace concassée (jamais cubes : eau l'on veut, dilution maîtrisée)",
+          "qty": 150,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Brosser la lime sous l'eau tiède, la sécher. La couper en deux pôles à pôles puis retirer la veine blanche centrale (le pith) qui est très amer — étape de barman professionnel souvent oubliée mais qui distingue une caipirinha d'exception.",
+        "Couper chaque demi-lime en 4 quartiers (8 quartiers au total), peau vers le haut.",
+        "Déposer les 8 quartiers de lime au fond d'un verre old fashioned épais.",
+        "Ajouter le sucre de canne complet directement sur les limes (le sucre va absorber les huiles essentielles du zeste pendant le mudding).",
+        "Mudder (écraser) les limes au pilon en bois ou inox : pressions courtes et fermes, jamais en torsion (la torsion libère le pith amer). Objectif : extraire le jus ET les huiles essentielles du zeste sans broyer l'écorce. 30 s suffisent.",
+        "Remplir le verre de glace concassée jusqu'au bord. Verser la cachaça par-dessus.",
+        "Mélanger énergiquement à la cuillère à long manche en remontant les limes des couches inférieures vers le haut, 15 secondes — la dilution-mélange est l'âme de la caipirinha.",
+        "Servir immédiatement avec une paille courte et inviter à remuer entre chaque gorgée pour maintenir l'équilibre sucre-acide-alcool."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Cachaça (rayon spiritueux) ou à défaut rhum blanc agricole",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "name": "Citron vert",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sucre de canne (cassonade ou roux)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Glace pilée (ou cubes écrasés au rouleau)",
+          "qty": 100,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Couper le citron vert en 8 quartiers, retirer si possible la pointe blanche centrale.",
+        "Déposer les quartiers et le sucre dans un verre solide (pas un verre fin : la pression du pilon peut le casser).",
+        "Écraser le citron au pilon ou au manche d'une grosse cuillère en bois pour libérer le jus et les huiles du zeste, sans trop insister.",
+        "Remplir le verre de glace pilée, verser la cachaça, mélanger énergiquement à la cuillère pendant 15 s. Servir avec une paille."
+      ],
+      "story": "Boisson nationale du Brésil, la caipirinha (\"petite paysanne\") tire son nom des fermes du Sertão où elle est née comme remède au paludisme et aux refroidissements au XIXe siècle. La cachaça, eau-de-vie de canne à sucre fermentée, est l'âme du cocktail — distinct du rhum (qui utilise la mélasse).",
+      "chefSecret": "Le sucre de canne complet (rapadura ou demerara) est essentiel : il apporte des notes de mélasse et de réglisse qui se marient à la cachaça vieillie. Le sucre blanc raffiné fonctionne mais aplatit le cocktail — c'est la différence entre une caipirinha de carnaval et une caipirinha de palace."
     }
   ]
 }

@@ -775,6 +775,408 @@
       ],
       "story": "Dessert frais des fins de repas sénégalais, le thiakry marie la semoule de mil cuite à la vapeur avec un lait caillé crémeux sucré à la vanille. Servi très frais après la prière du vendredi.",
       "chefSecret": "Faire 3 vapeurs successives sur la semoule de mil avec des aérations intercalées — c'est ce qui donne le grain qui ne colle pas et reste léger en bouche."
+    },
+    {
+      "slug": "fataya",
+      "title": "Fataya au Poisson",
+      "image": "/images/fataya-senegal.jpg",
+      "prepTime": 35,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "events": [
+        "ramadan-end"
+      ],
+      "ingredients": [
+        {
+          "name": "PÂTE — Farine T55",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre semoule",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Levure chimique",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Œuf entier",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide (pâte)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Eau tiède",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "FARCE — Filets de sardine fraîche désarêtés (ou thon frais)",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons jaunes émincés finement",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates pelées épépinées en brunoise",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Persil plat ciselé",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Piment frais haché (Bilakoroni ou habanero, dosé selon goût)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Cube bouillon de poisson (Maggi ou Jumbo)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivre noir et noix de muscade",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Citron vert (jus)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile d'arachide (friture)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "SAUCE KANI — Oignons rouges en lamelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomate en dés",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Piment frais",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Vinaigre de cidre",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cube de poulet émietté",
+          "qty": 0.5,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "PÂTE : dans un saladier, mélanger farine, sel, sucre et levure chimique. Faire un puits, ajouter l'œuf et l'huile, mélanger.",
+        "Verser l'eau tiède en filet en pétrissant 7 min jusqu'à obtenir une pâte souple, lisse, légèrement élastique mais non collante. Bouler, filmer, faire reposer 30 min à température ambiante.",
+        "FARCE : faire pocher les filets de sardine 5 min dans l'eau salée frémissante avec le jus du citron vert. Égoutter, laisser tiédir, émietter finement à la fourchette en éliminant les éventuelles arêtes résiduelles.",
+        "Faire chauffer 3 c.s. d'huile d'arachide dans une poêle. Faire suer les oignons 10 min à feu doux jusqu'à transparence dorée.",
+        "Ajouter l'ail, faire revenir 1 min. Incorporer le concentré de tomates, cuire 2 min pour torréfier. Ajouter les tomates en brunoise et le cube de bouillon émietté.",
+        "Cuire à découvert 12 min jusqu'à obtenir une confiture épaisse et SÈCHE (étape essentielle : si la farce est humide, elle détrempera la pâte à la friture).",
+        "Hors du feu, incorporer le poisson émietté, le persil ciselé, le piment et la noix de muscade râpée. Vérifier le sel, poivrer. Laisser refroidir totalement à température ambiante.",
+        "SAUCE KANI : faire macérer les oignons rouges en lamelles dans le vinaigre + 1 pincée de sel 15 min. Égoutter. Mélanger avec la tomate en dés, le piment haché et le cube de poulet émietté. Réserver au frais.",
+        "Abaisser la pâte au rouleau sur un plan fariné en grand rectangle de 2 mm d'épaisseur. Découper 16 disques de 12 cm de diamètre (à l'emporte-pièce ou avec un bol retourné).",
+        "Déposer 1 c.s. bombée de farce au centre de chaque disque, humidifier le bord à l'eau au pinceau, plier en demi-lune, sceller à la fourchette en motif gaufré signature.",
+        "Faire chauffer 1 L d'huile d'arachide à 170 °C précis dans une casserole haute. Faire frire les fataya par lots de 5-6 (sans surcharger) 3 min par face jusqu'à doré profond et croustillant.",
+        "Égoutter sur grille (jamais papier absorbant : ramollit la croûte). Servir tièdes, accompagnés de la sauce kani aux oignons pour tremper, et de quartiers de citron vert."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Pâte feuilletée pur beurre (rouleau)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Thon en boîte au naturel égoutté",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Persil",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Cube de bouillon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Œuf battu (dorure)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Piment de Cayenne en poudre",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 2,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Préchauffer le four à 200 °C. Faire revenir les oignons hachés 8 min dans 2 c.s. d'huile, ajouter l'ail écrasé puis le concentré de tomates et le cube émietté. Cuire 5 min jusqu'à mélange épais et sec.",
+        "Hors du feu, ajouter le thon égoutté émietté, le persil ciselé et le piment de Cayenne. Saler et poivrer. Laisser refroidir.",
+        "Dérouler les pâtes feuilletées, découper 12 disques de 12 cm à l'emporte-pièce ou avec un bol.",
+        "Déposer 1 c.s. de farce sur chaque disque, replier en demi-lune et sceller à la fourchette. Dorer à l'œuf battu.",
+        "Enfourner 18 min à 200 °C jusqu'à coloration dorée. Servir tièdes avec quelques rondelles d'oignon rouge mariné au vinaigre et un quartier de citron vert."
+      ],
+      "story": "Beignets fourrés emblématiques de Dakar et de la Petite Côte, les fataya sont vendus dès l'aube par les marchandes ambulantes pour le petit-déjeuner et au goûter par les écoliers. Apportés par les marchands libanais au XIXe siècle, ils ont été adaptés à la cuisine sénégalaise avec le poisson local et la sauce kani aux oignons.",
+      "chefSecret": "La règle d'or des fataya : la farce doit être TOTALEMENT SÈCHE avant garnissage (cuire à découvert jusqu'à évaporation complète), et la friture doit être à 170 °C exact. Trop chaud, la pâte brûle avant que le cœur ne soit cuit ; trop froid, elle absorbe l'huile et devient grasse au lieu de soufflée."
+    },
+    {
+      "slug": "soupou-kandja",
+      "title": "Soupou Kandja (Gombo)",
+      "image": "/images/soupou-kandja-senegal.jpg",
+      "prepTime": 30,
+      "cookTime": 90,
+      "servings": 6,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Gombos frais (okras) entiers, jeunes et fermes",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Bœuf à mijoter (jarret avec os) en cubes",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Poisson fumé (yett ou guedj sénégalais)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Mérou frais ou capitaine en pavés",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes décortiquées crues",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Crabe frais en morceaux (optionnel)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Huile de palme rouge (dendê) artisanale",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignons jaunes émincés finement",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomate fraîche en brunoise",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cube de bouillon (Jumbo crevette signature ouest-africaine)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Persil plat et menthe fraîche ciselés",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Feuilles de laurier",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Piment frais (Bilakoroni ou habanero, entier non incisé)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sel fin et poivre",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Riz brisé du fleuve Sénégal (jamais long, jamais basmati)",
+          "qty": 400,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Laver les gombos sous l'eau froide, équeuter et couper en rondelles fines de 3 mm. Réserver dans un saladier (ils vont libérer du mucilage qui épaissira naturellement la soupe, signature du soupou kandja).",
+        "Faire tremper le poisson fumé dans de l'eau tiède 20 min pour dessaler et ramollir. Égoutter, émietter grossièrement en éliminant arêtes et peau.",
+        "Dans une cocotte épaisse, faire chauffer l'huile de palme rouge à feu doux (couleur orange profonde : c'est elle qui donne la signature visuelle du plat).",
+        "Faire suer les oignons 10 min jusqu'à transparence sans coloration (le palme rouge ne supporte pas la haute température, il perdrait ses caroténoïdes).",
+        "Ajouter l'ail et le gingembre, faire revenir 1 min. Incorporer le concentré de tomates et la tomate en brunoise, cuire 5 min.",
+        "Ajouter le bœuf en cubes, faire dorer 8 min sur toutes les faces. Verser 1,2 L d'eau chaude, ajouter le poisson fumé, le cube de bouillon, le laurier, le piment ENTIER non incisé (parfume sans piquer), saler légèrement, poivrer.",
+        "Couvrir et faire mijoter 1 h à feu doux jusqu'à ce que le bœuf commence à être tendre.",
+        "Ajouter les rondelles de gombos, remuer doucement. Cuire 20 min à découvert : la soupe va épaissir naturellement grâce au mucilage des gombos (effet velouté signature).",
+        "Ajouter les pavés de poisson frais, les crevettes et éventuellement le crabe. Cuire 8 min de plus à frémissement (le poisson doit rester juste cuit, jamais sec).",
+        "Hors du feu, ajouter le persil et la menthe ciselés. Retirer délicatement le piment entier (sans le casser : il aurait rendu le plat brûlant). Goûter et rectifier l'assaisonnement.",
+        "Pendant ce temps, faire cuire le riz brisé à la sénégalaise : rincer abondamment, cuire 12 min dans 1,5 fois son volume d'eau salée à couvert.",
+        "DRESSAGE : disposer le riz brisé au centre d'un grand plat traditionnel, napper généreusement du soupou kandja avec ses morceaux variés. Servir au centre de la table, chacun se servant à sa cuillère (ou à la main droite pour la pleine tradition)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Gombos surgelés en rondelles (rayon surgelés exotique)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Bœuf à mijoter en cubes",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Filets de cabillaud ou colin",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes décortiquées surgelées",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive (à défaut d'huile de palme)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Oignons",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Tomate",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Cube de bouillon (poisson ou crevette)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Laurier, sel, poivre, paprika fumé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Riz à grain rond ou brisé",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Persil ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "Faire chauffer 2 c.s. d'huile dans une cocotte, faire revenir les oignons hachés 8 min, ajouter l'ail écrasé puis le concentré de tomates. Cuire 3 min.",
+        "Ajouter le bœuf, faire dorer 5 min sur toutes les faces. Verser 1 L d'eau chaude, ajouter le cube de bouillon, le laurier, le paprika et la tomate en dés. Saler, poivrer.",
+        "Couvrir et faire mijoter 1 h à feu doux jusqu'à tendreté du bœuf.",
+        "Ajouter les gombos surgelés (encore congelés) et faire cuire 15 min à découvert (la soupe va épaissir). Ajouter le poisson en morceaux et les crevettes, cuire 7 min de plus.",
+        "Faire cuire le riz selon les instructions du paquet. Hors du feu, parsemer le ragoût de persil ciselé. Servir le riz au centre d'un grand plat avec la soupe et les morceaux dessus."
+      ],
+      "story": "Plat phare des cuisines wolof et lébou de la côte sénégalaise, le soupou kandja (\"soupe au gombo\" en wolof) marie les produits de la mer de l'Atlantique au bœuf de l'arrière-pays. Servi traditionnellement le mercredi à Dakar dans la rotation hebdomadaire des plats nationaux, il se partage dans un grand plat commun.",
+      "chefSecret": "Le piment ENTIER non incisé est l'astuce des grand-mères sénégalaises : il parfume le plat sans rendre piquant. Il faut le retirer délicatement à la fin SANS le casser, sinon le plat devient brûlant. Et le riz BRISÉ (pas long) est obligatoire : ses grains cassés absorbent mieux la sauce et donnent la texture authentique."
     }
   ]
 }

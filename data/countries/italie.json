@@ -676,6 +676,299 @@
         "Filmer et placer au frais 4 h minimum (12 h c'est encore meilleur). Au moment de servir, saupoudrer généreusement de cacao amer au tamis."
       ],
       "category": "dessert"
+    },
+    {
+      "slug": "lasagne-bolognese",
+      "title": "Lasagne alla Bolognese",
+      "image": "/images/lasagne-bolognese-italie.jpg",
+      "prepTime": 60,
+      "cookTime": 120,
+      "servings": 8,
+      "diets": [],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "RAGÙ — Bœuf haché à 15 % MG (paleron)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Échine de porc hachée",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Pancetta tesa hachée au couteau",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Soffritto — oignon jaune en brunoise fine",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Carotte en brunoise fine",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Branche de céleri en brunoise fine",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vin blanc sec (Trebbiano ou Pignoletto)",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Lait entier (adoucit l'acidité)",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Passata di pomodoro San Marzano",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Concentré de tomates double",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Feuille de laurier, muscade râpée, sel, poivre",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "PÂTE — Farine 00 italienne",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs entiers de poule plein air",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "BÉCHAMEL — Lait entier",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "Beurre doux",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T45",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Parmigiano Reggiano 24 mois DOP râpé",
+          "qty": 200,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "RAGÙ (à démarrer 3 h à l'avance) : faire fondre la pancetta dans une cocotte en fonte à feu doux 5 min pour libérer sa graisse, qui servira de matière grasse.",
+        "Ajouter le soffritto (oignon + carotte + céleri en brunoise), faire suer 15 min à feu doux jusqu'à fondant translucide sans coloration — c'est la base aromatique invisible mais fondamentale.",
+        "Monter le feu, ajouter les viandes hachées, faire colorer 10 min en cassant les amas à la cuillère en bois jusqu'à coloration brune (pas de croûte, juste une dorure homogène).",
+        "Déglacer au vin blanc, faire évaporer entièrement (5 min, plus d'odeur d'alcool).",
+        "Ajouter le lait, faire frémir 10 min pour qu'il s'absorbe complètement (signature bolonaise : adoucit le ragù et arrondit les protéines).",
+        "Ajouter passata, concentré, laurier, muscade. Saler légèrement. Couvrir partiellement, faire mijoter 2 h à feu très doux (frémissement à peine perceptible) en remuant toutes les 20 min.",
+        "PÂTE FRAÎCHE : pétrir farine + œufs 10 min jusqu'à pâte lisse et élastique, filmer, reposer 30 min. Abaisser au laminoir cran par cran jusqu'au n°6 (1 mm). Découper des rectangles de 12×20 cm.",
+        "Faire blanchir les rectangles 1 min dans une grande casserole d'eau bouillante salée + 1 c.s. d'huile, rafraîchir dans un saladier d'eau glacée, éponger sur des linges propres.",
+        "BÉCHAMEL : faire fondre le beurre, ajouter la farine, cuire le roux blond 2 min. Verser le lait bouillant en filet en fouettant. Cuire 8 min jusqu'à nappage. Saler, poivrer, râper une pointe de muscade.",
+        "MONTAGE : dans un plat à gratin de 25×35 cm, étaler une fine couche de béchamel. Disposer une couche de pâte, une couche de ragù, une couche de béchamel, une généreuse pluie de parmesan. Répéter 5-6 fois en finissant par béchamel + parmesan.",
+        "Enfourner à 180 °C chaleur tournante 40 min jusqu'à coloration dorée intense et bord croustillant.",
+        "Sortir du four et faire reposer impérativement 15 min avant de couper : les couches se figent et la part tient debout à l'assiette."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Plaques de lasagnes fraîches (rayon frais)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Bœuf haché",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Lardons fumés",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Carotte",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Sauce tomate cuisinée (bocal)",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Vin rouge ou bouillon de bœuf",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Béchamel prête (briquette)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Parmesan râpé",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Mozzarella râpée",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive, sel, poivre, origan",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Faire chauffer 2 c.s. d'huile d'olive dans une cocotte. Faire revenir l'oignon et la carotte hachés 5 min, ajouter les lardons et l'ail écrasé 3 min.",
+        "Ajouter le bœuf haché, faire colorer 8 min en cassant les morceaux. Saler, poivrer.",
+        "Verser le vin rouge, faire évaporer 3 min. Ajouter la sauce tomate, l'origan. Couvrir et faire mijoter 30 min à feu doux.",
+        "Préchauffer le four à 190 °C. Dans un plat à gratin, alterner les couches : sauce bolognaise, plaques de lasagnes, béchamel, mozzarella. Répéter 3-4 fois en finissant par béchamel + parmesan.",
+        "Enfourner 35 min jusqu'à coloration dorée. Faire reposer 10 min avant de servir."
+      ],
+      "story": "Plat emblématique de Bologne, codifié en 1982 par l'Académie Italienne de Cuisine. La vraie version utilise des tagliatelles plates et larges (jamais des spaghettis), et les lasagne al forno bolonaises se distinguent par leur pâte verte aux épinards traditionnelle.",
+      "chefSecret": "Le secret du ragù bolonais authentique : ajouter du LAIT après le vin. Les protéines lactiques arrondissent l'acidité de la tomate et tendresent les fibres de la viande — résultat, une sauce d'une rondeur incomparable."
+    },
+    {
+      "slug": "panna-cotta",
+      "title": "Panna Cotta alla Vaniglia",
+      "image": "/images/panna-cotta-italie.jpg",
+      "prepTime": 15,
+      "cookTime": 10,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "dessert",
+      "ingredients": [
+        {
+          "name": "Crème fraîche entière liquide à 35 % MG",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Lait entier UHT",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre cassonade blonde",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Gousse de vanille Bourbon fendue et grattée",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Gélatine en feuilles (Or, 200 bloom)",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "COULIS — Fraises gariguettes équeutées",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre glace (coulis)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Jus d'un demi-citron jaune",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Poivre de Tasmanie en grains (finition)",
+          "qty": 1,
+          "unit": "pincée"
+        }
+      ],
+      "steps": [
+        "Faire ramollir les feuilles de gélatine dans un bol d'eau très froide pendant 10 min (elles doivent devenir souples sans se déliter).",
+        "Dans une casserole à fond épais, verser la crème, le lait, le sucre, la gousse de vanille fendue et les graines grattées. Chauffer doucement à 85 °C en remuant à la spatule, sans jamais faire bouillir (la crème caillerait).",
+        "Hors du feu, retirer la gousse de vanille (réserver pour parfumer un pot de sucre). Essorer la gélatine fortement entre les paumes, l'incorporer à la crème chaude en remuant 30 s jusqu'à dissolution complète.",
+        "Filtrer le mélange au chinois fin (élimine les éventuels grumeaux de gélatine non dissoute).",
+        "Répartir dans 4 verrines ou ramequins de 100 ml. Laisser tiédir 10 min à température ambiante puis filmer au contact (évite la croûte) et réserver 6 h minimum au réfrigérateur (idéalement 12 h).",
+        "COULIS : mixer les fraises avec le sucre glace et le jus de citron au blender 1 min jusqu'à texture lisse. Filtrer au tamis fin pour retirer les petits pépins.",
+        "Au moment du service, soit servir la panna cotta directement dans la verrine avec le coulis nappé dessus, soit démouler : tremper rapidement le ramequin 3 s dans l'eau chaude, retourner d'un coup sec sur une assiette froide.",
+        "Napper de coulis de fraise, parsemer de 3 grains de poivre de Tasmanie concassés (l'amertume du poivre rare contraste avec la douceur de la crème)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Crème liquide entière à 30 % MG",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre",
+          "qty": 70,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre vanillé (ou extrait de vanille)",
+          "qty": 1,
+          "unit": "sachet"
+        },
+        {
+          "name": "Feuilles de gélatine",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Fraises fraîches ou surgelées",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre glace (coulis)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Faire ramollir la gélatine dans un bol d'eau froide 10 min.",
+        "Dans une casserole, faire chauffer la crème avec le sucre et le sucre vanillé à feu doux jusqu'à frémissement (ne pas faire bouillir).",
+        "Hors du feu, essorer la gélatine et l'incorporer à la crème chaude en remuant. Verser dans 4 verrines.",
+        "Couvrir et réserver au réfrigérateur 4 h minimum.",
+        "Mixer les fraises avec le sucre glace pour obtenir un coulis. Verser sur les panna cotta au moment de servir."
+      ],
+      "story": "Dessert emblématique du Piémont, la panna cotta (\"crème cuite\") serait née au XXe siècle dans les vallées des Langhe. Sa simplicité absolue — crème, sucre, gélatine, vanille — exige une crème d'exception : c'est la matière première qui fait tout.",
+      "chefSecret": "Ne JAMAIS faire bouillir la crème : à 85 °C, les protéines se dénaturent juste assez pour développer l'onctuosité, sans casser la structure ni faire de peau. Un thermomètre est indispensable pour les pros."
     }
   ]
 }

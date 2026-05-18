@@ -1011,6 +1011,422 @@
         "Verser 3 c.s. de sauce soja, ajouter les œufs brouillés réservés, mélanger 1 min. Couper le feu. Ajouter 1 c.c. d'huile de sésame et la moitié de la ciboule ciselée. Saler et poivre. Servir chaud avec le reste de ciboule en finition."
       ],
       "category": "plat"
+    },
+    {
+      "slug": "chow-mein",
+      "title": "Chow Mein au Bœuf",
+      "image": "/images/chow-mein-chine.jpg",
+      "prepTime": 25,
+      "cookTime": 15,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Nouilles aux œufs cantonaises fraîches (rayon Asie, à défaut nouilles sèches)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Filet de bœuf en lanières fines de 5 mm (contre le grain)",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "MARINADE — Sauce soja claire Pearl River",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vin de Shaoxing",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Maïzena (effet velveting, signature cantonaise)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile de sésame torréfié pur",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Bicarbonate de soude (attendrissant chinois)",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "LÉGUMES — Pousses de soja fraîches",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Choy sum (ou bok choy en lanières)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Carotte en julienne fine",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron rouge en julienne",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Cébettes ciselées (blanc et vert séparés)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "SAUCE — Sauce soja foncée Pearl River",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce d'huître Lee Kum Kee Premium",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce hoisin",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre roux",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Bouillon de poulet (signature chinoise : à base d'os de poulet)",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile d'arachide (cuisson wok)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile de sésame torréfié (finition)",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "steps": [
+        "MARINADE : dans un bol, mélanger le bœuf avec la sauce soja claire, le shaoxing, la maïzena, l'huile de sésame, le bicarbonate et 1 c.s. d'eau froide. Masser 30 s pour que la marinade pénètre. Filmer, réserver 30 min au réfrigérateur (technique du velveting : le bicarbonate alcalinise les protéines, la maïzena forme un film protecteur — la viande devient soyeuse).",
+        "Faire blanchir les nouilles cantonaises dans une grande casserole d'eau bouillante non salée 1 min seulement (elles doivent être al dente : elles finiront de cuire au wok). Égoutter, rincer brièvement à l'eau froide, mélanger avec 1 c.c. d'huile pour éviter le collage. Réserver.",
+        "Mélanger les ingrédients de la sauce dans un bol : sauce soja foncée, huître, hoisin, sucre, bouillon de poulet. Réserver près du wok.",
+        "Préchauffer le wok en fonte à feu MAXIMAL jusqu'à ce qu'il fume (étape critique : sans \"wok hei\" — souffle du wok — pas de vrai chow mein). Verser 2 c.s. d'huile d'arachide en spirale sur les parois chaudes.",
+        "Jeter le bœuf égoutté en une seule fois, saisir 90 s en remuant constamment à la spatule chinoise jusqu'à coloration sur les arêtes mais cœur rosé. Sortir et réserver dans une assiette.",
+        "Sans rincer le wok, ajouter 2 c.s. d'huile, jeter l'ail, le gingembre et le blanc des cébettes. Saisir 15 s en remuant (ne pas laisser brunir).",
+        "Ajouter carotte et poivron, sauter 60 s à feu vif. Ajouter le choy sum, sauter 30 s jusqu'à flétrissement léger.",
+        "Pousser les légumes sur les bords du wok, jeter les pousses de soja au centre, sauter 20 s seulement (les pousses doivent rester croquantes, jamais flasques).",
+        "Remettre les nouilles, verser la sauce sur les parois chaudes (caramélisation immédiate qui parfume), remuer énergiquement à la spatule en remontant du fond pour bien enrober — 60 s max.",
+        "Remettre le bœuf et ses sucs, le vert des cébettes, mélanger 20 s pour réchauffer sans surcuire. Verser 1 c.c. d'huile de sésame en finition.",
+        "Servir immédiatement dans des assiettes creuses chaudes, accompagner de sauce chili à l'ail pour les amateurs."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Nouilles chinoises sèches aux œufs",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Steak de bœuf en fines lamelles",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja salée",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce d'huître (rayon Asie)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Maïzena",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sucre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Pousses de soja en boîte (égouttées)",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Chou chinois ou chou vert émincé",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Carotte en julienne",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Cébettes (ou oignon nouveau)",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail et gingembre",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Huile (tournesol ou arachide)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile de sésame",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Faire mariner le bœuf 15 min avec 1 c.s. de sauce soja et la maïzena.",
+        "Faire cuire les nouilles selon les instructions du paquet (généralement 3-4 min), égoutter et rincer à l'eau froide. Mélanger avec un peu d'huile.",
+        "Faire chauffer 2 c.s. d'huile dans une grande poêle à feu très vif. Saisir le bœuf 90 s en remuant, réserver.",
+        "Dans la même poêle, faire revenir l'ail et le gingembre hachés 15 s, ajouter carotte, poivron et chou émincé, sauter 3 min à feu vif. Ajouter les pousses de soja, sauter 1 min.",
+        "Mélanger 2 c.s. de sauce soja, la sauce d'huître et le sucre dans un bol. Remettre les nouilles dans la poêle, verser la sauce, remuer énergiquement 1 min. Ajouter le bœuf et les cébettes ciselées, mélanger 30 s. Arroser d'huile de sésame avant de servir."
+      ],
+      "story": "Né dans les cuisines cantonaises du sud de la Chine, le chow mein (\"nouilles sautées\") a conquis le monde via les émigrants chinois aux États-Unis dès le XIXe siècle. La version cantonaise authentique se distingue par ses nouilles aux œufs frites croustillantes en surface et le \"wok hei\" — ce souffle fumé signature d'une cuisson à très haute température.",
+      "chefSecret": "Le velveting (vélouter en chinois) est le secret d'une viande sautée toujours tendre : 1 pincée de bicarbonate + 1 c.c. de maïzena + 30 min de repos transforment n'importe quelle viande en chair soyeuse. C'est la technique des dim-sum restaurants de Hong Kong qui distingue le chow mein de palais d'un sauté domestique."
+    },
+    {
+      "slug": "baozi",
+      "title": "Baozi au Porc Char Siu",
+      "image": "/images/baozi-chine.jpg",
+      "prepTime": 60,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredients": [
+        {
+          "name": "PÂTE — Farine de blé à pain bao (faible en gluten, en épicerie asiatique)",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Levure boulangère sèche instantanée",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre semoule blond",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Lait tiède entier (38 °C)",
+          "qty": 180,
+          "unit": "ml"
+        },
+        {
+          "name": "Levure chimique",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Saindoux (blanc onctueux signature) ou huile neutre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 2,
+          "unit": "g"
+        },
+        {
+          "name": "FARCE — Échine de porc hachée à 20 % MG",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce char siu (rayon Asie ou maison)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce hoisin Lee Kum Kee",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce d'huître",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Miel d'acacia",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vin de Shaoxing",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cinq-épices chinois moulu",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cébettes ciselées finement",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail et gingembre frais hachés",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Maïzena (épaississant)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Bouillon de poulet",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile de sésame torréfié",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "steps": [
+        "PÂTE : dans le bol du robot, mélanger la farine bao, le sucre, le sel et la levure chimique. Faire un puits, y verser le lait tiède et la levure boulangère diluée 5 min dans 2 c.s. de lait tiède.",
+        "Pétrir 8 min au crochet à vitesse moyenne. Incorporer le saindoux, pétrir encore 4 min jusqu'à obtenir une pâte lisse, blanche, non collante, élastique.",
+        "Bouler la pâte, déposer dans un saladier huilé, filmer. Pousse en première fermentation 1 h 30 dans un endroit tiède (28 °C, four éteint lumière allumée), jusqu'à ce que la pâte double de volume.",
+        "FARCE CHAR SIU : faire chauffer 1 c.s. d'huile dans un wok. Saisir le porc haché 3 min en l'émiettant, retirer l'excès de gras.",
+        "Ajouter ail et gingembre, sauter 30 s. Ajouter sauce char siu, hoisin, huître, miel, shaoxing, cinq-épices. Cuire 2 min à feu vif jusqu'à caramélisation.",
+        "Diluer la maïzena dans le bouillon froid, verser dans le wok en remuant. Cuire 1 min jusqu'à épaississement (texture confite, nappante). Hors du feu, incorporer cébettes et huile de sésame. Faire refroidir complètement (chaud, la farce détremperait la pâte).",
+        "Dégazer la pâte d'un coup de poing. Diviser en 12 boules de 45 g, façonner en boules parfaitement lisses.",
+        "Aplatir chaque boule au rouleau en disque de 10 cm de diamètre, en gardant le centre plus épais que les bords (signature : le fond du bao doit être plus épais pour supporter la farce humide).",
+        "Déposer 1 c.s. de farce char siu froide au centre. Plier en plissant le bord en faisant le tour : pincer un pli toutes les 5 mm en tournant la base de la boule, jusqu'à former 18-20 plis qui se rejoignent en un \"escargot\" pointu au sommet (technique signature des dim-sum).",
+        "Déposer chaque baozi sur un petit carré de papier cuisson, dans le panier vapeur en bambou. Espacer de 3 cm (ils vont gonfler).",
+        "DEUXIÈME POUSSE : laisser reposer 30 min dans le panier couvert avant cuisson (les baozi vont encore gonfler et devenir aériens).",
+        "Cuisson vapeur : déposer le panier au-dessus d'un wok d'eau bouillante. Cuire 12 min à feu vif, couvercle hermétiquement fermé (jamais soulever pendant la cuisson : la chute de température fait retomber les baozi).",
+        "À la fin de la cuisson, éteindre le feu et laisser reposer 3 min couvercle fermé avant d'ouvrir (évite le choc thermique qui rendrait la pâte ridée). Servir immédiatement avec une sauce chili-soja-vinaigre noir."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Farine T55",
+          "qty": 350,
+          "unit": "g"
+        },
+        {
+          "name": "Levure boulangère sèche",
+          "qty": 1,
+          "unit": "sachet"
+        },
+        {
+          "name": "Sucre",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Lait tiède",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Huile neutre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Porc haché",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce hoisin (rayon Asie)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre roux",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cébettes ou oignon nouveau",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail et gingembre frais",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cinq-épices (rayon épices)",
+          "qty": 0.5,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Mélanger la farine, le sucre, le sel et la levure. Ajouter le lait tiède et l'huile, pétrir 10 min jusqu'à pâte lisse. Couvrir et laisser pousser 1 h 30 dans un endroit tiède (doit doubler).",
+        "Pour la farce : faire revenir l'ail et le gingembre dans 1 c.s. d'huile, ajouter le porc haché, faire dorer 5 min. Ajouter le hoisin, la sauce soja, le sucre et les cinq-épices, cuire 3 min. Hors du feu, incorporer les cébettes ciselées. Faire refroidir.",
+        "Dégazer la pâte, diviser en 10 boules. Aplatir chaque boule au rouleau en disque de 10 cm (plus épais au centre).",
+        "Déposer 1 c.s. de farce froide au centre de chaque disque. Rabattre les bords en plissant et pincer au sommet pour fermer.",
+        "Déposer chaque baozi sur un carré de papier cuisson dans un panier vapeur. Laisser reposer 30 min, puis cuire à la vapeur 15 min à feu vif. Servir avec sauce soja + vinaigre + huile de chili à part."
+      ],
+      "story": "Pain vapeur farci né dans le nord de la Chine sous la dynastie Han (IIIe siècle), le baozi est un pilier du petit-déjeuner et du dim-sum cantonais. La version char siu (porc rôti caramélisé à la sauce miel-cinq-épices) est la plus emblématique des dim-sum de Hong Kong, qu'on commande en cohorte autour d'un thé pu-erh fumant.",
+      "chefSecret": "La technique des 18 plis n'est pas qu'esthétique : ces plis créent un pic central qui distribue la vapeur uniformément, garantissant une pâte cuite à cœur et une farce juteuse. Les maîtres dim-sum de Hong Kong sont jugés à la régularité de leurs plis — 24 plis exactement pour les puristes."
     }
   ]
 }

@@ -13,7 +13,9 @@
         "moqueca",
         "pao-de-queijo",
         "coxinhas",
-        "brigadeiros"
+        "brigadeiros",
+        "churrasco-picanha",
+        "caipirinha"
       ]
     },
     {
@@ -29,7 +31,9 @@
         "canard-laque",
         "jiaozi",
         "nouilles-dan-dan",
-        "riz-cantonais"
+        "riz-cantonais",
+        "chow-mein",
+        "baozi"
       ]
     },
     {
@@ -45,7 +49,9 @@
         "ratatouille",
         "bouillabaisse",
         "crepes-suzette",
-        "quiche-lorraine"
+        "quiche-lorraine",
+        "boeuf-bourguignon",
+        "tarte-tatin"
       ]
     },
     {
@@ -61,7 +67,9 @@
         "souvlaki",
         "tzatziki-pita",
         "spanakopita",
-        "baklava"
+        "baklava",
+        "gyros",
+        "salade-grecque"
       ]
     },
     {
@@ -77,7 +85,9 @@
         "dhal-lentilles",
         "biryani-agneau",
         "samosa-legumes",
-        "chai-masala"
+        "chai-masala",
+        "chicken-tikka-masala",
+        "gulab-jamun"
       ]
     },
     {
@@ -93,7 +103,9 @@
         "pizza-margherita",
         "risotto-milanese",
         "osso-buco",
-        "tiramisu"
+        "tiramisu",
+        "lasagne-bolognese",
+        "panna-cotta"
       ]
     },
     {
@@ -109,7 +121,9 @@
         "onigiri-saumon",
         "tempura-legumes",
         "gyoza-porc",
-        "katsudon"
+        "katsudon",
+        "katsu-curry",
+        "glace-matcha"
       ]
     },
     {
@@ -125,7 +139,9 @@
         "couscous-legumes",
         "pastilla-poulet",
         "harira",
-        "briouates"
+        "briouates",
+        "mechoui",
+        "baghrir"
       ]
     },
     {
@@ -141,7 +157,9 @@
         "guacamole-totopos",
         "mole-poblano",
         "enchiladas-verdes",
-        "chiles-rellenos"
+        "chiles-rellenos",
+        "quesadillas",
+        "churros"
       ]
     },
     {
@@ -157,7 +175,9 @@
         "thieboudienne",
         "yassa-poulet",
         "maafe",
-        "thiakry"
+        "thiakry",
+        "fataya",
+        "soupou-kandja"
       ]
     },
     {
@@ -173,7 +193,9 @@
         "curry-vert-poulet",
         "tom-yum-kung",
         "som-tam",
-        "mango-sticky-rice"
+        "mango-sticky-rice",
+        "massaman-curry",
+        "khao-soi"
       ]
     },
     {
@@ -189,7 +211,9 @@
         "pho-bo",
         "banh-mi",
         "bun-cha",
-        "che-chuoi"
+        "che-chuoi",
+        "cha-gio",
+        "ca-phe-sua-da"
       ]
     }
   ],
@@ -442,6 +466,81 @@
         "Sel",
         "Vermicelles de chocolat (granulado)",
         "Caissettes en papier mini-cupcake"
+      ]
+    },
+    {
+      "countrySlug": "bresil",
+      "slug": "churrasco-picanha",
+      "title": "Churrasco de Picanha",
+      "image": "/images/churrasco-picanha-bresil.jpg",
+      "prepTime": 20,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [
+        "carnaval"
+      ],
+      "ingredientNames": [
+        "Picanha entière de bœuf (cap de rumsteak avec sa graisse intacte)",
+        "Gros sel de mer non raffiné (sal grosso brésilien)",
+        "FAROFA — Manioc fariné (farinha de mandioca, grossière)",
+        "Beurre clarifié",
+        "Oignon jaune en brunoise",
+        "Lardons fumés",
+        "Bananes plantains mûres en rondelles",
+        "Persil plat ciselé",
+        "VINAIGRETTE — Tomates fermes en brunoise",
+        "Oignon rouge en brunoise",
+        "Poivron vert en brunoise",
+        "Vinaigre de cidre",
+        "Huile d'olive vierge extra",
+        "Coriandre fraîche ciselée",
+        "Piment malagueta haché (optionnel)",
+        "Rumsteak épais en pavés",
+        "Gros sel",
+        "Poivre",
+        "Huile d'olive",
+        "FAROFA EXPRESS — Chapelure japonaise (panko)",
+        "Beurre",
+        "Oignon",
+        "Bananes mûres",
+        "VINAIGRETTE — Tomates",
+        "Oignon rouge",
+        "Persil et coriandre"
+      ]
+    },
+    {
+      "countrySlug": "bresil",
+      "slug": "caipirinha",
+      "title": "Caipirinha",
+      "image": "/images/caipirinha-bresil.jpg",
+      "prepTime": 5,
+      "cookTime": 0,
+      "servings": 1,
+      "diets": [
+        "vegan",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "boisson",
+      "seasons": [],
+      "events": [
+        "carnaval"
+      ],
+      "ingredientNames": [
+        "Cachaça artisanale vieillie (Yaguara, Sagatiba, Leblon)",
+        "Citron vert de Tahiti (lime) bio non traité",
+        "Sucre de canne complet (rapadura ou demerara)",
+        "Glace concassée (jamais cubes : eau l'on veut, dilution maîtrisée)",
+        "Cachaça (rayon spiritueux) ou à défaut rhum blanc agricole",
+        "Citron vert",
+        "Sucre de canne (cassonade ou roux)",
+        "Glace pilée (ou cubes écrasés au rouleau)"
       ]
     },
     {
@@ -701,6 +800,109 @@
       ]
     },
     {
+      "countrySlug": "chine",
+      "slug": "chow-mein",
+      "title": "Chow Mein au Bœuf",
+      "image": "/images/chow-mein-chine.jpg",
+      "prepTime": 25,
+      "cookTime": 15,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Nouilles aux œufs cantonaises fraîches (rayon Asie, à défaut nouilles sèches)",
+        "Filet de bœuf en lanières fines de 5 mm (contre le grain)",
+        "MARINADE — Sauce soja claire Pearl River",
+        "Vin de Shaoxing",
+        "Maïzena (effet velveting, signature cantonaise)",
+        "Huile de sésame torréfié pur",
+        "Bicarbonate de soude (attendrissant chinois)",
+        "LÉGUMES — Pousses de soja fraîches",
+        "Choy sum (ou bok choy en lanières)",
+        "Carotte en julienne fine",
+        "Poivron rouge en julienne",
+        "Cébettes ciselées (blanc et vert séparés)",
+        "Ail dégermé écrasé",
+        "Gingembre frais râpé",
+        "SAUCE — Sauce soja foncée Pearl River",
+        "Sauce d'huître Lee Kum Kee Premium",
+        "Sauce hoisin",
+        "Sucre roux",
+        "Bouillon de poulet (signature chinoise : à base d'os de poulet)",
+        "Huile d'arachide (cuisson wok)",
+        "Huile de sésame torréfié (finition)",
+        "Nouilles chinoises sèches aux œufs",
+        "Steak de bœuf en fines lamelles",
+        "Sauce soja salée",
+        "Sauce d'huître (rayon Asie)",
+        "Maïzena",
+        "Sucre",
+        "Pousses de soja en boîte (égouttées)",
+        "Chou chinois ou chou vert émincé",
+        "Carotte en julienne",
+        "Poivron rouge",
+        "Cébettes (ou oignon nouveau)",
+        "Ail et gingembre",
+        "Huile (tournesol ou arachide)",
+        "Huile de sésame"
+      ]
+    },
+    {
+      "countrySlug": "chine",
+      "slug": "baozi",
+      "title": "Baozi au Porc Char Siu",
+      "image": "/images/baozi-chine.jpg",
+      "prepTime": 60,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "seasons": [],
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredientNames": [
+        "PÂTE — Farine de blé à pain bao (faible en gluten, en épicerie asiatique)",
+        "Levure boulangère sèche instantanée",
+        "Sucre semoule blond",
+        "Lait tiède entier (38 °C)",
+        "Levure chimique",
+        "Saindoux (blanc onctueux signature) ou huile neutre",
+        "Sel fin",
+        "FARCE — Échine de porc hachée à 20 % MG",
+        "Sauce char siu (rayon Asie ou maison)",
+        "Sauce hoisin Lee Kum Kee",
+        "Sauce d'huître",
+        "Miel d'acacia",
+        "Vin de Shaoxing",
+        "Cinq-épices chinois moulu",
+        "Cébettes ciselées finement",
+        "Ail et gingembre frais hachés",
+        "Maïzena (épaississant)",
+        "Bouillon de poulet",
+        "Huile de sésame torréfié",
+        "Farine T55",
+        "Levure boulangère sèche",
+        "Sucre",
+        "Lait tiède",
+        "Huile neutre",
+        "Sel",
+        "Porc haché",
+        "Sauce hoisin (rayon Asie)",
+        "Sauce soja",
+        "Sucre roux",
+        "Cébettes ou oignon nouveau",
+        "Ail et gingembre frais",
+        "Cinq-épices (rayon épices)"
+      ]
+    },
+    {
       "countrySlug": "france",
       "slug": "coq-au-vin",
       "title": "Coq au vin",
@@ -923,6 +1125,86 @@
         "Crème liquide entière",
         "Noix de muscade en poudre",
         "Poivre (le sel n'est pas nécessaire : lardons salent)"
+      ]
+    },
+    {
+      "countrySlug": "france",
+      "slug": "boeuf-bourguignon",
+      "title": "Bœuf Bourguignon",
+      "image": "/images/boeuf-bourguignon-france.jpg",
+      "prepTime": 30,
+      "cookTime": 180,
+      "servings": 6,
+      "diets": [],
+      "category": "plat",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "events": [],
+      "ingredientNames": [
+        "Paleron de bœuf charolais (en gros cubes de 5 cm)",
+        "Lardons fumés tranchés épais",
+        "Vin rouge de Bourgogne (Pinot noir, type Mâcon ou Hautes-Côtes)",
+        "Fond brun de veau",
+        "Oignons grelots blancs épluchés",
+        "Carottes nouvelles taillées en sifflets",
+        "Champignons de Paris bruns émincés",
+        "Ail dégermé écrasé",
+        "Bouquet garni (thym, laurier, queues de persil, vert de poireau)",
+        "Concentré de tomates double",
+        "Farine T55",
+        "Beurre AOP Charentes-Poitou",
+        "Huile d'arachide (saisie)",
+        "Sel fin de Guérande, poivre noir du moulin",
+        "Persil plat ciselé (finition)",
+        "Bourguignon de bœuf en cubes (rayon boucherie)",
+        "Lardons fumés (sachet)",
+        "Vin rouge corsé (Côtes-du-Rhône, Bordeaux)",
+        "Bouillon de bœuf (cube + eau chaude)",
+        "Oignons jaunes émincés",
+        "Carottes en rondelles",
+        "Champignons de Paris en boîte (égouttés)",
+        "Ail",
+        "Bouquet garni surgelé ou thym + laurier",
+        "Farine",
+        "Huile, sel, poivre"
+      ]
+    },
+    {
+      "countrySlug": "france",
+      "slug": "tarte-tatin",
+      "title": "Tarte Tatin",
+      "image": "/images/tarte-tatin-france.jpg",
+      "prepTime": 30,
+      "cookTime": 50,
+      "servings": 8,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "seasons": [
+        "autumn"
+      ],
+      "events": [],
+      "ingredientNames": [
+        "Pommes Reinette du Canada (chair ferme et acidulée)",
+        "Sucre semoule blond",
+        "Beurre AOP Charentes-Poitou doux",
+        "Jus d'un demi-citron jaune",
+        "Vanille Bourbon (gousse fendue grattée)",
+        "PÂTE BRISÉE — Farine T55",
+        "Beurre AOP froid coupé en dés",
+        "Sucre glace",
+        "Jaune d'œuf",
+        "Eau glacée",
+        "Fleur de sel (pâte)",
+        "Pommes Golden ou Pink Lady",
+        "Sucre en poudre",
+        "Beurre doux",
+        "Pâte brisée pur beurre (rouleau)",
+        "Vanille en poudre (ou sucre vanillé)",
+        "Jus de citron"
       ]
     },
     {
@@ -1163,6 +1445,100 @@
         "Miel",
         "Jus de citron (sirop)",
         "Pistaches concassées (déco)"
+      ]
+    },
+    {
+      "countrySlug": "grece",
+      "slug": "gyros",
+      "title": "Gyros au Porc",
+      "image": "/images/gyros-grece.jpg",
+      "prepTime": 30,
+      "cookTime": 25,
+      "servings": 4,
+      "diets": [],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Échine de porc sans os en fines tranches (3 mm)",
+        "Yaourt grec entier (10 % MG)",
+        "Huile d'olive vierge extra de Kalamata",
+        "Vinaigre de vin rouge grec",
+        "Ail dégermé écrasé",
+        "Origan grec séché (rigani, plus puissant que l'origan italien)",
+        "Thym frais effeuillé",
+        "Paprika doux",
+        "Cumin moulu",
+        "Zeste d'un citron jaune",
+        "Sel marin et poivre noir du moulin",
+        "TZATZIKI — Yaourt grec entier",
+        "Concombre noa épépiné râpé",
+        "Ail écrasé (tzatziki)",
+        "Aneth frais ciselé",
+        "Huile d'olive (tzatziki)",
+        "Pita grecque épaisse (pas le pain libanais fin)",
+        "Tomates en quartiers",
+        "Oignon rouge émincé finement",
+        "Pommes de terre Bintje en frites maison (4 mm)",
+        "Huile pour friture des frites",
+        "Émincé de porc (escalopes fines)",
+        "Yaourt grec",
+        "Huile d'olive",
+        "Citron (jus + zeste)",
+        "Ail",
+        "Origan séché",
+        "Paprika",
+        "TZATZIKI — Yaourt grec",
+        "Concombre",
+        "Ail (tzatziki)",
+        "Aneth ou menthe",
+        "Pita grecques (rayon traiteur)",
+        "Tomate",
+        "Oignon rouge",
+        "Frites surgelées"
+      ]
+    },
+    {
+      "countrySlug": "grece",
+      "slug": "salade-grecque",
+      "title": "Salade Grecque (Horiátiki)",
+      "image": "/images/salade-grecque-grece.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "entree",
+      "seasons": [
+        "summer"
+      ],
+      "events": [],
+      "ingredientNames": [
+        "Tomates anciennes mûres (Coeur de Boeuf ou Marmande)",
+        "Concombre noa épépiné",
+        "Poivron vert long type ramiro",
+        "Oignon rouge de Tropea (doux et croquant)",
+        "Olives noires de Kalamata AOP avec leurs noyaux",
+        "Câpres de Santorin au sel (rincées)",
+        "Feta AOP de Grèce continentale en bloc (jamais émiettée à l'avance)",
+        "Origan grec séché (rigani)",
+        "Huile d'olive vierge extra de Kalamata ou Crète",
+        "Vinaigre de vin rouge grec (optionnel, traditionnellement zéro vinaigre)",
+        "Sel marin de Messolongi (fleur de sel)",
+        "Poivre noir du moulin",
+        "Pain rustique de campagne (à servir nature pour saucer)",
+        "Tomates fermes",
+        "Concombre",
+        "Poivron vert",
+        "Oignon rouge",
+        "Olives noires dénoyautées (à défaut de Kalamata)",
+        "Feta en bloc",
+        "Huile d'olive",
+        "Vinaigre de vin rouge",
+        "Origan séché",
+        "Sel, poivre"
       ]
     },
     {
@@ -1439,6 +1815,103 @@
       ]
     },
     {
+      "countrySlug": "inde",
+      "slug": "chicken-tikka-masala",
+      "title": "Chicken Tikka Masala",
+      "image": "/images/chicken-tikka-masala-inde.jpg",
+      "prepTime": 30,
+      "cookTime": 40,
+      "servings": 4,
+      "diets": [
+        "gluten-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Filets de cuisse de poulet désossés sans peau (en cubes 3 cm)",
+        "MARINADE — Yaourt grec entier (10 % MG)",
+        "Gingembre frais râpé",
+        "Ail dégermé écrasé",
+        "Jus d'un citron jaune",
+        "Garam masala (mélange épices toastées maison)",
+        "Cumin moulu",
+        "Paprika doux Espelette ou fumé",
+        "Curcuma de Madras en poudre",
+        "Piment de Cachemire en poudre (couleur rouge profonde, peu piquant)",
+        "Huile de moutarde (ou neutre)",
+        "SAUCE — Ghee (beurre clarifié indien)",
+        "Oignons rouges en brunoise",
+        "Gingembre frais en bâtonnets",
+        "Ail haché (sauce)",
+        "Tomates concassées San Marzano",
+        "Concentré de tomates double",
+        "Crème fraîche entière à 35 % MG",
+        "Feuilles de fenugrec séchées (kasuri methi, signature)",
+        "Coriandre fraîche ciselée (finition)",
+        "Riz basmati de l'Himalaya",
+        "Blancs de poulet en cubes",
+        "Yaourt nature brassé",
+        "Mélange tandoori en poudre (rayon épices)",
+        "Jus de citron",
+        "Oignons",
+        "Ail",
+        "Gingembre frais (ou en pâte)",
+        "Tomates concassées en boîte",
+        "Concentré de tomates",
+        "Crème fraîche épaisse",
+        "Garam masala (rayon épices)",
+        "Beurre ou huile",
+        "Riz basmati",
+        "Coriandre fraîche"
+      ]
+    },
+    {
+      "countrySlug": "inde",
+      "slug": "gulab-jamun",
+      "title": "Gulab Jamun",
+      "image": "/images/gulab-jamun-inde.jpg",
+      "prepTime": 30,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "seasons": [],
+      "events": [
+        "diwali",
+        "holi"
+      ],
+      "ingredientNames": [
+        "Khoya (lait réduit traditionnel indien, en épicerie indienne)",
+        "Farine T55 (maida)",
+        "Semoule fine de blé dur (rava)",
+        "Cardamome verte en poudre",
+        "Bicarbonate de soude",
+        "Lait entier tiède (liaison)",
+        "Ghee (beurre clarifié indien) pour friture",
+        "SIROP — Sucre semoule blond",
+        "Eau filtrée",
+        "Gousses de cardamome verte concassées",
+        "Eau de rose (Kewra ou rose damascena)",
+        "Filaments de safran de Cachemire",
+        "Jus d'un demi-citron jaune (anti-cristallisation)",
+        "Pistaches de Bronte effilées (finition)",
+        "Pétales de rose séchés (finition)",
+        "Poudre de lait entier",
+        "Farine",
+        "Beurre fondu tiède",
+        "Lait tiède",
+        "Sucre",
+        "Eau",
+        "Cardamome en poudre",
+        "Eau de fleur d'oranger ou eau de rose",
+        "Huile neutre pour friture",
+        "Pistaches concassées (finition)"
+      ]
+    },
+    {
       "countrySlug": "italie",
       "slug": "carbonara",
       "title": "Spaghetti alla Carbonara",
@@ -1629,6 +2102,82 @@
         "Café fort (expresso ou soluble)",
         "Cacao en poudre amer",
         "Sucre vanillé (optionnel)"
+      ]
+    },
+    {
+      "countrySlug": "italie",
+      "slug": "lasagne-bolognese",
+      "title": "Lasagne alla Bolognese",
+      "image": "/images/lasagne-bolognese-italie.jpg",
+      "prepTime": 60,
+      "cookTime": 120,
+      "servings": 8,
+      "diets": [],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "RAGÙ — Bœuf haché à 15 % MG (paleron)",
+        "Échine de porc hachée",
+        "Pancetta tesa hachée au couteau",
+        "Soffritto — oignon jaune en brunoise fine",
+        "Carotte en brunoise fine",
+        "Branche de céleri en brunoise fine",
+        "Vin blanc sec (Trebbiano ou Pignoletto)",
+        "Lait entier (adoucit l'acidité)",
+        "Passata di pomodoro San Marzano",
+        "Concentré de tomates double",
+        "Feuille de laurier, muscade râpée, sel, poivre",
+        "PÂTE — Farine 00 italienne",
+        "Œufs entiers de poule plein air",
+        "BÉCHAMEL — Lait entier",
+        "Beurre doux",
+        "Farine T45",
+        "Parmigiano Reggiano 24 mois DOP râpé",
+        "Plaques de lasagnes fraîches (rayon frais)",
+        "Bœuf haché",
+        "Lardons fumés",
+        "Oignon",
+        "Carotte",
+        "Ail",
+        "Sauce tomate cuisinée (bocal)",
+        "Vin rouge ou bouillon de bœuf",
+        "Béchamel prête (briquette)",
+        "Parmesan râpé",
+        "Mozzarella râpée",
+        "Huile d'olive, sel, poivre, origan"
+      ]
+    },
+    {
+      "countrySlug": "italie",
+      "slug": "panna-cotta",
+      "title": "Panna Cotta alla Vaniglia",
+      "image": "/images/panna-cotta-italie.jpg",
+      "prepTime": 15,
+      "cookTime": 10,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "dessert",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Crème fraîche entière liquide à 35 % MG",
+        "Lait entier UHT",
+        "Sucre cassonade blonde",
+        "Gousse de vanille Bourbon fendue et grattée",
+        "Gélatine en feuilles (Or, 200 bloom)",
+        "COULIS — Fraises gariguettes équeutées",
+        "Sucre glace (coulis)",
+        "Jus d'un demi-citron jaune",
+        "Poivre de Tasmanie en grains (finition)",
+        "Crème liquide entière à 30 % MG",
+        "Sucre",
+        "Sucre vanillé (ou extrait de vanille)",
+        "Feuilles de gélatine",
+        "Fraises fraîches ou surgelées"
       ]
     },
     {
@@ -1873,6 +2422,82 @@
         "Miel ou sucre",
         "Œufs (omelette finale)",
         "Ciboule ciselée"
+      ]
+    },
+    {
+      "countrySlug": "japon",
+      "slug": "katsu-curry",
+      "title": "Katsu Curry",
+      "image": "/images/katsu-curry-japon.jpg",
+      "prepTime": 25,
+      "cookTime": 60,
+      "servings": 4,
+      "diets": [],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Escalopes de filet de porc épaisses (rôti)",
+        "Farine T55",
+        "Œufs entiers battus",
+        "Chapelure panko japonaise",
+        "Huile de tournesol (friture)",
+        "CURRY — Oignons jaunes émincés finement",
+        "Carottes en demi-rondelles",
+        "Pommes de terre Charlotte en cubes",
+        "Pomme Granny Smith râpée (umami fruité signature)",
+        "Gingembre frais râpé",
+        "Ail dégermé écrasé",
+        "Pâte de curry japonais (Golden Curry House Foods, S&B)",
+        "Bouillon dashi (kombu + katsuobushi)",
+        "Sauce soja shoyu Kikkoman",
+        "Mirin doux Hinode",
+        "Riz japonais Koshihikari à grain court",
+        "Sauce tonkatsu Bull-Dog (finition)",
+        "Chou pointu blanc émincé en julienne (accompagnement)",
+        "Escalopes de porc fines",
+        "Farine",
+        "Œufs",
+        "Chapelure panko ou chapelure classique",
+        "Huile (friture)",
+        "Oignon",
+        "Carottes",
+        "Pommes de terre",
+        "Pâte de curry japonais (rayon Asie, en cubes)",
+        "Bouillon de légumes (cube + eau)",
+        "Riz à sushi ou riz rond",
+        "Sauce soja"
+      ]
+    },
+    {
+      "countrySlug": "japon",
+      "slug": "glace-matcha",
+      "title": "Glace au Matcha",
+      "image": "/images/glace-matcha-japon.jpg",
+      "prepTime": 25,
+      "cookTime": 10,
+      "servings": 6,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "dessert",
+      "seasons": [],
+      "events": [
+        "hanami"
+      ],
+      "ingredientNames": [
+        "Lait entier japonais (ou lait cru bio)",
+        "Crème fraîche entière liquide à 35 % MG",
+        "Jaunes d'œufs de poule plein air extra-frais",
+        "Sucre semoule blond",
+        "Matcha cérémonie d'Uji (qualité usucha, vert vif)",
+        "Eau filtrée chaude à 70 °C (dilution matcha)",
+        "Sel fin (équilibre)",
+        "Glucose atomisé (texture pro, optionnel)",
+        "Crème glacée vanille bio de qualité (base)",
+        "Poudre de matcha (épicerie bio ou rayon Asie)",
+        "Sucre glace"
       ]
     },
     {
@@ -2134,6 +2759,95 @@
       ]
     },
     {
+      "countrySlug": "maroc",
+      "slug": "mechoui",
+      "title": "Mechoui d'Agneau",
+      "image": "/images/mechoui-maroc.jpg",
+      "prepTime": 30,
+      "cookTime": 240,
+      "servings": 8,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Épaule d'agneau de lait avec os (méchoui traditionnel : gigot entier 4 kg)",
+        "Smen (beurre fermenté rance marocain, en épicerie maghrébine)",
+        "Beurre clarifié (à défaut de smen)",
+        "Huile d'olive vierge extra",
+        "Ail dégermé écrasé en pâte",
+        "Gingembre frais râpé",
+        "Cumin moulu (tahmira fraîche)",
+        "Paprika doux d'Espagne",
+        "Curcuma de Madras",
+        "Coriandre moulue",
+        "Ras-el-hanout fin (mélange marocain noble)",
+        "Safran de Taliouine en filaments",
+        "Fleur de sel de Mehdya",
+        "Poivre noir du moulin",
+        "Jus de 2 citrons jaunes",
+        "Cumin grillé + gros sel (service à part)",
+        "Coriandre fraîche et persil plat (finition)",
+        "Gigot d'agneau désossé",
+        "Beurre",
+        "Huile d'olive",
+        "Ail",
+        "Cumin moulu",
+        "Paprika doux",
+        "Mélange ras-el-hanout (rayon épices)",
+        "Gingembre en poudre",
+        "Curcuma",
+        "Sel, poivre",
+        "Jus de citron",
+        "Cumin + gros sel (service)",
+        "Coriandre fraîche"
+      ]
+    },
+    {
+      "countrySlug": "maroc",
+      "slug": "baghrir",
+      "title": "Baghrir aux Mille Trous",
+      "image": "/images/baghrir-maroc.jpg",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "dairy-free"
+      ],
+      "category": "dessert",
+      "seasons": [],
+      "events": [
+        "ramadan-end"
+      ],
+      "ingredientNames": [
+        "Semoule de blé dur extra-fine (smida)",
+        "Farine T55",
+        "Levure boulangère sèche (saf-instant)",
+        "Levure chimique",
+        "Sucre semoule",
+        "Sel fin",
+        "Eau tiède filtrée (38 °C)",
+        "SIROP — Miel de fleurs d'oranger",
+        "Beurre fermier doux",
+        "Eau de fleur d'oranger",
+        "FINITION — Amandes effilées légèrement torréfiées",
+        "Pistaches concassées",
+        "Semoule fine",
+        "Farine",
+        "Levure de boulanger sèche",
+        "Sucre",
+        "Sel",
+        "Eau tiède",
+        "Miel liquide",
+        "Beurre",
+        "Eau de fleur d'oranger ou vanille"
+      ]
+    },
+    {
       "countrySlug": "mexique",
       "slug": "tacos-al-pastor",
       "title": "Tacos al pastor",
@@ -2388,6 +3102,92 @@
       ]
     },
     {
+      "countrySlug": "mexique",
+      "slug": "quesadillas",
+      "title": "Quesadillas au Queso Oaxaca",
+      "image": "/images/quesadillas-mexique.jpg",
+      "prepTime": 20,
+      "cookTime": 15,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "entree",
+      "seasons": [],
+      "events": [
+        "cinco-de-mayo"
+      ],
+      "ingredientNames": [
+        "Farine de maïs nixtamalisé (Masa Harina Maseca)",
+        "Eau tiède",
+        "Sel fin",
+        "Queso Oaxaca effiloché (fromage filant mexicain)",
+        "Fleurs de courgette équeutées (huitlacoche en saison)",
+        "Champignons de Paris bruns émincés",
+        "Épazote frais haché (herbe aromatique signature mexicaine)",
+        "Oignon blanc émincé",
+        "Ail dégermé écrasé",
+        "Beurre clarifié (ou saindoux)",
+        "Sauce verte — Tomatillos verts",
+        "Piment Serrano vert frais épépiné",
+        "Coriandre fraîche ciselée",
+        "Avocat Hass mûr",
+        "Crema mexicaine (ou crème fraîche acidulée)",
+        "Tortillas de maïs (rayon mexicain)",
+        "Mozzarella râpée (à défaut d'Oaxaca)",
+        "Cheddar râpé jaune",
+        "Champignons de Paris en boîte égouttés",
+        "Oignon",
+        "Sauce salsa verde (bocal)",
+        "Crème fraîche épaisse",
+        "Avocat mûr",
+        "Coriandre ou persil ciselé",
+        "Beurre ou huile (cuisson)"
+      ]
+    },
+    {
+      "countrySlug": "mexique",
+      "slug": "churros",
+      "title": "Churros au Chocolat",
+      "image": "/images/churros-mexique.jpg",
+      "prepTime": 20,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "seasons": [],
+      "events": [
+        "dia-de-los-muertos"
+      ],
+      "ingredientNames": [
+        "Eau filtrée",
+        "Beurre doux AOP",
+        "Sucre semoule (pâte)",
+        "Sel fin",
+        "Farine T55",
+        "Œufs entiers à température ambiante",
+        "Vanille Bourbon liquide",
+        "Huile de tournesol (friture)",
+        "ENROBAGE — Sucre semoule (cassonade)",
+        "Cannelle de Ceylan en poudre",
+        "SAUCE CHOCOLAT — Chocolat noir à 70 % Valrhona Guanaja",
+        "Crème liquide entière",
+        "Lait entier",
+        "Cannelle (sauce)",
+        "Eau",
+        "Beurre",
+        "Sel",
+        "Farine",
+        "Œufs",
+        "Huile (friture)",
+        "Sucre + cannelle (enrobage)",
+        "Chocolat pâtissier noir (tablette)",
+        "Crème liquide"
+      ]
+    },
+    {
       "countrySlug": "senegal",
       "slug": "pastels",
       "title": "Pastels au poisson",
@@ -2578,6 +3378,105 @@
         "Sucre vanillé",
         "Raisins secs",
         "Eau (hydratation semoule)"
+      ]
+    },
+    {
+      "countrySlug": "senegal",
+      "slug": "fataya",
+      "title": "Fataya au Poisson",
+      "image": "/images/fataya-senegal.jpg",
+      "prepTime": 35,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "seasons": [],
+      "events": [
+        "ramadan-end"
+      ],
+      "ingredientNames": [
+        "PÂTE — Farine T55",
+        "Sel fin",
+        "Sucre semoule",
+        "Levure chimique",
+        "Œuf entier",
+        "Huile d'arachide (pâte)",
+        "Eau tiède",
+        "FARCE — Filets de sardine fraîche désarêtés (ou thon frais)",
+        "Oignons jaunes émincés finement",
+        "Tomates pelées épépinées en brunoise",
+        "Concentré de tomates",
+        "Ail dégermé écrasé",
+        "Persil plat ciselé",
+        "Piment frais haché (Bilakoroni ou habanero, dosé selon goût)",
+        "Cube bouillon de poisson (Maggi ou Jumbo)",
+        "Poivre noir et noix de muscade",
+        "Citron vert (jus)",
+        "Huile d'arachide (friture)",
+        "SAUCE KANI — Oignons rouges en lamelles",
+        "Tomate en dés",
+        "Piment frais",
+        "Vinaigre de cidre",
+        "Cube de poulet émietté",
+        "Pâte feuilletée pur beurre (rouleau)",
+        "Thon en boîte au naturel égoutté",
+        "Oignons",
+        "Ail",
+        "Persil",
+        "Cube de bouillon",
+        "Œuf battu (dorure)",
+        "Piment de Cayenne en poudre",
+        "Huile d'olive"
+      ]
+    },
+    {
+      "countrySlug": "senegal",
+      "slug": "soupou-kandja",
+      "title": "Soupou Kandja (Gombo)",
+      "image": "/images/soupou-kandja-senegal.jpg",
+      "prepTime": 30,
+      "cookTime": 90,
+      "servings": 6,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Gombos frais (okras) entiers, jeunes et fermes",
+        "Bœuf à mijoter (jarret avec os) en cubes",
+        "Poisson fumé (yett ou guedj sénégalais)",
+        "Mérou frais ou capitaine en pavés",
+        "Crevettes décortiquées crues",
+        "Crabe frais en morceaux (optionnel)",
+        "Huile de palme rouge (dendê) artisanale",
+        "Oignons jaunes émincés finement",
+        "Tomate fraîche en brunoise",
+        "Concentré de tomates",
+        "Cube de bouillon (Jumbo crevette signature ouest-africaine)",
+        "Ail dégermé écrasé",
+        "Gingembre frais râpé",
+        "Persil plat et menthe fraîche ciselés",
+        "Feuilles de laurier",
+        "Piment frais (Bilakoroni ou habanero, entier non incisé)",
+        "Sel fin et poivre",
+        "Riz brisé du fleuve Sénégal (jamais long, jamais basmati)",
+        "Gombos surgelés en rondelles (rayon surgelés exotique)",
+        "Bœuf à mijoter en cubes",
+        "Filets de cabillaud ou colin",
+        "Crevettes décortiquées surgelées",
+        "Huile d'olive (à défaut d'huile de palme)",
+        "Oignons",
+        "Tomate",
+        "Ail",
+        "Cube de bouillon (poisson ou crevette)",
+        "Laurier, sel, poivre, paprika fumé",
+        "Riz à grain rond ou brisé",
+        "Persil ciselé"
       ]
     },
     {
@@ -2823,6 +3722,105 @@
       ]
     },
     {
+      "countrySlug": "thailande",
+      "slug": "massaman-curry",
+      "title": "Massaman Curry de Bœuf",
+      "image": "/images/massaman-curry-thailande.jpg",
+      "prepTime": 25,
+      "cookTime": 150,
+      "servings": 4,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Paleron de bœuf en cubes de 4 cm",
+        "Pâte de curry massaman Mae Ploy (signature thaï du sud)",
+        "Lait de coco premium Aroy-D ou Chaokoh (en boîte)",
+        "Crème de coco séparée du dessus de la boîte",
+        "Cacahuètes crues non salées (à torréfier)",
+        "Échalotes thaï roses (en épicerie asiatique) ou échalotes traditionnelles",
+        "Pommes de terre Charlotte en cubes de 3 cm",
+        "Bâton de cannelle de Ceylan",
+        "Anis étoilé (badiane)",
+        "Cardamome verte concassée",
+        "Tamarin en pâte épaisse (achat brut, à réhydrater)",
+        "Sucre de palme thaï (nam tan piib)",
+        "Sauce poisson nuoc-mam Squid premium",
+        "Bouillon de poulet",
+        "Feuilles de combava fraîches (kaffir lime)",
+        "Citronnelle écrasée (partie blanche)",
+        "Cacahuètes torréfiées concassées (finition)",
+        "Riz jasmin de Thaïlande",
+        "Bœuf à mijoter en cubes",
+        "Pâte de curry rouge thaïe (rayon Asie ou bio)",
+        "Lait de coco entier en boîte",
+        "Pommes de terre",
+        "Oignons",
+        "Cacahuètes salées",
+        "Bouillon de bœuf (cube + eau)",
+        "Sauce nuoc-mam (rayon Asie)",
+        "Cassonade",
+        "Jus de citron vert",
+        "Bâton de cannelle",
+        "Riz jasmin",
+        "Coriandre fraîche"
+      ]
+    },
+    {
+      "countrySlug": "thailande",
+      "slug": "khao-soi",
+      "title": "Khao Soi au Poulet",
+      "image": "/images/khao-soi-thailande.jpg",
+      "prepTime": 25,
+      "cookTime": 35,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Cuisses de poulet désossées avec peau (4 pièces)",
+        "Lait de coco entier Aroy-D",
+        "PÂTE KHAO SOI — Pâte de curry rouge thaï",
+        "Pâte de curry jaune thaï (mix signature du nord)",
+        "Curcuma frais râpé (la racine, pas la poudre)",
+        "Coriandre en grains",
+        "Cardamome noire concassée",
+        "Nouilles aux œufs fraîches plates (style chinois cantonais)",
+        "Huile d'arachide (friture des nouilles croustillantes)",
+        "Bouillon de poulet",
+        "Sauce poisson Squid",
+        "Sucre de palme thaï râpé",
+        "Citron vert (jus)",
+        "GARNITURES — Échalotes rouges thaï marinées au vinaigre",
+        "Légumes Tsa Chai (moutarde chinoise saumurée, en bocal)",
+        "Cébettes ciselées",
+        "Coriandre fraîche en bouquets",
+        "Piments rouges thaï frais en rondelles",
+        "Huile de chili torréfié (nam prik pao)",
+        "Cuisses de poulet",
+        "Pâte de curry rouge thaï (rayon Asie ou bio)",
+        "Lait de coco entier",
+        "Curcuma en poudre",
+        "Nouilles aux œufs chinoises (sachet)",
+        "Bouillon de volaille",
+        "Sauce nuoc-mam",
+        "Cassonade",
+        "Citron vert",
+        "Échalotes",
+        "Vinaigre blanc ou de cidre",
+        "Cébettes",
+        "Coriandre fraîche",
+        "Huile (friture)"
+      ]
+    },
+    {
       "countrySlug": "vietnam",
       "slug": "goi-cuon",
       "title": "Gỏi Cuốn (rouleaux de printemps)",
@@ -3049,6 +4047,84 @@
         "Perles de tapioca (rayon Asie ou bio)",
         "Sucre roux",
         "Cacahuètes salées concassées (finition)"
+      ]
+    },
+    {
+      "countrySlug": "vietnam",
+      "slug": "cha-gio",
+      "title": "Chả Giò (Nems du Sud)",
+      "image": "/images/cha-gio-vietnam.jpg",
+      "prepTime": 45,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "seasons": [],
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredientNames": [
+        "Galettes de riz vietnamiennes bánh tráng (22 cm, en épicerie asiatique)",
+        "Échine de porc hachée à 20 % MG",
+        "Crevettes roses décortiquées hachées au couteau",
+        "Crabe en chair fraîche émietté",
+        "Champignons noirs séchés (mộc nhĩ, en épicerie asiatique)",
+        "Vermicelles de soja transparents (miến) trempés et coupés",
+        "Carotte râpée finement",
+        "Échalotes thaï hachées",
+        "Ail dégermé écrasé",
+        "Œuf entier (liaison)",
+        "Sauce poisson Phú Quốc (nuoc-mam premium)",
+        "Sucre semoule",
+        "Poivre blanc moulu",
+        "Huile d'arachide (friture)",
+        "Vinaigre de riz dilué (mouillage des galettes)",
+        "ACCOMPAGNEMENTS — Laitue iceberg (feuilles entières)",
+        "Menthe vietnamienne (rau húng quế)",
+        "Coriandre, feuilles de périlla (tía tô)",
+        "NUOC-MAM CHAM — Sauce nuoc-mam Phú Quốc",
+        "Sucre",
+        "Jus de citron vert",
+        "Eau chaude filtrée",
+        "Ail haché et piment rouge thaï en rondelles",
+        "Galettes de riz vietnamiennes (rayon Asie)",
+        "Porc haché",
+        "Crevettes cuites décortiquées (rayon traiteur)",
+        "Vermicelles chinois (sachet, trempés 5 min eau chaude)",
+        "Carotte râpée",
+        "Oignon",
+        "Ail",
+        "Œuf",
+        "Sauce nuoc-mam",
+        "Huile (friture)",
+        "Salade et menthe fraîche",
+        "Citron vert"
+      ]
+    },
+    {
+      "countrySlug": "vietnam",
+      "slug": "ca-phe-sua-da",
+      "title": "Cà Phê Sữa Đá",
+      "image": "/images/ca-phe-sua-da-vietnam.jpg",
+      "prepTime": 5,
+      "cookTime": 5,
+      "servings": 1,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "boisson",
+      "seasons": [],
+      "events": [],
+      "ingredientNames": [
+        "Café vietnamien Robusta torréfié finement (Trung Nguyên ou Vĩnh Long, mouture fine)",
+        "Eau filtrée bouillante à 95 °C précis",
+        "Lait concentré sucré (Ông Thọ vietnamien ou Nestlé)",
+        "Glace en gros cubes filtrée (jamais glace pilée : se dilue trop vite)",
+        "Café fort (espresso ou café noir corsé maison)",
+        "Lait concentré sucré (rayon laitage)",
+        "Glaçons"
       ]
     }
   ]

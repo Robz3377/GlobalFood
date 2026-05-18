@@ -957,6 +957,323 @@
         "dia-de-los-muertos"
       ],
       "category": "plat"
+    },
+    {
+      "slug": "quesadillas",
+      "title": "Quesadillas au Queso Oaxaca",
+      "image": "/images/quesadillas-mexique.jpg",
+      "prepTime": 20,
+      "cookTime": 15,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "entree",
+      "events": [
+        "cinco-de-mayo"
+      ],
+      "ingredients": [
+        {
+          "name": "Farine de maïs nixtamalisé (Masa Harina Maseca)",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eau tiède",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Queso Oaxaca effiloché (fromage filant mexicain)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Fleurs de courgette équeutées (huitlacoche en saison)",
+          "qty": 12,
+          "unit": "u"
+        },
+        {
+          "name": "Champignons de Paris bruns émincés",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Épazote frais haché (herbe aromatique signature mexicaine)",
+          "qty": 1,
+          "unit": "branche"
+        },
+        {
+          "name": "Oignon blanc émincé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 1,
+          "unit": "gousse"
+        },
+        {
+          "name": "Beurre clarifié (ou saindoux)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce verte — Tomatillos verts",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Piment Serrano vert frais épépiné",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche ciselée",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Avocat Hass mûr",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Crema mexicaine (ou crème fraîche acidulée)",
+          "qty": 100,
+          "unit": "ml"
+        }
+      ],
+      "steps": [
+        "MASA : dans un saladier, mélanger la masa harina avec le sel. Verser l'eau tiède en filet en pétrissant 5 min jusqu'à obtenir une pâte souple, non collante (texture pâte à modeler). Couvrir d'un linge humide, laisser reposer 20 min.",
+        "Faire chauffer le beurre clarifié dans une poêle à feu moyen. Faire suer l'oignon 3 min, ajouter l'ail 30 s, puis les champignons. Saler, faire colorer 5 min jusqu'à évaporation de l'eau.",
+        "Ajouter les fleurs de courgette grossièrement déchirées et l'épazote ciselé. Cuire 2 min à feu vif. Réserver à température ambiante.",
+        "SAUCE VERTE : faire griller à sec à la poêle les tomatillos et le piment 4 min jusqu'à coloration brune par endroits. Mixer avec un peu de coriandre, sel et 2 c.s. d'eau jusqu'à texture nappante. Réserver.",
+        "Diviser la masa en 8 boules de 60 g. Aplatir chaque boule entre 2 films plastiques au rouleau (ou avec une presse à tortillas) en disques de 14 cm de diamètre, 3 mm d'épaisseur.",
+        "Au centre de chaque disque, déposer 1 c.s. de farce champignons-fleurs, parsemer de queso Oaxaca effiloché. Plier en demi-lune sans souder (la masa scelle d'elle-même à la chaleur).",
+        "Faire chauffer un comal (poêle en fonte plate sans matière grasse) ou une crêpière à feu moyen-vif. Cuire les quesadillas 3 min par face jusqu'à ce que la masa soit dorée par endroits et le fromage entièrement fondu (filant à l'ouverture).",
+        "Servir immédiatement avec la sauce verte chaude, une cuillerée de crema, des dés d'avocat et de la coriandre fraîche."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Tortillas de maïs (rayon mexicain)",
+          "qty": 8,
+          "unit": "u"
+        },
+        {
+          "name": "Mozzarella râpée (à défaut d'Oaxaca)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Cheddar râpé jaune",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Champignons de Paris en boîte égouttés",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Oignon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce salsa verde (bocal)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Crème fraîche épaisse",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Avocat mûr",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre ou persil ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Beurre ou huile (cuisson)",
+          "qty": 30,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Faire revenir l'oignon émincé dans une poêle avec 1 c.s. de beurre 3 min, ajouter les champignons égouttés, faire dorer 4 min. Saler.",
+        "Sur chaque tortilla, étaler la garniture champignons sur une moitié, parsemer généreusement des deux fromages mélangés.",
+        "Plier en demi-lune. Faire chauffer une grande poêle à sec à feu moyen, faire cuire les quesadillas 2 min par face jusqu'à coloration dorée et fromage fondu.",
+        "Couper en triangles. Servir avec la salsa verte, une cuillerée de crème fraîche et des dés d'avocat. Parsemer de coriandre ciselée."
+      ],
+      "story": "Plat de rue emblématique du Mexique, la quesadilla naît à l'époque coloniale dans l'État d'Oaxaca avec l'introduction du fromage par les Espagnols. À Mexico DF, on les vend frites (fritas) sur les marchés ; à Oaxaca, on les fait sur le comal traditionnel avec du queso filant local.",
+      "chefSecret": "La masa fraîche faite à partir de farine nixtamalisée (traitée à la chaux selon la tradition aztèque) est INCOMPARABLE aux tortillas industrielles. Le secret : un repos de 20 min après pétrissage pour que la farine s'hydrate complètement et donne une texture souple, jamais cassante."
+    },
+    {
+      "slug": "churros",
+      "title": "Churros au Chocolat",
+      "image": "/images/churros-mexique.jpg",
+      "prepTime": 20,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "events": [
+        "dia-de-los-muertos"
+      ],
+      "ingredients": [
+        {
+          "name": "Eau filtrée",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Beurre doux AOP",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre semoule (pâte)",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 3,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs entiers à température ambiante",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Vanille Bourbon liquide",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile de tournesol (friture)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "ENROBAGE — Sucre semoule (cassonade)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Cannelle de Ceylan en poudre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "SAUCE CHOCOLAT — Chocolat noir à 70 % Valrhona Guanaja",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Crème liquide entière",
+          "qty": 150,
+          "unit": "ml"
+        },
+        {
+          "name": "Lait entier",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "Cannelle (sauce)",
+          "qty": 1,
+          "unit": "pincée"
+        }
+      ],
+      "steps": [
+        "Dans une casserole à fond épais, porter à ébullition l'eau, le beurre, le sucre et le sel jusqu'à dissolution complète et frémissement franc.",
+        "Hors du feu, verser toute la farine en une fois, mélanger énergiquement à la spatule en bois jusqu'à pâte homogène qui se décolle.",
+        "Remettre sur feu doux 2 min en remuant constamment pour dessécher la pâte (étape clé : élimine l'humidité et permet aux œufs d'être absorbés ensuite).",
+        "Transvaser dans un saladier, laisser tiédir 5 min. Ajouter les œufs UN PAR UN en mélangeant énergiquement entre chaque (la pâte doit être lisse, brillante et former un \"V\" à la spatule). Ajouter la vanille.",
+        "Remplir une poche à douille munie d'une douille étoile à 8 cannelures (douille pâtissière E8) avec la pâte tiède.",
+        "Faire chauffer l'huile dans une sauteuse haute à 175 °C précis (thermomètre indispensable : trop froid les churros absorbent l'huile, trop chaud ils brûlent à l'extérieur sans cuire).",
+        "Au-dessus de l'huile, presser la poche et couper avec des ciseaux à 12 cm de long. Faire frire 6-8 churros par lot 3 min par face jusqu'à doré profond et croustillant.",
+        "Égoutter sur grille (jamais papier absorbant). Rouler immédiatement (encore chauds) dans le mélange sucre + cannelle.",
+        "SAUCE : faire chauffer la crème, le lait et la cannelle à frémissement. Hors du feu, verser sur le chocolat haché en 3 fois, émulsionner à la spatule du centre vers l'extérieur jusqu'à ganache lisse et brillante.",
+        "Dresser les churros chauds en faisceau sur une assiette, accompagner d'un bol de sauce chocolat chaude pour trempage. À déguster immédiatement."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Eau",
+          "qty": 250,
+          "unit": "ml"
+        },
+        {
+          "name": "Beurre",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Sel",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Farine",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile (friture)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre + cannelle (enrobage)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Chocolat pâtissier noir (tablette)",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Crème liquide",
+          "qty": 200,
+          "unit": "ml"
+        }
+      ],
+      "commisSteps": [
+        "Faire bouillir l'eau avec le beurre et le sel dans une casserole. Hors du feu, ajouter toute la farine d'un coup, remuer vivement à la cuillère en bois jusqu'à boule homogène.",
+        "Laisser tiédir 5 min, puis ajouter les œufs un par un en battant énergiquement jusqu'à pâte lisse et brillante.",
+        "Mettre la pâte dans une poche à douille étoilée. Faire chauffer l'huile à 170 °C dans une casserole. Presser la pâte en bâtonnets de 10 cm directement dans l'huile, couper aux ciseaux. Faire frire 3 min en retournant à mi-cuisson.",
+        "Égoutter sur grille, rouler dans le sucre + cannelle pendant qu'ils sont chauds.",
+        "Pour la sauce : faire fondre le chocolat avec la crème chaude au bain-marie en remuant. Servir les churros tièdes avec la sauce chaude à part."
+      ],
+      "story": "Apportés par les Espagnols qui les tenaient eux-mêmes des bergers de l'Andalousie, les churros sont devenus au Mexique le petit-déjeuner-dessert national, indissociables du chocolat chaud épais signature (chocolate caliente). Les churrerias de Mexico DF ouvrent dès l'aube pour les noctambules.",
+      "chefSecret": "Le respect strict des 175 °C est non négociable : utiliser un thermomètre. Et pour des cannelures bien définies qui restent croustillantes, faire DESSÉCHER la pâte 2 min sur feu doux après ajout de la farine — c'est ce qui élimine l'eau résiduelle responsable de churros mous."
     }
   ]
 }

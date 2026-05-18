@@ -998,6 +998,346 @@
         "Égoutter les briouates sur une grille puis, tant qu'elles sont brûlantes, plonger-les 1 min dans le miel chaud en les retournant pour bien les enrober. Égoutter sur une grille au-dessus d'un plat (récupérer le miel qui coule). Saupoudrer de graines de sésame si veux. Laisser refroidir complètement avant de servir — le miel se fige et donne le craquant signature."
       ],
       "category": "dessert"
+    },
+    {
+      "slug": "mechoui",
+      "title": "Mechoui d'Agneau",
+      "image": "/images/mechoui-maroc.jpg",
+      "prepTime": 30,
+      "cookTime": 240,
+      "servings": 8,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Épaule d'agneau de lait avec os (méchoui traditionnel : gigot entier 4 kg)",
+          "qty": 2.5,
+          "unit": "kg"
+        },
+        {
+          "name": "Smen (beurre fermenté rance marocain, en épicerie maghrébine)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre clarifié (à défaut de smen)",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive vierge extra",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail dégermé écrasé en pâte",
+          "qty": 6,
+          "unit": "gousses"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cumin moulu (tahmira fraîche)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika doux d'Espagne",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Curcuma de Madras",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Coriandre moulue",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Ras-el-hanout fin (mélange marocain noble)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Safran de Taliouine en filaments",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Fleur de sel de Mehdya",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Jus de 2 citrons jaunes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Cumin grillé + gros sel (service à part)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Coriandre fraîche et persil plat (finition)",
+          "qty": 1,
+          "unit": "bouquet"
+        }
+      ],
+      "steps": [
+        "Sortir l'épaule du réfrigérateur 2 h avant cuisson (température ambiante = cuisson uniforme à cœur).",
+        "Faire infuser le safran dans 2 c.s. d'eau chaude 10 min.",
+        "Au pilon ou au mixeur, broyer ensemble l'ail, le gingembre, le smen ramolli, le beurre clarifié, l'huile d'olive, toutes les épices (cumin, paprika, curcuma, coriandre, ras-el-hanout), le safran infusé, le jus de citron, sel et poivre jusqu'à obtenir une pâte épaisse parfumée (la chermoula du méchoui).",
+        "Inciser l'épaule au couteau pointu en croisillons de 2 cm de profondeur sur toute la surface (la pâte va pénétrer jusqu'au cœur).",
+        "Masser énergiquement l'agneau avec la chermoula sur toute la surface, en insistant dans les incisions. Garder un tiers de la chermoula pour le badigeonnage en cours de cuisson. Filmer, faire mariner 12 h au réfrigérateur (l'agneau s'imprègne en profondeur).",
+        "Préchauffer le four à 160 °C chaleur tournante. Déposer l'épaule sur une grille au-dessus d'une plaque profonde avec 200 ml d'eau (l'évaporation maintient la chair humide).",
+        "Cuisson lente : 4 h à 160 °C en arrosant toutes les 30 min avec les sucs de la plaque et un peu de chermoula réservée. La chair doit se détacher à la fourchette sans effort.",
+        "Augmenter à 230 °C les 15 dernières minutes pour caraméliser la croûte (effet four à pain traditionnel).",
+        "Sortir du four, faire reposer 15 min sous papier alu pour que les jus se redistribuent dans la chair.",
+        "DRESSAGE : présenter l'épaule entière sur un grand plat traditionnel, parsemer de coriandre et persil. Préparer un petit ramequin de cumin grillé mélangé au gros sel (chaque convive y trempe les morceaux d'agneau qu'il prélève à la main).",
+        "Servir avec du pain rond marocain (khobz) frais et du thé à la menthe pour conclure le repas — jamais avec du riz ou de la semoule (le méchoui se mange seul à la main, c'est sa signature)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Gigot d'agneau désossé",
+          "qty": 1.8,
+          "unit": "kg"
+        },
+        {
+          "name": "Beurre",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail",
+          "qty": 5,
+          "unit": "gousses"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika doux",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Mélange ras-el-hanout (rayon épices)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Gingembre en poudre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Curcuma",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sel, poivre",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Jus de citron",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cumin + gros sel (service)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "Sortir l'agneau 1 h avant cuisson. Mélanger le beurre fondu avec l'huile, l'ail écrasé, toutes les épices, le jus de citron, sel et poivre.",
+        "Inciser la viande à plusieurs endroits, masser avec la marinade épicée. Filmer et faire mariner au réfrigérateur 3 h minimum (ou la veille).",
+        "Préchauffer le four à 170 °C. Déposer le gigot dans un plat profond avec 1 verre d'eau au fond. Couvrir de papier alu.",
+        "Faire cuire 2 h 30 en arrosant toutes les 45 min avec les sucs. Retirer le papier alu les 20 dernières minutes pour colorer.",
+        "Faire reposer 10 min, effilocher à la fourchette ou trancher. Servir avec le mélange cumin-gros sel à part, des feuilles de coriandre et du pain rond."
+      ],
+      "story": "Plat des grandes fêtes berbères et arabes, le mechoui (\"rôti\") cuit traditionnellement dans un four en terre enterré (tafarnout) pendant 6 à 8 h. Servi entier au centre du plat, il se mange à la main, chaque convive trempant ses morceaux dans un petit tas de cumin grillé et de sel.",
+      "chefSecret": "Le smen (beurre fermenté pendant des mois dans des pots en terre cuite) est l'ingrédient qui distingue le méchoui de palais marocain. Son goût puissant, presque \"fromager\", parfume la chair en profondeur. À défaut, un beurre clarifié maison apportera la richesse mais jamais cette complexité unique."
+    },
+    {
+      "slug": "baghrir",
+      "title": "Baghrir aux Mille Trous",
+      "image": "/images/baghrir-maroc.jpg",
+      "prepTime": 15,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "dairy-free"
+      ],
+      "category": "dessert",
+      "events": [
+        "ramadan-end"
+      ],
+      "ingredients": [
+        {
+          "name": "Semoule de blé dur extra-fine (smida)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Levure boulangère sèche (saf-instant)",
+          "qty": 7,
+          "unit": "g"
+        },
+        {
+          "name": "Levure chimique",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre semoule",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel fin",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Eau tiède filtrée (38 °C)",
+          "qty": 600,
+          "unit": "ml"
+        },
+        {
+          "name": "SIROP — Miel de fleurs d'oranger",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre fermier doux",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Eau de fleur d'oranger",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "FINITION — Amandes effilées légèrement torréfiées",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Pistaches concassées",
+          "qty": 20,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Dans le bol d'un blender, verser la semoule, la farine, la levure sèche, la levure chimique, le sucre, le sel et 500 ml d'eau tiède. Mixer 2 min à vitesse moyenne (le blender garantit une pâte parfaitement homogène, sans grumeaux — secret technique pour les trous parfaits).",
+        "Ajouter les 100 ml d'eau tiède restants, mixer 30 s encore. La pâte doit être très fluide, lisse, comme une crème liquide légère.",
+        "Filmer le saladier, faire reposer dans un endroit tiède (idéalement 28 °C, près du radiateur ou dans le four éteint avec lumière allumée) pendant 45 min. La pâte va doubler de volume et se couvrir de petites bulles en surface (signe que la levure travaille).",
+        "Faire chauffer une crêpière en fonte ou poêle anti-adhérente à feu moyen, JAMAIS huilée (le baghrir ne se cuit qu'à sec : l'huile bloquerait la formation des trous).",
+        "Vérifier la température en jetant quelques gouttes d'eau : elles doivent grésiller doucement, pas violemment.",
+        "À l'aide d'une louche, verser une quantité de pâte au centre de la poêle (la pâte s'étale d'elle-même, ne pas l'aider). Le baghrir doit faire environ 16 cm de diamètre.",
+        "Cuisson sur UN SEUL côté : les trous se forment immédiatement à la surface, partant du centre vers le bord (3-4 min). Quand la surface est entièrement criblée de mille trous et sèche au toucher, retirer le baghrir.",
+        "Empiler les baghrirs cuits sur une assiette, recouvrir d'un linge propre pour les garder moelleux (jamais les superposer chauds sans linge : ils se collent).",
+        "SIROP : faire fondre le miel avec le beurre à feu très doux dans une petite casserole jusqu'à frémissement (ne pas faire bouillir : le miel perdrait ses arômes). Hors du feu, parfumer à l'eau de fleur d'oranger.",
+        "DRESSAGE : déposer 2 ou 3 baghrirs par assiette, napper généreusement de sirop miel-beurre chaud (les trous absorbent le sirop comme une éponge), parsemer d'amandes effilées et de pistaches concassées. Servir tiède avec un thé à la menthe brûlant."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Semoule fine",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Farine",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Levure de boulanger sèche",
+          "qty": 1,
+          "unit": "sachet"
+        },
+        {
+          "name": "Levure chimique",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sucre",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Eau tiède",
+          "qty": 600,
+          "unit": "ml"
+        },
+        {
+          "name": "Miel liquide",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Eau de fleur d'oranger ou vanille",
+          "qty": 1,
+          "unit": "c. à café"
+        }
+      ],
+      "commisSteps": [
+        "Mixer au blender la semoule, la farine, les deux levures, le sucre, le sel et l'eau tiède jusqu'à pâte parfaitement lisse et fluide (très important : pas de grumeaux).",
+        "Couvrir et laisser reposer dans un endroit tiède 45 min jusqu'à ce que la surface soit bulleuse.",
+        "Faire chauffer une poêle anti-adhésive à feu moyen, SANS matière grasse. Verser une louche de pâte qui s'étale d'elle-même. Cuire 3-4 min sur UN SEUL côté jusqu'à apparition des trous sur toute la surface et bord sec.",
+        "Empiler les baghrirs sur une assiette sous un linge.",
+        "Faire fondre le beurre et le miel ensemble à feu doux. Hors du feu, ajouter l'eau de fleur d'oranger. Napper généreusement les baghrirs tièdes. Servir avec un thé à la menthe."
+      ],
+      "story": "Crêpe traditionnelle du Maghreb, le baghrir (\"crêpe aux mille trous\" en arabe) accompagne les goûters berbères et marque la rupture du jeûne pendant le ramadan. Sa texture aérienne, ses trous parfaits qui absorbent le sirop miel-beurre, en font un dessert d'une délicatesse rare.",
+      "chefSecret": "Le secret des MILLE TROUS parfaits : la pâte doit être très fluide (presque liquide), la poêle parfaitement sèche (jamais d'huile), à feu MOYEN (jamais vif), et la pâte versée d'un coup sans l'étaler. Les bulles montent du fond de la pâte et explosent à la surface, créant les trous signature qui captureront le sirop."
     }
   ]
 }

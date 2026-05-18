@@ -927,6 +927,298 @@
       ],
       "story": "Dessert chaud-tiède du Sud-Vietnam, le chè chuối marie des bananes mûres dans une crème de coco onctueuse parfumée au tapioca. Servi en fin de repas ou comme goûter dans les rues de Hô Chi Minh-Ville.",
       "chefSecret": "Choisir des bananes MÛRES MAIS FERMES (peau jaune avec quelques points bruns). Trop mûres elles se désintègrent dans le sirop, pas assez elles restent amères et farineuses."
+    },
+    {
+      "slug": "cha-gio",
+      "title": "Chả Giò (Nems du Sud)",
+      "image": "/images/cha-gio-vietnam.jpg",
+      "prepTime": 45,
+      "cookTime": 20,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "entree",
+      "events": [
+        "chinese-new-year"
+      ],
+      "ingredients": [
+        {
+          "name": "Galettes de riz vietnamiennes bánh tráng (22 cm, en épicerie asiatique)",
+          "qty": 20,
+          "unit": "u"
+        },
+        {
+          "name": "Échine de porc hachée à 20 % MG",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes roses décortiquées hachées au couteau",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Crabe en chair fraîche émietté",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Champignons noirs séchés (mộc nhĩ, en épicerie asiatique)",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "name": "Vermicelles de soja transparents (miến) trempés et coupés",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Carotte râpée finement",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Échalotes thaï hachées",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Œuf entier (liaison)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce poisson Phú Quốc (nuoc-mam premium)",
+          "qty": 1.5,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre semoule",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Poivre blanc moulu",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile d'arachide (friture)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "Vinaigre de riz dilué (mouillage des galettes)",
+          "qty": 100,
+          "unit": "ml"
+        },
+        {
+          "name": "ACCOMPAGNEMENTS — Laitue iceberg (feuilles entières)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Menthe vietnamienne (rau húng quế)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Coriandre, feuilles de périlla (tía tô)",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "NUOC-MAM CHAM — Sauce nuoc-mam Phú Quốc",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron vert",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Eau chaude filtrée",
+          "qty": 6,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail haché et piment rouge thaï en rondelles",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "Faire tremper les champignons noirs séchés dans l'eau tiède 20 min, rincer abondamment, hacher finement. Faire tremper les vermicelles de soja dans l'eau froide 10 min, égoutter, couper en petits tronçons de 1 cm aux ciseaux.",
+        "FARCE : dans un grand saladier, mélanger à la main le porc haché, les crevettes hachées, le crabe émietté, les champignons noirs, les vermicelles, la carotte râpée, les échalotes et l'ail.",
+        "Ajouter l'œuf, la sauce poisson, le sucre, le poivre blanc. Mélanger énergiquement 3 min jusqu'à ce que la farce devienne légèrement collante (signe d'une bonne liaison protéique : les nems se tiendront).",
+        "NUOC-MAM CHAM : mélanger l'eau chaude avec le sucre jusqu'à dissolution. Ajouter le jus de citron, la sauce poisson, l'ail haché et le piment en rondelles. Goûter et ajuster pour obtenir l'équilibre signature vietnamien : sucré-acide-salé-piquant. Réserver.",
+        "Préparer un plateau d'eau chaude additionnée du vinaigre de riz dilué (la mouillure traditionnelle qui dore la pâte à la friture).",
+        "PLIAGE : tremper une galette de riz dans le bain vinaigré 5 s seulement (elle doit rester un peu rigide, pas molle), la déposer sur un plan de travail légèrement humide.",
+        "Déposer 1 c.s. bombée de farce au tiers inférieur de la galette, façonner un boudin horizontal de 8 cm.",
+        "Rabattre le tiers inférieur sur la farce, rouler une fois sur soi-même en serrant. Plier les deux extrémités latérales vers le centre, puis rouler jusqu'au bout en serrant (technique du burrito mexicain mais miniature). Le nem doit être ferme et bien étanche.",
+        "Continuer avec toutes les galettes en alignant les nems sur un plateau légèrement huilé pour qu'ils ne collent pas entre eux.",
+        "Faire chauffer l'huile d'arachide à 160 °C précis dans une sauteuse haute. Faire frire en deux temps (technique signature vietnamienne) : première friture à 160 °C pendant 5 min jusqu'à coloration claire et croûte formée. Sortir, laisser reposer 10 min sur grille (les nems se contractent et la pâte se rigidifie).",
+        "Augmenter l'huile à 180 °C. Replonger les nems pour la deuxième friture 90 s jusqu'à doré profond et croustillant intense (cette double friture est le secret d'un nem qui RESTE croustillant à table).",
+        "DRESSAGE : présenter les nems chauds avec une assiette d'herbes fraîches (laitue, menthe, coriandre, périlla) et le nuoc-mam cham en ramequin. Chaque convive enroule un nem dans une feuille de laitue avec quelques herbes, puis le trempe dans la sauce — l'art de manger vietnamien."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Galettes de riz vietnamiennes (rayon Asie)",
+          "qty": 16,
+          "unit": "u"
+        },
+        {
+          "name": "Porc haché",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Crevettes cuites décortiquées (rayon traiteur)",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Vermicelles chinois (sachet, trempés 5 min eau chaude)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Carotte râpée",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Œuf",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sauce nuoc-mam",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile (friture)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Salade et menthe fraîche",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Citron vert",
+          "qty": 2,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Mélanger la viande hachée, les crevettes hachées, les vermicelles trempés et coupés, la carotte râpée, l'oignon haché, l'ail écrasé, l'œuf, 1 c.s. de nuoc-mam, le sucre et 1 pincée de poivre. Bien malaxer.",
+        "Tremper chaque galette de riz 5 s dans l'eau tiède pour ramollir. Déposer 1 c.s. de farce au tiers bas, rabattre la base, replier les côtés et rouler en serrant pour former un nem bien étanche.",
+        "Faire chauffer l'huile dans une sauteuse à feu moyen (170 °C). Faire frire les nems par lots de 6 pendant 7 min en retournant à mi-cuisson jusqu'à doré et croustillant. Égoutter sur grille.",
+        "Préparer la sauce : mélanger 2 c.s. de nuoc-mam + 2 c.s. de sucre + 2 c.s. d'eau chaude + le jus de 1 citron vert. Ajouter 1 gousse d'ail écrasée.",
+        "Servir les nems chauds avec des feuilles de salade, de menthe et de la sauce nuoc-mam. Chacun roule son nem dans une feuille de salade avant de le tremper."
+      ],
+      "story": "Roulés frits emblématiques du sud du Vietnam, les chả giò (\"rouleaux frits\" en vietnamien du sud, appelés nem rán au nord) sont indissociables des grandes fêtes — Tết (nouvel an lunaire), mariages, anniversaires. La double friture est la signature des restaurants saigonais qui garantit le croustillant éternel.",
+      "chefSecret": "Le secret du croustillant qui DURE : la double friture (160 °C puis 180 °C) avec un repos de 10 min entre les deux. La première cuit la farce et structure la pâte, la seconde caramélise la surface. Sans cette technique, les nems ramollissent dès l'arrivée à table — c'est ce qui distingue un nem de palais d'un nem de cantine."
+    },
+    {
+      "slug": "ca-phe-sua-da",
+      "title": "Cà Phê Sữa Đá",
+      "image": "/images/ca-phe-sua-da-vietnam.jpg",
+      "prepTime": 5,
+      "cookTime": 5,
+      "servings": 1,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "boisson",
+      "ingredients": [
+        {
+          "name": "Café vietnamien Robusta torréfié finement (Trung Nguyên ou Vĩnh Long, mouture fine)",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "name": "Eau filtrée bouillante à 95 °C précis",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Lait concentré sucré (Ông Thọ vietnamien ou Nestlé)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Glace en gros cubes filtrée (jamais glace pilée : se dilue trop vite)",
+          "qty": 200,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Préchauffer le filtre vietnamien phin (filtre à percolation lente en aluminium) à l'eau chaude pendant 1 min, le sécher.",
+        "Déposer le filtre phin sur un grand verre haut transparent. Verser au fond du verre les 3 c.s. de lait concentré sucré (la couche dorée au fond sera la signature visuelle du cocktail-café).",
+        "Verser le café moulu dans le filtre phin, secouer doucement pour niveler la surface (jamais tasser : le café gonfle à l'eau et bloquerait la percolation).",
+        "Visser doucement le presse-grille du phin sur le café (juste pour le maintenir, sans appuyer). Verser 20 ml d'eau bouillante en spirale lente pour pré-mouiller le café (\"bloom\" qui libère les CO2).",
+        "Attendre 45 s : le café gonfle, exhale ses arômes, le CO2 s'échappe. Verser ensuite les 60 ml d'eau restants en spirale lente.",
+        "Refermer le couvercle du phin et laisser percoler lentement : 4-5 min pour le café complet (signature du phin : extraction lente goutte à goutte). Pendant ce temps, faire prendre la glace au congélateur si nécessaire.",
+        "Quand le phin a fini de couler, retirer le filtre. Mélanger énergiquement à la cuillère longue : le café noir intense se marie au lait concentré et forme une mousse caramel (cohérence brune homogène).",
+        "Préparer un second verre haut avec les gros cubes de glace remplis jusqu'en haut. Verser le mélange café-lait par-dessus la glace : la chaleur fait crépiter les cubes et libère un parfum intense.",
+        "Mélanger à la cuillère longue 10 s puis servir immédiatement avec une paille épaisse en bambou. Boire en accompagnement d'une viennoiserie ou en digestif après un phở matinal."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Café fort (espresso ou café noir corsé maison)",
+          "qty": 80,
+          "unit": "ml"
+        },
+        {
+          "name": "Lait concentré sucré (rayon laitage)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Glaçons",
+          "qty": 200,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Préparer un café espresso double ou un café noir très serré à la cafetière (italienne ou filtre).",
+        "Verser le lait concentré sucré au fond d'un grand verre.",
+        "Verser le café chaud par-dessus, mélanger énergiquement pour homogénéiser (couleur caramel uniforme).",
+        "Remplir un second verre de glaçons jusqu'en haut, verser le mélange café-lait par-dessus, mélanger 10 s et déguster immédiatement à la paille."
+      ],
+      "story": "Boisson nationale du Vietnam, le cà phê sữa đá (\"café au lait glacé\") est l'héritage de la colonisation française du XIXe siècle, adapté au climat tropical par l'ajout de glace et au manque historique de lait frais par le lait concentré sucré. Servi dans toutes les rues de Saigon comme remède contre la chaleur écrasante.",
+      "chefSecret": "Le secret du cà phê sữa đá authentique tient à trois règles : utiliser du café ROBUSTA vietnamien (corsé, amer, jamais l'arabica trop floral), une mouture moyennement fine pour le filtre phin (jamais fine espresso, sinon ça boue), et des GROS cubes de glace qui fondent lentement (la glace pilée diluerait le café en 2 minutes)."
     }
   ]
 }

@@ -896,6 +896,287 @@
         "Remplir 2 grands bols de riz chaud à mi-hauteur. Faire glisser le tonkatsu-oignon-œuf avec sa sauce par-dessus. Parsemer de ciboule ciselée et manger immédiatement, à la cuillère."
       ],
       "category": "plat"
+    },
+    {
+      "slug": "katsu-curry",
+      "title": "Katsu Curry",
+      "image": "/images/katsu-curry-japon.jpg",
+      "prepTime": 25,
+      "cookTime": 60,
+      "servings": 4,
+      "diets": [],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Escalopes de filet de porc épaisses (rôti)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs entiers battus",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Chapelure panko japonaise",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Huile de tournesol (friture)",
+          "qty": 1,
+          "unit": "L"
+        },
+        {
+          "name": "CURRY — Oignons jaunes émincés finement",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes en demi-rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Pommes de terre Charlotte en cubes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Pomme Granny Smith râpée (umami fruité signature)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Pâte de curry japonais (Golden Curry House Foods, S&B)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon dashi (kombu + katsuobushi)",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce soja shoyu Kikkoman",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Mirin doux Hinode",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Riz japonais Koshihikari à grain court",
+          "qty": 320,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce tonkatsu Bull-Dog (finition)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Chou pointu blanc émincé en julienne (accompagnement)",
+          "qty": 0.25,
+          "unit": "u"
+        }
+      ],
+      "steps": [
+        "Rincer le riz dans plusieurs eaux jusqu'à ce qu'elle devienne claire. Tremper 30 min, égoutter. Faire cuire au rice cooker ou à la casserole couverte (1 vol riz pour 1,2 vol eau, 12 min ébullition douce + 10 min repos hors feu).",
+        "CURRY : dans une cocotte, faire suer les oignons dans 2 c.s. d'huile à feu doux 20 min jusqu'à coloration ambrée profonde (étape essentielle : c'est le sucre des oignons caramélisés qui donne la douceur signature du curry japonais).",
+        "Ajouter l'ail et le gingembre, faire revenir 1 min. Ajouter les carottes et pommes de terre, faire revenir 3 min.",
+        "Verser le bouillon dashi chaud, ajouter la pomme râpée, le shoyu et le mirin. Couvrir, faire mijoter 20 min jusqu'à tendresse des légumes.",
+        "Hors du feu, ajouter les cubes de pâte de curry japonais, remuer doucement 5 min jusqu'à dissolution complète et nappage (la pâte épaissit sans bouillir).",
+        "TONKATSU : aplatir les escalopes à 2 cm d'épaisseur entre 2 films plastiques au rouleau (uniformise la cuisson). Saler, poivrer.",
+        "Préparer 3 assiettes : farine, œufs battus, panko. Paner chaque escalope farine → œuf → panko en pressant fortement (le panko aéré donne le croustillant signature).",
+        "Faire chauffer 3 cm d'huile à 170 °C dans une sauteuse haute. Faire frire les escalopes 4 min par face jusqu'à doré profond. Égoutter sur grille (jamais papier absorbant : ramollit la croûte).",
+        "Couper les tonkatsu en tranches de 1,5 cm avec un couteau bien aiguisé.",
+        "DRESSAGE : dans une assiette creuse, déposer une portion de riz sur la moitié, napper l'autre moitié de curry chaud. Disposer les tranches de tonkatsu sur la frontière riz/curry. Arroser le tonkatsu de sauce tonkatsu Bull-Dog. Ajouter la julienne de chou cru à part."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Escalopes de porc fines",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Farine",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Œufs",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Chapelure panko ou chapelure classique",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Huile (friture)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignon",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Pommes de terre",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Pâte de curry japonais (rayon Asie, en cubes)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon de légumes (cube + eau)",
+          "qty": 700,
+          "unit": "ml"
+        },
+        {
+          "name": "Riz à sushi ou riz rond",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Faire cuire le riz selon les instructions du paquet (généralement 12 min couvert + 10 min de repos).",
+        "Faire revenir l'oignon émincé dans une casserole avec 1 c.s. d'huile 10 min jusqu'à coloration. Ajouter les carottes en rondelles et les pommes de terre en cubes, faire revenir 3 min.",
+        "Verser le bouillon, ajouter la sauce soja. Couvrir et faire mijoter 20 min jusqu'à tendresse des légumes. Hors du feu, ajouter les cubes de curry, remuer 5 min jusqu'à dissolution.",
+        "Pendant ce temps, saler les escalopes, les passer dans la farine, l'œuf battu puis la chapelure en pressant. Faire frire dans 3 cm d'huile chaude à feu moyen-vif 3 min par face. Égoutter sur grille.",
+        "Couper les tonkatsu en lamelles. Servir le riz à côté du curry chaud, déposer les lamelles de porc dessus."
+      ],
+      "story": "Importé par la Royal Navy britannique dans les années 1870, le curry a été domestiqué par les Japonais en un plat sucré-épicé totalement original. Le katsu curry, qui ajoute une escalope panée, est devenu un favori des cantines scolaires et des izakaya depuis les années 1960.",
+      "chefSecret": "La pomme râpée est l'ingrédient secret qui distingue le curry japonais : elle apporte une douceur fruitée naturelle et arrondit les épices. Les chefs des grandes maisons en ajoutent parfois deux variétés (Granny Smith pour l'acide, Gala pour le sucré)."
+    },
+    {
+      "slug": "glace-matcha",
+      "title": "Glace au Matcha",
+      "image": "/images/glace-matcha-japon.jpg",
+      "prepTime": 25,
+      "cookTime": 10,
+      "servings": 6,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "dessert",
+      "events": [
+        "hanami"
+      ],
+      "ingredients": [
+        {
+          "name": "Lait entier japonais (ou lait cru bio)",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Crème fraîche entière liquide à 35 % MG",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Jaunes d'œufs de poule plein air extra-frais",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "Sucre semoule blond",
+          "qty": 110,
+          "unit": "g"
+        },
+        {
+          "name": "Matcha cérémonie d'Uji (qualité usucha, vert vif)",
+          "qty": 12,
+          "unit": "g"
+        },
+        {
+          "name": "Eau filtrée chaude à 70 °C (dilution matcha)",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Sel fin (équilibre)",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Glucose atomisé (texture pro, optionnel)",
+          "qty": 30,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Tamiser le matcha au tamis fin dans un bol (élimine les grumeaux qui sont indélogeables une fois mouillés). Ajouter l'eau chaude à 70 °C (jamais bouillante : détruit l'arôme). Fouetter au chasen (fouet bambou) ou au mini-fouet en mouvements de \"M\" jusqu'à pâte lisse et mousseuse.",
+        "Faire chauffer le lait et la crème dans une casserole à fond épais jusqu'à frémissement (75 °C). Couvrir, infuser 5 min.",
+        "Pendant ce temps, blanchir les jaunes d'œufs avec le sucre et le glucose atomisé au fouet pendant 3 min jusqu'à obtenir un mélange pâle et mousseux qui forme un ruban.",
+        "Verser le lait chaud en filet sur les jaunes en fouettant constamment (tempère sans coaguler).",
+        "Reverser le tout dans la casserole, cuire la crème anglaise à feu très doux en remuant en \"8\" avec une spatule en bois jusqu'à 83-84 °C (la crème nappe la spatule et le doigt y laisse une trace nette).",
+        "Hors du feu, verser immédiatement la pâte de matcha dans la crème anglaise chaude, fouetter énergiquement 30 s pour homogénéiser parfaitement (couleur vert jade vif uniforme).",
+        "Filtrer au chinois fin sur un saladier placé dans un bain-marie d'eau glacée. Remuer 5 min pour faire chuter la température à 4 °C (étape critique : un refroidissement rapide préserve la couleur).",
+        "Couvrir au contact, faire maturer impérativement 12 h au réfrigérateur (la crème prend en arômes et en onctuosité).",
+        "Turbiner en sorbetière 25 min jusqu'à texture crémeuse, transvaser dans un bac, faire prendre 4 h au congélateur.",
+        "Sortir 10 min avant le service pour servir à -10 °C (température optimale d'une glace artisanale)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Crème glacée vanille bio de qualité (base)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Poudre de matcha (épicerie bio ou rayon Asie)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sucre glace",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Sortir la glace vanille du congélateur 20 min avant pour qu'elle soit malléable mais pas fondue.",
+        "Tamiser le matcha avec le sucre glace dans un bol (élimine les grumeaux).",
+        "Dans un grand saladier, mélanger énergiquement la glace ramollie avec le mélange matcha-sucre à la spatule jusqu'à obtenir une couleur vert uniforme.",
+        "Remettre au congélateur dans un bac hermétique 2 h minimum pour reprise.",
+        "Servir en boules avec quelques framboises fraîches ou des copeaux de chocolat noir."
+      ],
+      "story": "Le matcha, poudre de thé vert moulue à la meule de pierre, est consommé au Japon depuis le XIIe siècle dans la cérémonie du thé (chanoyu). Sa transposition en dessert glacé est née dans les salons de Kyoto au XXe siècle, devenue depuis un emblème mondial de la pâtisserie japonaise contemporaine.",
+      "chefSecret": "Ne JAMAIS dissoudre le matcha à l'eau bouillante : au-delà de 70 °C, les catéchines libèrent leur amertume et la couleur vire au kaki triste. La règle d'or des maîtres de thé d'Uji : eau frémissante refroidie 2 min dans un bol froid, puis fouet bambou en \"M\"."
     }
   ]
 }

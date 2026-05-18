@@ -1044,6 +1044,389 @@
         "holi"
       ],
       "category": "boisson"
+    },
+    {
+      "slug": "chicken-tikka-masala",
+      "title": "Chicken Tikka Masala",
+      "image": "/images/chicken-tikka-masala-inde.jpg",
+      "prepTime": 30,
+      "cookTime": 40,
+      "servings": 4,
+      "diets": [
+        "gluten-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Filets de cuisse de poulet désossés sans peau (en cubes 3 cm)",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "MARINADE — Yaourt grec entier (10 % MG)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Gingembre frais râpé",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Jus d'un citron jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Garam masala (mélange épices toastées maison)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Paprika doux Espelette ou fumé",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Curcuma de Madras en poudre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Piment de Cachemire en poudre (couleur rouge profonde, peu piquant)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile de moutarde (ou neutre)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "SAUCE — Ghee (beurre clarifié indien)",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons rouges en brunoise",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Gingembre frais en bâtonnets",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail haché (sauce)",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Tomates concassées San Marzano",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Concentré de tomates double",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Crème fraîche entière à 35 % MG",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Feuilles de fenugrec séchées (kasuri methi, signature)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Coriandre fraîche ciselée (finition)",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Riz basmati de l'Himalaya",
+          "qty": 320,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "MARINADE : dans un saladier, mélanger le yaourt, le gingembre râpé, l'ail écrasé, le jus de citron, les épices (garam masala, cumin, paprika, curcuma, piment de Cachemire), l'huile de moutarde et 1 c.c. de sel. Ajouter les cubes de poulet, masser pour bien enrober. Filmer et faire mariner 4 h minimum au réfrigérateur (idéalement 12 h).",
+        "Préchauffer le four en position gril à 240 °C. Disposer les cubes de poulet égouttés sur une grille au-dessus d'une plaque (la marinade s'écoule, le poulet ne baigne pas dans son jus).",
+        "Faire griller 12 min en retournant à mi-cuisson : les cubes doivent prendre des marques noires sur les arêtes (effet tandoor à 480 °C reproduit en four domestique à 240 °C). Réserver.",
+        "SAUCE : dans une cocotte, faire fondre le ghee à feu moyen. Faire suer les oignons rouges 10 min jusqu'à coloration dorée profonde (étape clé : c'est cette caramélisation qui donne la profondeur sucrée à la sauce).",
+        "Ajouter l'ail haché et le gingembre en bâtonnets, faire revenir 1 min. Incorporer le concentré de tomates, cuire 2 min pour torréfier les sucres et perdre l'acidité.",
+        "Verser les tomates concassées + 200 ml d'eau chaude. Saler, faire mijoter 15 min à feu doux à découvert jusqu'à épaississement.",
+        "Mixer la sauce au mixeur plongeant pour obtenir une texture lisse et veloutée (signature des restaurants : la sauce est toujours mixée).",
+        "Remettre la sauce dans la cocotte, ajouter les cubes de poulet grillés avec leurs sucs. Faire mijoter 5 min pour que les saveurs se marient.",
+        "Hors du feu, incorporer la crème fraîche et les feuilles de fenugrec frottées entre les paumes (libère les huiles essentielles). Rectifier l'assaisonnement.",
+        "Pendant ce temps, rincer le riz basmati 3 fois, faire cuire en méthode pilaf (1 vol riz pour 1,5 vol eau, 12 min à couvert puis 10 min hors feu).",
+        "Servir le tikka masala dans des assiettes creuses chaudes, parsemer de coriandre. Accompagner du riz basmati et éventuellement de naans à l'ail."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Blancs de poulet en cubes",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Yaourt nature brassé",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Mélange tandoori en poudre (rayon épices)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Oignons",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Gingembre frais (ou en pâte)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Tomates concassées en boîte",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Concentré de tomates",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Crème fraîche épaisse",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Garam masala (rayon épices)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Beurre ou huile",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Riz basmati",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 0.5,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "Mélanger le poulet en cubes avec le yaourt, le tandoori en poudre, le jus de citron et 1 c.c. de sel. Faire mariner 1 h au réfrigérateur (ou 30 min si pressé).",
+        "Faire chauffer 2 c.s. d'huile dans une grande poêle. Égoutter le poulet de sa marinade, le faire dorer à feu vif 6 min en remuant. Réserver.",
+        "Dans la même poêle, faire revenir les oignons hachés 8 min jusqu'à coloration. Ajouter l'ail et le gingembre, puis le concentré et le garam masala, cuire 2 min.",
+        "Verser les tomates concassées + 100 ml d'eau. Faire mijoter 10 min à feu doux. Mixer au mixeur plongeant pour lisser.",
+        "Remettre le poulet, ajouter la crème, faire mijoter 5 min. Servir avec le riz basmati cuit selon les instructions du paquet, parsemer de coriandre ciselée."
+      ],
+      "story": "Inventé dans les années 1970 à Glasgow par le chef Ali Ahmed Aslam (Shish Mahal), qui aurait ajouté une sauce tomate-yaourt-crème à un poulet tandoori trop sec pour un client. Devenu plat national britannique de fait, il a depuis conquis le monde et figure dans toutes les cartes de restaurants indiens.",
+      "chefSecret": "Le piment de Cachemire (Kashmiri chilli) est l'âme du tikka masala : il donne la couleur rouge profond signature SANS être brûlant. Le substituer par du paprika fumé + une pointe de cayenne fonctionne, mais l'authentique se trouve en épicerie indienne — il vaut le détour."
+    },
+    {
+      "slug": "gulab-jamun",
+      "title": "Gulab Jamun",
+      "image": "/images/gulab-jamun-inde.jpg",
+      "prepTime": 30,
+      "cookTime": 25,
+      "servings": 6,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "events": [
+        "diwali",
+        "holi"
+      ],
+      "ingredients": [
+        {
+          "name": "Khoya (lait réduit traditionnel indien, en épicerie indienne)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Farine T55 (maida)",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Semoule fine de blé dur (rava)",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "name": "Cardamome verte en poudre",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Bicarbonate de soude",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Lait entier tiède (liaison)",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "name": "Ghee (beurre clarifié indien) pour friture",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "SIROP — Sucre semoule blond",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Eau filtrée",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Gousses de cardamome verte concassées",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Eau de rose (Kewra ou rose damascena)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Filaments de safran de Cachemire",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Jus d'un demi-citron jaune (anti-cristallisation)",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Pistaches de Bronte effilées (finition)",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "name": "Pétales de rose séchés (finition)",
+          "qty": 1,
+          "unit": "pincée"
+        }
+      ],
+      "steps": [
+        "SIROP : dans une casserole large, porter à ébullition le sucre, l'eau, la cardamome concassée, le safran et le jus de citron. Faire cuire 5 min jusqu'à obtenir un sirop à filet (consistance légèrement épaisse, pas trop dense). Hors du feu, parfumer à l'eau de rose. Réserver tiède.",
+        "PÂTE : émietter le khoya à la main dans un saladier jusqu'à texture sableuse fine. Ajouter la farine, la semoule, la cardamome en poudre et le bicarbonate.",
+        "Verser le lait tiède en petites quantités, malaxer doucement du bout des doigts (jamais pétrir vigoureusement) jusqu'à obtenir une pâte souple, légèrement collante, lisse. Si trop sèche, ajouter 1 c.c. de lait. Repos 10 min sous un linge humide.",
+        "Diviser la pâte en 18 boulettes de 15 g chacune. Rouler entre les paumes graissées (1 goutte de ghee) en boules parfaitement lisses, SANS la moindre craquelure (sinon les boules s'ouvrent à la friture). Étape cruciale : la perfection du roulage = la perfection du gulab jamun.",
+        "Faire chauffer le ghee dans une casserole haute à 130-140 °C précis (frire à BASSE température pour cuire à cœur sans brûler l'extérieur). Un thermomètre est indispensable.",
+        "Faire frire les boules par lots de 6, en remuant doucement le ghee autour d'elles à la spatule à trous (jamais toucher les boules au début : elles sont fragiles). Cuisson lente : 7-8 min jusqu'à coloration brun acajou profond et uniforme.",
+        "Égoutter les gulab jamun chauds avec une écumoire et les plonger IMMÉDIATEMENT dans le sirop tiède (à 60 °C, pas brûlant : la différence de température permet l'absorption maximale). Les boules vont gonfler et doubler de volume en 30 min.",
+        "Laisser tremper minimum 2 h (idéalement 6 h) pour que le sirop pénètre jusqu'au cœur.",
+        "Servir tiède ou à température, 3 boules par personne dans un bol creux avec un peu de sirop, parsemer de pistaches effilées et de pétales de rose séchés."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Poudre de lait entier",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Farine",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Bicarbonate de soude",
+          "qty": 1,
+          "unit": "pincée"
+        },
+        {
+          "name": "Beurre fondu tiède",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Lait tiède",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "name": "Sucre",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Eau",
+          "qty": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "Cardamome en poudre",
+          "qty": 0.5,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Eau de fleur d'oranger ou eau de rose",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile neutre pour friture",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Pistaches concassées (finition)",
+          "qty": 20,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Préparer le sirop : faire bouillir l'eau avec le sucre et la cardamome 5 min. Hors du feu, ajouter l'eau de rose. Réserver tiède.",
+        "Mélanger la poudre de lait, la farine et le bicarbonate. Ajouter le beurre fondu, puis le lait tiède petit à petit en mélangeant doucement jusqu'à pâte souple. Laisser reposer 10 min.",
+        "Former 16 petites boules bien lisses entre les paumes huilées (pas de craquelures !).",
+        "Faire chauffer l'huile à feu moyen-doux (140 °C, pas plus chaud). Faire frire les boules 6-7 min en les retournant doucement, jusqu'à coloration brun foncé uniforme.",
+        "Égoutter et plonger immédiatement dans le sirop tiède. Laisser tremper 1 h minimum. Servir tiède, parsemer de pistaches concassées."
+      ],
+      "story": "Dessert phare de la cuisine moghole apporté en Inde par les Perses au XIIIe siècle, le gulab jamun (\"boule de rose\") est servi à toutes les grandes célébrations — Diwali, Holi, mariages. Son nom évoque les fruits du jamun pourpre et le sirop de rose qui le parfume.",
+      "chefSecret": "La température basse de friture (130-140 °C) est le secret absolu : à plus haut, la croûte brunit avant que le cœur ne soit cuit, et les boules restent crues à l'intérieur. La patience est récompensée par cette texture fondante signature qui se dissout en bouche."
     }
   ]
 }

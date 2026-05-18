@@ -879,6 +879,404 @@
         "Dresser dans des assiettes : un dôme de riz coco au centre, les tranches de mangue posées à côté. Verser le topping crémeux sur le riz (et un peu sur la mangue si veux). Parsemer de graines de sésame torréfiées. Servir tiède ou à température ambiante — JAMAIS froid (le riz devient dur)."
       ],
       "category": "dessert"
+    },
+    {
+      "slug": "massaman-curry",
+      "title": "Massaman Curry de Bœuf",
+      "image": "/images/massaman-curry-thailande.jpg",
+      "prepTime": 25,
+      "cookTime": 150,
+      "servings": 4,
+      "diets": [
+        "gluten-free",
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Paleron de bœuf en cubes de 4 cm",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Pâte de curry massaman Mae Ploy (signature thaï du sud)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Lait de coco premium Aroy-D ou Chaokoh (en boîte)",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Crème de coco séparée du dessus de la boîte",
+          "qty": 200,
+          "unit": "ml"
+        },
+        {
+          "name": "Cacahuètes crues non salées (à torréfier)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Échalotes thaï roses (en épicerie asiatique) ou échalotes traditionnelles",
+          "qty": 5,
+          "unit": "u"
+        },
+        {
+          "name": "Pommes de terre Charlotte en cubes de 3 cm",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Bâton de cannelle de Ceylan",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Anis étoilé (badiane)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Cardamome verte concassée",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Tamarin en pâte épaisse (achat brut, à réhydrater)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre de palme thaï (nam tan piib)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sauce poisson nuoc-mam Squid premium",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Bouillon de poulet",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Feuilles de combava fraîches (kaffir lime)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Citronnelle écrasée (partie blanche)",
+          "qty": 1,
+          "unit": "tige"
+        },
+        {
+          "name": "Cacahuètes torréfiées concassées (finition)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Riz jasmin de Thaïlande",
+          "qty": 320,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Faire torréfier les 80 g de cacahuètes crues à sec dans une poêle 5 min à feu moyen en remuant jusqu'à coloration dorée et arôme intense. Réserver, retirer la peau qui se détache en frottant entre les paumes.",
+        "Si le tamarin est en bloc, faire tremper 2 c.s. dans 60 ml d'eau chaude 15 min, presser à travers un tamis pour extraire la pulpe (les pépins restent dans le tamis).",
+        "Faire chauffer une cocotte épaisse à feu moyen. Verser la crème de coco séparée (le dessus épais de la boîte) et la faire \"craquer\" en remuant 5 min à feu vif : l'huile de coco se sépare et apparaît en surface (étape fondamentale du curry thaï : c'est dans cette huile aromatique qu'on fait revenir la pâte de curry).",
+        "Ajouter la pâte de curry massaman, faire revenir 4 min en remuant constamment jusqu'à parfum intense et changement de couleur (la pâte fonce et devient huileuse).",
+        "Ajouter les cubes de bœuf, faire enrober et colorer 5 min sur toutes les faces.",
+        "Incorporer la cannelle, l'anis, la cardamome, la citronnelle écrasée. Verser le reste de lait de coco et le bouillon de poulet. Ajouter les feuilles de combava froissées (libère les huiles essentielles).",
+        "Porter à frémissement, couvrir partiellement et faire mijoter 2 h à feu très doux jusqu'à ce que la viande soit fondante (la fourchette s'enfonce sans résistance).",
+        "Pendant ce temps, faire rissoler les pommes de terre dans une poêle avec 2 c.s. d'huile jusqu'à coloration dorée légère (élimine l'amidon de surface, évite qu'elles se désagrègent).",
+        "Ajouter les pommes de terre rissolées, les échalotes entières épluchées et les cacahuètes torréfiées au curry. Faire cuire 25 min de plus jusqu'à tendreté des pommes de terre.",
+        "Assaisonner avec la pâte de tamarin, le sucre de palme râpé, la sauce poisson. Goûter et ajuster : le massaman doit avoir un équilibre parfait sucré-acide-salé-umami-épicé (l'équilibre quintuple thaï).",
+        "Faire cuire le riz jasmin pendant ce temps : rincer 3 fois, cuire en méthode pilaf (1 vol riz pour 1,3 vol eau, 12 min couvert + 10 min hors feu).",
+        "Servir le massaman dans des bols creux, parsemer de cacahuètes concassées, accompagner du riz jasmin chaud. Retirer les épices entières avant dégustation."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Bœuf à mijoter en cubes",
+          "qty": 700,
+          "unit": "g"
+        },
+        {
+          "name": "Pâte de curry rouge thaïe (rayon Asie ou bio)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Lait de coco entier en boîte",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Pommes de terre",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Oignons",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Cacahuètes salées",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon de bœuf (cube + eau)",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce nuoc-mam (rayon Asie)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cassonade",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Jus de citron vert",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Bâton de cannelle",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Riz jasmin",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 0.5,
+          "unit": "bouquet"
+        }
+      ],
+      "commisSteps": [
+        "Faire chauffer 2 c.s. d'huile dans une cocotte. Saisir le bœuf 5 min sur toutes les faces, réserver. Faire revenir les oignons hachés 5 min.",
+        "Ajouter la pâte de curry, faire revenir 2 min jusqu'à parfum intense. Remettre le bœuf, verser le lait de coco et le bouillon. Ajouter la cannelle.",
+        "Couvrir et faire mijoter à feu très doux 1 h 30. Ajouter les pommes de terre en cubes et les cacahuètes, poursuivre 30 min jusqu'à tendreté.",
+        "Assaisonner avec la sauce nuoc-mam, le sucre et le jus de citron vert. Goûter et ajuster l'équilibre sucré-acide-salé.",
+        "Pendant la cuisson, faire cuire le riz selon les instructions du paquet. Servir le curry dans des bols, parsemer de coriandre ciselée et accompagner du riz."
+      ],
+      "story": "Curry à l'influence musulmane du sud de la Thaïlande, le massaman est arrivé via les marchands persans au XVIIe siècle. Sa palette d'épices indiennes (cannelle, anis, cardamome) le distingue des autres curries thaï purement végétaux. Élu \"plat le plus délicieux au monde\" par CNN Travel en 2011.",
+      "chefSecret": "La technique du \"craquage\" de la crème de coco (faire sortir l'huile par évaporation) est l'âme du curry thaï authentique : on doit voir l'huile dorée se séparer en surface AVANT d'ajouter la pâte. Sans cette étape, le curry reste plat et terne, jamais cette profondeur de saveur signature."
+    },
+    {
+      "slug": "khao-soi",
+      "title": "Khao Soi au Poulet",
+      "image": "/images/khao-soi-thailande.jpg",
+      "prepTime": 25,
+      "cookTime": 35,
+      "servings": 4,
+      "diets": [
+        "dairy-free"
+      ],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Cuisses de poulet désossées avec peau (4 pièces)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Lait de coco entier Aroy-D",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "PÂTE KHAO SOI — Pâte de curry rouge thaï",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "name": "Pâte de curry jaune thaï (mix signature du nord)",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Curcuma frais râpé (la racine, pas la poudre)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Coriandre en grains",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cardamome noire concassée",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Nouilles aux œufs fraîches plates (style chinois cantonais)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'arachide (friture des nouilles croustillantes)",
+          "qty": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Bouillon de poulet",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce poisson Squid",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sucre de palme thaï râpé",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Citron vert (jus)",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "GARNITURES — Échalotes rouges thaï marinées au vinaigre",
+          "qty": 6,
+          "unit": "u"
+        },
+        {
+          "name": "Légumes Tsa Chai (moutarde chinoise saumurée, en bocal)",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Cébettes ciselées",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche en bouquets",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Piments rouges thaï frais en rondelles",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Huile de chili torréfié (nam prik pao)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        }
+      ],
+      "steps": [
+        "Préparer les nouilles croustillantes : prélever 100 g de nouilles fraîches, défaire les brins. Faire chauffer l'huile d'arachide à 180 °C dans un wok. Faire frire les nouilles par poignées 30 s jusqu'à doré clair et soufflé. Égoutter sur grille, saler légèrement. Réserver.",
+        "Faire mariner les échalotes rouges émincées dans 3 c.s. de vinaigre de riz + 1 c.s. de sucre pendant 20 min (pickling rapide signature thaï).",
+        "Faire chauffer une cocotte à feu moyen. Verser 200 ml de lait de coco (le dessus épais de la boîte) et faire craquer 5 min jusqu'à apparition de l'huile en surface (étape fondamentale, idem massaman).",
+        "Ajouter la pâte de curry rouge, la pâte jaune, le curcuma frais râpé, les grains de coriandre et la cardamome. Faire revenir 4 min en remuant jusqu'à parfum intense et changement de couleur orange profond.",
+        "Ajouter les cuisses de poulet, faire enrober 3 min en les retournant.",
+        "Verser le reste du lait de coco et le bouillon. Porter à frémissement, baisser le feu et faire mijoter 25 min à découvert jusqu'à ce que le poulet soit cuit à cœur (75 °C à cœur) et la sauce épaississe en bouillon onctueux.",
+        "Sortir les cuisses de poulet, les désosser grossièrement à la fourchette en gros morceaux (le poulet reste en gros morceaux, pas effiloché).",
+        "Assaisonner le bouillon : sauce poisson, sucre de palme. Goûter et ajuster. Remettre le poulet désossé, garder chaud.",
+        "Faire cuire les 300 g de nouilles restantes dans une grande casserole d'eau bouillante 90 s seulement, égoutter immédiatement.",
+        "DRESSAGE : répartir les nouilles cuites dans 4 grands bols creux. Verser le curry chaud avec le poulet. Couronner d'un nid de nouilles croustillantes (signature visuelle du khao soi).",
+        "Garnir abondamment : échalotes pickles, légumes tsa chai hachés, cébettes, coriandre, piment en rondelles. Servir avec quartiers de citron vert et huile de chili torréfié à part — chacun assaisonne son bol selon son goût (l'âme du repas thaï du nord)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Cuisses de poulet",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Pâte de curry rouge thaï (rayon Asie ou bio)",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Lait de coco entier",
+          "qty": 800,
+          "unit": "ml"
+        },
+        {
+          "name": "Curcuma en poudre",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Nouilles aux œufs chinoises (sachet)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Bouillon de volaille",
+          "qty": 400,
+          "unit": "ml"
+        },
+        {
+          "name": "Sauce nuoc-mam",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cassonade",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Citron vert",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Échalotes",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Vinaigre blanc ou de cidre",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Cébettes",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Coriandre fraîche",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Huile (friture)",
+          "qty": 300,
+          "unit": "ml"
+        }
+      ],
+      "commisSteps": [
+        "Émincer les échalotes, les faire mariner dans le vinaigre + 1 c.c. de sucre pendant 15 min.",
+        "Réserver 80 g de nouilles. Les faire frire en petites poignées dans l'huile chaude (170 °C) 30 s jusqu'à dorées et soufflées. Égoutter sur grille.",
+        "Faire chauffer 2 c.s. d'huile dans une cocotte. Faire revenir la pâte de curry et le curcuma 2 min jusqu'à parfum. Ajouter les cuisses de poulet, les retourner 2 min.",
+        "Verser le lait de coco et le bouillon, porter à frémissement et faire mijoter 25 min jusqu'à cuisson du poulet. Désosser grossièrement. Assaisonner avec la sauce nuoc-mam, le sucre et le jus d'un citron vert.",
+        "Faire cuire le reste des nouilles 4 min dans l'eau bouillante. Égoutter. Répartir dans 4 bols, verser le curry chaud avec le poulet, garnir de nouilles frites, échalotes marinées, cébettes et coriandre. Servir avec un quartier de citron vert."
+      ],
+      "story": "Plat emblématique de Chiang Mai et du nord de la Thaïlande, le khao soi (\"riz coupé\" en thaï du nord) est né des échanges avec les marchands musulmans du Yunnan chinois. Sa double texture — nouilles tendres dans le bouillon, nouilles frites croustillantes en couronne — est la signature visuelle de ce curry du nord.",
+      "chefSecret": "Le secret d'un khao soi authentique : utiliser à la fois la pâte rouge ET la pâte jaune en proportion 2:1. La rouge apporte la puissance épicée, la jaune (à base de curcuma) donne la couleur dorée et la rondeur florale. Les vendeurs de Chiang Mai gardent jalousement leurs proportions exactes — celle-ci se rapproche de Khao Soi Khun Yai, la référence absolue."
     }
   ]
 }

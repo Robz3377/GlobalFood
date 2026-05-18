@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s — Map and Fork",
   },
   description:
-    "Voyagez à travers la cuisine du monde via un globe 3D interactif. Découvrez 60 recettes authentiques, leurs traditions et le secret du chef pour chaque plat — un atlas culinaire à explorer du bout des doigts.",
+    "Voyagez à travers la cuisine du monde via un globe 3D interactif. Découvrez 84 recettes authentiques, leurs traditions et le secret du chef pour chaque plat — un atlas culinaire à explorer du bout des doigts.",
   applicationName: "Map and Fork",
   appleWebApp: {
     capable: true,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     title: "Map and Fork — Cuisine du monde",
     description:
-      "Globe 3D interactif et 60 recettes certifiées du monde, chacune avec son secret du chef.",
+      "Globe 3D interactif et 84 recettes certifiées du monde, chacune avec son secret du chef.",
     siteName: "Map and Fork",
     images: [
       { url: "/images/logo-mapandfork.png", width: 1071, height: 1008, alt: "Map and Fork" },
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Map and Fork — Cuisine du monde",
     description:
-      "Globe 3D interactif et 60 recettes certifiées du monde, chacune avec son secret du chef.",
+      "Globe 3D interactif et 84 recettes certifiées du monde, chacune avec son secret du chef.",
     images: ["/images/logo-mapandfork.png"],
   },
 };

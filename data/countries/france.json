@@ -844,6 +844,301 @@
         "Enfourner 35-40 min à 200 °C. La quiche doit être bien dorée sur le dessus et tremblotante au centre quand la sortir (elle se fige en refroidissant 5 min hors du four). Servir tiède ou froide avec une salade verte simple à côté."
       ],
       "category": "entree"
+    },
+    {
+      "slug": "boeuf-bourguignon",
+      "title": "Bœuf Bourguignon",
+      "image": "/images/boeuf-bourguignon-france.jpg",
+      "prepTime": 30,
+      "cookTime": 180,
+      "servings": 6,
+      "diets": [],
+      "category": "plat",
+      "seasons": [
+        "autumn",
+        "winter"
+      ],
+      "ingredients": [
+        {
+          "name": "Paleron de bœuf charolais (en gros cubes de 5 cm)",
+          "qty": 1.4,
+          "unit": "kg"
+        },
+        {
+          "name": "Lardons fumés tranchés épais",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Vin rouge de Bourgogne (Pinot noir, type Mâcon ou Hautes-Côtes)",
+          "qty": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "Fond brun de veau",
+          "qty": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignons grelots blancs épluchés",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Carottes nouvelles taillées en sifflets",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Champignons de Paris bruns émincés",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 4,
+          "unit": "gousses"
+        },
+        {
+          "name": "Bouquet garni (thym, laurier, queues de persil, vert de poireau)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Concentré de tomates double",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Farine T55",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre AOP Charentes-Poitou",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'arachide (saisie)",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel fin de Guérande, poivre noir du moulin",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Persil plat ciselé (finition)",
+          "qty": 0.5,
+          "unit": "bouquet"
+        }
+      ],
+      "steps": [
+        "La veille : déposer les cubes de paleron dans un saladier avec le vin rouge, les carottes, le bouquet garni et l'ail. Filmer, faire mariner 12 h au réfrigérateur (la chair s'infuse et la viande se détend).",
+        "Le jour J : égoutter la viande sur un linge propre, récupérer le vin de marinade. Tamponner les cubes pour qu'ils soient parfaitement secs (étape clé : une viande mouillée bout au lieu de saisir).",
+        "Faire chauffer une cocotte en fonte à feu vif avec 2 c.s. d'huile d'arachide. Saisir les cubes par lots de 5-6 sans surcharger, 2 min par face jusqu'à croûte brune intense. Réserver.",
+        "Faire colorer les lardons dans la même cocotte 3 min, ajouter les oignons grelots et les carottes égouttées, faire dorer 5 min.",
+        "Saupoudrer de farine, remuer 2 min pour cuire le roux à blanc-blond (élimine le goût cru de la farine). Ajouter le concentré de tomates, mélanger 1 min.",
+        "Déglacer avec le vin de marinade en grattant les sucs, faire réduire de moitié à feu vif (8 min) — cette réduction concentre les arômes et brûle l'alcool agressif.",
+        "Remettre la viande dans la cocotte, ajouter le fond de veau jusqu'à hauteur, l'ail, le bouquet garni. Saler légèrement, poivrer.",
+        "Couvrir, enfourner à 150 °C chaleur tournante pendant 2 h 30. La viande doit céder sous la fourchette sans s'effilocher.",
+        "Pendant ce temps, faire sauter les champignons dans une poêle très chaude avec 20 g de beurre, 4 min jusqu'à coloration dorée. Saler en fin de cuisson uniquement.",
+        "À la sortie du four, retirer le bouquet garni. Incorporer les champignons et le beurre restant en émulsion pour lustrer la sauce. Rectifier l'assaisonnement.",
+        "Servir dans des assiettes creuses chaudes, parsemer de persil ciselé. Accompagner de pommes vapeur ou de tagliatelles fraîches au beurre."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Bourguignon de bœuf en cubes (rayon boucherie)",
+          "qty": 1.2,
+          "unit": "kg"
+        },
+        {
+          "name": "Lardons fumés (sachet)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Vin rouge corsé (Côtes-du-Rhône, Bordeaux)",
+          "qty": 750,
+          "unit": "ml"
+        },
+        {
+          "name": "Bouillon de bœuf (cube + eau chaude)",
+          "qty": 300,
+          "unit": "ml"
+        },
+        {
+          "name": "Oignons jaunes émincés",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Carottes en rondelles",
+          "qty": 3,
+          "unit": "u"
+        },
+        {
+          "name": "Champignons de Paris en boîte (égouttés)",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Bouquet garni surgelé ou thym + laurier",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Farine",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Huile, sel, poivre",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Faire chauffer 2 c.s. d'huile dans une cocotte. Faire dorer les cubes de bœuf par petites quantités 2 min par face. Réserver.",
+        "Faire revenir les lardons et les oignons 5 min dans la cocotte, ajouter les carottes 3 min de plus.",
+        "Saupoudrer de farine, mélanger. Verser le vin rouge, ajouter le bouillon, l'ail écrasé, le bouquet garni. Saler, poivrer.",
+        "Remettre la viande, couvrir et faire mijoter à feu très doux 2 h 30 (la sauce doit frémir, pas bouillir). Remuer toutes les 30 min.",
+        "20 min avant la fin, ajouter les champignons égouttés. Servir avec des pâtes fraîches ou des pommes de terre vapeur."
+      ],
+      "story": "Plat emblématique de la Bourgogne, le bœuf bourguignon naît au XIXe siècle dans les fermes vigneronnes : on utilisait le vin local pour attendrir les morceaux de bœuf rustique. Escoffier l'élève au rang de classique de la grande cuisine française.",
+      "chefSecret": "Pour une sauce d'un brillant impeccable, terminer toujours par 20 g de beurre froid incorporés hors du feu en remuant la cocotte (jamais au fouet) — c'est ce qu'on appelle un \"monter au beurre\" qui nappe la viande comme un vernis."
+    },
+    {
+      "slug": "tarte-tatin",
+      "title": "Tarte Tatin",
+      "image": "/images/tarte-tatin-france.jpg",
+      "prepTime": 30,
+      "cookTime": 50,
+      "servings": 8,
+      "diets": [
+        "vegetarian"
+      ],
+      "category": "dessert",
+      "seasons": [
+        "autumn"
+      ],
+      "ingredients": [
+        {
+          "name": "Pommes Reinette du Canada (chair ferme et acidulée)",
+          "qty": 1.5,
+          "unit": "kg"
+        },
+        {
+          "name": "Sucre semoule blond",
+          "qty": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre AOP Charentes-Poitou doux",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "name": "Jus d'un demi-citron jaune",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Vanille Bourbon (gousse fendue grattée)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "PÂTE BRISÉE — Farine T55",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre AOP froid coupé en dés",
+          "qty": 125,
+          "unit": "g"
+        },
+        {
+          "name": "Sucre glace",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "name": "Jaune d'œuf",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Eau glacée",
+          "qty": 40,
+          "unit": "ml"
+        },
+        {
+          "name": "Fleur de sel (pâte)",
+          "qty": 3,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "PÂTE : sabler du bout des doigts la farine, le sucre glace, la fleur de sel et le beurre froid en dés jusqu'à obtenir une texture de gros sable (pas de chaleur des mains : la pâte craquerait).",
+        "Ajouter le jaune d'œuf et l'eau glacée, fraiser une seule fois sur le plan de travail avec la paume de la main pour homogénéiser sans corser le gluten. Bouler, filmer, réserver 1 h au frais.",
+        "Peler les pommes, les couper en deux, retirer le cœur au vide-pomme. Citronner les chairs pour éviter l'oxydation.",
+        "CARAMEL : verser le sucre dans un moule à manqué en cuivre (ou une poêle anti-adhérente épaisse de 24 cm allant au four). Chauffer à sec à feu moyen sans remuer, juste en faisant tourner le moule, jusqu'à obtenir un caramel ambré profond (180 °C).",
+        "Hors du feu, ajouter le beurre en parcelles et les graines de vanille. Remuer doucement avec une spatule pour obtenir un caramel beurré homogène (attention aux projections).",
+        "Disposer les demi-pommes serrées, bombé vers le bas, en rosace sur le caramel chaud (le bombé sera le \"dessus\" après retournement). Tasser : les pommes vont rendre du jus et se compacter.",
+        "Enfourner à 180 °C chaleur tournante 30 min jusqu'à ce que les pommes soient confites et le caramel remonté autour.",
+        "Pendant ce temps, abaisser la pâte brisée à 3 mm sur un plan fariné, en disque de 26 cm. Piquer à la fourchette.",
+        "Sortir le moule du four, déposer rapidement la pâte sur les pommes en rentrant les bords à l'intérieur du moule (cuvette). Refaire enfourner 25 min jusqu'à coloration dorée de la pâte.",
+        "Sortir du four, attendre 5 min (pas plus : le caramel collerait). Retourner d'un geste sec sur un plat de service plus grand. Servir tiède avec une cuillerée de crème crue d'Isigny ou une boule de glace vanille."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Pommes Golden ou Pink Lady",
+          "qty": 1.2,
+          "unit": "kg"
+        },
+        {
+          "name": "Sucre en poudre",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "name": "Beurre doux",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Pâte brisée pur beurre (rouleau)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Vanille en poudre (ou sucre vanillé)",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Jus de citron",
+          "qty": 1,
+          "unit": "c. à soupe"
+        }
+      ],
+      "commisSteps": [
+        "Préchauffer le four à 180 °C. Peler les pommes, les couper en quartiers, retirer les pépins. Arroser de jus de citron.",
+        "Dans un moule à tarte allant au four (24 cm), faire fondre le beurre avec le sucre et la vanille à feu moyen jusqu'à obtenir un caramel doré (5-6 min). Retirer du feu.",
+        "Disposer les quartiers de pomme serrés sur le caramel, bombé vers le bas. Tasser légèrement.",
+        "Recouvrir avec la pâte brisée déroulée, rentrer les bords à l'intérieur du moule. Piquer à la fourchette.",
+        "Enfourner 35 min jusqu'à ce que la pâte soit dorée. Attendre 5 min puis retourner sur un plat. Servir tiède avec une boule de glace vanille."
+      ],
+      "story": "Née en 1898 à l'Hôtel Tatin de Lamotte-Beuvron en Sologne par les sœurs Stéphanie et Caroline Tatin (qui auraient renversé une tarte par accident). Devenue le dessert français par excellence, défendue par les Maîtres Tatins qui en perpétuent la recette canonique.",
+      "chefSecret": "Pour un caramel sans amertume, ne JAMAIS remuer le sucre pendant la cuisson — incliner uniquement le moule. Et toujours arrêter la cuisson une nuance avant la couleur visée : la chaleur résiduelle continue le travail."
     }
   ]
 }

@@ -934,6 +934,378 @@
         "Pendant la cuisson, préparer le SIROP : dans une casserole, verser 200 g de sucre + 200 ml d'eau + le jus de citron. Porter à ébullition, laisser frémir 5 min. Couper le feu, ajouter le miel et mélanger. Quand le baklava sort du four BRÛLANT, verser IMMÉDIATEMENT le sirop FROID dessus dans toutes les découpes — ce choc thermique est la clé du croustillant. Laisser absorber 4 h minimum (toute une nuit c'est mieux). Parsemer des pistaches concassées avant de servir."
       ],
       "category": "dessert"
+    },
+    {
+      "slug": "gyros",
+      "title": "Gyros au Porc",
+      "image": "/images/gyros-grece.jpg",
+      "prepTime": 30,
+      "cookTime": 25,
+      "servings": 4,
+      "diets": [],
+      "category": "plat",
+      "ingredients": [
+        {
+          "name": "Échine de porc sans os en fines tranches (3 mm)",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "name": "Yaourt grec entier (10 % MG)",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive vierge extra de Kalamata",
+          "qty": 4,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vinaigre de vin rouge grec",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Ail dégermé écrasé",
+          "qty": 5,
+          "unit": "gousses"
+        },
+        {
+          "name": "Origan grec séché (rigani, plus puissant que l'origan italien)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Thym frais effeuillé",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika doux",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Cumin moulu",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Zeste d'un citron jaune",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Sel marin et poivre noir du moulin",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "TZATZIKI — Yaourt grec entier",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Concombre noa épépiné râpé",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail écrasé (tzatziki)",
+          "qty": 2,
+          "unit": "gousses"
+        },
+        {
+          "name": "Aneth frais ciselé",
+          "qty": 0.5,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Huile d'olive (tzatziki)",
+          "qty": 2,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Pita grecque épaisse (pas le pain libanais fin)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Tomates en quartiers",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge émincé finement",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Pommes de terre Bintje en frites maison (4 mm)",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "name": "Huile pour friture des frites",
+          "qty": 1,
+          "unit": "L"
+        }
+      ],
+      "steps": [
+        "MARINADE : dans un saladier, mélanger le yaourt, l'huile d'olive, le vinaigre, l'ail écrasé, les épices (origan, thym, paprika, cumin), le zeste de citron, 1 c.c. de sel et du poivre. Ajouter les tranches de porc, masser pour bien enrober. Filmer et faire mariner 4 h minimum (idéalement 12 h).",
+        "TZATZIKI : râper le concombre à la râpe à gros trous, le presser dans un linge propre pour extraire le maximum d'eau (étape clé : sans cela le tzatziki devient liquide). Mélanger avec le yaourt grec, l'ail écrasé, l'aneth, l'huile d'olive, 1 c.c. de sel. Filmer et réserver 1 h au frais pour que les saveurs se marient.",
+        "FRITES : éplucher les pommes de terre, les tailler en bâtonnets de 1 cm. Rincer abondamment pour éliminer l'amidon, sécher dans un linge.",
+        "Première cuisson des frites : plonger dans l'huile à 140 °C pendant 6 min jusqu'à tendreté sans coloration. Égoutter sur grille, refroidir 10 min.",
+        "Préchauffer le four en position gril à 250 °C. Disposer les tranches de porc égouttées de leur marinade en couches superposées sur un plat à gratin, en pressant fortement (effet broche gyros reconstituée).",
+        "Faire griller 20 min en retournant à mi-cuisson : la surface doit être bien grillée, presque noire par endroits, le cœur cuit mais juteux.",
+        "Sortir du four, faire reposer 5 min puis trancher en fines lamelles (façon broche traditionnelle).",
+        "Deuxième cuisson des frites : plonger dans l'huile à 180 °C pendant 3 min jusqu'à doré croustillant. Égoutter, saler.",
+        "Faire chauffer les pitas à sec dans une poêle 30 s par face (juste tiédies, pas grillées).",
+        "DRESSAGE : sur chaque pita, étaler 2 c.s. de tzatziki, déposer une généreuse portion de lamelles de porc, ajouter quelques quartiers de tomate, un peu d'oignon rouge émincé, et une poignée de frites maison directement dans le sandwich (signature grecque authentique).",
+        "Rouler la pita en cornet, envelopper la base dans un papier sulfurisé pour la prise en main. Servir immédiatement, tzatziki supplémentaire à part."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Émincé de porc (escalopes fines)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Yaourt grec",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 3,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Citron (jus + zeste)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Ail",
+          "qty": 3,
+          "unit": "gousses"
+        },
+        {
+          "name": "Origan séché",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Paprika",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "TZATZIKI — Yaourt grec",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Concombre",
+          "qty": 0.5,
+          "unit": "u"
+        },
+        {
+          "name": "Ail (tzatziki)",
+          "qty": 1,
+          "unit": "gousse"
+        },
+        {
+          "name": "Aneth ou menthe",
+          "qty": 1,
+          "unit": "bouquet"
+        },
+        {
+          "name": "Pita grecques (rayon traiteur)",
+          "qty": 4,
+          "unit": "u"
+        },
+        {
+          "name": "Tomate",
+          "qty": 2,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Frites surgelées",
+          "qty": 400,
+          "unit": "g"
+        }
+      ],
+      "commisSteps": [
+        "Mélanger le porc avec le yaourt, le jus et zeste de citron, l'huile, l'ail écrasé, l'origan, le paprika, sel et poivre. Faire mariner 30 min à 1 h au frais.",
+        "Tzatziki : râper le concombre, le presser fortement dans un linge pour extraire l'eau. Mélanger avec le yaourt, l'ail écrasé et l'aneth ciselée. Saler. Réserver au frais.",
+        "Faire cuire les frites surgelées selon les instructions du paquet (four 220 °C, 20 min).",
+        "Pendant ce temps, faire chauffer 2 c.s. d'huile dans une grande poêle à feu vif. Égoutter le porc et le faire dorer 8 min en remuant souvent pour bien le saisir.",
+        "Faire tiédir les pitas 30 s par face dans la poêle. Étaler le tzatziki, ajouter le porc, des dés de tomate, l'oignon émincé et quelques frites. Rouler en cornet et servir."
+      ],
+      "story": "Adapté grec du shawarma turc importé au début du XXe siècle par les réfugiés d'Asie Mineure, le gyros (\"qui tourne\" en grec) cuit traditionnellement sur broche verticale. Devenu plat de rue national, il se déguste matin, midi et soir dans tout le pays, des tavernes d'Athènes aux îles des Cyclades.",
+      "chefSecret": "Le rigani (origan grec sauvage cueilli en montagne) n'a RIEN à voir avec l'origan italien : il est 3 fois plus puissant et aromatique, avec des notes de menthe poivrée. Une vraie épicerie grecque ou méditerranéenne en vend — c'est ce qui transforme un simple porc grillé en gyros authentique."
+    },
+    {
+      "slug": "salade-grecque",
+      "title": "Salade Grecque (Horiátiki)",
+      "image": "/images/salade-grecque-grece.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "servings": 4,
+      "diets": [
+        "vegetarian",
+        "gluten-free"
+      ],
+      "category": "entree",
+      "seasons": [
+        "summer"
+      ],
+      "ingredients": [
+        {
+          "name": "Tomates anciennes mûres (Coeur de Boeuf ou Marmande)",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "name": "Concombre noa épépiné",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron vert long type ramiro",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge de Tropea (doux et croquant)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Olives noires de Kalamata AOP avec leurs noyaux",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Câpres de Santorin au sel (rincées)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Feta AOP de Grèce continentale en bloc (jamais émiettée à l'avance)",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Origan grec séché (rigani)",
+          "qty": 2,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Huile d'olive vierge extra de Kalamata ou Crète",
+          "qty": 6,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vinaigre de vin rouge grec (optionnel, traditionnellement zéro vinaigre)",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Sel marin de Messolongi (fleur de sel)",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivre noir du moulin",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Pain rustique de campagne (à servir nature pour saucer)",
+          "qty": 4,
+          "unit": "tranches"
+        }
+      ],
+      "steps": [
+        "Sortir tous les ingrédients du réfrigérateur 30 min avant pour qu'ils soient à température ambiante (le froid masque les arômes).",
+        "Laver les tomates, retirer le pédoncule. Les couper en gros quartiers irréguliers (jamais en dés) : la salade horiátiki authentique se compose de gros morceaux qu'on prend à la fourchette.",
+        "Éplucher le concombre une bande sur deux (effet zébré décoratif et apport de chair tendre). Le couper en grosses rondelles de 5 mm puis en demi-lunes.",
+        "Équeuter et épépiner le poivron, le couper en lanières de 5 mm de large.",
+        "Éplucher l'oignon rouge, le couper en rondelles fines de 2 mm (la finesse adoucit la pungence).",
+        "Dans un grand saladier d'un seul tenant en céramique, déposer tomates, concombre, poivron et oignon. Mélanger délicatement à la main (la main respecte les chairs mieux qu'une cuillère).",
+        "Ajouter les olives Kalamata entières (jamais dénoyautées : le noyau préserve la chair et le goût) et les câpres rincées.",
+        "Saler généreusement à la fleur de sel, poivrer.",
+        "Verser l'huile d'olive en spirale (et éventuellement le vinaigre, mais les puristes grecs n'en mettent jamais : l'acidité vient de la tomate mûre).",
+        "DRESSAGE FINAL — l'horiátiki authentique : déposer le bloc entier de feta AOP directement sur le dessus de la salade (jamais émietté), parsemer l'origan grec sur la feta uniquement (signature visuelle).",
+        "Servir immédiatement avec du pain rustique pour saucer l'huile d'olive parfumée qui s'accumule au fond du saladier (le \"papara\" — l'expression grecque pour cette dégustation finale)."
+      ],
+      "commisIngredients": [
+        {
+          "name": "Tomates fermes",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "name": "Concombre",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Poivron vert",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Oignon rouge",
+          "qty": 1,
+          "unit": "u"
+        },
+        {
+          "name": "Olives noires dénoyautées (à défaut de Kalamata)",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Feta en bloc",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Huile d'olive",
+          "qty": 5,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Vinaigre de vin rouge",
+          "qty": 1,
+          "unit": "c. à soupe"
+        },
+        {
+          "name": "Origan séché",
+          "qty": 1,
+          "unit": "c. à café"
+        },
+        {
+          "name": "Sel, poivre",
+          "qty": 1,
+          "unit": "u"
+        }
+      ],
+      "commisSteps": [
+        "Laver et couper les tomates en gros quartiers, le concombre en demi-rondelles, le poivron en lanières, l'oignon en rondelles fines.",
+        "Tout mélanger délicatement dans un grand saladier, ajouter les olives.",
+        "Saler, poivrer, verser l'huile d'olive et le vinaigre. Mélanger doucement.",
+        "Déposer le bloc de feta entier sur le dessus, parsemer d'origan séché sur la feta. Servir immédiatement avec du pain."
+      ],
+      "story": "Plat emblématique des tavernes de village grecques, l'horiátiki (\"de village\") est née de la simplicité paysanne — quelques légumes du jardin, l'olive locale, la feta du berger. Sa composition est sacrée et codifiée : aucune laitue, aucune vinaigrette élaborée, juste les produits de la terre méditerranéenne dans leur expression la plus pure.",
+      "chefSecret": "La règle d'or de l'horiátiki authentique : la feta se sert TOUJOURS en bloc entier sur le dessus, jamais émiettée. C'est au mangeur de la casser à la fourchette au moment de servir. L'origan séché ne se sème que sur la feta (jamais sur les légumes) — c'est la signature visuelle de la vraie horiátiki."
     }
   ]
 }
