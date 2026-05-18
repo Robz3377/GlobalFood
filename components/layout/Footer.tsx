@@ -24,6 +24,12 @@ export function Footer() {
           >
             Confidentialité
           </Link>
+          <Link
+            href="/connexion"
+            className="hover:text-ink transition-colors"
+          >
+            Connexion
+          </Link>
         </nav>
       </div>
     </footer>
