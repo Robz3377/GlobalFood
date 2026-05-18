@@ -1,9 +1,30 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="mt-20 border-t border-bone-deep">
-      <div className="mx-auto max-w-6xl px-4 md:px-6 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-sm text-ink-soft">
-        <p className="font-serif text-base text-ink">Map and Fork</p>
-        <p>Cuisiner le monde, une recette à la fois.</p>
+      <div className="mx-auto max-w-6xl px-4 md:px-6 py-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between text-sm text-ink-soft">
+        <div>
+          <p className="font-serif text-base text-ink">Map and Fork</p>
+          <p className="mt-1">Cuisiner le monde, une recette à la fois.</p>
+        </div>
+        <nav
+          aria-label="Liens légaux"
+          className="flex items-center gap-5"
+        >
+          <Link
+            href="/mentions-legales"
+            className="hover:text-ink transition-colors"
+          >
+            Mentions légales
+          </Link>
+          <Link
+            href="/confidentialite"
+            className="hover:text-ink transition-colors"
+          >
+            Confidentialité
+          </Link>
+        </nav>
       </div>
     </footer>
   );
