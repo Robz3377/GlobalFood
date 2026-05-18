@@ -61,7 +61,7 @@ export default function Home() {
             Les pays disponibles
           </h2>
           <span className="font-serif italic text-sm text-ink-soft">
-            10 destinations
+            {countries.length} destinations
           </span>
         </header>
         <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">

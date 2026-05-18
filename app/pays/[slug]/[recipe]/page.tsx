@@ -8,7 +8,7 @@ import { getCountriesIndex, getRecipe } from "@/lib/data";
 
 export function generateStaticParams() {
   // L'index allégé contient tous les recipeSlugs par pays — suffit pour
-  // pré-rendre les 50 pages au build sans charger les recettes complètes.
+  // pré-rendre toutes les pages au build sans charger les recettes complètes.
   return getCountriesIndex().flatMap((country) =>
     country.recipeSlugs.map((recipeSlug) => ({
       slug: country.slug,

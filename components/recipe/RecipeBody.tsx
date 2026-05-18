@@ -68,7 +68,7 @@ export function RecipeBody({ country, recipe }: Props) {
   const [servings, setServings] = useState<number>(baseline);
   const totalTime = recipe.prepTime + recipe.cookTime;
   // Toggle Brigade disponible si la recette a la variante Commis.
-  // Depuis la migration des 50 recettes (lots 1-10), toutes les recettes
+  // Depuis la migration des recettes (lots 1-10), toutes les recettes
   // existantes ont commisSteps. Le champ reste optionnel pour permettre
   // d'ajouter des recettes "Chef-only" sans variante Commis dans le futur.
   const hasCommisMode =

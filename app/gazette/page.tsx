@@ -11,9 +11,9 @@ export const metadata = {
 
 // La page Gazette a besoin du champ `story` (présent uniquement dans la
 // recette complète, pas dans l'index allégé). On charge donc tous les pays
-// via getAllRecipesFull() qui résout les 10 dynamic imports en parallèle.
-// Exécuté côté serveur — le payload résultant ne contient que les recettes
-// avec story (filtrées), pas les 50 recettes complètes.
+// via getAllRecipesFull() qui résout les dynamic imports de tous les pays
+// en parallèle. Exécuté côté serveur — le payload résultant ne contient que
+// les recettes avec story (filtrées), pas toutes les recettes complètes.
 export default async function GazettePage() {
   const all = await getAllRecipesFull();
   const stories = all

@@ -301,8 +301,8 @@ export function WorldGlobe({ countries, focusSlug, onFocusComplete }: Props) {
           polygonCapColor={(d: object) => {
             const c = getCountryFor(d as GeoFeature);
             if (!c) return "#E5E2D9"; // light gray, vector style
-            if (c.slug === focusSlug) return "#C65D3A";
-            return c.slug === hovered?.slug ? "#C65D3A" : "#A3B18A";
+            if (c.slug === focusSlug) return "#E65100";
+            return c.slug === hovered?.slug ? "#E65100" : "#A3B18A";
           }}
           polygonSideColor={(d: object) =>
             getCountryFor(d as GeoFeature)

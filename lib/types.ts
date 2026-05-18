@@ -39,7 +39,7 @@ export type CulturalEvent =
   | "carnaval"
   | "songkran"
   | "orthodox-easter"
-  // Nouveaux events v2.2 — couverture culturelle complète des 10 pays
+  // Nouveaux events v2.2 — couverture culturelle complète de tous les pays
   | "holi" // Inde, fête des couleurs, mars
   | "dia-de-los-muertos" // Mexique, 1-2 novembre
   | "hanami"; // Japon, contemplation cerisiers en fleurs, fin mars/début avril
@@ -80,7 +80,7 @@ export type Recipe = {
    * italien → mascarpone du frigo). Optionnel : si absent, le toggle
    * Commis affiche les ingrédients Chef en repli.
    *
-   * Note : depuis la migration des 50 recettes (lots 1-10), TOUTES les
+   * Note : depuis la migration des recettes (lots 1-10), TOUTES les
    * recettes existantes ont leur variante Commis. Le champ reste optionnel
    * pour permettre l'ajout futur de recettes "Chef-only" sans variante.
    */

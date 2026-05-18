@@ -139,8 +139,8 @@ export async function getRecipe(
 
 /**
  * Helper async pour les usages qui ont besoin de toutes les recettes
- * complètes (ex: page Gazette qui filtre sur `recipe.story`). Charge les
- * 10 pays en parallèle.
+ * complètes (ex: page Gazette qui filtre sur `recipe.story`). Charge tous
+ * les pays en parallèle.
  *
  * ⚠️ Évite à tout prix de l'utiliser depuis le root layout ou les Client
  * Components : tu retombes dans le problème du 454 KB serialisé. Utilise

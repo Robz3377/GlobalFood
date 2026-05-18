@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllRecipesIndex } from "@/lib/data";
 
 /**
  * Web App Manifest pour Map and Fork (PWA — "Add to Home Screen").
@@ -16,11 +17,11 @@ import type { MetadataRoute } from "next";
  * PWA), on utilise le PNG du logo source qui sert aussi de favicon principal.
  */
 export default function manifest(): MetadataRoute.Manifest {
+  const recipeCount = getAllRecipesIndex().length;
   return {
     name: "Map and Fork — Cuisine du monde",
     short_name: "Map and Fork",
-    description:
-      "Voyagez à travers la cuisine du monde via un globe 3D interactif et 84 recettes authentiques, accompagnées du secret du chef pour chaque plat.",
+    description: `Voyagez à travers la cuisine du monde via un globe 3D interactif et ${recipeCount} recettes authentiques, accompagnées du secret du chef pour chaque plat.`,
     start_url: "/",
     scope: "/",
     display: "standalone",

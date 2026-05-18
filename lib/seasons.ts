@@ -25,7 +25,7 @@ type EventDef = {
 };
 
 /**
- * Calendrier culturel élargi v2.2 — couvre les 10 pays disponibles.
+ * Calendrier culturel élargi v2.2 — couvre tous les pays disponibles.
  * Dates approximatives (les fêtes lunaires varient légèrement chaque
  * année) ; pour un produit réel, brancher sur une vraie API de calendrier
  * liturgique/lunaire.
