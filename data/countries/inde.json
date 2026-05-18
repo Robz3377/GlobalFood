@@ -1048,7 +1048,7 @@
     {
       "slug": "chicken-tikka-masala",
       "title": "Chicken Tikka Masala",
-      "image": "/images/chicken-tikka-masala-inde.jpg",
+      "image": "/images/chicken-tikka-masala-inde.png",
       "prepTime": 30,
       "cookTime": 40,
       "servings": 4,
@@ -1261,7 +1261,7 @@
     {
       "slug": "gulab-jamun",
       "title": "Gulab Jamun",
-      "image": "/images/gulab-jamun-inde.jpg",
+      "image": "/images/gulab-jamun-inde.png",
       "prepTime": 30,
       "cookTime": 25,
       "servings": 6,

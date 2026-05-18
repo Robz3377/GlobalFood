@@ -900,7 +900,7 @@
     {
       "slug": "katsu-curry",
       "title": "Katsu Curry",
-      "image": "/images/katsu-curry-japon.jpg",
+      "image": "/images/katsu-curry-japon.png",
       "prepTime": 25,
       "cookTime": 60,
       "servings": 4,
@@ -1085,7 +1085,7 @@
     {
       "slug": "glace-matcha",
       "title": "Glace au Matcha",
-      "image": "/images/glace-matcha-japon.jpg",
+      "image": "/images/glace-au-matcha-japon.png",
       "prepTime": 25,
       "cookTime": 10,
       "servings": 6,

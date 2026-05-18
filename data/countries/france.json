@@ -848,7 +848,7 @@
     {
       "slug": "boeuf-bourguignon",
       "title": "Bœuf Bourguignon",
-      "image": "/images/boeuf-bourguignon-france.jpg",
+      "image": "/images/boeuf-bourguignon-france.png",
       "prepTime": 30,
       "cookTime": 180,
       "servings": 6,
@@ -1018,7 +1018,7 @@
     {
       "slug": "tarte-tatin",
       "title": "Tarte Tatin",
-      "image": "/images/tarte-tatin-france.jpg",
+      "image": "/images/tarte-tatin-france.png",
       "prepTime": 30,
       "cookTime": 50,
       "servings": 8,

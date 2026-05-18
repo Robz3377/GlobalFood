@@ -961,7 +961,7 @@
     {
       "slug": "quesadillas",
       "title": "Quesadillas au Queso Oaxaca",
-      "image": "/images/quesadillas-mexique.jpg",
+      "image": "/images/quesadillas-mexique.png",
       "prepTime": 20,
       "cookTime": 15,
       "servings": 4,
@@ -1123,7 +1123,7 @@
     {
       "slug": "churros",
       "title": "Churros au Chocolat",
-      "image": "/images/churros-mexique.jpg",
+      "image": "/images/churros-mexique.png",
       "prepTime": 20,
       "cookTime": 20,
       "servings": 4,

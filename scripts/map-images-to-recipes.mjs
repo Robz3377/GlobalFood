@@ -63,6 +63,12 @@ const NAMING_EXCEPTIONS = {
   "pastilla-poulet": "pastilla-de-poulet-maroc", // "de"
   "briouates": "briouates-au-miel-maroc", // "au miel" ajouté
   carbonara: "spaghetti-alla-carbonara-italie", // titre complet préféré au slug
+  // v2.9 — 34 photos restantes ajoutées par l'user (mots insérés / titre
+  // complet) : seules ces 4 ne tombent pas sur un match exact ou préfixe.
+  "churrasco-picanha": "churrasco-de-picanha-bresil", // "de" inséré
+  "glace-matcha": "glace-au-matcha-japon", // "au" inséré
+  "yassa-poulet": "yassa-au-poulet-senegal", // "au" inséré
+  "lasagne-bolognese": "lasagne-alla-bolognese", // "alla" + sans -italie
 };
 
 // 1) Scan agnostique du dossier images

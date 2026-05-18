@@ -10,7 +10,7 @@
     {
       "slug": "pastels",
       "title": "Pastels au poisson",
-      "image": "/images/pastels-senegal.jpg",
+      "image": "/images/pastels-au-poisson-senegal.png",
       "prepTime": 30,
       "cookTime": 20,
       "servings": 4,
@@ -146,7 +146,7 @@
     {
       "slug": "thieboudienne",
       "title": "Thiéboudienne",
-      "image": "/images/thieboudienne-senegal.jpg",
+      "image": "/images/thieboudienne-senegal.png",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 6,
@@ -340,7 +340,7 @@
     {
       "slug": "yassa-poulet",
       "title": "Yassa au poulet",
-      "image": "/images/yassa-poulet-senegal.jpg",
+      "image": "/images/yassa-au-poulet-senegal.png",
       "prepTime": 30,
       "cookTime": 60,
       "servings": 4,
@@ -490,7 +490,7 @@
     {
       "slug": "maafe",
       "title": "Maafé (ragoût à la pâte d'arachide)",
-      "image": "/images/maafe-senegal.jpg",
+      "image": "/images/maafe-ragout-a-la-pate-d-arachide-senegal.png",
       "prepTime": 20,
       "cookTime": 90,
       "servings": 6,
@@ -660,7 +660,7 @@
     {
       "slug": "thiakry",
       "title": "Thiakry (couscous de mil au lait)",
-      "image": "/images/thiakry-senegal.jpg",
+      "image": "/images/thiakry-couscous-de-mil-au-lait-senegal.png",
       "prepTime": 15,
       "cookTime": 25,
       "servings": 4,
@@ -779,7 +779,7 @@
     {
       "slug": "fataya",
       "title": "Fataya au Poisson",
-      "image": "/images/fataya-senegal.jpg",
+      "image": "/images/fataya-au-poisson-senegal.png",
       "prepTime": 35,
       "cookTime": 20,
       "servings": 4,
@@ -986,7 +986,7 @@
     {
       "slug": "soupou-kandja",
       "title": "Soupou Kandja (Gombo)",
-      "image": "/images/soupou-kandja-senegal.jpg",
+      "image": "/images/soupou-kandja-gombo-senegal.png",
       "prepTime": 30,
       "cookTime": 90,
       "servings": 6,

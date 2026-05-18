@@ -1002,7 +1002,7 @@
     {
       "slug": "mechoui",
       "title": "Mechoui d'Agneau",
-      "image": "/images/mechoui-maroc.jpg",
+      "image": "/images/mechoui-d-agneau-maroc.png",
       "prepTime": 30,
       "cookTime": 240,
       "servings": 8,
@@ -1191,7 +1191,7 @@
     {
       "slug": "baghrir",
       "title": "Baghrir aux Mille Trous",
-      "image": "/images/baghrir-maroc.jpg",
+      "image": "/images/baghrir-aux-mille-trous-maroc.png",
       "prepTime": 15,
       "cookTime": 20,
       "servings": 4,

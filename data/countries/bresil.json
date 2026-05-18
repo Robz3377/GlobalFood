@@ -942,7 +942,7 @@
     {
       "slug": "churrasco-picanha",
       "title": "Churrasco de Picanha",
-      "image": "/images/churrasco-picanha-bresil.jpg",
+      "image": "/images/churrasco-de-picanha-bresil.png",
       "prepTime": 20,
       "cookTime": 25,
       "servings": 6,
@@ -1125,7 +1125,7 @@
     {
       "slug": "caipirinha",
       "title": "Caipirinha",
-      "image": "/images/caipirinha-bresil.jpg",
+      "image": "/images/caipirinha-bresil.png",
       "prepTime": 5,
       "cookTime": 0,
       "servings": 1,

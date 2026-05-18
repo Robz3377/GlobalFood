@@ -938,7 +938,7 @@
     {
       "slug": "gyros",
       "title": "Gyros au Porc",
-      "image": "/images/gyros-grece.jpg",
+      "image": "/images/gyros-au-porc-grece.png",
       "prepTime": 30,
       "cookTime": 25,
       "servings": 4,
@@ -1154,7 +1154,7 @@
     {
       "slug": "salade-grecque",
       "title": "Salade Grecque (Horiátiki)",
-      "image": "/images/salade-grecque-grece.jpg",
+      "image": "/images/salade-grecque-horiatiki-grèce.png",
       "prepTime": 15,
       "cookTime": 0,
       "servings": 4,

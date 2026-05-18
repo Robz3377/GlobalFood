@@ -1015,7 +1015,7 @@
     {
       "slug": "chow-mein",
       "title": "Chow Mein au Bœuf",
-      "image": "/images/chow-mein-chine.jpg",
+      "image": "/images/chow-mein-au-boeuf-chine.png",
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
@@ -1228,7 +1228,7 @@
     {
       "slug": "baozi",
       "title": "Baozi au Porc Char Siu",
-      "image": "/images/baozi-chine.jpg",
+      "image": "/images/baozi-au-porc-char-siu-chine.png",
       "prepTime": 60,
       "cookTime": 20,
       "servings": 4,

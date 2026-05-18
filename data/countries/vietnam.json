@@ -10,7 +10,7 @@
     {
       "slug": "goi-cuon",
       "title": "Gỏi Cuốn (rouleaux de printemps)",
-      "image": "/images/goi-cuon-vietnam.jpg",
+      "image": "/images/goi-cuon-rouleaux-de-printemps-vietnam.png",
       "prepTime": 40,
       "cookTime": 10,
       "servings": 4,
@@ -178,7 +178,7 @@
     {
       "slug": "pho-bo",
       "title": "Phở Bò (soupe de nouilles au bœuf)",
-      "image": "/images/pho-bo-vietnam.jpg",
+      "image": "/images/pho-bo-soupe-de-nouilles-au-boeuf-vietnam.png",
       "prepTime": 30,
       "cookTime": 240,
       "servings": 4,
@@ -404,7 +404,7 @@
     {
       "slug": "banh-mi",
       "title": "Bánh Mì (sandwich vietnamien)",
-      "image": "/images/banh-mi-vietnam.jpg",
+      "image": "/images/banh-mi-sandwich-vietnamien-vietnam.png",
       "prepTime": 30,
       "cookTime": 20,
       "servings": 4,
@@ -617,7 +617,7 @@
     {
       "slug": "bun-cha",
       "title": "Bún Chả (porc grillé et vermicelles)",
-      "image": "/images/bun-cha-vietnam.jpg",
+      "image": "/images/bun-cha-porc-grille-et-vermicelles-vietnam.png",
       "prepTime": 30,
       "cookTime": 20,
       "servings": 4,
@@ -820,7 +820,7 @@
     {
       "slug": "che-chuoi",
       "title": "Chè Chuối (banane au lait de coco)",
-      "image": "/images/che-chuoi-vietnam.jpg",
+      "image": "/images/che-chuoi-banane-au-lait-de-coco-vietnam.png",
       "prepTime": 15,
       "cookTime": 25,
       "servings": 4,
@@ -931,7 +931,7 @@
     {
       "slug": "cha-gio",
       "title": "Chả Giò (Nems du Sud)",
-      "image": "/images/cha-gio-vietnam.jpg",
+      "image": "/images/cha-gio-nems-du-sud-vietnam.png",
       "prepTime": 45,
       "cookTime": 20,
       "servings": 4,
@@ -1153,7 +1153,7 @@
     {
       "slug": "ca-phe-sua-da",
       "title": "Cà Phê Sữa Đá",
-      "image": "/images/ca-phe-sua-da-vietnam.jpg",
+      "image": "/images/ca-phe-sua-da-vietnam.png",
       "prepTime": 5,
       "cookTime": 5,
       "servings": 1,

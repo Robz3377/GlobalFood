@@ -883,7 +883,7 @@
     {
       "slug": "massaman-curry",
       "title": "Massaman Curry de Bœuf",
-      "image": "/images/massaman-curry-thailande.jpg",
+      "image": "/images/massaman-curry-au-boeuf-thailande.png",
       "prepTime": 25,
       "cookTime": 150,
       "servings": 4,
@@ -1078,7 +1078,7 @@
     {
       "slug": "khao-soi",
       "title": "Khao Soi au Poulet",
-      "image": "/images/khao-soi-thailande.jpg",
+      "image": "/images/khao-soi-au-poulet-thailande.png",
       "prepTime": 25,
       "cookTime": 35,
       "servings": 4,

@@ -680,7 +680,7 @@
     {
       "slug": "lasagne-bolognese",
       "title": "Lasagne alla Bolognese",
-      "image": "/images/lasagne-bolognese-italie.jpg",
+      "image": "/images/lasagne-alla-bolognese.png",
       "prepTime": 60,
       "cookTime": 120,
       "servings": 8,
@@ -862,7 +862,7 @@
     {
       "slug": "panna-cotta",
       "title": "Panna Cotta alla Vaniglia",
-      "image": "/images/panna-cotta-italie.jpg",
+      "image": "/images/panna-cotta-italie.png",
       "prepTime": 15,
       "cookTime": 10,
       "servings": 4,
