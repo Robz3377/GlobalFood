@@ -1,9 +1,11 @@
 "use client";
 
 import { useCallback } from "react";
-import { useLocalStorage } from "./useLocalStorage";
+import { useSyncedStore, type RemoteSync } from "./useSyncedStore";
+import { pullHistory, mergeHistory, pushHistory } from "@/lib/sync/history";
 
 const KEY = "mapandfork.history";
+// NE JAMAIS retirer : migration silencieuse Global Food → Map and Fork.
 const LEGACY_KEY = "global-food.history";
 const MAX = 30;
 
@@ -13,11 +15,25 @@ export type HistoryEntry = {
   at: string;
 };
 
+// Constante de MODULE → identité stable (requis par useSyncedStore).
+const REMOTE: RemoteSync<HistoryEntry[]> = {
+  pull: pullHistory,
+  merge: mergeHistory,
+  push: pushHistory,
+};
+
+/**
+ * API publique inchangée (`history`, `log`, `hydrated`). Mode anonyme =
+ * comportement strictement identique à l'ancienne version localStorage.
+ * Une fois connecté, l'historique fusionne avec Supabase (30 dernières
+ * entrées, dé-dupliquées par useSyncedStore + mappers).
+ */
 export function useHistory() {
-  const [history, setHistory, hydrated] = useLocalStorage<HistoryEntry[]>(
+  const [history, setHistory, hydrated] = useSyncedStore<HistoryEntry[]>(
     KEY,
     [],
-    LEGACY_KEY
+    LEGACY_KEY,
+    REMOTE
   );
 
   const log = useCallback(
