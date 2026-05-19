@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { parseRecipeRef } from "@/lib/api/recipeRef";
+import { ratingWrite, publicRead } from "@/lib/rate-limit/upstash";
+import { enforce, userIdentifier, ipIdentifier } from "@/lib/rate-limit/guard";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -11,6 +13,9 @@ export const runtime = "nodejs";
  * l'utilisateur courant s'il est connecté.
  */
 export async function GET(request: Request) {
+  const rl = await enforce(publicRead, ipIdentifier(request));
+  if (rl) return rl;
+
   const { searchParams } = new URL(request.url);
   const ref = parseRecipeRef(
     searchParams.get("country"),
@@ -74,6 +79,9 @@ export async function PUT(request: Request) {
   if (!user) {
     return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
   }
+
+  const rl = await enforce(ratingWrite, userIdentifier(user.id));
+  if (rl) return rl;
 
   let payload: { country?: string; recipe?: string; score?: number };
   try {

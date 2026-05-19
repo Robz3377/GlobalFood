@@ -16,9 +16,15 @@ lexicographique** :
 | 2 | `20260518120100_profiles.sql` | `profiles` + trigger `on_auth_user_created` + RLS | 2 |
 | 3 | `20260518120200_passport_history.sql` | `passport_stamps`, `history_entries`, index, RLS | 2 |
 | 4 | `20260518120300_ratings_comments.sql` | `recipe_ratings`, `recipe_comments`, vue `recipe_rating_stats`, RLS | 3 |
+| 5 | `20260518120400_rate_limit_floor.sql` | Trigger plancher anti-abus commentaires (**optionnel**) | 4 |
 
 > ⚠️ Respecter l'ordre : `profiles` dépend de `set_updated_at()` ;
-> `passport/history/ratings/comments` référencent `auth.users`.
+> `passport/history/ratings/comments` référencent `auth.users` ;
+> le plancher anti-abus dépend de `recipe_comments` (migration 4).
+>
+> La migration 5 est **optionnelle** : la limitation de débit réelle est
+> applicative (Upstash). Ce trigger est un filet de sécurité grossier
+> (<100 commentaires/h/utilisateur) qui tient même si l'API est contournée.
 
 ## Appliquer
 
@@ -57,5 +63,8 @@ Copier-coller chaque fichier dans l'ordre du tableau et exécuter.
 - Mettre à jour `AGENTS.md` (la ligne « pas de variable d'environnement
   requise » devient fausse) et activer la section 7 de la politique de
   confidentialité **avant** toute première écriture serveur.
-- Limitation de débit (Phase 4) : non incluse ici (couche applicative
-  `@upstash/ratelimit` + plancher trigger Postgres optionnel).
+- Limitation de débit (Phase 4) : couche applicative livrée
+  (`lib/rate-limit/*`, `@upstash/ratelimit`). Variables d'env Vercel
+  requises pour l'activer : `UPSTASH_REDIS_REST_URL`,
+  `UPSTASH_REDIS_REST_TOKEN` (sinon no-op : aucune limite appliquée).
+  Plancher Postgres optionnel : migration 5 ci-dessus.

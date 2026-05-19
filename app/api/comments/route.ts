@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { parseRecipeRef } from "@/lib/api/recipeRef";
+import {
+  commentCreateMinute,
+  commentCreateDay,
+  publicRead,
+} from "@/lib/rate-limit/upstash";
+import { enforce, userIdentifier, ipIdentifier } from "@/lib/rate-limit/guard";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -17,6 +23,9 @@ const DEFAULT_LIMIT = 20;
  * pseudos en une 2ᵉ requête puis on mappe → évite une migration de FK.
  */
 export async function GET(request: Request) {
+  const rl = await enforce(publicRead, ipIdentifier(request));
+  if (rl) return rl;
+
   const { searchParams } = new URL(request.url);
   const ref = parseRecipeRef(
     searchParams.get("country"),
@@ -98,6 +107,12 @@ export async function POST(request: Request) {
   if (!user) {
     return NextResponse.json({ error: "Non authentifié" }, { status: 401 });
   }
+
+  const id = userIdentifier(user.id);
+  const rlMinute = await enforce(commentCreateMinute, id);
+  if (rlMinute) return rlMinute;
+  const rlDay = await enforce(commentCreateDay, id);
+  if (rlDay) return rlDay;
 
   let payload: { country?: string; recipe?: string; body?: string };
   try {

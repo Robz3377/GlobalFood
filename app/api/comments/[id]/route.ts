@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { commentEdit } from "@/lib/rate-limit/upstash";
+import { enforce, userIdentifier } from "@/lib/rate-limit/guard";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -36,6 +38,9 @@ export async function PATCH(request: Request, ctx: Ctx) {
   if ("error" in auth) {
     return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
+
+  const rl = await enforce(commentEdit, userIdentifier(auth.user.id));
+  if (rl) return rl;
 
   let payload: { body?: string };
   try {
