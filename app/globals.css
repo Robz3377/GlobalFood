@@ -303,19 +303,6 @@ h1, h2, h3, h4, .font-serif {
 
 /* === ANIMATIONS === */
 
-/* Entrée de route : fondu + léger glissement vers le haut. Rejoué à chaque
-   navigation via le wrapper app/template.tsx (.route-transition). */
-@keyframes routeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* Crossfade des contenus qui changent (bascule Chef ⇄ Commis). */
 @keyframes swapIn {
   from {
@@ -364,33 +351,13 @@ h1, h2, h3, h4, .font-serif {
   }
 }
 
-/* Transition de page — rejouée à chaque navigation (template.tsx remonte). */
-.route-transition {
-  animation: routeIn 320ms var(--ease-soft) both;
-}
-
-/* Amélioration progressive : crossfade natif via l'API View Transitions
-   pour les navigateurs qui la supportent (ignoré ailleurs — .route-transition
-   reste la base universelle). */
-@view-transition {
-  navigation: auto;
-}
-
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 320ms;
-  animation-timing-function: var(--ease-soft);
-}
+/* Les transitions de page sont gérées par Framer Motion
+   (components/transitions/PageTransition.tsx) — plus de mécanisme CSS ici
+   pour éviter une double animation. */
 
 @media (prefers-reduced-motion: reduce) {
   main,
-  .route-transition,
   .animate-\[liftIn_400ms_var\(--ease-soft\)_both\] {
-    animation: none !important;
-  }
-  ::view-transition-group(*),
-  ::view-transition-old(*),
-  ::view-transition-new(*) {
     animation: none !important;
   }
   *,
