@@ -303,10 +303,36 @@ h1, h2, h3, h4, .font-serif {
 
 /* === ANIMATIONS === */
 
-@keyframes pageIn {
+/* Entrée de route : fondu + léger glissement vers le haut. Rejoué à chaque
+   navigation via le wrapper app/template.tsx (.route-transition). */
+@keyframes routeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Crossfade des contenus qui changent (bascule Chef ⇄ Commis). */
+@keyframes swapIn {
   from {
     opacity: 0;
     transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Révélation douce d'une section au montage (parcours séquentiel recette). */
+@keyframes revealIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
   }
   to {
     opacity: 1;
@@ -326,30 +352,6 @@ h1, h2, h3, h4, .font-serif {
   }
 }
 
-@keyframes steam {
-  0% {
-    opacity: 0;
-    transform: translateY(0) scale(0.8);
-  }
-  40% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-14px) scale(1.2);
-  }
-}
-
-@keyframes wiggle {
-  0%,
-  100% {
-    transform: rotate(-3deg);
-  }
-  50% {
-    transform: rotate(3deg);
-  }
-}
-
 /* Pulse lent pour éléments d'attention (badges, dots de notification) */
 @keyframes pulseWarm {
   0%, 100% {
@@ -362,13 +364,33 @@ h1, h2, h3, h4, .font-serif {
   }
 }
 
-main {
-  animation: pageIn 280ms var(--ease-soft);
+/* Transition de page — rejouée à chaque navigation (template.tsx remonte). */
+.route-transition {
+  animation: routeIn 320ms var(--ease-soft) both;
+}
+
+/* Amélioration progressive : crossfade natif via l'API View Transitions
+   pour les navigateurs qui la supportent (ignoré ailleurs — .route-transition
+   reste la base universelle). */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 320ms;
+  animation-timing-function: var(--ease-soft);
 }
 
 @media (prefers-reduced-motion: reduce) {
   main,
+  .route-transition,
   .animate-\[liftIn_400ms_var\(--ease-soft\)_both\] {
+    animation: none !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
     animation: none !important;
   }
   *,

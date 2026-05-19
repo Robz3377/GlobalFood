@@ -1,29 +1,31 @@
-import { CookingPot } from "lucide-react";
+import Image from "next/image";
 
-export function CookingLoader({ message = "On prépare ça…" }: { message?: string }) {
+/**
+ * Écran de chargement de route (app/loading.tsx).
+ *
+ * Logo statique — aucune animation (cohérent avec SplashScreen). Le but est
+ * que l'utilisateur voie immédiatement l'identité de marque pendant la
+ * navigation, sans gadget. La transition de page (cf. app/template.tsx) se
+ * charge de la fluidité.
+ */
+export function CookingLoader({ message }: { message?: string }) {
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-bone/80 backdrop-blur-sm pointer-events-none">
       <div className="flex flex-col items-center gap-4">
-        <div className="relative">
-          {/* Steam dots */}
-          <span
-            className="absolute -top-3 left-2 h-1.5 w-1.5 rounded-full bg-ink-soft/50 animate-[steam_1.4s_ease-out_infinite]"
-            style={{ animationDelay: "0ms" }}
+        <span className="relative inline-flex h-20 w-20 overflow-hidden rounded-full ring-1 ring-bone-deep bg-bone-deep shadow-warm">
+          <Image
+            src="/images/logo-mapandfork.png"
+            alt=""
+            fill
+            priority
+            sizes="80px"
+            className="object-cover"
+            style={{ objectPosition: "center 25%" }}
           />
-          <span
-            className="absolute -top-3 left-5 h-1 w-1 rounded-full bg-ink-soft/50 animate-[steam_1.4s_ease-out_infinite]"
-            style={{ animationDelay: "350ms" }}
-          />
-          <span
-            className="absolute -top-3 left-8 h-1.5 w-1.5 rounded-full bg-ink-soft/50 animate-[steam_1.4s_ease-out_infinite]"
-            style={{ animationDelay: "700ms" }}
-          />
-          <CookingPot
-            className="h-12 w-12 text-terracotta animate-[wiggle_1.4s_ease-in-out_infinite]"
-            strokeWidth={1.75}
-          />
-        </div>
-        <p className="font-serif text-sm text-ink-soft">{message}</p>
+        </span>
+        {message && (
+          <p className="font-serif text-sm text-ink-soft">{message}</p>
+        )}
       </div>
     </div>
   );

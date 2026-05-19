@@ -12,14 +12,16 @@ import { useRouter, usePathname } from "next/navigation";
 import { Search, X } from "lucide-react";
 import { clsx } from "clsx";
 import { normalize } from "@/lib/text";
-import type { CountryIndex } from "@/lib/types-index";
+import type { CountryIndex, RecipeIndex } from "@/lib/types-index";
 
 type Props = {
+  recipes: RecipeIndex[];
+  /** Sert uniquement à afficher drapeau + nom du pays dans les résultats. */
   countries: CountryIndex[];
   className?: string;
 };
 
-export function SearchBar({ countries, className }: Props) {
+export function SearchBar({ recipes, countries, className }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const inputRef = useRef<HTMLInputElement | null>(null);
@@ -30,18 +32,26 @@ export function SearchBar({ countries, className }: Props) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
 
+  // Map countrySlug → meta pays (drapeau + nom) pour l'affichage.
+  const countryBySlug = useMemo(() => {
+    const m = new Map<string, CountryIndex>();
+    for (const c of countries) m.set(c.slug, c);
+    return m;
+  }, [countries]);
+
   const matches = useMemo(() => {
     const q = normalize(query);
     if (!q) return [];
-    return countries
-      .filter((c) => normalize(c.name).includes(q))
+    return recipes
+      .filter((r) => normalize(r.title).includes(q))
       .sort((a, b) => {
-        const aPrefix = normalize(a.name).startsWith(q) ? 0 : 1;
-        const bPrefix = normalize(b.name).startsWith(q) ? 0 : 1;
-        return aPrefix - bPrefix;
+        const aPrefix = normalize(a.title).startsWith(q) ? 0 : 1;
+        const bPrefix = normalize(b.title).startsWith(q) ? 0 : 1;
+        if (aPrefix !== bPrefix) return aPrefix - bPrefix;
+        return a.title.localeCompare(b.title, "fr");
       })
-      .slice(0, 6);
-  }, [countries, query]);
+      .slice(0, 8);
+  }, [recipes, query]);
 
   // Reset on path change
   useEffect(() => {
@@ -66,16 +76,11 @@ export function SearchBar({ countries, className }: Props) {
     setActive(0);
   }, [matches.length]);
 
-  function pick(country: CountryIndex) {
+  function pick(recipe: RecipeIndex) {
     setOpen(false);
     setQuery("");
     inputRef.current?.blur();
-    const params = new URLSearchParams({ focus: country.slug });
-    if (pathname === "/") {
-      router.replace(`/?${params.toString()}`);
-    } else {
-      router.push(`/?${params.toString()}`);
-    }
+    router.push(`/pays/${recipe.countrySlug}/${recipe.slug}`);
   }
 
   function onKey(e: KeyboardEvent<HTMLInputElement>) {
@@ -98,6 +103,7 @@ export function SearchBar({ countries, className }: Props) {
   }
 
   const showDropdown = open && query.length > 0;
+  const rowId = (r: RecipeIndex) => `${listboxId}-${r.countrySlug}-${r.slug}`;
 
   return (
     <div
@@ -123,12 +129,12 @@ export function SearchBar({ countries, className }: Props) {
           }}
           onFocus={() => query && setOpen(true)}
           onKeyDown={onKey}
-          placeholder="Rechercher un pays…"
-          aria-label="Rechercher un pays"
+          placeholder="Rechercher un plat…"
+          aria-label="Rechercher un plat"
           aria-controls={listboxId}
           aria-activedescendant={
             showDropdown && matches[active]
-              ? `${listboxId}-${matches[active].slug}`
+              ? rowId(matches[active])
               : undefined
           }
           className="h-11 w-full rounded-full bg-white pl-11 pr-10 text-sm border border-bone-deep shadow-[0_2px_8px_-2px_rgba(46,42,38,0.06)] outline-none focus:border-sage focus:shadow-[0_4px_16px_-4px_rgba(163,177,138,0.35)] transition-all placeholder:text-ink-soft/70"
@@ -158,39 +164,48 @@ export function SearchBar({ countries, className }: Props) {
               role="listbox"
               className="rounded-2xl bg-white shadow-[0_12px_40px_-10px_rgba(46,42,38,0.18)] border border-bone-deep py-1.5 max-h-72 overflow-auto"
             >
-              {matches.map((c, i) => (
-                <li
-                  key={c.slug}
-                  id={`${listboxId}-${c.slug}`}
-                  role="option"
-                  aria-selected={i === active}
-                >
-                  <button
-                    type="button"
-                    onMouseDown={(e) => e.preventDefault()}
-                    onClick={() => pick(c)}
-                    onMouseEnter={() => setActive(i)}
-                    className={clsx(
-                      "flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors",
-                      i === active ? "bg-sage-soft/50" : "hover:bg-bone-deep/40"
-                    )}
+              {matches.map((r, i) => {
+                const country = countryBySlug.get(r.countrySlug);
+                return (
+                  <li
+                    key={`${r.countrySlug}-${r.slug}`}
+                    id={rowId(r)}
+                    role="option"
+                    aria-selected={i === active}
                   >
-                    <span aria-hidden className="text-xl flex-none">
-                      {c.flag}
-                    </span>
-                    <span className="flex-1 font-medium text-ink truncate">
-                      {c.name}
-                    </span>
-                    <span className="text-xs text-ink-soft flex-none">
-                      {c.recipeSlugs.length} recettes
-                    </span>
-                  </button>
-                </li>
-              ))}
+                    <button
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => pick(r)}
+                      onMouseEnter={() => setActive(i)}
+                      className={clsx(
+                        "flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors",
+                        i === active
+                          ? "bg-sage-soft/50"
+                          : "hover:bg-bone-deep/40"
+                      )}
+                    >
+                      <span aria-hidden className="text-xl flex-none">
+                        {country?.flag ?? "🍽️"}
+                      </span>
+                      <span className="flex-1 min-w-0">
+                        <span className="block font-medium text-ink truncate">
+                          {r.title}
+                        </span>
+                        {country && (
+                          <span className="block text-xs text-ink-soft truncate">
+                            {country.name}
+                          </span>
+                        )}
+                      </span>
+                    </button>
+                  </li>
+                );
+              })}
             </ul>
           ) : (
             <div className="rounded-2xl bg-white shadow-[0_12px_40px_-10px_rgba(46,42,38,0.18)] border border-bone-deep px-4 py-3 text-sm text-ink-soft">
-              Aucun pays disponible pour « {query} ».
+              Aucun plat trouvé pour «&nbsp;{query}&nbsp;».
             </div>
           )}
         </div>

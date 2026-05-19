@@ -20,31 +20,38 @@ const SLOGANS: Record<StepsMode, string> = {
 /**
  * Sélecteur de Brigade : Chef culinaire ⇄ Commis de cuisine.
  *
- * - **Chef culinaire** 👨‍🍳 : techniques pointues, jargons, ingrédients de niche.
- *   Sélectionné = pilule terracotta (couleur signature "secret du chef").
- * - **Commis de cuisine** 🧑‍🍳 : ingrédients de supermarché, cuisson express.
- *   Sélectionné = pilule ochre.
- *
- * Le slogan du mode actif s'affiche en italique serif xs sous le toggle pour
- * donner le ton de chaque profil.
+ * La pastille de fond GLISSE d'un côté à l'autre (transform + crossfade de
+ * couleur terracotta⇄ochre, easing --ease-soft) au lieu d'un changement de
+ * fond brutal. Les deux boutons ont une largeur égale (grid-cols-2) pour que
+ * `translateX(0 | 100%)` de la pastille tombe pile en face.
  */
 export function StepsModeToggle({ mode, onChange }: Props) {
+  const isChef = mode === "chef";
   return (
     <div className="flex flex-col items-end gap-2 max-w-full">
       <div
         role="group"
         aria-label="Brigade : niveau de détail des étapes"
-        className="inline-flex rounded-full border border-bone-deep bg-white p-1 text-sm shadow-soft"
+        className="relative grid grid-cols-2 rounded-full border border-bone-deep bg-white p-1 text-sm shadow-soft"
       >
+        {/* Pastille glissante (sous les boutons) */}
+        <span
+          aria-hidden
+          className={clsx(
+            "pointer-events-none absolute inset-y-1 left-1 w-[calc(50%-0.25rem)] rounded-full shadow-warm",
+            "transition-[transform,background-color] duration-[250ms] ease-[var(--ease-soft)]",
+            isChef ? "bg-terracotta" : "bg-ochre"
+          )}
+          style={{ transform: isChef ? "translateX(0)" : "translateX(100%)" }}
+        />
         <button
           type="button"
           onClick={() => onChange("chef")}
-          aria-pressed={mode === "chef"}
+          aria-pressed={isChef}
           className={clsx(
-            "rounded-full px-3 md:px-4 h-9 inline-flex items-center gap-1.5 font-medium transition-all active:scale-95 whitespace-nowrap",
-            mode === "chef"
-              ? "bg-terracotta text-bone shadow-warm"
-              : "text-ink-soft hover:text-ink"
+            "relative z-10 rounded-full px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
+            "transition-colors duration-200 ease-[var(--ease-soft)] active:scale-95",
+            isChef ? "text-bone" : "text-ink-soft hover:text-ink"
           )}
         >
           <span aria-hidden>👨‍🍳</span>
@@ -53,12 +60,11 @@ export function StepsModeToggle({ mode, onChange }: Props) {
         <button
           type="button"
           onClick={() => onChange("commis")}
-          aria-pressed={mode === "commis"}
+          aria-pressed={!isChef}
           className={clsx(
-            "rounded-full px-3 md:px-4 h-9 inline-flex items-center gap-1.5 font-medium transition-all active:scale-95 whitespace-nowrap",
-            mode === "commis"
-              ? "bg-ochre text-bone shadow-warm"
-              : "text-ink-soft hover:text-ink"
+            "relative z-10 rounded-full px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
+            "transition-colors duration-200 ease-[var(--ease-soft)] active:scale-95",
+            !isChef ? "text-bone" : "text-ink-soft hover:text-ink"
           )}
         >
           <span aria-hidden>🧑‍🍳</span>

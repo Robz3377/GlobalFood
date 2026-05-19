@@ -36,7 +36,7 @@ export function DietFilter({
             aria-pressed={active}
             className={clsx(
               // Plus compact : padding réduit + text-[11px] au lieu de text-xs (12px)
-              "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-medium transition-colors border",
+              "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-medium border transition-all duration-200 ease-[var(--ease-soft)] active:scale-95",
               active
                 ? "bg-sage text-bone border-sage shadow-soft"
                 : "bg-white text-ink border-bone-deep hover:border-sage hover:bg-sage-soft/40"
@@ -51,7 +51,7 @@ export function DietFilter({
         <button
           type="button"
           onClick={() => onChange([])}
-          className="ml-1 text-[11px] text-ink-soft hover:text-terracotta-deep"
+          className="ml-1 text-[11px] text-ink-soft hover:text-terracotta-deep transition-colors duration-200 ease-[var(--ease-soft)]"
         >
           Effacer
         </button>

@@ -2,10 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { NavMenu } from "./NavMenu";
 import { SearchBar } from "@/components/search/SearchBar";
-import { getCountriesIndex } from "@/lib/data";
+import { getCountriesIndex, getAllRecipesIndex } from "@/lib/data";
 
 export function Header() {
   const countries = getCountriesIndex();
+  const recipes = getAllRecipesIndex();
   return (
     <header className="sticky top-0 z-30 bg-bone/85 backdrop-blur border-b border-bone-deep pt-[env(safe-area-inset-top)]">
       <div className="mx-auto max-w-6xl px-4 md:px-6 h-16 grid grid-cols-[auto_1fr_auto] items-center gap-3 md:gap-6">
@@ -40,7 +41,11 @@ export function Header() {
           </span>
         </Link>
         <div className="flex justify-center">
-          <SearchBar countries={countries} className="w-full max-w-md" />
+          <SearchBar
+            recipes={recipes}
+            countries={countries}
+            className="w-full max-w-md"
+          />
         </div>
         <NavMenu />
       </div>

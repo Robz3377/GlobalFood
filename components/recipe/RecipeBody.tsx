@@ -331,7 +331,7 @@ export function RecipeBody({ country, recipe }: Props) {
         <section
           id="ingredients"
           className={clsx(
-            "mx-auto max-w-3xl px-4 md:px-6",
+            "mx-auto max-w-3xl px-4 md:px-6 animate-[revealIn_280ms_var(--ease-soft)]",
             hasCommisMode ? "mt-6 md:mt-8" : "mt-10 md:mt-14"
           )}
         >
@@ -357,12 +357,19 @@ export function RecipeBody({ country, recipe }: Props) {
                 onInc={inc}
               />
             </div>
-            <RecipeIngredients
-              ingredients={activeIngredients}
-              servings={servings}
-              baseline={baseline}
-              collapsible
-            />
+            {/* key={mode} → remount animé (crossfade) au lieu d'un swap sec
+                quand on bascule Chef ⇄ Commis. */}
+            <div
+              key={`ing-${mode}`}
+              className="animate-[swapIn_220ms_var(--ease-soft)]"
+            >
+              <RecipeIngredients
+                ingredients={activeIngredients}
+                servings={servings}
+                baseline={baseline}
+                collapsible
+              />
+            </div>
             {hasCommisMode && !stepsRevealed && (
               <div className="mt-8 pt-6 border-t border-bone-deep flex flex-col gap-3">
                 <p className="text-sm text-ink-soft">
@@ -393,7 +400,7 @@ export function RecipeBody({ country, recipe }: Props) {
           // v2.3 : container élargi max-w-4xl (vs 3xl) + padding latéraux
           // réduits px-3 md:px-4 (vs px-4 md:px-6) → ~80px de plus en
           // largeur sur desktop, surface de lecture étapes maximisée.
-          className="mx-auto max-w-4xl px-3 md:px-4 mt-6 md:mt-8 pb-24"
+          className="mx-auto max-w-4xl px-3 md:px-4 mt-6 md:mt-8 pb-24 animate-[revealIn_280ms_var(--ease-soft)]"
         >
           {/* Padding intérieur réduit : p-4 md:p-7 (vs p-6 md:p-10) — moins
               d'espace perdu autour des étapes, plus de focus sur le texte. */}
@@ -419,7 +426,12 @@ export function RecipeBody({ country, recipe }: Props) {
                 <StepsModeToggle mode={mode} onChange={setStoredMode} />
               )}
             </header>
-            <StepList steps={activeSteps} />
+            <div
+              key={`steps-${mode}`}
+              className="animate-[swapIn_220ms_var(--ease-soft)]"
+            >
+              <StepList steps={activeSteps} />
+            </div>
           </div>
         </section>
       )}
