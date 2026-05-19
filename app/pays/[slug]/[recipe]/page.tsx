@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { RecipeImage } from "@/components/recipe/RecipeImage";
 import { RecipeBody } from "@/components/recipe/RecipeBody";
+import { RecipeFeedback } from "@/components/recipe/RecipeFeedback";
 import { PassportStamper } from "@/components/passport/PassportStamper";
 import { getCountriesIndex, getRecipe } from "@/lib/data";
 
@@ -84,6 +85,11 @@ export default async function RecipePage({
 
       {/* Corps interactif (titre + sticky bar interactif + story + ingrédients + steps) */}
       <RecipeBody country={country} recipe={r} />
+
+      {/* Avis communautaires (Phase 3) — notation + commentaires, branchés
+          sur /api/ratings et /api/comments. CSR : aucun impact sur le SSG
+          ni sur le LCP du hero. */}
+      <RecipeFeedback countrySlug={country.slug} recipeSlug={r.slug} />
     </main>
   );
 }

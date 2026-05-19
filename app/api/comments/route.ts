@@ -75,11 +75,18 @@ export async function GET(request: Request) {
     for (const p of profiles ?? []) names.set(p.id, p.display_name);
   }
 
+  // `mine` permet à l'UI d'afficher le bouton « supprimer » sans exposer
+  // les user_id bruts des autres commentateurs.
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
   const comments = (rows ?? []).map((r) => ({
     id: r.id,
     body: r.body,
     createdAt: r.created_at,
     author: names.get(r.user_id) ?? "Gourmet anonyme",
+    mine: user ? r.user_id === user.id : false,
   }));
 
   return NextResponse.json(
