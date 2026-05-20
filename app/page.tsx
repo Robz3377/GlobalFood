@@ -45,7 +45,12 @@ export default function Home() {
         <GlobeFrame totalCountries={countries.length}>
           <Suspense
             fallback={
-              <div className="aspect-[10/7] w-full rounded-soft-xl bg-gradient-to-b from-bone to-bone-deep shadow-paper animate-pulse" />
+              // Mêmes bornes que le globe réel (clamp(w*0.7, 360, 560)) →
+              // le swap fallback → canvas WebGL se fait SANS saut.
+              <div
+                aria-hidden
+                className="relative aspect-[10/7] min-h-[360px] max-h-[560px] w-full rounded-soft-lg bg-bone-deep overflow-hidden animate-pulse"
+              />
             }
           >
             <WorldMapClient countries={countries} />
