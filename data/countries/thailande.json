@@ -184,7 +184,9 @@
         "Ajouter les nouilles égouttées + toute la sauce. Mélanger à la pince ou aux baguettes 2 min jusqu'à ce que les nouilles absorbent la sauce et soient tendres et brillantes.",
         "Couper le feu. Ajouter les germes de soja, les ciboules et la moitié des cacahuètes. Mélanger brièvement (les germes doivent rester croquants). Servir immédiatement avec le reste des cacahuètes par-dessus et un quartier de citron vert à presser."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 19,
+      "commisCookTime": 5
     },
     {
       "slug": "curry-vert-poulet",
@@ -357,7 +359,9 @@
         "Verser le lait de coco, ajouter la sauce nuoc-mâm et le sucre roux. Porter à frémissement. Ajouter les carottes et l'aubergine. Couvrir et laisser mijoter 12 min à feu moyen — les légumes doivent être tendres.",
         "Ajouter les pois gourmands, cuire encore 3 min — ils doivent rester croquants. Couper le feu, ajouter le basilic et la coriandre ciselés. Servir chaud sur le riz jasmin."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 12,
+      "commisCookTime": 13
     },
     {
       "slug": "tom-yum-kung",
@@ -560,7 +564,9 @@
         "Couper LE FEU. C'est essentiel : c'est hors du feu qu'on ajoute le jus de citron vert (4 c.s.) pour garder son côté frais et acide. Mélanger.",
         "Servir immédiatement dans des bols brûlants avec la coriandre fraîche par-dessus. Si trouves les morceaux de citronnelle/gingembre/zeste, écarte-les de la cuillère en mangeant (ils ont parfumé mais ne se mangent pas)."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 14,
+      "commisCookTime": 9
     },
     {
       "slug": "som-tam",
@@ -726,7 +732,9 @@
         "Ajouter carottes, concombre, tomates et haricots verts. Mélanger délicatement à la main ou avec deux cuillères en bois en pressant légèrement pour que la sauce imprègne bien les légumes.",
         "Servir IMMÉDIATEMENT dans des assiettes creuses. Parsemer du reste des cacahuètes concassées, de coriandre et menthe ciselées. La salade ne se garder pas : la carotte rend de l'eau et la salade devient flasque en 30 min."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 14,
+      "commisCookTime": 0
     },
     {
       "slug": "mango-sticky-rice",
@@ -878,7 +886,9 @@
         "Peler les mangues et couper-les en tranches épaisses (ou en demi-cubes). Viser les plus mûres du rayon : la chair doit céder légèrement sous la pression.",
         "Dresser dans des assiettes : un dôme de riz coco au centre, les tranches de mangue posées à côté. Verser le topping crémeux sur le riz (et un peu sur la mangue si veux). Parsemer de graines de sésame torréfiées. Servir tiède ou à température ambiante — JAMAIS froid (le riz devient dur)."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 17,
+      "commisCookTime": 12
     },
     {
       "slug": "massaman-curry",
@@ -1073,7 +1083,9 @@
         "Pendant la cuisson, faire cuire le riz selon les instructions du paquet. Servir le curry dans des bols, parsemer de coriandre ciselée et accompagner du riz."
       ],
       "story": "Curry à l'influence musulmane du sud de la Thaïlande, le massaman est arrivé via les marchands persans au XVIIe siècle. Sa palette d'épices indiennes (cannelle, anis, cardamome) le distingue des autres curries thaï purement végétaux. Élu \"plat le plus délicieux au monde\" par CNN Travel en 2011.",
-      "chefSecret": "La technique du \"craquage\" de la crème de coco (faire sortir l'huile par évaporation) est l'âme du curry thaï authentique : on doit voir l'huile dorée se séparer en surface AVANT d'ajouter la pâte. Sans cette étape, le curry reste plat et terne, jamais cette profondeur de saveur signature."
+      "chefSecret": "La technique du \"craquage\" de la crème de coco (faire sortir l'huile par évaporation) est l'âme du curry thaï authentique : on doit voir l'huile dorée se séparer en surface AVANT d'ajouter la pâte. Sans cette étape, le curry reste plat et terne, jamais cette profondeur de saveur signature.",
+      "commisPrepTime": 14,
+      "commisCookTime": 70
     },
     {
       "slug": "khao-soi",
@@ -1276,7 +1288,9 @@
         "Faire cuire le reste des nouilles 4 min dans l'eau bouillante. Égoutter. Répartir dans 4 bols, verser le curry chaud avec le poulet, garnir de nouilles frites, échalotes marinées, cébettes et coriandre. Servir avec un quartier de citron vert."
       ],
       "story": "Plat emblématique de Chiang Mai et du nord de la Thaïlande, le khao soi (\"riz coupé\" en thaï du nord) est né des échanges avec les marchands musulmans du Yunnan chinois. Sa double texture — nouilles tendres dans le bouillon, nouilles frites croustillantes en couronne — est la signature visuelle de ce curry du nord.",
-      "chefSecret": "Le secret d'un khao soi authentique : utiliser à la fois la pâte rouge ET la pâte jaune en proportion 2:1. La rouge apporte la puissance épicée, la jaune (à base de curcuma) donne la couleur dorée et la rondeur florale. Les vendeurs de Chiang Mai gardent jalousement leurs proportions exactes — celle-ci se rapproche de Khao Soi Khun Yai, la référence absolue."
+      "chefSecret": "Le secret d'un khao soi authentique : utiliser à la fois la pâte rouge ET la pâte jaune en proportion 2:1. La rouge apporte la puissance épicée, la jaune (à base de curcuma) donne la couleur dorée et la rondeur florale. Les vendeurs de Chiang Mai gardent jalousement leurs proportions exactes — celle-ci se rapproche de Khao Soi Khun Yai, la référence absolue.",
+      "commisPrepTime": 14,
+      "commisCookTime": 16
     }
   ]
 }

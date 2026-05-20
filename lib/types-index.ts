@@ -37,6 +37,9 @@ export type RecipeIndex = {
   image: string;
   prepTime: number;
   cookTime: number;
+  /** Temps en mode Commis (optionnels — fallback prepTime/cookTime). */
+  commisPrepTime?: number;
+  commisCookTime?: number;
   servings: number;
   diets: Diet[];
   /** Catégorie culinaire — pour grouper sur /parcourir (v2.4). */

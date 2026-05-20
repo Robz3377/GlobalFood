@@ -101,7 +101,9 @@
         "Égoutter les pâtes en gardant un verre d'eau de cuisson. Verser-les directement dans la poêle aux lardons (hors du feu, c'est crucial : sinon l'œuf cuit en omelette).",
         "Verser le mélange œufs-parmesan sur les pâtes chaudes et mélanger à toute vitesse. Si c'est trop sec, ajouter de l'eau de cuisson cuillère par cuillère jusqu'à obtenir une sauce nappante. Servir immédiatement avec le reste de parmesan et du poivre."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 7,
+      "commisCookTime": 9
     },
     {
       "slug": "pizza-margherita",
@@ -229,7 +231,9 @@
         "Verser un filet d'huile d'olive en spirale. Enfourner 12-15 min, jusqu'à ce que les bords soient dorés et la mozzarella bien fondue.",
         "Sortir la pizza et ajouter le basilic frais maintenant (jamais avant : il brûler). Un dernier filet d'huile d'olive et manges à la main, tout de suite."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 20,
+      "commisCookTime": 12
     },
     {
       "slug": "risotto-milanese",
@@ -239,7 +243,6 @@
       "cookTime": 25,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "gluten-free"
       ],
       "seasons": [
@@ -367,7 +370,9 @@
         "Couper le feu. Ajouter le reste de beurrer froid en dés et le parmesan râpé. Mélanger vivement 1 min : dois obtenir une texture crémeuse \"à la vague\". Saler et poivre.",
         "Servir tout de suite dans des assiettes chaudes, avec un peu de parmesan en plus sur le dessus."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 9,
+      "commisCookTime": 13
     },
     {
       "slug": "osso-buco",
@@ -552,7 +557,9 @@
         "Laisser mijoter à feu très doux 1 h 30, en retournant les jarrets à mi-cuisson. La viande doit se détacher facilement de l'os. Si la sauce est trop liquide en fin de cuisson, retirer le couvercle 10 min pour réduire.",
         "Servir avec un risotto, des pâtes fraîches ou de la polenta pour bien saucer."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 18,
+      "commisCookTime": 61
     },
     {
       "slug": "tiramisu",
@@ -675,7 +682,9 @@
         "Tremper rapidement chaque boudoir dans le café (1 seconde max, sinon ils se gorgent et s'effondrent). Tapisser le fond d'un plat carré avec une première couche. Couvrir de la moitié de la crème. Refaire une couche de boudoirs trempés, puis le reste de crème en lissant.",
         "Filmer et placer au frais 4 h minimum (12 h c'est encore meilleur). Au moment de servir, saupoudrer généreusement de cacao amer au tamis."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 17,
+      "commisCookTime": 0
     },
     {
       "slug": "lasagne-bolognese",
@@ -857,7 +866,9 @@
         "Enfourner 35 min jusqu'à coloration dorée. Faire reposer 10 min avant de servir."
       ],
       "story": "Plat emblématique de Bologne, codifié en 1982 par l'Académie Italienne de Cuisine. La vraie version utilise des tagliatelles plates et larges (jamais des spaghettis), et les lasagne al forno bolonaises se distinguent par leur pâte verte aux épinards traditionnelle.",
-      "chefSecret": "Le secret du ragù bolonais authentique : ajouter du LAIT après le vin. Les protéines lactiques arrondissent l'acidité de la tomate et tendresent les fibres de la viande — résultat, une sauce d'une rondeur incomparable."
+      "chefSecret": "Le secret du ragù bolonais authentique : ajouter du LAIT après le vin. Les protéines lactiques arrondissent l'acidité de la tomate et tendresent les fibres de la viande — résultat, une sauce d'une rondeur incomparable.",
+      "commisPrepTime": 33,
+      "commisCookTime": 56
     },
     {
       "slug": "panna-cotta",
@@ -867,7 +878,6 @@
       "cookTime": 10,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "gluten-free"
       ],
       "category": "dessert",
@@ -968,7 +978,9 @@
         "Mixer les fraises avec le sucre glace pour obtenir un coulis. Verser sur les panna cotta au moment de servir."
       ],
       "story": "Dessert emblématique du Piémont, la panna cotta (\"crème cuite\") serait née au XXe siècle dans les vallées des Langhe. Sa simplicité absolue — crème, sucre, gélatine, vanille — exige une crème d'exception : c'est la matière première qui fait tout.",
-      "chefSecret": "Ne JAMAIS faire bouillir la crème : à 85 °C, les protéines se dénaturent juste assez pour développer l'onctuosité, sans casser la structure ni faire de peau. Un thermomètre est indispensable pour les pros."
+      "chefSecret": "Ne JAMAIS faire bouillir la crème : à 85 °C, les protéines se dénaturent juste assez pour développer l'onctuosité, sans casser la structure ni faire de peau. Un thermomètre est indispensable pour les pros.",
+      "commisPrepTime": 9,
+      "commisCookTime": 5
     }
   ]
 }

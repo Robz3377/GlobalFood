@@ -228,7 +228,9 @@
         "MONTAGE : dans un plat à gratin (~25×35 cm), disposer une première couche d'aubergines grillées. Couvrir de la moitié de la sauce viande. Re-couche d'aubergines. Verser le reste de sauce viande. Terminer par les aubergines restantes. Napper de toute la béchamel en lissant. Saupoudrer du reste de parmesan râpé (40 g).",
         "Enfourner 35-40 min à 180 °C jusqu'à coloration dorée et bouillonnement. Laisser reposer 10 min hors du four avant de servir — c'est important pour que les couches se stabilisent et que les parts se tiennent au service."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 27,
+      "commisCookTime": 46
     },
     {
       "slug": "souvlaki",
@@ -237,10 +239,7 @@
       "prepTime": 25,
       "cookTime": 15,
       "servings": 4,
-      "diets": [
-        "dairy-free",
-        "gluten-free"
-      ],
+      "diets": [],
       "seasons": [
         "summer",
         "spring"
@@ -422,7 +421,9 @@
         "Pendant la cuisson, réchauffer les pains pita 20 s par face dans une poêle sécher bien chaude (ou 30 s au micro-ondes sous un torchon humide).",
         "Pour servir : ouvrir chaque pita en deux poches. Garnir de poulet sorti des brochettes, ajouter tomate, oignon rouge et 1 grosse cuillère de tzatziki. Manger à la main, c'est la tradition du street food grec."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 14,
+      "commisCookTime": 7
     },
     {
       "slug": "tzatziki-pita",
@@ -584,7 +585,9 @@
         "Au moment de servir : badigeonner les pitas d'un filet d'huile d'olive, saupoudrer d'origan séché. Réchauffer-les 1 min par face dans une poêle sécher bien chaude (ou 2 min au four à 200 °C). Couper-les en quartiers.",
         "Servir le tzatziki bien frais dans un bol creux avec un filet d'huile d'olive en finition, accompagné des quartiers de pita chauds à tremper. Se conserver 3 jours au frigo en bocal fermé."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 15,
+      "commisCookTime": 3
     },
     {
       "slug": "spanakopita",
@@ -768,7 +771,9 @@
         "MONTAGE : déposer 5 feuilles de brick beurrées au pinceau au fond du moule en étoile (elles débordent largement). Verser toute la farce d'épinards et égalise à la spatule. Replier les feuilles débordantes vers le centre comme un emballage cadeau. Couvrir de 5 autres feuilles beurrées en scellant les bords.",
         "Badigeonner la dernière couche de beurrer fondu, saupoudrer de graines de sésame. Enfourner 25-30 min à 180 °C jusqu'à coloration dorée intense et croustillante. Laisser reposer 10 min avant de couper en parts généreuses. Servir tiède ou à température ambiante."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 25,
+      "commisCookTime": 23
     },
     {
       "slug": "baklava",
@@ -933,7 +938,9 @@
         "Avec un couteau bien aiguisé, découpe le baklava AVANT cuisson en losanges ou rectangles de 4-5 cm (sinon il s'effrite après cuisson). Enfourner 35-40 min à 170 °C jusqu'à coloration dorée caramel.",
         "Pendant la cuisson, préparer le SIROP : dans une casserole, verser 200 g de sucre + 200 ml d'eau + le jus de citron. Porter à ébullition, laisser frémir 5 min. Couper le feu, ajouter le miel et mélanger. Quand le baklava sort du four BRÛLANT, verser IMMÉDIATEMENT le sirop FROID dessus dans toutes les découpes — ce choc thermique est la clé du croustillant. Laisser absorber 4 h minimum (toute une nuit c'est mieux). Parsemer des pistaches concassées avant de servir."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 33,
+      "commisCookTime": 33
     },
     {
       "slug": "gyros",
@@ -1149,7 +1156,9 @@
         "Faire tiédir les pitas 30 s par face dans la poêle. Étaler le tzatziki, ajouter le porc, des dés de tomate, l'oignon émincé et quelques frites. Rouler en cornet et servir."
       ],
       "story": "Adapté grec du shawarma turc importé au début du XXe siècle par les réfugiés d'Asie Mineure, le gyros (\"qui tourne\" en grec) cuit traditionnellement sur broche verticale. Devenu plat de rue national, il se déguste matin, midi et soir dans tout le pays, des tavernes d'Athènes aux îles des Cyclades.",
-      "chefSecret": "Le rigani (origan grec sauvage cueilli en montagne) n'a RIEN à voir avec l'origan italien : il est 3 fois plus puissant et aromatique, avec des notes de menthe poivrée. Une vraie épicerie grecque ou méditerranéenne en vend — c'est ce qui transforme un simple porc grillé en gyros authentique."
+      "chefSecret": "Le rigani (origan grec sauvage cueilli en montagne) n'a RIEN à voir avec l'origan italien : il est 3 fois plus puissant et aromatique, avec des notes de menthe poivrée. Une vraie épicerie grecque ou méditerranéenne en vend — c'est ce qui transforme un simple porc grillé en gyros authentique.",
+      "commisPrepTime": 17,
+      "commisCookTime": 12
     },
     {
       "slug": "salade-grecque",
@@ -1159,8 +1168,7 @@
       "cookTime": 0,
       "servings": 4,
       "diets": [
-        "vegetarian",
-        "gluten-free"
+        "vegetarian"
       ],
       "category": "entree",
       "seasons": [
@@ -1305,7 +1313,9 @@
         "Déposer le bloc de feta entier sur le dessus, parsemer d'origan séché sur la feta. Servir immédiatement avec du pain."
       ],
       "story": "Plat emblématique des tavernes de village grecques, l'horiátiki (\"de village\") est née de la simplicité paysanne — quelques légumes du jardin, l'olive locale, la feta du berger. Sa composition est sacrée et codifiée : aucune laitue, aucune vinaigrette élaborée, juste les produits de la terre méditerranéenne dans leur expression la plus pure.",
-      "chefSecret": "La règle d'or de l'horiátiki authentique : la feta se sert TOUJOURS en bloc entier sur le dessus, jamais émiettée. C'est au mangeur de la casser à la fourchette au moment de servir. L'origan séché ne se sème que sur la feta (jamais sur les légumes) — c'est la signature visuelle de la vraie horiátiki."
+      "chefSecret": "La règle d'or de l'horiátiki authentique : la feta se sert TOUJOURS en bloc entier sur le dessus, jamais émiettée. C'est au mangeur de la casser à la fourchette au moment de servir. L'origan séché ne se sème que sur la feta (jamais sur les légumes) — c'est la signature visuelle de la vraie horiátiki.",
+      "commisPrepTime": 8,
+      "commisCookTime": 0
     }
   ]
 }

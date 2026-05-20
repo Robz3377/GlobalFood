@@ -225,10 +225,10 @@
       "image": "/images/feijoada-complete-bresil.jpg",
       "prepTime": 30,
       "cookTime": 210,
+      "commisPrepTime": 20,
+      "commisCookTime": 90,
       "servings": 8,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [
         "autumn",
@@ -282,6 +282,8 @@
       "image": "/images/mocequa-de-poisson-bresil.png",
       "prepTime": 30,
       "cookTime": 30,
+      "commisPrepTime": 17,
+      "commisCookTime": 14,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -336,6 +338,8 @@
       "image": "/images/pao-de-queijo-bresil.png",
       "prepTime": 25,
       "cookTime": 25,
+      "commisPrepTime": 14,
+      "commisCookTime": 12,
       "servings": 6,
       "diets": [
         "vegetarian",
@@ -375,10 +379,10 @@
       "image": "/images/coxhinas-de-poulet-bresil.jpg",
       "prepTime": 90,
       "cookTime": 25,
+      "commisPrepTime": 50,
+      "commisCookTime": 12,
       "servings": 6,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "seasons": [
         "spring",
@@ -433,6 +437,8 @@
       "image": "/images/brigadeiros-bresil.png",
       "prepTime": 15,
       "cookTime": 18,
+      "commisPrepTime": 8,
+      "commisCookTime": 8,
       "servings": 8,
       "diets": [
         "vegetarian",
@@ -475,11 +481,10 @@
       "image": "/images/churrasco-de-picanha-bresil.png",
       "prepTime": 20,
       "cookTime": 25,
+      "commisPrepTime": 11,
+      "commisCookTime": 12,
       "servings": 6,
-      "diets": [
-        "gluten-free",
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [],
       "events": [
@@ -521,6 +526,8 @@
       "image": "/images/caipirinha-bresil.png",
       "prepTime": 5,
       "cookTime": 0,
+      "commisPrepTime": 5,
+      "commisCookTime": 0,
       "servings": 1,
       "diets": [
         "vegan",
@@ -550,6 +557,8 @@
       "image": "/images/mapo-tofu-chine.png",
       "prepTime": 20,
       "cookTime": 20,
+      "commisPrepTime": 11,
+      "commisCookTime": 9,
       "servings": 3,
       "diets": [
         "dairy-free"
@@ -605,6 +614,8 @@
       "image": "/images/canard-laque-pekinois-chine.png",
       "prepTime": 60,
       "cookTime": 90,
+      "commisPrepTime": 33,
+      "commisCookTime": 42,
       "servings": 6,
       "diets": [
         "dairy-free"
@@ -656,6 +667,8 @@
       "image": "/images/jiaozi-raviolis-chinois-chine.jpg",
       "prepTime": 75,
       "cookTime": 8,
+      "commisPrepTime": 41,
+      "commisCookTime": 4,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -706,6 +719,8 @@
       "image": "/images/nouilles-dan-dan-chine.png",
       "prepTime": 20,
       "cookTime": 15,
+      "commisPrepTime": 11,
+      "commisCookTime": 7,
       "servings": 2,
       "diets": [
         "dairy-free"
@@ -756,6 +771,8 @@
       "image": "/images/riz-cantonais-chine.png",
       "prepTime": 15,
       "cookTime": 12,
+      "commisPrepTime": 8,
+      "commisCookTime": 6,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -806,6 +823,8 @@
       "image": "/images/chow-mein-au-boeuf-chine.png",
       "prepTime": 25,
       "cookTime": 15,
+      "commisPrepTime": 14,
+      "commisCookTime": 7,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -858,10 +877,10 @@
       "image": "/images/baozi-au-porc-char-siu-chine.png",
       "prepTime": 60,
       "cookTime": 20,
+      "commisPrepTime": 25,
+      "commisCookTime": 15,
       "servings": 4,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "seasons": [],
       "events": [
@@ -909,6 +928,8 @@
       "image": "/images/coq-au-vin-france.jpg",
       "prepTime": 40,
       "cookTime": 150,
+      "commisPrepTime": 20,
+      "commisCookTime": 75,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -952,6 +973,8 @@
       "image": "/images/ratatouille-niçoise-france.jpg",
       "prepTime": 30,
       "cookTime": 60,
+      "commisPrepTime": 21,
+      "commisCookTime": 36,
       "servings": 6,
       "diets": [
         "vegan",
@@ -995,6 +1018,8 @@
       "image": "/images/bouillabaisse-marseillaise-france.png",
       "prepTime": 60,
       "cookTime": 75,
+      "commisPrepTime": 45,
+      "commisCookTime": 48,
       "servings": 6,
       "diets": [
         "dairy-free"
@@ -1049,6 +1074,8 @@
       "image": "/images/crepes-suzette-france.jpg",
       "prepTime": 25,
       "cookTime": 30,
+      "commisPrepTime": 19,
+      "commisCookTime": 19,
       "servings": 6,
       "diets": [
         "vegetarian"
@@ -1096,6 +1123,8 @@
       "image": "/images/quiche-lorraine-france.png",
       "prepTime": 30,
       "cookTime": 50,
+      "commisPrepTime": 19,
+      "commisCookTime": 27,
       "servings": 6,
       "diets": [],
       "category": "entree",
@@ -1134,6 +1163,8 @@
       "image": "/images/boeuf-bourguignon-france.png",
       "prepTime": 30,
       "cookTime": 180,
+      "commisPrepTime": 17,
+      "commisCookTime": 84,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -1178,6 +1209,8 @@
       "image": "/images/tarte-tatin-france.png",
       "prepTime": 30,
       "cookTime": 50,
+      "commisPrepTime": 17,
+      "commisCookTime": 23,
       "servings": 8,
       "diets": [
         "vegetarian"
@@ -1214,6 +1247,8 @@
       "image": "/images/moussaka-grece.png",
       "prepTime": 45,
       "cookTime": 90,
+      "commisPrepTime": 27,
+      "commisCookTime": 46,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -1267,11 +1302,10 @@
       "image": "/images/souvlaki-de-poulet-grece.jpg",
       "prepTime": 25,
       "cookTime": 15,
+      "commisPrepTime": 14,
+      "commisCookTime": 7,
       "servings": 4,
-      "diets": [
-        "dairy-free",
-        "gluten-free"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [
         "summer",
@@ -1317,6 +1351,8 @@
       "image": "/images/tzatziki-et-pita-grece.png",
       "prepTime": 25,
       "cookTime": 5,
+      "commisPrepTime": 15,
+      "commisCookTime": 3,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -1360,6 +1396,8 @@
       "image": "/images/spanakopita-grece.jpg",
       "prepTime": 45,
       "cookTime": 50,
+      "commisPrepTime": 25,
+      "commisCookTime": 23,
       "servings": 6,
       "diets": [
         "vegetarian"
@@ -1409,6 +1447,8 @@
       "image": "/images/baklava-aux-pistaches-grece.png",
       "prepTime": 60,
       "cookTime": 70,
+      "commisPrepTime": 33,
+      "commisCookTime": 33,
       "servings": 8,
       "diets": [
         "vegetarian"
@@ -1454,6 +1494,8 @@
       "image": "/images/gyros-au-porc-grece.png",
       "prepTime": 30,
       "cookTime": 25,
+      "commisPrepTime": 17,
+      "commisCookTime": 12,
       "servings": 4,
       "diets": [],
       "category": "plat",
@@ -1505,10 +1547,11 @@
       "image": "/images/salade-grecque-horiatiki-grèce.png",
       "prepTime": 15,
       "cookTime": 0,
+      "commisPrepTime": 8,
+      "commisCookTime": 0,
       "servings": 4,
       "diets": [
-        "vegetarian",
-        "gluten-free"
+        "vegetarian"
       ],
       "category": "entree",
       "seasons": [
@@ -1548,6 +1591,8 @@
       "image": "/images/butter-chicken-inde.png",
       "prepTime": 30,
       "cookTime": 45,
+      "commisPrepTime": 18,
+      "commisCookTime": 23,
       "servings": 4,
       "diets": [
         "gluten-free"
@@ -1599,12 +1644,12 @@
       "image": "/images/dhal-aux-lentilles-corail-inde.jpg",
       "prepTime": 15,
       "cookTime": 35,
+      "commisPrepTime": 8,
+      "commisCookTime": 16,
       "servings": 4,
       "diets": [
-        "vegan",
         "vegetarian",
-        "gluten-free",
-        "dairy-free"
+        "gluten-free"
       ],
       "category": "plat",
       "seasons": [
@@ -1659,10 +1704,10 @@
       "image": "/images/biryani-d-agneau-inde.png",
       "prepTime": 60,
       "cookTime": 120,
+      "commisPrepTime": 33,
+      "commisCookTime": 56,
       "servings": 6,
-      "diets": [
-        "gluten-free"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [
         "winter",
@@ -1723,11 +1768,11 @@
       "image": "/images/samosas-aux-legumes-inde.png",
       "prepTime": 60,
       "cookTime": 25,
+      "commisPrepTime": 33,
+      "commisCookTime": 12,
       "servings": 6,
       "diets": [
-        "vegan",
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "category": "entree",
       "seasons": [
@@ -1781,6 +1826,8 @@
       "image": "/images/chai-masala-inde.png",
       "prepTime": 5,
       "cookTime": 15,
+      "commisPrepTime": 5,
+      "commisCookTime": 7,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -1821,6 +1868,8 @@
       "image": "/images/chicken-tikka-masala-inde.png",
       "prepTime": 30,
       "cookTime": 40,
+      "commisPrepTime": 17,
+      "commisCookTime": 19,
       "servings": 4,
       "diets": [
         "gluten-free"
@@ -1873,6 +1922,8 @@
       "image": "/images/gulab-jamun-inde.png",
       "prepTime": 30,
       "cookTime": 25,
+      "commisPrepTime": 17,
+      "commisCookTime": 12,
       "servings": 6,
       "diets": [
         "vegetarian"
@@ -1918,6 +1969,8 @@
       "image": "/images/spaghetti-alla-carbonara-italie.png",
       "prepTime": 10,
       "cookTime": 15,
+      "commisPrepTime": 7,
+      "commisCookTime": 9,
       "servings": 2,
       "diets": [],
       "category": "plat",
@@ -1948,6 +2001,8 @@
       "image": "/images/pizza-margherita-italie.png",
       "prepTime": 60,
       "cookTime": 8,
+      "commisPrepTime": 20,
+      "commisCookTime": 12,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -1987,9 +2042,10 @@
       "image": "/images/risotto-alla-milanese-italie.png",
       "prepTime": 15,
       "cookTime": 25,
+      "commisPrepTime": 9,
+      "commisCookTime": 13,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "gluten-free"
       ],
       "category": "plat",
@@ -2027,6 +2083,8 @@
       "image": "/images/osso-buco-alla-milanese.png",
       "prepTime": 30,
       "cookTime": 120,
+      "commisPrepTime": 18,
+      "commisCookTime": 61,
       "servings": 4,
       "diets": [],
       "category": "plat",
@@ -2073,6 +2131,8 @@
       "image": "/images/tiramisu-classique-italie.png",
       "prepTime": 30,
       "cookTime": 0,
+      "commisPrepTime": 17,
+      "commisCookTime": 0,
       "servings": 6,
       "diets": [
         "vegetarian"
@@ -2111,6 +2171,8 @@
       "image": "/images/lasagne-alla-bolognese.png",
       "prepTime": 60,
       "cookTime": 120,
+      "commisPrepTime": 33,
+      "commisCookTime": 56,
       "servings": 8,
       "diets": [],
       "category": "plat",
@@ -2155,9 +2217,10 @@
       "image": "/images/panna-cotta-italie.png",
       "prepTime": 15,
       "cookTime": 10,
+      "commisPrepTime": 9,
+      "commisCookTime": 5,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "gluten-free"
       ],
       "category": "dessert",
@@ -2187,6 +2250,8 @@
       "image": "/images/ramen-shoyu-japon.png",
       "prepTime": 30,
       "cookTime": 90,
+      "commisPrepTime": 23,
+      "commisCookTime": 57,
       "servings": 2,
       "diets": [
         "dairy-free"
@@ -2233,10 +2298,11 @@
       "image": "/images/onigiri-au-saumon-japon.png",
       "prepTime": 20,
       "cookTime": 30,
+      "commisPrepTime": 12,
+      "commisCookTime": 15,
       "servings": 4,
       "diets": [
-        "dairy-free",
-        "gluten-free"
+        "dairy-free"
       ],
       "category": "entree",
       "seasons": [
@@ -2272,9 +2338,10 @@
       "image": "/images/tempura-de-legumes-japon.png",
       "prepTime": 25,
       "cookTime": 15,
+      "commisPrepTime": 14,
+      "commisCookTime": 7,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "dairy-free"
       ],
       "category": "entree",
@@ -2325,6 +2392,8 @@
       "image": "/images/gyoza-au-porc-japon.jpg",
       "prepTime": 60,
       "cookTime": 10,
+      "commisPrepTime": 36,
+      "commisCookTime": 5,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -2380,6 +2449,8 @@
       "image": "/images/katsudon-japon.jpg",
       "prepTime": 25,
       "cookTime": 25,
+      "commisPrepTime": 15,
+      "commisCookTime": 12,
       "servings": 2,
       "diets": [
         "dairy-free"
@@ -2431,6 +2502,8 @@
       "image": "/images/katsu-curry-japon.png",
       "prepTime": 25,
       "cookTime": 60,
+      "commisPrepTime": 14,
+      "commisCookTime": 28,
       "servings": 4,
       "diets": [],
       "category": "plat",
@@ -2476,6 +2549,8 @@
       "image": "/images/glace-au-matcha-japon.png",
       "prepTime": 25,
       "cookTime": 10,
+      "commisPrepTime": 14,
+      "commisCookTime": 5,
       "servings": 6,
       "diets": [
         "vegetarian",
@@ -2507,6 +2582,8 @@
       "image": "/images/tajine-de-poulet-au-citron-confit.png",
       "prepTime": 20,
       "cookTime": 75,
+      "commisPrepTime": 14,
+      "commisCookTime": 46,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -2552,11 +2629,11 @@
       "image": "/images/couscous-aux-sept-legumes-maroc.jpg",
       "prepTime": 40,
       "cookTime": 90,
+      "commisPrepTime": 22,
+      "commisCookTime": 42,
       "servings": 6,
       "diets": [
-        "vegan",
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "category": "plat",
       "seasons": [
@@ -2612,6 +2689,8 @@
       "image": "/images/pastilla-de-poulet-maroc.png",
       "prepTime": 45,
       "cookTime": 70,
+      "commisPrepTime": 25,
+      "commisCookTime": 33,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -2663,10 +2742,10 @@
       "image": "/images/harira-maroc.jpg",
       "prepTime": 25,
       "cookTime": 90,
+      "commisPrepTime": 15,
+      "commisCookTime": 60,
       "servings": 6,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "seasons": [
         "winter",
@@ -2721,6 +2800,8 @@
       "image": "/images/briouates-au-miel-maroc.png",
       "prepTime": 60,
       "cookTime": 20,
+      "commisPrepTime": 33,
+      "commisCookTime": 9,
       "servings": 8,
       "diets": [
         "vegetarian"
@@ -2765,10 +2846,11 @@
       "image": "/images/mechoui-d-agneau-maroc.png",
       "prepTime": 30,
       "cookTime": 240,
+      "commisPrepTime": 17,
+      "commisCookTime": 112,
       "servings": 8,
       "diets": [
-        "gluten-free",
-        "dairy-free"
+        "gluten-free"
       ],
       "category": "plat",
       "seasons": [],
@@ -2813,10 +2895,11 @@
       "image": "/images/baghrir-aux-mille-trous-maroc.png",
       "prepTime": 15,
       "cookTime": 20,
+      "commisPrepTime": 15,
+      "commisCookTime": 25,
       "servings": 4,
       "diets": [
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "category": "dessert",
       "seasons": [],
@@ -2854,6 +2937,8 @@
       "image": "/images/tacos-al-pastor-mexique.png",
       "prepTime": 45,
       "cookTime": 25,
+      "commisPrepTime": 27,
+      "commisCookTime": 13,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -2910,11 +2995,12 @@
       "image": "/images/guacamole-et-totopos-mexique.jpg",
       "prepTime": 15,
       "cookTime": 10,
+      "commisPrepTime": 8,
+      "commisCookTime": 5,
       "servings": 4,
       "diets": [
         "vegan",
         "vegetarian",
-        "gluten-free",
         "dairy-free"
       ],
       "category": "entree",
@@ -2953,6 +3039,8 @@
       "image": "/images/mole-poblano-mexique.png",
       "prepTime": 60,
       "cookTime": 120,
+      "commisPrepTime": 33,
+      "commisCookTime": 56,
       "servings": 6,
       "diets": [
         "dairy-free"
@@ -3016,10 +3104,10 @@
       "image": "/images/enchiladas-verdes-mexique.jpg",
       "prepTime": 30,
       "cookTime": 35,
+      "commisPrepTime": 17,
+      "commisCookTime": 16,
       "servings": 4,
-      "diets": [
-        "gluten-free"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [
         "spring",
@@ -3061,10 +3149,10 @@
       "image": "/images/chiles-rellenos-mexique.png",
       "prepTime": 35,
       "cookTime": 30,
+      "commisPrepTime": 21,
+      "commisCookTime": 15,
       "servings": 4,
-      "diets": [
-        "vegetarian"
-      ],
+      "diets": [],
       "category": "plat",
       "seasons": [
         "summer",
@@ -3108,6 +3196,8 @@
       "image": "/images/quesadillas-mexique.png",
       "prepTime": 20,
       "cookTime": 15,
+      "commisPrepTime": 11,
+      "commisCookTime": 7,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -3152,6 +3242,8 @@
       "image": "/images/churros-mexique.png",
       "prepTime": 20,
       "cookTime": 20,
+      "commisPrepTime": 11,
+      "commisCookTime": 9,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -3194,6 +3286,8 @@
       "image": "/images/pastels-au-poisson-senegal.png",
       "prepTime": 30,
       "cookTime": 20,
+      "commisPrepTime": 19,
+      "commisCookTime": 11,
       "servings": 4,
       "diets": [],
       "category": "entree",
@@ -3230,6 +3324,8 @@
       "image": "/images/thieboudienne-senegal.png",
       "prepTime": 30,
       "cookTime": 90,
+      "commisPrepTime": 18,
+      "commisCookTime": 45,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -3273,6 +3369,8 @@
       "image": "/images/yassa-au-poulet-senegal.png",
       "prepTime": 30,
       "cookTime": 60,
+      "commisPrepTime": 20,
+      "commisCookTime": 34,
       "servings": 4,
       "diets": [],
       "category": "plat",
@@ -3311,6 +3409,8 @@
       "image": "/images/maafe-ragout-a-la-pate-d-arachide-senegal.png",
       "prepTime": 20,
       "cookTime": 90,
+      "commisPrepTime": 12,
+      "commisCookTime": 46,
       "servings": 6,
       "diets": [],
       "category": "plat",
@@ -3354,6 +3454,8 @@
       "image": "/images/thiakry-couscous-de-mil-au-lait-senegal.png",
       "prepTime": 15,
       "cookTime": 25,
+      "commisPrepTime": 8,
+      "commisCookTime": 12,
       "servings": 4,
       "diets": [
         "vegetarian"
@@ -3387,10 +3489,10 @@
       "image": "/images/fataya-au-poisson-senegal.png",
       "prepTime": 35,
       "cookTime": 20,
+      "commisPrepTime": 19,
+      "commisCookTime": 9,
       "servings": 4,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "seasons": [],
       "events": [
@@ -3438,6 +3540,8 @@
       "image": "/images/soupou-kandja-gombo-senegal.png",
       "prepTime": 30,
       "cookTime": 90,
+      "commisPrepTime": 17,
+      "commisCookTime": 42,
       "servings": 6,
       "diets": [
         "gluten-free",
@@ -3486,6 +3590,8 @@
       "image": "/images/pad-thai-aux-crevettes-thailande.png",
       "prepTime": 25,
       "cookTime": 8,
+      "commisPrepTime": 19,
+      "commisCookTime": 5,
       "servings": 2,
       "diets": [
         "dairy-free"
@@ -3536,6 +3642,8 @@
       "image": "/images/curry-vert-au-poulet.jpg",
       "prepTime": 20,
       "cookTime": 25,
+      "commisPrepTime": 12,
+      "commisCookTime": 13,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -3582,6 +3690,8 @@
       "image": "/images/tom-yum-kung-thailande.png",
       "prepTime": 25,
       "cookTime": 20,
+      "commisPrepTime": 14,
+      "commisCookTime": 9,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -3637,6 +3747,8 @@
       "image": "/images/som-tam-salade-de-papaye-verte-thailande.png",
       "prepTime": 25,
       "cookTime": 0,
+      "commisPrepTime": 14,
+      "commisCookTime": 0,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -3684,6 +3796,8 @@
       "image": "/images/mango-sticky-rice-thailande.png",
       "prepTime": 30,
       "cookTime": 25,
+      "commisPrepTime": 17,
+      "commisCookTime": 12,
       "servings": 4,
       "diets": [
         "vegan",
@@ -3728,6 +3842,8 @@
       "image": "/images/massaman-curry-au-boeuf-thailande.png",
       "prepTime": 25,
       "cookTime": 150,
+      "commisPrepTime": 14,
+      "commisCookTime": 70,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -3777,6 +3893,8 @@
       "image": "/images/khao-soi-au-poulet-thailande.png",
       "prepTime": 25,
       "cookTime": 35,
+      "commisPrepTime": 14,
+      "commisCookTime": 16,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -3827,6 +3945,8 @@
       "image": "/images/goi-cuon-rouleaux-de-printemps-vietnam.png",
       "prepTime": 40,
       "cookTime": 10,
+      "commisPrepTime": 22,
+      "commisCookTime": 5,
       "servings": 4,
       "diets": [
         "gluten-free",
@@ -3869,6 +3989,8 @@
       "image": "/images/pho-bo-soupe-de-nouilles-au-boeuf-vietnam.png",
       "prepTime": 30,
       "cookTime": 240,
+      "commisPrepTime": 17,
+      "commisCookTime": 112,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -3924,6 +4046,8 @@
       "image": "/images/banh-mi-sandwich-vietnamien-vietnam.png",
       "prepTime": 30,
       "cookTime": 20,
+      "commisPrepTime": 18,
+      "commisCookTime": 10,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -3973,6 +4097,8 @@
       "image": "/images/bun-cha-porc-grille-et-vermicelles-vietnam.png",
       "prepTime": 30,
       "cookTime": 20,
+      "commisPrepTime": 18,
+      "commisCookTime": 10,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -4023,6 +4149,8 @@
       "image": "/images/che-chuoi-banane-au-lait-de-coco-vietnam.png",
       "prepTime": 15,
       "cookTime": 25,
+      "commisPrepTime": 11,
+      "commisCookTime": 15,
       "servings": 4,
       "diets": [
         "vegan",
@@ -4056,6 +4184,8 @@
       "image": "/images/cha-gio-nems-du-sud-vietnam.png",
       "prepTime": 45,
       "cookTime": 20,
+      "commisPrepTime": 25,
+      "commisCookTime": 9,
       "servings": 4,
       "diets": [
         "dairy-free"
@@ -4110,6 +4240,8 @@
       "image": "/images/ca-phe-sua-da-vietnam.png",
       "prepTime": 5,
       "cookTime": 5,
+      "commisPrepTime": 5,
+      "commisCookTime": 2,
       "servings": 1,
       "diets": [
         "vegetarian"

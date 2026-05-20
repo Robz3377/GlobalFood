@@ -168,7 +168,9 @@
         "Préchauffer 2 grands bols à l'eau chaude, vider-les. Déposer les nouilles dedans, verser le bouillon brûlant avec le poulet par-dessus.",
         "Garnir avec les demi-œufs, l'oignon vert ciselé, une feuille de nori entière posée sur le bord du bol et un filet d'huile de sésame. Servir immédiatement — un ramen tiède, c'est un ramen raté."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 23,
+      "commisCookTime": 57
     },
     {
       "slug": "onigiri-saumon",
@@ -178,8 +180,7 @@
       "cookTime": 30,
       "servings": 4,
       "diets": [
-        "dairy-free",
-        "gluten-free"
+        "dairy-free"
       ],
       "seasons": [
         "spring",
@@ -294,7 +295,9 @@
       "events": [
         "hanami"
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 12,
+      "commisCookTime": 15
     },
     {
       "slug": "tempura-legumes",
@@ -304,7 +307,6 @@
       "cookTime": 15,
       "servings": 4,
       "diets": [
-        "vegetarian",
         "dairy-free"
       ],
       "seasons": [
@@ -485,7 +487,9 @@
       "events": [
         "hanami"
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 14,
+      "commisCookTime": 7
     },
     {
       "slug": "gyoza-porc",
@@ -695,7 +699,9 @@
         "Verser 80 ml d'eau d'un coup (attention aux projections) et couvrir IMMÉDIATEMENT. Cuire à la vapeur 5 min. Découvrir, laisser l'eau s'évaporer 1 min. Terminer par un filet d'huile de sésame.",
         "Mélanger 4 c.s. de sauce soja + 2 c.s. de vinaigre de riz dans un petit bol — c'est la sauce. Servir les gyoza chauds, face dorée vers le haut."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 36,
+      "commisCookTime": 5
     },
     {
       "slug": "katsudon",
@@ -895,7 +901,9 @@
         "Couvrir, baisser à feu doux et cuire 1-2 min : l'œuf doit rester baveux (blanc pris, jaune coulant en surface). Couper le feu — la chaleur résiduelle terminer la cuisson.",
         "Remplir 2 grands bols de riz chaud à mi-hauteur. Faire glisser le tonkatsu-oignon-œuf avec sa sauce par-dessus. Parsemer de ciboule ciselée et manger immédiatement, à la cuillère."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 15,
+      "commisCookTime": 12
     },
     {
       "slug": "katsu-curry",
@@ -1080,7 +1088,9 @@
         "Couper les tonkatsu en lamelles. Servir le riz à côté du curry chaud, déposer les lamelles de porc dessus."
       ],
       "story": "Importé par la Royal Navy britannique dans les années 1870, le curry a été domestiqué par les Japonais en un plat sucré-épicé totalement original. Le katsu curry, qui ajoute une escalope panée, est devenu un favori des cantines scolaires et des izakaya depuis les années 1960.",
-      "chefSecret": "La pomme râpée est l'ingrédient secret qui distingue le curry japonais : elle apporte une douceur fruitée naturelle et arrondit les épices. Les chefs des grandes maisons en ajoutent parfois deux variétés (Granny Smith pour l'acide, Gala pour le sucré)."
+      "chefSecret": "La pomme râpée est l'ingrédient secret qui distingue le curry japonais : elle apporte une douceur fruitée naturelle et arrondit les épices. Les chefs des grandes maisons en ajoutent parfois deux variétés (Granny Smith pour l'acide, Gala pour le sucré).",
+      "commisPrepTime": 14,
+      "commisCookTime": 28
     },
     {
       "slug": "glace-matcha",
@@ -1176,7 +1186,9 @@
         "Servir en boules avec quelques framboises fraîches ou des copeaux de chocolat noir."
       ],
       "story": "Le matcha, poudre de thé vert moulue à la meule de pierre, est consommé au Japon depuis le XIIe siècle dans la cérémonie du thé (chanoyu). Sa transposition en dessert glacé est née dans les salons de Kyoto au XXe siècle, devenue depuis un emblème mondial de la pâtisserie japonaise contemporaine.",
-      "chefSecret": "Ne JAMAIS dissoudre le matcha à l'eau bouillante : au-delà de 70 °C, les catéchines libèrent leur amertume et la couleur vire au kaki triste. La règle d'or des maîtres de thé d'Uji : eau frémissante refroidie 2 min dans un bol froid, puis fouet bambou en \"M\"."
+      "chefSecret": "Ne JAMAIS dissoudre le matcha à l'eau bouillante : au-delà de 70 °C, les catéchines libèrent leur amertume et la couleur vire au kaki triste. La règle d'or des maîtres de thé d'Uji : eau frémissante refroidie 2 min dans un bol froid, puis fouet bambou en \"M\".",
+      "commisPrepTime": 14,
+      "commisCookTime": 5
     }
   ]
 }

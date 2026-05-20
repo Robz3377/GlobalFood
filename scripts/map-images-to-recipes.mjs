@@ -185,6 +185,8 @@ const index = {
       image: r.image,
       prepTime: r.prepTime,
       cookTime: r.cookTime,
+      commisPrepTime: r.commisPrepTime,
+      commisCookTime: r.commisCookTime,
       servings: r.servings,
       diets: r.diets,
       category: r.category,

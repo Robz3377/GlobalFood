@@ -221,7 +221,9 @@
         "Réchauffer les tortillas 30 s par face dans une poêle sécher bien chaude (ou 10 s au micro-ondes couvertes d'un torchon humide). Empiler-les dans un torchon pour qu'elles restent souples.",
         "Pour servir, déposer une cuillerée de porc sur chaque tortilla, garnir de quelques dés d'ananas, d'oignon rouge ciselé et de beaucoup de coriandre. Presser un quartier de citron vert juste avant de croquer."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 27,
+      "commisCookTime": 13
     },
     {
       "slug": "guacamole-totopos",
@@ -233,7 +235,6 @@
       "diets": [
         "vegan",
         "vegetarian",
-        "gluten-free",
         "dairy-free"
       ],
       "seasons": [
@@ -359,7 +360,9 @@
         "Ajouter l'oignon, la coriandre, les tomates, 1 pincée de piment et 1 c.c. de sel. Mélanger délicatement à la fourchette. Goûter, rectifie sel et citron vert.",
         "Servir immédiatement dans un grand bol avec les tortillas chips à côté pour piocher. Si dois attendre, poser un film plastique AU CONTACT du guacamole (jamais juste sur le bol) pour éviter qu'il noircisse."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 8,
+      "commisCookTime": 5
     },
     {
       "slug": "mole-poblano",
@@ -620,7 +623,9 @@
         "Replonger les cuisses de poulet dans la sauce, peau vers le haut. Couvrir et laisser mijoter à feu doux 25 min : la viande doit être tendre et se détacher de l'os.",
         "Servir chaud avec du riz blanc nature pour bien saucer. Parsemer de graines de sésame torréfiées juste avant de servir."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 33,
+      "commisCookTime": 56
     },
     {
       "slug": "enchiladas-verdes",
@@ -629,9 +634,7 @@
       "prepTime": 30,
       "cookTime": 35,
       "servings": 4,
-      "diets": [
-        "gluten-free"
-      ],
+      "diets": [],
       "seasons": [
         "spring",
         "summer"
@@ -786,7 +789,9 @@
       "events": [
         "dia-de-los-muertos"
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 17,
+      "commisCookTime": 16
     },
     {
       "slug": "chiles-rellenos",
@@ -795,9 +800,7 @@
       "prepTime": 35,
       "cookTime": 30,
       "servings": 4,
-      "diets": [
-        "vegetarian"
-      ],
+      "diets": [],
       "seasons": [
         "summer",
         "autumn"
@@ -956,7 +959,9 @@
       "events": [
         "dia-de-los-muertos"
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 21,
+      "commisCookTime": 15
     },
     {
       "slug": "quesadillas",
@@ -1118,7 +1123,9 @@
         "Couper en triangles. Servir avec la salsa verte, une cuillerée de crème fraîche et des dés d'avocat. Parsemer de coriandre ciselée."
       ],
       "story": "Plat de rue emblématique du Mexique, la quesadilla naît à l'époque coloniale dans l'État d'Oaxaca avec l'introduction du fromage par les Espagnols. À Mexico DF, on les vend frites (fritas) sur les marchés ; à Oaxaca, on les fait sur le comal traditionnel avec du queso filant local.",
-      "chefSecret": "La masa fraîche faite à partir de farine nixtamalisée (traitée à la chaux selon la tradition aztèque) est INCOMPARABLE aux tortillas industrielles. Le secret : un repos de 20 min après pétrissage pour que la farine s'hydrate complètement et donne une texture souple, jamais cassante."
+      "chefSecret": "La masa fraîche faite à partir de farine nixtamalisée (traitée à la chaux selon la tradition aztèque) est INCOMPARABLE aux tortillas industrielles. Le secret : un repos de 20 min après pétrissage pour que la farine s'hydrate complètement et donne une texture souple, jamais cassante.",
+      "commisPrepTime": 11,
+      "commisCookTime": 7
     },
     {
       "slug": "churros",
@@ -1273,7 +1280,9 @@
         "Pour la sauce : faire fondre le chocolat avec la crème chaude au bain-marie en remuant. Servir les churros tièdes avec la sauce chaude à part."
       ],
       "story": "Apportés par les Espagnols qui les tenaient eux-mêmes des bergers de l'Andalousie, les churros sont devenus au Mexique le petit-déjeuner-dessert national, indissociables du chocolat chaud épais signature (chocolate caliente). Les churrerias de Mexico DF ouvrent dès l'aube pour les noctambules.",
-      "chefSecret": "Le respect strict des 175 °C est non négociable : utiliser un thermomètre. Et pour des cannelures bien définies qui restent croustillantes, faire DESSÉCHER la pâte 2 min sur feu doux après ajout de la farine — c'est ce qui élimine l'eau résiduelle responsable de churros mous."
+      "chefSecret": "Le respect strict des 175 °C est non négociable : utiliser un thermomètre. Et pour des cannelures bien définies qui restent croustillantes, faire DESSÉCHER la pâte 2 min sur feu doux après ajout de la farine — c'est ce qui élimine l'eau résiduelle responsable de churros mous.",
+      "commisPrepTime": 11,
+      "commisCookTime": 9
     }
   ]
 }

@@ -173,7 +173,9 @@
         "Replier les bords gauche-droite vers le centre, puis rouler du bas vers le haut en serrant. Réserver les rouleaux séparés sur un plat. Servir frais avec la sauce."
       ],
       "story": "Délicats rouleaux frais du Sud-Vietnam, les gỏi cuốn arrivent en première étape d'un repas familial. La galette de riz transparente laisse voir les couleurs : rose des crevettes, vert de la menthe, blanc des vermicelles.",
-      "chefSecret": "Tremper la galette de riz dans l'eau tiède SEULEMENT 5 secondes (pas plus), puis poser-la sur un torchon humide. Elle finit de s'assouplir pendant qu'on la garnit."
+      "chefSecret": "Tremper la galette de riz dans l'eau tiède SEULEMENT 5 secondes (pas plus), puis poser-la sur un torchon humide. Elle finit de s'assouplir pendant qu'on la garnit.",
+      "commisPrepTime": 22,
+      "commisCookTime": 5
     },
     {
       "slug": "pho-bo",
@@ -399,7 +401,9 @@
         "Cuire les nouilles 4 min dans l'eau bouillante non salée. Égoutter, répartir dans 4 bols. Ajouter les tranches de gîte cuit + les lamelles de faux-filet cru. Verser le bouillon BRÛLANT par-dessus (cuit la viande crue à point). Garnir de pousses de soja, coriandre, citron vert. Sriracha au choix."
       ],
       "story": "Soupe nationale vietnamienne née à Hanoï au début du XXᵉ siècle, le phở est le petit-déjeuner traditionnel du Nord. Son bouillon clair-doré, parfumé à l'anis étoilé et au gingembre torréfié, est le secret de sa profondeur.",
-      "chefSecret": "TORRÉFIER le gingembre et l'oignon ENTIERS directement sur la flamme du gaz jusqu'à ce qu'ils noircissent. Cette caramélisation donne au bouillon sa couleur ambrée et son parfum signature."
+      "chefSecret": "TORRÉFIER le gingembre et l'oignon ENTIERS directement sur la flamme du gaz jusqu'à ce qu'ils noircissent. Cette caramélisation donne au bouillon sa couleur ambrée et son parfum signature.",
+      "commisPrepTime": 17,
+      "commisCookTime": 112
     },
     {
       "slug": "banh-mi",
@@ -612,7 +616,9 @@
         "Refermer en pressant. Servir immédiatement (les bánh mì se mangent dans la foulée)."
       ],
       "story": "Héritage de la colonisation française (la baguette) marié aux saveurs vietnamiennes (porc laqué, pickles, coriandre), le bánh mì est devenu un emblème de la cuisine de rue à Saïgon comme à Hanoï.",
-      "chefSecret": "Tartiner la baguette de mayonnaise sur UN côté intérieur et de pâté sur l'AUTRE : c'est ce qui imperméabilise le pain et l'empêche de se détremper du jus du porc."
+      "chefSecret": "Tartiner la baguette de mayonnaise sur UN côté intérieur et de pâté sur l'AUTRE : c'est ce qui imperméabilise le pain et l'empêche de se détremper du jus du porc.",
+      "commisPrepTime": 18,
+      "commisCookTime": 10
     },
     {
       "slug": "bun-cha",
@@ -815,7 +821,9 @@
         "Servir avec assiette de salade + herbes, bol de vermicelles à part. Manger en trempant vermicelles + herbes + porc dans le bouillon."
       ],
       "story": "Spécialité hanoïenne immortalisée par le déjeuner d'Anthony Bourdain et Barack Obama en 2016. Boulettes et tranches de porc grillé au charbon, vermicelles de riz froids, bol de bouillon tiède aigre-doux-pimenté — c'est un puzzle gustatif à assembler dans le bol.",
-      "chefSecret": "Le grillage AU CHARBON DE BOIS est non négociable pour les puristes : la fumée caramélise le miel de la marinade et donne le parfum signature."
+      "chefSecret": "Le grillage AU CHARBON DE BOIS est non négociable pour les puristes : la fumée caramélise le miel de la marinade et donne le parfum signature.",
+      "commisPrepTime": 18,
+      "commisCookTime": 10
     },
     {
       "slug": "che-chuoi",
@@ -926,7 +934,9 @@
         "Ajouter les bananes, pocher 5 min à feu très doux. Ajouter les perles de tapioca, mélanger doucement. Servir tiède dans des bols, parsemer de cacahuètes concassées."
       ],
       "story": "Dessert chaud-tiède du Sud-Vietnam, le chè chuối marie des bananes mûres dans une crème de coco onctueuse parfumée au tapioca. Servi en fin de repas ou comme goûter dans les rues de Hô Chi Minh-Ville.",
-      "chefSecret": "Choisir des bananes MÛRES MAIS FERMES (peau jaune avec quelques points bruns). Trop mûres elles se désintègrent dans le sirop, pas assez elles restent amères et farineuses."
+      "chefSecret": "Choisir des bananes MÛRES MAIS FERMES (peau jaune avec quelques points bruns). Trop mûres elles se désintègrent dans le sirop, pas assez elles restent amères et farineuses.",
+      "commisPrepTime": 11,
+      "commisCookTime": 15
     },
     {
       "slug": "cha-gio",
@@ -1148,7 +1158,9 @@
         "Servir les nems chauds avec des feuilles de salade, de menthe et de la sauce nuoc-mam. Chacun roule son nem dans une feuille de salade avant de le tremper."
       ],
       "story": "Roulés frits emblématiques du sud du Vietnam, les chả giò (\"rouleaux frits\" en vietnamien du sud, appelés nem rán au nord) sont indissociables des grandes fêtes — Tết (nouvel an lunaire), mariages, anniversaires. La double friture est la signature des restaurants saigonais qui garantit le croustillant éternel.",
-      "chefSecret": "Le secret du croustillant qui DURE : la double friture (160 °C puis 180 °C) avec un repos de 10 min entre les deux. La première cuit la farce et structure la pâte, la seconde caramélise la surface. Sans cette technique, les nems ramollissent dès l'arrivée à table — c'est ce qui distingue un nem de palais d'un nem de cantine."
+      "chefSecret": "Le secret du croustillant qui DURE : la double friture (160 °C puis 180 °C) avec un repos de 10 min entre les deux. La première cuit la farce et structure la pâte, la seconde caramélise la surface. Sans cette technique, les nems ramollissent dès l'arrivée à table — c'est ce qui distingue un nem de palais d'un nem de cantine.",
+      "commisPrepTime": 25,
+      "commisCookTime": 9
     },
     {
       "slug": "ca-phe-sua-da",
@@ -1218,7 +1230,9 @@
         "Remplir un second verre de glaçons jusqu'en haut, verser le mélange café-lait par-dessus, mélanger 10 s et déguster immédiatement à la paille."
       ],
       "story": "Boisson nationale du Vietnam, le cà phê sữa đá (\"café au lait glacé\") est l'héritage de la colonisation française du XIXe siècle, adapté au climat tropical par l'ajout de glace et au manque historique de lait frais par le lait concentré sucré. Servi dans toutes les rues de Saigon comme remède contre la chaleur écrasante.",
-      "chefSecret": "Le secret du cà phê sữa đá authentique tient à trois règles : utiliser du café ROBUSTA vietnamien (corsé, amer, jamais l'arabica trop floral), une mouture moyennement fine pour le filtre phin (jamais fine espresso, sinon ça boue), et des GROS cubes de glace qui fondent lentement (la glace pilée diluerait le café en 2 minutes)."
+      "chefSecret": "Le secret du cà phê sữa đá authentique tient à trois règles : utiliser du café ROBUSTA vietnamien (corsé, amer, jamais l'arabica trop floral), une mouture moyennement fine pour le filtre phin (jamais fine espresso, sinon ça boue), et des GROS cubes de glace qui fondent lentement (la glace pilée diluerait le café en 2 minutes).",
+      "commisPrepTime": 5,
+      "commisCookTime": 2
     }
   ]
 }

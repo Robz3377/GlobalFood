@@ -1,0 +1,227 @@
+{
+  "summary": {
+    "totalRecipes": 84,
+    "recipesWithDiet": 70,
+    "violations": 26,
+    "recipesAffected": 21,
+    "byDiet": {
+      "vegan": 3,
+      "vegetarian": 4,
+      "gluten-free": 7,
+      "dairy-free": 12
+    }
+  },
+  "violations": [
+    {
+      "country": "bresil",
+      "slug": "feijoada",
+      "diet": "dairy-free",
+      "ingredient": "Beurre pour la farofa",
+      "matched": "beurre"
+    },
+    {
+      "country": "bresil",
+      "slug": "coxinhas",
+      "diet": "dairy-free",
+      "ingredient": "Catupiry ou cream cheese (option Sao Paulo, signature moderne)",
+      "matched": "catupiry"
+    },
+    {
+      "country": "bresil",
+      "slug": "churrasco-picanha",
+      "diet": "gluten-free",
+      "ingredient": "FAROFA EXPRESS — Chapelure japonaise (panko)",
+      "matched": "chapelure"
+    },
+    {
+      "country": "bresil",
+      "slug": "churrasco-picanha",
+      "diet": "dairy-free",
+      "ingredient": "Beurre clarifié",
+      "matched": "beurre"
+    },
+    {
+      "country": "chine",
+      "slug": "baozi",
+      "diet": "dairy-free",
+      "ingredient": "Lait tiède entier (38 °C)",
+      "matched": "lait"
+    },
+    {
+      "country": "grece",
+      "slug": "souvlaki",
+      "diet": "dairy-free",
+      "ingredient": "Yaourt grec entier (pour attendrir la viande)",
+      "matched": "yaourt"
+    },
+    {
+      "country": "grece",
+      "slug": "souvlaki",
+      "diet": "gluten-free",
+      "ingredient": "ACCOMPAGNEMENT — Pita grecques épaisses",
+      "matched": "pita"
+    },
+    {
+      "country": "grece",
+      "slug": "salade-grecque",
+      "diet": "gluten-free",
+      "ingredient": "Pain rustique de campagne (à servir nature pour saucer)",
+      "matched": "pain"
+    },
+    {
+      "country": "inde",
+      "slug": "dhal-lentilles",
+      "diet": "vegan",
+      "ingredient": "TADKA (tempérage final, étape signature) — Ghee ou huile coco",
+      "matched": "ghee"
+    },
+    {
+      "country": "inde",
+      "slug": "dhal-lentilles",
+      "diet": "dairy-free",
+      "ingredient": "TADKA (tempérage final, étape signature) — Ghee ou huile coco",
+      "matched": "ghee"
+    },
+    {
+      "country": "inde",
+      "slug": "biryani-agneau",
+      "diet": "gluten-free",
+      "ingredient": "Pâte de farine pour sceller (atta + eau)",
+      "matched": "farine"
+    },
+    {
+      "country": "inde",
+      "slug": "samosa-legumes",
+      "diet": "vegan",
+      "ingredient": "Ghee fondu (ou huile végétale neutre)",
+      "matched": "ghee"
+    },
+    {
+      "country": "inde",
+      "slug": "samosa-legumes",
+      "diet": "dairy-free",
+      "ingredient": "Ghee fondu (ou huile végétale neutre)",
+      "matched": "ghee"
+    },
+    {
+      "country": "italie",
+      "slug": "risotto-milanese",
+      "diet": "vegetarian",
+      "ingredient": "Bouillon de volaille maison à frémissement constant",
+      "matched": "bouillon de volaille"
+    },
+    {
+      "country": "italie",
+      "slug": "panna-cotta",
+      "diet": "vegetarian",
+      "ingredient": "Gélatine en feuilles (Or, 200 bloom)",
+      "matched": "gelatine"
+    },
+    {
+      "country": "japon",
+      "slug": "onigiri-saumon",
+      "diet": "gluten-free",
+      "ingredient": "Sauce soja pour la table",
+      "matched": "sauce soja"
+    },
+    {
+      "country": "japon",
+      "slug": "tempura-legumes",
+      "diet": "vegetarian",
+      "ingredient": "SAUCE TENTSUYU — Bouillon dashi",
+      "matched": "dashi"
+    },
+    {
+      "country": "maroc",
+      "slug": "couscous-legumes",
+      "diet": "vegan",
+      "ingredient": "Smen (beurre fermenté marocain) — OPTION : ghee",
+      "matched": "smen"
+    },
+    {
+      "country": "maroc",
+      "slug": "couscous-legumes",
+      "diet": "dairy-free",
+      "ingredient": "Smen (beurre fermenté marocain) — OPTION : ghee",
+      "matched": "smen"
+    },
+    {
+      "country": "maroc",
+      "slug": "harira",
+      "diet": "dairy-free",
+      "ingredient": "Huile d'olive ou smen",
+      "matched": "smen"
+    },
+    {
+      "country": "maroc",
+      "slug": "mechoui",
+      "diet": "dairy-free",
+      "ingredient": "Smen (beurre fermenté rance marocain, en épicerie maghrébine)",
+      "matched": "smen"
+    },
+    {
+      "country": "maroc",
+      "slug": "baghrir",
+      "diet": "dairy-free",
+      "ingredient": "Beurre fermier doux",
+      "matched": "beurre"
+    },
+    {
+      "country": "mexique",
+      "slug": "guacamole-totopos",
+      "diet": "gluten-free",
+      "ingredient": "Tortillas chips (sachet)",
+      "matched": "tortillas"
+    },
+    {
+      "country": "mexique",
+      "slug": "enchiladas-verdes",
+      "diet": "gluten-free",
+      "ingredient": "Tortillas de blé ou maïs",
+      "matched": "tortillas"
+    },
+    {
+      "country": "mexique",
+      "slug": "chiles-rellenos",
+      "diet": "vegetarian",
+      "ingredient": "Bouillon de poulet",
+      "matched": "bouillon de poulet"
+    },
+    {
+      "country": "senegal",
+      "slug": "fataya",
+      "diet": "dairy-free",
+      "ingredient": "Pâte feuilletée pur beurre (rouleau)",
+      "matched": "beurre"
+    }
+  ],
+  "candidates": {
+    "vegan": [
+      "senegal/maafe"
+    ],
+    "vegetarian": [
+      "bresil/caipirinha",
+      "senegal/maafe",
+      "vietnam/che-chuoi"
+    ],
+    "gluten-free": [
+      "bresil/feijoada",
+      "inde/chai-masala",
+      "mexique/quesadillas",
+      "senegal/thieboudienne",
+      "senegal/yassa-poulet",
+      "senegal/maafe",
+      "thailande/khao-soi",
+      "vietnam/pho-bo",
+      "vietnam/cha-gio",
+      "vietnam/ca-phe-sua-da"
+    ],
+    "dairy-free": [
+      "japon/katsu-curry",
+      "senegal/pastels",
+      "senegal/thieboudienne",
+      "senegal/yassa-poulet",
+      "senegal/maafe"
+    ]
+  }
+}

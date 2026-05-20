@@ -171,7 +171,9 @@
         "Pendant ce temps, couper les champignons en quartiers. Dans une poêle, faire-les sauter 5 min à feu vif avec 1 noisette de beurrer jusqu'à ce qu'ils soient bien dorés. Réserver.",
         "Quand le poulet est tendre, ajouter les champignons dans la cocotte, mélanger et laisser mijoter à découvert 10 min pour que la sauce réduise et napper. Retirer le bouquet garni. Servir chaud avec des pommes vapeur ou des tagliatelles fraîches."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 20,
+      "commisCookTime": 75
     },
     {
       "slug": "ratatouille",
@@ -322,7 +324,9 @@
         "Verser les tomates concassées, remettre l'aubergine réservée et ajouter les herbes de Provence. Saler, poivre. Couvrir et laisser mijoter à feu doux 25 min en remuant de temps en temps.",
         "Découvrir, laisser réduire 5 min à feu moyen pour évaporer l'excès d'eau. Couper le feu, parsemer de basilic ciselé. Servir chaud, tiède ou froid — c'est encore meilleur le lendemain (les saveurs se développent une nuit au frigo)."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 21,
+      "commisCookTime": 36
     },
     {
       "slug": "bouillabaisse",
@@ -532,7 +536,9 @@
         "Plonger d'abord les poissons les plus fermes (lotte, cabillaud) 4 min. Puis le saumon, 3 min — il ne doit pas trop cuire (chair encore légèrement nacrée à cœur).",
         "ROUILLE EXPRESS : dans un petit bol, mélanger la mayonnaise + 1 gousse d'ail écrasée + 1 pincée de safran. Servir la bouillabaisse dans des assiettes creuses avec les tranches de baguette grillées tartinées de rouille à côté. La tradition : on trempe le pain dans la soupe."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 45,
+      "commisCookTime": 48
     },
     {
       "slug": "crepes-suzette",
@@ -705,7 +711,9 @@
         "Ajouter le beurrer froid en dés et fouetter pour obtenir une sauce onctueuse et brillante. Ajouter 3 c.s. de Grand Marnier. ATTENTION : ne faire plus bouillir, la sauce se séparerait.",
         "Plier chaque crêpe en 4 et plonger-les dans la sauce chaude pour les imprégner. Servir immédiatement 3 crêpes par personne avec un peu de sauce nappée par-dessus. Le flambage spectacle est OPTIONNEL : chauffer 50 ml de Grand Marnier dans une louche, enflamme et verser sur les crêpes en présentation."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 19,
+      "commisCookTime": 19
     },
     {
       "slug": "quiche-lorraine",
@@ -843,7 +851,9 @@
         "Répartir les lardons égouttés sur la pâte. Verser l'appareil œufs-crème par-dessus sans dépasser le bord (l'appareil monter légèrement à la cuisson, prévois 5 mm de marge).",
         "Enfourner 35-40 min à 200 °C. La quiche doit être bien dorée sur le dessus et tremblotante au centre quand la sortir (elle se fige en refroidissant 5 min hors du four). Servir tiède ou froide avec une salade verte simple à côté."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 19,
+      "commisCookTime": 27
     },
     {
       "slug": "boeuf-bourguignon",
@@ -1013,7 +1023,9 @@
         "20 min avant la fin, ajouter les champignons égouttés. Servir avec des pâtes fraîches ou des pommes de terre vapeur."
       ],
       "story": "Plat emblématique de la Bourgogne, le bœuf bourguignon naît au XIXe siècle dans les fermes vigneronnes : on utilisait le vin local pour attendrir les morceaux de bœuf rustique. Escoffier l'élève au rang de classique de la grande cuisine française.",
-      "chefSecret": "Pour une sauce d'un brillant impeccable, terminer toujours par 20 g de beurre froid incorporés hors du feu en remuant la cocotte (jamais au fouet) — c'est ce qu'on appelle un \"monter au beurre\" qui nappe la viande comme un vernis."
+      "chefSecret": "Pour une sauce d'un brillant impeccable, terminer toujours par 20 g de beurre froid incorporés hors du feu en remuant la cocotte (jamais au fouet) — c'est ce qu'on appelle un \"monter au beurre\" qui nappe la viande comme un vernis.",
+      "commisPrepTime": 17,
+      "commisCookTime": 84
     },
     {
       "slug": "tarte-tatin",
@@ -1138,7 +1150,9 @@
         "Enfourner 35 min jusqu'à ce que la pâte soit dorée. Attendre 5 min puis retourner sur un plat. Servir tiède avec une boule de glace vanille."
       ],
       "story": "Née en 1898 à l'Hôtel Tatin de Lamotte-Beuvron en Sologne par les sœurs Stéphanie et Caroline Tatin (qui auraient renversé une tarte par accident). Devenue le dessert français par excellence, défendue par les Maîtres Tatins qui en perpétuent la recette canonique.",
-      "chefSecret": "Pour un caramel sans amertume, ne JAMAIS remuer le sucre pendant la cuisson — incliner uniquement le moule. Et toujours arrêter la cuisson une nuance avant la couleur visée : la chaleur résiduelle continue le travail."
+      "chefSecret": "Pour un caramel sans amertume, ne JAMAIS remuer le sucre pendant la cuisson — incliner uniquement le moule. Et toujours arrêter la cuisson une nuance avant la couleur visée : la chaleur résiduelle continue le travail.",
+      "commisPrepTime": 17,
+      "commisCookTime": 23
     }
   ]
 }

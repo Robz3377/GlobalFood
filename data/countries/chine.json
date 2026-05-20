@@ -226,7 +226,9 @@
         "Ajouter délicatement les cubes de tofu égouttés (ils sont fragiles). Laisser mijoter 5 min à feu doux en remuant juste à la spatule en bois pour ne pas casser le tofu.",
         "Dans un petit bol, mélanger 1 c.s. de fécule + 3 c.s. d'eau froide. Verser dans le wok en remuant doucement — la sauce épaissit en 1 min. Couper le feu. Ajouter 1 c.c. d'huile de sésame et l'oignon vert ciselé. Servir chaud sur un bol de riz blanc."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 11,
+      "commisCookTime": 9
     },
     {
       "slug": "canard-laque",
@@ -428,7 +430,9 @@
         "Sortir le plat, couvrir lâche de papier alu et laisser reposer 5 min. Trancher les magrets en fines lamelles biseautées (3-4 mm d'épaisseur).",
         "Pendant le repos, réchauffer les galettes ou tortillas 10 s par face à la poêle sécher. Pour servir : chacun tartine une galette de sauce hoisin, déposer quelques lamelles de canard, des bâtonnets de concombre et d'oignon vert, et rouler la crêpe. Manger à la main, c'est la tradition."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 33,
+      "commisCookTime": 42
     },
     {
       "slug": "jiaozi",
@@ -628,7 +632,9 @@
         "Quand ils remontent à la surface (3-4 min), ajouter 1 verre d'eau froide pour calmer l'ébullition. Attendre qu'ils remontent une 2e fois, puis 1 minute supplémentaire. Égoutter à l'écumoire.",
         "Mélanger dans un petit bol 3 c.s. de sauce soja + 2 c.s. de vinaigre de riz + 1 c.s. d'huile de sésame — c'est la sauce trempage classique. Servir les jiaozi brûlants avec la sauce à côté. Tremper-les un par un avant de croquer."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 41,
+      "commisCookTime": 4
     },
     {
       "slug": "nouilles-dan-dan",
@@ -824,7 +830,9 @@
         "Verser 3-4 c.s. d'eau de cuisson chaude sur la sauce dans le grand bol pour la détendre — elle doit être fluide et nappante. Mélanger.",
         "Ajouter les nouilles + épinards égouttés directement dans le bol de sauce. Mélanger vivement à la pince pour bien enrober. Dresser dans des bols individuels, déposer le porc haché chaud sur le dessus, parsemer de cacahuètes concassées et de ciboule ciselée. Manger immédiatement en mélangeant tout dans le bol — c'est le rituel."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 11,
+      "commisCookTime": 7
     },
     {
       "slug": "riz-cantonais",
@@ -1010,7 +1018,9 @@
         "Ajouter les crevettes cuites, remuer 1 min. Verser le riz refroidi en l'émiettant à la main pour séparer les grains. Faire sauter à feu vif 3 min en remuant constamment — le riz doit chauffer et se détacher en grains.",
         "Verser 3 c.s. de sauce soja, ajouter les œufs brouillés réservés, mélanger 1 min. Couper le feu. Ajouter 1 c.c. d'huile de sésame et la moitié de la ciboule ciselée. Saler et poivre. Servir chaud avec le reste de ciboule en finition."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 8,
+      "commisCookTime": 6
     },
     {
       "slug": "chow-mein",
@@ -1223,7 +1233,9 @@
         "Mélanger 2 c.s. de sauce soja, la sauce d'huître et le sucre dans un bol. Remettre les nouilles dans la poêle, verser la sauce, remuer énergiquement 1 min. Ajouter le bœuf et les cébettes ciselées, mélanger 30 s. Arroser d'huile de sésame avant de servir."
       ],
       "story": "Né dans les cuisines cantonaises du sud de la Chine, le chow mein (\"nouilles sautées\") a conquis le monde via les émigrants chinois aux États-Unis dès le XIXe siècle. La version cantonaise authentique se distingue par ses nouilles aux œufs frites croustillantes en surface et le \"wok hei\" — ce souffle fumé signature d'une cuisson à très haute température.",
-      "chefSecret": "Le velveting (vélouter en chinois) est le secret d'une viande sautée toujours tendre : 1 pincée de bicarbonate + 1 c.c. de maïzena + 30 min de repos transforment n'importe quelle viande en chair soyeuse. C'est la technique des dim-sum restaurants de Hong Kong qui distingue le chow mein de palais d'un sauté domestique."
+      "chefSecret": "Le velveting (vélouter en chinois) est le secret d'une viande sautée toujours tendre : 1 pincée de bicarbonate + 1 c.c. de maïzena + 30 min de repos transforment n'importe quelle viande en chair soyeuse. C'est la technique des dim-sum restaurants de Hong Kong qui distingue le chow mein de palais d'un sauté domestique.",
+      "commisPrepTime": 14,
+      "commisCookTime": 7
     },
     {
       "slug": "baozi",
@@ -1232,9 +1244,7 @@
       "prepTime": 60,
       "cookTime": 20,
       "servings": 4,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "events": [
         "chinese-new-year"
@@ -1426,7 +1436,9 @@
         "Déposer chaque baozi sur un carré de papier cuisson dans un panier vapeur. Laisser reposer 30 min, puis cuire à la vapeur 15 min à feu vif. Servir avec sauce soja + vinaigre + huile de chili à part."
       ],
       "story": "Pain vapeur farci né dans le nord de la Chine sous la dynastie Han (IIIe siècle), le baozi est un pilier du petit-déjeuner et du dim-sum cantonais. La version char siu (porc rôti caramélisé à la sauce miel-cinq-épices) est la plus emblématique des dim-sum de Hong Kong, qu'on commande en cohorte autour d'un thé pu-erh fumant.",
-      "chefSecret": "La technique des 18 plis n'est pas qu'esthétique : ces plis créent un pic central qui distribue la vapeur uniformément, garantissant une pâte cuite à cœur et une farce juteuse. Les maîtres dim-sum de Hong Kong sont jugés à la régularité de leurs plis — 24 plis exactement pour les puristes."
+      "chefSecret": "La technique des 18 plis n'est pas qu'esthétique : ces plis créent un pic central qui distribue la vapeur uniformément, garantissant une pâte cuite à cœur et une farce juteuse. Les maîtres dim-sum de Hong Kong sont jugés à la régularité de leurs plis — 24 plis exactement pour les puristes.",
+      "commisPrepTime": 25,
+      "commisCookTime": 15
     }
   ]
 }

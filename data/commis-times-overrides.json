@@ -1,0 +1,9 @@
+{
+  "_doc": "Overrides manuels des temps Commis. Clé = 'country/recipe-slug'. Toute paire renseignée court-circuite l'heuristique de scripts/compute-commis-times.mjs. Utiliser pour les recettes où la durée incompressible (levée de pâte, marinade indispensable) n'est pas captée par le ratio commisSteps/steps.",
+  "chine/baozi": { "commisPrepTime": 25, "commisCookTime": 15 },
+  "maroc/baghrir": { "commisPrepTime": 15, "commisCookTime": 25 },
+  "italie/pizza-margherita": { "commisPrepTime": 20, "commisCookTime": 12 },
+  "france/coq-au-vin": { "commisPrepTime": 20, "commisCookTime": 75 },
+  "bresil/feijoada": { "commisPrepTime": 20, "commisCookTime": 90 },
+  "maroc/harira": { "commisPrepTime": 15, "commisCookTime": 60 }
+}

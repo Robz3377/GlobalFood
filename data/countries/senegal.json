@@ -141,7 +141,9 @@
         "Faire frire les pastels par 4-5 à la fois, 2 min par face jusqu'à coloration dorée. Égoutter sur papier absorbant. Servir chauds avec une sauce piquante."
       ],
       "story": "Servis chauds dans toute Dakar, les pastels accompagnent le ndogou (rupture du jeûne) et s'invitent dans les apéritifs familiaux du dimanche.",
-      "chefSecret": "Cuire l'oignon-tomate à part jusqu'au confit AVANT d'incorporer le thon : la farce reste sèche et ne détrempe pas la pâte à la friture."
+      "chefSecret": "Cuire l'oignon-tomate à part jusqu'au confit AVANT d'incorporer le thon : la farce reste sèche et ne détrempe pas la pâte à la friture.",
+      "commisPrepTime": 19,
+      "commisCookTime": 11
     },
     {
       "slug": "thieboudienne",
@@ -335,7 +337,9 @@
         "Remettre poisson et légumes sur le riz cuit pour réchauffer 5 min couvert. Parsemer de persil. Servir dans un grand plat commun avec les légumes en couronne autour."
       ],
       "story": "Plat national sénégalais inscrit à l'UNESCO depuis 2021, le « riz au poisson » est né à Saint-Louis sous la cuisinière Penda Mbaye. Il marie poisson, riz brisé et sept légumes dans un bouillon orange-rouge signature.",
-      "chefSecret": "Réserver l'huile de cuisson du poisson pour parfumer le riz : c'est ce « xoss » qui donne au plat sa couleur orange-rouge ambrée caractéristique."
+      "chefSecret": "Réserver l'huile de cuisson du poisson pour parfumer le riz : c'est ce « xoss » qui donne au plat sa couleur orange-rouge ambrée caractéristique.",
+      "commisPrepTime": 18,
+      "commisCookTime": 45
     },
     {
       "slug": "yassa-poulet",
@@ -485,7 +489,9 @@
         "Découvrir, laisser réduire 5 min si nécessaire. Servir avec du riz blanc, arroser de sauce et d'oignons confits."
       ],
       "story": "Né en Casamance, le yassa est devenu le plat dominical sénégalais par excellence. La marinade citron-oignon-moutarde fait la magie : elle attendrit la viande et parfume la sauce d'oignons confits.",
-      "chefSecret": "Mariner le poulet 24 h au frigo : les acides du citron et de la moutarde de Dijon décomposent les fibres pour une viande fondante."
+      "chefSecret": "Mariner le poulet 24 h au frigo : les acides du citron et de la moutarde de Dijon décomposent les fibres pour une viande fondante.",
+      "commisPrepTime": 20,
+      "commisCookTime": 34
     },
     {
       "slug": "maafe",
@@ -655,7 +661,9 @@
         "Pendant ce temps, cuire le riz blanc (300 g pour 450 ml d'eau salée, 11 min à feu très doux, repos 5 min). Servir le maafé sur le riz dans un grand plat commun."
       ],
       "story": "Plat de fête mandingue partagé du Sénégal au Mali, le maafé tire sa richesse de la pâte d'arachide qui épaissit la sauce et lui donne sa profondeur caramel-grillée.",
-      "chefSecret": "Diluer la pâte d'arachide dans le bouillon CHAUD avant de l'incorporer à la cocotte. Mélangée directement à froid, elle forme des grumeaux qui ne se redéfont jamais."
+      "chefSecret": "Diluer la pâte d'arachide dans le bouillon CHAUD avant de l'incorporer à la cocotte. Mélangée directement à froid, elle forme des grumeaux qui ne se redéfont jamais.",
+      "commisPrepTime": 12,
+      "commisCookTime": 46
     },
     {
       "slug": "thiakry",
@@ -774,7 +782,9 @@
         "Servir très frais dans des bols ou dans un grand plat commun à la cuillère."
       ],
       "story": "Dessert frais des fins de repas sénégalais, le thiakry marie la semoule de mil cuite à la vapeur avec un lait caillé crémeux sucré à la vanille. Servi très frais après la prière du vendredi.",
-      "chefSecret": "Faire 3 vapeurs successives sur la semoule de mil avec des aérations intercalées — c'est ce qui donne le grain qui ne colle pas et reste léger en bouche."
+      "chefSecret": "Faire 3 vapeurs successives sur la semoule de mil avec des aérations intercalées — c'est ce qui donne le grain qui ne colle pas et reste léger en bouche.",
+      "commisPrepTime": 8,
+      "commisCookTime": 12
     },
     {
       "slug": "fataya",
@@ -783,9 +793,7 @@
       "prepTime": 35,
       "cookTime": 20,
       "servings": 4,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "entree",
       "events": [
         "ramadan-end"
@@ -981,7 +989,9 @@
         "Enfourner 18 min à 200 °C jusqu'à coloration dorée. Servir tièdes avec quelques rondelles d'oignon rouge mariné au vinaigre et un quartier de citron vert."
       ],
       "story": "Beignets fourrés emblématiques de Dakar et de la Petite Côte, les fataya sont vendus dès l'aube par les marchandes ambulantes pour le petit-déjeuner et au goûter par les écoliers. Apportés par les marchands libanais au XIXe siècle, ils ont été adaptés à la cuisine sénégalaise avec le poisson local et la sauce kani aux oignons.",
-      "chefSecret": "La règle d'or des fataya : la farce doit être TOTALEMENT SÈCHE avant garnissage (cuire à découvert jusqu'à évaporation complète), et la friture doit être à 170 °C exact. Trop chaud, la pâte brûle avant que le cœur ne soit cuit ; trop froid, elle absorbe l'huile et devient grasse au lieu de soufflée."
+      "chefSecret": "La règle d'or des fataya : la farce doit être TOTALEMENT SÈCHE avant garnissage (cuire à découvert jusqu'à évaporation complète), et la friture doit être à 170 °C exact. Trop chaud, la pâte brûle avant que le cœur ne soit cuit ; trop froid, elle absorbe l'huile et devient grasse au lieu de soufflée.",
+      "commisPrepTime": 19,
+      "commisCookTime": 9
     },
     {
       "slug": "soupou-kandja",
@@ -1176,7 +1186,9 @@
         "Faire cuire le riz selon les instructions du paquet. Hors du feu, parsemer le ragoût de persil ciselé. Servir le riz au centre d'un grand plat avec la soupe et les morceaux dessus."
       ],
       "story": "Plat phare des cuisines wolof et lébou de la côte sénégalaise, le soupou kandja (\"soupe au gombo\" en wolof) marie les produits de la mer de l'Atlantique au bœuf de l'arrière-pays. Servi traditionnellement le mercredi à Dakar dans la rotation hebdomadaire des plats nationaux, il se partage dans un grand plat commun.",
-      "chefSecret": "Le piment ENTIER non incisé est l'astuce des grand-mères sénégalaises : il parfume le plat sans rendre piquant. Il faut le retirer délicatement à la fin SANS le casser, sinon le plat devient brûlant. Et le riz BRISÉ (pas long) est obligatoire : ses grains cassés absorbent mieux la sauce et donnent la texture authentique."
+      "chefSecret": "Le piment ENTIER non incisé est l'astuce des grand-mères sénégalaises : il parfume le plat sans rendre piquant. Il faut le retirer délicatement à la fin SANS le casser, sinon le plat devient brûlant. Et le riz BRISÉ (pas long) est obligatoire : ses grains cassés absorbent mieux la sauce et donnent la texture authentique.",
+      "commisPrepTime": 17,
+      "commisCookTime": 42
     }
   ]
 }

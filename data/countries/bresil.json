@@ -14,9 +14,7 @@
       "prepTime": 30,
       "cookTime": 210,
       "servings": 8,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "seasons": [
         "autumn",
         "winter"
@@ -242,7 +240,9 @@
         "Pendant ce temps, faire cuire le riz blanc (300 g pour 450 ml d'eau salée, 11 min à très doux, repos 5 min). Émincer le chou kale très finement et faire-le sauter 5 min dans une poêle avec 1 c.s. d'huile et 1 gousse d'ail jusqu'à ce qu'il soit tendre.",
         "Servir la feijoada brûlante dans des assiettes creuses avec un peu de riz, le chou sauté à côté, des tranches d'orange (la tradition coupe le gras) et la coriandre/persil ciselés en finition."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 20,
+      "commisCookTime": 90
     },
     {
       "slug": "moqueca",
@@ -454,7 +454,9 @@
         "Déposer délicatement les morceaux de cabillaud (avec leur marinade) en une seule couche dans la sauce. Couvrir et laisser cuire 8 min à feu doux. Si mettre des crevettes, ajouter-les à mi-cuisson (4 min suffisent — sinon elles deviennent caoutchouc).",
         "Couper le feu, parsemer généreusement de coriandre ciselée. Servir chaud dans des assiettes creuses avec le riz blanc à côté pour saucer."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 17,
+      "commisCookTime": 14
     },
     {
       "slug": "pao-de-queijo",
@@ -580,7 +582,9 @@
         "Huiler-soi légèrement les mains et former des boulettes de la tailler d'une noix (~25 g). Disposer-les sur une plaque garnie de papier sulfurisé en les espaçant (elles gonflent à la cuisson).",
         "Enfourner 20-25 min à 200 °C jusqu'à ce qu'ils soient dorés et bien gonflés. Servir tiède — c'est meilleur juste sorti du four, croustillant dehors, fondant dedans. Ils se mangent à la main, accompagnés d'un café (le rituel brésilien)."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 14,
+      "commisCookTime": 12
     },
     {
       "slug": "coxinhas",
@@ -589,9 +593,7 @@
       "prepTime": 90,
       "cookTime": 25,
       "servings": 6,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "seasons": [
         "spring",
         "summer",
@@ -803,7 +805,9 @@
         "Tremper chaque coxinha dans les œufs battus puis dans la chapelure en appuyant légèrement pour bien faire adhérer la panure.",
         "CUISSON AU FOUR (version simple) : préchauffer à 200 °C. Disposer les coxinhas panées sur une plaque, badigeonner d'un filet d'huile. Enfourner 25 min en retournant à mi-cuisson, jusqu'à coloration dorée croustillante. Alternative friture : 2 cm d'huile à 170 °C dans une poêle profonde, 4 min de chaque côté."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 50,
+      "commisCookTime": 12
     },
     {
       "slug": "brigadeiros",
@@ -937,7 +941,9 @@
         "Verser les vermicelles de chocolat dans un bol. Huiler ou beurrer légèrement les mains (sinon la pâte colle). Prélever une cuillère à café de pâte et rouler entre les paumes pour former une boule de la tailler d'une grosse noisette.",
         "Plonger chaque boule dans les vermicelles et rouler-la pour bien l'enrober. Déposer dans une caissette en papier. Continuer jusqu'à épuisement de la pâte — obtiens 25-30 brigadeiros. Conserver au frais, servir à température ambiante 15 min avant pour la texture parfaite (fondant à cœur)."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 8,
+      "commisCookTime": 8
     },
     {
       "slug": "churrasco-picanha",
@@ -946,10 +952,7 @@
       "prepTime": 20,
       "cookTime": 25,
       "servings": 6,
-      "diets": [
-        "gluten-free",
-        "dairy-free"
-      ],
+      "diets": [],
       "category": "plat",
       "events": [
         "carnaval"
@@ -1120,7 +1123,9 @@
         "Trancher la viande contre le grain en tranches fines. Servir avec la farofa croustillante et la vinaigrette brasileira."
       ],
       "story": "Coupe sacrée du churrasco brésilien, la picanha (cap de rumsteak) est la pièce favorite des gaúchos du Rio Grande do Sul. Servie en rodízio dans tout le pays, elle se reconnait à sa couche de graisse blanche caractéristique qu'il ne faut JAMAIS enlever — c'est elle qui parfume la viande pendant la cuisson.",
-      "chefSecret": "La règle des trois interdits brésiliens pour la picanha : ne JAMAIS retirer la graisse (elle se mange), ne JAMAIS la mariner (le sel grossier suffit), ne JAMAIS la cuire au-delà du rosé (au-delà, elle devient sèche et coriace). Le gros sel marin et les braises de bois sont les seuls assaisonnements admis."
+      "chefSecret": "La règle des trois interdits brésiliens pour la picanha : ne JAMAIS retirer la graisse (elle se mange), ne JAMAIS la mariner (le sel grossier suffit), ne JAMAIS la cuire au-delà du rosé (au-delà, elle devient sèche et coriace). Le gros sel marin et les braises de bois sont les seuls assaisonnements admis.",
+      "commisPrepTime": 11,
+      "commisCookTime": 12
     },
     {
       "slug": "caipirinha",
@@ -1199,7 +1204,9 @@
         "Remplir le verre de glace pilée, verser la cachaça, mélanger énergiquement à la cuillère pendant 15 s. Servir avec une paille."
       ],
       "story": "Boisson nationale du Brésil, la caipirinha (\"petite paysanne\") tire son nom des fermes du Sertão où elle est née comme remède au paludisme et aux refroidissements au XIXe siècle. La cachaça, eau-de-vie de canne à sucre fermentée, est l'âme du cocktail — distinct du rhum (qui utilise la mélasse).",
-      "chefSecret": "Le sucre de canne complet (rapadura ou demerara) est essentiel : il apporte des notes de mélasse et de réglisse qui se marient à la cachaça vieillie. Le sucre blanc raffiné fonctionne mais aplatit le cocktail — c'est la différence entre une caipirinha de carnaval et une caipirinha de palace."
+      "chefSecret": "Le sucre de canne complet (rapadura ou demerara) est essentiel : il apporte des notes de mélasse et de réglisse qui se marient à la cachaça vieillie. Le sucre blanc raffiné fonctionne mais aplatit le cocktail — c'est la différence entre une caipirinha de carnaval et une caipirinha de palace.",
+      "commisPrepTime": 5,
+      "commisCookTime": 0
     }
   ]
 }

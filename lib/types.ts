@@ -56,6 +56,13 @@ export type Recipe = {
   image: string;
   prepTime: number;
   cookTime: number;
+  /**
+   * Temps en mode Commis (raccourcis : pas de marinade longue, ingrédients
+   * supermarché, étapes simplifiées). Optionnels — l'UI retombe sur
+   * prepTime/cookTime si absents.
+   */
+  commisPrepTime?: number;
+  commisCookTime?: number;
   servings: number;
   diets: Diet[];
   /**

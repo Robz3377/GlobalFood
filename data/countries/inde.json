@@ -196,7 +196,9 @@
         "Ajouter la crème liquide et 1 c.c. de sucre. Mélanger. Remettre le poulet, baisser à feu doux et laisser mijoter 12 min : la sauce doit être nappante et le poulet juste cuit.",
         "Goûter, rectifie le sel. Parsemer de coriandre ciselée. Servir chaud sur le riz basmati avec du naan si en as."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 18,
+      "commisCookTime": 23
     },
     {
       "slug": "dhal-lentilles",
@@ -206,10 +208,8 @@
       "cookTime": 35,
       "servings": 4,
       "diets": [
-        "vegan",
         "vegetarian",
-        "gluten-free",
-        "dairy-free"
+        "gluten-free"
       ],
       "seasons": [
         "winter",
@@ -422,7 +422,9 @@
         "Verser les lentilles, les tomates concassées, le lait de coco et 700 ml d'eau. Saler. Porter à frémissement, baisser à feu doux et laisser mijoter 20 min en remuant de temps en temps, jusqu'à ce que les lentilles soient fondantes et la texture crémeuse.",
         "Couper le feu. Presser le 1/2 citron vert sur le dhal, mélanger. Servir dans des bols, parsemer de coriandre ciselée. Accompagne de riz basmati ou de naan."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 8,
+      "commisCookTime": 16
     },
     {
       "slug": "biryani-agneau",
@@ -431,9 +433,7 @@
       "prepTime": 60,
       "cookTime": 120,
       "servings": 6,
-      "diets": [
-        "gluten-free"
-      ],
+      "diets": [],
       "seasons": [
         "winter",
         "autumn"
@@ -686,7 +686,9 @@
         "Couvrir hermétiquement avec un couvercle ET du papier alu pour bien emprisonner la vapeur. Enfourner 25 min — c'est la cuisson dum, le riz absorbe les arômes de l'agneau par en dessous.",
         "Sortir du four, laisser reposer 5 min couvert. Mélanger délicatement à la fourchette pour répartir riz et agneau. Servir chaud avec le reste de coriandre/menthe et d'oignons frits sur le dessus."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 33,
+      "commisCookTime": 56
     },
     {
       "slug": "samosa-legumes",
@@ -696,9 +698,7 @@
       "cookTime": 25,
       "servings": 6,
       "diets": [
-        "vegan",
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "seasons": [
         "spring",
@@ -905,7 +905,9 @@
         "Poser 1 c.s. bombée de farce à l'extrémité d'une bande. Plier en triangle : replier le coin sur la farce puis continuer à plier en triangle jusqu'au bout (technique du drapeau). Souder le dernier bout avec un peu d'huile. Recommencer — obtiens 16 samosas.",
         "Poser les samosas sur une plaque garnie de papier sulfurisé. Badigeonner le dessus d'un peu d'huile. Enfourner 15-18 min en retournant à mi-cuisson, jusqu'à ce qu'ils soient bien dorés et croustillants. Servir chauds avec une sauce yaourt-menthe ou un chutney mangue."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 33,
+      "commisCookTime": 12
     },
     {
       "slug": "chai-masala",
@@ -1043,7 +1045,9 @@
       "events": [
         "holi"
       ],
-      "category": "boisson"
+      "category": "boisson",
+      "commisPrepTime": 5,
+      "commisCookTime": 7
     },
     {
       "slug": "chicken-tikka-masala",
@@ -1256,7 +1260,9 @@
         "Remettre le poulet, ajouter la crème, faire mijoter 5 min. Servir avec le riz basmati cuit selon les instructions du paquet, parsemer de coriandre ciselée."
       ],
       "story": "Inventé dans les années 1970 à Glasgow par le chef Ali Ahmed Aslam (Shish Mahal), qui aurait ajouté une sauce tomate-yaourt-crème à un poulet tandoori trop sec pour un client. Devenu plat national britannique de fait, il a depuis conquis le monde et figure dans toutes les cartes de restaurants indiens.",
-      "chefSecret": "Le piment de Cachemire (Kashmiri chilli) est l'âme du tikka masala : il donne la couleur rouge profond signature SANS être brûlant. Le substituer par du paprika fumé + une pointe de cayenne fonctionne, mais l'authentique se trouve en épicerie indienne — il vaut le détour."
+      "chefSecret": "Le piment de Cachemire (Kashmiri chilli) est l'âme du tikka masala : il donne la couleur rouge profond signature SANS être brûlant. Le substituer par du paprika fumé + une pointe de cayenne fonctionne, mais l'authentique se trouve en épicerie indienne — il vaut le détour.",
+      "commisPrepTime": 17,
+      "commisCookTime": 19
     },
     {
       "slug": "gulab-jamun",
@@ -1426,7 +1432,9 @@
         "Égoutter et plonger immédiatement dans le sirop tiède. Laisser tremper 1 h minimum. Servir tiède, parsemer de pistaches concassées."
       ],
       "story": "Dessert phare de la cuisine moghole apporté en Inde par les Perses au XIIIe siècle, le gulab jamun (\"boule de rose\") est servi à toutes les grandes célébrations — Diwali, Holi, mariages. Son nom évoque les fruits du jamun pourpre et le sirop de rose qui le parfume.",
-      "chefSecret": "La température basse de friture (130-140 °C) est le secret absolu : à plus haut, la croûte brunit avant que le cœur ne soit cuit, et les boules restent crues à l'intérieur. La patience est récompensée par cette texture fondante signature qui se dissout en bouche."
+      "chefSecret": "La température basse de friture (130-140 °C) est le secret absolu : à plus haut, la croûte brunit avant que le cœur ne soit cuit, et les boules restent crues à l'intérieur. La patience est récompensée par cette texture fondante signature qui se dissout en bouche.",
+      "commisPrepTime": 17,
+      "commisCookTime": 12
     }
   ]
 }

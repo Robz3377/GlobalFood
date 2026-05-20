@@ -167,7 +167,9 @@
         "Pendant ce temps, rincer les citrons confits sous l'eau, retirer la pulpe (trop salée) et couper les écorces en lanières fines. Rincer aussi les olives 1 min sous l'eau froide pour les dessaler.",
         "Découvrir la cocotte. Ajouter les olives et les lanières de citron confit. Poursuivre 10 min à découvert pour que la sauce réduise et napper les morceaux. Goûter, rectifie le poivre (jamais le sel : olives + citron en apportent déjà). Parsemer de coriandre ciselée et servir avec du pain frais ou de la semoule."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 14,
+      "commisCookTime": 46
     },
     {
       "slug": "couscous-legumes",
@@ -177,9 +179,7 @@
       "cookTime": 90,
       "servings": 6,
       "diets": [
-        "vegan",
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "seasons": [
         "autumn",
@@ -395,7 +395,9 @@
         "Pendant que les légumes finissent, préparer la semoule express : verser-la dans un grand bol avec 1 c.s. d'huile d'olive et une pincée de sel. Couvrir avec le même volume d'eau bouillante (~500 ml), couvrir d'une assiette et laisser gonfler 5 min. Aérer ensuite à la fourchette, ajouter le beurrer en dés et mélanger.",
         "Dresser la semoule dans une grande assiette creuse, déposer les légumes par-dessus avec une louche de bouillon pour humidifier. Présenter le reste du bouillon dans un bol à part — chacun en rajouter selon son goût."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 22,
+      "commisCookTime": 42
     },
     {
       "slug": "pastilla-poulet",
@@ -609,7 +611,9 @@
         "Préchauffer le four à 180 °C. Beurrer un moule rond de 24 cm. Disposer 4 feuilles de brick beurrées en étoile dans le moule, débordant largement. Verser la moitié du mélange aux amandes. Étaler toute la farce poulet-œufs. Couvrir du reste des amandes. Replier les feuilles débordantes vers le centre comme un emballage cadeau. Couvrir de 4 feuilles supplémentaires beurrées en scellant bien.",
         "Enfourner 25 min jusqu'à coloration dorée intense. Démouler chaud sur un plat. Saupoudrer généreusement de sucre glace au tamis et trace des lignes de cannelle au-dessus avec une cuillère. Servir chaud, à la main si oses."
       ],
-      "category": "plat"
+      "category": "plat",
+      "commisPrepTime": 25,
+      "commisCookTime": 33
     },
     {
       "slug": "harira",
@@ -618,9 +622,7 @@
       "prepTime": 25,
       "cookTime": 90,
       "servings": 6,
-      "diets": [
-        "dairy-free"
-      ],
+      "diets": [],
       "seasons": [
         "winter",
         "autumn"
@@ -835,7 +837,9 @@
         "Dans un bol, fouetter vigoureusement 3 c.s. de maïzena avec 200 ml d'eau froide jusqu'à dissolution complète (zéro grumeau). Verser en filet dans la harira en remuant constamment au fouet — c'est ce qui donne la texture veloutée typique. Cuire 5 min en remuant pour épaissir.",
         "Goûter et rectifie le sel. Servir BRÛLANT dans des bols traditionnels avec un quartier de citron à presser au moment de manger (et quelques dattes à côté pour la tradition du Ramadan)."
       ],
-      "category": "entree"
+      "category": "entree",
+      "commisPrepTime": 15,
+      "commisCookTime": 60
     },
     {
       "slug": "briouates",
@@ -997,7 +1001,9 @@
         "Pendant la friture, faire chauffer doucement le miel dans une petite casserole large jusqu'à ce qu'il soit fluide (jamais bouillant : il brûlerait).",
         "Égoutter les briouates sur une grille puis, tant qu'elles sont brûlantes, plonger-les 1 min dans le miel chaud en les retournant pour bien les enrober. Égoutter sur une grille au-dessus d'un plat (récupérer le miel qui coule). Saupoudrer de graines de sésame si veux. Laisser refroidir complètement avant de servir — le miel se fige et donne le craquant signature."
       ],
-      "category": "dessert"
+      "category": "dessert",
+      "commisPrepTime": 33,
+      "commisCookTime": 9
     },
     {
       "slug": "mechoui",
@@ -1007,8 +1013,7 @@
       "cookTime": 240,
       "servings": 8,
       "diets": [
-        "gluten-free",
-        "dairy-free"
+        "gluten-free"
       ],
       "category": "plat",
       "ingredients": [
@@ -1186,7 +1191,9 @@
         "Faire reposer 10 min, effilocher à la fourchette ou trancher. Servir avec le mélange cumin-gros sel à part, des feuilles de coriandre et du pain rond."
       ],
       "story": "Plat des grandes fêtes berbères et arabes, le mechoui (\"rôti\") cuit traditionnellement dans un four en terre enterré (tafarnout) pendant 6 à 8 h. Servi entier au centre du plat, il se mange à la main, chaque convive trempant ses morceaux dans un petit tas de cumin grillé et de sel.",
-      "chefSecret": "Le smen (beurre fermenté pendant des mois dans des pots en terre cuite) est l'ingrédient qui distingue le méchoui de palais marocain. Son goût puissant, presque \"fromager\", parfume la chair en profondeur. À défaut, un beurre clarifié maison apportera la richesse mais jamais cette complexité unique."
+      "chefSecret": "Le smen (beurre fermenté pendant des mois dans des pots en terre cuite) est l'ingrédient qui distingue le méchoui de palais marocain. Son goût puissant, presque \"fromager\", parfume la chair en profondeur. À défaut, un beurre clarifié maison apportera la richesse mais jamais cette complexité unique.",
+      "commisPrepTime": 17,
+      "commisCookTime": 112
     },
     {
       "slug": "baghrir",
@@ -1196,8 +1203,7 @@
       "cookTime": 20,
       "servings": 4,
       "diets": [
-        "vegetarian",
-        "dairy-free"
+        "vegetarian"
       ],
       "category": "dessert",
       "events": [
@@ -1337,7 +1343,9 @@
         "Faire fondre le beurre et le miel ensemble à feu doux. Hors du feu, ajouter l'eau de fleur d'oranger. Napper généreusement les baghrirs tièdes. Servir avec un thé à la menthe."
       ],
       "story": "Crêpe traditionnelle du Maghreb, le baghrir (\"crêpe aux mille trous\" en arabe) accompagne les goûters berbères et marque la rupture du jeûne pendant le ramadan. Sa texture aérienne, ses trous parfaits qui absorbent le sirop miel-beurre, en font un dessert d'une délicatesse rare.",
-      "chefSecret": "Le secret des MILLE TROUS parfaits : la pâte doit être très fluide (presque liquide), la poêle parfaitement sèche (jamais d'huile), à feu MOYEN (jamais vif), et la pâte versée d'un coup sans l'étaler. Les bulles montent du fond de la pâte et explosent à la surface, créant les trous signature qui captureront le sirop."
+      "chefSecret": "Le secret des MILLE TROUS parfaits : la pâte doit être très fluide (presque liquide), la poêle parfaitement sèche (jamais d'huile), à feu MOYEN (jamais vif), et la pâte versée d'un coup sans l'étaler. Les bulles montent du fond de la pâte et explosent à la surface, créant les trous signature qui captureront le sirop.",
+      "commisPrepTime": 15,
+      "commisCookTime": 25
     }
   ]
 }
