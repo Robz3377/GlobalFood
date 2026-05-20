@@ -4,58 +4,99 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 /**
- * SplashScreen — écran d'introduction d'EXACTEMENT 1 seconde au premier
- * paint de l'app.
+ * SplashScreen — voile d'introduction COURT (450 ms) au PREMIER PAINT
+ * de la session uniquement.
  *
- * Cycle (1000 ms total) :
- *   • t=0      : opacity 0 (mount instantané)
- *   • t→300ms  : fade-in vers opacity 1
- *   • t=700ms  : début du fade-out
- *   • t=1000ms : fade-out terminé → unmount + retire les pointer-events
+ * Cycle : fade-in 150 ms → tenu 150 ms → fade-out 150 ms → unmount.
+ * Phases déclenchées via `requestAnimationFrame` pour rester alignées sur
+ * les frames de peinture.
  *
- * Visibilité : à CHAQUE visite (pas seulement la première). Choix UX :
- *   • L'animation dure 1s donc reste discrète
- *   • Donne un effet "produit fini" cohérent
- *   • Pas de blocage UX : `pointer-events-none` dès la fin du fade-out,
- *     l'utilisateur peut interagir avec la page dessous pendant les 300ms
- *     de fade-out final.
- *
- * SSR-safe : Client Component, ne rend rien tant que `mounted=false`.
- * Pas de FOUC car le composant est dans le root layout (rendu serveur
- * → opacity:0 initial → hydration côté client active le timer).
+ * Gates :
+ *  - `pointer-events: none` dès le mount (purement visuel — n'intercepte
+ *    jamais les clics).
+ *  - `sessionStorage["mapandfork.splash-seen"]` : skip pour toutes les
+ *    navigations suivantes dans la même session → plus de « rideau » à
+ *    chaque clic SPA.
+ *  - `prefers-reduced-motion: reduce` → bypass complet (jamais affiché).
  */
+const SESSION_KEY = "mapandfork.splash-seen";
+const FADE_MS = 150;
+const HOLD_MS = 150;
+
+type Phase = "hidden" | "fadein" | "visible" | "fadeout" | "done";
+
 export function SplashScreen() {
-  const [phase, setPhase] = useState<"hidden" | "fadein" | "visible" | "fadeout" | "done">("hidden");
+  const [phase, setPhase] = useState<Phase>("hidden");
 
   useEffect(() => {
-    // Cycle d'1 seconde : fade-in (300ms) → tenu (400ms) → fade-out (300ms).
-    const t1 = window.setTimeout(() => setPhase("fadein"), 0);
-    const t2 = window.setTimeout(() => setPhase("visible"), 300);
-    const t3 = window.setTimeout(() => setPhase("fadeout"), 700);
-    const t4 = window.setTimeout(() => setPhase("done"), 1000);
+    // Skip si déjà vu dans la session OU si l'utilisateur préfère moins
+    // d'animations.
+    try {
+      if (sessionStorage.getItem(SESSION_KEY) === "1") {
+        setPhase("done");
+        return;
+      }
+    } catch {
+      /* sessionStorage indisponible — on tente quand même le splash */
+    }
+    const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+    if (reduced) {
+      setPhase("done");
+      try {
+        sessionStorage.setItem(SESSION_KEY, "1");
+      } catch {
+        /* noop */
+      }
+      return;
+    }
+
+    let cancelled = false;
+    const timers: number[] = [];
+
+    // rAF imbriqués + setTimeout pour les phases — alignés sur frames.
+    const raf = window.requestAnimationFrame(() => {
+      if (cancelled) return;
+      setPhase("fadein");
+      timers.push(
+        window.setTimeout(() => !cancelled && setPhase("visible"), FADE_MS)
+      );
+      timers.push(
+        window.setTimeout(
+          () => !cancelled && setPhase("fadeout"),
+          FADE_MS + HOLD_MS
+        )
+      );
+      timers.push(
+        window.setTimeout(() => {
+          if (cancelled) return;
+          setPhase("done");
+          try {
+            sessionStorage.setItem(SESSION_KEY, "1");
+          } catch {
+            /* noop */
+          }
+        }, FADE_MS + HOLD_MS + FADE_MS)
+      );
+    });
+
     return () => {
-      window.clearTimeout(t1);
-      window.clearTimeout(t2);
-      window.clearTimeout(t3);
-      window.clearTimeout(t4);
+      cancelled = true;
+      window.cancelAnimationFrame(raf);
+      for (const t of timers) window.clearTimeout(t);
     };
   }, []);
 
-  if (phase === "done") return null;
+  if (phase === "done" || phase === "hidden") return null;
 
   const opacity = phase === "fadein" || phase === "visible" ? 1 : 0;
-  // À ce stade phase !== "done" (early return ci-dessus). On considère que
-  // la couche est interactive (pointer-events: auto) sauf pendant le
-  // fade-out où on les coupe pour ne pas bloquer les clics dessous.
-  const interactive = phase !== "fadeout";
 
   return (
     <div
       aria-hidden="true"
       style={{
         opacity,
-        transition: "opacity 300ms ease-out",
-        pointerEvents: interactive ? "auto" : "none",
+        transition: `opacity ${FADE_MS}ms ease-out`,
+        pointerEvents: "none",
       }}
       className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-bone"
     >

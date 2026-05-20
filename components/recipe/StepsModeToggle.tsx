@@ -28,11 +28,11 @@ const SLOGANS: Record<StepsMode, string> = {
 export function StepsModeToggle({ mode, onChange }: Props) {
   const isChef = mode === "chef";
   return (
-    <div className="flex flex-col items-end gap-2 max-w-full">
+    <div className="flex flex-col items-stretch sm:items-end gap-2 w-full max-w-full">
       <div
         role="group"
         aria-label="Brigade : niveau de détail des étapes"
-        className="relative grid grid-cols-2 rounded-full border border-bone-deep bg-white p-1 text-sm shadow-soft"
+        className="relative grid grid-cols-2 rounded-full border border-bone-deep bg-white p-1 text-[13px] sm:text-sm shadow-soft w-full sm:w-auto"
       >
         {/* Pastille glissante (sous les boutons) */}
         <span
@@ -49,30 +49,32 @@ export function StepsModeToggle({ mode, onChange }: Props) {
           onClick={() => onChange("chef")}
           aria-pressed={isChef}
           className={clsx(
-            "relative z-10 rounded-full px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
+            "relative z-10 rounded-full px-2.5 sm:px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
             "transition-colors duration-200 ease-[var(--ease-soft)] active:scale-95",
             isChef ? "text-bone" : "text-ink-soft hover:text-ink"
           )}
         >
           <span aria-hidden>👨‍🍳</span>
-          <span>Chef culinaire</span>
+          <span className="sm:hidden">Chef</span>
+          <span className="hidden sm:inline">Chef culinaire</span>
         </button>
         <button
           type="button"
           onClick={() => onChange("commis")}
           aria-pressed={!isChef}
           className={clsx(
-            "relative z-10 rounded-full px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
+            "relative z-10 rounded-full px-2.5 sm:px-3 md:px-4 h-9 inline-flex items-center justify-center gap-1.5 font-medium whitespace-nowrap",
             "transition-colors duration-200 ease-[var(--ease-soft)] active:scale-95",
             !isChef ? "text-bone" : "text-ink-soft hover:text-ink"
           )}
         >
           <span aria-hidden>🧑‍🍳</span>
-          <span>Commis de cuisine</span>
+          <span className="sm:hidden">Commis</span>
+          <span className="hidden sm:inline">Commis de cuisine</span>
         </button>
       </div>
       <p
-        className="font-serif italic text-xs text-ink-soft text-right max-w-md leading-snug"
+        className="font-serif italic text-xs text-ink-soft text-left sm:text-right max-w-md leading-snug"
         aria-live="polite"
       >
         « {SLOGANS[mode]} »

@@ -14,19 +14,19 @@ export function Footer() {
         >
           <Link
             href="/mentions-legales"
-            className="hover:text-ink transition-colors"
+            className="hover:text-ink active:scale-95 transition-all duration-150 ease-[var(--ease-soft)]"
           >
             Mentions légales
           </Link>
           <Link
             href="/confidentialite"
-            className="hover:text-ink transition-colors"
+            className="hover:text-ink active:scale-95 transition-all duration-150 ease-[var(--ease-soft)]"
           >
             Confidentialité
           </Link>
           <Link
             href="/connexion"
-            className="hover:text-ink transition-colors"
+            className="hover:text-ink active:scale-95 transition-all duration-150 ease-[var(--ease-soft)]"
           >
             Connexion
           </Link>

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
 import {
   CookingPot,
   Utensils,
@@ -94,20 +93,19 @@ function generateGrid(
 }
 
 export function BackgroundDecor() {
-  const pathname = usePathname();
   const [decors, setDecors] = useState<DecorItem[]>([]);
 
+  // La grille de décor est INDÉPENDANTE du pathname (workstream 1.5) :
+  // un fond ambiant n'a aucune raison de se régénérer à chaque navigation.
+  // On reste à l'écoute de `resize` uniquement. Seed = 0 (stable).
   useEffect(() => {
     function update() {
-      setDecors(
-        generateGrid(window.innerWidth, window.innerHeight, pathname.length)
-      );
+      setDecors(generateGrid(window.innerWidth, window.innerHeight, 0));
     }
-
     update();
     window.addEventListener("resize", update);
     return () => window.removeEventListener("resize", update);
-  }, [pathname]);
+  }, []);
 
   return (
     <div
@@ -119,7 +117,7 @@ export function BackgroundDecor() {
         const Icon = d.Icon;
         return (
           <Icon
-            key={`${pathname}-${i}`}
+            key={i}
             size={d.size}
             strokeWidth={1.2}
             fill="none"

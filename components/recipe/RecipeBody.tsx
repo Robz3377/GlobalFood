@@ -66,7 +66,6 @@ type Props = {
 export function RecipeBody({ country, recipe }: Props) {
   const baseline = recipe.servings;
   const [servings, setServings] = useState<number>(baseline);
-  const totalTime = recipe.prepTime + recipe.cookTime;
   // Toggle Brigade disponible si la recette a la variante Commis.
   // Depuis la migration des recettes (lots 1-10), toutes les recettes
   // existantes ont commisSteps. Le champ reste optionnel pour permettre
@@ -101,6 +100,18 @@ export function RecipeBody({ country, recipe }: Props) {
     mode === "commis"
       ? recipe.commisIngredients ?? recipe.ingredients
       : recipe.ingredients;
+
+  // Temps adaptatifs au mode (cf. workstream 3) — fallback Chef si les
+  // champs Commis n'existent pas (rétrocompatibilité).
+  const displayedPrep =
+    mode === "commis"
+      ? recipe.commisPrepTime ?? recipe.prepTime
+      : recipe.prepTime;
+  const displayedCook =
+    mode === "commis"
+      ? recipe.commisCookTime ?? recipe.cookTime
+      : recipe.cookTime;
+  const totalTime = displayedPrep + displayedCook;
 
   // Parcours séquentiel — l'état est désormais PERSISTÉ en localStorage
   // (clé globale, pas par recette). Un utilisateur qui a déjà validé son
@@ -182,37 +193,14 @@ export function RecipeBody({ country, recipe }: Props) {
         </div>
       </section>
 
-      {/* STICKY INFO BAR — DYNAMIQUE selon la position de scroll :
-          • Quand le titre h1 est visible (haut de page) → bar large avec
-            Prép. / Cuisson uniquement (les portions ne sont plus dans le
-            sticky depuis v2.3, elles ont été déplacées en tête de la
-            section Ingrédients qui est leur cible logique).
-          • Quand le titre est sorti (scroll vers ingrédients/étapes) → bar
-            ULTRA-COMPACTE : drapeau + nom de la recette, point. Libère un
-            maximum de surface de lecture sur mobile. */}
-      <div className="sticky top-[calc(env(safe-area-inset-top)+4rem)] z-20 mt-6 md:mt-8">
-        <div className="mx-auto max-w-3xl px-4 md:px-6">
-          <div
-            className={clsx(
-              "relative bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden transition-all duration-300 ease-out",
-              // En mode large : pill arrondi (rounded-full) pour le look
-              // info-bar élégant. En mode compact : rounded-2xl pour
-              // accueillir proprement la vignette horizontale (rectangle
-              // ne va pas avec un pill complet).
-              titleInView ? "rounded-full p-1.5" : "rounded-2xl p-1.5"
-            )}
-          >
-            {titleInView ? (
-              // MODE LARGE — page haute, focus sur les meta lecture.
-              <div className="grid grid-cols-2 items-center gap-1">
-                <StickyStat icon={Clock} label="Prép." value={`${recipe.prepTime}'`} />
-                <StickyStat icon={Flame} label="Cuisson" value={`${recipe.cookTime}'`} />
-              </div>
-            ) : (
-              // MODE COMPACT — page basse, focus sur le plat lu.
-              // v2.5 : ajout d'une mini-vignette horizontale (h-9 w-14 =
-              // ratio 14/9, proche du 16/9 cinéma de la card principale).
-              // object-cover object-center : crop centré, jamais déformé.
+      {/* STICKY INFO BAR — apparaît uniquement quand le titre h1 est sorti
+          de la vue (scroll vers ingrédients/étapes). Drapeau + nom de la
+          recette. Les temps Prép./Cuisson sont désormais affichés sous le
+          toggle Brigade (mode-aware). */}
+      {!titleInView && (
+        <div className="sticky top-[calc(env(safe-area-inset-top)+4rem)] z-20 mt-6 md:mt-8">
+          <div className="mx-auto max-w-3xl px-4 md:px-6">
+            <div className="relative bg-white/95 backdrop-blur shadow-warm border border-bone-deep overflow-hidden rounded-2xl p-1.5 transition-all duration-300 ease-out">
               <div className="flex items-center gap-2.5 pr-3 min-w-0">
                 <div className="relative h-9 w-14 shrink-0 rounded-lg overflow-hidden bg-bone-deep">
                   <Image
@@ -230,19 +218,10 @@ export function RecipeBody({ country, recipe }: Props) {
                   {recipe.title}
                 </h2>
               </div>
-            )}
+            </div>
           </div>
-          {titleInView && totalTime >= 60 && (
-            <p className="mt-2 text-center text-xs text-ink-soft">
-              Temps total ≈{" "}
-              <strong className="font-medium text-ink">
-                {Math.floor(totalTime / 60)}h
-                {(totalTime % 60).toString().padStart(2, "0")}
-              </strong>
-            </p>
-          )}
         </div>
-      </div>
+      )}
 
       {/* STORY + SECRET DU CHEF — accordéons fermés par défaut.
           Focus immédiat sur Ingrédients + Étapes au scroll. */}
@@ -289,6 +268,38 @@ export function RecipeBody({ country, recipe }: Props) {
             </header>
             <div className="flex flex-col gap-5">
               <StepsModeToggle mode={mode} onChange={setStoredMode} />
+
+              {/* TimesPanel — temps Prép. / Cuisson DU MODE choisi. Le
+                  remount (key={mode}) déclenche le keyframe swapIn pour
+                  un crossfade lisible quand l'utilisateur bascule. */}
+              <div
+                key={`times-${mode}`}
+                className="animate-[swapIn_220ms_var(--ease-soft)] rounded-soft-lg border border-bone-deep bg-white/85 shadow-soft px-3 py-2.5"
+                aria-live="polite"
+              >
+                <div className="grid grid-cols-2 gap-2">
+                  <StickyStat
+                    icon={Clock}
+                    label="Prép."
+                    value={`${displayedPrep}'`}
+                  />
+                  <StickyStat
+                    icon={Flame}
+                    label="Cuisson"
+                    value={`${displayedCook}'`}
+                  />
+                </div>
+                {totalTime >= 60 && (
+                  <p className="mt-1.5 text-center text-xs text-ink-soft">
+                    Total ≈{" "}
+                    <strong className="font-medium text-ink tabular-nums">
+                      {Math.floor(totalTime / 60)}h
+                      {(totalTime % 60).toString().padStart(2, "0")}
+                    </strong>
+                  </p>
+                )}
+              </div>
+
               {step === 0 ? (
                 <div className="flex flex-col gap-2">
                   <button
@@ -405,26 +416,23 @@ export function RecipeBody({ country, recipe }: Props) {
           {/* Padding intérieur réduit : p-4 md:p-7 (vs p-6 md:p-10) — moins
               d'espace perdu autour des étapes, plus de focus sur le texte. */}
           <div className="bg-paper-card rounded-soft-xl p-4 md:p-7">
-            <header className="mb-5 md:mb-7 flex flex-wrap items-center justify-between gap-3">
-              <div>
-                {hasCommisMode && (
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-sage/20 text-sage px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] mb-2">
-                    <ListChecks className="h-3.5 w-3.5" strokeWidth={2} aria-hidden />
-                    Étape 3 · À la casserole
-                  </span>
-                )}
-                <div className="flex items-baseline gap-3">
-                  <h2 className="font-serif text-3xl md:text-4xl font-semibold">
-                    Préparation
-                  </h2>
-                  <span className="font-serif italic text-sm text-ink-soft">
-                    {activeSteps.length} étapes
-                  </span>
-                </div>
-              </div>
+            {/* Workstream 2.1 : un seul StepsModeToggle dans la page,
+                rendu plus haut à l'étape 1. Header simplifié ici. */}
+            <header className="mb-5 md:mb-7">
               {hasCommisMode && (
-                <StepsModeToggle mode={mode} onChange={setStoredMode} />
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-sage/20 text-sage px-2.5 py-1 text-xs font-semibold uppercase tracking-[0.12em] mb-2">
+                  <ListChecks className="h-3.5 w-3.5" strokeWidth={2} aria-hidden />
+                  Étape 3 · À la casserole
+                </span>
               )}
+              <div className="flex items-baseline gap-3">
+                <h2 className="font-serif text-3xl md:text-4xl font-semibold">
+                  Préparation
+                </h2>
+                <span className="font-serif italic text-sm text-ink-soft">
+                  {activeSteps.length} étapes
+                </span>
+              </div>
             </header>
             <div
               key={`steps-${mode}`}

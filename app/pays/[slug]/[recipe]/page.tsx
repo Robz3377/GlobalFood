@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { RecipeImage } from "@/components/recipe/RecipeImage";
 import { RecipeBody } from "@/components/recipe/RecipeBody";
 import { RecipeFeedback } from "@/components/recipe/RecipeFeedback";
+import { Deferred } from "@/components/util/Deferred";
 import { PassportStamper } from "@/components/passport/PassportStamper";
 import { getCountriesIndex, getRecipe } from "@/lib/data";
 
@@ -89,7 +90,11 @@ export default async function RecipePage({
       {/* Avis communautaires (Phase 3) — notation + commentaires, branchés
           sur /api/ratings et /api/comments. CSR : aucun impact sur le SSG
           ni sur le LCP du hero. */}
-      <RecipeFeedback countrySlug={country.slug} recipeSlug={r.slug} />
+      {/* Bloc lourd (2 fetchs ratings + comments) → différé jusqu'à
+          l'entrée dans le viewport. Élimine l'I/O pendant la transition. */}
+      <Deferred untilVisible placeholderClassName="min-h-[280px]">
+        <RecipeFeedback countrySlug={country.slug} recipeSlug={r.slug} />
+      </Deferred>
     </main>
   );
 }

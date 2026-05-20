@@ -76,7 +76,7 @@ export function BottomNav() {
                 <Link
                   href={item.href}
                   className={clsx(
-                    "flex flex-col items-center justify-center gap-1 h-16 transition-colors",
+                    "flex flex-col items-center justify-center gap-1 h-16 transition-all duration-150 ease-[var(--ease-soft)] active:scale-95",
                     active ? "text-terracotta" : "text-ink-soft hover:text-ink"
                   )}
                 >
@@ -95,7 +95,7 @@ export function BottomNav() {
               onClick={() => setMoreOpen(true)}
               aria-label="Plus d'options"
               className={clsx(
-                "flex flex-col items-center justify-center gap-1 h-16 w-full transition-colors",
+                "flex flex-col items-center justify-center gap-1 h-16 w-full transition-all duration-150 ease-[var(--ease-soft)] active:scale-95",
                 moreActive
                   ? "text-terracotta"
                   : "text-ink-soft hover:text-ink"
@@ -133,7 +133,7 @@ export function BottomNav() {
             type="button"
             onClick={() => setMoreOpen(false)}
             aria-label="Fermer"
-            className="h-11 w-11 inline-flex items-center justify-center rounded-full hover:bg-bone-deep transition-colors"
+            className="h-11 w-11 inline-flex items-center justify-center rounded-full hover:bg-bone-deep active:scale-95 transition-all duration-150 ease-[var(--ease-soft)]"
           >
             <X className="h-5 w-5" />
           </button>
@@ -147,7 +147,7 @@ export function BottomNav() {
                   href={item.href}
                   onClick={() => setMoreOpen(false)}
                   className={clsx(
-                    "flex items-center gap-3 px-4 py-3 rounded-soft text-base font-medium transition-colors",
+                    "flex items-center gap-3 px-4 py-3 rounded-soft text-base font-medium transition-all duration-150 ease-[var(--ease-soft)] active:scale-[0.98]",
                     active
                       ? "bg-sage-soft text-ink"
                       : "text-ink-soft hover:bg-bone-deep hover:text-ink"

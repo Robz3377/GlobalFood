@@ -56,7 +56,7 @@ export function RecipeCard({
   return (
     <Link
       href={`/pays/${country.slug}/${recipe.slug}`}
-      className="group block transition-all duration-300 ease-[var(--ease-soft)] hover:-translate-y-1 active:scale-[0.98]"
+      className="group block transition-all duration-300 ease-[var(--ease-soft)] hover:-translate-y-1 active:scale-[0.98] active:duration-150"
     >
       <article className="rounded-soft-lg overflow-hidden bg-bone shadow-warm border border-bone-deep/40 transition-shadow duration-300 group-hover:shadow-warm-lg">
         {/* === PHOTO HORIZONTALE (16/9 cinéma) ===

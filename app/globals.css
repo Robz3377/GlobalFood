@@ -75,6 +75,29 @@ html, body {
   color: var(--color-ink);
 }
 
+/* === FEEDBACK CLIC NATIF (workstream 1.6) ===
+   - Supprime le flash gris iOS Safari sur tap.
+   - `touch-action: manipulation` retire le délai 300 ms et bloque le zoom
+     accidentel sur double-tap (sans gêner le pan/zoom de la page).
+   - Sur appareils sans hover (touch), un léger fade actif universel sert
+     de retour visuel même si un composant a oublié son `active:scale`. */
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+a,
+[role="button"],
+[role="link"] {
+  touch-action: manipulation;
+}
+@media (hover: none) {
+  button:active,
+  a:active,
+  [role="button"]:active {
+    opacity: 0.94;
+  }
+}
+
 /* Fond global "carnet de voyage" : motif topographique sage très clair fixé,
    présent sur toute l'application. Sert de support sous les cartes papier. */
 body {
